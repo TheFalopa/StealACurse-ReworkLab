@@ -149,10 +149,12 @@ function HalloweenArt.build(map: Model)
 	end
 	-- Offerings sit beside the front corner, outside the 104x104 sanctuary
 	-- shell (x 52), >=62 studs from approach lanes and >=33 from cross trails.
+	-- Base01's corner holds the GateWatch lantern, so its offering sits further back.
+	local offeringOverride={[1]=Vector3.new(64,0,-10)}
 	for index=1,Config.BaseCount do
 		local frame=Config.baseFrame(index)
 		local side=index%2==0 and -1 or 1
-		local corner=frame:PointToWorldSpace(Vector3.new(side*64,0,-26))
+		local corner=frame:PointToWorldSpace(offeringOverride[index] or Vector3.new(side*64,0,-26))
 		-- Elevated frames sit at Y=height; the leaves below sample from the ground.
 		local at=Vector3.new(corner.X,0,corner.Z)
 		if not Layout.processionReserved(at,6) then

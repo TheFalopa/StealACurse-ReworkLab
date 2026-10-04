@@ -95,7 +95,8 @@ local function paintStone(item: BasePart?)
 end
 
 local function soilPatch(parent: Instance, name: string, at: Vector3, size: Vector3, yaw: number)
-	P.part(parent, name, size, CFrame.new(at) * CFrame.Angles(0, yaw, 0), SOIL, Enum.Material.Ground, softFlat)
+	-- Lifted like World.ground's BuriedEarth so overlapping patches do not shimmer.
+	P.part(parent, name, size, CFrame.new(at + Vector3.new(0, 0.03, 0)) * CFrame.Angles(0, yaw, 0), SOIL, Enum.Material.Ground, softFlat)
 end
 
 local function framingTree(parent: Instance, frame: CFrame, spec, gate: Vector3)
@@ -132,24 +133,30 @@ local function framingTree(parent: Instance, frame: CFrame, spec, gate: Vector3)
 	mesh:SetAttribute("SupportY", base.Y)
 	mesh:SetAttribute("GroundInset", base.Y - boxBottom)
 	mesh:SetAttribute("TrunkSink", sink)
-	-- One collider replaces the template's short hull (0.16 of the mesh height,
-	-- ~4 studs above the soil here), which a player could jump onto inside the
-	-- bark. It rises from the seated trunk base along
-	-- the modelled trunk axis (template lean (-0.7, 8.8, -0.5) plus the pose)
-	-- to 6.2x scale; branches stay soft. AssetKit hull attributes, so audits
-	-- and the mesh-bounds contract treat it alike.
+	-- Two stacked colliders replace the template's short hull (0.16 of the mesh
+	-- height, ~4 studs above the soil here), which a player could jump onto
+	-- inside the bark. Both follow the modelled trunk axis (template lean
+	-- (-0.7, 8.8, -0.5) plus the pose): a wide flared foot up to body height,
+	-- where the 7-sided trunk is radius 2.4 -> 1.8 x scale, then the slimmer
+	-- trunk to 6.2x scale; branches stay soft. AssetKit hull attributes, so
+	-- audits and the mesh-bounds contract treat them alike.
 	local hulls = Instance.new("Folder")
 	hulls.Name = "CollisionHulls"
 	hulls.Parent = mesh
+	local axis = trunkBase * CFrame.Angles(math.rad(-3.3), 0, math.rad(4.5))
+	-- The foot reaches 4.5 studs above the soil (the trunk base is sunk).
 	local height = 6.2 * spec.scale
-	local hull = P.part(hulls, "CollisionHull_01", Vector3.new(1.7 * spec.scale, height, 1.7 * spec.scale),
-		trunkBase * CFrame.Angles(math.rad(-3.3), 0, math.rad(4.5)) * CFrame.new(0, height / 2, 0),
-		C.root, Enum.Material.Wood, { transparency = 1, castShadow = false })
-	hull:SetAttribute("EnvironmentCollisionHull", true)
-	hull:SetAttribute("CollisionSource", "tree_widow")
-	hull:SetAttribute("CollisionCategory", "Blocking")
+	local foot = math.min(sink + 4.5, height - 1)
+	for index, piece in { { 2.6, 0, foot }, { 1.7, foot, height } } do
+		local width, y0, y1 = piece[1] * spec.scale, piece[2], piece[3]
+		local hull = P.part(hulls, string.format("CollisionHull_%02d", index), Vector3.new(width, y1 - y0, width),
+			axis * CFrame.new(0, (y0 + y1) / 2, 0), C.root, Enum.Material.Wood, { transparency = 1, castShadow = false })
+		hull:SetAttribute("EnvironmentCollisionHull", true)
+		hull:SetAttribute("CollisionSource", "tree_widow")
+		hull:SetAttribute("CollisionCategory", "Blocking")
+	end
 	mesh:SetAttribute("CollisionCategory", "Blocking")
-	mesh:SetAttribute("CollisionHullCount", 1)
+	mesh:SetAttribute("CollisionHullCount", 2)
 	local grow = spec.scale / 1.5
 	for index, crown in WIDOW.crowns do
 		local clump = CLUMPS[index]

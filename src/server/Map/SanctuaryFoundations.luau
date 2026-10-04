@@ -55,6 +55,11 @@ function SanctuaryFoundations.build(map: Model)
 			mirrored("FoundationFooting_Front" .. label, RAMP_CLEAR - RETURN, footIn, bottom, footTop, FRONT_Z - PROUD, wallFront + 0.5, C.stoneMoss)
 		end
 		block("FoundationWall_Back", -wallIn, wallIn, bottom, 0, wallBack - WALL, wallBack, C.stoneDark)
+		-- Height-2 ramps meet the floor edge 0.2 below its underside: a thin lip
+		-- under the floor closes that slit (it passes through the ramp body).
+		if height >= 2 then
+			block("FoundationRampLip", -RAMP_CLEAR, RAMP_CLEAR, -0.5, 0, wallFront, wallFront + 0.3, C.stoneDark)
+		end
 		block("FoundationFooting_Back", -footIn, footIn, bottom, footTop, wallBack - 0.5, BACK_Z + PROUD, C.stoneMoss)
 	end
 	group:SetAttribute("FoundationPartCount", count)

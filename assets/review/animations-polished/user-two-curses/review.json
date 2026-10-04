@@ -1,0 +1,141 @@
+{
+  "reviewedAtUTC": "2026-10-03T07:57:15.550Z",
+  "ids": [
+    "music_box_dancer",
+    "thorn_reliquary"
+  ],
+  "visualApproval": "ROOT_REVIEWED_NATIVE_PIXELS",
+  "states": [
+    "PLACED",
+    "PROCESSION",
+    "CARRYING"
+  ],
+  "cameraDistanceStuds": 16,
+  "video": "after-native.mp4",
+  "scope": "Six visual state reviews of actual production mesh/controller. Gallery recreates instances on state changes; not new management or multiplayer regression.",
+  "meshIdsUnchanged": true,
+  "vfxUnchanged": true,
+  "newMeshImports": 0,
+  "userSpawnConfigurationPreserved": {
+    "cadenceSeconds": 3,
+    "maximum": 20,
+    "selection": "all enabled in sequence"
+  },
+  "finalStartup": {
+    "profile": "READY",
+    "naturalModels": [
+      {
+        "id": "cursed_doll",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "haunted_mirror",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "crying_mask",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "watching_eye",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "soul_chains",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "the_void",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "candle_wisp",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "grave_hopper",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "grave_key",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "mourning_ribbon",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "wilted_sprout",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "ink_imp",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "lost_locket",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "ashen_book",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "lantern_lurker",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "hourglass_hound",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "nail_beetle",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      },
+      {
+        "id": "pale_guest",
+        "preload": "Success",
+        "nativeSkin": true,
+        "presentationReady": true
+      }
+    ],
+    "mapGenerated": true,
+    "qaScriptAbsent": true
+  },
+  "blockingErrorsObserved": 0,
+  "leftPlayStopped": true
+}

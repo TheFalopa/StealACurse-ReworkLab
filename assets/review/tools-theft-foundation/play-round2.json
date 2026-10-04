@@ -1,0 +1,111 @@
+{
+  "reloaded": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"curses2\":{\"1\":{\"state\":\"PLACED\",\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"definitionId\":\"cursed_doll\",\"pedestalId\":\"floor1-slot1\",\"revision\":8}},\"marker1\":{\"9a6424f6-b814-40b7-82aa-5904c01e1571:ATTEMPT\":true},\"tools1\":{\"charges\":{\"consecrated_salt\":1,\"impact_urn\":12,\"break_talisman\":2},\"version\":1,\"owned\":{\"impact_urn\":true,\"exorcist_lantern\":true,\"consecrated_salt\":true,\"double_mirror\":true,\"root_trap\":true,\"mist_censer\":true,\"ash_boots\":true,\"break_talisman\":true,\"jailer_chain\":true,\"shovel\":true},\"qaSeeded\":true,\"equipped\":{\"1\":\"mist_censer\",\"3\":\"root_trap\",\"2\":\"consecrated_salt\"},\"receipts\":{\"studio:receipt-review-1\":true}},\"marker2\":{\"9a6424f6-b814-40b7-82aa-5904c01e1571:COMMITTED\":true,\"f3de8662-29cb-483b-a93e-2613e9d65f25:ATTEMPT\":true},\"curses1\":[]}"
+      }
+    ],
+    "isError": false
+  },
+  "commerce": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"retry\":true,\"count\":11,\"pass\":true,\"failed\":false,\"repeatReceipt\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "cleanse": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"before\":10.399999618530274,\"charges\":9,\"after\":16,\"accepted\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "death-fault-seal": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"failedWrite\":false,\"sealed\":false,\"start\":true,\"thief\":[],\"original\":{\"1\":{\"state\":\"UNPLACED\",\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"definitionId\":\"cursed_doll\"}}}"
+      }
+    ],
+    "isError": false
+  },
+  "invalid-spam": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"spam\":false,\"far\":false,\"fourth\":false,\"nan\":false,\"badType\":false,\"one\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "performance": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "ff35e94f-b038-4fec-adc3-a6e7bdcdb259",
+        "r": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"world\":1,\"baseline\":\"{\\\"p50\\\":31.406298279762269,\\\"worldEffects\\\":0,\\\"mean\\\":32.21186668508582,\\\"p95\\\":42.44359955191612,\\\"viewport\\\":\\\"677, 673\\\",\\\"curseModels\\\":21,\\\"memoryMB\\\":2202.73828125,\\\"effects\\\":0}\",\"localFx\":0,\"effects\":\"{\\\"p50\\\":32.864801585674289,\\\"worldEffects\\\":2,\\\"mean\\\":34.87062224497398,\\\"p95\\\":50.41949823498726,\\\"viewport\\\":\\\"677, 673\\\",\\\"curseModels\\\":21,\\\"memoryMB\\\":2201.52734375,\\\"effects\\\":8}\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "15b12c41-8e3f-4550-b7a5-b7fb64f1958b",
+        "r": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"world\":0,\"localFx\":0}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    }
+  ],
+  "both-clients-effects": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "ff35e94f-b038-4fec-adc3-a6e7bdcdb259",
+        "r": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"cleaned\":6,\"mistDrawn\":6}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "15b12c41-8e3f-4550-b7a5-b7fb64f1958b",
+        "r": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"cleaned\":0,\"mistDrawn\":6}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    }
+  ]
+}

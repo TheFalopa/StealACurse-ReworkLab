@@ -1,0 +1,63 @@
+-- Current-reference identities. Client effects never affect ownership or income.
+local Profiles = {}
+
+local function profile(name, kind, rgb, rate, size, lifetime, speed, motion, light)
+	return { name = name, kind = kind, color = Color3.fromRGB(rgb[1], rgb[2], rgb[3]),
+		rate = rate, size = size, lifetime = lifetime, speed = speed,
+		motion = motion or "drift", light = light or 0 }
+end
+
+Profiles.Definitions = {
+	candle_wisp = profile("Controlled blue ghost flame", "flame", {64, 205, 255}, 5, 0.20, 0.7, 0.35, "flicker", 0.22),
+	grave_hopper = profile("Moss spores from the grave shell", "dust", {125, 157, 86}, 1.3, 0.07, 1.6, 0.18, "drift"),
+	grave_key = profile("Cold glint on the key ring", "glint", {140, 212, 228}, 1.0, 0.10, 0.6, 0.08, "pulse"),
+	mourning_ribbon = profile("Seam whispers along mourning cloth", "mist", {143, 135, 168}, 1.1, 0.19, 1.1, 0.10, "sway"),
+	wilted_sprout = profile("Last drifting pollen", "dust", {188, 141, 64}, 1.4, 0.06, 1.7, 0.24, "sway"),
+	ink_imp = profile("Slow black ink drops", "drop", {29, 24, 43}, 2.0, 0.10, 0.8, 0.28, "pulse"),
+	lost_locket = profile("A memory inside the empty portrait", "mist", {188, 217, 209}, 1.2, 0.16, 1.2, 0.10, "pulse"),
+	ashen_book = profile("Ash from the burnt page", "ash", {133, 115, 99}, 2.2, 0.08, 1.3, 0.30, "sway"),
+	lantern_lurker = profile("Trapped green lantern light", "glint", {107, 233, 151}, 2.0, 0.11, 0.7, 0.06, "flicker", 0.18),
+	hourglass_hound = profile("Sand falling through the narrow waist", "sand", {229, 194, 115}, 4.0, 0.035, 0.55, 0.22, "still"),
+	nail_beetle = profile("Rust dust between coffin nails", "dust", {146, 94, 66}, 0.8, 0.06, 0.9, 0.16, "pulse"),
+	pale_guest = profile("Breath escaping the crooked portrait", "mist", {218, 224, 218}, 1.4, 0.20, 1.0, 0.16, "sway"),
+	cold_teacup = profile("Curved cold tea steam", "steam", {113, 148, 171}, 3.0, 0.16, 1.0, 0.33, "sway"),
+	coin_crawler = profile("Brief funeral coin glints", "glint", {201, 170, 90}, 0.8, 0.08, 0.5, 0.03, "pulse"),
+	umbrella_wraith = profile("Faint rain under the torn canopy", "drop", {103, 124, 157}, 2.5, 0.045, 0.8, 0.48, "sway"),
+	marrow_dice = profile("Cyan spirits in the carved pips", "glint", {109, 228, 240}, 2.2, 0.11, 0.65, 0.08, "orbit"),
+	veil_mourner = profile("Pale breath under a black veil", "mist", {173, 198, 212}, 1.5, 0.24, 1.3, 0.13, "sway"),
+	grave_compass = profile("A wandering cold compass bearing", "glint", {98, 182, 170}, 1.4, 0.09, 0.8, 0.04, "orbit"),
+	hollow_violin = profile("Three cold string resonances", "resonance", {104, 207, 226}, 1.5, 0.08, 0.9, 0.12, "strings"),
+	chime_triplets = profile("Staggered bell chimes", "resonance", {214, 179, 116}, 2.0, 0.11, 0.7, 0.18, "chime"),
+	thimble_spider = profile("Silver thread caught on the thimble", "glint", {196, 202, 211}, 0.9, 0.075, 0.75, 0.07, "sway"),
+	music_box_dancer = profile("Tiny music box notes and turn", "resonance", {215, 170, 114}, 1.5, 0.08, 1.1, 0.16, "orbit"),
+	raven_quill = profile("Ink flecks beneath the silver nib", "ash", {61, 55, 93}, 1.6, 0.055, 1.0, 0.24, "sway"),
+	sorrow_chalice = profile("One slow spectral tear", "drop", {168, 219, 236}, 1.2, 0.12, 1.0, 0.20, "pulse"),
+	pale_gramophone = profile("Horn echoes over the turning record", "resonance", {223, 203, 146}, 1.8, 0.09, 1.0, 0.19, "gramophone"),
+	thorn_reliquary = profile("Dim spores trapped within the urn", "dust", {97, 184, 145}, 2.0, 0.075, 1.3, 0.08, "orbit"),
+	anchor_crab = profile("Salt spray between anchor claws", "drop", {130, 198, 207}, 1.4, 0.06, 0.75, 0.24, "drift"),
+	sundial_sentinel = profile("A warm moving sundial edge", "glint", {234, 207, 143}, 1.0, 0.10, 0.65, 0.04, "orbit"),
+	sleepwalker_shoes = profile("Alternating cold footprints", "mist", {109, 151, 202}, 1.3, 0.17, 0.85, 0.05, "step"),
+	night_harp = profile("Golden strings on an indigo beast", "resonance", {221, 183, 113}, 2.5, 0.10, 0.9, 0.12, "strings"),
+	thorn_cathedral = profile("Blood red rose window embers", "flame", {193, 59, 83}, 2.8, 0.11, 0.85, 0.13, "pulse", 0.12),
+	phantom_marionette = profile("Ivory control thread shivers", "resonance", {216, 220, 218}, 1.3, 0.07, 0.8, 0.08, "strings"),
+	blood_moon_rose = profile("Garnet pollen inside glass petals", "dust", {203, 71, 101}, 2.4, 0.08, 1.4, 0.16, "orbit"),
+	judgement_scales = profile("Unequal gold soul weights", "glint", {246, 211, 121}, 1.8, 0.10, 1.1, 0.12, "scales"),
+	clockwork_raven = profile("A measured brass clock pulse", "glint", {227, 168, 71}, 1.6, 0.08, 0.55, 0.06, "tick"),
+	eclipse_stag = profile("Jade breath and ivory antler motes", "mist", {116, 197, 165}, 2.0, 0.18, 1.3, 0.15, "sway"),
+	endless_library = profile("Lost paper and quiet page dust", "ash", {189, 171, 139}, 2.3, 0.09, 1.35, 0.22, "sway"),
+	sunken_crown = profile("Water rising around coral ivory", "rising_drop", {82, 213, 227}, 3.0, 0.075, 0.9, 0.20, "orbit"),
+	silent_choir = profile("Three solemn pale harmonics", "resonance", {205, 209, 203}, 2.0, 0.10, 1.1, 0.08, "choir"),
+	cathedral_heart = profile("Slow ivory heart beat", "glint", {248, 215, 145}, 3.0, 0.11, 1.0, 0.09, "heartbeat", 0.24),
+	plague_monarch = profile("Verdigris royal spores", "dust", {112, 190, 108}, 2.8, 0.07, 1.6, 0.16, "orbit"),
+	hollow_throne = profile("Breath around the empty king", "mist", {206, 222, 216}, 2.0, 0.26, 1.4, 0.10, "pulse"),
+	worldroot = profile("Jade seed and drifting root spores", "dust", {117, 224, 147}, 2.6, 0.075, 1.8, 0.13, "heartbeat", 0.18),
+	the_undertow = profile("A circling dark turquoise undertow", "mist", {63, 174, 182}, 3.0, 0.23, 1.1, 0.22, "vortex"),
+	the_last_funeral = profile("Ivory funeral petals and incense", "ash", {213, 209, 181}, 1.8, 0.10, 1.6, 0.14, "sway"),
+	nameless_door = profile("A jade threshold bending inward", "mist", {87, 199, 169}, 2.5, 0.20, 1.0, 0.08, "vortex"),
+	crown_of_silence = profile("Interrupted ivory crown waves", "resonance", {239, 227, 200}, 1.7, 0.12, 0.8, 0.10, "silence"),
+	the_first_grave = profile("Ancient green seams and grave dust", "dust", {147, 202, 133}, 2.0, 0.08, 1.5, 0.12, "heartbeat"),
+	the_unwritten = profile("Erasing white flecks by a red seam", "ash", {229, 230, 219}, 2.0, 0.065, 0.8, 0.16, "erase"),
+	the_last_star = profile("White star light inside an open rib cage", "glint", {206, 237, 255}, 2.2, 0.11, 0.9, 0.06, "star", 0.28),
+}
+
+return Profiles

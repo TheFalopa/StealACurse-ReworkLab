@@ -1,0 +1,123 @@
+[
+  {
+    "id": "grave_hopper",
+    "legCount": 4,
+    "sampledPoses": 1444,
+    "strideAtHeight6": 2.3,
+    "duty": 0.52,
+    "bodyCrouch": 0.16,
+    "contactCentering": 0.4,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "hourglass_hound",
+    "legCount": 4,
+    "sampledPoses": 1444,
+    "strideAtHeight6": 2.4,
+    "duty": 0.6,
+    "bodyCrouch": 0.16,
+    "contactCentering": 0.12,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "nail_beetle",
+    "legCount": 6,
+    "sampledPoses": 2166,
+    "strideAtHeight6": 2.2,
+    "duty": 0.68,
+    "bodyCrouch": 0.13,
+    "contactCentering": 0.15,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "coin_crawler",
+    "legCount": 4,
+    "sampledPoses": 1444,
+    "strideAtHeight6": 2,
+    "duty": 0.7,
+    "bodyCrouch": 0.14,
+    "contactCentering": 0.12,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "thimble_spider",
+    "legCount": 8,
+    "sampledPoses": 2888,
+    "strideAtHeight6": 2.9,
+    "duty": 0.66,
+    "bodyCrouch": 0.24,
+    "contactCentering": 0.4,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "anchor_crab",
+    "legCount": 6,
+    "sampledPoses": 2166,
+    "strideAtHeight6": 2.1,
+    "duty": 0.76,
+    "bodyCrouch": 0.13,
+    "contactCentering": 0.12,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "hollow_violin",
+    "legCount": 2,
+    "sampledPoses": 722,
+    "strideAtHeight6": 1.4,
+    "duty": 0.64,
+    "bodyCrouch": 0.19,
+    "contactCentering": 0.15,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "clockwork_raven",
+    "legCount": 2,
+    "sampledPoses": 722,
+    "strideAtHeight6": 1.8,
+    "duty": 0.61,
+    "bodyCrouch": 0.11,
+    "contactCentering": 0.12,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "eclipse_stag",
+    "legCount": 4,
+    "sampledPoses": 1444,
+    "strideAtHeight6": 2.25,
+    "duty": 0.64,
+    "bodyCrouch": 0.24,
+    "contactCentering": 0.15,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "thorn_cathedral",
+    "legCount": 4,
+    "sampledPoses": 1444,
+    "strideAtHeight6": 1.35,
+    "duty": 0.77,
+    "bodyCrouch": 0.23,
+    "contactCentering": 0.25,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  },
+  {
+    "id": "endless_library",
+    "legCount": 4,
+    "sampledPoses": 1444,
+    "strideAtHeight6": 1.5,
+    "duty": 0.74,
+    "bodyCrouch": 0.23,
+    "contactCentering": 0.4,
+    "supportReachClampedPercent": 0.0,
+    "maxReachDeficitActualStuds": 0.0
+  }
+]

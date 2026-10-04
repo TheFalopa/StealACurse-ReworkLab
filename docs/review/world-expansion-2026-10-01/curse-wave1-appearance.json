@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-02 02:07:04 UTC",
+  "sessionArtifact": "build-expansion-final-review.rbxlx",
+  "reviewMethod": "Agent-operated Roblox Studio client Play, manual camera presentation review; all four saved screenshots independently inspected. Not an automatic gameplay test or human-only input session.",
+  "verdict": "APPEARANCE_PRESENTATION_OBSERVED",
+  "gallery": {
+    "workspacePath": "workspace.ExpansionReviewGallery",
+    "testOnly": true,
+    "center": [
+      500,
+      1,
+      0
+    ],
+    "gridColumns": 5,
+    "gridRows": 3,
+    "modelCount": 15,
+    "outsideProductionMapAndActiveCurses": true,
+    "promptsDisabled": true,
+    "labelsTemporarilyHiddenForMeshInspection": true,
+    "authoredColors": "Production Visual.create, white tint preserves original imported palette; no new presentation lighting/particles."
+  },
+  "scope": {
+    "actualRobloxRender": true,
+    "all15SilhouettesAndPalettesObserved": true,
+    "robloxAppearanceVerified": true,
+    "pixelExactColorOrEveryVertexProof": false,
+    "allCameraAnglesOrDevicesReviewed": false,
+    "labelsValidatedByGallery": false,
+    "naturalSpawnMotionPurchaseDeliveryIncomeValidated": false,
+    "gameplayValidated": false,
+    "playValidated": false,
+    "implementationStatus": "IMPORTED",
+    "enabled": false,
+    "spawnWeight": 0
+  },
+  "limits": [
+    "Gallery clones are stationary test-only presentations, not members of the live procession or economy.",
+    "The 15 definitions remain disabled and spawnWeight zero. Appearance observation does not change implementationStatus to VALIDATED.",
+    "Screenshots establish visible authored silhouettes and differentiated palettes in this Play session, not triangle-by-triangle, exact RGB, every angle, permissions in all contexts or hardware performance.",
+    "The HUD +3 Souls/s belongs to the separately tested original Cursed Doll, not to the new gallery models.",
+    "The original import records retain playValidated=false; the narrower appearance verification is recorded here separately."
+  ],
+  "captures": [
+    {
+      "file": "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+      "sha256": "db55798e43c91899c067b45344dc48c0cee73c83aaac844b46cd370150b2c820"
+    },
+    {
+      "file": "docs/review/world-expansion-2026-10-01/17a-common-close.png",
+      "sha256": "1532bb621a58ca1d0b753b4996a766e9cba22a9a94f487d78a3a6e3bf9e69c04"
+    },
+    {
+      "file": "docs/review/world-expansion-2026-10-01/17b-rare-close.png",
+      "sha256": "1de22bc2b75a179b7e1ed065256c0ccdfa02184611e33be4506310232a66ba89"
+    },
+    {
+      "file": "docs/review/world-expansion-2026-10-01/17c-relics-close.png",
+      "sha256": "8f16a2b5bda4bba97a119fc13664507be929ca3f9dd13f4eefe394bd987912ef"
+    }
+  ],
+  "observations": [
+    {
+      "id": "candle_wisp",
+      "meshId": "rbxassetid://131441841706440",
+      "observedPalette": "Crema/blanco, ojos negros y llama cyan",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17a-common-close.png"
+      ]
+    },
+    {
+      "id": "grave_hopper",
+      "meshId": "rbxassetid://111985391427900",
+      "observedPalette": "Piedra gris/violeta con musgo verde",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17a-common-close.png"
+      ]
+    },
+    {
+      "id": "grave_key",
+      "meshId": "rbxassetid://84656327821029",
+      "observedPalette": "Llave oscura con pañuelo azul",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17a-common-close.png"
+      ]
+    },
+    {
+      "id": "ink_imp",
+      "meshId": "rbxassetid://104472040658209",
+      "observedPalette": "Sobre crema, tinta negra y sello rojo",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17a-common-close.png"
+      ]
+    },
+    {
+      "id": "ashen_book",
+      "meshId": "rbxassetid://116088006645241",
+      "observedPalette": "Páginas crema y cubierta azul",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17a-common-close.png"
+      ]
+    },
+    {
+      "id": "marrow_dice",
+      "meshId": "rbxassetid://139995104770981",
+      "observedPalette": "Dados crema, ojos/pips oscuros y detalles cyan",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17b-rare-close.png"
+      ]
+    },
+    {
+      "id": "grave_compass",
+      "meshId": "rbxassetid://74406539185855",
+      "observedPalette": "Marco dorado y tapa teal",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17b-rare-close.png"
+      ]
+    },
+    {
+      "id": "hollow_violin",
+      "meshId": "rbxassetid://107587916723576",
+      "observedPalette": "Cuerpo de madera y cuerdas cyan",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17b-rare-close.png"
+      ]
+    },
+    {
+      "id": "raven_quill",
+      "meshId": "rbxassetid://107610707886136",
+      "observedPalette": "Pluma/cuerpo oscuro y pico hueso",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17b-rare-close.png"
+      ]
+    },
+    {
+      "id": "night_harp",
+      "meshId": "rbxassetid://75368579112232",
+      "observedPalette": "Arco violeta y detalles/cuerdas dorados",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png"
+      ]
+    },
+    {
+      "id": "thorn_cathedral",
+      "meshId": "rbxassetid://83008441866856",
+      "observedPalette": "Estructura azul/gris y ventana/espinas rojas",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17c-relics-close.png"
+      ]
+    },
+    {
+      "id": "judgement_scales",
+      "meshId": "rbxassetid://127729438322025",
+      "observedPalette": "Figura oscura, máscara clara y balanza dorada",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17c-relics-close.png"
+      ]
+    },
+    {
+      "id": "cathedral_heart",
+      "meshId": "rbxassetid://100098877936582",
+      "observedPalette": "Corazón marfil y marco/detalles dorados",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17c-relics-close.png"
+      ]
+    },
+    {
+      "id": "hollow_throne",
+      "meshId": "rbxassetid://71770033436309",
+      "observedPalette": "Trono azul/gris y ornamentos marfil",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17c-relics-close.png"
+      ]
+    },
+    {
+      "id": "nameless_door",
+      "meshId": "rbxassetid://91097514366999",
+      "observedPalette": "Marcos teal con detalles cyan",
+      "robloxAppearanceVerified": true,
+      "implementationStatus": "IMPORTED",
+      "gameplayValidated": false,
+      "enabled": false,
+      "evidence": [
+        "docs/review/world-expansion-2026-10-01/17-roblox-new-curses.png",
+        "docs/review/world-expansion-2026-10-01/17c-relics-close.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8068 @@
+{
+  "observer": -2,
+  "owner": -1,
+  "stage": "PASS",
+  "geometryReview": "ROOT_NATIVE_PIXELS_REVIEWED",
+  "nativeClients": 2,
+  "nativeVideos": 10,
+  "rows": [
+    {
+      "state": "PROCESSION",
+      "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 37,
+          "boneWrites": 407,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootL",
+          "FootR",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "meshId": "rbxassetid://78524965466136",
+        "state": "PROCESSION",
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 0.8906688690185547,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            -0.1067,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0.0549,
+            -0.0171,
+            0,
+            0.0409,
+            0
+          ],
+          "ArmL": [
+            -0.1351,
+            0,
+            0.055,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            -0.0056,
+            0,
+            -0.0259,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            -0.0665,
+            0,
+            0.012,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            0.1183,
+            0,
+            0.0252,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            -0.0844,
+            0.1031,
+            0.1855,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0.1564,
+            0,
+            -0.012,
+            0,
+            0.0128,
+            0
+          ],
+          "HandR": [
+            -0.0683,
+            0,
+            -0.05,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            0.0506,
+            0,
+            -0.055,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 304,
+          "p95": 0.025091299787163734,
+          "mean": 0.01448953549812646,
+          "maximum": 0.037416599690914154
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 341,
+          "boneWrites": 3751,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.2432689666748047
+      },
+      "id": "cursed_doll",
+      "owner": {
+        "stateRevision": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 15,
+          "boneWrites": 165,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootL",
+          "FootR",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "meshId": "rbxassetid://78524965466136",
+        "state": "PROCESSION",
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 0.8642387390136719,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0.0528,
+            0.0301,
+            0,
+            0.0501,
+            0
+          ],
+          "ArmL": [
+            0.124,
+            0,
+            0.055,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            -0.0052,
+            0,
+            -0.0048,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            0.2666,
+            0,
+            0.012,
+            0,
+            0.0299,
+            0
+          ],
+          "HandL": [
+            0.1172,
+            0,
+            0.0229,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            -0.0832,
+            0.1052,
+            0.1846,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            -0.1436,
+            0,
+            -0.012,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            -0.0659,
+            0,
+            -0.05,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            -0.1866,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.2026,
+            0,
+            -0.055,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 129,
+          "p95": 0.0519368015229702,
+          "mean": 0.03432696438286194,
+          "maximum": 0.07799340039491653
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 144,
+          "boneWrites": 1584,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.5049724578857422
+      },
+      "stage": "ROUTE",
+      "serverTime": 1791007907.759122
+    },
+    {
+      "state": "CARRYING",
+      "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 1,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 386,
+          "boneWrites": 4246,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootL",
+          "FootR",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://78524965466136",
+        "state": "CARRYING",
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 0.9704737067222595,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0,
+            0,
+            0,
+            0.0224,
+            0
+          ],
+          "ArmL": [
+            -0.4632,
+            0,
+            0.1302,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            0.2514,
+            0.0313,
+            0.0476,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            -0.0078,
+            0.0812,
+            0.1946,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            -0.0859,
+            0,
+            -0.05,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.08,
+            0,
+            -0.055,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 356,
+          "p95": 0.023209000006318092,
+          "mean": 0.014624149433933618,
+          "maximum": 0.030286600813269615
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 742,
+          "boneWrites": 8162,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 0.4217796325683594
+      },
+      "id": "cursed_doll",
+      "owner": {
+        "stateRevision": 1,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 160,
+          "boneWrites": 1760,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootL",
+          "FootR",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://78524965466136",
+        "state": "CARRYING",
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 3.225250005722046,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0,
+            0,
+            0,
+            0.0224,
+            0
+          ],
+          "ArmL": [
+            -0.4413,
+            0,
+            0.1239,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            0.2382,
+            0.0287,
+            0.0494,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            -0.0092,
+            0.0792,
+            0.1954,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            -0.0868,
+            0,
+            -0.05,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.08,
+            0,
+            -0.055,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 142,
+          "p95": 0.054993901401758194,
+          "mean": 0.03685956830027658,
+          "maximum": 0.06557299941778183
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 302,
+          "boneWrites": 3322,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.126348614692688
+      },
+      "stage": "PURCHASE_CARRY",
+      "serverTime": 1791007913.578209
+    },
+    {
+      "state": "PLACED",
+      "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 2,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 807,
+          "boneWrites": 8877,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://78524965466136",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 1341,
+          "boneWrites": 14751,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0,
+            0,
+            0,
+            0.0224,
+            0
+          ],
+          "ArmL": [
+            -0.2,
+            0,
+            0.055,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            -0.0749,
+            0,
+            -0.0332,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            0.0187,
+            -0.1401,
+            0.1876,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            -0.0893,
+            0,
+            -0.0535,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.08,
+            0,
+            -0.0581,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 534,
+          "p95": 0.019639499485492706,
+          "mean": 0.012370389701331154,
+          "maximum": 0.026060599833726883
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "cursed_doll",
+      "owner": {
+        "stateRevision": 2,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 326,
+          "boneWrites": 3586,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootR",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://78524965466136",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 545,
+          "boneWrites": 5995,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0,
+            0,
+            0,
+            0.0224,
+            0
+          ],
+          "ArmL": [
+            -0.2,
+            0,
+            0.055,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            -0.0768,
+            0,
+            -0.0323,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            0.0192,
+            -0.1453,
+            0.1896,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            -0.0891,
+            0,
+            -0.0518,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.08,
+            0,
+            -0.0566,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 219,
+          "p95": 0.04433349892497063,
+          "mean": 0.0302130287368548,
+          "maximum": 0.05686299875378609
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "PEDESTAL_IDLE",
+      "serverTime": 1791007921.021927
+    },
+    {
+      "state": "CARRYING",
+      "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 3,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 1408,
+          "boneWrites": 15488,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootL",
+          "FootR",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://78524965466136",
+        "state": "CARRYING",
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 1.7666189670562744,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0,
+            0,
+            0,
+            0.0224,
+            0
+          ],
+          "ArmL": [
+            -0.4577,
+            0,
+            0.1287,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            -0.0001,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            0.1668,
+            0.0307,
+            0.0136,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            -0.0813,
+            0.0882,
+            0.1696,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            0.0196,
+            0,
+            -0.05,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.0799,
+            0,
+            -0.055,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 294,
+          "p95": 0.019722899422049522,
+          "mean": 0.01362161390597419,
+          "maximum": 0.02465360052883625
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 1702,
+          "boneWrites": 18722,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 0.3278123438358307
+      },
+      "id": "cursed_doll",
+      "owner": {
+        "stateRevision": 3,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 570,
+          "boneWrites": 6270,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootL",
+          "FootR",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://78524965466136",
+        "state": "CARRYING",
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 3.2619879245758057,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0,
+            0,
+            0,
+            0.0224,
+            0
+          ],
+          "ArmL": [
+            -0.4447,
+            0,
+            0.1249,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            0.1569,
+            0.0291,
+            0.0123,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            -0.082,
+            0.0894,
+            0.17,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            0.0177,
+            0,
+            -0.05,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.08,
+            0,
+            -0.055,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 108,
+          "p95": 0.056510500609874725,
+          "mean": 0.03713073881549968,
+          "maximum": 0.07431220263242722
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 678,
+          "boneWrites": 7458,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.3793556690216064
+      },
+      "stage": "RELOCATION_CARRY",
+      "serverTime": 1791007925.884792
+    },
+    {
+      "state": "PLACED",
+      "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 4,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 1769,
+          "boneWrites": 19459,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootL",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://78524965466136",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 2299,
+          "boneWrites": 25289,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0,
+            0,
+            0,
+            0.0224,
+            0
+          ],
+          "ArmL": [
+            -0.2,
+            0,
+            0.055,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            -0.1196,
+            0,
+            0.0754,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            0.0174,
+            0.01,
+            0.2195,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            -0.0191,
+            0,
+            -0.05,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.08,
+            0,
+            -0.055,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 530,
+          "p95": 0.019860200583934784,
+          "mean": 0.012462879221816109,
+          "maximum": 0.02832460030913353
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "cursed_doll",
+      "owner": {
+        "stateRevision": 4,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 702,
+          "boneWrites": 7722,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "Dress",
+          "FootL",
+          "HandL",
+          "HandR",
+          "Head",
+          "LegL",
+          "LegR",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://78524965466136",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 924,
+          "boneWrites": 10164,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 11,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "poseAtEnd": {
+          "FootR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Root": [
+            0,
+            0,
+            0,
+            0,
+            0.0224,
+            0
+          ],
+          "ArmL": [
+            -0.2,
+            0,
+            0.055,
+            0,
+            0,
+            0
+          ],
+          "Dress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "LegL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandL": [
+            -0.1188,
+            0,
+            0.0745,
+            0,
+            0,
+            0
+          ],
+          "Head": [
+            0.0162,
+            0.0072,
+            0.2186,
+            0,
+            0,
+            0
+          ],
+          "LegR": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "HandR": [
+            -0.0229,
+            0,
+            -0.05,
+            0,
+            0,
+            0
+          ],
+          "FootL": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.08,
+            0,
+            -0.055,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 222,
+          "p95": 0.044139400124549866,
+          "mean": 0.029849939635610796,
+          "maximum": 0.05514710023999214
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "RELOCATED_IDLE",
+      "serverTime": 1791007933.377286
+    },
+    {
+      "state": "SOLD",
+      "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "boneCount": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 5,
+          "posed": 2328,
+          "boneWrites": 25608,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OBSERVER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 2328,
+          "boneWrites": 25608,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 177,
+          "p95": 0.01830030046403408,
+          "mean": 0.011348282515813234,
+          "maximum": 0.024439100176095963
+        }
+      },
+      "id": "cursed_doll",
+      "owner": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "5ecb09b2-2e11-45ad-9d52-af203698e2c0",
+        "boneCount": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 5,
+          "posed": 933,
+          "boneWrites": 10263,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OWNER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 933,
+          "boneWrites": 10263,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 71,
+          "p95": 0.04754989966750145,
+          "mean": 0.02833755482250536,
+          "maximum": 0.05540110170841217
+        }
+      },
+      "stage": "CLEANUP",
+      "serverTime": 1791007936.533023
+    },
+    {
+      "state": "PROCESSION",
+      "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 2422,
+          "boneWrites": 27062,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root",
+          "ThumbL",
+          "ThumbR"
+        ],
+        "meshId": "rbxassetid://81484326253720",
+        "state": "PROCESSION",
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 0.8381614685058594,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.0028,
+            0,
+            -0.0196,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0953,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            0,
+            -0.04,
+            -0.0331,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.0017,
+            0,
+            -0.0024,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.1145,
+            0,
+            0.0059,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.0266,
+            0,
+            -0.0059,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.0621,
+            0,
+            0.0236,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            -0.12,
+            0,
+            -0.0347,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.0221,
+            0,
+            0.0196,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.0032,
+            0,
+            -0.0236,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.0256,
+            0,
+            0.0024,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.12,
+            0,
+            0.0128,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 306,
+          "p95": 0.02132439985871315,
+          "mean": 0.014393252904946897,
+          "maximum": 0.028579900041222572
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 3100,
+          "boneWrites": 37580,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.18358230590820312
+      },
+      "id": "watching_eye",
+      "owner": {
+        "stateRevision": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 980,
+          "boneWrites": 10970,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root",
+          "ThumbL",
+          "ThumbR"
+        ],
+        "meshId": "rbxassetid://81484326253720",
+        "state": "PROCESSION",
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 0.7555599212646484,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.0038,
+            0,
+            -0.0199,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0944,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            0,
+            -0.04,
+            -0.0322,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.0011,
+            0,
+            -0.002,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.1103,
+            0,
+            0.0054,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.0241,
+            0,
+            -0.0054,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.0586,
+            0,
+            0.0235,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            -0.12,
+            0,
+            -0.0348,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.0198,
+            0,
+            0.0199,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.0023,
+            0,
+            -0.0235,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.0282,
+            0,
+            0.002,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.12,
+            0,
+            0.0119,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 125,
+          "p95": 0.05599129945039749,
+          "mean": 0.035458210438489915,
+          "maximum": 0.0716921016573906
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 1284,
+          "boneWrites": 15564,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.46605682373046875
+      },
+      "stage": "ROUTE",
+      "serverTime": 1791007941.686004
+    },
+    {
+      "state": "CARRYING",
+      "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 1,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 3188,
+          "boneWrites": 38978,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root",
+          "ThumbL",
+          "ThumbR"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://81484326253720",
+        "state": "CARRYING",
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 1.7932497262954712,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.1472,
+            0,
+            0.0165,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0208,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            -0.0077,
+            -0.04,
+            -0.0827,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.0883,
+            0,
+            -0.0247,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.0001,
+            0,
+            0.0239,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.0468,
+            0,
+            -0.0239,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.0095,
+            0,
+            0.0069,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            0,
+            0,
+            0.1217,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.0407,
+            0,
+            -0.0165,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.0925,
+            0,
+            -0.0069,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.2008,
+            0,
+            0.0247,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.0063,
+            0,
+            -0.0581,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 339,
+          "p95": 0.024554500356316566,
+          "mean": 0.015374715044369212,
+          "maximum": 0.035417601466178894
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 3926,
+          "boneWrites": 50094,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 0.7296712398529053
+      },
+      "id": "watching_eye",
+      "owner": {
+        "stateRevision": 1,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 1316,
+          "boneWrites": 16066,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root",
+          "ThumbL",
+          "ThumbR"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://81484326253720",
+        "state": "CARRYING",
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 6.466970443725586,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.1477,
+            0,
+            0.0164,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0211,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            -0.0072,
+            -0.04,
+            -0.083,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.0895,
+            0,
+            -0.0247,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.0001,
+            0,
+            0.024,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.047,
+            0,
+            -0.024,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.0099,
+            0,
+            0.007,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            0,
+            0,
+            0.1214,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.0417,
+            0,
+            -0.0164,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.093,
+            0,
+            -0.007,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.2012,
+            0,
+            0.0247,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.0059,
+            0,
+            -0.0577,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 139,
+          "p95": 0.05386120080947876,
+          "mean": 0.037499143199311746,
+          "maximum": 0.06459390372037888
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 1626,
+          "boneWrites": 20674,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 2.2984330654144287
+      },
+      "stage": "PURCHASE_CARRY",
+      "serverTime": 1791007947.493758
+    },
+    {
+      "state": "PLACED",
+      "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 2,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 4000,
+          "boneWrites": 51508,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root",
+          "ThumbL",
+          "ThumbR"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://81484326253720",
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 4533,
+          "boneWrites": 62701,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.1401,
+            0,
+            0.0216,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0366,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            -0.0451,
+            -0.04,
+            0.0112,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.1185,
+            0,
+            -0.0223,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.2512,
+            0,
+            0.0205,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.2485,
+            0,
+            -0.0205,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.2206,
+            0,
+            -0.001,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            0,
+            0,
+            0.1349,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.1735,
+            0,
+            -0.0216,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.194,
+            0,
+            0.001,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.0968,
+            0,
+            0.0223,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.0369,
+            0,
+            -0.1404,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 533,
+          "p95": 0.019959300756454468,
+          "mean": 0.012386944820304134,
+          "maximum": 0.025949299335479736
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "watching_eye",
+      "owner": {
+        "stateRevision": 2,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 1655,
+          "boneWrites": 21227,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root",
+          "ThumbL",
+          "ThumbR"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://81484326253720",
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 1863,
+          "boneWrites": 25595,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.142,
+            0,
+            0.0216,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0368,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            -0.0459,
+            -0.04,
+            0.0111,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.1193,
+            0,
+            -0.0222,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.2515,
+            0,
+            0.0204,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.2503,
+            0,
+            -0.0204,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.2212,
+            0,
+            -0.0011,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            0,
+            0,
+            0.1348,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.1743,
+            0,
+            -0.0216,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.1959,
+            0,
+            0.0011,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.0984,
+            0,
+            0.0222,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.0375,
+            0,
+            -0.1405,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 208,
+          "p95": 0.0498833991587162,
+          "mean": 0.031762870153985344,
+          "maximum": 0.06748580187559128
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "PEDESTAL_IDLE",
+      "serverTime": 1791007954.933402
+    },
+    {
+      "state": "CARRYING",
+      "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 3,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 4600,
+          "boneWrites": 64108,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://81484326253720",
+        "state": "CARRYING",
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 2.2678282260894775,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.0529,
+            0,
+            -0.0066,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0402,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            0,
+            -0.04,
+            -0.1018,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.0959,
+            0,
+            0.0239,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.2411,
+            0,
+            -0.0247,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.159,
+            0,
+            0.0247,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.2029,
+            0,
+            -0.0167,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            -0.0001,
+            0,
+            -0.0312,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.1513,
+            0,
+            0.0066,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.1035,
+            0,
+            0.0167,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.0163,
+            0,
+            -0.0239,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            -0.0001,
+            0,
+            0.0236,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 292,
+          "p95": 0.0208187997341156,
+          "mean": 0.01373212399560805,
+          "maximum": 0.026971299201250076
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 4892,
+          "boneWrites": 70240,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 0.6137993931770325
+      },
+      "id": "watching_eye",
+      "owner": {
+        "stateRevision": 3,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 1890,
+          "boneWrites": 26162,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://81484326253720",
+        "state": "CARRYING",
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 6.356444358825684,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.0489,
+            0,
+            -0.006,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0414,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            0,
+            -0.04,
+            -0.1028,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.0911,
+            0,
+            0.0237,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.2384,
+            0,
+            -0.0246,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.1541,
+            0,
+            0.0246,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.1986,
+            0,
+            -0.0172,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            0,
+            0,
+            -0.0317,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.1464,
+            0,
+            0.006,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.0986,
+            0,
+            0.0172,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.0139,
+            0,
+            -0.0237,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            0,
+            0,
+            0.0227,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 110,
+          "p95": 0.05894000083208084,
+          "mean": 0.03662492532960393,
+          "maximum": 0.07043729722499847
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 2000,
+          "boneWrites": 28472,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 2.0649538040161133
+      },
+      "stage": "RELOCATION_CARRY",
+      "serverTime": 1791007959.868457
+    },
+    {
+      "state": "PLACED",
+      "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 4,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 4965,
+          "boneWrites": 71773,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root",
+          "ThumbL",
+          "ThumbR"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://81484326253720",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 5357,
+          "boneWrites": 80005,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.251,
+            0,
+            -0.0119,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0137,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            0,
+            -0.04,
+            0.0191,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.2257,
+            0,
+            0.0249,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.072,
+            0,
+            -0.0249,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.173,
+            0,
+            0.0249,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.1258,
+            0,
+            -0.012,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            0,
+            0,
+            0.0424,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.1803,
+            0,
+            0.0119,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.2203,
+            0,
+            0.012,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.2598,
+            0,
+            -0.0249,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            0,
+            0,
+            0.0177,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 392,
+          "p95": 0.033468399196863174,
+          "mean": 0.016916350753768822,
+          "maximum": 0.06384219974279404
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "watching_eye",
+      "owner": {
+        "stateRevision": 4,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 2027,
+          "boneWrites": 29039,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.2325332164764404
+        ],
+        "changedBones": [
+          "ArmL",
+          "ArmR",
+          "FingerL0",
+          "FingerL1",
+          "FingerL2",
+          "FingerL3",
+          "FingerR0",
+          "FingerR1",
+          "FingerR2",
+          "FingerR3",
+          "ForearmL",
+          "ForearmR",
+          "Gaze",
+          "HandL",
+          "HandR",
+          "Iris",
+          "LidLower",
+          "LidUpper",
+          "Root",
+          "ThumbL",
+          "ThumbR"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://81484326253720",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 2392,
+          "boneWrites": 36704,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 21,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "poseAtEnd": {
+          "FingerR1": [
+            0.2507,
+            0,
+            -0.012,
+            0,
+            0,
+            0
+          ],
+          "ForearmL": [
+            0,
+            0.04,
+            0.0138,
+            0,
+            0,
+            0
+          ],
+          "ForearmR": [
+            0,
+            -0.04,
+            0.019,
+            0,
+            0,
+            0
+          ],
+          "FingerL0": [
+            0.2251,
+            0,
+            0.0249,
+            0,
+            0,
+            0
+          ],
+          "FingerL3": [
+            0.0712,
+            0,
+            -0.0249,
+            0,
+            0,
+            0
+          ],
+          "FingerR3": [
+            0.1722,
+            0,
+            0.0249,
+            0,
+            0,
+            0
+          ],
+          "FingerL2": [
+            0.1249,
+            0,
+            -0.0119,
+            0,
+            0,
+            0
+          ],
+          "ArmL": [
+            0,
+            0,
+            0.0427,
+            0,
+            0,
+            0
+          ],
+          "FingerL1": [
+            0.1795,
+            0,
+            0.012,
+            0,
+            0,
+            0
+          ],
+          "FingerR2": [
+            0.2196,
+            0,
+            0.0119,
+            0,
+            0,
+            0
+          ],
+          "FingerR0": [
+            0.2598,
+            0,
+            -0.0249,
+            0,
+            0,
+            0
+          ],
+          "ArmR": [
+            0,
+            0,
+            0.0175,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 365,
+          "p95": 0.042179301381111145,
+          "mean": 0.01808073508795606,
+          "maximum": 0.11963950097560883
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "RELOCATED_IDLE",
+      "serverTime": 1791007967.429618
+    },
+    {
+      "state": "SOLD",
+      "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "boneCount": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 5369,
+          "boneWrites": 80257,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OBSERVER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 5369,
+          "boneWrites": 80257,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 77,
+          "p95": 0.038721200078725815,
+          "mean": 0.02613998321792135,
+          "maximum": 0.04039290174841881
+        }
+      },
+      "id": "watching_eye",
+      "owner": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "e28d16c5-9a17-4744-b022-7151f60cca24",
+        "boneCount": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 2426,
+          "boneWrites": 37418,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OWNER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 2426,
+          "boneWrites": 37418,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 200,
+          "p95": 0.014116399921476841,
+          "mean": 0.010070999993477017,
+          "maximum": 0.025316499173641205
+        }
+      },
+      "stage": "CLEANUP",
+      "serverTime": 1791007970.609109
+    },
+    {
+      "state": "PROCESSION",
+      "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 5403,
+          "boneWrites": 80818,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "meshId": "rbxassetid://111986162294773",
+        "state": "PROCESSION",
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 0.6733474731445312,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            0.0327,
+            0,
+            -0.0327,
+            0,
+            0.0043,
+            0
+          ],
+          "ChainR4": [
+            -0.0206,
+            0,
+            0.0206,
+            0,
+            -0.0271,
+            0
+          ],
+          "ChainR2": [
+            0.0177,
+            0,
+            -0.0177,
+            0,
+            -0.009,
+            0
+          ],
+          "ChainL4": [
+            -0.0249,
+            0,
+            -0.0249,
+            0,
+            -0.0271,
+            0
+          ],
+          "ChainL1": [
+            0.0295,
+            0,
+            0.0295,
+            0,
+            0.0043,
+            0
+          ],
+          "ChainL2": [
+            0.0129,
+            0,
+            0.0129,
+            0,
+            -0.009,
+            0
+          ],
+          "ChainL0": [
+            0.0388,
+            0,
+            0.0388,
+            0,
+            0.0166,
+            0
+          ],
+          "ChainL3": [
+            -0.0069,
+            0,
+            -0.0069,
+            0,
+            -0.0203,
+            0
+          ],
+          "ChainR5": [
+            -0.0345,
+            0,
+            0.0345,
+            0,
+            -0.0281,
+            0
+          ],
+          "ChainL5": [
+            -0.0369,
+            0,
+            -0.0369,
+            0,
+            -0.0281,
+            0
+          ],
+          "ChainR3": [
+            -0.0017,
+            0,
+            0.0017,
+            0,
+            -0.0203,
+            0
+          ],
+          "ChainR0": [
+            0.0397,
+            0,
+            -0.0397,
+            0,
+            0.0166,
+            0
+          ]
+        },
+        "frames": {
+          "count": 133,
+          "p95": 0.04385039955377579,
+          "mean": 0.03332540518919328,
+          "maximum": 0.05295810103416443
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 5669,
+          "boneWrites": 85207,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.3438892364501953
+      },
+      "id": "soul_chains",
+      "owner": {
+        "stateRevision": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 2516,
+          "boneWrites": 38903,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "meshId": "rbxassetid://111986162294773",
+        "state": "PROCESSION",
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 0.8221817016601562,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            0.0314,
+            0,
+            -0.0314,
+            0,
+            0.0025,
+            0
+          ],
+          "ChainR4": [
+            -0.0225,
+            0,
+            0.0225,
+            0,
+            -0.0276,
+            0
+          ],
+          "ChainR2": [
+            0.0156,
+            0,
+            -0.0156,
+            0,
+            -0.0107,
+            0
+          ],
+          "ChainL4": [
+            -0.0266,
+            0,
+            -0.0266,
+            0,
+            -0.0276,
+            0
+          ],
+          "ChainL1": [
+            0.0279,
+            0,
+            0.0279,
+            0,
+            0.0025,
+            0
+          ],
+          "ChainL2": [
+            0.0107,
+            0,
+            0.0107,
+            0,
+            -0.0107,
+            0
+          ],
+          "ChainL0": [
+            0.0382,
+            0,
+            0.0382,
+            0,
+            0.015,
+            0
+          ],
+          "ChainL3": [
+            -0.009,
+            0,
+            -0.009,
+            0,
+            -0.0215,
+            0
+          ],
+          "ChainR5": [
+            -0.0356,
+            0,
+            0.0356,
+            0,
+            -0.0278,
+            0
+          ],
+          "ChainL5": [
+            -0.0377,
+            0,
+            -0.0377,
+            0,
+            -0.0278,
+            0
+          ],
+          "ChainR3": [
+            -0.0039,
+            0,
+            0.0039,
+            0,
+            -0.0215,
+            0
+          ],
+          "ChainR0": [
+            0.0394,
+            0,
+            -0.0394,
+            0,
+            0.015,
+            0
+          ]
+        },
+        "frames": {
+          "count": 321,
+          "p95": 0.023462999612092972,
+          "mean": 0.013718819310975688,
+          "maximum": 0.029628299176692963
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 3158,
+          "boneWrites": 49496,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.1922760009765625
+      },
+      "stage": "ROUTE",
+      "serverTime": 1791007975.814432
+    },
+    {
+      "state": "CARRYING",
+      "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 1,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 5703,
+          "boneWrites": 85816,
+          "suspended": 3,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://111986162294773",
+        "state": "CARRYING",
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 1.5336949825286865,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            -0.0215,
+            0,
+            0.0215,
+            0,
+            -0.0185,
+            0
+          ],
+          "ChainR4": [
+            -0.006,
+            0,
+            0.006,
+            0,
+            -0.0243,
+            0
+          ],
+          "ChainR2": [
+            -0.0211,
+            0,
+            0.0211,
+            0,
+            -0.0263,
+            0
+          ],
+          "ChainL4": [
+            -0.0032,
+            0,
+            -0.0032,
+            0,
+            -0.0243,
+            0
+          ],
+          "ChainL1": [
+            -0.0219,
+            0,
+            -0.0219,
+            0,
+            -0.0185,
+            0
+          ],
+          "ChainL2": [
+            -0.0201,
+            0,
+            -0.0201,
+            0,
+            -0.0263,
+            0
+          ],
+          "ChainL0": [
+            -0.0184,
+            0,
+            -0.0184,
+            0,
+            -0.0067,
+            0
+          ],
+          "ChainL3": [
+            -0.0133,
+            0,
+            -0.0133,
+            0,
+            -0.0284,
+            0
+          ],
+          "ChainR5": [
+            0.0049,
+            0,
+            -0.0049,
+            0,
+            -0.015,
+            0
+          ],
+          "ChainL5": [
+            0.0076,
+            0,
+            0.0076,
+            0,
+            -0.015,
+            0
+          ],
+          "ChainR3": [
+            -0.0154,
+            0,
+            0.0154,
+            0,
+            -0.0284,
+            0
+          ],
+          "ChainR0": [
+            -0.0167,
+            0,
+            0.0167,
+            0,
+            -0.0067,
+            0
+          ]
+        },
+        "frames": {
+          "count": 152,
+          "p95": 0.04746830090880394,
+          "mean": 0.03427740321249554,
+          "maximum": 0.055176399648189545
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6048,
+          "boneWrites": 92493,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.102461814880371
+      },
+      "id": "soul_chains",
+      "owner": {
+        "stateRevision": 1,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 3239,
+          "boneWrites": 50968,
+          "suspended": 3,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://111986162294773",
+        "state": "CARRYING",
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 4.749725818634033,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            -0.0216,
+            0,
+            0.0216,
+            0,
+            -0.0187,
+            0
+          ],
+          "ChainR4": [
+            -0.0059,
+            0,
+            0.0059,
+            0,
+            -0.0242,
+            0
+          ],
+          "ChainR2": [
+            -0.021,
+            0,
+            0.021,
+            0,
+            -0.0264,
+            0
+          ],
+          "ChainL4": [
+            -0.0031,
+            0,
+            -0.0031,
+            0,
+            -0.0242,
+            0
+          ],
+          "ChainL1": [
+            -0.0219,
+            0,
+            -0.0219,
+            0,
+            -0.0187,
+            0
+          ],
+          "ChainL2": [
+            -0.02,
+            0,
+            -0.02,
+            0,
+            -0.0264,
+            0
+          ],
+          "ChainL0": [
+            -0.0185,
+            0,
+            -0.0185,
+            0,
+            -0.0069,
+            0
+          ],
+          "ChainL3": [
+            -0.0132,
+            0,
+            -0.0132,
+            0,
+            -0.0284,
+            0
+          ],
+          "ChainR5": [
+            0.005,
+            0,
+            -0.005,
+            0,
+            -0.0148,
+            0
+          ],
+          "ChainL5": [
+            0.0077,
+            0,
+            0.0077,
+            0,
+            -0.0148,
+            0
+          ],
+          "ChainR3": [
+            -0.0153,
+            0,
+            0.0153,
+            0,
+            -0.0284,
+            0
+          ],
+          "ChainR0": [
+            -0.0168,
+            0,
+            0.0168,
+            0,
+            -0.0069,
+            0
+          ]
+        },
+        "frames": {
+          "count": 368,
+          "p95": 0.0246156994253397,
+          "mean": 0.014165620924398789,
+          "maximum": 0.03924329951405525
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 3916,
+          "boneWrites": 65131,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.1319178342819214
+      },
+      "stage": "PURCHASE_CARRY",
+      "serverTime": 1791007981.600537
+    },
+    {
+      "state": "PLACED",
+      "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 2,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6077,
+          "boneWrites": 93168,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://111986162294773",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6328,
+          "boneWrites": 99192,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            -0.0188,
+            0,
+            0.0188,
+            0,
+            0.0284,
+            0
+          ],
+          "ChainR4": [
+            -0.0127,
+            0,
+            0.0127,
+            0,
+            0.0018,
+            0
+          ],
+          "ChainR2": [
+            -0.022,
+            0,
+            0.022,
+            0,
+            0.024,
+            0
+          ],
+          "ChainL4": [
+            -0.0103,
+            0,
+            -0.0103,
+            0,
+            0.0018,
+            0
+          ],
+          "ChainL1": [
+            -0.0201,
+            0,
+            -0.0201,
+            0,
+            0.0284,
+            0
+          ],
+          "ChainL2": [
+            -0.0219,
+            0,
+            -0.0219,
+            0,
+            0.024,
+            0
+          ],
+          "ChainL0": [
+            -0.0134,
+            0,
+            -0.0134,
+            0,
+            0.0265,
+            0
+          ],
+          "ChainL3": [
+            -0.0183,
+            0,
+            -0.0183,
+            0,
+            0.0145,
+            0
+          ],
+          "ChainR5": [
+            -0.0025,
+            0,
+            0.0025,
+            0,
+            -0.0113,
+            0
+          ],
+          "ChainL5": [
+            0.0003,
+            0,
+            0.0003,
+            0,
+            -0.0113,
+            0
+          ],
+          "ChainR3": [
+            -0.0198,
+            0,
+            0.0198,
+            0,
+            0.0145,
+            0
+          ],
+          "ChainR0": [
+            -0.011,
+            0,
+            0.011,
+            0,
+            0.0265,
+            0
+          ]
+        },
+        "frames": {
+          "count": 251,
+          "p95": 0.035554300993680954,
+          "mean": 0.02629490636764057,
+          "maximum": 0.043538399040699005
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "soul_chains",
+      "owner": {
+        "stateRevision": 2,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 3978,
+          "boneWrites": 66592,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://111986162294773",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 4507,
+          "boneWrites": 79288,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            -0.0189,
+            0,
+            0.0189,
+            0,
+            0.0283,
+            0
+          ],
+          "ChainR4": [
+            -0.0125,
+            0,
+            0.0125,
+            0,
+            0.0015,
+            0
+          ],
+          "ChainR2": [
+            -0.022,
+            0,
+            0.022,
+            0,
+            0.0239,
+            0
+          ],
+          "ChainL4": [
+            -0.0101,
+            0,
+            -0.0101,
+            0,
+            0.0015,
+            0
+          ],
+          "ChainL1": [
+            -0.0202,
+            0,
+            -0.0202,
+            0,
+            0.0283,
+            0
+          ],
+          "ChainL2": [
+            -0.0219,
+            0,
+            -0.0219,
+            0,
+            0.0239,
+            0
+          ],
+          "ChainL0": [
+            -0.0136,
+            0,
+            -0.0136,
+            0,
+            0.0267,
+            0
+          ],
+          "ChainL3": [
+            -0.0182,
+            0,
+            -0.0182,
+            0,
+            0.0142,
+            0
+          ],
+          "ChainR5": [
+            -0.0023,
+            0,
+            0.0023,
+            0,
+            -0.0116,
+            0
+          ],
+          "ChainL5": [
+            0.0005,
+            0,
+            0.0005,
+            0,
+            -0.0116,
+            0
+          ],
+          "ChainR3": [
+            -0.0197,
+            0,
+            0.0197,
+            0,
+            0.0142,
+            0
+          ],
+          "ChainR0": [
+            -0.0112,
+            0,
+            0.0112,
+            0,
+            0.0267,
+            0
+          ]
+        },
+        "frames": {
+          "count": 529,
+          "p95": 0.022595299407839775,
+          "mean": 0.012488420606398909,
+          "maximum": 0.035539500415325165
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "PEDESTAL_IDLE",
+      "serverTime": 1791007988.977361
+    },
+    {
+      "state": "CARRYING",
+      "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 3,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6355,
+          "boneWrites": 99840,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://111986162294773",
+        "state": "CARRYING",
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 1.4388319253921509,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            0.0198,
+            0,
+            -0.0198,
+            0,
+            -0.0283,
+            0
+          ],
+          "ChainR4": [
+            -0.0082,
+            0,
+            0.0082,
+            0,
+            -0.0076,
+            0
+          ],
+          "ChainR2": [
+            0.0128,
+            0,
+            -0.0128,
+            0,
+            -0.0267,
+            0
+          ],
+          "ChainL4": [
+            -0.0107,
+            0,
+            -0.0107,
+            0,
+            -0.0076,
+            0
+          ],
+          "ChainL1": [
+            0.0184,
+            0,
+            0.0184,
+            0,
+            -0.0283,
+            0
+          ],
+          "ChainL2": [
+            0.0104,
+            0,
+            0.0104,
+            0,
+            -0.0267,
+            0
+          ],
+          "ChainL0": [
+            0.0219,
+            0,
+            0.0219,
+            0,
+            -0.0238,
+            0
+          ],
+          "ChainL3": [
+            -0.0002,
+            0,
+            -0.0002,
+            0,
+            -0.0193,
+            0
+          ],
+          "ChainR5": [
+            -0.017,
+            0,
+            0.017,
+            0,
+            0.0056,
+            0
+          ],
+          "ChainL5": [
+            -0.0186,
+            0,
+            -0.0186,
+            0,
+            0.0056,
+            0
+          ],
+          "ChainR3": [
+            0.0026,
+            0,
+            -0.0026,
+            0,
+            -0.0193,
+            0
+          ],
+          "ChainR0": [
+            0.022,
+            0,
+            -0.022,
+            0,
+            -0.0238,
+            0
+          ]
+        },
+        "frames": {
+          "count": 133,
+          "p95": 0.043185699731111526,
+          "mean": 0.03017448570887397,
+          "maximum": 0.07155609875917435
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6488,
+          "boneWrites": 103032,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.1470279693603516
+      },
+      "id": "soul_chains",
+      "owner": {
+        "stateRevision": 3,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 4566,
+          "boneWrites": 80704,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://111986162294773",
+        "state": "CARRYING",
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 4.928322792053223,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            0.0197,
+            0,
+            -0.0197,
+            0,
+            -0.0283,
+            0
+          ],
+          "ChainR4": [
+            -0.0083,
+            0,
+            0.0083,
+            0,
+            -0.0074,
+            0
+          ],
+          "ChainR2": [
+            0.0127,
+            0,
+            -0.0127,
+            0,
+            -0.0266,
+            0
+          ],
+          "ChainL4": [
+            -0.0109,
+            0,
+            -0.0109,
+            0,
+            -0.0074,
+            0
+          ],
+          "ChainL1": [
+            0.0183,
+            0,
+            0.0183,
+            0,
+            -0.0283,
+            0
+          ],
+          "ChainL2": [
+            0.0102,
+            0,
+            0.0102,
+            0,
+            -0.0266,
+            0
+          ],
+          "ChainL0": [
+            0.0219,
+            0,
+            0.0219,
+            0,
+            -0.0239,
+            0
+          ],
+          "ChainL3": [
+            -0.0004,
+            0,
+            -0.0004,
+            0,
+            -0.0191,
+            0
+          ],
+          "ChainR5": [
+            -0.0171,
+            0,
+            0.0171,
+            0,
+            0.0058,
+            0
+          ],
+          "ChainL5": [
+            -0.0187,
+            0,
+            -0.0187,
+            0,
+            0.0058,
+            0
+          ],
+          "ChainR3": [
+            0.0025,
+            0,
+            -0.0025,
+            0,
+            -0.0191,
+            0
+          ],
+          "ChainR0": [
+            0.022,
+            0,
+            -0.022,
+            0,
+            -0.0239,
+            0
+          ]
+        },
+        "frames": {
+          "count": 256,
+          "p95": 0.027379600331187248,
+          "mean": 0.015634926578059094,
+          "maximum": 0.2256437987089157
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 4822,
+          "boneWrites": 86848,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 0.7538372278213501
+      },
+      "stage": "RELOCATION_CARRY",
+      "serverTime": 1791007993.839823
+    },
+    {
+      "state": "PLACED",
+      "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 4,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6510,
+          "boneWrites": 103560,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://111986162294773",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6693,
+          "boneWrites": 107952,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            0.022,
+            0,
+            -0.022,
+            0,
+            0.0216,
+            0
+          ],
+          "ChainR4": [
+            0.0017,
+            0,
+            -0.0017,
+            0,
+            -0.0149,
+            0
+          ],
+          "ChainR2": [
+            0.0194,
+            0,
+            -0.0194,
+            0,
+            0.0108,
+            0
+          ],
+          "ChainL4": [
+            -0.0011,
+            0,
+            -0.0011,
+            0,
+            -0.0149,
+            0
+          ],
+          "ChainL1": [
+            0.0218,
+            0,
+            0.0218,
+            0,
+            0.0216,
+            0
+          ],
+          "ChainL2": [
+            0.0179,
+            0,
+            0.0179,
+            0,
+            0.0108,
+            0
+          ],
+          "ChainL0": [
+            0.0204,
+            0,
+            0.0204,
+            0,
+            0.0277,
+            0
+          ],
+          "ChainL3": [
+            0.0095,
+            0,
+            0.0095,
+            0,
+            -0.0023,
+            0
+          ],
+          "ChainR5": [
+            -0.009,
+            0,
+            0.009,
+            0,
+            -0.0243,
+            0
+          ],
+          "ChainL5": [
+            -0.0115,
+            0,
+            -0.0115,
+            0,
+            -0.0243,
+            0
+          ],
+          "ChainR3": [
+            0.012,
+            0,
+            -0.012,
+            0,
+            -0.0023,
+            0
+          ],
+          "ChainR0": [
+            0.0192,
+            0,
+            -0.0192,
+            0,
+            0.0277,
+            0
+          ]
+        },
+        "frames": {
+          "count": 183,
+          "p95": 0.0521886982023716,
+          "mean": 0.03605551466020079,
+          "maximum": 0.06687159836292267
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "soul_chains",
+      "owner": {
+        "stateRevision": 4,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 4880,
+          "boneWrites": 88240,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.3950319290161133
+        ],
+        "changedBones": [
+          "ChainL0",
+          "ChainL1",
+          "ChainL2",
+          "ChainL3",
+          "ChainL4",
+          "ChainL5",
+          "ChainR0",
+          "ChainR1",
+          "ChainR2",
+          "ChainR3",
+          "ChainR4",
+          "ChainR5",
+          "Core",
+          "CrownLink0",
+          "CrownLink1",
+          "CrownLink2",
+          "CrownLink3",
+          "CrownLink4",
+          "CrownLink5",
+          "CrownLink6",
+          "CuffL",
+          "CuffR",
+          "Hook",
+          "Root"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://111986162294773",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 5360,
+          "boneWrites": 99760,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 24,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "poseAtEnd": {
+          "ChainR1": [
+            0.022,
+            0,
+            -0.022,
+            0,
+            0.0217,
+            0
+          ],
+          "ChainR4": [
+            0.0019,
+            0,
+            -0.0019,
+            0,
+            -0.0147,
+            0
+          ],
+          "ChainR2": [
+            0.0195,
+            0,
+            -0.0195,
+            0,
+            0.011,
+            0
+          ],
+          "ChainL4": [
+            -0.001,
+            0,
+            -0.001,
+            0,
+            -0.0147,
+            0
+          ],
+          "ChainL1": [
+            0.0219,
+            0,
+            0.0219,
+            0,
+            0.0217,
+            0
+          ],
+          "ChainL2": [
+            0.018,
+            0,
+            0.018,
+            0,
+            0.011,
+            0
+          ],
+          "ChainL0": [
+            0.0204,
+            0,
+            0.0204,
+            0,
+            0.0277,
+            0
+          ],
+          "ChainL3": [
+            0.0097,
+            0,
+            0.0097,
+            0,
+            -0.0021,
+            0
+          ],
+          "ChainR5": [
+            -0.0089,
+            0,
+            0.0089,
+            0,
+            -0.0242,
+            0
+          ],
+          "ChainL5": [
+            -0.0114,
+            0,
+            -0.0114,
+            0,
+            -0.0242,
+            0
+          ],
+          "ChainR3": [
+            0.0122,
+            0,
+            -0.0122,
+            0,
+            -0.0021,
+            0
+          ],
+          "ChainR0": [
+            0.0192,
+            0,
+            -0.0192,
+            0,
+            0.0277,
+            0
+          ]
+        },
+        "frames": {
+          "count": 480,
+          "p95": 0.021956799551844597,
+          "mean": 0.013753323539276607,
+          "maximum": 0.031536899507045746
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "RELOCATED_IDLE",
+      "serverTime": 1791008001.288395
+    },
+    {
+      "state": "SOLD",
+      "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "boneCount": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 6703,
+          "boneWrites": 108192,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OBSERVER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 6703,
+          "boneWrites": 108192,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 59,
+          "p95": 0.05513159930706024,
+          "mean": 0.03416149848598545,
+          "maximum": 0.06025740131735802
+        }
+      },
+      "id": "soul_chains",
+      "owner": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "7bc9b2f8-165f-4ab2-baf9-bbd359495165",
+        "boneCount": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 5389,
+          "boneWrites": 100456,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OWNER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 5389,
+          "boneWrites": 100456,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 160,
+          "p95": 0.017451100051403046,
+          "mean": 0.01254626684822142,
+          "maximum": 0.02219800092279911
+        }
+      },
+      "stage": "CLEANUP",
+      "serverTime": 1791008004.477277
+    },
+    {
+      "state": "PROCESSION",
+      "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6714,
+          "boneWrites": 108324,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "meshId": "rbxassetid://104120516517868",
+        "state": "PROCESSION",
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 0.75958251953125,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.002,
+            -0.0047,
+            0.006,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.1024,
+            0.0785,
+            0.3051,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.1273,
+            0.0335,
+            -0.0227,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            0.0705,
+            0.0526,
+            -0.0472,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0.0018,
+            -0.0119,
+            -0.0098,
+            0,
+            -0.3565,
+            0
+          ],
+          "plague_monarch__Breath": [
+            -0.0221,
+            0,
+            -0.0147,
+            0,
+            -0.0548,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0566,
+            -0.0473,
+            0.3633,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.4824,
+            0.0786,
+            0.1044,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.4044,
+            0.0623,
+            -0.3658,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            0.4729,
+            -0.0765,
+            -0.0131,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.167,
+            0.0333,
+            -0.2684,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            -0.0073,
+            0.0145,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 102,
+          "p95": 0.06152639910578728,
+          "mean": 0.043341681525549465,
+          "maximum": 0.0823758989572525
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6816,
+          "boneWrites": 109548,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.5329685211181641
+      },
+      "id": "plague_monarch",
+      "owner": {
+        "stateRevision": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 5431,
+          "boneWrites": 100960,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "meshId": "rbxassetid://104120516517868",
+        "state": "PROCESSION",
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 0.8398189544677734,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.0085,
+            0.174,
+            -0.4264,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.0793,
+            0.0225,
+            0.3352,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.1276,
+            0.0344,
+            -0.0226,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.2331,
+            -0.1917,
+            0.174,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0.0058,
+            -0.0113,
+            -0.0077,
+            0,
+            -0.3565,
+            0
+          ],
+          "plague_monarch__Breath": [
+            -0.0223,
+            0,
+            -0.0147,
+            0,
+            -0.0553,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.2116,
+            -0.0388,
+            0.3165,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.6769,
+            0.0472,
+            -0.2314,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.215,
+            0.0663,
+            -0.4054,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            0.2837,
+            -0.0413,
+            0.5763,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.1779,
+            0.0722,
+            -0.2367,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            -0.0075,
+            0.0148,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 285,
+          "p95": 0.024201899766921997,
+          "mean": 0.01545440275222063,
+          "maximum": 0.03316260129213333
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 5716,
+          "boneWrites": 104380,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.21607398986816406
+      },
+      "stage": "ROUTE",
+      "serverTime": 1791008009.628729
+    },
+    {
+      "state": "CARRYING",
+      "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 1,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6829,
+          "boneWrites": 109704,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://104120516517868",
+        "state": "CARRYING",
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 1.1955832242965698,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.005,
+            0.0045,
+            -0.0378,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.0056,
+            -0.0045,
+            0.0383,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.0673,
+            -0.1599,
+            0.0096,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.0209,
+            -0.0071,
+            0.0265,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0,
+            0,
+            0,
+            0,
+            -0.038,
+            0
+          ],
+          "plague_monarch__Breath": [
+            -0.0168,
+            0,
+            0.0034,
+            0,
+            -0.0417,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0319,
+            -0.0086,
+            0.034,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.0313,
+            0.0086,
+            -0.0338,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.0051,
+            0.0065,
+            -0.0519,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            -0.0044,
+            -0.0065,
+            0.0513,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.0213,
+            0.0071,
+            -0.0266,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            0.035,
+            -0.0243,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 108,
+          "p95": 0.061884500086307526,
+          "mean": 0.04818454064014885,
+          "maximum": 0.06819339841604233
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6937,
+          "boneWrites": 111000,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 2.0298664569854736
+      },
+      "id": "plague_monarch",
+      "owner": {
+        "stateRevision": 1,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 5755,
+          "boneWrites": 104848,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://104120516517868",
+        "state": "CARRYING",
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 4.83091402053833,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.0051,
+            0.0046,
+            -0.0385,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.0057,
+            -0.0045,
+            0.039,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.0668,
+            -0.16,
+            0.0093,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.0213,
+            -0.0072,
+            0.027,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0,
+            0,
+            0,
+            0,
+            -0.0388,
+            0
+          ],
+          "plague_monarch__Breath": [
+            -0.0163,
+            0,
+            0.0038,
+            0,
+            -0.0405,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0325,
+            -0.0087,
+            0.0346,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.0319,
+            0.0087,
+            -0.0344,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.0052,
+            0.0067,
+            -0.0529,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            -0.0044,
+            -0.0067,
+            0.0522,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.0217,
+            0.0073,
+            -0.0271,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            0.035,
+            -0.0246,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 330,
+          "p95": 0.0235763993114233,
+          "mean": 0.015800992399454115,
+          "maximum": 0.029425499960780144
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6085,
+          "boneWrites": 108808,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.0961142778396606
+      },
+      "stage": "PURCHASE_CARRY",
+      "serverTime": 1791008015.46082
+    },
+    {
+      "state": "PLACED",
+      "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 2,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6957,
+          "boneWrites": 111240,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://104120516517868",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 7134,
+          "boneWrites": 113364,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.0063,
+            0.0056,
+            -0.0473,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.0069,
+            -0.0056,
+            0.0478,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.1075,
+            0.1813,
+            -0.0073,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.0261,
+            -0.009,
+            0.0331,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0,
+            0,
+            0,
+            0,
+            -0.0478,
+            0
+          ],
+          "plague_monarch__Breath": [
+            -0.0174,
+            0,
+            0.0081,
+            0,
+            -0.043,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0399,
+            -0.0106,
+            0.0424,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.0392,
+            0.0106,
+            -0.0422,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.0063,
+            0.0082,
+            -0.0647,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            -0.0053,
+            -0.0082,
+            0.0639,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.0266,
+            0.009,
+            -0.0332,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            -0.0241,
+            0.0118,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 177,
+          "p95": 0.05609440058469772,
+          "mean": 0.037353105622075375,
+          "maximum": 0.0751279965043068
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "plague_monarch",
+      "owner": {
+        "stateRevision": 2,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6140,
+          "boneWrites": 109468,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://104120516517868",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6607,
+          "boneWrites": 115072,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.0063,
+            0.0056,
+            -0.0475,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.007,
+            -0.0056,
+            0.0481,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.1078,
+            0.1822,
+            -0.0072,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.0262,
+            -0.009,
+            0.0332,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0,
+            0,
+            0,
+            0,
+            -0.048,
+            0
+          ],
+          "plague_monarch__Breath": [
+            -0.0172,
+            0,
+            0.0082,
+            0,
+            -0.0425,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0401,
+            -0.0106,
+            0.0426,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.0394,
+            0.0106,
+            -0.0424,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.0063,
+            0.0082,
+            -0.0651,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            -0.0054,
+            -0.0082,
+            0.0643,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.0268,
+            0.0091,
+            -0.0334,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            -0.024,
+            0.012,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 467,
+          "p95": 0.02266160026192665,
+          "mean": 0.014168640692385284,
+          "maximum": 0.03224699944257736
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "PEDESTAL_IDLE",
+      "serverTime": 1791008022.881515
+    },
+    {
+      "state": "CARRYING",
+      "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 3,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 7157,
+          "boneWrites": 113640,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://104120516517868",
+        "state": "CARRYING",
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 0.8843289613723755,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.0051,
+            0.0045,
+            -0.0385,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.0056,
+            -0.0045,
+            0.0388,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.0682,
+            0.1199,
+            -0.0182,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.0212,
+            -0.0072,
+            0.0269,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0,
+            0,
+            0,
+            0,
+            -0.0386,
+            0
+          ],
+          "plague_monarch__Breath": [
+            0.0242,
+            0,
+            0.0036,
+            0,
+            0.0599,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0323,
+            -0.0087,
+            0.0344,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.0318,
+            0.0087,
+            -0.0344,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.0052,
+            0.0066,
+            -0.0527,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            -0.0045,
+            -0.0066,
+            0.0521,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.0216,
+            0.0072,
+            -0.027,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            -0.0262,
+            -0.0313,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 94,
+          "p95": 0.06132330000400543,
+          "mean": 0.04262736168234272,
+          "maximum": 0.08408810198307037
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 7251,
+          "boneWrites": 114768,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.5801054239273071
+      },
+      "id": "plague_monarch",
+      "owner": {
+        "stateRevision": 3,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6667,
+          "boneWrites": 115792,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://104120516517868",
+        "state": "CARRYING",
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 4.395503044128418,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.005,
+            0.0044,
+            -0.0375,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.0055,
+            -0.0044,
+            0.038,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.0676,
+            0.121,
+            -0.0185,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.0207,
+            -0.007,
+            0.0263,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0,
+            0,
+            0,
+            0,
+            -0.0377,
+            0
+          ],
+          "plague_monarch__Breath": [
+            0.0243,
+            0,
+            0.0033,
+            0,
+            0.0603,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0316,
+            -0.0085,
+            0.0337,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.0311,
+            0.0085,
+            -0.0335,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.0051,
+            0.0065,
+            -0.0515,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            -0.0043,
+            -0.0065,
+            0.0509,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.0212,
+            0.0071,
+            -0.0264,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            -0.0265,
+            -0.0316,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 257,
+          "p95": 0.02500540018081665,
+          "mean": 0.01558026341279309,
+          "maximum": 0.032126400619745255
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 6924,
+          "boneWrites": 118876,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 0.5957270264625549
+      },
+      "stage": "RELOCATION_CARRY",
+      "serverTime": 1791008027.828531
+    },
+    {
+      "state": "PLACED",
+      "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 4,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 7272,
+          "boneWrites": 115020,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://104120516517868",
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 7445,
+          "boneWrites": 117096,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.004,
+            0.0035,
+            -0.0299,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.0044,
+            -0.0035,
+            0.0303,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.1045,
+            -0.1593,
+            0.0193,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.0165,
+            -0.0055,
+            0.0209,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0,
+            0,
+            0,
+            0,
+            -0.0299,
+            0
+          ],
+          "plague_monarch__Breath": [
+            0.0234,
+            0,
+            -0.0005,
+            0,
+            0.0581,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0252,
+            -0.0069,
+            0.0269,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.0247,
+            0.0069,
+            -0.0267,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.0041,
+            0.0052,
+            -0.0411,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            -0.0035,
+            -0.0052,
+            0.0406,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.0168,
+            0.0055,
+            -0.021,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            0.0349,
+            0.0211,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 173,
+          "p95": 0.05492759868502617,
+          "mean": 0.03818842661001779,
+          "maximum": 0.06450539827346802
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "plague_monarch",
+      "owner": {
+        "stateRevision": 4,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 6987,
+          "boneWrites": 119632,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          6.034780979156494,
+          9.300000190734863,
+          3.700949192047119
+        ],
+        "changedBones": [
+          "plague_monarch__Breath",
+          "plague_monarch__Crown",
+          "plague_monarch__Leg0",
+          "plague_monarch__Leg1",
+          "plague_monarch__Leg2",
+          "plague_monarch__Leg3",
+          "plague_monarch__Mask",
+          "plague_monarch__Root",
+          "plague_monarch__Shin0",
+          "plague_monarch__Shin1",
+          "plague_monarch__Shin2",
+          "plague_monarch__Shin3"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://104120516517868",
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 7459,
+          "boneWrites": 125296,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "boneCount": 12,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "poseAtEnd": {
+          "plague_monarch__Leg1": [
+            0.0039,
+            0.0034,
+            -0.029,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg0": [
+            0.0043,
+            -0.0034,
+            0.0294,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Mask": [
+            -0.1053,
+            -0.1592,
+            0.0195,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg2": [
+            -0.016,
+            -0.0053,
+            0.0203,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Root": [
+            0,
+            0,
+            0,
+            0,
+            -0.029,
+            0
+          ],
+          "plague_monarch__Breath": [
+            0.0237,
+            0,
+            -0.0009,
+            0,
+            0.0587,
+            0
+          ],
+          "plague_monarch__Shin3": [
+            0.0244,
+            -0.0067,
+            0.0261,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin2": [
+            0.024,
+            0.0067,
+            -0.0259,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin0": [
+            -0.004,
+            0.005,
+            -0.0399,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Shin1": [
+            -0.0034,
+            -0.005,
+            0.0394,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Leg3": [
+            -0.0163,
+            0.0054,
+            -0.0204,
+            0,
+            0,
+            0
+          ],
+          "plague_monarch__Crown": [
+            0,
+            0.0348,
+            0.0216,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 472,
+          "p95": 0.02305999957025051,
+          "mean": 0.013999612105150029,
+          "maximum": 0.07161830365657806
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "RELOCATED_IDLE",
+      "serverTime": 1791008035.341766
+    },
+    {
+      "state": "SOLD",
+      "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "boneCount": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 7452,
+          "boneWrites": 117180,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OBSERVER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 7452,
+          "boneWrites": 117180,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 58,
+          "p95": 0.060754600912332535,
+          "mean": 0.03461151727443111,
+          "maximum": 0.06481440365314484
+        }
+      },
+      "id": "plague_monarch",
+      "owner": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "d5967cf5-0546-4da5-a9e2-8b7222f46669",
+        "boneCount": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 7487,
+          "boneWrites": 125632,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OWNER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 7487,
+          "boneWrites": 125632,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 158,
+          "p95": 0.018824400380253792,
+          "mean": 0.012760431022395062,
+          "maximum": 0.02653389982879162
+        }
+      },
+      "stage": "CLEANUP",
+      "serverTime": 1791008038.416584
+    },
+    {
+      "state": "PROCESSION",
+      "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 7483,
+          "boneWrites": 117409,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "meshId": "rbxassetid://72905956993942",
+        "state": "PROCESSION",
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 0.7349224090576172,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            -0.0899,
+            -0.0645,
+            -0.0199,
+            0.4888,
+            0.127,
+            -0.08
+          ],
+          "the_void__Shard0": [
+            0.0884,
+            0.0581,
+            -0.0199,
+            -0.4571,
+            0.1586,
+            0.0798
+          ],
+          "the_void__Shard4": [
+            -0.0451,
+            0.0967,
+            -0.0199,
+            -0.0032,
+            0.3918,
+            -0.0267
+          ],
+          "the_void__ArcR": [
+            0.0075,
+            -0.0503,
+            -0.0213,
+            0.071,
+            -0.0365,
+            -0.0609
+          ],
+          "the_void__ArcBase": [
+            0.0126,
+            0.0155,
+            -0.0037,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            -0.003,
+            0,
+            0,
+            0.0291,
+            0
+          ],
+          "the_void__Shard2": [
+            -0.0521,
+            -0.08,
+            -0.0199,
+            0.2896,
+            -0.2375,
+            -0.0592
+          ],
+          "the_void__Shard1": [
+            0.0337,
+            0.0851,
+            -0.0199,
+            -0.2518,
+            -0.225,
+            0.0175
+          ],
+          "the_void__ArcL": [
+            -0.0062,
+            0.0531,
+            0.0242,
+            -0.071,
+            0.0365,
+            0.0812
+          ]
+        },
+        "frames": {
+          "count": 100,
+          "p95": 0.05993549898266792,
+          "mean": 0.04406552886590362,
+          "maximum": 0.07188010215759277
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 7714,
+          "boneWrites": 119126,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.46636962890625
+      },
+      "id": "the_void",
+      "owner": {
+        "stateRevision": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 7561,
+          "boneWrites": 126183,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "meshId": "rbxassetid://72905956993942",
+        "state": "PROCESSION",
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 0.8364582061767578,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            -0.0899,
+            -0.0646,
+            -0.0199,
+            0.4893,
+            0.1273,
+            -0.08
+          ],
+          "the_void__Shard0": [
+            0.0884,
+            0.058,
+            -0.0199,
+            -0.4575,
+            0.1586,
+            0.0798
+          ],
+          "the_void__Shard4": [
+            -0.0452,
+            0.0966,
+            -0.0199,
+            -0.0032,
+            0.3922,
+            -0.0268
+          ],
+          "the_void__ArcR": [
+            0.0075,
+            -0.0504,
+            -0.0213,
+            0.0712,
+            -0.0366,
+            -0.061
+          ],
+          "the_void__ArcBase": [
+            0.0126,
+            0.0155,
+            -0.0037,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            -0.003,
+            0,
+            0,
+            0.0291,
+            0
+          ],
+          "the_void__Shard2": [
+            -0.052,
+            -0.08,
+            -0.0199,
+            0.29,
+            -0.2379,
+            -0.0591
+          ],
+          "the_void__Shard1": [
+            0.0338,
+            0.0852,
+            -0.0199,
+            -0.252,
+            -0.2253,
+            0.0177
+          ],
+          "the_void__ArcL": [
+            -0.0062,
+            0.0533,
+            0.0242,
+            -0.0712,
+            0.0366,
+            0.0813
+          ]
+        },
+        "frames": {
+          "count": 284,
+          "p95": 0.02420469932258129,
+          "mean": 0.01552389015797788,
+          "maximum": 0.031004400923848152
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 8167,
+          "boneWrites": 130709,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0.19956207275390625
+      },
+      "stage": "ROUTE",
+      "serverTime": 1791008043.460199
+    },
+    {
+      "state": "CARRYING",
+      "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 1,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 7739,
+          "boneWrites": 119318,
+          "suspended": 5,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://72905956993942",
+        "state": "CARRYING",
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 1.497877597808838,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            -0.0156,
+            0.0459,
+            0.0481,
+            0.3659,
+            0.0488,
+            0.0312
+          ],
+          "the_void__Shard0": [
+            0.0029,
+            0.1099,
+            0.0481,
+            -0.4541,
+            0.1927,
+            -0.0391
+          ],
+          "the_void__Shard4": [
+            0.0662,
+            0.0932,
+            0.0481,
+            -0.0036,
+            0.4786,
+            0.0836
+          ],
+          "the_void__ArcR": [
+            -0.018,
+            -0.0472,
+            -0.02,
+            0.0667,
+            -0.0343,
+            -0.0571
+          ],
+          "the_void__ArcBase": [
+            -0.028,
+            0.0145,
+            0.009,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            0.0072,
+            0,
+            0,
+            0.0843,
+            0
+          ],
+          "the_void__Shard2": [
+            -0.083,
+            -0.105,
+            0.0481,
+            0.2546,
+            -0.2962,
+            -0.0489
+          ],
+          "the_void__Shard1": [
+            -0.0741,
+            -0.0188,
+            0.0481,
+            -0.3111,
+            -0.3425,
+            -0.0826
+          ],
+          "the_void__ArcL": [
+            0.015,
+            0.0499,
+            0.0227,
+            -0.0667,
+            0.0343,
+            0.0762
+          ]
+        },
+        "frames": {
+          "count": 112,
+          "p95": 0.06272319704294205,
+          "mean": 0.046998919802717865,
+          "maximum": 0.08257920295000076
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 8011,
+          "boneWrites": 121571,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.801127314567566
+      },
+      "id": "the_void",
+      "owner": {
+        "stateRevision": 1,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 8229,
+          "boneWrites": 131194,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://72905956993942",
+        "state": "CARRYING",
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 6.867194175720215,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            -0.017,
+            0.0446,
+            0.0477,
+            0.3603,
+            0.0467,
+            0.0296
+          ],
+          "the_void__Shard0": [
+            0.0044,
+            0.11,
+            0.0477,
+            -0.4479,
+            0.1915,
+            -0.0376
+          ],
+          "the_void__Shard4": [
+            0.0652,
+            0.094,
+            0.0477,
+            -0.0035,
+            0.471,
+            0.0832
+          ],
+          "the_void__ArcR": [
+            -0.0179,
+            -0.0457,
+            -0.0193,
+            0.0646,
+            -0.0332,
+            -0.0553
+          ],
+          "the_void__ArcBase": [
+            -0.0276,
+            0.0141,
+            0.009,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            0.0072,
+            0,
+            0,
+            0.0835,
+            0
+          ],
+          "the_void__Shard2": [
+            -0.0836,
+            -0.1055,
+            0.0477,
+            0.2489,
+            -0.29,
+            -0.0503
+          ],
+          "the_void__Shard1": [
+            -0.0733,
+            -0.0174,
+            0.0477,
+            -0.3055,
+            -0.335,
+            -0.0824
+          ],
+          "the_void__ArcL": [
+            0.0149,
+            0.0483,
+            0.022,
+            -0.0646,
+            0.0332,
+            0.0738
+          ]
+        },
+        "frames": {
+          "count": 318,
+          "p95": 0.024909699335694313,
+          "mean": 0.016357889972955175,
+          "maximum": 0.033277399837970734
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 8927,
+          "boneWrites": 136976,
+          "suspended": 4,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.072643756866455
+      },
+      "stage": "PURCHASE_CARRY",
+      "serverTime": 1791008049.309279
+    },
+    {
+      "state": "PLACED",
+      "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 2,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 8033,
+          "boneWrites": 121771,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://72905956993942",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 8205,
+          "boneWrites": 123319,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            0.09,
+            0.1078,
+            0.0163,
+            0.267,
+            0.1199,
+            0.0496
+          ],
+          "the_void__Shard0": [
+            -0.0895,
+            0.0205,
+            0.0163,
+            -0.2189,
+            0.0236,
+            -0.0377
+          ],
+          "the_void__Shard4": [
+            0.051,
+            -0.0356,
+            0.0163,
+            -0.0016,
+            0.2309,
+            -0.0307
+          ],
+          "the_void__ArcR": [
+            -0.0061,
+            -0.0195,
+            -0.0083,
+            0.0276,
+            -0.0142,
+            -0.0236
+          ],
+          "the_void__ArcBase": [
+            -0.0191,
+            0.006,
+            0.0031,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            0.0024,
+            0,
+            0,
+            0.1116,
+            0
+          ],
+          "the_void__Shard2": [
+            0.0462,
+            0.0078,
+            0.0163,
+            0.2525,
+            -0.2112,
+            0.0849
+          ],
+          "the_void__Shard1": [
+            -0.04,
+            -0.1098,
+            0.0163,
+            -0.2189,
+            -0.2496,
+            0.0429
+          ],
+          "the_void__ArcL": [
+            0.0051,
+            0.0206,
+            0.0094,
+            -0.0276,
+            0.0142,
+            0.0315
+          ]
+        },
+        "frames": {
+          "count": 172,
+          "p95": 0.05736299976706505,
+          "mean": 0.03843037961700628,
+          "maximum": 0.07180289924144745
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "the_void",
+      "owner": {
+        "stateRevision": 2,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 9000,
+          "boneWrites": 137649,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://72905956993942",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 9471,
+          "boneWrites": 141888,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            0.09,
+            0.1078,
+            0.0163,
+            0.2663,
+            0.1197,
+            0.0497
+          ],
+          "the_void__Shard0": [
+            -0.0895,
+            0.0205,
+            0.0163,
+            -0.2183,
+            0.0233,
+            -0.0378
+          ],
+          "the_void__Shard4": [
+            0.0511,
+            -0.0355,
+            0.0163,
+            -0.0016,
+            0.2303,
+            -0.0307
+          ],
+          "the_void__ArcR": [
+            -0.0061,
+            -0.0194,
+            -0.0082,
+            0.0274,
+            -0.0141,
+            -0.0235
+          ],
+          "the_void__ArcBase": [
+            -0.0191,
+            0.006,
+            0.0031,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            0.0024,
+            0,
+            0,
+            0.1116,
+            0
+          ],
+          "the_void__Shard2": [
+            0.0461,
+            0.0078,
+            0.0163,
+            0.252,
+            -0.2108,
+            0.0849
+          ],
+          "the_void__Shard1": [
+            -0.0401,
+            -0.1098,
+            0.0163,
+            -0.2185,
+            -0.2492,
+            0.0428
+          ],
+          "the_void__ArcL": [
+            0.0051,
+            0.0205,
+            0.0093,
+            -0.0274,
+            0.0141,
+            0.0313
+          ]
+        },
+        "frames": {
+          "count": 471,
+          "p95": 0.024350199848413467,
+          "mean": 0.014054561804015103,
+          "maximum": 0.03218860179185867
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot1",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "PEDESTAL_IDLE",
+      "serverTime": 1791008056.747778
+    },
+    {
+      "state": "CARRYING",
+      "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 3,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 8227,
+          "boneWrites": 123517,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://72905956993942",
+        "state": "CARRYING",
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 1.6487555503845215,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            0.0405,
+            0.051,
+            -0.0104,
+            0.2543,
+            0.0431,
+            -0.0601
+          ],
+          "the_void__Shard0": [
+            -0.0288,
+            -0.071,
+            -0.0104,
+            -0.1153,
+            0.067,
+            0.069
+          ],
+          "the_void__Shard4": [
+            -0.0457,
+            -0.1032,
+            -0.0104,
+            -0.0016,
+            0.1601,
+            -0.0809
+          ],
+          "the_void__ArcR": [
+            0.0039,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "the_void__ArcBase": [
+            0.017,
+            0,
+            -0.002,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            -0.0016,
+            0,
+            0,
+            0.0592,
+            0
+          ],
+          "the_void__Shard2": [
+            0.0895,
+            0.0901,
+            -0.0104,
+            0.1566,
+            -0.1246,
+            0.0161
+          ],
+          "the_void__Shard1": [
+            0.0562,
+            -0.0742,
+            -0.0104,
+            -0.0933,
+            -0.0482,
+            0.0782
+          ],
+          "the_void__ArcL": [
+            -0.0033,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 136,
+          "p95": 0.06085339933633804,
+          "mean": 0.029449272774132517,
+          "maximum": 0.2205113023519516
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 8363,
+          "boneWrites": 124741,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.940255045890808
+      },
+      "id": "the_void",
+      "owner": {
+        "stateRevision": 3,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 9532,
+          "boneWrites": 142437,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "ownerUserId": -1,
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "meshId": "rbxassetid://72905956993942",
+        "state": "CARRYING",
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 6.614469051361084,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            0.0404,
+            0.0508,
+            -0.0104,
+            0.2543,
+            0.0429,
+            -0.0603
+          ],
+          "the_void__Shard0": [
+            -0.0286,
+            -0.0711,
+            -0.0104,
+            -0.1154,
+            0.0672,
+            0.0691
+          ],
+          "the_void__Shard4": [
+            -0.0459,
+            -0.1033,
+            -0.0104,
+            -0.0016,
+            0.1603,
+            -0.0809
+          ],
+          "the_void__ArcR": [
+            0.0039,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "the_void__ArcBase": [
+            0.0171,
+            0,
+            -0.002,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            -0.0016,
+            0,
+            0,
+            0.0591,
+            0
+          ],
+          "the_void__Shard2": [
+            0.0895,
+            0.0902,
+            -0.0104,
+            0.1565,
+            -0.1246,
+            0.0159
+          ],
+          "the_void__Shard1": [
+            0.0564,
+            -0.0741,
+            -0.0104,
+            -0.0932,
+            -0.0481,
+            0.0782
+          ],
+          "the_void__ArcL": [
+            -0.0033,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "count": 217,
+          "p95": 0.03490670025348663,
+          "mean": 0.01856619954830216,
+          "maximum": 0.07411719858646393
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 9749,
+          "boneWrites": 144390,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "carrierUserId": -1,
+        "maximumFrameTravelStuds": 1.1773713827133179
+      },
+      "stage": "RELOCATION_CARRY",
+      "serverTime": 1791008061.695373
+    },
+    {
+      "state": "PLACED",
+      "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "stateRevision": 4,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 8432,
+          "boneWrites": 125362,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OBSERVER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://72905956993942",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 9006,
+          "boneWrites": 130528,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            -0.0849,
+            -0.0825,
+            -0.0142,
+            0.2939,
+            0.076,
+            -0.0144
+          ],
+          "the_void__Shard0": [
+            0.0882,
+            -0.0986,
+            -0.0142,
+            -0.3784,
+            0.1187,
+            0.005
+          ],
+          "the_void__Shard4": [
+            -0.0711,
+            -0.0616,
+            -0.0142,
+            -0.0028,
+            0.4135,
+            0.0621
+          ],
+          "the_void__ArcR": [
+            0.0053,
+            -0.0346,
+            -0.0147,
+            0.049,
+            -0.0252,
+            -0.042
+          ],
+          "the_void__ArcBase": [
+            0.0296,
+            0.0107,
+            -0.0027,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            -0.0021,
+            0,
+            0,
+            0.0371,
+            0
+          ],
+          "the_void__Shard2": [
+            -0.0207,
+            0.0828,
+            -0.0142,
+            0.204,
+            -0.243,
+            -0.077
+          ],
+          "the_void__Shard1": [
+            0.0626,
+            0.0611,
+            -0.0142,
+            -0.2247,
+            -0.2906,
+            -0.0677
+          ],
+          "the_void__ArcL": [
+            -0.0044,
+            0.0366,
+            0.0167,
+            -0.049,
+            0.0252,
+            0.056
+          ]
+        },
+        "frames": {
+          "count": 574,
+          "p95": 0.0174391008913517,
+          "mean": 0.011513712035511534,
+          "maximum": 0.026953600347042084
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "id": "the_void",
+      "owner": {
+        "stateRevision": 4,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 7,
+          "posed": 9772,
+          "boneWrites": 144597,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "role": "OWNER",
+        "modelExists": true,
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.96040940284729
+        ],
+        "changedBones": [
+          "the_void__ArcBase",
+          "the_void__ArcL",
+          "the_void__ArcR",
+          "the_void__Root",
+          "the_void__Shard0",
+          "the_void__Shard1",
+          "the_void__Shard2",
+          "the_void__Shard3",
+          "the_void__Shard4"
+        ],
+        "ownerUserId": -1,
+        "state": "PLACED",
+        "meshId": "rbxassetid://72905956993942",
+        "metricsAfter": {
+          "tracked": 7,
+          "posed": 9981,
+          "boneWrites": 146478,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "boneCount": 9,
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "poseAtEnd": {
+          "the_void__Shard3": [
+            -0.0851,
+            -0.0829,
+            -0.0143,
+            0.2869,
+            0.0747,
+            -0.0138
+          ],
+          "the_void__Shard0": [
+            0.0884,
+            -0.0983,
+            -0.0143,
+            -0.3724,
+            0.1161,
+            0.0042
+          ],
+          "the_void__Shard4": [
+            -0.0707,
+            -0.0611,
+            -0.0143,
+            -0.0027,
+            0.4063,
+            0.0626
+          ],
+          "the_void__ArcR": [
+            0.0054,
+            -0.0332,
+            -0.0141,
+            0.047,
+            -0.0242,
+            -0.0403
+          ],
+          "the_void__ArcBase": [
+            0.0295,
+            0.0102,
+            -0.0027,
+            0,
+            0,
+            0
+          ],
+          "the_void__Root": [
+            0,
+            -0.0021,
+            0,
+            0,
+            0.0374,
+            0
+          ],
+          "the_void__Shard2": [
+            -0.0213,
+            0.0824,
+            -0.0143,
+            0.1993,
+            -0.238,
+            -0.0768
+          ],
+          "the_void__Shard1": [
+            0.0621,
+            0.0616,
+            -0.0143,
+            -0.2205,
+            -0.2863,
+            -0.0681
+          ],
+          "the_void__ArcL": [
+            -0.0045,
+            0.0352,
+            0.016,
+            -0.047,
+            0.0242,
+            0.0537
+          ]
+        },
+        "frames": {
+          "count": 209,
+          "p95": 0.04287390038371086,
+          "mean": 0.03165548522043171,
+          "maximum": 0.07327630370855331
+        },
+        "assetFetchStatus": "Enum.AssetFetchStatus.Success",
+        "pedestalId": "floor1-slot2",
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0
+      },
+      "stage": "RELOCATED_IDLE",
+      "serverTime": 1791008069.132315
+    },
+    {
+      "state": "SOLD",
+      "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+      "geometryApproval": "REQUIRES_NATIVE_VIDEO_REVIEW",
+      "observer": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "boneCount": 0,
+        "userId": -2,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 9037,
+          "boneWrites": 130807,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OBSERVER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 9037,
+          "boneWrites": 130807,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 182,
+          "p95": 0.016721000894904137,
+          "mean": 0.01100231925342846,
+          "maximum": 0.021584700793027878
+        }
+      },
+      "id": "the_void",
+      "owner": {
+        "changedBones": [],
+        "state": "SOLD",
+        "uid": "a87b19d0-0f6d-4d49-8dbe-4bca6529974f",
+        "boneCount": 0,
+        "userId": -1,
+        "metricsBefore": {
+          "tracked": 6,
+          "posed": 9991,
+          "boneWrites": 146568,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "maximumVisualAuthoritySeparationStuds": 0,
+        "role": "OWNER",
+        "poseAtEnd": [],
+        "metricsAfter": {
+          "tracked": 6,
+          "posed": 9991,
+          "boneWrites": 146568,
+          "suspended": 6,
+          "missingActs": 0
+        },
+        "geometryApproval": "NOT_PROVED_BY_BONE_TRANSFORMS_REVIEW_NATIVE_VIDEO",
+        "maximumFrameTravelStuds": 0,
+        "modelExists": false,
+        "frames": {
+          "count": 71,
+          "p95": 0.03940650075674057,
+          "mean": 0.02832815632171614,
+          "maximum": 0.047342699021101
+        }
+      },
+      "stage": "CLEANUP",
+      "serverTime": 1791008072.189689
+    }
+  ],
+  "nativeVisualReview": {
+    "reviewer": "root coordinator",
+    "reviewedAtUTC": "2026-10-03T06:30:38.241Z",
+    "ids": [
+      "cursed_doll",
+      "watching_eye",
+      "soul_chains",
+      "plague_monarch",
+      "the_void"
+    ],
+    "roles": [
+      "owner",
+      "observer"
+    ],
+    "scope": "Actual native video decoded pixels at gameplay distance in procession, carrying and pedestal. Sampled articulated geometry; controller transforms alone are not approval.",
+    "evidence": "videos/mp-review/frames-index.json",
+    "limits": "Two partial-duration recordings retained; not all possible angles or uncommon gesture cycles."
+  }
+}

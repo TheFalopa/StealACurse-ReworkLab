@@ -1,0 +1,110 @@
+{
+  "id": "pale_guest",
+  "displayName": "Pale Guest",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_visual_pass2/pale_guest.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/pale_guest.fbx",
+  "sha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+  "triangles": 1716,
+  "vertices": 916,
+  "blenderDimensions": [
+    3.8000001907348633,
+    1.6799976825714111,
+    4.799999713897705
+  ],
+  "intendedRobloxSize": [
+    3.8000001907348633,
+    4.799999713897705,
+    1.6799976825714111
+  ],
+  "diagonal": 6.348416410133188,
+  "vfxHook": [
+    0.3627094030380249,
+    0.14693880081176758,
+    0.44359472393989563
+  ],
+  "vfxProfile": "portrait_ghost",
+  "palette": [
+    "eye",
+    "ghost",
+    "gold",
+    "ink",
+    "ochre",
+    "paper",
+    "wood"
+  ],
+  "paintedColorCount": 413,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "CrookedWoodPortraitFrame",
+      "first_face": 0,
+      "last_face_exclusive": 244
+    },
+    {
+      "name": "GhostPeeringOut",
+      "first_face": 244,
+      "last_face_exclusive": 702
+    },
+    {
+      "name": "PortraitLeafPatternAndWear",
+      "first_face": 702,
+      "last_face_exclusive": 752
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Pale tapered ghost genuinely emerges through torn portrait canvas and deep skewed wooden frame, grips the lower rail with small hands; authored leaf motifs and worn joinery.",
+    "Pass 2: concept-specific proportions and silhouette, lifted dark materials, expanded authored dimensions; preserves actual editable .blend."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/pale_guest.blend",
+  "robloxIntendedSize": [
+    3.8000001907348633,
+    4.799999713897705,
+    1.6799976825714111
+  ],
+  "vfxHookRoblox": [
+    0.3627094030380249,
+    0.14693880081176758,
+    0.44359472393989563
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03800000250339508,
+      0.016799984499812126,
+      0.04800000041723251
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1716,
+    "colorCount": 413,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "pale_guest",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45"
+  },
+  "fbxExported": true,
+  "locallyValidated": true,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/pale_guest.blend",
+  "sourceReusedSha256": "56f85eb9b3f039b45006f5d31bada62db57b561ac84b6e259bc6bc2b69213772"
+}

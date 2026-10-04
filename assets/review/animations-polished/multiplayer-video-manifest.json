@@ -1,0 +1,105 @@
+{
+  "mapping": "Per-client native file prefix confirmed against actual captured role / UTC Unix start attributes; case indices in recorded order. Some recordings ended when the native viewport resized; durations are measured by decoding.",
+  "videos": [
+    {
+      "id": "cursed_doll",
+      "role": "owner",
+      "nativeSource": "wob-10912000000",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-cursed_doll-owner.mp4",
+      "bytes": 11986531,
+      "birthUnixMillis": 1791007902912.0547,
+      "lastWriteUnixMillis": 1791007933184.5894,
+      "durationSeconds": 30.01
+    },
+    {
+      "id": "watching_eye",
+      "role": "owner",
+      "nativeSource": "wob-10912000001",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-watching_eye-owner.mp4",
+      "bytes": 12027005,
+      "birthUnixMillis": 1791007936884.8662,
+      "lastWriteUnixMillis": 1791007967038.7495,
+      "durationSeconds": 30.0
+    },
+    {
+      "id": "soul_chains",
+      "role": "owner",
+      "nativeSource": "wob-10912000002",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-soul_chains-owner.mp4",
+      "bytes": 11425876,
+      "birthUnixMillis": 1791007970959.229,
+      "lastWriteUnixMillis": 1791007993500.2493,
+      "durationSeconds": 22.35
+    },
+    {
+      "id": "plague_monarch",
+      "role": "owner",
+      "nativeSource": "wob-10912000003",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-plague_monarch-owner.mp4",
+      "bytes": 20614709,
+      "birthUnixMillis": 1791008004832.3826,
+      "lastWriteUnixMillis": 1791008035075.5288,
+      "durationSeconds": 30.02
+    },
+    {
+      "id": "the_void",
+      "role": "owner",
+      "nativeSource": "wob-10912000004",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-the_void-owner.mp4",
+      "bytes": 19543384,
+      "birthUnixMillis": 1791008038659.8123,
+      "lastWriteUnixMillis": 1791008068907.935,
+      "durationSeconds": 30.01
+    },
+    {
+      "id": "cursed_doll",
+      "role": "observer",
+      "nativeSource": "wob-24596000000",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-cursed_doll-observer.mp4",
+      "bytes": 20279006,
+      "birthUnixMillis": 1791007904145.2114,
+      "lastWriteUnixMillis": 1791007934338.4,
+      "durationSeconds": 30.01
+    },
+    {
+      "id": "watching_eye",
+      "role": "observer",
+      "nativeSource": "wob-24596000001",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-watching_eye-observer.mp4",
+      "bytes": 21083902,
+      "birthUnixMillis": 1791007938095.338,
+      "lastWriteUnixMillis": 1791007968305.464,
+      "durationSeconds": 30.02
+    },
+    {
+      "id": "soul_chains",
+      "role": "observer",
+      "nativeSource": "wob-24596000002",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-soul_chains-observer.mp4",
+      "bytes": 21320003,
+      "birthUnixMillis": 1791007972158.0935,
+      "lastWriteUnixMillis": 1791008002431.34,
+      "durationSeconds": 30.01
+    },
+    {
+      "id": "plague_monarch",
+      "role": "observer",
+      "nativeSource": "wob-24596000003",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-plague_monarch-observer.mp4",
+      "bytes": 16196750,
+      "birthUnixMillis": 1791008006040.7102,
+      "lastWriteUnixMillis": 1791008036337.129,
+      "durationSeconds": 30.01
+    },
+    {
+      "id": "the_void",
+      "role": "observer",
+      "nativeSource": "wob-24596000004",
+      "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-the_void-observer.mp4",
+      "bytes": 13625507,
+      "birthUnixMillis": 1791008039875.316,
+      "lastWriteUnixMillis": 1791008060913.7097,
+      "durationSeconds": 20.82
+    }
+  ]
+}

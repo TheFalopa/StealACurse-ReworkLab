@@ -1,0 +1,841 @@
+{
+  "schemaVersion": 1,
+  "revision": "semantic-v2",
+  "status": "METADATA_GEOMETRY_PASS",
+  "metadataOnly": true,
+  "meshClearanceUnchanged": true,
+  "maximumHookExposureOutsideMeshBoundsStuds": 0.25,
+  "surfaceMethod": "BVH intersections against frozen authored triangles; Roblox(X,Y,Z)=Blender(X,Z,-Y).",
+  "primaryCorrections": [
+    {
+      "pointRoblox": [
+        0.0,
+        1.2770357131958008,
+        0.2732393443584442
+      ],
+      "nearestSurfaceDistanceStuds": 0.07789049297571182,
+      "signedNearestSurfaceDistanceStuds": 0.07723739673383534,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0,
+      "id": "candle_wisp",
+      "oldPointRoblox": [
+        0.0,
+        1.2770357131958008,
+        0.03902323544025421
+      ],
+      "frontSurfacePointRoblox": [
+        0.0,
+        1.2770357131958008,
+        0.16823935508728027
+      ],
+      "surfaceClearanceStuds": 0.105,
+      "sampledMotionMinimumSignedDistanceStuds": 0.07723739673383534,
+      "purpose": "Expose the focus and emission source in front of the actual painted focal surface."
+    },
+    {
+      "pointRoblox": [
+        -0.2549999952316284,
+        0.852774441242218,
+        0.7933317422866821
+      ],
+      "nearestSurfaceDistanceStuds": 0.1288013756275177,
+      "signedNearestSurfaceDistanceStuds": 0.12839243386406451,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0.09747469425201416,
+      "id": "wilted_sprout",
+      "oldPointRoblox": [
+        -0.2549999952316284,
+        0.852774441242218,
+        0.5120595097541809
+      ],
+      "frontSurfacePointRoblox": [
+        -0.2549999952316284,
+        0.852774441242218,
+        0.6633317470550537
+      ],
+      "surfaceClearanceStuds": 0.13,
+      "sampledMotionMinimumSignedDistanceStuds": 0.12333126601879485,
+      "purpose": "Expose the focus and emission source in front of the actual painted focal surface."
+    },
+    {
+      "pointRoblox": [
+        -0.9225021600723267,
+        1.315000057220459,
+        1.131300687789917
+      ],
+      "nearestSurfaceDistanceStuds": 0.18000000715255737,
+      "signedNearestSurfaceDistanceStuds": 0.16832034289836884,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0.18000000715255737,
+      "id": "marrow_dice",
+      "oldPointRoblox": [
+        -0.9225021600723267,
+        1.315000057220459,
+        0.8613006472587585
+      ],
+      "frontSurfacePointRoblox": [
+        -0.9225021600723267,
+        1.315000057220459,
+        0.9513006806373596
+      ],
+      "surfaceClearanceStuds": 0.18,
+      "sampledMotionMinimumSignedDistanceStuds": 0.07039763126522303,
+      "purpose": "Expose the focus and emission source in front of the actual painted focal surface."
+    },
+    {
+      "pointRoblox": [
+        0.07249999791383743,
+        1.0391743183135986,
+        0.3731524348258972
+      ],
+      "nearestSurfaceDistanceStuds": 0.06279588490724564,
+      "signedNearestSurfaceDistanceStuds": 0.06279588607139885,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0,
+      "id": "sorrow_chalice",
+      "oldPointRoblox": [
+        0.07249999791383743,
+        1.0391743183135986,
+        0.11000002175569534
+      ],
+      "frontSurfacePointRoblox": [
+        0.07249999791383743,
+        1.0391743183135986,
+        0.2981524169445038
+      ],
+      "surfaceClearanceStuds": 0.075,
+      "sampledMotionMinimumSignedDistanceStuds": 0.06279588607139885,
+      "purpose": "Expose the focus and emission source in front of the actual painted focal surface."
+    },
+    {
+      "pointRoblox": [
+        -9.304285049438477e-05,
+        0.8682346940040588,
+        0.41472944617271423
+      ],
+      "nearestSurfaceDistanceStuds": 0.08965513110160828,
+      "signedNearestSurfaceDistanceStuds": 0.08928785100579262,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0,
+      "id": "thimble_spider",
+      "oldPointRoblox": [
+        -9.304285049438477e-05,
+        0.8682346940040588,
+        -0.1307704746723175
+      ],
+      "frontSurfacePointRoblox": [
+        -9.304285049438477e-05,
+        0.8682346940040588,
+        0.2847294509410858
+      ],
+      "surfaceClearanceStuds": 0.13,
+      "sampledMotionMinimumSignedDistanceStuds": 0.07081871075206436,
+      "purpose": "Expose the focus and emission source in front of the actual painted focal surface."
+    }
+  ],
+  "addedSemanticHooks": [
+    {
+      "pointRoblox": [
+        -0.9321632385253906,
+        0.6369315385818481,
+        0.23999999463558197
+      ],
+      "nearestSurfaceDistanceStuds": 0.12206562608480453,
+      "signedNearestSurfaceDistanceStuds": 0.09391047970448696,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0,
+      "id": "silent_choir",
+      "name": "leftHead",
+      "sourcePointBlender": [
+        -0.89,
+        -0.24,
+        2.42
+      ],
+      "sourceOriginShiftBlender": [
+        0.04216327518224716,
+        0.0,
+        1.7830685377120972
+      ],
+      "purpose": "Exact opening centers of the three transformed hollow bell heads."
+    },
+    {
+      "pointRoblox": [
+        -0.04216327518224716,
+        1.2869313955307007,
+        0.23999999463558197
+      ],
+      "nearestSurfaceDistanceStuds": 0.12206552177667618,
+      "signedNearestSurfaceDistanceStuds": 0.09391044825315475,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0,
+      "id": "silent_choir",
+      "name": "middleHead",
+      "sourcePointBlender": [
+        0,
+        -0.24,
+        3.07
+      ],
+      "sourceOriginShiftBlender": [
+        0.04216327518224716,
+        0.0,
+        1.7830685377120972
+      ],
+      "purpose": "Exact opening centers of the three transformed hollow bell heads."
+    },
+    {
+      "pointRoblox": [
+        0.8978367447853088,
+        0.8169313669204712,
+        0.23999999463558197
+      ],
+      "nearestSurfaceDistanceStuds": 0.12206552177667618,
+      "signedNearestSurfaceDistanceStuds": -0.04521619901061058,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0,
+      "id": "silent_choir",
+      "name": "rightHead",
+      "sourcePointBlender": [
+        0.94,
+        -0.24,
+        2.6
+      ],
+      "sourceOriginShiftBlender": [
+        0.04216327518224716,
+        0.0,
+        1.7830685377120972
+      ],
+      "purpose": "Exact opening centers of the three transformed hollow bell heads."
+    },
+    {
+      "pointRoblox": [
+        -1.2799999713897705,
+        -0.21092259883880615,
+        0.16442501544952393
+      ],
+      "nearestSurfaceDistanceStuds": 0.15627551078796387,
+      "signedNearestSurfaceDistanceStuds": 0.08706441335380077,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0,
+      "id": "judgement_scales",
+      "name": "leftPan",
+      "sourcePointBlender": [
+        -1.28,
+        -0.24,
+        1.6099999999999999
+      ],
+      "sourceOriginShiftBlender": [
+        0.0,
+        -0.07557497173547745,
+        1.820922613143921
+      ],
+      "purpose": "Two pan focal centers above their rims and in front of the bound souls, clearing the front claw tips."
+    },
+    {
+      "pointRoblox": [
+        1.2799999713897705,
+        0.27907729148864746,
+        0.16442501544952393
+      ],
+      "nearestSurfaceDistanceStuds": 0.10281593352556229,
+      "signedNearestSurfaceDistanceStuds": 0.07309358869679272,
+      "frontRayClear": true,
+      "outsideMeshBoundingBoxStuds": 0,
+      "id": "judgement_scales",
+      "name": "rightPan",
+      "sourcePointBlender": [
+        1.28,
+        -0.24,
+        2.1
+      ],
+      "sourceOriginShiftBlender": [
+        0.0,
+        -0.07557497173547745,
+        1.820922613143921
+      ],
+      "purpose": "Two pan focal centers above their rims and in front of the bound souls, clearing the front claw tips."
+    }
+  ],
+  "semanticMotionPaths": [
+    {
+      "id": "silent_choir",
+      "samples": 800,
+      "observedLocalCycleSeconds": 40,
+      "visitedHooks": [
+        "leftHead",
+        "middleHead",
+        "rightHead"
+      ],
+      "minimumSurfaceDistanceStuds": 0.12206558138132095,
+      "maximumOutsideMeshBoundingBoxStuds": 0,
+      "status": "ACTUAL_FROZEN_SURFACE_PATH_PASS"
+    },
+    {
+      "id": "judgement_scales",
+      "samples": 800,
+      "observedLocalCycleSeconds": 40,
+      "visitedHooks": [
+        "leftPan",
+        "rightPan"
+      ],
+      "minimumSurfaceDistanceStuds": 0.09750552475452423,
+      "maximumOutsideMeshBoundingBoxStuds": 0,
+      "status": "ACTUAL_FROZEN_SURFACE_PATH_PASS"
+    },
+    {
+      "id": "pale_gramophone",
+      "samples": 800,
+      "observedLocalCycleSeconds": 40,
+      "visitedHooks": [
+        "hornMouth",
+        "turntable"
+      ],
+      "minimumSurfaceDistanceStuds": 0.0699717178940773,
+      "maximumOutsideMeshBoundingBoxStuds": 0,
+      "status": "ACTUAL_FROZEN_SURFACE_PATH_PASS"
+    }
+  ],
+  "frozenAssets": [
+    {
+      "id": "candle_wisp",
+      "blendSource": "assets/source/blender/curses_expansion/rework/candle_wisp.blend",
+      "export": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+      "blendSha256Before": "a18fd6eea9db1ba9ed63a2584348e0bd5e39ad6c4234bf82ac40d8fbf0298121",
+      "fbxSha256Before": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "blendSha256After": "a18fd6eea9db1ba9ed63a2584348e0bd5e39ad6c4234bf82ac40d8fbf0298121",
+      "fbxSha256After": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "grave_hopper",
+      "blendSource": "assets/source/blender/curses_expansion/rework/grave_hopper.blend",
+      "export": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+      "blendSha256Before": "62290b144c95dc614cb6b76f1fa73d7ddedacadb439144aa7d7148f69ceeeb6d",
+      "fbxSha256Before": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "blendSha256After": "62290b144c95dc614cb6b76f1fa73d7ddedacadb439144aa7d7148f69ceeeb6d",
+      "fbxSha256After": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "grave_key",
+      "blendSource": "assets/source/blender/curses_expansion/rework/grave_key.blend",
+      "export": "assets/export/meshes/curses/rework/grave_key.fbx",
+      "blendSha256Before": "2fbf956a6b39a006fc9a0248d748a53526aaaeec6b272afaf4b88fd98072d9f6",
+      "fbxSha256Before": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+      "blendSha256After": "2fbf956a6b39a006fc9a0248d748a53526aaaeec6b272afaf4b88fd98072d9f6",
+      "fbxSha256After": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "mourning_ribbon",
+      "blendSource": "assets/source/blender/curses_expansion/rework/mourning_ribbon.blend",
+      "export": "assets/export/meshes/curses/rework/mourning_ribbon.fbx",
+      "blendSha256Before": "cc0943c3866d9f33a97b4c0c042c20118a54a408d89cf338eaae522ffc9c4dff",
+      "fbxSha256Before": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+      "blendSha256After": "cc0943c3866d9f33a97b4c0c042c20118a54a408d89cf338eaae522ffc9c4dff",
+      "fbxSha256After": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "wilted_sprout",
+      "blendSource": "assets/source/blender/curses_expansion/rework/wilted_sprout.blend",
+      "export": "assets/export/meshes/curses/rework/wilted_sprout.fbx",
+      "blendSha256Before": "0ca71e64786461ba73191941dfaa43ec9708f7531c72e52dad30668edceb1252",
+      "fbxSha256Before": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+      "blendSha256After": "0ca71e64786461ba73191941dfaa43ec9708f7531c72e52dad30668edceb1252",
+      "fbxSha256After": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "ink_imp",
+      "blendSource": "assets/source/blender/curses_expansion/rework/ink_imp.blend",
+      "export": "assets/export/meshes/curses/rework/ink_imp.fbx",
+      "blendSha256Before": "d340fa50ef92cd5168f6c609e59877cdd20c6ee9cdc8317254583130072281a3",
+      "fbxSha256Before": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "blendSha256After": "d340fa50ef92cd5168f6c609e59877cdd20c6ee9cdc8317254583130072281a3",
+      "fbxSha256After": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "lost_locket",
+      "blendSource": "assets/source/blender/curses_expansion/rework/lost_locket.blend",
+      "export": "assets/export/meshes/curses/rework/lost_locket.fbx",
+      "blendSha256Before": "d13052ee5382d6d189278e5e2ad9274b33388c66819e1bc453e3e59dda9b4c5d",
+      "fbxSha256Before": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "blendSha256After": "d13052ee5382d6d189278e5e2ad9274b33388c66819e1bc453e3e59dda9b4c5d",
+      "fbxSha256After": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "ashen_book",
+      "blendSource": "assets/source/blender/curses_expansion/rework/ashen_book.blend",
+      "export": "assets/export/meshes/curses/rework/ashen_book.fbx",
+      "blendSha256Before": "4b016f41684b356a69ee0f892e701c61688f949e67a0b1d981aa8e791a5f96db",
+      "fbxSha256Before": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "blendSha256After": "4b016f41684b356a69ee0f892e701c61688f949e67a0b1d981aa8e791a5f96db",
+      "fbxSha256After": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "lantern_lurker",
+      "blendSource": "assets/source/blender/curses_expansion/rework/lantern_lurker.blend",
+      "export": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+      "blendSha256Before": "4ee80bfde8aa164405b20018d6385d49202ad6c4074894c5d450b6635cbc37d6",
+      "fbxSha256Before": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "blendSha256After": "4ee80bfde8aa164405b20018d6385d49202ad6c4074894c5d450b6635cbc37d6",
+      "fbxSha256After": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "hourglass_hound",
+      "blendSource": "assets/source/blender/curses_expansion/rework/hourglass_hound.blend",
+      "export": "assets/export/meshes/curses/rework/hourglass_hound.fbx",
+      "blendSha256Before": "09ab7e31c393754dc869c9317b797d36cc9056df82d48689985a2c6b2fcd5e5e",
+      "fbxSha256Before": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+      "blendSha256After": "09ab7e31c393754dc869c9317b797d36cc9056df82d48689985a2c6b2fcd5e5e",
+      "fbxSha256After": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "nail_beetle",
+      "blendSource": "assets/source/blender/curses_expansion/rework/nail_beetle.blend",
+      "export": "assets/export/meshes/curses/rework/nail_beetle.fbx",
+      "blendSha256Before": "0d5258f248311fd9d7444a240db26af256651233f1c7c5a5d1033eab129685b2",
+      "fbxSha256Before": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+      "blendSha256After": "0d5258f248311fd9d7444a240db26af256651233f1c7c5a5d1033eab129685b2",
+      "fbxSha256After": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "pale_guest",
+      "blendSource": "assets/source/blender/curses_expansion/rework/pale_guest.blend",
+      "export": "assets/export/meshes/curses/rework/pale_guest.fbx",
+      "blendSha256Before": "56f85eb9b3f039b45006f5d31bada62db57b561ac84b6e259bc6bc2b69213772",
+      "fbxSha256Before": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+      "blendSha256After": "56f85eb9b3f039b45006f5d31bada62db57b561ac84b6e259bc6bc2b69213772",
+      "fbxSha256After": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "cold_teacup",
+      "blendSource": "assets/source/blender/curses_expansion/rework/cold_teacup.blend",
+      "export": "assets/export/meshes/curses/rework/cold_teacup.fbx",
+      "blendSha256Before": "17a5e426ab6d39b7cb2f3e9c364ab955e9cf69277e754f0db43af4e1432ee774",
+      "fbxSha256Before": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+      "blendSha256After": "17a5e426ab6d39b7cb2f3e9c364ab955e9cf69277e754f0db43af4e1432ee774",
+      "fbxSha256After": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "coin_crawler",
+      "blendSource": "assets/source/blender/curses_expansion/rework/coin_crawler.blend",
+      "export": "assets/export/meshes/curses/rework/coin_crawler.fbx",
+      "blendSha256Before": "32228f4f0c237c599745ee897d75d796f1bbe94fb8b7da6e4efb1d994d9f9ac2",
+      "fbxSha256Before": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+      "blendSha256After": "32228f4f0c237c599745ee897d75d796f1bbe94fb8b7da6e4efb1d994d9f9ac2",
+      "fbxSha256After": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "umbrella_wraith",
+      "blendSource": "assets/source/blender/curses_expansion/rework/umbrella_wraith.blend",
+      "export": "assets/export/meshes/curses/rework/umbrella_wraith.fbx",
+      "blendSha256Before": "f77ba58347b95a2f0d0da1819ffca2a17d2c71fbd7185f7523e74e92a65364e0",
+      "fbxSha256Before": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+      "blendSha256After": "f77ba58347b95a2f0d0da1819ffca2a17d2c71fbd7185f7523e74e92a65364e0",
+      "fbxSha256After": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "pale_gramophone",
+      "blendSource": "assets/source/blender/curses_expansion/rework/pale_gramophone.blend",
+      "export": "assets/export/meshes/curses/rework/pale_gramophone.fbx",
+      "blendSha256Before": "86536d8cfe4eef4ab6c68fee0e7fea56eb3a30cb7a0df897391e1d6cb81d86d3",
+      "fbxSha256Before": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+      "blendSha256After": "86536d8cfe4eef4ab6c68fee0e7fea56eb3a30cb7a0df897391e1d6cb81d86d3",
+      "fbxSha256After": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "veil_mourner",
+      "blendSource": "assets/source/blender/curses_expansion/rework/veil_mourner.blend",
+      "export": "assets/export/meshes/curses/rework/veil_mourner.fbx",
+      "blendSha256Before": "c3a5ab1dbda7a66cebe47df2fd052ac4ede41e848ecf3d79ab0e306404d03a2c",
+      "fbxSha256Before": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+      "blendSha256After": "c3a5ab1dbda7a66cebe47df2fd052ac4ede41e848ecf3d79ab0e306404d03a2c",
+      "fbxSha256After": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "grave_compass",
+      "blendSource": "assets/source/blender/curses_expansion/rework/grave_compass.blend",
+      "export": "assets/export/meshes/curses/rework/grave_compass.fbx",
+      "blendSha256Before": "3038f9bffca0be01999cede9ac452f2e472e707bcd08fade0847f34f8ef17097",
+      "fbxSha256Before": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "blendSha256After": "3038f9bffca0be01999cede9ac452f2e472e707bcd08fade0847f34f8ef17097",
+      "fbxSha256After": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "hollow_violin",
+      "blendSource": "assets/source/blender/curses_expansion/rework/hollow_violin.blend",
+      "export": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+      "blendSha256Before": "2cbddaec0b7274f80bf3a493743d315db8c988c7444d5547d77280cf32731c94",
+      "fbxSha256Before": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "blendSha256After": "2cbddaec0b7274f80bf3a493743d315db8c988c7444d5547d77280cf32731c94",
+      "fbxSha256After": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "marrow_dice",
+      "blendSource": "assets/source/blender/curses_expansion/rework/marrow_dice.blend",
+      "export": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+      "blendSha256Before": "466fd373aac78ec4ee02fb06ef523f84ad68abfde083ea1af0f29178626c34dc",
+      "fbxSha256Before": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "blendSha256After": "466fd373aac78ec4ee02fb06ef523f84ad68abfde083ea1af0f29178626c34dc",
+      "fbxSha256After": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "chime_triplets",
+      "blendSource": "assets/source/blender/curses_expansion/rework/chime_triplets.blend",
+      "export": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+      "blendSha256Before": "e3c1af87fa2d9821631b4ac6357da83d9c52994b7bf7324c29fc8b4b0ff02948",
+      "fbxSha256Before": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "blendSha256After": "e3c1af87fa2d9821631b4ac6357da83d9c52994b7bf7324c29fc8b4b0ff02948",
+      "fbxSha256After": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "music_box_dancer",
+      "blendSource": "assets/source/blender/curses_expansion/rework/music_box_dancer.blend",
+      "export": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+      "blendSha256Before": "e0fe6b5313715efc68e2f7e6920eec672dbdfd6dc90cab83c8eabdee0303048b",
+      "fbxSha256Before": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "blendSha256After": "e0fe6b5313715efc68e2f7e6920eec672dbdfd6dc90cab83c8eabdee0303048b",
+      "fbxSha256After": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "raven_quill",
+      "blendSource": "assets/source/blender/curses_expansion/rework/raven_quill.blend",
+      "export": "assets/export/meshes/curses/rework/raven_quill.fbx",
+      "blendSha256Before": "f76bb91cd5bba9741713bcb3bd6073812a66e749b68cd7c3b8a171e3e2909e1e",
+      "fbxSha256Before": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+      "blendSha256After": "f76bb91cd5bba9741713bcb3bd6073812a66e749b68cd7c3b8a171e3e2909e1e",
+      "fbxSha256After": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "sorrow_chalice",
+      "blendSource": "assets/source/blender/curses_expansion/rework/sorrow_chalice.blend",
+      "export": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+      "blendSha256Before": "32f9b6ca89efb18cd5438d8432d9af2229120f033be5019b436088ebc2914b45",
+      "fbxSha256Before": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "blendSha256After": "32f9b6ca89efb18cd5438d8432d9af2229120f033be5019b436088ebc2914b45",
+      "fbxSha256After": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "thimble_spider",
+      "blendSource": "assets/source/blender/curses_expansion/rework/thimble_spider.blend",
+      "export": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+      "blendSha256Before": "712bfe31a0239e3da19b60c95afda53531813b70b2ceca378c7d04b1aaf82e1c",
+      "fbxSha256Before": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "blendSha256After": "712bfe31a0239e3da19b60c95afda53531813b70b2ceca378c7d04b1aaf82e1c",
+      "fbxSha256After": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "thorn_reliquary",
+      "blendSource": "assets/source/blender/curses_expansion/rework/thorn_reliquary.blend",
+      "export": "assets/export/meshes/curses/rework/thorn_reliquary.fbx",
+      "blendSha256Before": "cddc1a0f37b924404e2f8c65ae57ddf97dca69f6d9308f5ab0c0bfa5eac4e35b",
+      "fbxSha256Before": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+      "blendSha256After": "cddc1a0f37b924404e2f8c65ae57ddf97dca69f6d9308f5ab0c0bfa5eac4e35b",
+      "fbxSha256After": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "sundial_sentinel",
+      "blendSource": "assets/source/blender/curses_expansion/rework/sundial_sentinel.blend",
+      "export": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+      "blendSha256Before": "1fd398e338d071013ab89f56adfd1ecad5c72d4b363467fb8f28e3ec8c2b58b3",
+      "fbxSha256Before": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "blendSha256After": "1fd398e338d071013ab89f56adfd1ecad5c72d4b363467fb8f28e3ec8c2b58b3",
+      "fbxSha256After": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "sleepwalker_shoes",
+      "blendSource": "assets/source/blender/curses_expansion/rework/sleepwalker_shoes.blend",
+      "export": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+      "blendSha256Before": "d930d33ee0b5a4ad891e8cbc15924ee9f672aefac14e8adad2a43590c6e6c0dd",
+      "fbxSha256Before": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "blendSha256After": "d930d33ee0b5a4ad891e8cbc15924ee9f672aefac14e8adad2a43590c6e6c0dd",
+      "fbxSha256After": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "anchor_crab",
+      "blendSource": "assets/source/blender/curses_expansion/rework/anchor_crab.blend",
+      "export": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+      "blendSha256Before": "e1c4ade25ce6a8bccedda0eaff967fc765b880844d7747f613dc9d616aa7dd51",
+      "fbxSha256Before": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "blendSha256After": "e1c4ade25ce6a8bccedda0eaff967fc765b880844d7747f613dc9d616aa7dd51",
+      "fbxSha256After": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "the_last_star",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_last_star.blend",
+      "export": "assets/export/meshes/curses/rework/the_last_star.fbx",
+      "blendSha256Before": "55e421c53e6df4e2b98f7e48de573a26e8da8abe28cdec14f61fd2fc64c2dc43",
+      "fbxSha256Before": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "blendSha256After": "55e421c53e6df4e2b98f7e48de573a26e8da8abe28cdec14f61fd2fc64c2dc43",
+      "fbxSha256After": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "night_harp",
+      "blendSource": "assets/source/blender/curses_expansion/rework/night_harp.blend",
+      "export": "assets/export/meshes/curses/rework/night_harp.fbx",
+      "blendSha256Before": "9da7f19719d3d350ae3a9d43f48c13400a2f6511cc32fac69ba7716431f0b2ee",
+      "fbxSha256Before": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "blendSha256After": "9da7f19719d3d350ae3a9d43f48c13400a2f6511cc32fac69ba7716431f0b2ee",
+      "fbxSha256After": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "worldroot",
+      "blendSource": "assets/source/blender/curses_expansion/rework/worldroot.blend",
+      "export": "assets/export/meshes/curses/rework/worldroot.fbx",
+      "blendSha256Before": "78a0e6683bc4a6bd2908672f736828af4230236d573ad7945f553212d33728dc",
+      "fbxSha256Before": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "blendSha256After": "78a0e6683bc4a6bd2908672f736828af4230236d573ad7945f553212d33728dc",
+      "fbxSha256After": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "phantom_marionette",
+      "blendSource": "assets/source/blender/curses_expansion/rework/phantom_marionette.blend",
+      "export": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+      "blendSha256Before": "9835e1af430fb1cfbfccef238b12bc5cf054266efc69a4ac745926d50067ad1c",
+      "fbxSha256Before": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "blendSha256After": "9835e1af430fb1cfbfccef238b12bc5cf054266efc69a4ac745926d50067ad1c",
+      "fbxSha256After": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "judgement_scales",
+      "blendSource": "assets/source/blender/curses_expansion/rework/judgement_scales.blend",
+      "export": "assets/export/meshes/curses/rework/judgement_scales.fbx",
+      "blendSha256Before": "9f1e9e163e26ad20a20261c20adc202a410f917936c1a0b1995bd29e64022ea1",
+      "fbxSha256Before": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "blendSha256After": "9f1e9e163e26ad20a20261c20adc202a410f917936c1a0b1995bd29e64022ea1",
+      "fbxSha256After": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "clockwork_raven",
+      "blendSource": "assets/source/blender/curses_expansion/rework/clockwork_raven.blend",
+      "export": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+      "blendSha256Before": "39725498d973f10e92b7acad808b5faee373881948efe7252cc1e17385e429db",
+      "fbxSha256Before": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "blendSha256After": "39725498d973f10e92b7acad808b5faee373881948efe7252cc1e17385e429db",
+      "fbxSha256After": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "eclipse_stag",
+      "blendSource": "assets/source/blender/curses_expansion/rework/eclipse_stag.blend",
+      "export": "assets/export/meshes/curses/rework/eclipse_stag.fbx",
+      "blendSha256Before": "612f78bcaed6b1655269a5f00e7c4661000f12faf7505281fda3f830b80307b7",
+      "fbxSha256Before": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "blendSha256After": "612f78bcaed6b1655269a5f00e7c4661000f12faf7505281fda3f830b80307b7",
+      "fbxSha256After": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "endless_library",
+      "blendSource": "assets/source/blender/curses_expansion/rework/endless_library.blend",
+      "export": "assets/export/meshes/curses/rework/endless_library.fbx",
+      "blendSha256Before": "3ad246ea8d5deeda19580f4192c118b0c84c8ad9d8e6a89be20a90724ef33222",
+      "fbxSha256Before": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "blendSha256After": "3ad246ea8d5deeda19580f4192c118b0c84c8ad9d8e6a89be20a90724ef33222",
+      "fbxSha256After": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "sunken_crown",
+      "blendSource": "assets/source/blender/curses_expansion/rework/sunken_crown.blend",
+      "export": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+      "blendSha256Before": "d6ea46c5d054a76b2613cfd6aa3fe87015ecab71ef1fe98a321f9a578ab1b957",
+      "fbxSha256Before": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "blendSha256After": "d6ea46c5d054a76b2613cfd6aa3fe87015ecab71ef1fe98a321f9a578ab1b957",
+      "fbxSha256After": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "cathedral_heart",
+      "blendSource": "assets/source/blender/curses_expansion/rework/cathedral_heart.blend",
+      "export": "assets/export/meshes/curses/rework/cathedral_heart.fbx",
+      "blendSha256Before": "7d194255975db384a394a4c14a2043e93004603ffb52bdab7c02639c63e8539e",
+      "fbxSha256Before": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "blendSha256After": "7d194255975db384a394a4c14a2043e93004603ffb52bdab7c02639c63e8539e",
+      "fbxSha256After": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "hollow_throne",
+      "blendSource": "assets/source/blender/curses_expansion/rework/hollow_throne.blend",
+      "export": "assets/export/meshes/curses/rework/hollow_throne.fbx",
+      "blendSha256Before": "5953351d9769d69cb58a89bf8f39eb4bdd6cd7aa42f7d3acc4cfcdc780d6cb9f",
+      "fbxSha256Before": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "blendSha256After": "5953351d9769d69cb58a89bf8f39eb4bdd6cd7aa42f7d3acc4cfcdc780d6cb9f",
+      "fbxSha256After": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "the_undertow",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_undertow.blend",
+      "export": "assets/export/meshes/curses/rework/the_undertow.fbx",
+      "blendSha256Before": "42c653beefab619f63655cd467a1e34a275f44ba62e3b884558a981a75f24be4",
+      "fbxSha256Before": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "blendSha256After": "42c653beefab619f63655cd467a1e34a275f44ba62e3b884558a981a75f24be4",
+      "fbxSha256After": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "nameless_door",
+      "blendSource": "assets/source/blender/curses_expansion/rework/nameless_door.blend",
+      "export": "assets/export/meshes/curses/rework/nameless_door.fbx",
+      "blendSha256Before": "f0d5e7312b113063deb9323a5daf4b76fd5c0b716b8403b2ecbb4b54d43a4790",
+      "fbxSha256Before": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "blendSha256After": "f0d5e7312b113063deb9323a5daf4b76fd5c0b716b8403b2ecbb4b54d43a4790",
+      "fbxSha256After": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "the_first_grave",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_first_grave.blend",
+      "export": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+      "blendSha256Before": "8f325f200d572f7f72cdb2e310c56880f02b2c877cd735845b050c9bac2f47ea",
+      "fbxSha256Before": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "blendSha256After": "8f325f200d572f7f72cdb2e310c56880f02b2c877cd735845b050c9bac2f47ea",
+      "fbxSha256After": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "thorn_cathedral",
+      "blendSource": "assets/source/blender/curses_expansion/rework/thorn_cathedral.blend",
+      "export": "assets/export/meshes/curses/rework/thorn_cathedral.fbx",
+      "blendSha256Before": "3453471876f13cf3d331ef808c9bb577ebc6c3ab75daaa577f3dfcb0da6d5d42",
+      "fbxSha256Before": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "blendSha256After": "3453471876f13cf3d331ef808c9bb577ebc6c3ab75daaa577f3dfcb0da6d5d42",
+      "fbxSha256After": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "silent_choir",
+      "blendSource": "assets/source/blender/curses_expansion/rework/silent_choir.blend",
+      "export": "assets/export/meshes/curses/rework/silent_choir.fbx",
+      "blendSha256Before": "c805b7e528eecb0e5766df34045d450c2eb82ebcd237e50203892dbb8e3f65af",
+      "fbxSha256Before": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "blendSha256After": "c805b7e528eecb0e5766df34045d450c2eb82ebcd237e50203892dbb8e3f65af",
+      "fbxSha256After": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "plague_monarch",
+      "blendSource": "assets/source/blender/curses_expansion/rework/plague_monarch.blend",
+      "export": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+      "blendSha256Before": "b24408686e23e672629373161a1e1c8d00d25729961e71d2b1c2ac0dd5a40065",
+      "fbxSha256Before": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "blendSha256After": "b24408686e23e672629373161a1e1c8d00d25729961e71d2b1c2ac0dd5a40065",
+      "fbxSha256After": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "blood_moon_rose",
+      "blendSource": "assets/source/blender/curses_expansion/rework/blood_moon_rose.blend",
+      "export": "assets/export/meshes/curses/rework/blood_moon_rose.fbx",
+      "blendSha256Before": "5f4671112b3fa697d535c8d86d016e6156083c0782f3c9e6088ae1dbfbeea33d",
+      "fbxSha256Before": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "blendSha256After": "5f4671112b3fa697d535c8d86d016e6156083c0782f3c9e6088ae1dbfbeea33d",
+      "fbxSha256After": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "the_last_funeral",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_last_funeral.blend",
+      "export": "assets/export/meshes/curses/rework/the_last_funeral.fbx",
+      "blendSha256Before": "761d9ae4de0af78f189c636680c9c918b4d1c931b68fcafae8da7573641cb943",
+      "fbxSha256Before": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "blendSha256After": "761d9ae4de0af78f189c636680c9c918b4d1c931b68fcafae8da7573641cb943",
+      "fbxSha256After": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "crown_of_silence",
+      "blendSource": "assets/source/blender/curses_expansion/rework/crown_of_silence.blend",
+      "export": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+      "blendSha256Before": "12174736e7ba16cf4073316ef79b9d7aedb1b453a89309de8e39ce864d18bd48",
+      "fbxSha256Before": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "blendSha256After": "12174736e7ba16cf4073316ef79b9d7aedb1b453a89309de8e39ce864d18bd48",
+      "fbxSha256After": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    },
+    {
+      "id": "the_unwritten",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_unwritten.blend",
+      "export": "assets/export/meshes/curses/rework/the_unwritten.fbx",
+      "blendSha256Before": "cd5bb3f64cef3e2c9fcba18edf9de41eb519cf7008f73ff52aa3e398a52f4064",
+      "fbxSha256Before": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "blendSha256After": "cd5bb3f64cef3e2c9fcba18edf9de41eb519cf7008f73ff52aa3e398a52f4064",
+      "fbxSha256After": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "status": "FROZEN_BYTES_UNCHANGED"
+    }
+  ],
+  "frozenAssetCount": 50,
+  "profileCoverageCount": 50,
+  "namedHookCount": 27,
+  "vfxRevisionSha256": "6b8b472beb57af366e6d2ecbc899e1ca80c7c727dace0408f7191bff8e1d3b71",
+  "revisionPayload": {
+    "revision": "semantic-v2",
+    "sourceFiles": [
+      {
+        "path": "src/client/CurseVFX.luau",
+        "sha256": "16e38dac55ea63f72cea1e1840c6a935ee29de01f664180e1d5b5241e8eb569c"
+      },
+      {
+        "path": "src/shared/CurseVFXProfiles.luau",
+        "sha256": "355350ab2c4ee5b268217d0ab98913cdaf990637936f86164ff17ff97f6017db"
+      },
+      {
+        "path": "assets/source/blender/curses_expansion/rework/common_geometry.json",
+        "sha256": "b5679851f2194bce2fe4e9d0d27b235c2f9eab145096d549e95b2979f23ce739"
+      },
+      {
+        "path": "assets/source/blender/curses_expansion/rework/rare_geometry.json",
+        "sha256": "dd141cb33c7c6fc86a52a2a16cba6626c59902446e016fd3703f354960662728"
+      },
+      {
+        "path": "assets/source/blender/curses_expansion/rework/high_geometry.json",
+        "sha256": "b8a8e76b35e6dd9c036d38b86a4d98064e18b9a6306d980088f52664ab7ecac8"
+      }
+    ],
+    "maximumHookExposureOutsideMeshBoundsStuds": 0.25
+  },
+  "revisionHashMethod": "SHA256 of revisionPayload serialized as sorted-key compact JSON.",
+  "motionSemantics": {
+    "sunken_crown": "Top emission, upward 0.4 acceleration; unchanged low rate and locked source.",
+    "crown_of_silence": "1.2s emission/focus pause in every 3.5s cycle.",
+    "the_unwritten": "1.2s emission/focus pause in every 3.5s cycle.",
+    "heartbeat": "Base rate multiplied by 0.65+0.95*pulse, maximum 1.6.",
+    "clockwork_raven": "0.15s brass tick at 1.6 rate multiplier each second, baseline 0.65.",
+    "silent_choir": "Alternates the three measured head openings each second.",
+    "judgement_scales": "Alternates the two unequal pan focal centers each 1.6s.",
+    "pale_gramophone": "Three seconds of horn resonance, one second of glint circling actual record grooves; clears prior locked phrase on transition."
+  },
+  "studioVFXChecked": false
+}

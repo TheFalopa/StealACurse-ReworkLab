@@ -1,0 +1,110 @@
+{
+  "id": "the_last_star",
+  "displayName": "The Last Star",
+  "rarity": "Secret",
+  "sourceReference": "assets/reference/rework-12-secret.png",
+  "source": "assets/source/blender/curses_expansion/rework/the_last_star.blend",
+  "export": "assets/export/meshes/curses/rework/the_last_star.fbx",
+  "sha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+  "triangles": 4792,
+  "vertices": 2588,
+  "blenderDimensions": [
+    3.880000114440918,
+    2.094557523727417,
+    4.618844032287598
+  ],
+  "intendedRobloxSize": [
+    3.880000114440918,
+    4.618844032287598,
+    2.094557523727417
+  ],
+  "diagonal": 6.385553406155446,
+  "vfxHook": [
+    0.0,
+    0.2994219504296778,
+    0.20545986771583558
+  ],
+  "vfxProfile": "last_star_cage",
+  "palette": [
+    "cold_white",
+    "ivory",
+    "obsidian",
+    "star_edge",
+    "star_iron",
+    "star_wear",
+    "white_glow"
+  ],
+  "paintedColorCount": 768,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Four articulated sentinel feet and knee plates",
+      "first_face": 0,
+      "last_face_exclusive": 516
+    },
+    {
+      "name": "Open octagonal chest frame and layered shoulder buttresses",
+      "first_face": 516,
+      "last_face_exclusive": 1078
+    },
+    {
+      "name": "Eight pointed imprisoned star with cold white center",
+      "first_face": 1078,
+      "last_face_exclusive": 1174
+    },
+    {
+      "name": "Narrow split helm and faceted blind visor",
+      "first_face": 1174,
+      "last_face_exclusive": 1227
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 12: blind iron sentinel on four articulated claw feet; three layered open ribs on each side surround a suspended volumetric eight-point cold-white star. Narrow split helm and shaped weathered plates preserve negative space from every angle."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/the_last_star.blend",
+  "robloxIntendedSize": [
+    3.880000114440918,
+    4.618844032287598,
+    2.094557523727417
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    0.2994219504296778,
+    0.20545986771583558
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03880000114440918,
+      0.020945582538843155,
+      0.04618844389915466
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 4792,
+    "colorCount": 768,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "the_last_star",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "umbrella_wraith",
+  "displayName": "Umbrella Wraith",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/umbrella_wraith.blend",
+  "export": "assets/export/meshes/curses/rework/umbrella_wraith.fbx",
+  "sha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+  "triangles": 1566,
+  "vertices": 823,
+  "blenderDimensions": [
+    3.6449999809265137,
+    0.6982869505882263,
+    3.389763593673706
+  ],
+  "intendedRobloxSize": [
+    3.6449999809265137,
+    3.389763593673706,
+    0.6982869505882263
+  ],
+  "diagonal": 5.0263432779021135,
+  "vfxHook": [
+    0.02,
+    0.37488175824284564,
+    0.2008565109648348
+  ],
+  "vfxProfile": "umbrella_shadow",
+  "palette": [
+    "cloth",
+    "gold",
+    "gold_edge",
+    "iron_edge",
+    "white_glow",
+    "wood"
+  ],
+  "paintedColorCount": 255,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "FoldedUmbrellaBodyAndHandle",
+      "first_face": 0,
+      "last_face_exclusive": 219
+    },
+    {
+      "name": "TatteredWingLikeFolds",
+      "first_face": 219,
+      "last_face_exclusive": 307
+    },
+    {
+      "name": "BrassFasteners",
+      "first_face": 307,
+      "last_face_exclusive": 423
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Tall folded black umbrella spirit with one glowing eye in the fold, torn bat-like cloth wings, exposed rib seams, brass clasp and curved hook handle."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/umbrella_wraith.blend",
+  "robloxIntendedSize": [
+    3.6449999809265137,
+    3.389763593673706,
+    0.6982869505882263
+  ],
+  "vfxHookRoblox": [
+    0.02,
+    0.37488175824284564,
+    0.2008565109648348
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03644999861717224,
+      0.006982875056564808,
+      0.03389763459563255
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1566,
+    "colorCount": 255,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "umbrella_wraith",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

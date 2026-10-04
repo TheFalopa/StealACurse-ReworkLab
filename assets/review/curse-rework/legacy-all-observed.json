@@ -1,0 +1,658 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtc": "2026-10-02T05:42:50+00:00",
+  "scope": "Literal final report emitted by the original ALL fixture. Historical VFX version; do not reuse its VFX approvals for later presentation revisions.",
+  "source": {
+    "originalLogPath": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\logs\\0.741.19.7411056_20261002T051033Z_Studio_A1F2D_last.log",
+    "originalLogFilename": "0.741.19.7411056_20261002T051033Z_Studio_A1F2D_last.log",
+    "originalLogSnapshotSha256": "4465a14f8055c22b9e4d87997fd6dd6ee31c7749f5bd84fd7abc4da724eda3b4",
+    "rawFinalTrace": "assets/review/curse-rework/legacy-all-observed.log",
+    "rawFinalTraceSha256": "4c26043d0ad49fea4aa2b5b3004b717def9741e16b615dd65bf25399ac6a7571"
+  },
+  "report": null,
+  "completeFinalReportExtracted": false,
+  "extractionLimit": "Native Studio logger truncates oversized marker lines. A null report is intentional: the preserved fragment is not a reconstructed JSON report.",
+  "reportLogEvidence": {
+    "sourceLineNumber": 2795,
+    "timestampUtc": "2026-10-02T05:33:12.107Z",
+    "studioLogElapsedSeconds": 1359.10791,
+    "rawMarker": "CURSE_REWORK_REPORT"
+  },
+  "allFinalReportMarkers": [
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2795,
+        "timestampUtc": "2026-10-02T05:33:12.107Z",
+        "studioLogElapsedSeconds": 1359.10791,
+        "rawMarker": "CURSE_REWORK_REPORT"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"assets\":[{\"fbxSha256\":\"6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a\",\"export\":\"assets/export/meshes/curses/rework/candle_wisp.fbx\",\"rarity\":\"COMMON\",\"id\":\"candle_wisp\",\"meshId\":\"rbxassetid://120691798070914\",\"gameplayChecked\":true,\"sourceReference\":\"rework-01-common.png\",\"implementationStatus\":\"IMPORTED\",\"purchase\":{\"followDistance\":16.689916610717775,\"incomeObservedSeconds\":1.1501502000028268,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":1,\"placedClient\":{\"fbxSha256\":\"6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a\",\"nativeEmitterCount\":1,\"profileMotion\":\"flicker\",\"id\":\"candle_wisp\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":5,\"nativeLightCount\":1,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHei",
+      "parseError": "Unterminated string starting at: line 1 column 924 (char 923)"
+    }
+  ],
+  "purchaseMarkers": [
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2627,
+        "timestampUtc": "2026-10-02T05:26:00.092Z",
+        "studioLogElapsedSeconds": 927.092407,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"candle_wisp\",\"meshId\":\"rbxassetid://120691798070914\",\"purchase\":{\"followDistance\":16.689916610717775,\"incomeObservedSeconds\":1.1501502000028268,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":1,\"placedClient\":{\"fbxSha256\":\"6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a\",\"nativeEmitterCount\":1,\"profileMotion\":\"flicker\",\"id\":\"candle_wisp\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":5,\"nativeLightCount\":1,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"CANDLE WISP\",\"textWidth\":160.36019897460938,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+2 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/smoke",
+      "parseError": "Unterminated string starting at: line 1 column 895 (char 894)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2628,
+        "timestampUtc": "2026-10-02T05:26:07.303Z",
+        "studioLogElapsedSeconds": 934.303467,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"grave_hopper\",\"meshId\":\"rbxassetid://71461503692914\",\"purchase\":{\"followDistance\":16.68450164794922,\"incomeObservedSeconds\":1.1537693999707699,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":1,\"placedClient\":{\"fbxSha256\":\"fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99\",\"nativeEmitterCount\":1,\"profileMotion\":\"drift\",\"id\":\"grave_hopper\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.2999999523162842,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"GRAVE HOPPER\",\"textWidth\":179.922607421875,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+2 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/p",
+      "parseError": "Unterminated string starting at: line 1 column 909 (char 908)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2632,
+        "timestampUtc": "2026-10-02T05:26:14.603Z",
+        "studioLogElapsedSeconds": 941.60321,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"grave_key\",\"meshId\":\"rbxassetid://81555225772390\",\"purchase\":{\"followDistance\":16.682207107543947,\"incomeObservedSeconds\":1.153966500016395,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":1,\"placedClient\":{\"fbxSha256\":\"490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169\",\"nativeEmitterCount\":1,\"profileMotion\":\"pulse\",\"id\":\"grave_key\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"GRAVE KEY\",\"textWidth\":127.92780303955078,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+2 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/sparkles_main.d",
+      "parseError": "Unterminated string starting at: line 1 column 885 (char 884)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2635,
+        "timestampUtc": "2026-10-02T05:26:21.888Z",
+        "studioLogElapsedSeconds": 948.888916,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"mourning_ribbon\",\"meshId\":\"rbxassetid://86964137364657\",\"purchase\":{\"followDistance\":18.68914222717285,\"incomeObservedSeconds\":1.150188400002662,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":1,\"placedClient\":{\"fbxSha256\":\"97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"mourning_ribbon\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.100000023841858,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":21.06865119934082,\"height\":26,\"text\":\"MOURNING RIBBON\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+2 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://tex",
+      "parseError": "Unterminated string starting at: line 1 column 916 (char 915)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2636,
+        "timestampUtc": "2026-10-02T05:26:29.183Z",
+        "studioLogElapsedSeconds": 956.183838,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"wilted_sprout\",\"meshId\":\"rbxassetid://73497154913372\",\"purchase\":{\"followDistance\":18.692733764648439,\"incomeObservedSeconds\":1.1542825999786147,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":1,\"placedClient\":{\"fbxSha256\":\"a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"wilted_sprout\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.399999976158142,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.433704376220704,\"height\":26,\"text\":\"WILTED SPROUT\",\"textWidth\":184.1400146484375,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+3 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://texture",
+      "parseError": "Unterminated string starting at: line 1 column 912 (char 911)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2642,
+        "timestampUtc": "2026-10-02T05:26:36.400Z",
+        "studioLogElapsedSeconds": 963.400208,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"ink_imp\",\"meshId\":\"rbxassetid://138171047418372\",\"purchase\":{\"followDistance\":18.717561721801759,\"incomeObservedSeconds\":1.1536015000310727,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":2,\"placedClient\":{\"fbxSha256\":\"5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662\",\"nativeEmitterCount\":1,\"profileMotion\":\"pulse\",\"id\":\"ink_imp\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"INK IMP\",\"textWidth\":88.8030014038086,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+3 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/sparkles_main.dds\",\"p",
+      "parseError": "Unterminated string starting at: line 1 column 929 (char 928)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2645,
+        "timestampUtc": "2026-10-02T05:26:43.697Z",
+        "studioLogElapsedSeconds": 970.69751,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"lost_locket\",\"meshId\":\"rbxassetid://91422731371880\",\"purchase\":{\"followDistance\":15.537055969238282,\"incomeObservedSeconds\":1.153843500011135,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":2,\"placedClient\":{\"fbxSha256\":\"2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f\",\"nativeEmitterCount\":1,\"profileMotion\":\"pulse\",\"id\":\"lost_locket\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.2000000476837159,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"LOST LOCKET\",\"textWidth\":152.63819885253907,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+3 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/pa",
+      "parseError": "Unterminated string starting at: line 1 column 908 (char 907)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2646,
+        "timestampUtc": "2026-10-02T05:26:51.064Z",
+        "studioLogElapsedSeconds": 978.064697,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"ashen_book\",\"meshId\":\"rbxassetid://101139508733050\",\"purchase\":{\"followDistance\":16.697921752929689,\"incomeObservedSeconds\":1.1548934999736958,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":2,\"placedClient\":{\"fbxSha256\":\"f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"ashen_book\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.200000047683716,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"ASHEN BOOK\",\"textWidth\":152.63819885253907,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+3 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/parti",
+      "parseError": "Unterminated string starting at: line 1 column 905 (char 904)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2649,
+        "timestampUtc": "2026-10-02T05:26:58.361Z",
+        "studioLogElapsedSeconds": 985.361511,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"lantern_lurker\",\"meshId\":\"rbxassetid://124690349043025\",\"purchase\":{\"followDistance\":16.69796371459961,\"incomeObservedSeconds\":1.1539766999776476,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":2,\"placedClient\":{\"fbxSha256\":\"2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9\",\"nativeEmitterCount\":1,\"profileMotion\":\"flicker\",\"id\":\"lantern_lurker\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":1,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":23.279394149780275,\"height\":26,\"text\":\"LANTERN LURKER\",\"textWidth\":184.1400146484375,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+4 Souls/s\",\"textWidth\":70,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particle",
+      "parseError": "Unterminated string starting at: line 1 column 902 (char 901)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2650,
+        "timestampUtc": "2026-10-02T05:27:05.728Z",
+        "studioLogElapsedSeconds": 992.728333,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"hourglass_hound\",\"meshId\":\"rbxassetid://122359731833236\",\"purchase\":{\"followDistance\":16.693695068359376,\"incomeObservedSeconds\":1.1506242000032217,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":2,\"placedClient\":{\"fbxSha256\":\"3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c\",\"nativeEmitterCount\":1,\"profileMotion\":\"still\",\"id\":\"hourglass_hound\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":4,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":20.32450294494629,\"height\":26,\"text\":\"HOURGLASS HOUND\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+4 Souls/s\",\"textWidth\":70,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/partic",
+      "parseError": "Unterminated string starting at: line 1 column 904 (char 903)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2654,
+        "timestampUtc": "2026-10-02T05:27:13.097Z",
+        "studioLogElapsedSeconds": 1000.0979,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"nail_beetle\",\"meshId\":\"rbxassetid://134811561032307\",\"purchase\":{\"followDistance\":16.689918518066408,\"incomeObservedSeconds\":1.1508370999945328,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":3,\"placedClient\":{\"fbxSha256\":\"4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8\",\"nativeEmitterCount\":1,\"profileMotion\":\"pulse\",\"id\":\"nail_beetle\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":0.800000011920929,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"NAIL BEETLE\",\"textWidth\":144.65879821777345,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+4 Souls/s\",\"textWidth\":70,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/",
+      "parseError": "Unterminated string starting at: line 1 column 909 (char 908)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2657,
+        "timestampUtc": "2026-10-02T05:27:20.467Z",
+        "studioLogElapsedSeconds": 1007.467407,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"pale_guest\",\"meshId\":\"rbxassetid://95457500330255\",\"purchase\":{\"followDistance\":16.686595916748048,\"incomeObservedSeconds\":1.1532166000106373,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":3,\"placedClient\":{\"fbxSha256\":\"6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"pale_guest\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.399999976158142,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"PALE GUEST\",\"textWidth\":138.2238006591797,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+4 Souls/s\",\"textWidth\":70,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/partic",
+      "parseError": "Unterminated string starting at: line 1 column 903 (char 902)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2658,
+        "timestampUtc": "2026-10-02T05:27:27.766Z",
+        "studioLogElapsedSeconds": 1014.766785,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"cold_teacup\",\"meshId\":\"rbxassetid://109492897154947\",\"purchase\":{\"followDistance\":18.713560104370118,\"incomeObservedSeconds\":1.1528098999988288,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":3,\"placedClient\":{\"fbxSha256\":\"2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"cold_teacup\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":3,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"COLD TEACUP\",\"textWidth\":161.1324005126953,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+5 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/smoke_ma",
+      "parseError": "Unterminated string starting at: line 1 column 891 (char 890)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2659,
+        "timestampUtc": "2026-10-02T05:27:35.123Z",
+        "studioLogElapsedSeconds": 1022.123169,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"coin_crawler\",\"meshId\":\"rbxassetid://101300591039625\",\"purchase\":{\"followDistance\":18.708955764770509,\"incomeObservedSeconds\":1.1501577000017279,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":3,\"placedClient\":{\"fbxSha256\":\"860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52\",\"nativeEmitterCount\":1,\"profileMotion\":\"pulse\",\"id\":\"coin_crawler\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":0.800000011920929,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"COIN CRAWLER\",\"textWidth\":177.6060028076172,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+5 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://texture",
+      "parseError": "Unterminated string starting at: line 1 column 911 (char 910)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2667,
+        "timestampUtc": "2026-10-02T05:27:42.410Z",
+        "studioLogElapsedSeconds": 1029.410278,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"umbrella_wraith\",\"meshId\":\"rbxassetid://74392665115825\",\"purchase\":{\"followDistance\":18.708127975463868,\"incomeObservedSeconds\":1.154628899996169,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":3,\"placedClient\":{\"fbxSha256\":\"2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"umbrella_wraith\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.5,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":21.06865119934082,\"height\":26,\"text\":\"UMBRELLA WRAITH\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+5 Souls/s\",\"textWidth\":69,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/partic",
+      "parseError": "Unterminated string starting at: line 1 column 903 (char 902)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2668,
+        "timestampUtc": "2026-10-02T05:27:49.620Z",
+        "studioLogElapsedSeconds": 1036.620972,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"marrow_dice\",\"meshId\":\"rbxassetid://98208990983506\",\"purchase\":{\"followDistance\":18.691062927246095,\"incomeObservedSeconds\":1.1526846999768168,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":4,\"placedClient\":{\"fbxSha256\":\"9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9\",\"nativeEmitterCount\":1,\"profileMotion\":\"orbit\",\"id\":\"marrow_dice\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.200000047683716,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"MARROW DICE\",\"textWidth\":170.6562042236328,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+10 Souls/s\",\"textWidth\":75,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/par",
+      "parseError": "Unterminated string starting at: line 1 column 906 (char 905)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2671,
+        "timestampUtc": "2026-10-02T05:27:56.904Z",
+        "studioLogElapsedSeconds": 1043.904663,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"veil_mourner\",\"meshId\":\"rbxassetid://138895825932890\",\"purchase\":{\"followDistance\":18.717397689819337,\"incomeObservedSeconds\":1.1531178999575787,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":4,\"placedClient\":{\"fbxSha256\":\"47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"veil_mourner\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.5,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"VEIL MOURNER\",\"textWidth\":174.00241088867188,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+12 Souls/s\",\"textWidth\":74,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/smo",
+      "parseError": "Unterminated string starting at: line 1 column 896 (char 895)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2672,
+        "timestampUtc": "2026-10-02T05:28:04.123Z",
+        "studioLogElapsedSeconds": 1051.123291,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"grave_compass\",\"meshId\":\"rbxassetid://92042737751538\",\"purchase\":{\"followDistance\":18.725570678710939,\"incomeObservedSeconds\":1.1553048000205309,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":4,\"placedClient\":{\"fbxSha256\":\"dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31\",\"nativeEmitterCount\":1,\"profileMotion\":\"orbit\",\"id\":\"grave_compass\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.399999976158142,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":24.2608699798584,\"height\":26,\"text\":\"GRAVE COMPASS\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+14 Souls/s\",\"textWidth\":75,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://texture",
+      "parseError": "Unterminated string starting at: line 1 column 911 (char 910)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2676,
+        "timestampUtc": "2026-10-02T05:28:11.413Z",
+        "studioLogElapsedSeconds": 1058.413574,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"hollow_violin\",\"meshId\":\"rbxassetid://91498125175625\",\"purchase\":{\"followDistance\":18.734025955200197,\"incomeObservedSeconds\":1.150270099984482,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":4,\"placedClient\":{\"fbxSha256\":\"5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427\",\"nativeEmitterCount\":1,\"profileMotion\":\"strings\",\"id\":\"hollow_violin\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.5,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.39862060546875,\"height\":26,\"text\":\"HOLLOW VIOLIN\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+16 Souls/s\",\"textWidth\":75,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/",
+      "parseError": "Unterminated string starting at: line 1 column 899 (char 898)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2679,
+        "timestampUtc": "2026-10-02T05:28:18.704Z",
+        "studioLogElapsedSeconds": 1065.704224,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"chime_triplets\",\"meshId\":\"rbxassetid://114343537583157\",\"purchase\":{\"followDistance\":16.697490692138673,\"incomeObservedSeconds\":1.150577099993825,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":4,\"placedClient\":{\"fbxSha256\":\"0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6\",\"nativeEmitterCount\":1,\"profileMotion\":\"chime\",\"id\":\"chime_triplets\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.5041561126709,\"height\":26,\"text\":\"CHIME TRIPLETS\",\"textWidth\":184.1400146484375,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+18 Souls/s\",\"textWidth\":75,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/sp",
+      "parseError": "Unterminated string starting at: line 1 column 897 (char 896)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2680,
+        "timestampUtc": "2026-10-02T05:28:26.078Z",
+        "studioLogElapsedSeconds": 1073.078003,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"thimble_spider\",\"meshId\":\"rbxassetid://99634226365979\",\"purchase\":{\"followDistance\":16.692148208618165,\"incomeObservedSeconds\":1.154038299981039,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":5,\"placedClient\":{\"fbxSha256\":\"366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"thimble_spider\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":0.8999999761581421,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":24.850202560424806,\"height\":26,\"text\":\"THIMBLE SPIDER\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+20 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://tex",
+      "parseError": "Unterminated string starting at: line 1 column 915 (char 914)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2681,
+        "timestampUtc": "2026-10-02T05:28:33.363Z",
+        "studioLogElapsedSeconds": 1080.363281,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"music_box_dancer\",\"meshId\":\"rbxassetid://103021046464363\",\"purchase\":{\"followDistance\":16.688474655151368,\"incomeObservedSeconds\":1.1540206999634393,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":5,\"placedClient\":{\"fbxSha256\":\"7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff\",\"nativeEmitterCount\":1,\"profileMotion\":\"orbit\",\"id\":\"music_box_dancer\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.5,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":20.52842903137207,\"height\":26,\"text\":\"MUSIC BOX DANCER\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+22 Souls/s\",\"textWidth\":77,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/p",
+      "parseError": "Unterminated string starting at: line 1 column 908 (char 907)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2689,
+        "timestampUtc": "2026-10-02T05:28:40.726Z",
+        "studioLogElapsedSeconds": 1087.72644,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"raven_quill\",\"meshId\":\"rbxassetid://71223428160554\",\"purchase\":{\"followDistance\":16.68389892578125,\"incomeObservedSeconds\":1.15032610000344,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":5,\"placedClient\":{\"fbxSha256\":\"5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"raven_quill\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.600000023841858,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"RAVEN QUILL\",\"textWidth\":151.86599731445313,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+24 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/partic",
+      "parseError": "Unterminated string starting at: line 1 column 903 (char 902)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2690,
+        "timestampUtc": "2026-10-02T05:28:48.014Z",
+        "studioLogElapsedSeconds": 1095.014282,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"sorrow_chalice\",\"meshId\":\"rbxassetid://124640513274761\",\"purchase\":{\"followDistance\":16.68257713317871,\"incomeObservedSeconds\":1.1528903999715113,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":5,\"placedClient\":{\"fbxSha256\":\"0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11\",\"nativeEmitterCount\":1,\"profileMotion\":\"pulse\",\"id\":\"sorrow_chalice\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.2000000476837159,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":22.538557052612306,\"height\":26,\"text\":\"SORROW CHALICE\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+26 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://t",
+      "parseError": "Unterminated string starting at: line 1 column 917 (char 916)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2695,
+        "timestampUtc": "2026-10-02T05:29:05.446Z",
+        "studioLogElapsedSeconds": 1112.446167,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"pale_gramophone\",\"meshId\":\"rbxassetid://94119998367472\",\"purchase\":{\"followDistance\":15.535170555114746,\"incomeObservedSeconds\":1.150637699989602,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":5,\"placedClient\":{\"fbxSha256\":\"64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1\",\"nativeEmitterCount\":1,\"profileMotion\":\"chime\",\"id\":\"pale_gramophone\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.7999999523162842,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":20.32450294494629,\"height\":26,\"text\":\"PALE GRAMOPHONE\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+28 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://",
+      "parseError": "Unterminated string starting at: line 1 column 918 (char 917)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2699,
+        "timestampUtc": "2026-10-02T05:29:12.816Z",
+        "studioLogElapsedSeconds": 1119.81665,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"thorn_reliquary\",\"meshId\":\"rbxassetid://136595375769922\",\"purchase\":{\"followDistance\":16.6822509765625,\"incomeObservedSeconds\":1.1501975999563,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":6,\"placedClient\":{\"fbxSha256\":\"96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f\",\"nativeEmitterCount\":1,\"profileMotion\":\"orbit\",\"id\":\"thorn_reliquary\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":21.76595687866211,\"height\":26,\"text\":\"THORN RELIQUARY\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+30 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/s",
+      "parseError": "Unterminated string starting at: line 1 column 898 (char 897)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2702,
+        "timestampUtc": "2026-10-02T05:29:20.105Z",
+        "studioLogElapsedSeconds": 1127.105957,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"anchor_crab\",\"meshId\":\"rbxassetid://138935951310223\",\"purchase\":{\"followDistance\":16.682838439941408,\"incomeObservedSeconds\":1.1509185999748298,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":6,\"placedClient\":{\"fbxSha256\":\"0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803\",\"nativeEmitterCount\":1,\"profileMotion\":\"drift\",\"id\":\"anchor_crab\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.399999976158142,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"ANCHOR CRAB\",\"textWidth\":169.88400268554688,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+32 Souls/s\",\"textWidth\":77,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/p",
+      "parseError": "Unterminated string starting at: line 1 column 908 (char 907)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2703,
+        "timestampUtc": "2026-10-02T05:29:27.488Z",
+        "studioLogElapsedSeconds": 1134.488647,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"sundial_sentinel\",\"meshId\":\"rbxassetid://107305209907882\",\"purchase\":{\"followDistance\":18.698543548583986,\"incomeObservedSeconds\":1.1535310999606737,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":6,\"placedClient\":{\"fbxSha256\":\"ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583\",\"nativeEmitterCount\":1,\"profileMotion\":\"orbit\",\"id\":\"sundial_sentinel\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":21.843416213989259,\"height\":26,\"text\":\"SUNDIAL SENTINEL\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+34 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/pa",
+      "parseError": "Unterminated string starting at: line 1 column 907 (char 906)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2704,
+        "timestampUtc": "2026-10-02T05:29:34.867Z",
+        "studioLogElapsedSeconds": 1141.867065,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"sleepwalker_shoes\",\"meshId\":\"rbxassetid://100900364423577\",\"purchase\":{\"followDistance\":16.689321517944337,\"incomeObservedSeconds\":1.1539305999758654,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":6,\"placedClient\":{\"fbxSha256\":\"41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770\",\"nativeEmitterCount\":1,\"profileMotion\":\"step\",\"id\":\"sleepwalker_shoes\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.2999999523162842,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"RARE\",\"textWidth\":35,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":18.789794921875,\"height\":26,\"text\":\"SLEEPWALKER SHOES\",\"textWidth\":184.13998413085938,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+36 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxass",
+      "parseError": "Unterminated string starting at: line 1 column 923 (char 922)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2712,
+        "timestampUtc": "2026-10-02T05:29:42.161Z",
+        "studioLogElapsedSeconds": 1149.161377,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"night_harp\",\"meshId\":\"rbxassetid://83648018962626\",\"purchase\":{\"followDistance\":16.692434310913087,\"incomeObservedSeconds\":1.1531606000498869,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":6,\"placedClient\":{\"fbxSha256\":\"8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06\",\"nativeEmitterCount\":1,\"profileMotion\":\"strings\",\"id\":\"night_harp\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.5,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"NIGHT HARP\",\"textWidth\":141.82740783691407,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+40 Souls/s\",\"textWidth\":79,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/sp",
+      "parseError": "Unterminated string starting at: line 1 column 897 (char 896)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2717,
+        "timestampUtc": "2026-10-02T05:29:59.414Z",
+        "studioLogElapsedSeconds": 1166.414917,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"thorn_cathedral\",\"meshId\":\"rbxassetid://130353358132470\",\"purchase\":{\"followDistance\":16.697404861450197,\"incomeObservedSeconds\":1.1534380000084639,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":7,\"placedClient\":{\"fbxSha256\":\"6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e\",\"nativeEmitterCount\":1,\"profileMotion\":\"pulse\",\"id\":\"thorn_cathedral\",\"samples\":365,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.799999952316284,\"nativeLightCount\":1,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":21.02054786682129,\"height\":26,\"text\":\"THORN CATHEDRAL\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+50 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxas",
+      "parseError": "Unterminated string starting at: line 1 column 924 (char 923)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2718,
+        "timestampUtc": "2026-10-02T05:30:06.880Z",
+        "studioLogElapsedSeconds": 1173.880127,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"phantom_marionette\",\"meshId\":\"rbxassetid://125181594913762\",\"purchase\":{\"followDistance\":16.696739196777345,\"incomeObservedSeconds\":1.1583558999700472,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":7,\"placedClient\":{\"fbxSha256\":\"bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e\",\"nativeEmitterCount\":1,\"profileMotion\":\"strings\",\"id\":\"phantom_marionette\",\"samples\":383,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.2999999523162842,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":17.35532569885254,\"height\":26,\"text\":\"PHANTOM MARIONETTE\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+60 Souls/s\",\"textWidth\":79,\"width\":186}},\"nativeFocusCount\":1,\"particleTex",
+      "parseError": "Unterminated string starting at: line 1 column 918 (char 917)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2722,
+        "timestampUtc": "2026-10-02T05:30:14.167Z",
+        "studioLogElapsedSeconds": 1181.167114,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"blood_moon_rose\",\"meshId\":\"rbxassetid://80054563301680\",\"purchase\":{\"followDistance\":18.709190368652345,\"incomeObservedSeconds\":1.1512437000055798,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":7,\"placedClient\":{\"fbxSha256\":\"3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba\",\"nativeEmitterCount\":1,\"profileMotion\":\"orbit\",\"id\":\"blood_moon_rose\",\"samples\":392,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.4000000953674318,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":20.643497467041017,\"height\":26,\"text\":\"BLOOD MOON ROSE\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+70 Souls/s\",\"textWidth\":78,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxa",
+      "parseError": "Unterminated string starting at: line 1 column 925 (char 924)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2725,
+        "timestampUtc": "2026-10-02T05:30:21.540Z",
+        "studioLogElapsedSeconds": 1188.540527,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"judgement_scales\",\"meshId\":\"rbxassetid://115544351986945\",\"purchase\":{\"followDistance\":15.53637981414795,\"incomeObservedSeconds\":1.1555891000316479,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":7,\"placedClient\":{\"fbxSha256\":\"43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04\",\"nativeEmitterCount\":1,\"profileMotion\":\"chime\",\"id\":\"judgement_scales\",\"samples\":389,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.7999999523162842,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":20.257427215576173,\"height\":26,\"text\":\"JUDGEMENT SCALES\",\"textWidth\":184.1400146484375,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+80 Souls/s\",\"textWidth\":79,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rb",
+      "parseError": "Unterminated string starting at: line 1 column 927 (char 926)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2726,
+        "timestampUtc": "2026-10-02T05:30:28.908Z",
+        "studioLogElapsedSeconds": 1195.908813,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"clockwork_raven\",\"meshId\":\"rbxassetid://132658656356560\",\"purchase\":{\"followDistance\":16.685928344726564,\"incomeObservedSeconds\":1.1529461999889464,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":7,\"placedClient\":{\"fbxSha256\":\"3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1\",\"nativeEmitterCount\":1,\"profileMotion\":\"tick\",\"id\":\"clockwork_raven\",\"samples\":368,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.600000023841858,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":20.16867446899414,\"height\":26,\"text\":\"CLOCKWORK RAVEN\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+90 Souls/s\",\"textWidth\":79,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxass",
+      "parseError": "Unterminated string starting at: line 1 column 923 (char 922)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2732,
+        "timestampUtc": "2026-10-02T05:30:36.270Z",
+        "studioLogElapsedSeconds": 1203.27002,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"eclipse_stag\",\"meshId\":\"rbxassetid://84237463643087\",\"purchase\":{\"followDistance\":18.69175910949707,\"incomeObservedSeconds\":1.1537200000020676,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":8,\"placedClient\":{\"fbxSha256\":\"ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"eclipse_stag\",\"samples\":361,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"ECLIPSE STAG\",\"textWidth\":158.04360961914063,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+100 Souls/s\",\"textWidth\":84,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/s",
+      "parseError": "Unterminated string starting at: line 1 column 898 (char 897)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2737,
+        "timestampUtc": "2026-10-02T05:30:43.626Z",
+        "studioLogElapsedSeconds": 1210.626831,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"endless_library\",\"meshId\":\"rbxassetid://119647220783912\",\"purchase\":{\"followDistance\":18.709012985229493,\"incomeObservedSeconds\":1.15272360004019,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":8,\"placedClient\":{\"fbxSha256\":\"806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"endless_library\",\"samples\":363,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.299999952316284,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":22.846155166625978,\"height\":26,\"text\":\"ENDLESS LIBRARY\",\"textWidth\":184.1400146484375,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+110 Souls/s\",\"textWidth\":80,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasse",
+      "parseError": "Unterminated string starting at: line 1 column 922 (char 921)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2738,
+        "timestampUtc": "2026-10-02T05:30:51.015Z",
+        "studioLogElapsedSeconds": 1218.015503,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"sunken_crown\",\"meshId\":\"rbxassetid://117032966363977\",\"purchase\":{\"followDistance\":16.682140350341798,\"incomeObservedSeconds\":1.153269599948544,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":8,\"placedClient\":{\"fbxSha256\":\"278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995\",\"nativeEmitterCount\":1,\"profileMotion\":\"orbit\",\"id\":\"sunken_crown\",\"samples\":375,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":3,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":24.75,\"height\":26,\"text\":\"SUNKEN CROWN\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+120 Souls/s\",\"textWidth\":83,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/sparkles_mai",
+      "parseError": "Unterminated string starting at: line 1 column 887 (char 886)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2741,
+        "timestampUtc": "2026-10-02T05:30:58.445Z",
+        "studioLogElapsedSeconds": 1225.445801,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"silent_choir\",\"meshId\":\"rbxassetid://87533045551868\",\"purchase\":{\"followDistance\":16.682130813598634,\"incomeObservedSeconds\":1.1506442000390962,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":8,\"placedClient\":{\"fbxSha256\":\"1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c\",\"nativeEmitterCount\":1,\"profileMotion\":\"chime\",\"id\":\"silent_choir\",\"samples\":371,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"LEGENDARY\",\"textWidth\":78,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"SILENT CHOIR\",\"textWidth\":157.7862091064453,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+130 Souls/s\",\"textWidth\":83,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/",
+      "parseError": "Unterminated string starting at: line 1 column 899 (char 898)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2749,
+        "timestampUtc": "2026-10-02T05:31:15.850Z",
+        "studioLogElapsedSeconds": 1242.850952,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"cathedral_heart\",\"meshId\":\"rbxassetid://109562151283310\",\"purchase\":{\"followDistance\":16.69976043701172,\"incomeObservedSeconds\":1.1509028999716975,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":8,\"placedClient\":{\"fbxSha256\":\"df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890\",\"nativeEmitterCount\":1,\"profileMotion\":\"heartbeat\",\"id\":\"cathedral_heart\",\"samples\":360,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":3,\"nativeLightCount\":1,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"MYTHIC\",\"textWidth\":51,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":21.486581802368165,\"height\":26,\"text\":\"CATHEDRAL HEART\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+180 Souls/s\",\"textWidth\":84,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures",
+      "parseError": "Unterminated string starting at: line 1 column 910 (char 909)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2750,
+        "timestampUtc": "2026-10-02T05:31:23.208Z",
+        "studioLogElapsedSeconds": 1250.208008,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"plague_monarch\",\"meshId\":\"rbxassetid://84591406393703\",\"purchase\":{\"followDistance\":16.683626174926759,\"incomeObservedSeconds\":1.1501612999709324,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":9,\"placedClient\":{\"fbxSha256\":\"bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1\",\"nativeEmitterCount\":1,\"profileMotion\":\"orbit\",\"id\":\"plague_monarch\",\"samples\":368,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.799999952316284,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"MYTHIC\",\"textWidth\":51,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":21.689044952392579,\"height\":26,\"text\":\"PLAGUE MONARCH\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+250 Souls/s\",\"textWidth\":86,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset:/",
+      "parseError": "Unterminated string starting at: line 1 column 919 (char 918)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2751,
+        "timestampUtc": "2026-10-02T05:31:30.504Z",
+        "studioLogElapsedSeconds": 1257.504517,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"hollow_throne\",\"meshId\":\"rbxassetid://137649959781597\",\"purchase\":{\"followDistance\":16.68670654296875,\"incomeObservedSeconds\":1.151168400014285,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":9,\"placedClient\":{\"fbxSha256\":\"09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61\",\"nativeEmitterCount\":1,\"profileMotion\":\"pulse\",\"id\":\"hollow_throne\",\"samples\":374,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"MYTHIC\",\"textWidth\":51,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":23.16226577758789,\"height\":26,\"text\":\"HOLLOW THRONE\",\"textWidth\":184.1400146484375,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+320 Souls/s\",\"textWidth\":86,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/sm",
+      "parseError": "Unterminated string starting at: line 1 column 897 (char 896)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2765,
+        "timestampUtc": "2026-10-02T05:31:37.790Z",
+        "studioLogElapsedSeconds": 1264.790771,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"worldroot\",\"meshId\":\"rbxassetid://78477623099004\",\"purchase\":{\"followDistance\":16.6917781829834,\"incomeObservedSeconds\":1.156906699994579,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":9,\"placedClient\":{\"fbxSha256\":\"d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f\",\"nativeEmitterCount\":1,\"profileMotion\":\"heartbeat\",\"id\":\"worldroot\",\"samples\":375,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.5999999046325685,\"nativeLightCount\":1,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"MYTHIC\",\"textWidth\":51,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"WORLDROOT\",\"textWidth\":152.89559936523438,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+390 Souls/s\",\"textWidth\":87,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/par",
+      "parseError": "Unterminated string starting at: line 1 column 906 (char 905)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2766,
+        "timestampUtc": "2026-10-02T05:31:45.161Z",
+        "studioLogElapsedSeconds": 1272.161255,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"the_undertow\",\"meshId\":\"rbxassetid://105483544111432\",\"purchase\":{\"followDistance\":16.696674346923829,\"incomeObservedSeconds\":1.1533970999880694,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":9,\"placedClient\":{\"fbxSha256\":\"8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7\",\"nativeEmitterCount\":1,\"profileMotion\":\"vortex\",\"id\":\"the_undertow\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":3,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"MYTHIC\",\"textWidth\":51,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.328746795654298,\"height\":26,\"text\":\"THE UNDERTOW\",\"textWidth\":184.13998413085938,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+460 Souls/s\",\"textWidth\":88,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particles/",
+      "parseError": "Unterminated string starting at: line 1 column 899 (char 898)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2767,
+        "timestampUtc": "2026-10-02T05:31:52.514Z",
+        "studioLogElapsedSeconds": 1279.514404,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"the_last_funeral\",\"meshId\":\"rbxassetid://138087526906503\",\"purchase\":{\"followDistance\":18.714054107666017,\"incomeObservedSeconds\":1.1501666000112892,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":9,\"placedClient\":{\"fbxSha256\":\"5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5\",\"nativeEmitterCount\":1,\"profileMotion\":\"sway\",\"id\":\"the_last_funeral\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.7999999523162842,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"MYTHIC\",\"textWidth\":51,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":21.638072967529298,\"height\":26,\"text\":\"THE LAST FUNERAL\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+530 Souls/s\",\"textWidth\":86,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbx",
+      "parseError": "Unterminated string starting at: line 1 column 926 (char 925)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2770,
+        "timestampUtc": "2026-10-02T05:31:59.814Z",
+        "studioLogElapsedSeconds": 1286.814331,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"nameless_door\",\"meshId\":\"rbxassetid://136046415979732\",\"purchase\":{\"followDistance\":16.696516036987306,\"incomeObservedSeconds\":1.1529940000036732,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":10,\"placedClient\":{\"fbxSha256\":\"b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb\",\"nativeEmitterCount\":1,\"profileMotion\":\"vortex\",\"id\":\"nameless_door\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.5,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"SECRET\",\"textWidth\":50,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":23.945383071899415,\"height\":26,\"text\":\"NAMELESS DOOR\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+850 Souls/s\",\"textWidth\":87,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/part",
+      "parseError": "Unterminated string starting at: line 1 column 905 (char 904)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2771,
+        "timestampUtc": "2026-10-02T05:32:07.104Z",
+        "studioLogElapsedSeconds": 1294.104492,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"crown_of_silence\",\"meshId\":\"rbxassetid://87201548999780\",\"purchase\":{\"followDistance\":16.690916061401368,\"incomeObservedSeconds\":1.1525738000054844,\"usedActualClientPrompt\":true,\"slot\":2,\"group\":10,\"placedClient\":{\"fbxSha256\":\"4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c\",\"nativeEmitterCount\":1,\"profileMotion\":\"silence\",\"id\":\"crown_of_silence\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":1.7000000476837159,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"SECRET\",\"textWidth\":50,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":20.666667938232423,\"height\":26,\"text\":\"CROWN OF SILENCE\",\"textWidth\":184.1400146484375,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+1.1K Souls/s\",\"textWidth\":84,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"",
+      "parseError": "Unterminated string starting at: line 1 column 929 (char 928)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2775,
+        "timestampUtc": "2026-10-02T05:32:14.391Z",
+        "studioLogElapsedSeconds": 1301.391846,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"the_first_grave\",\"meshId\":\"rbxassetid://104080758542748\",\"purchase\":{\"followDistance\":16.685447692871095,\"incomeObservedSeconds\":1.1501074999687262,\"usedActualClientPrompt\":true,\"slot\":3,\"group\":10,\"placedClient\":{\"fbxSha256\":\"ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7\",\"nativeEmitterCount\":1,\"profileMotion\":\"heartbeat\",\"id\":\"the_first_grave\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"SECRET\",\"textWidth\":50,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":24.039165496826173,\"height\":26,\"text\":\"THE FIRST GRAVE\",\"textWidth\":184.1400146484375,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+1.4K Souls/s\",\"textWidth\":88,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textur",
+      "parseError": "Unterminated string starting at: line 1 column 912 (char 911)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2778,
+        "timestampUtc": "2026-10-02T05:32:21.751Z",
+        "studioLogElapsedSeconds": 1308.751465,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"the_unwritten\",\"meshId\":\"rbxassetid://132077689568800\",\"purchase\":{\"followDistance\":16.68271255493164,\"incomeObservedSeconds\":1.1534016000223347,\"usedActualClientPrompt\":true,\"slot\":4,\"group\":10,\"placedClient\":{\"fbxSha256\":\"238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e\",\"nativeEmitterCount\":1,\"profileMotion\":\"erase\",\"id\":\"the_unwritten\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2,\"nativeLightCount\":0,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"SECRET\",\"textWidth\":50,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":24.95121955871582,\"height\":26,\"text\":\"THE UNWRITTEN\",\"textWidth\":184.13999938964845,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+1.6K Souls/s\",\"textWidth\":88,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://textures/particle",
+      "parseError": "Unterminated string starting at: line 1 column 901 (char 900)"
+    },
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2788,
+        "timestampUtc": "2026-10-02T05:32:39.002Z",
+        "studioLogElapsedSeconds": 1326.002686,
+        "rawMarker": "CURSE_REWORK_PURCHASE"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"id\":\"the_last_star\",\"meshId\":\"rbxassetid://103602552479756\",\"purchase\":{\"followDistance\":18.70855140686035,\"incomeObservedSeconds\":1.1537886000005529,\"usedActualClientPrompt\":true,\"slot\":5,\"group\":10,\"placedClient\":{\"fbxSha256\":\"682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31\",\"nativeEmitterCount\":1,\"profileMotion\":\"star\",\"id\":\"the_last_star\",\"samples\":397,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":2.200000047683716,\"nativeLightCount\":1,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"SECRET\",\"textWidth\":50,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHeight\":25.739999771118165,\"height\":26,\"text\":\"THE LAST STAR\",\"textWidth\":169.88400268554688,\"width\":186},\"InfoIncome\":{\"textHeight\":16,\"height\":20,\"text\":\"+1.9K Souls/s\",\"textWidth\":88,\"width\":186}},\"nativeFocusCount\":1,\"particleTexture\":\"rbxasset://t",
+      "parseError": "Unterminated string starting at: line 1 column 917 (char 916)"
+    }
+  ],
+  "purchaseMarkerCounts": {
+    "seen": 50,
+    "completeJson": 0,
+    "truncatedJson": 50
+  },
+  "completionMarkers": [
+    {
+      "marker": "CURSE_REWORK_STRESS",
+      "timestampUtc": "2026-10-02T05:33:12.105Z",
+      "sourceLineNumber": 2794,
+      "literalPayloadText": "{\"cleanup\":{\"cleanedModels\":46,\"remainingLiveExpansionTags\":0},\"presentationOnlyDisplays\":40,\"metadata\":[{\"rarity\":\"COMMON\",\"id\":\"cursed_doll\",\"meshId\":\"rbxassetid://105604620104717\",\"displayName\":\"Cursed Doll\",\"visualKey\":\"cursed_doll\",\"income\":3,\"isExpansion\":false,\"price\":100},{\"rarity\":\"RARE\",\"id\":\"haunted_mirror\",\"meshId\":\"rbxassetid://117384769473837\",\"displayName\":\"Haunted Mirror\",\"visualKey\":\"haunted_mirror\",\"income\":10,\"isExpansion\":false,\"price\":450},{\"rarity\":\"RARE\",\"id\":\"crying_mask\",\"meshId\":\"rbxassetid://88322086415087\",\"displayName\":\"Crying Mask\",\"visualKey\":\"crying_mask\",\"income\":14,\"isExpansion\":false,\"price\":650},{\"rarity\":\"LEGENDARY\",\"id\":\"watching_eye\",\"meshId\":\"rbxassetid://96354826665507\",\"displayName\":\"Watching Eye\",\"visualKey\":\"watching_eye\",\"income\":45,\"isExpansion\":false,\"price\":2500},{\"rarity\":\"MYTHIC\",\"id\":\"soul_chains\",\"meshId\":\"rbxassetid://99888861877300\",\"displayName\":\"Soul Chains\",\"vis"
+    },
+    {
+      "marker": "CURSE_REWORK_DONE",
+      "timestampUtc": "2026-10-02T05:33:12.107Z",
+      "sourceLineNumber": 2796,
+      "literalPayloadText": "All 50 current-source imported Curses passed their requested production tests"
+    }
+  ],
+  "currentCoreComparison": "assets/review/curse-rework/route-production-core-proof.json",
+  "sourceFingerprintLimit": "This is an independent current disk/core baseline comparison, not a reconstruction or certification of immutable sources loaded by the old Studio fixture. The route rows bind the actual observed MeshIds and FBX hashes. No VFX approval is granted."
+}

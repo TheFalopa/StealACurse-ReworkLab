@@ -1,0 +1,349 @@
+{
+  "assets": [
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.025200000032782555,
+        0.01604991778731346,
+        0.03925928846001625
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 3606,
+      "colorCount": 1086,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "candle_wisp",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.029301730915904045,
+        0.019563544541597366,
+        0.030210861936211586
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 2400,
+      "colorCount": 410,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "grave_hopper",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.029194774106144905,
+        0.007180375047028065,
+        0.034665003418922424
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 1526,
+      "colorCount": 336,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "grave_key",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.03799999877810478,
+        0.007315351162105799,
+        0.03020000085234642
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 1728,
+      "colorCount": 152,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "mourning_ribbon",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.02669999934732914,
+        0.013917146250605583,
+        0.03403151407837868
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 2220,
+      "colorCount": 388,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "wilted_sprout",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.027402112260460854,
+        0.009678601287305355,
+        0.029946601018309593
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 1772,
+      "colorCount": 234,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "ink_imp",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.026900000870227814,
+        0.00501815602183342,
+        0.027650000527501106
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 2500,
+      "colorCount": 451,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "lost_locket",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.033299997448921204,
+        0.017377978190779686,
+        0.026475002989172935
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 2324,
+      "colorCount": 391,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "ashen_book",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.026639999821782112,
+        0.020105216652154922,
+        0.03069126047194004
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 2950,
+      "colorCount": 534,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "lantern_lurker",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.03154965117573738,
+        0.012913807295262814,
+        0.02160000242292881
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 2546,
+      "colorCount": 458,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "hourglass_hound",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.02208719588816166,
+        0.023138372227549553,
+        0.016229337081313133
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 1594,
+      "colorCount": 331,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "nail_beetle",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.025144094601273537,
+        0.008689990267157555,
+        0.02940000221133232
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 1716,
+      "colorCount": 413,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "pale_guest",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.02705807238817215,
+        0.024715742096304893,
+        0.024837680160999298
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 2456,
+      "colorCount": 330,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "cold_teacup",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.027699999511241913,
+        0.025416333228349686,
+        0.011513851583003998
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 2172,
+      "colorCount": 439,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "coin_crawler",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52"
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxDimensions": [
+        0.03644999861717224,
+        0.006982875056564808,
+        0.03389763459563255
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangleCount": 1566,
+      "colorCount": 255,
+      "uvLayers": 1,
+      "materials": 1,
+      "valid": true,
+      "id": "umbrella_wraith",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "fbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b"
+    }
+  ]
+}

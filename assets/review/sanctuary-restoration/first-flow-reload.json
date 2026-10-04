@@ -1,0 +1,31 @@
+{
+  "UnitJSON": {
+    "failed": 0,
+    "run": 54,
+    "passed": 54
+  },
+  "Stage": "RELOAD_PASS",
+  "ResultsJSON": [
+    {
+      "ok": true,
+      "label": "actual local profile loaded"
+    },
+    {
+      "ok": true,
+      "label": "native E claim"
+    },
+    {
+      "ok": true,
+      "label": "durable stage ritual and contract reload"
+    },
+    {
+      "ok": true,
+      "label": "durable real ownership and logical placement reload"
+    },
+    {
+      "ok": true,
+      "label": "durable architecture reconstructed"
+    }
+  ],
+  "scope": "Second native Play load from acknowledged PluginSettings journal, same isolated namespace, no profile seeding."
+}

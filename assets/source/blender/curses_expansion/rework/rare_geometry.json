@@ -1,0 +1,1282 @@
+{
+  "assets": [
+    {
+      "id": "pale_gramophone",
+      "displayName": "Pale Gramophone",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/pale_gramophone.blend",
+      "export": "assets/export/meshes/curses/rework/pale_gramophone.fbx",
+      "sha256": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+      "triangles": 6316,
+      "vertices": 3304,
+      "blenderDimensions": [
+        3.3486762046813965,
+        2.765392303466797,
+        4.104394912719727
+      ],
+      "intendedRobloxSize": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.765392303466797
+      ],
+      "diagonal": 5.975540520775704,
+      "vfxHook": [
+        0.83,
+        0.932802610397339,
+        0.5487096649051746
+      ],
+      "vfxProfile": "bone_horn_echo",
+      "palette": [
+        "bone",
+        "gold",
+        "ink",
+        "iron",
+        "wax",
+        "wood"
+      ],
+      "paintedColorCount": 1405,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "fitted walnut case and brass furniture",
+          "first_face": 0,
+          "last_face_exclusive": 1180
+        },
+        {
+          "name": "grooved record, spindle and turntable",
+          "first_face": 1180,
+          "last_face_exclusive": 1780
+        },
+        {
+          "name": "four articulated walking feet",
+          "first_face": 1780,
+          "last_face_exclusive": 2652
+        },
+        {
+          "name": "curved neck and hollow scalloped bone horn",
+          "first_face": 2652,
+          "last_face_exclusive": 3250
+        },
+        {
+          "name": "sound arm and rear winding crank",
+          "first_face": 3250,
+          "last_face_exclusive": 3404
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Curved eight-petal hollow ivory horn; fitted walnut boards, bronze fittings, record grooves and four articulated walking legs.",
+        "restrained horn pulse and musical arc echoes"
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/pale_gramophone.blend",
+      "robloxIntendedSize": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.765392303466797
+      ],
+      "vfxHookRoblox": [
+        0.83,
+        0.932802610397339,
+        0.5487096649051746
+      ],
+      "vfxHooksRoblox": {
+        "hornMouth": [
+          0.83,
+          0.932802610397339,
+          0.5487096649051746
+        ],
+        "turntable": [
+          -0.06,
+          -0.40719738960266105,
+          -0.27129033509482536
+        ]
+      },
+      "vfxGlowMaterial": "bone"
+    },
+    {
+      "id": "veil_mourner",
+      "displayName": "Veil Mourner",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/veil_mourner.blend",
+      "export": "assets/export/meshes/curses/rework/veil_mourner.fbx",
+      "sha256": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+      "triangles": 3280,
+      "vertices": 1686,
+      "blenderDimensions": [
+        2.645899534225464,
+        1.655981183052063,
+        3.5281481742858887
+      ],
+      "intendedRobloxSize": [
+        2.645899534225464,
+        3.5281481742858887,
+        1.655981183052063
+      ],
+      "diagonal": 4.7107204930407285,
+      "vfxHook": [
+        -0.008109654141302158,
+        0.36907407701148065,
+        0.5204286510789994
+      ],
+      "vfxProfile": "black_veil_breath",
+      "palette": [
+        "bone",
+        "cloth",
+        "cloth_edge",
+        "ink"
+      ],
+      "paintedColorCount": 443,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "folded hollow black mourning cloak",
+          "first_face": 0,
+          "last_face_exclusive": 498
+        },
+        {
+          "name": "ragged lace hems and pale hands gripping the veil",
+          "first_face": 498,
+          "last_face_exclusive": 1406
+        },
+        {
+          "name": "aged bone mourning comb",
+          "first_face": 1406,
+          "last_face_exclusive": 1685
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Volumetric open front cloak with twelve gathered folds, irregular torn hem, hollow dark hood and pale gripping hands; bone mourning comb.",
+        "Slow low amplitude cloak breathing and pale dust settling from the bone comb."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/veil_mourner.blend",
+      "robloxIntendedSize": [
+        2.645899534225464,
+        3.5281481742858887,
+        1.655981183052063
+      ],
+      "vfxHookRoblox": [
+        -0.008109654141302158,
+        0.36907407701148065,
+        0.5204286510789994
+      ],
+      "vfxHooksRoblox": {
+        "veilFace": [
+          -0.008109654141302158,
+          0.36907407701148065,
+          0.5204286510789994
+        ]
+      },
+      "vfxGlowMaterial": "bone"
+    },
+    {
+      "id": "grave_compass",
+      "displayName": "Grave Compass",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/grave_compass.blend",
+      "export": "assets/export/meshes/curses/rework/grave_compass.fbx",
+      "sha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "triangles": 3242,
+      "vertices": 1689,
+      "blenderDimensions": [
+        3.7378311157226562,
+        0.8600339293479919,
+        2.8460559844970703
+      ],
+      "intendedRobloxSize": [
+        3.7378311157226562,
+        2.8460559844970703,
+        0.8600339293479919
+      ],
+      "diagonal": 4.776094060651006,
+      "vfxHook": [
+        0.7009155011177063,
+        -0.24397188425064087,
+        0.3259198296070099
+      ],
+      "vfxProfile": "inward_compass_wisp",
+      "palette": [
+        "gold",
+        "gold_edge",
+        "green",
+        "ink",
+        "stone_dark"
+      ],
+      "paintedColorCount": 1145,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "open verdigris pocket compass with inset dial",
+          "first_face": 0,
+          "last_face_exclusive": 830
+        },
+        {
+          "name": "inward curling needle, open hinged lid and hanging ring",
+          "first_face": 830,
+          "last_face_exclusive": 1684
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Fully open aged brass pocket compass with concave rim, cracked inset stone dial, black central sink, curling inward needle and angled ornate lid.",
+        "An inward curling spectral needle trace and a brief cold pulse in the dial sink."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/grave_compass.blend",
+      "robloxIntendedSize": [
+        3.7378311157226562,
+        2.8460559844970703,
+        0.8600339293479919
+      ],
+      "vfxHookRoblox": [
+        0.7009155011177063,
+        -0.24397188425064087,
+        0.3259198296070099
+      ],
+      "vfxHooksRoblox": {
+        "dialCenter": [
+          0.7009155011177063,
+          -0.24397188425064087,
+          0.3259198296070099
+        ]
+      },
+      "vfxGlowMaterial": "cyan"
+    },
+    {
+      "id": "hollow_violin",
+      "displayName": "Hollow Violin",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/hollow_violin.blend",
+      "export": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+      "sha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "triangles": 2150,
+      "vertices": 1131,
+      "blenderDimensions": [
+        1.6355282068252563,
+        0.8499729037284851,
+        3.8532867431640625
+      ],
+      "intendedRobloxSize": [
+        1.6355282068252563,
+        3.8532867431640625,
+        0.8499729037284851
+      ],
+      "diagonal": 4.271442985390017,
+      "vfxHook": [
+        0.0,
+        -0.061643428802490075,
+        0.3521320736408234
+      ],
+      "vfxProfile": "three_spectral_strings",
+      "palette": [
+        "bone",
+        "cyan",
+        "gold",
+        "ink",
+        "wood"
+      ],
+      "paintedColorCount": 653,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "carved walnut violin with genuinely open hollow waist",
+          "first_face": 0,
+          "last_face_exclusive": 472
+        },
+        {
+          "name": "carved neck, curled scroll and tuning pegs",
+          "first_face": 472,
+          "last_face_exclusive": 866
+        },
+        {
+          "name": "three cold strings, bridge and two carved legs",
+          "first_face": 866,
+          "last_face_exclusive": 1094
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Carved double-lobed violin body with an actual open waist cavity and intact convex back, inset purfling, curved scroll, tuning pegs and two wooden legs.",
+        "Three cyan strings shimmer in turn; sparse notes emerge from the hollow body."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/hollow_violin.blend",
+      "robloxIntendedSize": [
+        1.6355282068252563,
+        3.8532867431640625,
+        0.8499729037284851
+      ],
+      "vfxHookRoblox": [
+        0.0,
+        -0.061643428802490075,
+        0.3521320736408234
+      ],
+      "vfxHooksRoblox": {
+        "stringBridge": [
+          0.0,
+          -0.5916434288024901,
+          0.4321320736408234
+        ]
+      },
+      "vfxGlowMaterial": "cyan"
+    },
+    {
+      "id": "marrow_dice",
+      "displayName": "Marrow Dice",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/marrow_dice.blend",
+      "export": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+      "sha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "triangles": 4138,
+      "vertices": 2095,
+      "blenderDimensions": [
+        3.312481641769409,
+        1.9026013612747192,
+        2.809999942779541
+      ],
+      "intendedRobloxSize": [
+        3.312481641769409,
+        2.809999942779541,
+        1.9026013612747192
+      ],
+      "diagonal": 4.742206896098566,
+      "vfxHook": [
+        -0.9225021600723267,
+        1.315000057220459,
+        1.131300687789917
+      ],
+      "vfxProfile": "wandering_dice_pips",
+      "palette": [
+        "bone",
+        "cyan",
+        "ink"
+      ],
+      "paintedColorCount": 382,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "two rounded ivory dice with carved pip cavities",
+          "first_face": 0,
+          "last_face_exclusive": 1624
+        },
+        {
+          "name": "squat articulated appendages and errant ghost pips",
+          "first_face": 1624,
+          "last_face_exclusive": 2112
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Paired differently scaled and tilted worn ivory dice; true carved spherical pips on four faces; squat shadow feet.",
+        "Three errant cyan pips circle slowly and pause at carved sockets."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/marrow_dice.blend",
+      "robloxIntendedSize": [
+        3.312481641769409,
+        2.809999942779541,
+        1.9026013612747192
+      ],
+      "vfxHookRoblox": [
+        -0.9225021600723267,
+        1.315000057220459,
+        1.131300687789917
+      ],
+      "vfxHooksRoblox": {
+        "diePair": [
+          -0.052502154662638884,
+          0.28500000000000014,
+          0.6413006734848024
+        ]
+      },
+      "vfxGlowMaterial": "cyan",
+      "vfxHookMetadataRevision": "semantic-v2; source geometry and exports remain frozen"
+    },
+    {
+      "id": "chime_triplets",
+      "displayName": "Chime Triplets",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/chime_triplets.blend",
+      "export": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+      "sha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "triangles": 5332,
+      "vertices": 2728,
+      "blenderDimensions": [
+        3.9294962882995605,
+        1.2350000143051147,
+        2.9680001735687256
+      ],
+      "intendedRobloxSize": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ],
+      "diagonal": 5.076927333082249,
+      "vfxHook": [
+        0.08997207880020142,
+        -0.5710000381469726,
+        0.1
+      ],
+      "vfxProfile": "three_bell_spirits",
+      "palette": [
+        "blue_paint",
+        "gold",
+        "gold_edge",
+        "green",
+        "ink",
+        "iron",
+        "iron_edge",
+        "white_glow"
+      ],
+      "paintedColorCount": 1375,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "crooked blue iron suspension beam",
+          "first_face": 0,
+          "last_face_exclusive": 82
+        },
+        {
+          "name": "three different hollow aged bronze bells and imprisoned faces",
+          "first_face": 82,
+          "last_face_exclusive": 2782
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Three distinct open bronze and verdigris bells hang from curled blue iron; true concave interiors contain dark faces and pale eyes.",
+        "Bells rock out of phase; small blue vapor spirals rise independently beneath each lip."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/chime_triplets.blend",
+      "robloxIntendedSize": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ],
+      "vfxHookRoblox": [
+        0.08997207880020142,
+        -0.5710000381469726,
+        0.1
+      ],
+      "vfxHooksRoblox": {
+        "leftBell": [
+          -1.0100279211997987,
+          -0.8310000381469727,
+          -0.0
+        ],
+        "middleBell": [
+          0.08997207880020142,
+          -1.0710000381469726,
+          -0.0
+        ],
+        "rightBell": [
+          1.2199720788002013,
+          -0.7610000381469726,
+          -0.0
+        ]
+      },
+      "vfxGlowMaterial": "cyan"
+    },
+    {
+      "id": "music_box_dancer",
+      "displayName": "Music Box Dancer",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/music_box_dancer.blend",
+      "export": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+      "sha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "triangles": 3988,
+      "vertices": 2122,
+      "blenderDimensions": [
+        2.7649190425872803,
+        1.852649450302124,
+        3.3450000286102295
+      ],
+      "intendedRobloxSize": [
+        2.7649190425872803,
+        3.3450000286102295,
+        1.852649450302124
+      ],
+      "diagonal": 4.718698177375722,
+      "vfxHook": [
+        -0.11651165577492772,
+        0.3175000000000001,
+        0.28991201996803284
+      ],
+      "vfxProfile": "wooden_music_box_refrain",
+      "palette": [
+        "cloth",
+        "gold",
+        "gold_edge",
+        "ink",
+        "paper",
+        "wood"
+      ],
+      "paintedColorCount": 1153,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "open walnut music box, fitted walls and bronze corner feet",
+          "first_face": 0,
+          "last_face_exclusive": 1060
+        },
+        {
+          "name": "raised ornate lid with recessed lining",
+          "first_face": 1060,
+          "last_face_exclusive": 1260
+        },
+        {
+          "name": "faceless carved wooden ballerina and pleated tutu",
+          "first_face": 1260,
+          "last_face_exclusive": 2190
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "An actual open walnut box with raised recessed lid, winding key and four bronze feet; faceless carved wooden ballerina with curved arms, lifted knee and fourteen volumetric skirt pleats.",
+        "The dancer turns subtly over the spindle while a sparse bronze musical stave curls from the box."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/music_box_dancer.blend",
+      "robloxIntendedSize": [
+        2.7649190425872803,
+        3.3450000286102295,
+        1.852649450302124
+      ],
+      "vfxHookRoblox": [
+        -0.11651165577492772,
+        0.3175000000000001,
+        0.28991201996803284
+      ],
+      "vfxHooksRoblox": {
+        "musicMechanism": [
+          -0.11651165577492772,
+          -0.6224999999999998,
+          0.28991201996803284
+        ]
+      },
+      "vfxGlowMaterial": "gold"
+    },
+    {
+      "id": "raven_quill",
+      "displayName": "Raven Quill",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/raven_quill.blend",
+      "export": "assets/export/meshes/curses/rework/raven_quill.fbx",
+      "sha256": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+      "triangles": 1394,
+      "vertices": 781,
+      "blenderDimensions": [
+        2.4739999771118164,
+        0.8183358311653137,
+        3.5245018005371094
+      ],
+      "intendedRobloxSize": [
+        2.4739999771118164,
+        3.5245018005371094,
+        0.8183358311653137
+      ],
+      "diagonal": 4.383202295275409,
+      "vfxHook": [
+        0.84,
+        0.5422508510947226,
+        0.25316791979355696
+      ],
+      "vfxProfile": "raven_ink_signature",
+      "palette": [
+        "gold",
+        "gold_edge",
+        "ink",
+        "iron",
+        "iron_edge",
+        "ochre",
+        "white_glow"
+      ],
+      "paintedColorCount": 398,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "layered curved feather body and individual sculpted barbs",
+          "first_face": 0,
+          "last_face_exclusive": 332
+        },
+        {
+          "name": "pale eye and true divided bronze fountain nib beak",
+          "first_face": 332,
+          "last_face_exclusive": 586
+        },
+        {
+          "name": "two orange toes and three claws per foot",
+          "first_face": 586,
+          "last_face_exclusive": 702
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "A curved thick feather made of twenty shaped barbs and two layered wings, ivory eye, bronze fountain nib with separated slit and three-toed orange feet.",
+        "One brief fading ink signature trails from the nib; feather tips sway gently."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/raven_quill.blend",
+      "robloxIntendedSize": [
+        2.4739999771118164,
+        3.5245018005371094,
+        0.8183358311653137
+      ],
+      "vfxHookRoblox": [
+        0.84,
+        0.5422508510947226,
+        0.25316791979355696
+      ],
+      "vfxHooksRoblox": {
+        "nibTip": [
+          0.95,
+          0.5022508510947226,
+          0.21316791979355698
+        ]
+      },
+      "vfxGlowMaterial": "bone"
+    },
+    {
+      "id": "sorrow_chalice",
+      "displayName": "Sorrow Chalice",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/sorrow_chalice.blend",
+      "export": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+      "sha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "triangles": 2828,
+      "vertices": 1452,
+      "blenderDimensions": [
+        1.9149999618530273,
+        1.7319999933242798,
+        2.841651439666748
+      ],
+      "intendedRobloxSize": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ],
+      "diagonal": 3.8395353540933184,
+      "vfxHook": [
+        0.07249999791383743,
+        1.0391743183135986,
+        0.3731524348258972
+      ],
+      "vfxProfile": "gray_sorrow_tears",
+      "palette": [
+        "blue_paint",
+        "gold",
+        "ink",
+        "stone_light"
+      ],
+      "paintedColorCount": 777,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "matte blue chalice, actual hollow bowl and bronze rim",
+          "first_face": 0,
+          "last_face_exclusive": 954
+        },
+        {
+          "name": "curved gray tear spirit with carved dark eyes",
+          "first_face": 954,
+          "last_face_exclusive": 1443
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Blue matte chalice with sculpted concave bowl, bronze tear inlays and hairline fractures; bent volumetric gray teardrop ghost with two deep eyes and drifting gray drops.",
+        "Gray tears rise slowly and dissolve; blue rim breathes a low intensity cold halo."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/sorrow_chalice.blend",
+      "robloxIntendedSize": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ],
+      "vfxHookRoblox": [
+        0.07249999791383743,
+        1.0391743183135986,
+        0.3731524348258972
+      ],
+      "vfxHooksRoblox": {
+        "tearFace": [
+          -0.03750000000000009,
+          0.6291743278503417,
+          0.49000002145767213
+        ],
+        "bowlRim": [
+          -0.03750000000000009,
+          0.3091743278503418,
+          2.1457672118307958e-08
+        ]
+      },
+      "vfxGlowMaterial": "blue_paint",
+      "vfxHookMetadataRevision": "semantic-v2; source geometry and exports remain frozen"
+    },
+    {
+      "id": "thimble_spider",
+      "displayName": "Thimble Spider",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/thimble_spider.blend",
+      "export": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+      "sha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "triangles": 5620,
+      "vertices": 2864,
+      "blenderDimensions": [
+        3.3798885345458984,
+        1.8815410137176514,
+        2.0764694213867188
+      ],
+      "intendedRobloxSize": [
+        3.3798885345458984,
+        2.0764694213867188,
+        1.8815410137176514
+      ],
+      "diagonal": 4.39039501072632,
+      "vfxHook": [
+        -9.304285049438477e-05,
+        0.8682346940040588,
+        0.41472944617271423
+      ],
+      "vfxProfile": "thimble_thread_glints",
+      "palette": [
+        "bone",
+        "gold",
+        "gold_edge",
+        "ink",
+        "iron",
+        "wood"
+      ],
+      "paintedColorCount": 1033,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "domed bronze thimble and dimpled armor",
+          "first_face": 0,
+          "last_face_exclusive": 1514
+        },
+        {
+          "name": "rounded shadow abdomen, button eyes and needle fangs",
+          "first_face": 1514,
+          "last_face_exclusive": 2018
+        },
+        {
+          "name": "eight articulated needle legs with brass knees",
+          "first_face": 2018,
+          "last_face_exclusive": 2602
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Curved bronze sewing thimble armor with rows of authored sunk dimples, rounded black core, button eyes, paired needle fangs and eight segmented legs.",
+        "A loose spectral thread forms briefly between the needle fangs; dimples glint sparingly."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/thimble_spider.blend",
+      "robloxIntendedSize": [
+        3.3798885345458984,
+        2.0764694213867188,
+        1.8815410137176514
+      ],
+      "vfxHookRoblox": [
+        -9.304285049438477e-05,
+        0.8682346940040588,
+        0.41472944617271423
+      ],
+      "vfxHooksRoblox": {
+        "fangs": [
+          -9.304285049438477e-05,
+          -0.5817653250694275,
+          0.919229519367218
+        ]
+      },
+      "vfxGlowMaterial": "bone",
+      "vfxHookMetadataRevision": "semantic-v2; source geometry and exports remain frozen"
+    },
+    {
+      "id": "thorn_reliquary",
+      "displayName": "Thorn Reliquary",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/thorn_reliquary.blend",
+      "export": "assets/export/meshes/curses/rework/thorn_reliquary.fbx",
+      "sha256": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+      "triangles": 2060,
+      "vertices": 1104,
+      "blenderDimensions": [
+        1.7483792304992676,
+        1.749131679534912,
+        3.612090587615967
+      ],
+      "intendedRobloxSize": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ],
+      "diagonal": 4.377612360538299,
+      "vfxHook": [
+        0.11857816100120544,
+        0.11904519543051717,
+        0.3000000131130218
+      ],
+      "vfxProfile": "glass_caged_thorn",
+      "palette": [
+        "glass",
+        "gold",
+        "gold_edge",
+        "ink",
+        "porcelain",
+        "white_glow"
+      ],
+      "paintedColorCount": 638,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "eight sided antique bronze reliquary frame and footed base",
+          "first_face": 0,
+          "last_face_exclusive": 580
+        },
+        {
+          "name": "sculpted blue glass edge reflections",
+          "first_face": 580,
+          "last_face_exclusive": 622
+        },
+        {
+          "name": "curved black thorn entity, forked root feet and pale eyes",
+          "first_face": 622,
+          "last_face_exclusive": 940
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Octagonal aged bronze urn with curved roof ribs, ring handle and feet; sculpted blue glass edge reflections preserve full visibility of a volumetric forked black thorn creature.",
+        "Studio profile adds eight faint transparent urn panes and a trapped dark vapor curl without obscuring the creature."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/thorn_reliquary.blend",
+      "robloxIntendedSize": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ],
+      "vfxHookRoblox": [
+        0.11857816100120544,
+        0.11904519543051717,
+        0.3000000131130218
+      ],
+      "vfxHooksRoblox": {
+        "urnCenter": [
+          -0.0014218389987945557,
+          -0.3409548045694828,
+          1.3113021848920603e-08
+        ],
+        "thornFace": [
+          0.11857816100120544,
+          0.11904519543051717,
+          0.3000000131130218
+        ]
+      },
+      "vfxGlowMaterial": "bone"
+    },
+    {
+      "id": "sundial_sentinel",
+      "displayName": "Sundial Sentinel",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/sundial_sentinel.blend",
+      "export": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+      "sha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "triangles": 2316,
+      "vertices": 1232,
+      "blenderDimensions": [
+        2.2615041732788086,
+        0.8305502533912659,
+        3.0419445037841797
+      ],
+      "intendedRobloxSize": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.8305502533912659
+      ],
+      "diagonal": 3.880417659642908,
+      "vfxHook": [
+        -0.36845237493515015,
+        0.27402769088745127,
+        0.2752751410007477
+      ],
+      "vfxProfile": "autonomous_sundial_shadow",
+      "palette": [
+        "bone",
+        "gold",
+        "gold_edge",
+        "ink",
+        "stone_dark",
+        "stone_light",
+        "white_glow"
+      ],
+      "paintedColorCount": 959,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "carved round ivory stone sundial and radial hour cuts",
+          "first_face": 0,
+          "last_face_exclusive": 767
+        },
+        {
+          "name": "projecting bronze gnomon and independent shadow presence",
+          "first_face": 767,
+          "last_face_exclusive": 905
+        },
+        {
+          "name": "two stone legs and brass knee collars",
+          "first_face": 905,
+          "last_face_exclusive": 1245
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Tilted thick stone hour disk with rim, radial cuts, inset bronze dots and fractures; projecting bronze gnomon, an independently bent dark shadow creature and collared stone legs.",
+        "The autonomous shadow slips a few degrees independently of the hour markings; a pale rim trace recedes."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/sundial_sentinel.blend",
+      "robloxIntendedSize": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.8305502533912659
+      ],
+      "vfxHookRoblox": [
+        -0.36845237493515015,
+        0.27402769088745127,
+        0.2752751410007477
+      ],
+      "vfxHooksRoblox": {
+        "dialCenter": [
+          0.011547625064849854,
+          0.3640276908874511,
+          0.14527514100074768
+        ],
+        "shadowEyes": [
+          -0.38845237493515017,
+          0.3240276908874513,
+          0.36527514100074765
+        ]
+      },
+      "vfxGlowMaterial": "bone"
+    },
+    {
+      "id": "sleepwalker_shoes",
+      "displayName": "Sleepwalker Shoes",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/sleepwalker_shoes.blend",
+      "export": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+      "sha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "triangles": 5176,
+      "vertices": 2664,
+      "blenderDimensions": [
+        2.835836887359619,
+        2.378650665283203,
+        2.1824076175689697
+      ],
+      "intendedRobloxSize": [
+        2.835836887359619,
+        2.1824076175689697,
+        2.378650665283203
+      ],
+      "diagonal": 4.296842194959548,
+      "vfxHook": [
+        0.015955674648284915,
+        0.2658433982729911,
+        -0.02700825929641726
+      ],
+      "vfxProfile": "out_of_step_boot_echoes",
+      "palette": [
+        "blue_paint",
+        "bone",
+        "gold",
+        "gold_edge",
+        "ink",
+        "iron",
+        "wood"
+      ],
+      "paintedColorCount": 1631,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "two distinct empty child boots with curved toe boxes and open cuffs",
+          "first_face": 0,
+          "last_face_exclusive": 2672
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Different tall blue and shorter walnut child boots in staggered walking poses; truly empty open cuffs and footbeds, curved toes, thick soles, crisscross laces, eyelets and bronze patches.",
+        "Two pale footstep arcs appear out of phase and dissipate; empty cuffs exhale faint dust."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/sleepwalker_shoes.blend",
+      "robloxIntendedSize": [
+        2.835836887359619,
+        2.1824076175689697,
+        2.378650665283203
+      ],
+      "vfxHookRoblox": [
+        0.015955674648284915,
+        0.2658433982729911,
+        -0.02700825929641726
+      ],
+      "vfxHooksRoblox": {
+        "leftCuff": [
+          -0.734044325351715,
+          0.9558433982729913,
+          -0.6170082592964172
+        ],
+        "rightCuff": [
+          0.7159556746482849,
+          0.4058433982729912,
+          -0.08700825929641726
+        ]
+      },
+      "vfxGlowMaterial": "bone"
+    },
+    {
+      "id": "anchor_crab",
+      "displayName": "Anchor Crab",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "source": "assets/source/blender/curses_expansion/rework/anchor_crab.blend",
+      "export": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+      "sha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "triangles": 3128,
+      "vertices": 1630,
+      "blenderDimensions": [
+        4.531620025634766,
+        1.3299423456192017,
+        2.9201908111572266
+      ],
+      "intendedRobloxSize": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ],
+      "diagonal": 5.552642710725429,
+      "vfxHook": [
+        -0.1928044557571411,
+        -0.38890439495444307,
+        -0.20800865053818116
+      ],
+      "vfxProfile": "rusted_anchor_bubbles",
+      "palette": [
+        "gold",
+        "gold_edge",
+        "ink",
+        "verdigris",
+        "white_glow"
+      ],
+      "paintedColorCount": 751,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "rounded shadow crab body and upright copper green anchor carapace",
+          "first_face": 0,
+          "last_face_exclusive": 618
+        },
+        {
+          "name": "six articulated copper legs with bronze joints",
+          "first_face": 618,
+          "last_face_exclusive": 1134
+        },
+        {
+          "name": "asymmetric massive right pincer and small left claw",
+          "first_face": 1134,
+          "last_face_exclusive": 1650
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Verdigris copper anchor carapace with actual ring eyelet, forked arrow flukes and worn brass crossbar over a dark crab; six jointed legs and a distinctly oversized curved right pincer.",
+        "A few cold sinking bubbles and tiny verdigris flakes drift from the anchor eyelet."
+      ],
+      "blendSource": "assets/source/blender/curses_expansion/rework/anchor_crab.blend",
+      "robloxIntendedSize": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ],
+      "vfxHookRoblox": [
+        -0.1928044557571411,
+        -0.38890439495444307,
+        -0.20800865053818116
+      ],
+      "vfxHooksRoblox": {
+        "anchorEyelet": [
+          -0.1828044557571411,
+          1.0510956050455569,
+          -0.22800865053818115
+        ],
+        "largeClaw": [
+          1.847195544242859,
+          -0.14890439495444308,
+          0.39199134946181885
+        ]
+      },
+      "vfxGlowMaterial": "verdigris"
+    }
+  ]
+}

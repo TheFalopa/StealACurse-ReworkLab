@@ -1,0 +1,106 @@
+{
+  "id": "coin_crawler",
+  "displayName": "Coin Crawler",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/coin_crawler.blend",
+  "export": "assets/export/meshes/curses/rework/coin_crawler.fbx",
+  "sha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+  "triangles": 2172,
+  "vertices": 1142,
+  "blenderDimensions": [
+    2.7699999809265137,
+    2.541633129119873,
+    1.1513848304748535
+  ],
+  "intendedRobloxSize": [
+    2.7699999809265137,
+    1.1513848304748535,
+    2.541633129119873
+  ],
+  "diagonal": 3.9317281041827106,
+  "vfxHook": [
+    0.0,
+    -0.20569241035729646,
+    0.8098922740201995
+  ],
+  "vfxProfile": "coin_moss",
+  "palette": [
+    "ghost",
+    "iron",
+    "iron_edge",
+    "moss",
+    "stone_dark",
+    "white_glow"
+  ],
+  "paintedColorCount": 439,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "FuneraryCoinCarapace",
+      "first_face": 0,
+      "last_face_exclusive": 242
+    },
+    {
+      "name": "EmbossedFuneralGate",
+      "first_face": 242,
+      "last_face_exclusive": 416
+    },
+    {
+      "name": "CrawlerBodyEyesAndPaws",
+      "first_face": 416,
+      "last_face_exclusive": 976
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Broad funeral coin over a hidden four-legged crawler, projecting rim, embossed cemetery gate and crescent, warm corroded edges, pale eyes beneath lip."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/coin_crawler.blend",
+  "robloxIntendedSize": [
+    2.7699999809265137,
+    1.1513848304748535,
+    2.541633129119873
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    -0.20569241035729646,
+    0.8098922740201995
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.027699999511241913,
+      0.025416333228349686,
+      0.011513851583003998
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2172,
+    "colorCount": 439,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "coin_crawler",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

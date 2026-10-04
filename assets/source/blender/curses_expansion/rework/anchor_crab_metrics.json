@@ -1,0 +1,81 @@
+{
+  "id": "anchor_crab",
+  "displayName": "Anchor Crab",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-06-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/anchor_crab.blend",
+  "export": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+  "sha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+  "triangles": 3128,
+  "vertices": 1630,
+  "blenderDimensions": [
+    4.531620025634766,
+    1.3299423456192017,
+    2.9201908111572266
+  ],
+  "intendedRobloxSize": [
+    4.531620025634766,
+    2.9201908111572266,
+    1.3299423456192017
+  ],
+  "diagonal": 5.552642710725429,
+  "vfxHook": [
+    -0.1928044557571411,
+    -0.38890439495444307,
+    -0.20800865053818116
+  ],
+  "vfxProfile": "rusted_anchor_bubbles",
+  "palette": [
+    "gold",
+    "gold_edge",
+    "ink",
+    "verdigris",
+    "white_glow"
+  ],
+  "paintedColorCount": 751,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "rounded shadow crab body and upright copper green anchor carapace",
+      "first_face": 0,
+      "last_face_exclusive": 618
+    },
+    {
+      "name": "six articulated copper legs with bronze joints",
+      "first_face": 618,
+      "last_face_exclusive": 1134
+    },
+    {
+      "name": "asymmetric massive right pincer and small left claw",
+      "first_face": 1134,
+      "last_face_exclusive": 1650
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Verdigris copper anchor carapace with actual ring eyelet, forked arrow flukes and worn brass crossbar over a dark crab; six jointed legs and a distinctly oversized curved right pincer.",
+    "A few cold sinking bubbles and tiny verdigris flakes drift from the anchor eyelet."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/anchor_crab.blend",
+  "robloxIntendedSize": [
+    4.531620025634766,
+    2.9201908111572266,
+    1.3299423456192017
+  ],
+  "vfxHookRoblox": [
+    -0.1928044557571411,
+    -0.38890439495444307,
+    -0.20800865053818116
+  ]
+}

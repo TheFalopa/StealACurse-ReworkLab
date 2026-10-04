@@ -1,0 +1,110 @@
+{
+  "id": "the_undertow",
+  "displayName": "The Undertow",
+  "rarity": "Mythic",
+  "sourceReference": "assets/reference/rework-10-mythic.png",
+  "source": "assets/source/blender/curses_expansion/rework/the_undertow.blend",
+  "export": "assets/export/meshes/curses/rework/the_undertow.fbx",
+  "sha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+  "triangles": 2498,
+  "vertices": 1285,
+  "blenderDimensions": [
+    3.587083578109741,
+    1.5776621103286743,
+    3.175576686859131
+  ],
+  "intendedRobloxSize": [
+    3.587083578109741,
+    3.175576686859131,
+    1.5776621103286743
+  ],
+  "diagonal": 5.043855036064629,
+  "vfxHook": [
+    0.00015366077423095703,
+    -0.9622116868197917,
+    0.2200000023841858
+  ],
+  "vfxProfile": "undertow_spiral",
+  "palette": [
+    "cold_white",
+    "copper",
+    "copper_edge",
+    "deep_water",
+    "patina",
+    "sea_edge",
+    "sea_glass"
+  ],
+  "paintedColorCount": 675,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Genuinely hollow wreck bell with corroded rim and hanging clapper",
+      "first_face": 0,
+      "last_face_exclusive": 480
+    },
+    {
+      "name": "Large unequal curved dark water blade arms and copper wrist plates",
+      "first_face": 480,
+      "last_face_exclusive": 660
+    },
+    {
+      "name": "Compact curled undertow below the open bell",
+      "first_face": 660,
+      "last_face_exclusive": 711
+    },
+    {
+      "name": "Bell hanger with broad weathered linked handle",
+      "first_face": 711,
+      "last_face_exclusive": 843
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 10: a genuinely hollow corroded wreck bell with visible hanging clapper, copper rim bands and two large unequal curling water blade arms. A compact dark-water undertow spiral occupies the open bottom while bright water edges and patina islands preserve readable material boundaries."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/the_undertow.blend",
+  "robloxIntendedSize": [
+    3.587083578109741,
+    3.175576686859131,
+    1.5776621103286743
+  ],
+  "vfxHookRoblox": [
+    0.00015366077423095703,
+    -0.9622116868197917,
+    0.2200000023841858
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.035870835185050964,
+      0.015776626765727997,
+      0.03175577148795128
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2498,
+    "colorCount": 675,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "the_undertow",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7"
+  }
+}

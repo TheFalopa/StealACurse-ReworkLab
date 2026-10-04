@@ -1,0 +1,83 @@
+{
+  "id": "sundial_sentinel",
+  "displayName": "Sundial Sentinel",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-06-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/sundial_sentinel.blend",
+  "export": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+  "sha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+  "triangles": 2316,
+  "vertices": 1232,
+  "blenderDimensions": [
+    2.2615041732788086,
+    0.8305502533912659,
+    3.0419445037841797
+  ],
+  "intendedRobloxSize": [
+    2.2615041732788086,
+    3.0419445037841797,
+    0.8305502533912659
+  ],
+  "diagonal": 3.880417659642908,
+  "vfxHook": [
+    -0.36845237493515015,
+    0.27402769088745127,
+    0.2752751410007477
+  ],
+  "vfxProfile": "autonomous_sundial_shadow",
+  "palette": [
+    "bone",
+    "gold",
+    "gold_edge",
+    "ink",
+    "stone_dark",
+    "stone_light",
+    "white_glow"
+  ],
+  "paintedColorCount": 959,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "carved round ivory stone sundial and radial hour cuts",
+      "first_face": 0,
+      "last_face_exclusive": 767
+    },
+    {
+      "name": "projecting bronze gnomon and independent shadow presence",
+      "first_face": 767,
+      "last_face_exclusive": 905
+    },
+    {
+      "name": "two stone legs and brass knee collars",
+      "first_face": 905,
+      "last_face_exclusive": 1245
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Tilted thick stone hour disk with rim, radial cuts, inset bronze dots and fractures; projecting bronze gnomon, an independently bent dark shadow creature and collared stone legs.",
+    "The autonomous shadow slips a few degrees independently of the hour markings; a pale rim trace recedes."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/sundial_sentinel.blend",
+  "robloxIntendedSize": [
+    2.2615041732788086,
+    3.0419445037841797,
+    0.8305502533912659
+  ],
+  "vfxHookRoblox": [
+    -0.36845237493515015,
+    0.27402769088745127,
+    0.2752751410007477
+  ]
+}

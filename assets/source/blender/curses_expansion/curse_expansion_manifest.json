@@ -1,0 +1,3610 @@
+{
+  "schemaVersion": 2,
+  "conceptCount": 50,
+  "preservedExistingCount": 6,
+  "totalPlannedCatalogCount": 56,
+  "historicalFirstWaveCount": 15,
+  "remainingUnmodeledCount": 0,
+  "rarityCounts": {
+    "COMMON": 15,
+    "RARE": 14,
+    "LEGENDARY": 10,
+    "MYTHIC": 6,
+    "SECRET": 5
+  },
+  "stageCounts": {
+    "referenceReviewed": 50,
+    "blenderModelComplete": 50,
+    "locallyValidated": 50,
+    "fbxExported": 50,
+    "realRobloxImportRecorded": 50,
+    "studioAppearanceChecked": 50,
+    "vfxChecked": 50,
+    "gameplayChecked": 50,
+    "enabled": 50
+  },
+  "statusRules": "Exports, imports, material appearance, VFX, gameplay and enablement are independent; current-source SHA256 required.",
+  "concepts": [
+    {
+      "id": "candle_wisp",
+      "displayName": "Candle Wisp",
+      "rarity": "COMMON",
+      "visualKey": "candle_wisp",
+      "sourceReference": "rework-01-common.png",
+      "referenceSheet": 1,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/candle_wisp.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+      "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "meshId": "rbxassetid://120691798070914",
+      "textureId": "",
+      "importedSize": [
+        2.5199999809265137,
+        3.9259285926818848,
+        1.6049911975860596
+      ],
+      "importedInitialSize": [
+        2.5199999809265137,
+        3.9259285926818848,
+        1.6049911975860596
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/candle_wisp.fbx",
+        "fbxSha256": "f785ad50d71545a7f16114d7c37724ce363a9c88194170f77a2d6ae0bafab16f",
+        "meshId": "rbxassetid://131441841706440",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Rebuilt from current rework01: substantial asymmetric wax volumes, melted crown, round hand drips, inset eyes and sculpted blue flame; replaces weak first-wave shape."
+      ],
+      "triangles": 3606,
+      "vertices": 1901,
+      "robloxIntendedSize": [
+        2.5199999809265137,
+        3.9259285926818848,
+        1.6049913167953491
+      ],
+      "vfxProfile": "ghost_flame",
+      "vfxHookRoblox": [
+        0.0,
+        1.2770357131958008,
+        0.2732393443584442
+      ],
+      "paintedColorCount": 1086,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "grave_hopper",
+      "displayName": "Grave Hopper",
+      "rarity": "COMMON",
+      "visualKey": "grave_hopper",
+      "sourceReference": "rework-01-common.png",
+      "referenceSheet": 1,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/grave_hopper.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+      "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "meshId": "rbxassetid://71461503692914",
+      "textureId": "",
+      "importedSize": [
+        2.93017315864563,
+        3.021085739135742,
+        1.9563539028167725
+      ],
+      "importedInitialSize": [
+        2.93017315864563,
+        3.021085739135742,
+        1.9563539028167725
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/grave_hopper.fbx",
+        "fbxSha256": "6ae091e87754780244890dc6ff7a7eed26d107650991d03663f833081d53968c",
+        "meshId": "rbxassetid://111985391427900",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Rebuilt thick amphibian stone body with real recessed hollow mouth, back tombstone carapace, crouched paws, stone fissures and moss."
+      ],
+      "triangles": 2400,
+      "vertices": 1258,
+      "robloxIntendedSize": [
+        2.93017315864563,
+        3.0210859775543213,
+        1.9563539028167725
+      ],
+      "vfxProfile": "moss_relic",
+      "vfxHookRoblox": [
+        0.0,
+        -0.6694569537043571,
+        0.681823069638535
+      ],
+      "paintedColorCount": 410,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "grave_key",
+      "displayName": "Grave Key",
+      "rarity": "COMMON",
+      "visualKey": "grave_key",
+      "sourceReference": "rework-01-common.png",
+      "referenceSheet": 1,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/grave_key.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/grave_key.fbx",
+      "fbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+      "meshId": "rbxassetid://81555225772390",
+      "textureId": "",
+      "importedSize": [
+        2.9194774627685547,
+        3.4665002822875977,
+        0.7180373668670654
+      ],
+      "importedInitialSize": [
+        2.9194774627685547,
+        3.4665002822875977,
+        0.7180373668670654
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/grave_key.fbx",
+        "fbxSha256": "19771b3e36edcbd1ae05851600afb7514d1b8c8333f75637096250451ab9ab42",
+        "meshId": "rbxassetid://84656327821029",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Substantially rebuilt dark fractured iron key, diagonal shaft, key-bit walking legs, substantial blue scarf knot and trailing torn cloth."
+      ],
+      "triangles": 1526,
+      "vertices": 793,
+      "robloxIntendedSize": [
+        2.9194774627685547,
+        3.4665002822875977,
+        0.718036949634552
+      ],
+      "vfxProfile": "relic_glint",
+      "vfxHookRoblox": [
+        -0.6252612400054931,
+        0.8367498920857908,
+        -0.11098151805506892
+      ],
+      "paintedColorCount": 336,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "mourning_ribbon",
+      "displayName": "Mourning Ribbon",
+      "rarity": "COMMON",
+      "visualKey": "mourning_ribbon",
+      "sourceReference": "rework-01-common.png",
+      "referenceSheet": 1,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/mourning_ribbon.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/mourning_ribbon.fbx",
+      "fbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+      "meshId": "rbxassetid://86964137364657",
+      "textureId": "",
+      "importedSize": [
+        3.799999952316284,
+        3.0199999809265137,
+        0.7315346598625183
+      ],
+      "importedInitialSize": [
+        3.799999952316284,
+        3.0199999809265137,
+        0.7315346598625183
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Two volumetric funeral-bow loops, a stitched central knot and asymmetrically folded/frayed floating ribbon tails; no generic body."
+      ],
+      "triangles": 1728,
+      "vertices": 904,
+      "robloxIntendedSize": [
+        3.799999952316284,
+        3.0199999809265137,
+        0.7315346002578735
+      ],
+      "vfxProfile": "mourning_stitch",
+      "vfxHookRoblox": [
+        0.0,
+        0.43000000476837164,
+        0.19545747275609432
+      ],
+      "paintedColorCount": 152,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "wilted_sprout",
+      "displayName": "Wilted Sprout",
+      "rarity": "COMMON",
+      "visualKey": "wilted_sprout",
+      "sourceReference": "rework-01-common.png",
+      "referenceSheet": 1,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/wilted_sprout.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/wilted_sprout.fbx",
+      "fbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+      "meshId": "rbxassetid://73497154913372",
+      "textureId": "",
+      "importedSize": [
+        2.669999837875366,
+        3.403151035308838,
+        1.391714096069336
+      ],
+      "importedInitialSize": [
+        2.669999837875366,
+        3.403151035308838,
+        1.391714096069336
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Distinct wilted plant: twisted stem, branching root feet, dark face nested below overlapping ochre petals, dying drooping side leaf."
+      ],
+      "triangles": 2220,
+      "vertices": 1156,
+      "robloxIntendedSize": [
+        2.6700000762939453,
+        3.403151035308838,
+        1.391714096069336
+      ],
+      "vfxProfile": "wilted_pollen",
+      "vfxHookRoblox": [
+        -0.2549999952316284,
+        0.852774441242218,
+        0.7933317422866821
+      ],
+      "paintedColorCount": 388,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "ink_imp",
+      "displayName": "Ink Imp",
+      "rarity": "COMMON",
+      "visualKey": "ink_imp",
+      "sourceReference": "rework-02-common.png",
+      "referenceSheet": 2,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/ink_imp.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/ink_imp.fbx",
+      "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "meshId": "rbxassetid://138171047418372",
+      "textureId": "",
+      "importedSize": [
+        2.740211248397827,
+        2.994659900665283,
+        0.9678600430488586
+      ],
+      "importedInitialSize": [
+        2.740211248397827,
+        2.994659900665283,
+        0.9678600430488586
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/ink_imp.fbx",
+        "fbxSha256": "32e3a5dabc77f1651ed56cbe9a82cb03a9b8372ee3c53cc7ffe351a120ecd3b1",
+        "meshId": "rbxassetid://104472040658209",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Substantially reworked letter-born ink entity: deep ink head with cream eyes, folded parchment ears, crawling ink tendrils and thick sealed envelope."
+      ],
+      "triangles": 1772,
+      "vertices": 928,
+      "robloxIntendedSize": [
+        2.740211248397827,
+        2.994659900665283,
+        0.96785968542099
+      ],
+      "vfxProfile": "ink_splatter",
+      "vfxHookRoblox": [
+        0.015000000000000013,
+        0.4473299995064737,
+        0.4489298148053115
+      ],
+      "paintedColorCount": 234,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "lost_locket",
+      "displayName": "Lost Locket",
+      "rarity": "COMMON",
+      "visualKey": "lost_locket",
+      "sourceReference": "rework-02-common.png",
+      "referenceSheet": 2,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/lost_locket.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/lost_locket.fbx",
+      "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "meshId": "rbxassetid://91422731371880",
+      "textureId": "",
+      "importedSize": [
+        2.690000057220459,
+        2.765000104904175,
+        0.5018151998519897
+      ],
+      "importedInitialSize": [
+        2.690000057220459,
+        2.765000104904175,
+        0.5018151998519897
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Open paired brass locket with substantial metal depth, hinged asymmetry, recessed dark portrait and authored pale spectral handprint; no pet body."
+      ],
+      "triangles": 2500,
+      "vertices": 1298,
+      "robloxIntendedSize": [
+        2.690000057220459,
+        2.765000104904175,
+        0.501815140247345
+      ],
+      "vfxProfile": "ghost_handprint",
+      "vfxHookRoblox": [
+        0.6250000190734862,
+        -0.28250000476837145,
+        0.2439075768254032
+      ],
+      "paintedColorCount": 451,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "ashen_book",
+      "displayName": "Ashen Book",
+      "rarity": "COMMON",
+      "visualKey": "ashen_book",
+      "sourceReference": "rework-02-common.png",
+      "referenceSheet": 2,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/ashen_book.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/ashen_book.fbx",
+      "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "meshId": "rbxassetid://101139508733050",
+      "textureId": "",
+      "importedSize": [
+        3.3299996852874756,
+        2.6475000381469727,
+        1.7377972602844238
+      ],
+      "importedInitialSize": [
+        3.3299996852874756,
+        2.6475000381469727,
+        1.7377972602844238
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/ashen_book.fbx",
+        "fbxSha256": "f39889d35314fe67ed5bca10fe8b6e5e170f1876b4ff99688e80588d38fdeb16",
+        "meshId": "rbxassetid://116088006645241",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Remodeled charred walking book with deep page-block, angular opening, visible dark eyes, layered page feet, raised torn parchment wing and burnt gilding."
+      ],
+      "triangles": 2324,
+      "vertices": 1214,
+      "robloxIntendedSize": [
+        3.3299999237060547,
+        2.6475000381469727,
+        1.737797498703003
+      ],
+      "vfxProfile": "ember_pages",
+      "vfxHookRoblox": [
+        -0.29499999999999993,
+        -0.34625000268220907,
+        0.8611012200387088
+      ],
+      "paintedColorCount": 391,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "lantern_lurker",
+      "displayName": "Lantern Lurker",
+      "rarity": "COMMON",
+      "visualKey": "lantern_lurker",
+      "sourceReference": "rework-02-common.png",
+      "referenceSheet": 2,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/lantern_lurker.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+      "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "meshId": "rbxassetid://124690349043025",
+      "textureId": "",
+      "importedSize": [
+        2.6640000343322754,
+        3.0691258907318115,
+        2.01052188873291
+      ],
+      "importedInitialSize": [
+        2.6640000343322754,
+        3.0691258907318115,
+        2.01052188873291
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Open deep cage surrounds bright green haunted core, eight uneven iron bars, crooked loop handle and four crouched jointed claw legs."
+      ],
+      "triangles": 2950,
+      "vertices": 1539,
+      "robloxIntendedSize": [
+        2.6640000343322754,
+        3.0691256523132324,
+        2.010521173477173
+      ],
+      "vfxProfile": "trapped_green_light",
+      "vfxHookRoblox": [
+        -0.018000000000000016,
+        -0.20456282138824444,
+        0.05726058511691673
+      ],
+      "paintedColorCount": 534,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "hourglass_hound",
+      "displayName": "Hourglass Hound",
+      "rarity": "COMMON",
+      "visualKey": "hourglass_hound",
+      "sourceReference": "rework-02-common.png",
+      "referenceSheet": 2,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/hourglass_hound.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/hourglass_hound.fbx",
+      "fbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+      "meshId": "rbxassetid://122359731833236",
+      "textureId": "",
+      "importedSize": [
+        3.1549651622772217,
+        2.1600005626678467,
+        1.2913804054260254
+      ],
+      "importedInitialSize": [
+        3.1549651622772217,
+        2.1600005626678467,
+        1.2913804054260254
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Distinct quadrupedal sandstone relic with an open curved hourglass torso, two dark sand cones and falling-grain geometry, pointed hound skull and curled stone tail."
+      ],
+      "triangles": 2546,
+      "vertices": 1335,
+      "robloxIntendedSize": [
+        3.1549651622772217,
+        2.1600000858306885,
+        1.2913804054260254
+      ],
+      "vfxProfile": "falling_sand",
+      "vfxHookRoblox": [
+        0.09528054263304928,
+        0.30000000000000004,
+        0.05750000000000002
+      ],
+      "paintedColorCount": 458,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "nail_beetle",
+      "displayName": "Nail Beetle",
+      "rarity": "COMMON",
+      "visualKey": "nail_beetle",
+      "sourceReference": "rework-03-common.png",
+      "referenceSheet": 3,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/nail_beetle.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/nail_beetle.fbx",
+      "fbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+      "meshId": "rbxassetid://134811561032307",
+      "textureId": "",
+      "importedSize": [
+        2.208719491958618,
+        1.6229331493377686,
+        2.3138370513916016
+      ],
+      "importedInitialSize": [
+        2.208719491958618,
+        1.6229331493377686,
+        2.3138370513916016
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Iron beetle with coherent coffin-nail carapace rather than a generic insect shell; thick nail head, six jointed legs, pale eyes, rust edges and moss."
+      ],
+      "triangles": 1594,
+      "vertices": 833,
+      "robloxIntendedSize": [
+        2.2087197303771973,
+        1.6229333877563477,
+        2.3138370513916016
+      ],
+      "vfxProfile": "rust_dust",
+      "vfxHookRoblox": [
+        -0.001666426658630371,
+        -0.31301863007247444,
+        1.0971209603818028
+      ],
+      "paintedColorCount": 331,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "pale_guest",
+      "displayName": "Pale Guest",
+      "rarity": "COMMON",
+      "visualKey": "pale_guest",
+      "sourceReference": "rework-03-common.png",
+      "referenceSheet": 3,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/pale_guest.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/pale_guest.fbx",
+      "fbxSha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+      "meshId": "rbxassetid://95457500330255",
+      "textureId": "",
+      "importedSize": [
+        2.5144095420837402,
+        2.940000057220459,
+        0.8689985871315002
+      ],
+      "importedInitialSize": [
+        2.5144095420837402,
+        2.940000057220459,
+        0.8689985871315002
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Pale tapered ghost genuinely emerges through torn portrait canvas and deep skewed wooden frame, grips the lower rail with small hands; authored leaf motifs and worn joinery."
+      ],
+      "triangles": 1716,
+      "vertices": 916,
+      "robloxIntendedSize": [
+        2.5144095420837402,
+        2.940000057220459,
+        0.8689985871315002
+      ],
+      "vfxProfile": "portrait_ghost",
+      "vfxHookRoblox": [
+        0.24,
+        0.09000001996755591,
+        0.3517017588885394
+      ],
+      "paintedColorCount": 413,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "cold_teacup",
+      "displayName": "Cold Teacup",
+      "rarity": "COMMON",
+      "visualKey": "cold_teacup",
+      "sourceReference": "rework-03-common.png",
+      "referenceSheet": 3,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/cold_teacup.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/cold_teacup.fbx",
+      "fbxSha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+      "meshId": "rbxassetid://109492897154947",
+      "textureId": "",
+      "importedSize": [
+        2.7058072090148926,
+        2.4837679862976074,
+        2.471573829650879
+      ],
+      "importedInitialSize": [
+        2.7058072090148926,
+        2.4837679862976074,
+        2.471573829650879
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Thick genuinely hollow porcelain bowl with saucer and loop handle, dark liquid, curling three-dimensional ink steam, blue botanical decoration and large warm fissures."
+      ],
+      "triangles": 2456,
+      "vertices": 1274,
+      "robloxIntendedSize": [
+        2.7058072090148926,
+        2.4837677478790283,
+        2.471573829650879
+      ],
+      "vfxProfile": "cold_shadow",
+      "vfxHookRoblox": [
+        -0.06709640837531376,
+        0.6081161260604859,
+        0.029874898862167182
+      ],
+      "paintedColorCount": 330,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "coin_crawler",
+      "displayName": "Coin Crawler",
+      "rarity": "COMMON",
+      "visualKey": "coin_crawler",
+      "sourceReference": "rework-03-common.png",
+      "referenceSheet": 3,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/coin_crawler.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/coin_crawler.fbx",
+      "fbxSha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+      "meshId": "rbxassetid://101300591039625",
+      "textureId": "",
+      "importedSize": [
+        2.7699999809265137,
+        1.1513850688934326,
+        2.541633129119873
+      ],
+      "importedInitialSize": [
+        2.7699999809265137,
+        1.1513850688934326,
+        2.541633129119873
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Broad funeral coin over a hidden four-legged crawler, projecting rim, embossed cemetery gate and crescent, warm corroded edges, pale eyes beneath lip."
+      ],
+      "triangles": 2172,
+      "vertices": 1142,
+      "robloxIntendedSize": [
+        2.7699999809265137,
+        1.1513848304748535,
+        2.541633129119873
+      ],
+      "vfxProfile": "coin_moss",
+      "vfxHookRoblox": [
+        0.0,
+        -0.20569241035729646,
+        0.8098922740201995
+      ],
+      "paintedColorCount": 439,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "umbrella_wraith",
+      "displayName": "Umbrella Wraith",
+      "rarity": "COMMON",
+      "visualKey": "umbrella_wraith",
+      "sourceReference": "rework-03-common.png",
+      "referenceSheet": 3,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/umbrella_wraith.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/umbrella_wraith.fbx",
+      "fbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+      "meshId": "rbxassetid://74392665115825",
+      "textureId": "",
+      "importedSize": [
+        3.6449999809265137,
+        3.389763355255127,
+        0.6982876062393188
+      ],
+      "importedInitialSize": [
+        3.6449999809265137,
+        3.389763355255127,
+        0.6982876062393188
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Tall folded black umbrella spirit with one glowing eye in the fold, torn bat-like cloth wings, exposed rib seams, brass clasp and curved hook handle."
+      ],
+      "triangles": 1566,
+      "vertices": 823,
+      "robloxIntendedSize": [
+        3.6449999809265137,
+        3.389763593673706,
+        0.6982869505882263
+      ],
+      "vfxProfile": "umbrella_shadow",
+      "vfxHookRoblox": [
+        0.02,
+        0.37488175824284564,
+        0.2008565109648348
+      ],
+      "paintedColorCount": 255,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "marrow_dice",
+      "displayName": "Marrow Dice",
+      "rarity": "RARE",
+      "visualKey": "marrow_dice",
+      "sourceReference": "rework-04-rare.png",
+      "referenceSheet": 4,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/marrow_dice.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+      "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "meshId": "rbxassetid://98208990983506",
+      "textureId": "",
+      "importedSize": [
+        3.312481641769409,
+        2.809999942779541,
+        1.9026007652282715
+      ],
+      "importedInitialSize": [
+        3.312481641769409,
+        2.809999942779541,
+        1.9026007652282715
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/marrow_dice.fbx",
+        "fbxSha256": "5284d58995bd90162ff35e7793cdd41e7a1ea789f6ebdda60220b0247d3bebff",
+        "meshId": "rbxassetid://139995104770981",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Paired differently scaled and tilted worn ivory dice; true carved spherical pips on four faces; squat shadow feet.",
+        "Three errant cyan pips circle slowly and pause at carved sockets."
+      ],
+      "triangles": 4138,
+      "vertices": 2095,
+      "robloxIntendedSize": [
+        3.312481641769409,
+        2.809999942779541,
+        1.9026013612747192
+      ],
+      "vfxProfile": "wandering_dice_pips",
+      "vfxHookRoblox": [
+        -0.9225021600723267,
+        1.315000057220459,
+        1.131300687789917
+      ],
+      "vfxHooksRoblox": {
+        "diePair": [
+          -0.052502154662638884,
+          0.28500000000000014,
+          0.6413006734848024
+        ]
+      },
+      "paintedColorCount": 382,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "veil_mourner",
+      "displayName": "Veil Mourner",
+      "rarity": "RARE",
+      "visualKey": "veil_mourner",
+      "sourceReference": "rework-04-rare.png",
+      "referenceSheet": 4,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/veil_mourner.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/veil_mourner.fbx",
+      "fbxSha256": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+      "meshId": "rbxassetid://138895825932890",
+      "textureId": "",
+      "importedSize": [
+        2.645899534225464,
+        3.528148651123047,
+        1.6559808254241943
+      ],
+      "importedInitialSize": [
+        2.645899534225464,
+        3.528148651123047,
+        1.6559808254241943
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Volumetric open front cloak with twelve gathered folds, irregular torn hem, hollow dark hood and pale gripping hands; bone mourning comb.",
+        "Slow low amplitude cloak breathing and pale dust settling from the bone comb."
+      ],
+      "triangles": 3280,
+      "vertices": 1686,
+      "robloxIntendedSize": [
+        2.645899534225464,
+        3.5281481742858887,
+        1.655981183052063
+      ],
+      "vfxProfile": "black_veil_breath",
+      "vfxHookRoblox": [
+        -0.008109654141302158,
+        0.36907407701148065,
+        0.5204286510789994
+      ],
+      "vfxHooksRoblox": {
+        "veilFace": [
+          -0.008109654141302158,
+          0.36907407701148065,
+          0.5204286510789994
+        ]
+      },
+      "paintedColorCount": 443,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "grave_compass",
+      "displayName": "Grave Compass",
+      "rarity": "RARE",
+      "visualKey": "grave_compass",
+      "sourceReference": "rework-04-rare.png",
+      "referenceSheet": 4,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/grave_compass.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/grave_compass.fbx",
+      "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "meshId": "rbxassetid://92042737751538",
+      "textureId": "",
+      "importedSize": [
+        3.7378311157226562,
+        2.8460559844970703,
+        0.8600339889526367
+      ],
+      "importedInitialSize": [
+        3.7378311157226562,
+        2.8460559844970703,
+        0.8600339889526367
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/grave_compass.fbx",
+        "fbxSha256": "a51b3f680def92f94d6e217f3b98f5b55bad1739ae2d55292e7cbafb5ea478a3",
+        "meshId": "rbxassetid://74406539185855",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Fully open aged brass pocket compass with concave rim, cracked inset stone dial, black central sink, curling inward needle and angled ornate lid.",
+        "An inward curling spectral needle trace and a brief cold pulse in the dial sink."
+      ],
+      "triangles": 3242,
+      "vertices": 1689,
+      "robloxIntendedSize": [
+        3.7378311157226562,
+        2.8460559844970703,
+        0.8600339293479919
+      ],
+      "vfxProfile": "inward_compass_wisp",
+      "vfxHookRoblox": [
+        0.7009155011177063,
+        -0.24397188425064087,
+        0.3259198296070099
+      ],
+      "vfxHooksRoblox": {
+        "dialCenter": [
+          0.7009155011177063,
+          -0.24397188425064087,
+          0.3259198296070099
+        ]
+      },
+      "paintedColorCount": 1145,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "hollow_violin",
+      "displayName": "Hollow Violin",
+      "rarity": "RARE",
+      "visualKey": "hollow_violin",
+      "sourceReference": "rework-04-rare.png",
+      "referenceSheet": 4,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/hollow_violin.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+      "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "meshId": "rbxassetid://91498125175625",
+      "textureId": "",
+      "importedSize": [
+        1.6355282068252563,
+        3.8532867431640625,
+        0.8499729633331299
+      ],
+      "importedInitialSize": [
+        1.6355282068252563,
+        3.8532867431640625,
+        0.8499729633331299
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/hollow_violin.fbx",
+        "fbxSha256": "d10c2a23a1f55958bfeaccc1329245943b03fcec7690e41b0868028f8c95c312",
+        "meshId": "rbxassetid://107587916723576",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Carved double-lobed violin body with an actual open waist cavity and intact convex back, inset purfling, curved scroll, tuning pegs and two wooden legs.",
+        "Three cyan strings shimmer in turn; sparse notes emerge from the hollow body."
+      ],
+      "triangles": 2150,
+      "vertices": 1131,
+      "robloxIntendedSize": [
+        1.6355282068252563,
+        3.8532867431640625,
+        0.8499729037284851
+      ],
+      "vfxProfile": "three_spectral_strings",
+      "vfxHookRoblox": [
+        0.0,
+        -0.061643428802490075,
+        0.3521320736408234
+      ],
+      "vfxHooksRoblox": {
+        "stringBridge": [
+          0.0,
+          -0.5916434288024901,
+          0.4321320736408234
+        ]
+      },
+      "paintedColorCount": 653,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "chime_triplets",
+      "displayName": "Chime Triplets",
+      "rarity": "RARE",
+      "visualKey": "chime_triplets",
+      "sourceReference": "rework-04-rare.png",
+      "referenceSheet": 4,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/chime_triplets.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+      "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "meshId": "rbxassetid://114343537583157",
+      "textureId": "",
+      "importedSize": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ],
+      "importedInitialSize": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Three distinct open bronze and verdigris bells hang from curled blue iron; true concave interiors contain dark faces and pale eyes.",
+        "Bells rock out of phase; small blue vapor spirals rise independently beneath each lip."
+      ],
+      "triangles": 5332,
+      "vertices": 2728,
+      "robloxIntendedSize": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ],
+      "vfxProfile": "three_bell_spirits",
+      "vfxHookRoblox": [
+        0.08997207880020142,
+        -0.5710000381469726,
+        0.1
+      ],
+      "vfxHooksRoblox": {
+        "leftBell": [
+          -1.0100279211997987,
+          -0.8310000381469727,
+          -0.0
+        ],
+        "middleBell": [
+          0.08997207880020142,
+          -1.0710000381469726,
+          -0.0
+        ],
+        "rightBell": [
+          1.2199720788002013,
+          -0.7610000381469726,
+          -0.0
+        ]
+      },
+      "paintedColorCount": 1375,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "thimble_spider",
+      "displayName": "Thimble Spider",
+      "rarity": "RARE",
+      "visualKey": "thimble_spider",
+      "sourceReference": "rework-05-rare.png",
+      "referenceSheet": 5,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/thimble_spider.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+      "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "meshId": "rbxassetid://99634226365979",
+      "textureId": "",
+      "importedSize": [
+        3.3798885345458984,
+        2.0764691829681396,
+        1.8815412521362305
+      ],
+      "importedInitialSize": [
+        3.3798885345458984,
+        2.0764691829681396,
+        1.8815412521362305
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Curved bronze sewing thimble armor with rows of authored sunk dimples, rounded black core, button eyes, paired needle fangs and eight segmented legs.",
+        "A loose spectral thread forms briefly between the needle fangs; dimples glint sparingly."
+      ],
+      "triangles": 5620,
+      "vertices": 2864,
+      "robloxIntendedSize": [
+        3.3798885345458984,
+        2.0764694213867188,
+        1.8815410137176514
+      ],
+      "vfxProfile": "thimble_thread_glints",
+      "vfxHookRoblox": [
+        -9.304285049438477e-05,
+        0.8682346940040588,
+        0.41472944617271423
+      ],
+      "vfxHooksRoblox": {
+        "fangs": [
+          -9.304285049438477e-05,
+          -0.5817653250694275,
+          0.919229519367218
+        ]
+      },
+      "paintedColorCount": 1033,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "music_box_dancer",
+      "displayName": "Music Box Dancer",
+      "rarity": "RARE",
+      "visualKey": "music_box_dancer",
+      "sourceReference": "rework-05-rare.png",
+      "referenceSheet": 5,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/music_box_dancer.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+      "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "meshId": "rbxassetid://103021046464363",
+      "textureId": "",
+      "importedSize": [
+        2.7649190425872803,
+        3.3450002670288086,
+        1.8526499271392822
+      ],
+      "importedInitialSize": [
+        2.7649190425872803,
+        3.3450002670288086,
+        1.8526499271392822
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "An actual open walnut box with raised recessed lid, winding key and four bronze feet; faceless carved wooden ballerina with curved arms, lifted knee and fourteen volumetric skirt pleats.",
+        "The dancer turns subtly over the spindle while a sparse bronze musical stave curls from the box."
+      ],
+      "triangles": 3988,
+      "vertices": 2122,
+      "robloxIntendedSize": [
+        2.7649190425872803,
+        3.3450000286102295,
+        1.852649450302124
+      ],
+      "vfxProfile": "wooden_music_box_refrain",
+      "vfxHookRoblox": [
+        -0.11651165577492772,
+        0.3175000000000001,
+        0.28991201996803284
+      ],
+      "vfxHooksRoblox": {
+        "musicMechanism": [
+          -0.11651165577492772,
+          -0.6224999999999998,
+          0.28991201996803284
+        ]
+      },
+      "paintedColorCount": 1153,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "raven_quill",
+      "displayName": "Raven Quill",
+      "rarity": "RARE",
+      "visualKey": "raven_quill",
+      "sourceReference": "rework-05-rare.png",
+      "referenceSheet": 5,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/raven_quill.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/raven_quill.fbx",
+      "fbxSha256": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+      "meshId": "rbxassetid://71223428160554",
+      "textureId": "",
+      "importedSize": [
+        2.4739999771118164,
+        3.5245018005371094,
+        0.8183358907699585
+      ],
+      "importedInitialSize": [
+        2.4739999771118164,
+        3.5245018005371094,
+        0.8183358907699585
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/raven_quill.fbx",
+        "fbxSha256": "c8da3188cb78264fb2f015901267215de34b0d4e800f0b3177d255fbd43bec83",
+        "meshId": "rbxassetid://107610707886136",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "A curved thick feather made of twenty shaped barbs and two layered wings, ivory eye, bronze fountain nib with separated slit and three-toed orange feet.",
+        "One brief fading ink signature trails from the nib; feather tips sway gently."
+      ],
+      "triangles": 1394,
+      "vertices": 781,
+      "robloxIntendedSize": [
+        2.4739999771118164,
+        3.5245018005371094,
+        0.8183358311653137
+      ],
+      "vfxProfile": "raven_ink_signature",
+      "vfxHookRoblox": [
+        0.84,
+        0.5422508510947226,
+        0.25316791979355696
+      ],
+      "vfxHooksRoblox": {
+        "nibTip": [
+          0.95,
+          0.5022508510947226,
+          0.21316791979355698
+        ]
+      },
+      "paintedColorCount": 398,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "sorrow_chalice",
+      "displayName": "Sorrow Chalice",
+      "rarity": "RARE",
+      "visualKey": "sorrow_chalice",
+      "sourceReference": "rework-05-rare.png",
+      "referenceSheet": 5,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/sorrow_chalice.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+      "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "meshId": "rbxassetid://124640513274761",
+      "textureId": "",
+      "importedSize": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ],
+      "importedInitialSize": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Blue matte chalice with sculpted concave bowl, bronze tear inlays and hairline fractures; bent volumetric gray teardrop ghost with two deep eyes and drifting gray drops.",
+        "Gray tears rise slowly and dissolve; blue rim breathes a low intensity cold halo."
+      ],
+      "triangles": 2828,
+      "vertices": 1452,
+      "robloxIntendedSize": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ],
+      "vfxProfile": "gray_sorrow_tears",
+      "vfxHookRoblox": [
+        0.07249999791383743,
+        1.0391743183135986,
+        0.3731524348258972
+      ],
+      "vfxHooksRoblox": {
+        "tearFace": [
+          -0.03750000000000009,
+          0.6291743278503417,
+          0.49000002145767213
+        ],
+        "bowlRim": [
+          -0.03750000000000009,
+          0.3091743278503418,
+          2.1457672118307958e-08
+        ]
+      },
+      "paintedColorCount": 777,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "pale_gramophone",
+      "displayName": "Pale Gramophone",
+      "rarity": "RARE",
+      "visualKey": "pale_gramophone",
+      "sourceReference": "rework-05-rare.png",
+      "referenceSheet": 5,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/pale_gramophone.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/pale_gramophone.fbx",
+      "fbxSha256": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+      "meshId": "rbxassetid://94119998367472",
+      "textureId": "",
+      "importedSize": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.7653918266296387
+      ],
+      "importedInitialSize": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.7653918266296387
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Curved eight-petal hollow ivory horn; fitted walnut boards, bronze fittings, record grooves and four articulated walking legs.",
+        "restrained horn pulse and musical arc echoes"
+      ],
+      "triangles": 6316,
+      "vertices": 3304,
+      "robloxIntendedSize": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.765392303466797
+      ],
+      "vfxProfile": "bone_horn_echo",
+      "vfxHookRoblox": [
+        0.83,
+        0.932802610397339,
+        0.5487096649051746
+      ],
+      "vfxHooksRoblox": {
+        "hornMouth": [
+          0.83,
+          0.932802610397339,
+          0.5487096649051746
+        ],
+        "turntable": [
+          -0.06,
+          -0.40719738960266105,
+          -0.27129033509482536
+        ]
+      },
+      "paintedColorCount": 1405,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "thorn_reliquary",
+      "displayName": "Thorn Reliquary",
+      "rarity": "RARE",
+      "visualKey": "thorn_reliquary",
+      "sourceReference": "rework-06-rare.png",
+      "referenceSheet": 6,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/thorn_reliquary.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/thorn_reliquary.fbx",
+      "fbxSha256": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+      "meshId": "rbxassetid://136595375769922",
+      "textureId": "",
+      "importedSize": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ],
+      "importedInitialSize": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Octagonal aged bronze urn with curved roof ribs, ring handle and feet; sculpted blue glass edge reflections preserve full visibility of a volumetric forked black thorn creature.",
+        "Studio profile adds eight faint transparent urn panes and a trapped dark vapor curl without obscuring the creature."
+      ],
+      "triangles": 2060,
+      "vertices": 1104,
+      "robloxIntendedSize": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ],
+      "vfxProfile": "glass_caged_thorn",
+      "vfxHookRoblox": [
+        0.11857816100120544,
+        0.11904519543051717,
+        0.3000000131130218
+      ],
+      "vfxHooksRoblox": {
+        "urnCenter": [
+          -0.0014218389987945557,
+          -0.3409548045694828,
+          1.3113021848920603e-08
+        ],
+        "thornFace": [
+          0.11857816100120544,
+          0.11904519543051717,
+          0.3000000131130218
+        ]
+      },
+      "paintedColorCount": 638,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "anchor_crab",
+      "displayName": "Anchor Crab",
+      "rarity": "RARE",
+      "visualKey": "anchor_crab",
+      "sourceReference": "rework-06-rare.png",
+      "referenceSheet": 6,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/anchor_crab.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+      "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "meshId": "rbxassetid://138935951310223",
+      "textureId": "",
+      "importedSize": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ],
+      "importedInitialSize": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Verdigris copper anchor carapace with actual ring eyelet, forked arrow flukes and worn brass crossbar over a dark crab; six jointed legs and a distinctly oversized curved right pincer.",
+        "A few cold sinking bubbles and tiny verdigris flakes drift from the anchor eyelet."
+      ],
+      "triangles": 3128,
+      "vertices": 1630,
+      "robloxIntendedSize": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ],
+      "vfxProfile": "rusted_anchor_bubbles",
+      "vfxHookRoblox": [
+        -0.1928044557571411,
+        -0.38890439495444307,
+        -0.20800865053818116
+      ],
+      "vfxHooksRoblox": {
+        "anchorEyelet": [
+          -0.1828044557571411,
+          1.0510956050455569,
+          -0.22800865053818115
+        ],
+        "largeClaw": [
+          1.847195544242859,
+          -0.14890439495444308,
+          0.39199134946181885
+        ]
+      },
+      "paintedColorCount": 751,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "sundial_sentinel",
+      "displayName": "Sundial Sentinel",
+      "rarity": "RARE",
+      "visualKey": "sundial_sentinel",
+      "sourceReference": "rework-06-rare.png",
+      "referenceSheet": 6,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/sundial_sentinel.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+      "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "meshId": "rbxassetid://107305209907882",
+      "textureId": "",
+      "importedSize": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.830551028251648
+      ],
+      "importedInitialSize": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.830551028251648
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Tilted thick stone hour disk with rim, radial cuts, inset bronze dots and fractures; projecting bronze gnomon, an independently bent dark shadow creature and collared stone legs.",
+        "The autonomous shadow slips a few degrees independently of the hour markings; a pale rim trace recedes."
+      ],
+      "triangles": 2316,
+      "vertices": 1232,
+      "robloxIntendedSize": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.8305502533912659
+      ],
+      "vfxProfile": "autonomous_sundial_shadow",
+      "vfxHookRoblox": [
+        -0.36845237493515015,
+        0.27402769088745127,
+        0.2752751410007477
+      ],
+      "vfxHooksRoblox": {
+        "dialCenter": [
+          0.011547625064849854,
+          0.3640276908874511,
+          0.14527514100074768
+        ],
+        "shadowEyes": [
+          -0.38845237493515017,
+          0.3240276908874513,
+          0.36527514100074765
+        ]
+      },
+      "paintedColorCount": 959,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "sleepwalker_shoes",
+      "displayName": "Sleepwalker Shoes",
+      "rarity": "RARE",
+      "visualKey": "sleepwalker_shoes",
+      "sourceReference": "rework-06-rare.png",
+      "referenceSheet": 6,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/sleepwalker_shoes.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+      "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "meshId": "rbxassetid://100900364423577",
+      "textureId": "",
+      "importedSize": [
+        2.835836887359619,
+        2.1824073791503906,
+        2.3786511421203613
+      ],
+      "importedInitialSize": [
+        2.835836887359619,
+        2.1824073791503906,
+        2.3786511421203613
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Different tall blue and shorter walnut child boots in staggered walking poses; truly empty open cuffs and footbeds, curved toes, thick soles, crisscross laces, eyelets and bronze patches.",
+        "Two pale footstep arcs appear out of phase and dissipate; empty cuffs exhale faint dust."
+      ],
+      "triangles": 5176,
+      "vertices": 2664,
+      "robloxIntendedSize": [
+        2.835836887359619,
+        2.1824076175689697,
+        2.378650665283203
+      ],
+      "vfxProfile": "out_of_step_boot_echoes",
+      "vfxHookRoblox": [
+        0.015955674648284915,
+        0.2658433982729911,
+        -0.02700825929641726
+      ],
+      "vfxHooksRoblox": {
+        "leftCuff": [
+          -0.734044325351715,
+          0.9558433982729913,
+          -0.6170082592964172
+        ],
+        "rightCuff": [
+          0.7159556746482849,
+          0.4058433982729912,
+          -0.08700825929641726
+        ]
+      },
+      "paintedColorCount": 1631,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "night_harp",
+      "displayName": "Night Harp",
+      "rarity": "LEGENDARY",
+      "visualKey": "night_harp",
+      "sourceReference": "rework-07-legendary.png",
+      "referenceSheet": 7,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/night_harp.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/night_harp.fbx",
+      "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "meshId": "rbxassetid://83648018962626",
+      "textureId": "",
+      "importedSize": [
+        2.8185055255889893,
+        3.882523536682129,
+        1.4043785333633423
+      ],
+      "importedInitialSize": [
+        2.8185055255889893,
+        3.882523536682129,
+        1.4043785333633423
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/night_harp.fbx",
+        "fbxSha256": "2f59874bb296d2563a4105737b679dfe8354333e4dbbb4bb94c2d9a0a4f11041",
+        "meshId": "rbxassetid://75368579112232",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 07: four-legged indigo harp beast; curved armored back, gold soundboard, exact four suspended strings and an ivory blind crescent head. Gilded joints and layered scales separate metal from indigo stone."
+      ],
+      "triangles": 2492,
+      "vertices": 1358,
+      "robloxIntendedSize": [
+        2.8185055255889893,
+        3.882523775100708,
+        1.4043782949447632
+      ],
+      "vfxProfile": "harp_strings",
+      "vfxHookRoblox": [
+        -0.0992527556419372,
+        0.1712618535012007,
+        -0.02673078060150147
+      ],
+      "paintedColorCount": 596,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "thorn_cathedral",
+      "displayName": "Thorn Cathedral",
+      "rarity": "LEGENDARY",
+      "visualKey": "thorn_cathedral",
+      "sourceReference": "rework-07-legendary.png",
+      "referenceSheet": 7,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/thorn_cathedral.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/thorn_cathedral.fbx",
+      "fbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "meshId": "rbxassetid://130353358132470",
+      "textureId": "",
+      "importedSize": [
+        2.7698776721954346,
+        4.060338973999023,
+        1.9780354499816895
+      ],
+      "importedInitialSize": [
+        2.7698776721954346,
+        4.060338973999023,
+        1.9780354499816895
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/thorn_cathedral.fbx",
+        "fbxSha256": "d51cc5c776577c9c61db92d5e6e81ace43af17f1872d403c5e89544aea1620c8",
+        "meshId": "rbxassetid://83008441866856",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 07: asymmetric walking chapel with a readable eight-petal crimson rose window, three lancet windows, crooked right belfry and two volumetric thorn coils. Four shaped stone legs support the church rather than a generic animal body."
+      ],
+      "triangles": 3064,
+      "vertices": 1648,
+      "robloxIntendedSize": [
+        2.7698776721954346,
+        4.060338973999023,
+        1.9780349731445312
+      ],
+      "vfxProfile": "rose_window",
+      "vfxHookRoblox": [
+        -0.179863862991333,
+        -0.6198304223269226,
+        0.7489825248718261
+      ],
+      "paintedColorCount": 653,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "phantom_marionette",
+      "displayName": "Phantom Marionette",
+      "rarity": "LEGENDARY",
+      "visualKey": "phantom_marionette",
+      "sourceReference": "rework-07-legendary.png",
+      "referenceSheet": 7,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/phantom_marionette.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+      "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "meshId": "rbxassetid://125181594913762",
+      "textureId": "",
+      "importedSize": [
+        3.011920928955078,
+        3.8288023471832275,
+        0.863531231880188
+      ],
+      "importedInitialSize": [
+        3.011920928955078,
+        3.8288023471832275,
+        0.863531231880188
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 07: faceless ivory articulated marionette in an uneven hanging pose, black wooden crossbar and four individually visible gold strings. Brass ball joints, separated finger rods and a ragged garnet cape are real volumes on both sides."
+      ],
+      "triangles": 1964,
+      "vertices": 1066,
+      "robloxIntendedSize": [
+        3.011920928955078,
+        3.8288025856018066,
+        0.863530158996582
+      ],
+      "vfxProfile": "puppet_strings",
+      "vfxHookRoblox": [
+        0.10980852127075195,
+        0.605598678588867,
+        0.32176506519317627
+      ],
+      "paintedColorCount": 495,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "blood_moon_rose",
+      "displayName": "Blood Moon Rose",
+      "rarity": "LEGENDARY",
+      "visualKey": "blood_moon_rose",
+      "sourceReference": "rework-07-legendary.png",
+      "referenceSheet": 7,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/blood_moon_rose.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/blood_moon_rose.fbx",
+      "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "meshId": "rbxassetid://80054563301680",
+      "textureId": "",
+      "importedSize": [
+        3.3685407638549805,
+        3.6520426273345947,
+        1.3943915367126465
+      ],
+      "importedInitialSize": [
+        3.3685407638549805,
+        3.6520426273345947,
+        1.3943915367126465
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 07: a deep garnet rose has three rings of overlapping, cross-cupped thick petals whose lips curl inward around a small dark red core. Twenty-one closed individual petal volumes, warm rose glints, unequal thorn arms and hooked ruby talons flank an arched woody stem and four branching roots; no flat radial starflower or overbright core."
+      ],
+      "triangles": 5166,
+      "vertices": 2669,
+      "robloxIntendedSize": [
+        3.3685410022735596,
+        3.652043104171753,
+        1.3943915367126465
+      ],
+      "vfxProfile": "rose_pulse",
+      "vfxHookRoblox": [
+        0.18427055358886718,
+        0.8104945264049146,
+        0.5818204128742218
+      ],
+      "paintedColorCount": 519,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "judgement_scales",
+      "displayName": "Judgement Scales",
+      "rarity": "LEGENDARY",
+      "visualKey": "judgement_scales",
+      "sourceReference": "rework-07-legendary.png",
+      "referenceSheet": 7,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/judgement_scales.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/judgement_scales.fbx",
+      "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "meshId": "rbxassetid://115544351986945",
+      "textureId": "",
+      "importedSize": [
+        3.5719997882843018,
+        3.618154287338257,
+        1.1111505031585693
+      ],
+      "importedInitialSize": [
+        3.5719997882843018,
+        3.618154287338257,
+        1.1111505031585693
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/judgement_scales.fbx",
+        "fbxSha256": "3561b814703402c278fd2294cb24cf21ef1d43803d72754486dbc441c3256643",
+        "meshId": "rbxassetid://127729438322025",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 07: blind bone and iron judgment idol with unequal suspended real open pans. The pale right bowl bears a gold soul, the dark lower bowl a folded smoke volume; unequal legs, a tall split face and brass halo complete the ceremonial silhouette."
+      ],
+      "triangles": 2112,
+      "vertices": 1128,
+      "robloxIntendedSize": [
+        3.572000026702881,
+        3.618154525756836,
+        1.1111499071121216
+      ],
+      "vfxProfile": "unequal_scales",
+      "vfxHookRoblox": [
+        1.28,
+        0.2090773099660872,
+        0.06442502617835999
+      ],
+      "vfxHooksRoblox": {
+        "leftPan": [
+          -1.2799999713897705,
+          -0.21092259883880615,
+          0.16442501544952393
+        ],
+        "rightPan": [
+          1.2799999713897705,
+          0.27907729148864746,
+          0.16442501544952393
+        ]
+      },
+      "paintedColorCount": 606,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "clockwork_raven",
+      "displayName": "Clockwork Raven",
+      "rarity": "LEGENDARY",
+      "visualKey": "clockwork_raven",
+      "sourceReference": "rework-08-legendary.png",
+      "referenceSheet": 8,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/clockwork_raven.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+      "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "meshId": "rbxassetid://132658656356560",
+      "textureId": "",
+      "importedSize": [
+        3.880000114440918,
+        3.6070618629455566,
+        1.5967077016830444
+      ],
+      "importedInitialSize": [
+        3.880000114440918,
+        3.6070618629455566,
+        1.5967077016830444
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 08: black and brass mechanical raven with white clock eye and two visible hands. Unequally raised wings contain individual thick armored flight feathers, brass quills, winding joints, long tail and separate claw toes; no generic rounded pet body."
+      ],
+      "triangles": 3880,
+      "vertices": 2098,
+      "robloxIntendedSize": [
+        3.880000114440918,
+        3.607062339782715,
+        1.5967074632644653
+      ],
+      "vfxProfile": "raven_clock",
+      "vfxHookRoblox": [
+        0.05,
+        0.9935311760008332,
+        0.5416462862491608
+      ],
+      "paintedColorCount": 807,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "eclipse_stag",
+      "displayName": "Eclipse Stag",
+      "rarity": "LEGENDARY",
+      "visualKey": "eclipse_stag",
+      "sourceReference": "rework-08-legendary.png",
+      "referenceSheet": 8,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/eclipse_stag.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/eclipse_stag.fbx",
+      "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "meshId": "rbxassetid://84237463643087",
+      "textureId": "",
+      "importedSize": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875004768371582
+      ],
+      "importedInitialSize": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875004768371582
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 08: lean spectral deer with black armored body, four jointed hooves, pale mask and broad multi-branch ivory antlers. Small moon crystals and separated jade mane ribbons occupy controlled negative space rather than a halo of spikes."
+      ],
+      "triangles": 1882,
+      "vertices": 1019,
+      "robloxIntendedSize": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875
+      ],
+      "vfxProfile": "eclipse_antlers",
+      "vfxHookRoblox": [
+        0.33141117572784423,
+        0.5099838827177883,
+        0.3637499940395355
+      ],
+      "paintedColorCount": 467,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "endless_library",
+      "displayName": "Endless Library",
+      "rarity": "LEGENDARY",
+      "visualKey": "endless_library",
+      "sourceReference": "rework-08-legendary.png",
+      "referenceSheet": 8,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/endless_library.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/endless_library.fbx",
+      "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "meshId": "rbxassetid://119647220783912",
+      "textureId": "",
+      "importedSize": [
+        2.7799999713897705,
+        3.017867088317871,
+        1.1092703342437744
+      ],
+      "importedInitialSize": [
+        2.7799999713897705,
+        3.017867088317871,
+        1.1092703342437744
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 08: three distinct oversized chained tomes walking on four bookshelf legs. Actual page blocks, cover corners, clasps, sun sigils, dangling bookmarks, separated chain links and a suspended fourth open codex distinguish an animate library from stacked plain boxes."
+      ],
+      "triangles": 4812,
+      "vertices": 2554,
+      "robloxIntendedSize": [
+        2.7799999713897705,
+        3.017866849899292,
+        1.1092700958251953
+      ],
+      "vfxProfile": "library_pages",
+      "vfxHookRoblox": [
+        0.22999999046325684,
+        1.1735665223002432,
+        0.3396350395679474
+      ],
+      "paintedColorCount": 1083,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "sunken_crown",
+      "displayName": "Sunken Crown",
+      "rarity": "LEGENDARY",
+      "visualKey": "sunken_crown",
+      "sourceReference": "rework-08-legendary.png",
+      "referenceSheet": 8,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/sunken_crown.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+      "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "meshId": "rbxassetid://117032966363977",
+      "textureId": "",
+      "importedSize": [
+        2.4799997806549072,
+        3.0794734954833984,
+        2.2599997520446777
+      ],
+      "importedInitialSize": [
+        2.4799997806549072,
+        3.0794734954833984,
+        2.2599997520446777
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 08: an open pale coral crown with eight branching points and a prominent aquamarine jewel serves as the head of a six-tendril aquatic spirit. Thick curled water volumes, bright water ridges and warm coral branches create distinct ivory/turquoise/orange material roles."
+      ],
+      "triangles": 3408,
+      "vertices": 1804,
+      "robloxIntendedSize": [
+        2.4800000190734863,
+        3.0794734954833984,
+        2.259999990463257
+      ],
+      "vfxProfile": "sunken_tides",
+      "vfxHookRoblox": [
+        0.0,
+        1.0858683657646178,
+        1.0099999761581422
+      ],
+      "paintedColorCount": 599,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "silent_choir",
+      "displayName": "Silent Choir",
+      "rarity": "LEGENDARY",
+      "visualKey": "silent_choir",
+      "sourceReference": "rework-08-legendary.png",
+      "referenceSheet": 8,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/silent_choir.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/silent_choir.fbx",
+      "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "meshId": "rbxassetid://87533045551868",
+      "textureId": "",
+      "importedSize": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ],
+      "importedInitialSize": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 08: three individually robed solemn presences in charcoal, pale linen and indigo, with different heights and genuinely open bell mouths turned toward the viewer. Folded cloth volumes, raised seam piping, small chimes and a suspended connecting line unify the choir."
+      ],
+      "triangles": 2680,
+      "vertices": 1402,
+      "robloxIntendedSize": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ],
+      "vfxProfile": "silent_choir_chimes",
+      "vfxHookRoblox": [
+        -0.0421632766723633,
+        1.316931414604187,
+        0.30999999999999994
+      ],
+      "vfxHooksRoblox": {
+        "leftHead": [
+          -0.9321632385253906,
+          0.6369315385818481,
+          0.23999999463558197
+        ],
+        "middleHead": [
+          -0.04216327518224716,
+          1.2869313955307007,
+          0.23999999463558197
+        ],
+        "rightHead": [
+          0.8978367447853088,
+          0.8169313669204712,
+          0.23999999463558197
+        ]
+      },
+      "paintedColorCount": 486,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "cathedral_heart",
+      "displayName": "Cathedral Heart",
+      "rarity": "MYTHIC",
+      "visualKey": "cathedral_heart",
+      "sourceReference": "rework-09-mythic.png",
+      "referenceSheet": 9,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/cathedral_heart.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/cathedral_heart.fbx",
+      "fbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "meshId": "rbxassetid://109562151283310",
+      "textureId": "",
+      "importedSize": [
+        2.9446873664855957,
+        4.480339050292969,
+        1.6740179061889648
+      ],
+      "importedInitialSize": [
+        2.9446873664855957,
+        4.480339050292969,
+        1.6740179061889648
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/cathedral_heart.fbx",
+        "fbxSha256": "4f8e134bcf13f6714ea7fe93bdecc1a3ccc2b582a076a7a2fe26264d5d8ee1cc",
+        "meshId": "rbxassetid://100098877936582",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 09: large cracked ivory heart suspended inside paired depth-separated pointed cathedral arches. Four buttress feet, dark shaped stone, pale arch ridges and slender golden lancets leave genuine openings around the heart and create a sacred monumental silhouette within gameplay bounds."
+      ],
+      "triangles": 3618,
+      "vertices": 1925,
+      "robloxIntendedSize": [
+        2.9446873664855957,
+        4.480339050292969,
+        1.6740176677703857
+      ],
+      "vfxProfile": "cathedral_heart_seam",
+      "vfxHookRoblox": [
+        0.0,
+        -0.07983042024075981,
+        0.6469738674163819
+      ],
+      "paintedColorCount": 644,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "plague_monarch",
+      "displayName": "Plague Monarch",
+      "rarity": "MYTHIC",
+      "visualKey": "plague_monarch",
+      "sourceReference": "rework-09-mythic.png",
+      "referenceSheet": 9,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/plague_monarch.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+      "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "meshId": "rbxassetid://84591406393703",
+      "textureId": "",
+      "importedSize": [
+        2.5277419090270996,
+        3.895419120788574,
+        1.5501878261566162
+      ],
+      "importedInitialSize": [
+        2.5277419090270996,
+        3.895419120788574,
+        1.5501878261566162
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 09: four-legged corroded copper monarch with a broad open crown shell, irregular antler-like copper points, pale plague mask and warm exposed metal under broad verdigris islands. Small contained green wisps support the form without obscuring its four-leg anatomy."
+      ],
+      "triangles": 2828,
+      "vertices": 1536,
+      "robloxIntendedSize": [
+        2.5277419090270996,
+        3.8954193592071533,
+        1.550187349319458
+      ],
+      "vfxProfile": "plague_monarch_breath",
+      "vfxHookRoblox": [
+        -0.00784999132156372,
+        0.34194025836884956,
+        0.545727766752243
+      ],
+      "paintedColorCount": 743,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "hollow_throne",
+      "displayName": "Hollow Throne",
+      "rarity": "MYTHIC",
+      "visualKey": "hollow_throne",
+      "sourceReference": "rework-09-mythic.png",
+      "referenceSheet": 9,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/hollow_throne.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/hollow_throne.fbx",
+      "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "meshId": "rbxassetid://137649959781597",
+      "textureId": "",
+      "importedSize": [
+        2.6719791889190674,
+        4.381717681884766,
+        1.876359462738037
+      ],
+      "importedInitialSize": [
+        2.6719791889190674,
+        4.381717681884766,
+        1.876359462738037
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/hollow_throne.fbx",
+        "fbxSha256": "112e96247f7f9c343854ff1346e70b298556c9e1e6611a06c0e2c73e3dbefe34",
+        "meshId": "rbxassetid://71770033436309",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 09: living dark throne with four claw feet, tall open gothic back rails and an occupant defined only by a thin luminous monarch outline. Real empty openings remain visible from the rear; torn linen shoulders and white chipped rail ridges provide a restrained monochrome identity."
+      ],
+      "triangles": 2416,
+      "vertices": 1298,
+      "robloxIntendedSize": [
+        2.6719791889190674,
+        4.381717681884766,
+        1.8763585090637207
+      ],
+      "vfxProfile": "hollow_throne_presence",
+      "vfxHookRoblox": [
+        0.0,
+        0.18085885882377628,
+        -0.27319371461868286
+      ],
+      "paintedColorCount": 595,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "worldroot",
+      "displayName": "Worldroot",
+      "rarity": "MYTHIC",
+      "visualKey": "worldroot",
+      "sourceReference": "rework-10-mythic.png",
+      "referenceSheet": 10,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/worldroot.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/worldroot.fbx",
+      "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "meshId": "rbxassetid://78477623099004",
+      "textureId": "",
+      "importedSize": [
+        3.2417218685150146,
+        4.186335563659668,
+        1.5582488775253296
+      ],
+      "importedInitialSize": [
+        3.2417218685150146,
+        4.186335563659668,
+        1.5582488775253296
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 10: an inverted tree beast with four twisting root feet, two opposite trunk arches and a suspended jade seed in a true central opening. Wide asymmetric branch forks, longitudinal painted bark and individually hanging moss strips create a living ancient tree rather than a pile of spikes."
+      ],
+      "triangles": 3456,
+      "vertices": 1846,
+      "robloxIntendedSize": [
+        3.2417221069335938,
+        4.186335563659668,
+        1.5582482814788818
+      ],
+      "vfxProfile": "worldroot_seed",
+      "vfxHookRoblox": [
+        0.03915971517562866,
+        -0.20877227507531648,
+        0.3653331470489502
+      ],
+      "paintedColorCount": 473,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "the_undertow",
+      "displayName": "The Undertow",
+      "rarity": "MYTHIC",
+      "visualKey": "the_undertow",
+      "sourceReference": "rework-10-mythic.png",
+      "referenceSheet": 10,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_undertow.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/the_undertow.fbx",
+      "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "meshId": "rbxassetid://105483544111432",
+      "textureId": "",
+      "importedSize": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776622295379639
+      ],
+      "importedInitialSize": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776622295379639
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 10: a genuinely hollow corroded wreck bell with visible hanging clapper, copper rim bands and two large unequal curling water blade arms. A compact dark-water undertow spiral occupies the open bottom while bright water edges and patina islands preserve readable material boundaries."
+      ],
+      "triangles": 2498,
+      "vertices": 1285,
+      "robloxIntendedSize": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776621103286743
+      ],
+      "vfxProfile": "undertow_spiral",
+      "vfxHookRoblox": [
+        0.00015366077423095703,
+        -0.9622116868197917,
+        0.2200000023841858
+      ],
+      "paintedColorCount": 675,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "the_last_funeral",
+      "displayName": "The Last Funeral",
+      "rarity": "MYTHIC",
+      "visualKey": "the_last_funeral",
+      "sourceReference": "rework-10-mythic.png",
+      "referenceSheet": 10,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_last_funeral.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/the_last_funeral.fbx",
+      "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "meshId": "rbxassetid://138087526906503",
+      "textureId": "",
+      "importedSize": [
+        3.680000066757202,
+        3.13149356842041,
+        1.9983208179473877
+      ],
+      "importedInitialSize": [
+        3.680000066757202,
+        3.13149356842041,
+        1.9983208179473877
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 10 final correction: long HORIZONTAL black coffin on four tall, physically folded curved straps ending in two-toed ivory claws. Two bands wrap the lid and body before becoming its supports; raised lilies, gold seams and a chamfered coffin silhouette preserve the solemn funeral object from all sides."
+      ],
+      "triangles": 3030,
+      "vertices": 1611,
+      "robloxIntendedSize": [
+        3.680000066757202,
+        3.1314938068389893,
+        1.9983203411102295
+      ],
+      "vfxProfile": "last_funeral_lilies",
+      "vfxHookRoblox": [
+        0.16,
+        1.105746957808733,
+        0.9179120576381683
+      ],
+      "paintedColorCount": 384,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "nameless_door",
+      "displayName": "Nameless Door",
+      "rarity": "SECRET",
+      "visualKey": "nameless_door",
+      "sourceReference": "rework-11-secret.png",
+      "referenceSheet": 11,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/nameless_door.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/nameless_door.fbx",
+      "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "meshId": "rbxassetid://136046415979732",
+      "textureId": "",
+      "importedSize": [
+        3.257023811340332,
+        3.7596497535705566,
+        2.2569029331207275
+      ],
+      "importedInitialSize": [
+        3.257023811340332,
+        3.7596497535705566,
+        2.2569029331207275
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": "assets/export/meshes/curses/nameless_door.fbx",
+        "fbxSha256": "0026a5fe982b022c42002306d23bd2876ba9119459b2280d11702f3c29492562",
+        "meshId": "rbxassetid://91097514366999",
+        "robloxImportVerified": true,
+        "robloxAppearanceVerified": true
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 11: living dark-jade door with five decreasing open frames forming an actual deep corridor, an individually modeled hinged half-open slab, raised lock and receding threshold steps. Crooked mineral legs, root tendrils and selective hanging moss surround the supernatural geometry."
+      ],
+      "triangles": 3232,
+      "vertices": 1736,
+      "robloxIntendedSize": [
+        3.257023811340332,
+        3.7596499919891357,
+        2.2569031715393066
+      ],
+      "vfxProfile": "nameless_threshold",
+      "vfxHookRoblox": [
+        -0.05299109220504761,
+        -0.24017505906522274,
+        -0.5934515738487244
+      ],
+      "paintedColorCount": 770,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "crown_of_silence",
+      "displayName": "Crown of Silence",
+      "rarity": "SECRET",
+      "visualKey": "crown_of_silence",
+      "sourceReference": "rework-11-secret.png",
+      "referenceSheet": 11,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/crown_of_silence.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+      "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "meshId": "rbxassetid://87201548999780",
+      "textureId": "",
+      "importedSize": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ],
+      "importedInitialSize": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 11 final correction: headless pale-ivory regent in a HEAVY cloth robe, ten broad curved circumferential folds, uneven torn hems, six wide hanging sleeve folds and layered shoulder cloth. Four separate floating crown fragments sit above a genuinely open gold collar; restrained gold trim and bounded sound marks preserve the missing-head motif."
+      ],
+      "triangles": 7204,
+      "vertices": 3684,
+      "robloxIntendedSize": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ],
+      "vfxProfile": "crown_silence",
+      "vfxHookRoblox": [
+        0.0,
+        1.2183442875742911,
+        0.07999052286148071
+      ],
+      "paintedColorCount": 894,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "the_first_grave",
+      "displayName": "The First Grave",
+      "rarity": "SECRET",
+      "visualKey": "the_first_grave",
+      "sourceReference": "rework-11-secret.png",
+      "referenceSheet": 11,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_first_grave.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+      "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "meshId": "rbxassetid://104080758542748",
+      "textureId": "",
+      "importedSize": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342305064201355
+      ],
+      "importedInitialSize": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342305064201355
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 11: pale pointed tombstone torso on crooked root legs, with an engraved arch and a cold jade-green branching crack. Mineral shoulders, wooden arm joints, branching ivory fingers and selective long moss curtains create a rooted grave golem with warm stone and ancient plant surfaces."
+      ],
+      "triangles": 2136,
+      "vertices": 1162,
+      "robloxIntendedSize": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342293739318848
+      ],
+      "vfxProfile": "first_grave_crack",
+      "vfxHookRoblox": [
+        -0.040358471870422366,
+        0.43328419923782335,
+        0.3128853189945221
+      ],
+      "paintedColorCount": 606,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "the_unwritten",
+      "displayName": "The Unwritten",
+      "rarity": "SECRET",
+      "visualKey": "the_unwritten",
+      "sourceReference": "rework-12-secret.png",
+      "referenceSheet": 12,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_unwritten.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/the_unwritten.fbx",
+      "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "meshId": "rbxassetid://132077689568800",
+      "textureId": "",
+      "importedSize": [
+        3.3359720706939697,
+        4.075650691986084,
+        1.4252877235412598
+      ],
+      "importedInitialSize": [
+        3.3359720706939697,
+        4.075650691986084,
+        1.4252877235412598
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 12 final correction: a specter whose coat is made from twelve broad physically folded black pages with uneven ragged hems, eight curved shoulder pages and torn bent paper sleeves. The faceless parchment head has split irregular curled tips rather than ruled notebook lines; pale writing claws, asymmetrical erased glyphs and red bookbinding stitches carry the concept."
+      ],
+      "triangles": 8122,
+      "vertices": 4155,
+      "robloxIntendedSize": [
+        3.335972309112549,
+        4.075650691986084,
+        1.4252878427505493
+      ],
+      "vfxProfile": "unwritten_erasure",
+      "vfxHookRoblox": [
+        0.09499410390853882,
+        0.24782527267932863,
+        0.6200045895576477
+      ],
+      "paintedColorCount": 340,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    },
+    {
+      "id": "the_last_star",
+      "displayName": "The Last Star",
+      "rarity": "SECRET",
+      "visualKey": "the_last_star",
+      "sourceReference": "rework-12-secret.png",
+      "referenceSheet": 12,
+      "implementationStatus": "VALIDATED",
+      "enabled": true,
+      "productionWave": 2,
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_last_star.blend",
+      "fbxExport": "assets/export/meshes/curses/rework/the_last_star.fbx",
+      "fbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "meshId": "rbxassetid://103602552479756",
+      "textureId": "",
+      "importedSize": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557762145996
+      ],
+      "importedInitialSize": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557762145996
+      ],
+      "robloxImportVerified": true,
+      "robloxAppearanceVerified": true,
+      "vfxVerified": true,
+      "gameplayValidated": true,
+      "importEvidence": "assets/imports/curse_rework_2026-10-01.json",
+      "historicalFirstWave": {
+        "fbxExport": null,
+        "fbxSha256": null,
+        "meshId": null,
+        "robloxImportVerified": false,
+        "robloxAppearanceVerified": false
+      },
+      "stages": {
+        "referenceReviewed": true,
+        "blenderModelComplete": true,
+        "locallyValidated": true,
+        "fbxExported": true,
+        "realRobloxImportRecorded": true,
+        "studioAppearanceChecked": true,
+        "vfxChecked": true,
+        "gameplayChecked": true,
+        "enabled": true
+      },
+      "designNotes": [
+        "Reference 12: blind iron sentinel on four articulated claw feet; three layered open ribs on each side surround a suspended volumetric eight-point cold-white star. Narrow split helm and shaped weathered plates preserve negative space from every angle."
+      ],
+      "triangles": 4792,
+      "vertices": 2588,
+      "robloxIntendedSize": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557523727417
+      ],
+      "vfxProfile": "last_star_cage",
+      "vfxHookRoblox": [
+        0.0,
+        0.2994219504296778,
+        0.20545986771583558
+      ],
+      "paintedColorCount": 768,
+      "colorLayer": "SACPaintedColor",
+      "uvLayers": 1
+    }
+  ]
+}

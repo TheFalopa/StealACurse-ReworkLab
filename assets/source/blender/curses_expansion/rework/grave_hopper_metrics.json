@@ -1,0 +1,110 @@
+{
+  "id": "grave_hopper",
+  "displayName": "Grave Hopper",
+  "rarity": "COMMON",
+  "sourceReference": "rework-01-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/grave_hopper.blend",
+  "export": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+  "sha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+  "triangles": 2400,
+  "vertices": 1258,
+  "blenderDimensions": [
+    2.93017315864563,
+    1.9563539028167725,
+    3.0210859775543213
+  ],
+  "intendedRobloxSize": [
+    2.93017315864563,
+    3.0210859775543213,
+    1.9563539028167725
+  ],
+  "diagonal": 4.641141650121129,
+  "vfxHook": [
+    0.0,
+    -0.6694569537043571,
+    0.681823069638535
+  ],
+  "vfxProfile": "moss_relic",
+  "palette": [
+    "ink",
+    "moss",
+    "stone",
+    "stone_dark",
+    "stone_light"
+  ],
+  "paintedColorCount": 410,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "HollowAmphibianStoneShell",
+      "first_face": 0,
+      "last_face_exclusive": 102
+    },
+    {
+      "name": "HeavyFrogFeet",
+      "first_face": 102,
+      "last_face_exclusive": 538
+    },
+    {
+      "name": "TombstoneCarapace",
+      "first_face": 538,
+      "last_face_exclusive": 609
+    },
+    {
+      "name": "MossAndBrokenFace",
+      "first_face": 609,
+      "last_face_exclusive": 887
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Rebuilt thick amphibian stone body with real recessed hollow mouth, back tombstone carapace, crouched paws, stone fissures and moss."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/grave_hopper.blend",
+  "robloxIntendedSize": [
+    2.93017315864563,
+    3.0210859775543213,
+    1.9563539028167725
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    -0.6694569537043571,
+    0.681823069638535
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.029301730915904045,
+      0.019563544541597366,
+      0.030210861936211586
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2400,
+    "colorCount": 410,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "grave_hopper",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

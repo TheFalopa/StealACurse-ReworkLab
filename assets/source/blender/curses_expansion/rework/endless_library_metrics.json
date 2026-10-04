@@ -1,0 +1,106 @@
+{
+  "id": "endless_library",
+  "displayName": "Endless Library",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-08-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/endless_library.blend",
+  "export": "assets/export/meshes/curses/rework/endless_library.fbx",
+  "sha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+  "triangles": 4812,
+  "vertices": 2554,
+  "blenderDimensions": [
+    2.7799999713897705,
+    1.1092700958251953,
+    3.017866849899292
+  ],
+  "intendedRobloxSize": [
+    2.7799999713897705,
+    3.017866849899292,
+    1.1092700958251953
+  ],
+  "diagonal": 4.250458835248288,
+  "vfxHook": [
+    0.22999999046325684,
+    1.1735665223002432,
+    0.3396350395679474
+  ],
+  "vfxProfile": "library_pages",
+  "palette": [
+    "bark_dark",
+    "bark_light",
+    "brass",
+    "brass_edge",
+    "ivory",
+    "jade",
+    "parchment",
+    "star_iron"
+  ],
+  "paintedColorCount": 1083,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Three differently colored bound books with physical pages and cover corners",
+      "first_face": 0,
+      "last_face_exclusive": 966
+    },
+    {
+      "name": "Shelf legs with stacked page talons and hanging bookmarks",
+      "first_face": 966,
+      "last_face_exclusive": 1438
+    },
+    {
+      "name": "Real hanging chain links and a suspended fourth open codex",
+      "first_face": 1438,
+      "last_face_exclusive": 1926
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 08: three distinct oversized chained tomes walking on four bookshelf legs. Actual page blocks, cover corners, clasps, sun sigils, dangling bookmarks, separated chain links and a suspended fourth open codex distinguish an animate library from stacked plain boxes."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/endless_library.blend",
+  "robloxIntendedSize": [
+    2.7799999713897705,
+    3.017866849899292,
+    1.1092700958251953
+  ],
+  "vfxHookRoblox": [
+    0.22999999046325684,
+    1.1735665223002432,
+    0.3396350395679474
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.027799999341368675,
+      0.01109270565211773,
+      0.030178669840097427
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 4812,
+    "colorCount": 1083,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "endless_library",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514"
+  }
+}

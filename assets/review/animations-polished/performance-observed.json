@@ -1,0 +1,263 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "last": {
+        "tracked": 1,
+        "posed": 0,
+        "boneWrites": 0,
+        "missingActs": 0,
+        "suspended": 1
+      },
+      "label": "baseline",
+      "loaded": 0,
+      "frames": 519,
+      "vfxBound": 0,
+      "poses": 0,
+      "folderChildren": 0,
+      "lights": 0,
+      "touch": false,
+      "waiting": 0,
+      "unloaded": [],
+      "first": {
+        "tracked": 0,
+        "posed": 0,
+        "boneWrites": 0,
+        "missingActs": 0,
+        "suspended": 0
+      },
+      "liveTaggedModels": 1,
+      "meanFrameSeconds": 0.007727621793423946,
+      "models": 0,
+      "p95FrameSeconds": 0.01029490027576685,
+      "elapsedSeconds": 4.001808599998185,
+      "boneWritesPerSecond": 0,
+      "boneWrites": 0,
+      "emitters": 0,
+      "invalidChildren": [],
+      "maxFrameSeconds": 0.02902589924633503
+    },
+    {
+      "last": {
+        "tracked": 59,
+        "posed": 14374,
+        "boneWrites": 149838,
+        "missingActs": 0,
+        "suspended": 19
+      },
+      "label": "56-near-and-mid",
+      "loaded": 56,
+      "frames": 852,
+      "vfxBound": 20,
+      "poses": 5722,
+      "folderChildren": 56,
+      "lights": 0,
+      "touch": false,
+      "waiting": 0,
+      "unloaded": [],
+      "first": {
+        "tracked": 58,
+        "posed": 8652,
+        "boneWrites": 90216,
+        "missingActs": 0,
+        "suspended": 18
+      },
+      "liveTaggedModels": 59,
+      "meanFrameSeconds": 0.00939344554842218,
+      "models": 56,
+      "p95FrameSeconds": 0.011865099892020226,
+      "elapsedSeconds": 8.001857299997937,
+      "boneWritesPerSecond": 7451.020152535759,
+      "boneWrites": 59622,
+      "emitters": 20,
+      "invalidChildren": [],
+      "maxFrameSeconds": 0.02575100027024746
+    },
+    {
+      "last": {
+        "tracked": 60,
+        "posed": 14374,
+        "boneWrites": 149838,
+        "missingActs": 0,
+        "suspended": 60
+      },
+      "label": "56-far",
+      "loaded": 56,
+      "frames": 752,
+      "vfxBound": 20,
+      "poses": 0,
+      "folderChildren": 56,
+      "lights": 0,
+      "touch": false,
+      "waiting": 0,
+      "unloaded": [],
+      "first": {
+        "tracked": 59,
+        "posed": 14374,
+        "boneWrites": 149838,
+        "missingActs": 0,
+        "suspended": 19
+      },
+      "liveTaggedModels": 60,
+      "meanFrameSeconds": 0.007985501197176649,
+      "models": 56,
+      "p95FrameSeconds": 0.009790400043129921,
+      "elapsedSeconds": 6.001677799999015,
+      "boneWritesPerSecond": 0,
+      "boneWrites": 0,
+      "emitters": 0,
+      "invalidChildren": [],
+      "maxFrameSeconds": 0.026179900392889977
+    },
+    {
+      "last": {
+        "tracked": 60,
+        "posed": 18632,
+        "boneWrites": 194108,
+        "missingActs": 0,
+        "suspended": 20
+      },
+      "label": "56-return-near",
+      "loaded": 56,
+      "frames": 606,
+      "vfxBound": 20,
+      "poses": 4258,
+      "folderChildren": 56,
+      "lights": 0,
+      "touch": false,
+      "waiting": 0,
+      "unloaded": [],
+      "first": {
+        "tracked": 60,
+        "posed": 14374,
+        "boneWrites": 149838,
+        "missingActs": 0,
+        "suspended": 60
+      },
+      "liveTaggedModels": 60,
+      "meanFrameSeconds": 0.009916170127536155,
+      "models": 56,
+      "p95FrameSeconds": 0.012297799810767174,
+      "elapsedSeconds": 6.009337800001958,
+      "boneWritesPerSecond": 7366.868276232628,
+      "boneWrites": 44270,
+      "emitters": 19,
+      "invalidChildren": [],
+      "maxFrameSeconds": 0.016433799639344215
+    },
+    {
+      "last": {
+        "tracked": 5,
+        "posed": 18679,
+        "boneWrites": 194577,
+        "missingActs": 0,
+        "suspended": 5
+      },
+      "label": "after-cleanup",
+      "loaded": 0,
+      "frames": 468,
+      "vfxBound": 0,
+      "poses": 0,
+      "folderChildren": 0,
+      "lights": 0,
+      "touch": false,
+      "waiting": 0,
+      "unloaded": [],
+      "first": {
+        "tracked": 4,
+        "posed": 18679,
+        "boneWrites": 194577,
+        "missingActs": 0,
+        "suspended": 4
+      },
+      "liveTaggedModels": 5,
+      "meanFrameSeconds": 0.008561481409268374,
+      "models": 0,
+      "p95FrameSeconds": 0.011204400099813938,
+      "elapsedSeconds": 4.005247599998256,
+      "boneWritesPerSecond": 0,
+      "boneWrites": 0,
+      "emitters": 0,
+      "invalidChildren": [],
+      "maxFrameSeconds": 0.018052099272608757
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "observed": "{\"models\":56,\"waiting\":0,\"loaded\":56,\"unloaded\":[],\"invalid\":[]}",
+      "passed": true,
+      "name": "56-near-and-mid / 56 real meshes loaded"
+    },
+    {
+      "observed": "{\"models\":56,\"waiting\":0,\"loaded\":56,\"unloaded\":[],\"invalid\":[]}",
+      "passed": true,
+      "name": "56-far / 56 real meshes loaded"
+    },
+    {
+      "observed": "{\"models\":56,\"waiting\":0,\"loaded\":56,\"unloaded\":[],\"invalid\":[]}",
+      "passed": true,
+      "name": "56-return-near / 56 real meshes loaded"
+    },
+    {
+      "observed": "first=0, last=0",
+      "passed": true,
+      "name": "baseline / no missing acts"
+    },
+    {
+      "observed": "first=0, last=0",
+      "passed": true,
+      "name": "56-near-and-mid / no missing acts"
+    },
+    {
+      "observed": "first=0, last=0",
+      "passed": true,
+      "name": "56-far / no missing acts"
+    },
+    {
+      "observed": "first=0, last=0",
+      "passed": true,
+      "name": "56-return-near / no missing acts"
+    },
+    {
+      "observed": "first=0, last=0",
+      "passed": true,
+      "name": "after-cleanup / no missing acts"
+    },
+    {
+      "observed": "boneWrites=59622, poses=5722",
+      "passed": true,
+      "name": "56-near-and-mid / active bone writes"
+    },
+    {
+      "observed": "boneWrites=44270, poses=4258",
+      "passed": true,
+      "name": "56-return-near / active bone writes"
+    },
+    {
+      "observed": "suspended=60",
+      "passed": true,
+      "name": "far / 56 rigs suspended"
+    },
+    {
+      "observed": "near=7451.02/s, far=0.00/s",
+      "passed": true,
+      "name": "far / reduced bone work"
+    },
+    {
+      "observed": "far=60, return-near=20",
+      "passed": true,
+      "name": "return-near / suspension released"
+    },
+    {
+      "observed": "children=0, models=0",
+      "passed": true,
+      "name": "cleanup / fixture empty"
+    },
+    {
+      "observed": "tracked=5, liveTaggedMeshes=5",
+      "passed": true,
+      "name": "cleanup / tracked matches live meshes"
+    }
+  ]
+}

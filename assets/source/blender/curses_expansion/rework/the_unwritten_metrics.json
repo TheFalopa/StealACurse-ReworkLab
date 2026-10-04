@@ -1,0 +1,108 @@
+{
+  "id": "the_unwritten",
+  "displayName": "The Unwritten",
+  "rarity": "Secret",
+  "sourceReference": "assets/reference/rework-12-secret.png",
+  "source": "assets/source/blender/curses_expansion/rework/the_unwritten.blend",
+  "export": "assets/export/meshes/curses/rework/the_unwritten.fbx",
+  "sha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+  "triangles": 8122,
+  "vertices": 4155,
+  "blenderDimensions": [
+    3.335972309112549,
+    1.4252878427505493,
+    4.075650691986084
+  ],
+  "intendedRobloxSize": [
+    3.335972309112549,
+    4.075650691986084,
+    1.4252878427505493
+  ],
+  "diagonal": 5.456288596192917,
+  "vfxHook": [
+    0.09499410390853882,
+    0.24782527267932863,
+    0.6200045895576477
+  ],
+  "vfxProfile": "unwritten_erasure",
+  "palette": [
+    "paper_black",
+    "paper_wear",
+    "parchment",
+    "ruby",
+    "white_glow"
+  ],
+  "paintedColorCount": 340,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Paper specter built from twelve broad folded black coat pages with unequal ragged tails",
+      "first_face": 0,
+      "last_face_exclusive": 866
+    },
+    {
+      "name": "Faceless irregular torn parchment head with split curled tips",
+      "first_face": 866,
+      "last_face_exclusive": 922
+    },
+    {
+      "name": "Overlapping curved shoulder pages and bent paper sleeve volumes",
+      "first_face": 922,
+      "last_face_exclusive": 1674
+    },
+    {
+      "name": "Large physically modeled erased writing and red binding stitches",
+      "first_face": 1674,
+      "last_face_exclusive": 1814
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 12 final correction: a specter whose coat is made from twelve broad physically folded black pages with uneven ragged hems, eight curved shoulder pages and torn bent paper sleeves. The faceless parchment head has split irregular curled tips rather than ruled notebook lines; pale writing claws, asymmetrical erased glyphs and red bookbinding stitches carry the concept."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/the_unwritten.blend",
+  "robloxIntendedSize": [
+    3.335972309112549,
+    4.075650691986084,
+    1.4252878427505493
+  ],
+  "vfxHookRoblox": [
+    0.09499410390853882,
+    0.24782527267932863,
+    0.6200045895576477
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.033359721302986145,
+      0.014252884313464165,
+      0.04075650870800018
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 8122,
+    "colorCount": 340,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "the_unwritten",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e"
+  }
+}

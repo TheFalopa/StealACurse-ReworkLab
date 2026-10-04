@@ -1,0 +1,17 @@
+{
+  "ids": [
+    "silent_choir",
+    "cathedral_heart",
+    "hollow_throne",
+    "worldroot",
+    "the_undertow",
+    "the_last_funeral",
+    "nameless_door",
+    "crown_of_silence",
+    "the_first_grave",
+    "the_unwritten",
+    "the_last_star"
+  ],
+  "fbx": "assets/export/meshes/curses/animations/animation-batch-05.fbx",
+  "sha256": "87ddb261081ca62977ccaded39dd7e8b3664ad34d75be326d39ab0c8bddacaa9"
+}

@@ -1,0 +1,87 @@
+{
+  "samples": [
+    {
+      "before": true,
+      "p95Ms": 6.202199961990118,
+      "frames": 954,
+      "geometry": {
+        "Base05": {
+          "lights": 2,
+          "parts": 281
+        },
+        "Base04": {
+          "lights": 2,
+          "parts": 268
+        },
+        "Base03": {
+          "lights": 8,
+          "parts": 465
+        },
+        "Base02": {
+          "lights": 2,
+          "parts": 281
+        },
+        "Base06": {
+          "lights": 2,
+          "parts": 276
+        },
+        "Base01": {
+          "lights": 2,
+          "parts": 268
+        },
+        "Base07": {
+          "lights": 2,
+          "parts": 268
+        },
+        "Base08": {
+          "lights": 2,
+          "parts": 281
+        }
+      },
+      "meanMs": 5.241258911870466
+    },
+    {
+      "before": false,
+      "p95Ms": 6.712399888783693,
+      "frames": 902,
+      "geometry": {
+        "Base05": {
+          "lights": 8,
+          "parts": 478
+        },
+        "Base04": {
+          "lights": 8,
+          "parts": 465
+        },
+        "Base03": {
+          "lights": 8,
+          "parts": 465
+        },
+        "Base02": {
+          "lights": 8,
+          "parts": 478
+        },
+        "Base06": {
+          "lights": 8,
+          "parts": 473
+        },
+        "Base01": {
+          "lights": 8,
+          "parts": 465
+        },
+        "Base07": {
+          "lights": 8,
+          "parts": 465
+        },
+        "Base08": {
+          "lights": 8,
+          "parts": 478
+        }
+      },
+      "meanMs": 5.548712966794318
+    }
+  ],
+  "caveat": "Geometry snapshots precede display rebuild. During timed samples Base01 uses polished OBSERVATORY (473 parts), Base03 uses polished CRYPT (465). Baseline is six original plus two polished; after is eight polished. No full eight-original timed baseline.",
+  "actualTimedTotalBefore": 2593,
+  "actualTimedTotalAfter": 3775
+}

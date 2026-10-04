@@ -1,0 +1,83 @@
+{
+  "id": "raven_quill",
+  "displayName": "Raven Quill",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-05-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/raven_quill.blend",
+  "export": "assets/export/meshes/curses/rework/raven_quill.fbx",
+  "sha256": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+  "triangles": 1394,
+  "vertices": 781,
+  "blenderDimensions": [
+    2.4739999771118164,
+    0.8183358311653137,
+    3.5245018005371094
+  ],
+  "intendedRobloxSize": [
+    2.4739999771118164,
+    3.5245018005371094,
+    0.8183358311653137
+  ],
+  "diagonal": 4.383202295275409,
+  "vfxHook": [
+    0.84,
+    0.5422508510947226,
+    0.25316791979355696
+  ],
+  "vfxProfile": "raven_ink_signature",
+  "palette": [
+    "gold",
+    "gold_edge",
+    "ink",
+    "iron",
+    "iron_edge",
+    "ochre",
+    "white_glow"
+  ],
+  "paintedColorCount": 398,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "layered curved feather body and individual sculpted barbs",
+      "first_face": 0,
+      "last_face_exclusive": 332
+    },
+    {
+      "name": "pale eye and true divided bronze fountain nib beak",
+      "first_face": 332,
+      "last_face_exclusive": 586
+    },
+    {
+      "name": "two orange toes and three claws per foot",
+      "first_face": 586,
+      "last_face_exclusive": 702
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "A curved thick feather made of twenty shaped barbs and two layered wings, ivory eye, bronze fountain nib with separated slit and three-toed orange feet.",
+    "One brief fading ink signature trails from the nib; feather tips sway gently."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/raven_quill.blend",
+  "robloxIntendedSize": [
+    2.4739999771118164,
+    3.5245018005371094,
+    0.8183358311653137
+  ],
+  "vfxHookRoblox": [
+    0.84,
+    0.5422508510947226,
+    0.25316791979355696
+  ]
+}

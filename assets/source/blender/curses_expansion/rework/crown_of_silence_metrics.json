@@ -1,0 +1,109 @@
+{
+  "id": "crown_of_silence",
+  "displayName": "Crown of Silence",
+  "rarity": "Secret",
+  "sourceReference": "assets/reference/rework-11-secret.png",
+  "source": "assets/source/blender/curses_expansion/rework/crown_of_silence.blend",
+  "export": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+  "sha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+  "triangles": 7204,
+  "vertices": 3684,
+  "blenderDimensions": [
+    3.1409904956817627,
+    1.5431336164474487,
+    4.1766886711120605
+  ],
+  "intendedRobloxSize": [
+    3.1409904956817627,
+    4.1766886711120605,
+    1.5431336164474487
+  ],
+  "diagonal": 5.449019261075261,
+  "vfxHook": [
+    0.0,
+    1.2183442875742911,
+    0.07999052286148071
+  ],
+  "vfxProfile": "crown_silence",
+  "palette": [
+    "brass",
+    "brass_edge",
+    "royal_cloth",
+    "royal_edge",
+    "royal_shadow",
+    "white_glow"
+  ],
+  "paintedColorCount": 894,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Headless ivory regent with a genuine open collar and four separate floating crown fragments",
+      "first_face": 0,
+      "last_face_exclusive": 170
+    },
+    {
+      "name": "Heavy circumferential ivory robe with ten independent broad curved folds and uneven torn hems",
+      "first_face": 170,
+      "last_face_exclusive": 850
+    },
+    {
+      "name": "Broad folded shoulder mantle and long torn hanging ceremonial sleeves",
+      "first_face": 850,
+      "last_face_exclusive": 1794
+    },
+    {
+      "name": "Seven bounded sound marks that fade outward from the missing face",
+      "first_face": 1794,
+      "last_face_exclusive": 1830
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 11 final correction: headless pale-ivory regent in a HEAVY cloth robe, ten broad curved circumferential folds, uneven torn hems, six wide hanging sleeve folds and layered shoulder cloth. Four separate floating crown fragments sit above a genuinely open gold collar; restrained gold trim and bounded sound marks preserve the missing-head motif."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/crown_of_silence.blend",
+  "robloxIntendedSize": [
+    3.1409904956817627,
+    4.1766886711120605,
+    1.5431336164474487
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    1.2183442875742911,
+    0.07999052286148071
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03140990436077118,
+      0.015431342646479607,
+      0.04176688939332962
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 7204,
+    "colorCount": 894,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "crown_of_silence",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c"
+  }
+}

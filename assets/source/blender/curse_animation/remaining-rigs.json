@@ -1,0 +1,6321 @@
+[
+  {
+    "id": "haunted_mirror",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/haunted_mirror.blend",
+    "sourceReusedSHA256": "34c001243273a09fa498cbc3bdcfe7177ae60cdc3a3b8e9e551dc06578a4c5b3",
+    "blend": "assets/source/blender/curse_animation/haunted_mirror.blend",
+    "fbx": "assets/export/meshes/curses/animations/haunted_mirror.fbx",
+    "fbxSHA256": "76c4e8287ec93a729766f60771ea94d6a8dbb0cd1c057dbafb27f4070e99e31c",
+    "vertices": 614,
+    "triangles": 1164,
+    "bones": [
+      "Root",
+      "Reflection",
+      "GhostHead",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1"
+    ],
+    "weightedVertices": 614,
+    "weightedCounts": {
+      "Root": 310,
+      "Leg0": 19,
+      "Knee0": 27,
+      "Leg1": 20,
+      "Knee1": 27,
+      "GhostHead": 198,
+      "Reflection": 34
+    },
+    "semanticComponents": {
+      "0": 10,
+      "1": 8
+    },
+    "channels": [
+      {
+        "bone": "Reflection",
+        "kind": "emerge",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 8.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "GhostHead",
+        "kind": "look",
+        "axis": "y",
+        "amplitude": 0.16,
+        "period": 6.8,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 2.6,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 2.6,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 2.6,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 2.6,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.56011962890625,
+      7.0,
+      0.7096978425979614
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "crying_mask",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/crying_mask.blend",
+    "sourceReusedSHA256": "c03de96aabf7873704b4bf55ca3b95d81d3e4d8c3811f61f099a00c516a6ea71",
+    "blend": "assets/source/blender/curse_animation/crying_mask.blend",
+    "fbx": "assets/export/meshes/curses/animations/crying_mask.fbx",
+    "fbxSHA256": "1e7a32c1f7c30f156d63a6aa9d1595bdf82c9323fe2be7d85712f5da0f840b12",
+    "vertices": 742,
+    "triangles": 1436,
+    "bones": [
+      "Root",
+      "TieL",
+      "TieR",
+      "Sorrow"
+    ],
+    "weightedVertices": 742,
+    "weightedCounts": {
+      "Sorrow": 702,
+      "TieL": 20,
+      "TieR": 20
+    },
+    "semanticComponents": {
+      "0": 10,
+      "1": 6
+    },
+    "channels": [
+      {
+        "bone": "TieL",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 4.1,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "TieR",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 4.1,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Sorrow",
+        "kind": "bow",
+        "axis": "x",
+        "amplitude": 0.045,
+        "period": 9.8,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.529237270355225,
+      5.799999713897705,
+      1.6159995794296265
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "candle_wisp",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/candle_wisp.blend",
+    "sourceReusedSHA256": "a18fd6eea9db1ba9ed63a2584348e0bd5e39ad6c4234bf82ac40d8fbf0298121",
+    "blend": "assets/source/blender/curse_animation/candle_wisp.blend",
+    "fbx": "assets/export/meshes/curses/animations/candle_wisp.fbx",
+    "fbxSHA256": "01c24743e612ba844ee89bc6f50d2b1261b7e2a07397c62785c7232aa31ed34b",
+    "vertices": 1901,
+    "triangles": 3606,
+    "bones": [
+      "Root",
+      "Flame",
+      "HandL",
+      "HandR"
+    ],
+    "weightedVertices": 1901,
+    "weightedCounts": {
+      "Root": 1278,
+      "HandL": 239,
+      "HandR": 239,
+      "Flame": 145
+    },
+    "semanticComponents": {
+      "0": 6,
+      "1": 14,
+      "2": 16,
+      "3": 10,
+      "4": 3
+    },
+    "channels": [
+      {
+        "bone": "Flame",
+        "kind": "flame",
+        "axis": "z",
+        "amplitude": 0.13,
+        "period": 1.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "HandL",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": -0.12,
+        "period": 6.6,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "HandR",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": 0.12,
+        "period": 6.6,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.0168657302856445,
+      4.699999809265137,
+      1.921445608139038
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "grave_hopper",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/grave_hopper.blend",
+    "sourceReusedSHA256": "62290b144c95dc614cb6b76f1fa73d7ddedacadb439144aa7d7148f69ceeeb6d",
+    "blend": "assets/source/blender/curse_animation/grave_hopper.blend",
+    "fbx": "assets/export/meshes/curses/animations/grave_hopper.fbx",
+    "fbxSHA256": "3f2d5905b8822291f5a66e9e124bab691677a1b721b86851015d81e3496881ab",
+    "vertices": 1258,
+    "triangles": 2400,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Shell"
+    ],
+    "weightedVertices": 1258,
+    "weightedCounts": {
+      "Shell": 760,
+      "Leg0": 110,
+      "Knee0": 115,
+      "Knee2": 79,
+      "Leg2": 105,
+      "Leg1": 108,
+      "Knee1": 115,
+      "Knee3": 75,
+      "Leg3": 97
+    },
+    "semanticComponents": {
+      "0": 1,
+      "1": 12,
+      "2": 4,
+      "3": 12
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.27,
+        "period": 1.8,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.2025,
+        "period": 1.8,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.27,
+        "period": 1.8,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.2025,
+        "period": 1.8,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.27,
+        "period": 1.8,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.2025,
+        "period": 1.8,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.27,
+        "period": 1.8,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.2025,
+        "period": 1.8,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Shell",
+        "kind": "hop",
+        "axis": "x",
+        "amplitude": 0.03,
+        "period": 1.8,
+        "phase": 0,
+        "idle": 0.16,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      4.073610782623291,
+      4.199999809265137,
+      2.7197792530059814
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "grave_key",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/grave_key.blend",
+    "sourceReusedSHA256": "271defbb6d4943165d01877fcd0ff841580a5f38d82508adc52b23111f886e39",
+    "blend": "assets/source/blender/curse_animation/grave_key.blend",
+    "fbx": "assets/export/meshes/curses/animations/grave_key.fbx",
+    "fbxSHA256": "11ff4ef9b6c3645821b201e210b1f50d7be8e78c54991c0380da317270fc30ef",
+    "vertices": 793,
+    "triangles": 1526,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Scarf"
+    ],
+    "weightedVertices": 793,
+    "weightedCounts": {
+      "Root": 437,
+      "Leg0": 114,
+      "Knee0": 92,
+      "Leg1": 48,
+      "Knee1": 23,
+      "Scarf": 160
+    },
+    "semanticComponents": {
+      "0": 5,
+      "1": 6,
+      "2": 5
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 1.45,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 1.45,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 1.45,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 1.45,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Scarf",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.15,
+        "period": 2.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.8741073608398438,
+      4.599999904632568,
+      0.9528258442878723
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "mourning_ribbon",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/mourning_ribbon.blend",
+    "sourceReusedSHA256": "8edeace59d8c037ce191264bc34858a1b8433f27de2730f1c7ada93a9cb8453e",
+    "blend": "assets/source/blender/curse_animation/mourning_ribbon.blend",
+    "fbx": "assets/export/meshes/curses/animations/mourning_ribbon.fbx",
+    "fbxSHA256": "8700458307217e0b67caf4b03d7f5b746554dd1ba07aeb22cc89601b50563e61",
+    "vertices": 904,
+    "triangles": 1728,
+    "bones": [
+      "Root",
+      "LoopL",
+      "TailL",
+      "LoopR",
+      "TailR"
+    ],
+    "weightedVertices": 904,
+    "weightedCounts": {
+      "LoopL": 320,
+      "LoopR": 240,
+      "TailL": 166,
+      "TailR": 178
+    },
+    "semanticComponents": {
+      "0": 5,
+      "1": 7,
+      "2": 10
+    },
+    "channels": [
+      {
+        "bone": "LoopL",
+        "kind": "fold",
+        "axis": "y",
+        "amplitude": -0.09,
+        "period": 5.3,
+        "phase": -0.7,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "TailL",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": -0.13,
+        "period": 3.1,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "LoopR",
+        "kind": "fold",
+        "axis": "y",
+        "amplitude": 0.09,
+        "period": 5.3,
+        "phase": 0.7,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "TailR",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.13,
+        "period": 3.1,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      6.400001049041748,
+      4.799999713897705,
+      1.1627038717269897
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "wilted_sprout",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/wilted_sprout.blend",
+    "sourceReusedSHA256": "202350bc0341a6f1638b04905803a5c21dae7aa623e05f802b4d9de155838ce8",
+    "blend": "assets/source/blender/curse_animation/wilted_sprout.blend",
+    "fbx": "assets/export/meshes/curses/animations/wilted_sprout.fbx",
+    "fbxSHA256": "95d30dd41bb908037beda25b66a508dfda79c8c0c3754407e601432bcb103c8d",
+    "vertices": 1156,
+    "triangles": 2220,
+    "bones": [
+      "Root",
+      "Stem",
+      "Bloom",
+      "Leaf"
+    ],
+    "weightedVertices": 1156,
+    "weightedCounts": {
+      "Stem": 204,
+      "Root": 133,
+      "Bloom": 704,
+      "Leaf": 158
+    },
+    "semanticComponents": {
+      "0": 5,
+      "1": 15,
+      "2": 3
+    },
+    "channels": [
+      {
+        "bone": "Stem",
+        "kind": "bow",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 6.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Bloom",
+        "kind": "look",
+        "axis": "y",
+        "amplitude": 0.1,
+        "period": 7.3,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Leaf",
+        "kind": "fold",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 4.6,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.7659223079681396,
+      4.799999713897705,
+      1.9629534482955933
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "ink_imp",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/ink_imp.blend",
+    "sourceReusedSHA256": "d340fa50ef92cd5168f6c609e59877cdd20c6ee9cdc8317254583130072281a3",
+    "blend": "assets/source/blender/curse_animation/ink_imp.blend",
+    "fbx": "assets/export/meshes/curses/animations/ink_imp.fbx",
+    "fbxSHA256": "c523201c1406f39143b01f1b9990174ec20321abab31aa870379d100438fa8c5",
+    "vertices": 928,
+    "triangles": 1772,
+    "bones": [
+      "Root",
+      "Ink",
+      "Tail",
+      "HandL",
+      "HandR"
+    ],
+    "weightedVertices": 928,
+    "weightedCounts": {
+      "Root": 232,
+      "Ink": 378,
+      "HandL": 138,
+      "HandR": 138,
+      "Tail": 42
+    },
+    "semanticComponents": {
+      "0": 5,
+      "1": 17
+    },
+    "channels": [
+      {
+        "bone": "Ink",
+        "kind": "squirm",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 2.9,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tail",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.15,
+        "period": 2.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "HandL",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": -0.16,
+        "period": 4.2,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "HandR",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": 0.16,
+        "period": 4.2,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.660130262374878,
+      4.0,
+      1.2927813529968262
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "lost_locket",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/lost_locket.blend",
+    "sourceReusedSHA256": "d13052ee5382d6d189278e5e2ad9274b33388c66819e1bc453e3e59dda9b4c5d",
+    "blend": "assets/source/blender/curse_animation/lost_locket.blend",
+    "fbx": "assets/export/meshes/curses/animations/lost_locket.fbx",
+    "fbxSHA256": "5465bab70360665488146849d697706d455d532be9964c4d20ae07918fe3038d",
+    "vertices": 1298,
+    "triangles": 2500,
+    "bones": [
+      "Root",
+      "Cover",
+      "Palm",
+      "Finger0",
+      "Finger1",
+      "Finger2"
+    ],
+    "weightedVertices": 1298,
+    "weightedCounts": {
+      "Root": 572,
+      "Cover": 507,
+      "Palm": 123,
+      "Finger0": 32,
+      "Finger1": 32,
+      "Finger2": 32
+    },
+    "semanticComponents": {
+      "0": 11,
+      "1": 6,
+      "2": 10
+    },
+    "channels": [
+      {
+        "bone": "Cover",
+        "kind": "creak",
+        "axis": "y",
+        "amplitude": 0.19,
+        "period": 8.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Palm",
+        "kind": "emerge",
+        "axis": "z",
+        "amplitude": 0.055,
+        "period": 6,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Finger0",
+        "kind": "curl",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.7,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Finger1",
+        "kind": "curl",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.7,
+        "phase": 0.7,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Finger2",
+        "kind": "curl",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.7,
+        "phase": 1.4,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      4.377938270568848,
+      4.5,
+      0.816697359085083
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "ashen_book",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/ashen_book.blend",
+    "sourceReusedSHA256": "4b016f41684b356a69ee0f892e701c61688f949e67a0b1d981aa8e791a5f96db",
+    "blend": "assets/source/blender/curse_animation/ashen_book.blend",
+    "fbx": "assets/export/meshes/curses/animations/ashen_book.fbx",
+    "fbxSHA256": "85833b0b2b5ca8bf0810b74763e343444a9b9038acc70d81c38719980dc70671",
+    "vertices": 1214,
+    "triangles": 2324,
+    "bones": [
+      "Root",
+      "PageWing",
+      "Cover",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1"
+    ],
+    "weightedVertices": 1214,
+    "weightedCounts": {
+      "Root": 264,
+      "Cover": 188,
+      "Leg0": 320,
+      "Knee0": 304,
+      "Leg1": 320,
+      "Knee1": 304,
+      "PageWing": 122
+    },
+    "semanticComponents": {
+      "0": 16,
+      "1": 5,
+      "2": 5
+    },
+    "channels": [
+      {
+        "bone": "PageWing",
+        "kind": "flutter",
+        "axis": "z",
+        "amplitude": 0.16,
+        "period": 2.1,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Cover",
+        "kind": "creak",
+        "axis": "x",
+        "amplitude": 0.045,
+        "period": 5.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 1.4,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 1.4,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 1.4,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 1.4,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.15693998336792,
+      4.099999904632568,
+      2.691206216812134
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "lantern_lurker",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/lantern_lurker.blend",
+    "sourceReusedSHA256": "4ee80bfde8aa164405b20018d6385d49202ad6c4074894c5d450b6635cbc37d6",
+    "blend": "assets/source/blender/curse_animation/lantern_lurker.blend",
+    "fbx": "assets/export/meshes/curses/animations/lantern_lurker.fbx",
+    "fbxSHA256": "7902bb5ef936097f7806f42d4e4be43c4ee8c467b643ea910e2ac7a7adf7c103",
+    "vertices": 1539,
+    "triangles": 2950,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Handle",
+      "Captive"
+    ],
+    "weightedVertices": 1539,
+    "weightedCounts": {
+      "Root": 670,
+      "Captive": 128,
+      "Handle": 207,
+      "Leg0": 45,
+      "Knee0": 109,
+      "Leg1": 41,
+      "Knee1": 107,
+      "Leg2": 43,
+      "Knee2": 108,
+      "Leg3": 41,
+      "Knee3": 107
+    },
+    "semanticComponents": {
+      "0": 11,
+      "1": 18,
+      "2": 4
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.21,
+        "period": 1.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1575,
+        "period": 1.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.21,
+        "period": 1.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1575,
+        "period": 1.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.21,
+        "period": 1.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1575,
+        "period": 1.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.21,
+        "period": 1.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1575,
+        "period": 1.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Handle",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.07,
+        "period": 2.8,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Captive",
+        "kind": "struggle",
+        "axis": "z",
+        "amplitude": 0.045,
+        "period": 5.6,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.9059982299804688,
+      4.5,
+      2.9478583335876465
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "hourglass_hound",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/hourglass_hound.blend",
+    "sourceReusedSHA256": "8c0385dacd72c2e67da412ca2339543e5b524d5c505f05c764fc447417b4331b",
+    "blend": "assets/source/blender/curse_animation/hourglass_hound.blend",
+    "fbx": "assets/export/meshes/curses/animations/hourglass_hound.fbx",
+    "fbxSHA256": "b0fe5696335af3a53defbcde02f77ace615e8ee7a8f66dc1ea874a4fdaf78e18",
+    "vertices": 1335,
+    "triangles": 2546,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Head",
+      "Tail"
+    ],
+    "weightedVertices": 1335,
+    "weightedCounts": {
+      "Root": 570,
+      "Head": 282,
+      "Leg0": 74,
+      "Knee0": 105,
+      "Leg1": 45,
+      "Knee1": 77,
+      "Leg2": 45,
+      "Knee2": 77,
+      "Leg3": 45,
+      "Knee3": 77,
+      "Tail": 74
+    },
+    "semanticComponents": {
+      "0": 13,
+      "1": 18
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.2,
+        "period": 1.24,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.15000000000000002,
+        "period": 1.24,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.2,
+        "period": 1.24,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.15000000000000002,
+        "period": 1.24,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.2,
+        "period": 1.24,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.15000000000000002,
+        "period": 1.24,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.2,
+        "period": 1.24,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.15000000000000002,
+        "period": 1.24,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Head",
+        "kind": "sniff",
+        "axis": "y",
+        "amplitude": 0.13,
+        "period": 3.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tail",
+        "kind": "wag",
+        "axis": "y",
+        "amplitude": 0.23,
+        "period": 1.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.800002574920654,
+      3.799999952316284,
+      2.2718725204467773
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "nail_beetle",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/nail_beetle.blend",
+    "sourceReusedSHA256": "b498c3297cb6831ca7f18c82211c4c1c0c5b836a4cf338b30bd6c885e92ce74d",
+    "blend": "assets/source/blender/curse_animation/nail_beetle.blend",
+    "fbx": "assets/export/meshes/curses/animations/nail_beetle.fbx",
+    "fbxSHA256": "c02466d3a189730759738dd4684723e9114ae3d8bb381e250c89c25199e81985",
+    "vertices": 833,
+    "triangles": 1594,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Leg4",
+      "Knee4",
+      "Leg5",
+      "Knee5",
+      "Nail"
+    ],
+    "weightedVertices": 833,
+    "weightedCounts": {
+      "Root": 405,
+      "Nail": 128,
+      "Leg0": 44,
+      "Knee0": 27,
+      "Leg1": 44,
+      "Knee1": 27,
+      "Leg2": 44,
+      "Knee2": 27,
+      "Leg3": 45,
+      "Knee3": 26,
+      "Leg4": 45,
+      "Knee4": 26,
+      "Leg5": 45,
+      "Knee5": 26
+    },
+    "semanticComponents": {
+      "0": 6,
+      "1": 6,
+      "2": 6
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.08,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.14250000000000002,
+        "period": 1.08,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.08,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.14250000000000002,
+        "period": 1.08,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.08,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.14250000000000002,
+        "period": 1.08,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.08,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.14250000000000002,
+        "period": 1.08,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg4",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.08,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee4",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.14250000000000002,
+        "period": 1.08,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg5",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.08,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee5",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.14250000000000002,
+        "period": 1.08,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Nail",
+        "kind": "twitch",
+        "axis": "x",
+        "amplitude": 0.065,
+        "period": 6.3,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.600000381469727,
+      3.200000286102295,
+      5.400001049041748
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "pale_guest",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/pale_guest.blend",
+    "sourceReusedSHA256": "74302c7ec7d0abb835eff0f842d85aed280fce4426e431312621d02b909da825",
+    "blend": "assets/source/blender/curse_animation/pale_guest.blend",
+    "fbx": "assets/export/meshes/curses/animations/pale_guest.fbx",
+    "fbxSHA256": "dfc0d1295c1babf81908cc20047e0e74466b91548c2da55ac75a46a16dd08699",
+    "vertices": 916,
+    "triangles": 1716,
+    "bones": [
+      "Root",
+      "Ghost",
+      "Head",
+      "GripL",
+      "GripR"
+    ],
+    "weightedVertices": 916,
+    "weightedCounts": {
+      "Root": 448,
+      "Ghost": 128,
+      "Head": 168,
+      "GripL": 86,
+      "GripR": 86
+    },
+    "semanticComponents": {
+      "0": 11,
+      "1": 12,
+      "2": 6
+    },
+    "channels": [
+      {
+        "bone": "Ghost",
+        "kind": "emerge",
+        "axis": "z",
+        "amplitude": 0.13,
+        "period": 8.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Head",
+        "kind": "peek",
+        "axis": "z",
+        "amplitude": 0.13,
+        "period": 5.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "GripL",
+        "kind": "curl",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.3,
+        "phase": -0.35,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "GripR",
+        "kind": "curl",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.3,
+        "phase": 0.7,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.800001621246338,
+      4.800000190734863,
+      1.6799976825714111
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "cold_teacup",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/cold_teacup.blend",
+    "sourceReusedSHA256": "9d7238bdd1449386d46ecc055b707a28e2d6e82dd43027912d5c84a8bb36d3cc",
+    "blend": "assets/source/blender/curse_animation/cold_teacup.blend",
+    "fbx": "assets/export/meshes/curses/animations/cold_teacup.fbx",
+    "fbxSHA256": "4475d0ef9ce7c259a57f8fdee15880cc8e948940fc4c8f97742dd5c370c9eada",
+    "vertices": 1274,
+    "triangles": 2456,
+    "bones": [
+      "Root",
+      "Steam",
+      "SteamTip"
+    ],
+    "weightedVertices": 1274,
+    "weightedCounts": {
+      "Root": 1068,
+      "SteamTip": 179,
+      "Steam": 120
+    },
+    "semanticComponents": {
+      "0": 4,
+      "1": 3,
+      "2": 18
+    },
+    "channels": [
+      {
+        "bone": "Steam",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.14,
+        "period": 3.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "SteamTip",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.16,
+        "period": 2.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      4.999999523162842,
+      4.900000095367432,
+      4.875943660736084
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "coin_crawler",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/revision02/coin_crawler.blend",
+    "sourceReusedSHA256": "33229f3ee12ed68b2857c04949245a92fb9f69869d97f2a2faac2b40e7588677",
+    "blend": "assets/source/blender/curse_animation/coin_crawler.blend",
+    "fbx": "assets/export/meshes/curses/animations/coin_crawler.fbx",
+    "fbxSHA256": "75893d60d82bfa2f04b9884fbc23a11656661032975d52aaeae72b5cc1544ed4",
+    "vertices": 1142,
+    "triangles": 2172,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "CoinLid",
+      "Gaze"
+    ],
+    "weightedVertices": 1142,
+    "weightedCounts": {
+      "CoinLid": 509,
+      "Root": 151,
+      "Gaze": 100,
+      "Leg0": 84,
+      "Knee0": 58,
+      "Leg1": 84,
+      "Knee1": 58,
+      "Leg2": 60,
+      "Knee2": 57,
+      "Leg3": 86,
+      "Knee3": 58
+    },
+    "semanticComponents": {
+      "0": 2,
+      "1": 12,
+      "2": 15
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 1.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 1.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 1.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 1.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 1.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 1.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 1.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 1.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "CoinLid",
+        "kind": "creak",
+        "axis": "x",
+        "amplitude": 0.065,
+        "period": 6.1,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Gaze",
+        "kind": "look",
+        "axis": "y",
+        "amplitude": 0.07,
+        "period": 4.1,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.799998760223389,
+      3.200000047683716,
+      4.099999904632568
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "umbrella_wraith",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/umbrella_wraith.blend",
+    "sourceReusedSHA256": "e5b2d7989a498675ae8113b1a7e048962a152c737e33560f862b662ac2bc6389",
+    "blend": "assets/source/blender/curse_animation/umbrella_wraith.blend",
+    "fbx": "assets/export/meshes/curses/animations/umbrella_wraith.fbx",
+    "fbxSHA256": "01bffe03bec05075056218cbe2a5f80b01fdd85c5200e4e23ba8dc4ac1b70869",
+    "vertices": 823,
+    "triangles": 1566,
+    "bones": [
+      "Root",
+      "WingL",
+      "RagL",
+      "WingR",
+      "RagR"
+    ],
+    "weightedVertices": 823,
+    "weightedCounts": {
+      "Root": 521,
+      "WingL": 147,
+      "RagL": 40,
+      "WingR": 147,
+      "RagR": 40
+    },
+    "semanticComponents": {
+      "0": 7,
+      "1": 10,
+      "2": 3
+    },
+    "channels": [
+      {
+        "bone": "WingL",
+        "kind": "fold",
+        "axis": "z",
+        "amplitude": -0.16,
+        "period": 4.8,
+        "phase": -0.5,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "RagL",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.9,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "WingR",
+        "kind": "fold",
+        "axis": "z",
+        "amplitude": 0.16,
+        "period": 4.8,
+        "phase": 0.5,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "RagR",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.9,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.591541290283203,
+      5.199999809265137,
+      2.8000001907348633
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "marrow_dice",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/marrow_dice.blend",
+    "sourceReusedSHA256": "466fd373aac78ec4ee02fb06ef523f84ad68abfde083ea1af0f29178626c34dc",
+    "blend": "assets/source/blender/curse_animation/marrow_dice.blend",
+    "fbx": "assets/export/meshes/curses/animations/marrow_dice.fbx",
+    "fbxSHA256": "dff2df91517a7f939feb653b89c7e465472c5efa7ffdfb1ca8257a211fc4a2a4",
+    "vertices": 2095,
+    "triangles": 4138,
+    "bones": [
+      "Root",
+      "DieL",
+      "DieR",
+      "Pip0",
+      "Pip1",
+      "Pip2"
+    ],
+    "weightedVertices": 2095,
+    "weightedCounts": {
+      "DieL": 950,
+      "DieR": 959,
+      "Pip0": 62,
+      "Pip1": 62,
+      "Pip2": 62
+    },
+    "semanticComponents": {
+      "0": 2,
+      "1": 11
+    },
+    "channels": [
+      {
+        "bone": "DieL",
+        "kind": "roll",
+        "axis": "z",
+        "amplitude": 0.12,
+        "period": 3.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "DieR",
+        "kind": "roll",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 5.1,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Pip0",
+        "kind": "drip",
+        "axis": "y",
+        "amplitude": 0.09,
+        "period": 2.9,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Pip1",
+        "kind": "drip",
+        "axis": "y",
+        "amplitude": 0.09,
+        "period": 3.1999999999999997,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Pip2",
+        "kind": "drip",
+        "axis": "y",
+        "amplitude": 0.09,
+        "period": 3.5,
+        "phase": 2,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      4.951040267944336,
+      4.199999809265137,
+      2.843744993209839
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "veil_mourner",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/veil_mourner.blend",
+    "sourceReusedSHA256": "3e377f1b5d2a08482aa04ddcfc739057fe85346380f68438a5401b3c90778ffc",
+    "blend": "assets/source/blender/curse_animation/veil_mourner.blend",
+    "fbx": "assets/export/meshes/curses/animations/veil_mourner.fbx",
+    "fbxSHA256": "9906e6252931c7f0ee63f106e87f2b80bcd86fbbc5ed475de56fa4d19c222d70",
+    "vertices": 1686,
+    "triangles": 3280,
+    "bones": [
+      "Root",
+      "Comb",
+      "VeilL",
+      "HandL",
+      "VeilR",
+      "HandR"
+    ],
+    "weightedVertices": 1686,
+    "weightedCounts": {
+      "VeilR": 408,
+      "Root": 460,
+      "VeilL": 274,
+      "HandL": 300,
+      "HandR": 300,
+      "Comb": 280
+    },
+    "semanticComponents": {
+      "0": 2,
+      "1": 26,
+      "2": 11
+    },
+    "channels": [
+      {
+        "bone": "Comb",
+        "kind": "bow",
+        "axis": "x",
+        "amplitude": 0.025,
+        "period": 9,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "VeilL",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": -0.09,
+        "period": 5.6,
+        "phase": -0.6,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "HandL",
+        "kind": "grip",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 7.2,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "VeilR",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.09,
+        "period": 5.6,
+        "phase": 0.6,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "HandR",
+        "kind": "grip",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 7.2,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      4.574632167816162,
+      6.099999904632568,
+      2.8631131649017334
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "grave_compass",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/grave_compass.blend",
+    "sourceReusedSHA256": "3038f9bffca0be01999cede9ac452f2e472e707bcd08fade0847f34f8ef17097",
+    "blend": "assets/source/blender/curse_animation/grave_compass.blend",
+    "fbx": "assets/export/meshes/curses/animations/grave_compass.fbx",
+    "fbxSHA256": "94f4f3f90bfe7f582e6237caff2b6861b20a2a16b4a59efd613bd7bb758f4e83",
+    "vertices": 1689,
+    "triangles": 3242,
+    "bones": [
+      "Root",
+      "Needle",
+      "Lid",
+      "Ring"
+    ],
+    "weightedVertices": 1689,
+    "weightedCounts": {
+      "Root": 857,
+      "Needle": 232,
+      "Lid": 456,
+      "Ring": 144
+    },
+    "semanticComponents": {
+      "0": 22,
+      "1": 17
+    },
+    "channels": [
+      {
+        "bone": "Needle",
+        "kind": "search",
+        "axis": "z",
+        "amplitude": 0.7,
+        "period": 8,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Lid",
+        "kind": "creak",
+        "axis": "y",
+        "amplitude": 0.08,
+        "period": 7.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Ring",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.08,
+        "period": 3,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      7.0920209884643555,
+      5.400000095367432,
+      1.6317963600158691
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "hollow_violin",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/hollow_violin.blend",
+    "sourceReusedSHA256": "2cbddaec0b7274f80bf3a493743d315db8c988c7444d5547d77280cf32731c94",
+    "blend": "assets/source/blender/curse_animation/hollow_violin.blend",
+    "fbx": "assets/export/meshes/curses/animations/hollow_violin.fbx",
+    "fbxSHA256": "48a3b84a1dd73eccf4912b1d39aba7d432f3320b5fa734817fd6cd952c012956",
+    "vertices": 1131,
+    "triangles": 2150,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "String0",
+      "String1",
+      "String2",
+      "Scroll"
+    ],
+    "weightedVertices": 1131,
+    "weightedCounts": {
+      "Root": 745,
+      "Scroll": 202,
+      "String0": 24,
+      "String1": 24,
+      "String2": 24,
+      "Leg0": 45,
+      "Knee0": 66,
+      "Leg1": 45,
+      "Knee1": 66
+    },
+    "semanticComponents": {
+      "0": 8,
+      "1": 11,
+      "2": 9
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.16,
+        "period": 1.65,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 1.65,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.16,
+        "period": 1.65,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 1.65,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "String0",
+        "kind": "vibrate",
+        "axis": "z",
+        "amplitude": 0.006,
+        "period": 0.19,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "String1",
+        "kind": "vibrate",
+        "axis": "z",
+        "amplitude": 0.006,
+        "period": 0.225,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "String2",
+        "kind": "vibrate",
+        "axis": "z",
+        "amplitude": 0.006,
+        "period": 0.26,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Scroll",
+        "kind": "listen",
+        "axis": "y",
+        "amplitude": 0.08,
+        "period": 6.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      2.7164812088012695,
+      6.400000095367432,
+      1.4117369651794434
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "chime_triplets",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/chime_triplets.blend",
+    "sourceReusedSHA256": "e3c1af87fa2d9821631b4ac6357da83d9c52994b7bf7324c29fc8b4b0ff02948",
+    "blend": "assets/source/blender/curse_animation/chime_triplets.blend",
+    "fbx": "assets/export/meshes/curses/animations/chime_triplets.fbx",
+    "fbxSHA256": "e9aed9f57e512718cb9c3a85a7278a4db6872dd6cf3485c2794c884448b93b0c",
+    "vertices": 2728,
+    "triangles": 5332,
+    "bones": [
+      "Root",
+      "Bell0",
+      "Bell1",
+      "Bell2"
+    ],
+    "weightedVertices": 2728,
+    "weightedCounts": {
+      "Root": 361,
+      "Bell0": 823,
+      "Bell1": 823,
+      "Bell2": 823
+    },
+    "semanticComponents": {
+      "0": 1,
+      "1": 42
+    },
+    "channels": [
+      {
+        "bone": "Bell0",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.13,
+        "period": 2.5,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Bell1",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.16,
+        "period": 3.1,
+        "phase": 1.2,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Bell2",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.19,
+        "period": 3.7,
+        "phase": 2.4,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      7.281747817993164,
+      5.5,
+      2.2885780334472656
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "thimble_spider",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/thimble_spider.blend",
+    "sourceReusedSHA256": "712bfe31a0239e3da19b60c95afda53531813b70b2ceca378c7d04b1aaf82e1c",
+    "blend": "assets/source/blender/curse_animation/thimble_spider.blend",
+    "fbx": "assets/export/meshes/curses/animations/thimble_spider.fbx",
+    "fbxSHA256": "c52f1a9f00eef910bbe711636d46caf7ca9ba4085a7b3db6ae3ae78b076226fc",
+    "vertices": 2864,
+    "triangles": 5620,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Leg4",
+      "Knee4",
+      "Leg5",
+      "Knee5",
+      "Leg6",
+      "Knee6",
+      "Leg7",
+      "Knee7",
+      "Fangs"
+    ],
+    "weightedVertices": 2864,
+    "weightedCounts": {
+      "Root": 2262,
+      "Fangs": 42,
+      "Leg0": 70,
+      "Knee0": 28,
+      "Leg1": 56,
+      "Knee1": 14,
+      "Leg2": 56,
+      "Knee2": 29,
+      "Leg3": 42,
+      "Knee3": 21,
+      "Leg4": 70,
+      "Knee4": 28,
+      "Leg5": 56,
+      "Knee5": 14,
+      "Leg6": 56,
+      "Knee6": 29,
+      "Leg7": 42,
+      "Knee7": 21
+    },
+    "semanticComponents": {
+      "0": 2,
+      "1": 10,
+      "2": 16
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 0.95,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 0.95,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 0.95,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 0.95,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 0.95,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 0.95,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 0.95,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 0.95,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg4",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 0.95,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee4",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 0.95,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg5",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 0.95,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee5",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 0.95,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg6",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 0.95,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee6",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 0.95,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg7",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.18,
+        "period": 0.95,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee7",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.135,
+        "period": 0.95,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Fangs",
+        "kind": "grip",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 5.8,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.8597540855407715,
+      3.5999999046325684,
+      3.2620511054992676
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "music_box_dancer",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/music_box_dancer.blend",
+    "sourceReusedSHA256": "e0fe6b5313715efc68e2f7e6920eec672dbdfd6dc90cab83c8eabdee0303048b",
+    "blend": "assets/source/blender/curse_animation/music_box_dancer.blend",
+    "fbx": "assets/export/meshes/curses/animations/music_box_dancer.fbx",
+    "fbxSHA256": "d97f2c13ad3944eb8aeded32e09464273258725a06a0e7a23d1ba83077dfa692",
+    "vertices": 2122,
+    "triangles": 3988,
+    "bones": [
+      "Root",
+      "Dancer",
+      "Head",
+      "ArmR",
+      "Lid"
+    ],
+    "weightedVertices": 2122,
+    "weightedCounts": {
+      "Root": 1000,
+      "Lid": 194,
+      "Dancer": 520,
+      "Head": 292,
+      "ArmR": 116
+    },
+    "semanticComponents": {
+      "0": 29,
+      "1": 8,
+      "2": 29
+    },
+    "channels": [
+      {
+        "bone": "Dancer",
+        "kind": "turn",
+        "axis": "y",
+        "amplitude": 1,
+        "period": 8,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Head",
+        "kind": "bow",
+        "axis": "x",
+        "amplitude": 0.075,
+        "period": 7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ArmR",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": -0.12,
+        "period": 5.1,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Lid",
+        "kind": "creak",
+        "axis": "x",
+        "amplitude": 0.06,
+        "period": 10,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      4.628862380981445,
+      5.599999904632568,
+      3.101595878601074
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "raven_quill",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/raven_quill.blend",
+    "sourceReusedSHA256": "97f586037136f1f2ac9a9ad5d8f86a91931cf7b545410b80958b74119b20797b",
+    "blend": "assets/source/blender/curse_animation/raven_quill.blend",
+    "fbx": "assets/export/meshes/curses/animations/raven_quill.fbx",
+    "fbxSHA256": "ba3cd890fc465483ff84ed23f43e63e3a289d9d9054deb46ce397a3c2f5d5cf9",
+    "vertices": 781,
+    "triangles": 1394,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Nib",
+      "BarbsL",
+      "BarbsR"
+    ],
+    "weightedVertices": 781,
+    "weightedCounts": {
+      "BarbsR": 227,
+      "BarbsL": 168,
+      "Nib": 236,
+      "Leg0": 39,
+      "Knee0": 68,
+      "Leg1": 39,
+      "Knee1": 68
+    },
+    "semanticComponents": {
+      "0": 30,
+      "1": 5,
+      "2": 8
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.18,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.14250000000000002,
+        "period": 1.18,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.18,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.14250000000000002,
+        "period": 1.18,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Nib",
+        "kind": "write",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 5.6,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "BarbsL",
+        "kind": "flutter",
+        "axis": "z",
+        "amplitude": -0.065,
+        "period": 3.2,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "BarbsR",
+        "kind": "flutter",
+        "axis": "z",
+        "amplitude": 0.065,
+        "period": 3.2,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.199997425079346,
+      6.40000057220459,
+      2.400000810623169
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "sorrow_chalice",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/sorrow_chalice.blend",
+    "sourceReusedSHA256": "32f9b6ca89efb18cd5438d8432d9af2229120f033be5019b436088ebc2914b45",
+    "blend": "assets/source/blender/curse_animation/sorrow_chalice.blend",
+    "fbx": "assets/export/meshes/curses/animations/sorrow_chalice.fbx",
+    "fbxSHA256": "374ef51bd6e4bebf6235ce85390488ea7e6944b1ab27e70bd674d5cc61e8317c",
+    "vertices": 1452,
+    "triangles": 2828,
+    "bones": [
+      "Root",
+      "Spirit",
+      "Drop0",
+      "Drop1",
+      "Drop2"
+    ],
+    "weightedVertices": 1452,
+    "weightedCounts": {
+      "Root": 980,
+      "Spirit": 244,
+      "Drop0": 76,
+      "Drop1": 76,
+      "Drop2": 76
+    },
+    "semanticComponents": {
+      "0": 13,
+      "1": 9
+    },
+    "channels": [
+      {
+        "bone": "Spirit",
+        "kind": "lament",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 7.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Drop0",
+        "kind": "drip",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Drop1",
+        "kind": "drip",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.5,
+        "phase": 2,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Drop2",
+        "kind": "drip",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.5,
+        "phase": 4,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.7738616466522217,
+      5.599999904632568,
+      3.413226366043091
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "pale_gramophone",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/pale_gramophone.blend",
+    "sourceReusedSHA256": "5d62cf4247e1c22b44e5d19658b8c408413bbe44839dcb47c1b85874a07e3681",
+    "blend": "assets/source/blender/curse_animation/pale_gramophone.blend",
+    "fbx": "assets/export/meshes/curses/animations/pale_gramophone.fbx",
+    "fbxSHA256": "cc967808044a13f70d4996093a8f8909bec95f3513e834c79cbf2225c311700e",
+    "vertices": 3304,
+    "triangles": 6316,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Horn",
+      "Record",
+      "Crank"
+    ],
+    "weightedVertices": 3304,
+    "weightedCounts": {
+      "Root": 1104,
+      "Record": 706,
+      "Leg0": 139,
+      "Knee0": 134,
+      "Leg1": 138,
+      "Knee1": 134,
+      "Leg2": 139,
+      "Knee2": 134,
+      "Leg3": 138,
+      "Knee3": 134,
+      "Horn": 640,
+      "Crank": 66
+    },
+    "semanticComponents": {
+      "0": 37,
+      "1": 8,
+      "2": 20,
+      "3": 10,
+      "4": 3
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.16,
+        "period": 1.85,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 1.85,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.16,
+        "period": 1.85,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 1.85,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.16,
+        "period": 1.85,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 1.85,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.16,
+        "period": 1.85,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 1.85,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Horn",
+        "kind": "listen",
+        "axis": "y",
+        "amplitude": 0.09,
+        "period": 6.3,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Record",
+        "kind": "turn",
+        "axis": "y",
+        "amplitude": 1,
+        "period": 3.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Crank",
+        "kind": "turn",
+        "axis": "z",
+        "amplitude": 1,
+        "period": 3.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.534446716308594,
+      6.199999809265137,
+      4.386199951171875
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "thorn_reliquary",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/thorn_reliquary.blend",
+    "sourceReusedSHA256": "6d4a7a16c3ef655a71263e9c70ef72c5c46ce798f284480d0bf5088d7b991033",
+    "blend": "assets/source/blender/curse_animation/thorn_reliquary.blend",
+    "fbx": "assets/export/meshes/curses/animations/thorn_reliquary.fbx",
+    "fbxSHA256": "38866e982f24560730d0edcf0dd9b812d9add0078b67e880f77ee4b954a55340",
+    "vertices": 1104,
+    "triangles": 2060,
+    "bones": [
+      "Root",
+      "Thorn",
+      "ThornTip"
+    ],
+    "weightedVertices": 1104,
+    "weightedCounts": {
+      "Root": 748,
+      "ThornTip": 194,
+      "Thorn": 218
+    },
+    "semanticComponents": {
+      "0": 25,
+      "1": 4,
+      "2": 11
+    },
+    "channels": [
+      {
+        "bone": "Thorn",
+        "kind": "struggle",
+        "axis": "z",
+        "amplitude": 0.075,
+        "period": 6.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ThornTip",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.15,
+        "period": 4.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      3.146228790283203,
+      6.5,
+      3.1475839614868164
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "anchor_crab",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/anchor_crab.blend",
+    "sourceReusedSHA256": "e1c4ade25ce6a8bccedda0eaff967fc765b880844d7747f613dc9d616aa7dd51",
+    "blend": "assets/source/blender/curse_animation/anchor_crab.blend",
+    "fbx": "assets/export/meshes/curses/animations/anchor_crab.fbx",
+    "fbxSHA256": "a4bef99f3e48dd7abd7bf642ea18cc6bc4e4f67372b1e2cf015ac1634167d1f8",
+    "vertices": 1630,
+    "triangles": 3128,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Leg4",
+      "Knee4",
+      "Leg5",
+      "Knee5",
+      "ClawL",
+      "JawL",
+      "ClawR",
+      "JawR"
+    ],
+    "weightedVertices": 1630,
+    "weightedCounts": {
+      "Root": 622,
+      "Leg0": 76,
+      "Knee0": 16,
+      "Leg1": 76,
+      "Knee1": 16,
+      "Leg2": 76,
+      "Knee2": 16,
+      "Leg3": 76,
+      "Knee3": 16,
+      "Leg4": 76,
+      "Knee4": 16,
+      "Leg5": 76,
+      "Knee5": 16,
+      "ClawL": 70,
+      "JawL": 188,
+      "ClawR": 70,
+      "JawR": 188
+    },
+    "semanticComponents": {
+      "0": 12,
+      "1": 12,
+      "2": 10
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.38,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.38,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.38,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.38,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.38,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.38,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.38,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.38,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg4",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.38,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee4",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.38,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg5",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.38,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee5",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.38,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "ClawL",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": -0.11,
+        "period": 4.2,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "JawL",
+        "kind": "grip",
+        "axis": "z",
+        "amplitude": -0.12,
+        "period": 5.8,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ClawR",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 4.2,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "JawR",
+        "kind": "grip",
+        "axis": "z",
+        "amplitude": 0.12,
+        "period": 5.8,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      7.448751926422119,
+      4.800000190734863,
+      2.186063766479492
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "sundial_sentinel",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/sundial_sentinel.blend",
+    "sourceReusedSHA256": "1fd398e338d071013ab89f56adfd1ecad5c72d4b363467fb8f28e3ec8c2b58b3",
+    "blend": "assets/source/blender/curse_animation/sundial_sentinel.blend",
+    "fbx": "assets/export/meshes/curses/animations/sundial_sentinel.fbx",
+    "fbxSHA256": "4c6226141910ec2dde8b0345e9137011378b6b79d624a9ecce3a38e15aeb49eb",
+    "vertices": 1232,
+    "triangles": 2316,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Shadow"
+    ],
+    "weightedVertices": 1232,
+    "weightedCounts": {
+      "Root": 770,
+      "Shadow": 130,
+      "Leg0": 96,
+      "Knee0": 158,
+      "Leg1": 96,
+      "Knee1": 158
+    },
+    "semanticComponents": {
+      "0": 29,
+      "1": 5,
+      "2": 6
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.13,
+        "period": 2.7,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0975,
+        "period": 2.7,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.13,
+        "period": 2.7,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0975,
+        "period": 2.7,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Shadow",
+        "kind": "search",
+        "axis": "z",
+        "amplitude": 0.24,
+        "period": 15,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      4.23760986328125,
+      5.700000286102295,
+      1.5562877655029297
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "sleepwalker_shoes",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/sleepwalker_shoes.blend",
+    "sourceReusedSHA256": "d930d33ee0b5a4ad891e8cbc15924ee9f672aefac14e8adad2a43590c6e6c0dd",
+    "blend": "assets/source/blender/curse_animation/sleepwalker_shoes.blend",
+    "fbx": "assets/export/meshes/curses/animations/sleepwalker_shoes.fbx",
+    "fbxSHA256": "bde783d63169417125861c061210baa23c66a5c40e4a2ad0a7253f56e8750a7d",
+    "vertices": 2664,
+    "triangles": 5176,
+    "bones": [
+      "Root",
+      "Boot0",
+      "Boot1"
+    ],
+    "weightedVertices": 2664,
+    "weightedCounts": {
+      "Boot0": 1384,
+      "Boot1": 1280
+    },
+    "semanticComponents": {
+      "0": 56
+    },
+    "channels": [
+      {
+        "bone": "Boot0",
+        "kind": "shoe",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.65,
+        "phase": 0.0,
+        "idle": 0.12,
+        "travel": 1
+      },
+      {
+        "bone": "Boot1",
+        "kind": "shoe",
+        "axis": "x",
+        "amplitude": 0.19,
+        "period": 1.65,
+        "phase": 3.141592653589793,
+        "idle": 0.12,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.5874528884887695,
+      4.300000190734863,
+      4.686659336090088
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "night_harp",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/night_harp.blend",
+    "sourceReusedSHA256": "454c26ba18e77ab3987ee1b4a3ca54603f970efc97373e05e2bb3d65ae013512",
+    "blend": "assets/source/blender/curse_animation/night_harp.blend",
+    "fbx": "assets/export/meshes/curses/animations/night_harp.fbx",
+    "fbxSHA256": "93108f46aa07070ff55e4e0002184d066e5b0c7c8bc5ae06d74288d32cd2af3a",
+    "vertices": 1358,
+    "triangles": 2492,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Head",
+      "String0",
+      "String1",
+      "String2",
+      "String3"
+    ],
+    "weightedVertices": 1358,
+    "weightedCounts": {
+      "Root": 561,
+      "Leg0": 69,
+      "Knee0": 90,
+      "Leg2": 67,
+      "Knee2": 90,
+      "Leg1": 67,
+      "Knee1": 89,
+      "Leg3": 69,
+      "Knee3": 90,
+      "String0": 143,
+      "String3": 67,
+      "String1": 10,
+      "String2": 24,
+      "Head": 329
+    },
+    "semanticComponents": {
+      "0": 29,
+      "1": 11,
+      "2": 19
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 2.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 2.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 2.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 2.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 2.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 2.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 2.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 2.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Head",
+        "kind": "listen",
+        "axis": "y",
+        "amplitude": 0.095,
+        "period": 6.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "String0",
+        "kind": "pluck",
+        "axis": "z",
+        "amplitude": 0.012,
+        "period": 2.4,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "String1",
+        "kind": "pluck",
+        "axis": "z",
+        "amplitude": 0.012,
+        "period": 2.4,
+        "phase": 0.6,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "String2",
+        "kind": "pluck",
+        "axis": "z",
+        "amplitude": 0.012,
+        "period": 2.4,
+        "phase": 1.2,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "String3",
+        "kind": "pluck",
+        "axis": "z",
+        "amplitude": 0.012,
+        "period": 2.4,
+        "phase": 1.7999999999999998,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.734978675842285,
+      7.900000095367432,
+      2.8575704097747803
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "thorn_cathedral",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/thorn_cathedral.blend",
+    "sourceReusedSHA256": "efa69b06f8fb8825d7a97f774c216f5995719c2c924d9ee8f99a78fa63d93963",
+    "blend": "assets/source/blender/curse_animation/thorn_cathedral.blend",
+    "fbx": "assets/export/meshes/curses/animations/thorn_cathedral.fbx",
+    "fbxSHA256": "157b435581a3c8cd0be0cf16a2e0e42ab8fcafb7928ae4ba5125cdc222e24882",
+    "vertices": 1648,
+    "triangles": 3064,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "RoseWindow",
+      "Belfry"
+    ],
+    "weightedVertices": 1648,
+    "weightedCounts": {
+      "Root": 822,
+      "Leg0": 42,
+      "Knee0": 78,
+      "Leg1": 41,
+      "Knee1": 76,
+      "Leg2": 42,
+      "Knee2": 78,
+      "Leg3": 43,
+      "Knee3": 79,
+      "RoseWindow": 230,
+      "Belfry": 238
+    },
+    "semanticComponents": {
+      "0": 26,
+      "1": 17,
+      "2": 16
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.9,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 2.9,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.9,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 2.9,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.9,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 2.9,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.9,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 2.9,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "RoseWindow",
+        "kind": "turn",
+        "axis": "z",
+        "amplitude": 1,
+        "period": 70,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Belfry",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.025,
+        "period": 5.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.599998474121094,
+      8.199999809265137,
+      3.9947128295898438
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "phantom_marionette",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/phantom_marionette.blend",
+    "sourceReusedSHA256": "9835e1af430fb1cfbfccef238b12bc5cf054266efc69a4ac745926d50067ad1c",
+    "blend": "assets/source/blender/curse_animation/phantom_marionette.blend",
+    "fbx": "assets/export/meshes/curses/animations/phantom_marionette.fbx",
+    "fbxSHA256": "1746f048260bd68bec94d7f369678384432efcfcad8b013e644eaf4343c00352",
+    "vertices": 1066,
+    "triangles": 1964,
+    "bones": [
+      "Root",
+      "Body",
+      "Head",
+      "ArmL",
+      "ArmLTip",
+      "ArmR",
+      "ArmRTip",
+      "LegL",
+      "LegLTip",
+      "LegR",
+      "LegRTip"
+    ],
+    "weightedVertices": 1066,
+    "weightedCounts": {
+      "Body": 214,
+      "Head": 62,
+      "ArmLTip": 158,
+      "ArmRTip": 113,
+      "LegLTip": 151,
+      "LegRTip": 228,
+      "Root": 164
+    },
+    "semanticComponents": {
+      "0": 29,
+      "1": 10,
+      "2": 4
+    },
+    "channels": [
+      {
+        "bone": "Body",
+        "kind": "puppet",
+        "axis": "z",
+        "amplitude": 0.055,
+        "period": 4.6,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Head",
+        "kind": "peek",
+        "axis": "z",
+        "amplitude": 0.15,
+        "period": 6.3,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ArmL",
+        "kind": "puppet",
+        "axis": "x",
+        "amplitude": 0.15,
+        "period": 3.1,
+        "phase": -0.56,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ArmLTip",
+        "kind": "puppet",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 4.2,
+        "phase": -0.8400000000000001,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ArmR",
+        "kind": "puppet",
+        "axis": "x",
+        "amplitude": 0.15,
+        "period": 3.1,
+        "phase": 0.62,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ArmRTip",
+        "kind": "puppet",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 4.2,
+        "phase": 0.9299999999999999,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "LegL",
+        "kind": "puppet",
+        "axis": "x",
+        "amplitude": 0.15,
+        "period": 3.1,
+        "phase": -0.38,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "LegLTip",
+        "kind": "puppet",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 4.2,
+        "phase": -0.5700000000000001,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "LegR",
+        "kind": "puppet",
+        "axis": "x",
+        "amplitude": 0.15,
+        "period": 3.1,
+        "phase": 0.42,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "LegRTip",
+        "kind": "puppet",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 4.2,
+        "phase": 0.63,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      6.135857105255127,
+      7.8000006675720215,
+      1.759177803993225
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "blood_moon_rose",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/blood_moon_rose.blend",
+    "sourceReusedSHA256": "27088338e1b364289d3468b567c95def69be741db395d28f5c0e330fb71d40cc",
+    "blend": "assets/source/blender/curse_animation/blood_moon_rose.blend",
+    "fbx": "assets/export/meshes/curses/animations/blood_moon_rose.fbx",
+    "fbxSHA256": "d3f9e3077e999cff3e870609dcfb0d716e4018913f5ad079703827fba6767856",
+    "vertices": 2669,
+    "triangles": 5166,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Bloom",
+      "Petal0",
+      "Petal1",
+      "Petal2",
+      "Petal3",
+      "ThornArmL",
+      "ThornArmR"
+    ],
+    "weightedVertices": 2669,
+    "weightedCounts": {
+      "Root": 91,
+      "Leg0": 61,
+      "Knee0": 58,
+      "Leg2": 73,
+      "Knee2": 66,
+      "Leg1": 51,
+      "Knee1": 47,
+      "Leg3": 63,
+      "Knee3": 56,
+      "Petal2": 588,
+      "Petal1": 490,
+      "Petal0": 490,
+      "Petal3": 496,
+      "ThornArmL": 133,
+      "ThornArmR": 133
+    },
+    "semanticComponents": {
+      "0": 9,
+      "1": 22,
+      "2": 12
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 2.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 2.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 2.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 2.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 2.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 2.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 2.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 2.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Bloom",
+        "kind": "listen",
+        "axis": "y",
+        "amplitude": 0.08,
+        "period": 8,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Petal0",
+        "kind": "unfurl",
+        "axis": "z",
+        "amplitude": 0.065,
+        "period": 9,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Petal1",
+        "kind": "unfurl",
+        "axis": "x",
+        "amplitude": 0.065,
+        "period": 9,
+        "phase": 1.3,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Petal2",
+        "kind": "unfurl",
+        "axis": "z",
+        "amplitude": 0.065,
+        "period": 9,
+        "phase": 2.6,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Petal3",
+        "kind": "unfurl",
+        "axis": "x",
+        "amplitude": 0.065,
+        "period": 9,
+        "phase": 3.9000000000000004,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ThornArmL",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": -0.09,
+        "period": 6.1,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ThornArmR",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": 0.09,
+        "period": 6.1,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      6.825550079345703,
+      7.399999618530273,
+      2.8254032135009766
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "judgement_scales",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/judgement_scales.blend",
+    "sourceReusedSHA256": "c3f7788ab2ba9c6ec6cd31303cbd5df35b3fed862cbd123dda211de24b810fde",
+    "blend": "assets/source/blender/curse_animation/judgement_scales.blend",
+    "fbx": "assets/export/meshes/curses/animations/judgement_scales.fbx",
+    "fbxSHA256": "aa411701974c1d37a1e3422f36b4165b5f338c730f0c660e95eaeaee0d041c95",
+    "vertices": 1128,
+    "triangles": 2112,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "BalanceL",
+      "PanL",
+      "BalanceR",
+      "PanR"
+    ],
+    "weightedVertices": 1128,
+    "weightedCounts": {
+      "Leg0": 46,
+      "Knee0": 83,
+      "Leg1": 47,
+      "Knee1": 84,
+      "Root": 292,
+      "BalanceL": 125,
+      "PanL": 228,
+      "BalanceR": 239,
+      "PanR": 215
+    },
+    "semanticComponents": {
+      "0": 18,
+      "1": 25
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "BalanceL",
+        "kind": "weigh",
+        "axis": "z",
+        "amplitude": -0.08,
+        "period": 8.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "PanL",
+        "kind": "counterweigh",
+        "axis": "z",
+        "amplitude": 0.08,
+        "period": 8.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "BalanceR",
+        "kind": "weigh",
+        "axis": "z",
+        "amplitude": 0.08,
+        "period": 8.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "PanR",
+        "kind": "counterweigh",
+        "axis": "z",
+        "amplitude": -0.08,
+        "period": 8.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      7.404327392578125,
+      7.5,
+      2.303281784057617
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "clockwork_raven",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/clockwork_raven.blend",
+    "sourceReusedSHA256": "39725498d973f10e92b7acad808b5faee373881948efe7252cc1e17385e429db",
+    "blend": "assets/source/blender/curse_animation/clockwork_raven.blend",
+    "fbx": "assets/export/meshes/curses/animations/clockwork_raven.fbx",
+    "fbxSHA256": "c6b5e2d214f7cb73cd2574f94b0abeec28b31e445f21c2a3b30565871c623ab4",
+    "vertices": 2098,
+    "triangles": 3880,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Head",
+      "WingL",
+      "WingR",
+      "Wheel",
+      "Tail"
+    ],
+    "weightedVertices": 2098,
+    "weightedCounts": {
+      "Root": 182,
+      "Head": 190,
+      "Leg0": 71,
+      "Knee0": 74,
+      "Leg1": 72,
+      "Knee1": 74,
+      "WingL": 662,
+      "WingR": 662,
+      "Tail": 112,
+      "Wheel": 70
+    },
+    "semanticComponents": {
+      "0": 20,
+      "1": 62,
+      "2": 5
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.45,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.45,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.45,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.45,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Head",
+        "kind": "ratchet",
+        "axis": "y",
+        "amplitude": 0.14,
+        "period": 6.8,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "WingL",
+        "kind": "fold",
+        "axis": "z",
+        "amplitude": -0.11,
+        "period": 6.5,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "WingR",
+        "kind": "fold",
+        "axis": "z",
+        "amplitude": 0.11,
+        "period": 6.5,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Wheel",
+        "kind": "ratchet",
+        "axis": "z",
+        "amplitude": 0.22,
+        "period": 3.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tail",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.055,
+        "period": 4.3,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      8.282642364501953,
+      7.700000286102295,
+      3.408494234085083
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "eclipse_stag",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/eclipse_stag.blend",
+    "sourceReusedSHA256": "80bc0c52028bd00698c8d2d45000b63adccff3af1b33b1e349901b360dbcf70c",
+    "blend": "assets/source/blender/curse_animation/eclipse_stag.blend",
+    "fbx": "assets/export/meshes/curses/animations/eclipse_stag.fbx",
+    "fbxSHA256": "9331d75a892b3a6da5c85b44c3efff6704969fb538bfb0d4ba413c176ef28fb6",
+    "vertices": 1019,
+    "triangles": 1882,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Head",
+      "Mane",
+      "Tail"
+    ],
+    "weightedVertices": 1019,
+    "weightedCounts": {
+      "Root": 90,
+      "Head": 331,
+      "Leg2": 66,
+      "Knee2": 90,
+      "Leg0": 66,
+      "Knee0": 80,
+      "Leg3": 66,
+      "Knee3": 90,
+      "Leg1": 66,
+      "Knee1": 82,
+      "Mane": 140,
+      "Tail": 18
+    },
+    "semanticComponents": {
+      "0": 23,
+      "1": 10,
+      "2": 6
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.7,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.7,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.7,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.7,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.7,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.7,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.17,
+        "period": 1.7,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.1275,
+        "period": 1.7,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Head",
+        "kind": "survey",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 9,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Mane",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.08,
+        "period": 4.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tail",
+        "kind": "wag",
+        "axis": "y",
+        "amplitude": 0.14,
+        "period": 4.3,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      6.504951000213623,
+      8.59999942779541,
+      2.52158522605896
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "endless_library",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/endless_library.blend",
+    "sourceReusedSHA256": "3ad246ea8d5deeda19580f4192c118b0c84c8ad9d8e6a89be20a90724ef33222",
+    "blend": "assets/source/blender/curse_animation/endless_library.blend",
+    "fbx": "assets/export/meshes/curses/animations/endless_library.fbx",
+    "fbxSHA256": "1576025b63f08e43299d4fac35d290ffdcab2988101e0a73b663228c758a3d09",
+    "vertices": 2554,
+    "triangles": 4812,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Book0",
+      "Book1",
+      "Book2",
+      "PageL",
+      "PageR",
+      "Bookmarks"
+    ],
+    "weightedVertices": 2554,
+    "weightedCounts": {
+      "Book0": 490,
+      "Book1": 490,
+      "Book2": 490,
+      "Leg0": 178,
+      "Knee0": 162,
+      "Leg2": 178,
+      "Knee2": 162,
+      "Leg1": 34,
+      "Knee1": 18,
+      "Leg3": 34,
+      "Knee3": 18,
+      "Bookmarks": 40,
+      "Root": 400,
+      "PageR": 156,
+      "PageL": 64
+    },
+    "semanticComponents": {
+      "0": 48,
+      "1": 22,
+      "2": 14
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 2.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 2.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 2.1,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 2.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 2.1,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Book0",
+        "kind": "creak",
+        "axis": "x",
+        "amplitude": 0.05,
+        "period": 7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Book1",
+        "kind": "creak",
+        "axis": "x",
+        "amplitude": 0.05,
+        "period": 8,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Book2",
+        "kind": "creak",
+        "axis": "x",
+        "amplitude": 0.05,
+        "period": 9,
+        "phase": 2,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "PageL",
+        "kind": "flutter",
+        "axis": "z",
+        "amplitude": 0.14,
+        "period": 4.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "PageR",
+        "kind": "flutter",
+        "axis": "z",
+        "amplitude": -0.14,
+        "period": 4.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Bookmarks",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.11,
+        "period": 3.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      6.724617004394531,
+      7.300000190734863,
+      2.683243989944458
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "sunken_crown",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/sunken_crown.blend",
+    "sourceReusedSHA256": "d6ea46c5d054a76b2613cfd6aa3fe87015ecab71ef1fe98a321f9a578ab1b957",
+    "blend": "assets/source/blender/curse_animation/sunken_crown.blend",
+    "fbx": "assets/export/meshes/curses/animations/sunken_crown.fbx",
+    "fbxSHA256": "aa18413bc4b7637d7203b625991ee93fd2270a44833896533dfccaf49c6ed94a",
+    "vertices": 1804,
+    "triangles": 3408,
+    "bones": [
+      "Root",
+      "Tendril0",
+      "Tip0",
+      "Tendril1",
+      "Tip1",
+      "Tendril2",
+      "Tip2",
+      "Tendril3",
+      "Tip3",
+      "Tendril4",
+      "Tip4",
+      "Tendril5",
+      "Tip5"
+    ],
+    "weightedVertices": 1804,
+    "weightedCounts": {
+      "Root": 872,
+      "Tendril1": 145,
+      "Tendril0": 104,
+      "Tip0": 90,
+      "Tip1": 89,
+      "Tendril2": 103,
+      "Tip2": 93,
+      "Tendril3": 102,
+      "Tip3": 108,
+      "Tendril4": 103,
+      "Tip4": 93,
+      "Tendril5": 103,
+      "Tip5": 89
+    },
+    "semanticComponents": {
+      "0": 35,
+      "1": 13,
+      "2": 4
+    },
+    "channels": [
+      {
+        "bone": "Tendril0",
+        "kind": "coil",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 4.9,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tip0",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.9,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tendril1",
+        "kind": "coil",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 4.9,
+        "phase": 0.9,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tip1",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.9,
+        "phase": 0.9,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tendril2",
+        "kind": "coil",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 4.9,
+        "phase": 1.8,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tip2",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.9,
+        "phase": 1.8,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tendril3",
+        "kind": "coil",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 4.9,
+        "phase": 2.7,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tip3",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.9,
+        "phase": 2.7,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tendril4",
+        "kind": "coil",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 4.9,
+        "phase": 3.6,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tip4",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.9,
+        "phase": 3.6,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tendril5",
+        "kind": "coil",
+        "axis": "z",
+        "amplitude": 0.1,
+        "period": 4.9,
+        "phase": 4.5,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Tip5",
+        "kind": "coil",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 3.9,
+        "phase": 4.5,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      5.798393249511719,
+      7.200000286102295,
+      5.284019470214844
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "silent_choir",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/silent_choir.blend",
+    "sourceReusedSHA256": "c805b7e528eecb0e5766df34045d450c2eb82ebcd237e50203892dbb8e3f65af",
+    "blend": "assets/source/blender/curse_animation/silent_choir.blend",
+    "fbx": "assets/export/meshes/curses/animations/silent_choir.fbx",
+    "fbxSHA256": "82010f78eb744b0b54db8da592025d576aea3e8ecb182d46dc68f91a31119fe2",
+    "vertices": 1402,
+    "triangles": 2680,
+    "bones": [
+      "Root",
+      "Singer0",
+      "Bell0",
+      "Singer1",
+      "Bell1",
+      "Singer2",
+      "Bell2"
+    ],
+    "weightedVertices": 1402,
+    "weightedCounts": {
+      "Singer0": 240,
+      "Bell0": 190,
+      "Bell1": 450,
+      "Bell2": 470,
+      "Root": 52
+    },
+    "semanticComponents": {
+      "0": 5,
+      "1": 11,
+      "2": 11,
+      "3": 6,
+      "4": 1
+    },
+    "channels": [
+      {
+        "bone": "Singer0",
+        "kind": "bow",
+        "axis": "x",
+        "amplitude": 0.035,
+        "period": 7.1,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Bell0",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.065,
+        "period": 4.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Singer1",
+        "kind": "bow",
+        "axis": "x",
+        "amplitude": 0.035,
+        "period": 7.699999999999999,
+        "phase": 1.9,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Bell1",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.065,
+        "period": 5.0,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Singer2",
+        "kind": "bow",
+        "axis": "x",
+        "amplitude": 0.035,
+        "period": 8.299999999999999,
+        "phase": 3.8,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Bell2",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.065,
+        "period": 5.800000000000001,
+        "phase": 2,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      7.389660358428955,
+      7.999999523162842,
+      2.2000749111175537
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "cathedral_heart",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/cathedral_heart.blend",
+    "sourceReusedSHA256": "98108cc4c9c575e4f4e0f28a65db7504a62283576ea33a7f65dcdc4c99cec0d0",
+    "blend": "assets/source/blender/curse_animation/cathedral_heart.blend",
+    "fbx": "assets/export/meshes/curses/animations/cathedral_heart.fbx",
+    "fbxSHA256": "fe1d71f5e28b1aee4bd8dd2b23e065d2316703d7284a0612bea89c7949e32d56",
+    "vertices": 1925,
+    "triangles": 3618,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "HeartL",
+      "HeartR"
+    ],
+    "weightedVertices": 1925,
+    "weightedCounts": {
+      "HeartL": 121,
+      "HeartR": 200,
+      "Root": 1220,
+      "Leg0": 48,
+      "Knee0": 84,
+      "Leg1": 48,
+      "Knee1": 84,
+      "Leg2": 47,
+      "Knee2": 84,
+      "Leg3": 47,
+      "Knee3": 84
+    },
+    "semanticComponents": {
+      "0": 9,
+      "1": 44,
+      "2": 5
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.5,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.5,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.5,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.5,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.5,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.5,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.5,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.5,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "HeartL",
+        "kind": "heartbeat",
+        "axis": "x",
+        "amplitude": -0.025,
+        "period": 1.6,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "HeartR",
+        "kind": "heartbeat",
+        "axis": "x",
+        "amplitude": 0.025,
+        "period": 1.6,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      6.59999942779541,
+      9.600000381469727,
+      3.5869088172912598
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "hollow_throne",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/hollow_throne.blend",
+    "sourceReusedSHA256": "d48fd94a9395a287d3bd4a3f20c18604a163275fe7e10a59adea026178254635",
+    "blend": "assets/source/blender/curse_animation/hollow_throne.blend",
+    "fbx": "assets/export/meshes/curses/animations/hollow_throne.fbx",
+    "fbxSHA256": "60456a27f491229e3da6d1aea6b7ad13d3c146d8cc578c4db3369f7cb32b852f",
+    "vertices": 1298,
+    "triangles": 2416,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Ghost",
+      "Mantle"
+    ],
+    "weightedVertices": 1298,
+    "weightedCounts": {
+      "Root": 766,
+      "Leg0": 52,
+      "Knee0": 80,
+      "Leg1": 52,
+      "Knee1": 80,
+      "Leg2": 53,
+      "Knee2": 79,
+      "Leg3": 53,
+      "Knee3": 79,
+      "Ghost": 76,
+      "Mantle": 72
+    },
+    "semanticComponents": {
+      "0": 37,
+      "1": 3,
+      "2": 5
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Ghost",
+        "kind": "emerge",
+        "axis": "z",
+        "amplitude": 0.06,
+        "period": 12,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Mantle",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.035,
+        "period": 7.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      6.098018646240234,
+      10.0,
+      4.282243728637695
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "worldroot",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/worldroot.blend",
+    "sourceReusedSHA256": "7bfd2a60da5ce882cc4d2e742a7ce322c9d4372027e250f4f2e627c142529733",
+    "blend": "assets/source/blender/curse_animation/worldroot.blend",
+    "fbx": "assets/export/meshes/curses/animations/worldroot.fbx",
+    "fbxSHA256": "130d09a36e8c1b23c717962cfeb38a1e71bdc1c873f755e5f4be0662e925a145",
+    "vertices": 1846,
+    "triangles": 3456,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "TrunkL",
+      "MossL",
+      "TrunkR",
+      "MossR",
+      "Seed"
+    ],
+    "weightedVertices": 1846,
+    "weightedCounts": {
+      "Leg0": 86,
+      "Knee0": 99,
+      "Leg1": 87,
+      "Knee1": 95,
+      "Leg2": 87,
+      "Knee2": 99,
+      "Leg3": 86,
+      "Knee3": 99,
+      "TrunkL": 334,
+      "TrunkR": 334,
+      "Seed": 28,
+      "Root": 348,
+      "MossL": 120,
+      "MossR": 104
+    },
+    "semanticComponents": {
+      "0": 16,
+      "1": 12,
+      "2": 31
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.11,
+        "period": 3.8,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0825,
+        "period": 3.8,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.11,
+        "period": 3.8,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0825,
+        "period": 3.8,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.11,
+        "period": 3.8,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0825,
+        "period": 3.8,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.11,
+        "period": 3.8,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0825,
+        "period": 3.8,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "TrunkL",
+        "kind": "bow",
+        "axis": "z",
+        "amplitude": -0.027,
+        "period": 11,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "MossL",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.06,
+        "period": 6.2,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "TrunkR",
+        "kind": "bow",
+        "axis": "z",
+        "amplitude": 0.027,
+        "period": 11,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "MossR",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.06,
+        "period": 6.2,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Seed",
+        "kind": "turn",
+        "axis": "y",
+        "amplitude": 1,
+        "period": 35,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      7.89845085144043,
+      10.199999809265137,
+      3.7966690063476562
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "the_undertow",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/the_undertow.blend",
+    "sourceReusedSHA256": "42c653beefab619f63655cd467a1e34a275f44ba62e3b884558a981a75f24be4",
+    "blend": "assets/source/blender/curse_animation/the_undertow.blend",
+    "fbx": "assets/export/meshes/curses/animations/the_undertow.fbx",
+    "fbxSHA256": "ec92743ce41a44f91f38c4f59c05e971b789058741f561725cc36855370ffb54",
+    "vertices": 1285,
+    "triangles": 2498,
+    "bones": [
+      "Root",
+      "Clapper",
+      "Vortex",
+      "BladeL",
+      "BladeR",
+      "Hanger"
+    ],
+    "weightedVertices": 1285,
+    "weightedCounts": {
+      "Root": 390,
+      "Clapper": 239,
+      "BladeL": 222,
+      "BladeR": 216,
+      "Vortex": 86,
+      "Hanger": 132
+    },
+    "semanticComponents": {
+      "0": 8,
+      "1": 12,
+      "2": 2,
+      "3": 2
+    },
+    "channels": [
+      {
+        "bone": "Clapper",
+        "kind": "pendulum",
+        "axis": "x",
+        "amplitude": 0.16,
+        "period": 3.6,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Vortex",
+        "kind": "turn",
+        "axis": "y",
+        "amplitude": 1,
+        "period": 9,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "BladeL",
+        "kind": "coil",
+        "axis": "z",
+        "amplitude": -0.07,
+        "period": 5.2,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "BladeR",
+        "kind": "coil",
+        "axis": "z",
+        "amplitude": 0.07,
+        "period": 5.2,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Hanger",
+        "kind": "pendulum",
+        "axis": "z",
+        "amplitude": 0.035,
+        "period": 5.3,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      10.844015121459961,
+      9.600000381469727,
+      4.769388198852539
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "the_last_funeral",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/the_last_funeral.blend",
+    "sourceReusedSHA256": "d8f69bff4463a8009d198b99aca38a004edc36c00cd40411f8ae60f78c8c9705",
+    "blend": "assets/source/blender/curse_animation/the_last_funeral.blend",
+    "fbx": "assets/export/meshes/curses/animations/the_last_funeral.fbx",
+    "fbxSHA256": "54802d62af22626de3e90b69446fc2554408d844c80477845e38708fabbb81e1",
+    "vertices": 1611,
+    "triangles": 3030,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3"
+    ],
+    "weightedVertices": 1611,
+    "weightedCounts": {
+      "Root": 619,
+      "Leg0": 162,
+      "Knee0": 144,
+      "Leg2": 123,
+      "Knee2": 144,
+      "Leg1": 162,
+      "Knee1": 144,
+      "Leg3": 123,
+      "Knee3": 144
+    },
+    "semanticComponents": {
+      "0": 26,
+      "1": 22
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.085,
+        "period": 4.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.06375,
+        "period": 4.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.085,
+        "period": 4.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.06375,
+        "period": 4.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.085,
+        "period": 4.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.06375,
+        "period": 4.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.085,
+        "period": 4.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.06375,
+        "period": 4.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      10.59999942779541,
+      8.899999618530273,
+      5.679412841796875
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "nameless_door",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/nameless_door.blend",
+    "sourceReusedSHA256": "f0d5e7312b113063deb9323a5daf4b76fd5c0b716b8403b2ecbb4b54d43a4790",
+    "blend": "assets/source/blender/curse_animation/nameless_door.blend",
+    "fbx": "assets/export/meshes/curses/animations/nameless_door.fbx",
+    "fbxSHA256": "e409fd67653c486b5bdf2e30c9b49db4556e13a3c756d6e16d8642f9e7b95018",
+    "vertices": 1736,
+    "triangles": 3232,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Door",
+      "LintelMoss"
+    ],
+    "weightedVertices": 1736,
+    "weightedCounts": {
+      "Root": 1024,
+      "Door": 374,
+      "Leg0": 37,
+      "Knee0": 66,
+      "LintelMoss": 196,
+      "Leg1": 35,
+      "Knee1": 63
+    },
+    "semanticComponents": {
+      "0": 31,
+      "1": 10,
+      "2": 20
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.3,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 3.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.07500000000000001,
+        "period": 3.3,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Door",
+        "kind": "creak",
+        "axis": "y",
+        "amplitude": 0.12,
+        "period": 10.7,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "LintelMoss",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.04,
+        "period": 7.2,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      8.658831596374512,
+      9.995068550109863,
+      6.0
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "crown_of_silence",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/crown_of_silence.blend",
+    "sourceReusedSHA256": "12174736e7ba16cf4073316ef79b9d7aedb1b453a89309de8e39ce864d18bd48",
+    "blend": "assets/source/blender/curse_animation/crown_of_silence.blend",
+    "fbx": "assets/export/meshes/curses/animations/crown_of_silence.fbx",
+    "fbxSHA256": "ec50d1b019a69af56d8d92d48b0b0b2283349eccb97201006887533e7a4599b3",
+    "vertices": 3684,
+    "triangles": 7204,
+    "bones": [
+      "Root",
+      "Crown0",
+      "Crown1",
+      "Crown2",
+      "Crown3",
+      "Robe0",
+      "Robe1",
+      "Robe2",
+      "Robe3",
+      "SleeveL",
+      "SleeveR"
+    ],
+    "weightedVertices": 3684,
+    "weightedCounts": {
+      "Root": 1162,
+      "Crown0": 12,
+      "Crown1": 12,
+      "Crown2": 28,
+      "Crown3": 12,
+      "Robe2": 546,
+      "Robe3": 364,
+      "Robe0": 546,
+      "Robe1": 364,
+      "SleeveL": 793,
+      "SleeveR": 805
+    },
+    "semanticComponents": {
+      "0": 10,
+      "1": 10,
+      "2": 24,
+      "3": 6
+    },
+    "channels": [
+      {
+        "bone": "Crown0",
+        "kind": "hold",
+        "axis": "z",
+        "amplitude": 0.07,
+        "period": 9.1,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Crown1",
+        "kind": "hold",
+        "axis": "z",
+        "amplitude": 0.07,
+        "period": 10.1,
+        "phase": 1.8,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Crown2",
+        "kind": "hold",
+        "axis": "z",
+        "amplitude": 0.07,
+        "period": 11.1,
+        "phase": 3.6,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Crown3",
+        "kind": "hold",
+        "axis": "z",
+        "amplitude": 0.07,
+        "period": 12.1,
+        "phase": 5.4,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Robe0",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.055,
+        "period": 8.7,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Robe1",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.055,
+        "period": 8.7,
+        "phase": 1.4,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Robe2",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.055,
+        "period": 8.7,
+        "phase": 2.8,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Robe3",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.055,
+        "period": 8.7,
+        "phase": 4.199999999999999,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "SleeveL",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": -0.06,
+        "period": 10,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "SleeveR",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": 0.06,
+        "period": 10,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      8.798737525939941,
+      11.699999809265137,
+      4.3227219581604
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "the_first_grave",
+    "sourceReused": "assets/source/blender/curses_expansion/rework/the_first_grave.blend",
+    "sourceReusedSHA256": "8f325f200d572f7f72cdb2e310c56880f02b2c877cd735845b050c9bac2f47ea",
+    "blend": "assets/source/blender/curse_animation/the_first_grave.blend",
+    "fbx": "assets/export/meshes/curses/animations/the_first_grave.fbx",
+    "fbxSHA256": "631baefa9c1643d24a003fe8a7a13c055dcbd6c2e56e579e4b7af7977de2ab67",
+    "vertices": 1162,
+    "triangles": 2136,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "ArmL",
+      "FingersL",
+      "MossL",
+      "ArmR",
+      "FingersR",
+      "MossR"
+    ],
+    "weightedVertices": 1162,
+    "weightedCounts": {
+      "Leg0": 86,
+      "Knee0": 117,
+      "Leg1": 87,
+      "Knee1": 115,
+      "Root": 372,
+      "ArmL": 125,
+      "FingersL": 30,
+      "ArmR": 123,
+      "FingersR": 30,
+      "MossL": 116,
+      "MossR": 58
+    },
+    "semanticComponents": {
+      "0": 20,
+      "1": 12,
+      "2": 15
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.14,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.10500000000000001,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "ArmL",
+        "kind": "reach",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 7,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "FingersL",
+        "kind": "grip",
+        "axis": "z",
+        "amplitude": -0.08,
+        "period": 8.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "MossL",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.045,
+        "period": 6.5,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ArmR",
+        "kind": "reach",
+        "axis": "x",
+        "amplitude": 0.09,
+        "period": 7,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "FingersR",
+        "kind": "grip",
+        "axis": "z",
+        "amplitude": 0.08,
+        "period": 8.4,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "MossR",
+        "kind": "ribbon",
+        "axis": "x",
+        "amplitude": 0.045,
+        "period": 6.5,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      8.961214065551758,
+      10.799999237060547,
+      2.7368781566619873
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "the_unwritten",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/batch02/the_unwritten.blend",
+    "sourceReusedSHA256": "00bfa527240cef9f57c6e28fdfe494d01df377090e918dd731205a598ce66117",
+    "blend": "assets/source/blender/curse_animation/the_unwritten.blend",
+    "fbx": "assets/export/meshes/curses/animations/the_unwritten.fbx",
+    "fbxSHA256": "0744053520bf5a2e5c13b2a05a4f6cab937cbf96447e4cac2a101099d2e3a4de",
+    "vertices": 4155,
+    "triangles": 8122,
+    "bones": [
+      "Root",
+      "Head",
+      "PageTail0",
+      "PageTail1",
+      "PageTail2",
+      "PageTail3",
+      "SleeveL",
+      "WritingHandL",
+      "SleeveR",
+      "WritingHandR"
+    ],
+    "weightedVertices": 4155,
+    "weightedCounts": {
+      "Root": 1513,
+      "PageTail3": 543,
+      "PageTail0": 566,
+      "PageTail1": 547,
+      "PageTail2": 492,
+      "Head": 74,
+      "SleeveL": 472,
+      "WritingHandL": 378,
+      "SleeveR": 472,
+      "WritingHandR": 378
+    },
+    "semanticComponents": {
+      "0": 13,
+      "1": 2,
+      "2": 20,
+      "3": 12
+    },
+    "channels": [
+      {
+        "bone": "Head",
+        "kind": "twitch",
+        "axis": "z",
+        "amplitude": 0.085,
+        "period": 8.1,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "PageTail0",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.075,
+        "period": 5.3,
+        "phase": 0.0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "PageTail1",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.075,
+        "period": 5.3,
+        "phase": 1.3,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "PageTail2",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.075,
+        "period": 5.3,
+        "phase": 2.6,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "PageTail3",
+        "kind": "ribbon",
+        "axis": "z",
+        "amplitude": 0.075,
+        "period": 5.3,
+        "phase": 3.9000000000000004,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "SleeveL",
+        "kind": "fold",
+        "axis": "z",
+        "amplitude": -0.065,
+        "period": 6.1,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "WritingHandL",
+        "kind": "write",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 3.8,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "SleeveR",
+        "kind": "fold",
+        "axis": "z",
+        "amplitude": 0.065,
+        "period": 6.1,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "WritingHandR",
+        "kind": "write",
+        "axis": "x",
+        "amplitude": 0.12,
+        "period": 3.8,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      9.57659912109375,
+      11.699999809265137,
+      4.091583251953125
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  },
+  {
+    "id": "the_last_star",
+    "sourceReused": "assets/source/blender/curses_visual_pass2/the_last_star.blend",
+    "sourceReusedSHA256": "2c17e03910eee4d7af0defd8f8bacf2a52799d6c4abe864412e33160dec08fae",
+    "blend": "assets/source/blender/curse_animation/the_last_star.blend",
+    "fbx": "assets/export/meshes/curses/animations/the_last_star.fbx",
+    "fbxSHA256": "13dd37ffca52ee74967bd4f30a5cfe2bdb0299d8fdaeac901da54d76d0e08085",
+    "vertices": 2588,
+    "triangles": 4792,
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Star",
+      "Helm",
+      "ArmL",
+      "TalonsL",
+      "ArmR",
+      "TalonsR"
+    ],
+    "weightedVertices": 2588,
+    "weightedCounts": {
+      "Leg0": 52,
+      "Knee0": 172,
+      "Leg1": 53,
+      "Knee1": 173,
+      "Leg2": 49,
+      "Knee2": 168,
+      "Leg3": 51,
+      "Knee3": 169,
+      "Root": 1172,
+      "ArmL": 123,
+      "TalonsL": 60,
+      "ArmR": 123,
+      "TalonsR": 60,
+      "Star": 168,
+      "Helm": 148
+    },
+    "semanticComponents": {
+      "0": 36,
+      "1": 43,
+      "2": 10,
+      "3": 7
+    },
+    "channels": [
+      {
+        "bone": "Leg0",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.13,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee0",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0975,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg1",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.13,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee1",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0975,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg2",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.13,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee2",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0975,
+        "period": 3.2,
+        "phase": 0.0,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Leg3",
+        "kind": "step",
+        "axis": "x",
+        "amplitude": 0.13,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Knee3",
+        "kind": "knee",
+        "axis": "x",
+        "amplitude": 0.0975,
+        "period": 3.2,
+        "phase": 3.141592653589793,
+        "idle": 0,
+        "travel": 1
+      },
+      {
+        "bone": "Star",
+        "kind": "turn",
+        "axis": "z",
+        "amplitude": 1,
+        "period": 32,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "Helm",
+        "kind": "survey",
+        "axis": "y",
+        "amplitude": 0.085,
+        "period": 11,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ArmL",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": -0.055,
+        "period": 8.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "TalonsL",
+        "kind": "grip",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 6.4,
+        "phase": -1,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "ArmR",
+        "kind": "reach",
+        "axis": "z",
+        "amplitude": 0.055,
+        "period": 8.5,
+        "phase": 0,
+        "idle": 1,
+        "travel": 1
+      },
+      {
+        "bone": "TalonsR",
+        "kind": "grip",
+        "axis": "x",
+        "amplitude": 0.1,
+        "period": 6.4,
+        "phase": 1,
+        "idle": 1,
+        "travel": 1
+      }
+    ],
+    "targetSize": [
+      8.499999046325684,
+      11.399999618530273,
+      4.799998760223389
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false
+  }
+]

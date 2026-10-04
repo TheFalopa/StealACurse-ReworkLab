@@ -1,0 +1,106 @@
+{
+  "id": "phantom_marionette",
+  "displayName": "Phantom Marionette",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-07-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/phantom_marionette.blend",
+  "export": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+  "sha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+  "triangles": 1964,
+  "vertices": 1066,
+  "blenderDimensions": [
+    3.011920928955078,
+    0.863530158996582,
+    3.8288025856018066
+  ],
+  "intendedRobloxSize": [
+    3.011920928955078,
+    3.8288025856018066,
+    0.863530158996582
+  ],
+  "diagonal": 4.947431783995143,
+  "vfxHook": [
+    0.10980852127075195,
+    0.605598678588867,
+    0.32176506519317627
+  ],
+  "vfxProfile": "puppet_strings",
+  "palette": [
+    "bark_dark",
+    "bone_high",
+    "brass",
+    "gold_glow",
+    "inkblack",
+    "ivory",
+    "ruby",
+    "thorn_edge"
+  ],
+  "paintedColorCount": 495,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Faceless ivory puppet suspended in an expressive asymmetric pose",
+      "first_face": 0,
+      "last_face_exclusive": 658
+    },
+    {
+      "name": "Black articulated crossbar and visible tension strings",
+      "first_face": 658,
+      "last_face_exclusive": 782
+    },
+    {
+      "name": "Ragged garnet cape and joint collar",
+      "first_face": 782,
+      "last_face_exclusive": 874
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 07: faceless ivory articulated marionette in an uneven hanging pose, black wooden crossbar and four individually visible gold strings. Brass ball joints, separated finger rods and a ragged garnet cape are real volumes on both sides."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/phantom_marionette.blend",
+  "robloxIntendedSize": [
+    3.011920928955078,
+    3.8288025856018066,
+    0.863530158996582
+  ],
+  "vfxHookRoblox": [
+    0.10980852127075195,
+    0.605598678588867,
+    0.32176506519317627
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.030119208618998528,
+      0.008635307662189007,
+      0.03828802332282066
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1964,
+    "colorCount": 495,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "phantom_marionette",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e"
+  }
+}

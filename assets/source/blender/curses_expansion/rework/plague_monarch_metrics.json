@@ -1,0 +1,106 @@
+{
+  "id": "plague_monarch",
+  "displayName": "Plague Monarch",
+  "rarity": "Mythic",
+  "sourceReference": "assets/reference/rework-09-mythic.png",
+  "source": "assets/source/blender/curses_expansion/rework/plague_monarch.blend",
+  "export": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+  "sha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+  "triangles": 2828,
+  "vertices": 1536,
+  "blenderDimensions": [
+    2.5277419090270996,
+    1.550187349319458,
+    3.8954193592071533
+  ],
+  "intendedRobloxSize": [
+    2.5277419090270996,
+    3.8954193592071533,
+    1.550187349319458
+  ],
+  "diagonal": 4.895595158990163,
+  "vfxHook": [
+    -0.00784999132156372,
+    0.34194025836884956,
+    0.545727766752243
+  ],
+  "vfxProfile": "plague_monarch_breath",
+  "palette": [
+    "bone_high",
+    "copper",
+    "copper_edge",
+    "ivory",
+    "obsidian",
+    "patina",
+    "plague_glow",
+    "star_iron"
+  ],
+  "paintedColorCount": 743,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Four copper armored insect legs and tapering monarch chest",
+      "first_face": 0,
+      "last_face_exclusive": 534
+    },
+    {
+      "name": "Broad five point corroded copper crown shell with real cutouts",
+      "first_face": 534,
+      "last_face_exclusive": 814
+    },
+    {
+      "name": "Plate seams and bounded poison wisps",
+      "first_face": 814,
+      "last_face_exclusive": 886
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 09: four-legged corroded copper monarch with a broad open crown shell, irregular antler-like copper points, pale plague mask and warm exposed metal under broad verdigris islands. Small contained green wisps support the form without obscuring its four-leg anatomy."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/plague_monarch.blend",
+  "robloxIntendedSize": [
+    2.5277419090270996,
+    3.8954193592071533,
+    1.550187349319458
+  ],
+  "vfxHookRoblox": [
+    -0.00784999132156372,
+    0.34194025836884956,
+    0.545727766752243
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.02527741901576519,
+      0.015501880086958408,
+      0.03895419463515282
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2828,
+    "colorCount": 743,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "plague_monarch",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1"
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "wilted_sprout",
+    "swap": [
+      "Root",
+      "Stem"
+    ],
+    "changedVertices": 294,
+    "source": "assets/source/blender/curse_animation/wilted_sprout.blend",
+    "original": "assets/review/animations-polished/objects-rigs-before/wilted_sprout.blend",
+    "beforeSHA256": "b69b2e32636e3118224bcea617aaf082fc671777b935a7d296d890856d6517de",
+    "afterSHA256": "8f52a07d2a6bf0847ed3014e2af347938188237bcc1bc38f00d029d4bbab49bd",
+    "fbx": "assets/export/meshes/curses/animations-polished/wilted_sprout.fbx",
+    "fbxSHA256": "5376ff3a8ec4cff45e3503d1882ebfaefeb2b8fad5fdee166a87a63f3fb97421",
+    "geometryChanged": false,
+    "restBonesChanged": false,
+    "nativeImportPending": true,
+    "assetId": null
+  },
+  {
+    "id": "cold_teacup",
+    "swap": [
+      "Steam",
+      "SteamTip"
+    ],
+    "changedVertices": 206,
+    "source": "assets/source/blender/curse_animation/cold_teacup.blend",
+    "original": "assets/review/animations-polished/objects-rigs-before/cold_teacup.blend",
+    "beforeSHA256": "caab98bd339800529dd734e9e011c7f110e42103add43037d58d12527dea4be7",
+    "afterSHA256": "158ed4a8c21c8500b9946dd570fa27c24f38c3f71dba8ba1dc96827df3776892",
+    "fbx": "assets/export/meshes/curses/animations-polished/cold_teacup.fbx",
+    "fbxSHA256": "5c34ae622bc9a261ae373ad68f665aa28b7cba905ba9aed590911e9a8b14e741",
+    "geometryChanged": false,
+    "restBonesChanged": false,
+    "nativeImportPending": true,
+    "assetId": null
+  },
+  {
+    "id": "thorn_reliquary",
+    "swap": [
+      "Thorn",
+      "ThornTip"
+    ],
+    "changedVertices": 356,
+    "source": "assets/source/blender/curse_animation/thorn_reliquary.blend",
+    "original": "assets/review/animations-polished/objects-rigs-before/thorn_reliquary.blend",
+    "beforeSHA256": "84f4ac896c1a1d248d4d98073e11aba8d53ebc19b06393b448a4fdf5048b23c9",
+    "afterSHA256": "a678894cefa134a547cc27b6e9812e9d8445a914f74f3f0b00ce94075d7f2b8a",
+    "fbx": "assets/export/meshes/curses/animations-polished/thorn_reliquary.fbx",
+    "fbxSHA256": "28ac23e4bc6fa5b893ccb3aa629f6a049e8552f135bda773892ad8388c0058c7",
+    "geometryChanged": false,
+    "restBonesChanged": false,
+    "nativeImportPending": true,
+    "assetId": null
+  }
+]

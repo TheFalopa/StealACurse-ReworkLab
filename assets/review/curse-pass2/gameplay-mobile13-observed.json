@@ -1,0 +1,5310 @@
+{
+  "assets": [
+    {
+      "fbxSha256": "2f132f61404576ceb038f02b326e70e6172fbe6d93c311f65e06992121dbe048",
+      "export": "assets/export/meshes/curses/visual-pass2/cursed_doll.fbx",
+      "rarity": "COMMON",
+      "id": "cursed_doll",
+      "meshId": "rbxassetid://105651608343321",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/cursed-doll-approved-v1.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.682065963745117,
+        "incomeObservedSeconds": 1.1604841999942437,
+        "usedActualClientPrompt": true,
+        "slot": 1,
+        "group": 1,
+        "placedClient": {
+          "emittingSamples": 447,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.4997727870941162,
+          "semanticHookPositions": [],
+          "particleRateMax": 0.699999988079071,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 0.699999988079071,
+          "id": "cursed_doll",
+          "samples": 447,
+          "fbxSha256": "2f132f61404576ceb038f02b326e70e6172fbe6d93c311f65e06992121dbe048",
+          "particleRateMin": 0.699999988079071,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.202586599974893,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "COMMON",
+              "textWidth": 43,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "100 Souls",
+              "textWidth": 48,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "CURSED DOLL",
+              "textWidth": 123.552001953125,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+3 Souls/s",
+              "textWidth": 50,
+              "width": 136
+            }
+          },
+          "profileMotion": "sway",
+          "hookMovementStuds": 0.15790367126464844
+        },
+        "incomeEarned": 3.8068652999354526,
+        "deliveryClient": {
+          "emittingSamples": 414,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.18412773311138153,
+          "pulseRange": 0.49962118268013,
+          "semanticHookPositions": [],
+          "particleRateMax": 0.699999988079071,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 0.699999988079071,
+          "id": "cursed_doll",
+          "samples": 414,
+          "fbxSha256": "2f132f61404576ceb038f02b326e70e6172fbe6d93c311f65e06992121dbe048",
+          "particleRateMin": 0.699999988079071,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.207647200033534,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "COMMON",
+              "textWidth": 43,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "100 Souls",
+              "textWidth": 48,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "CURSED DOLL",
+              "textWidth": 123.552001953125,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+3 Souls/s",
+              "textWidth": 50,
+              "width": 136
+            }
+          },
+          "profileMotion": "sway",
+          "hookMovementStuds": 0.15809080004692078
+        },
+        "state": "PLACED",
+        "uid": "ebab5dd7-a00e-4358-a3d7-66ed2ae871a7",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": 0,
+        "price": 100,
+        "production": 3
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "2f132f61404576ceb038f02b326e70e6172fbe6d93c311f65e06992121dbe048",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          2.9657504558563232,
+          4.800000190734863,
+          2.0622434616088867
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://105651608343321",
+        "labelOffset": [
+          0,
+          4.599999904632568,
+          0
+        ],
+        "size": [
+          2.965750217437744,
+          4.799999713897705,
+          2.0622432231903076
+        ]
+      },
+      "triangles": 2646
+    },
+    {
+      "fbxSha256": "5cc3f79625431692fad248cd36fd0417dafd13e05822024bf949af442d24d268",
+      "export": "assets/export/meshes/curses/visual-pass2/haunted_mirror.fbx",
+      "rarity": "RARE",
+      "id": "haunted_mirror",
+      "meshId": "rbxassetid://93035871766571",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/curses-six-roblox-v2.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 15.535160064697266,
+        "incomeObservedSeconds": 1.1524311000248417,
+        "usedActualClientPrompt": true,
+        "slot": 2,
+        "group": 1,
+        "placedClient": {
+          "emittingSamples": 447,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.49967271089553833,
+          "semanticHookPositions": [],
+          "particleRateMax": 1.1200000047683716,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.1200000047683716,
+          "id": "haunted_mirror",
+          "samples": 447,
+          "fbxSha256": "5cc3f79625431692fad248cd36fd0417dafd13e05822024bf949af442d24d268",
+          "particleRateMin": 1.1200000047683716,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.202971199993044,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "RARE",
+              "textWidth": 24,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "450 Souls",
+              "textWidth": 50,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 16.459657669067383,
+              "height": 20,
+              "text": "HAUNTED MIRROR",
+              "textWidth": 134.63999938964844,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+10 Souls/s",
+              "textWidth": 55,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "incomeEarned": 16.59431929985294,
+        "deliveryClient": {
+          "emittingSamples": 430,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.18336430191993713,
+          "pulseRange": 0.4993332326412201,
+          "semanticHookPositions": [],
+          "particleRateMax": 1.1200000047683716,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.1200000047683716,
+          "id": "haunted_mirror",
+          "samples": 430,
+          "fbxSha256": "5cc3f79625431692fad248cd36fd0417dafd13e05822024bf949af442d24d268",
+          "particleRateMin": 1.1200000047683716,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.2013426999910735,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "RARE",
+              "textWidth": 24,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "450 Souls",
+              "textWidth": 50,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 16.459657669067383,
+              "height": 20,
+              "text": "HAUNTED MIRROR",
+              "textWidth": 134.63999938964844,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+10 Souls/s",
+              "textWidth": 55,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "state": "PLACED",
+        "uid": "7d992386-7c47-45d6-a5fa-13f13f8e1dbd",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": -0.012493800139054656,
+        "price": 450,
+        "production": 13
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "5cc3f79625431692fad248cd36fd0417dafd13e05822024bf949af442d24d268",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          3.56011962890625,
+          7,
+          0.7096978425979614
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://93035871766571",
+        "labelOffset": [
+          0,
+          5.699999809265137,
+          0
+        ],
+        "size": [
+          3.56011962890625,
+          7,
+          0.7096978425979614
+        ]
+      },
+      "triangles": 1164
+    },
+    {
+      "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+      "export": "assets/export/meshes/curses/visual-pass2/crying_mask.fbx",
+      "rarity": "RARE",
+      "id": "crying_mask",
+      "meshId": "rbxassetid://139868374607408",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/crying-mask-roblox-rework-v2.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.710899353027344,
+        "incomeObservedSeconds": 1.155027600005269,
+        "usedActualClientPrompt": true,
+        "slot": 3,
+        "group": 1,
+        "placedClient": {
+          "emittingSamples": 442,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.4998914301395416,
+          "semanticHookPositions": [],
+          "particleRateMax": 0.9800000190734863,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 0.9800000190734863,
+          "id": "crying_mask",
+          "samples": 442,
+          "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+          "particleRateMin": 0.9800000190734863,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.202802000043448,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "RARE",
+              "textWidth": 24,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "650 Souls",
+              "textWidth": 49,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "CRYING MASK",
+              "textWidth": 121.3740005493164,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+14 Souls/s",
+              "textWidth": 55,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "incomeEarned": 34.21512360085035,
+        "deliveryClient": {
+          "emittingSamples": 426,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.1672922968864441,
+          "pulseRange": 0.49989327788352966,
+          "semanticHookPositions": [],
+          "particleRateMax": 0.9800000190734863,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 0.9800000190734863,
+          "id": "crying_mask",
+          "samples": 426,
+          "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+          "particleRateMin": 0.9800000190734863,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.20034730003681,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "RARE",
+              "textWidth": 24,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "650 Souls",
+              "textWidth": 49,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "CRYING MASK",
+              "textWidth": 121.3740005493164,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+14 Souls/s",
+              "textWidth": 55,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "state": "PLACED",
+        "uid": "cb940d86-1c8c-41b7-8111-5fea643ea065",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": -2.244483799790032,
+        "price": 650,
+        "production": 27
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          5.529237747192383,
+          5.800000190734863,
+          1.615999698638916
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://139868374607408",
+        "labelOffset": [
+          0,
+          5.099999904632568,
+          0
+        ],
+        "size": [
+          5.529237270355225,
+          5.799999713897705,
+          1.6159995794296265
+        ]
+      },
+      "triangles": 1436
+    },
+    {
+      "fbxSha256": "01af3b718119a116628ade1ac666039352ff8359e6fbcaf364bff3fa0a75d0c3",
+      "export": "assets/export/meshes/curses/visual-pass2/watching_eye.fbx",
+      "rarity": "LEGENDARY",
+      "id": "watching_eye",
+      "meshId": "rbxassetid://86953467231643",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/watching-eye-long-arms-v4.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.78312110900879,
+        "incomeObservedSeconds": 1.1529832999804057,
+        "usedActualClientPrompt": true,
+        "slot": 4,
+        "group": 1,
+        "placedClient": {
+          "emittingSamples": 454,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.4998897314071655,
+          "semanticHookPositions": [],
+          "particleRateMax": 1.1200000047683716,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.1200000047683716,
+          "id": "watching_eye",
+          "samples": 454,
+          "fbxSha256": "01af3b718119a116628ade1ac666039352ff8359e6fbcaf364bff3fa0a75d0c3",
+          "particleRateMin": 1.1200000047683716,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.201366699999198,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "LEGENDARY",
+              "textWidth": 55,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "2.5K Souls",
+              "textWidth": 52,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "WATCHING EYE",
+              "textWidth": 134.44200134277344,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+45 Souls/s",
+              "textWidth": 57,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "incomeEarned": 92.0413079992868,
+        "deliveryClient": {
+          "emittingSamples": 420,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.1576170027256012,
+          "pulseRange": 0.4997889995574951,
+          "semanticHookPositions": [],
+          "particleRateMax": 1.1200000047683716,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.1200000047683716,
+          "id": "watching_eye",
+          "samples": 420,
+          "fbxSha256": "01af3b718119a116628ade1ac666039352ff8359e6fbcaf364bff3fa0a75d0c3",
+          "particleRateMin": 1.1200000047683716,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.201013999991119,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "LEGENDARY",
+              "textWidth": 55,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "2.5K Souls",
+              "textWidth": 52,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "WATCHING EYE",
+              "textWidth": 134.44200134277344,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+45 Souls/s",
+              "textWidth": 57,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "state": "PLACED",
+        "uid": "0aed0032-6054-484c-b342-6941bbff1a6a",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": 0.10088279965566471,
+        "price": 2500,
+        "production": 72
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "01af3b718119a116628ade1ac666039352ff8359e6fbcaf364bff3fa0a75d0c3",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          9.597518920898438,
+          6.5,
+          2.1835741996765137
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://86953467231643",
+        "labelOffset": [
+          0,
+          5.449999809265137,
+          0
+        ],
+        "size": [
+          9.597518920898438,
+          6.5,
+          2.1835741996765137
+        ]
+      },
+      "triangles": 3020
+    },
+    {
+      "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+      "export": "assets/export/meshes/curses/visual-pass2/soul_chains.fbx",
+      "rarity": "MYTHIC",
+      "id": "soul_chains",
+      "meshId": "rbxassetid://135030143756939",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/soul-chains-mythic-rework-v3.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.727413177490234,
+        "incomeObservedSeconds": 1.15573920001043,
+        "usedActualClientPrompt": true,
+        "slot": 5,
+        "group": 1,
+        "placedClient": {
+          "emittingSamples": 444,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.4954380691051483,
+          "semanticHookPositions": [],
+          "particleRateMax": 3.564584255218506,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.4559999704360962,
+          "id": "soul_chains",
+          "samples": 444,
+          "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+          "particleRateMin": 1.4559999704360962,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 1,
+          "observedSeconds": 4.2036188999773,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "MYTHIC",
+              "textWidth": 34,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "10K Souls",
+              "textWidth": 48,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "SOUL CHAINS",
+              "textWidth": 118.60199737548828,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+150 Souls/s",
+              "textWidth": 61,
+              "width": 136
+            }
+          },
+          "profileMotion": "heartbeat",
+          "hookMovementStuds": 0
+        },
+        "incomeEarned": 281.4697152025765,
+        "deliveryClient": {
+          "emittingSamples": 421,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.15027035772800446,
+          "pulseRange": 0.49783167243003845,
+          "semanticHookPositions": [],
+          "particleRateMax": 3.5747716426849365,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.465722918510437,
+          "id": "soul_chains",
+          "samples": 421,
+          "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+          "particleRateMin": 1.4559999704360962,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 1,
+          "observedSeconds": 4.2098525000037625,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "MYTHIC",
+              "textWidth": 34,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "10K Souls",
+              "textWidth": 48,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "SOUL CHAINS",
+              "textWidth": 118.60199737548828,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+150 Souls/s",
+              "textWidth": 61,
+              "width": 136
+            }
+          },
+          "profileMotion": "heartbeat",
+          "hookMovementStuds": 0
+        },
+        "state": "PLACED",
+        "uid": "d804c739-a2e2-4248-8460-1287039623d8",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": -0.5457311980426311,
+        "price": 10000,
+        "production": 222
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          6.6117777824401855,
+          9.5,
+          2.395030975341797
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://135030143756939",
+        "labelOffset": [
+          0,
+          6.949999809265137,
+          0
+        ],
+        "size": [
+          6.6117777824401855,
+          9.5,
+          2.395030975341797
+        ]
+      },
+      "triangles": 6092
+    },
+    {
+      "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+      "export": "assets/export/meshes/curses/visual-pass2/the_void.fbx",
+      "rarity": "SECRET",
+      "id": "the_void",
+      "meshId": "rbxassetid://112600261118925",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/the-void-rift-aura-v3.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.79758644104004,
+        "incomeObservedSeconds": 1.1589835999766365,
+        "usedActualClientPrompt": true,
+        "slot": 1,
+        "group": 2,
+        "placedClient": {
+          "emittingSamples": 447,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.19998222589492798,
+          "semanticHookPositions": [],
+          "particleRateMax": 2.799999952316284,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 2.799999952316284,
+          "id": "the_void",
+          "samples": 447,
+          "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+          "particleRateMin": 2.799999952316284,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.204906500002835,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "SECRET",
+              "textWidth": 34,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "50K Souls",
+              "textWidth": 50,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "THE VOID",
+              "textWidth": 83.55599975585938,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+750 Souls/s",
+              "textWidth": 63,
+              "width": 136
+            }
+          },
+          "profileMotion": "rift",
+          "hookMovementStuds": 7.922256946563721
+        },
+        "incomeEarned": 949.6758000314003,
+        "deliveryClient": {
+          "emittingSamples": 410,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.13735222816467285,
+          "pulseRange": 0.1999545395374298,
+          "semanticHookPositions": [],
+          "particleRateMax": 2.799999952316284,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 2.799999952316284,
+          "id": "the_void",
+          "samples": 410,
+          "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+          "particleRateMin": 2.799999952316284,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.201464299985673,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "SECRET",
+              "textWidth": 34,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "50K Souls",
+              "textWidth": 50,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "THE VOID",
+              "textWidth": 83.55599975585938,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+750 Souls/s",
+              "textWidth": 63,
+              "width": 136
+            }
+          },
+          "profileMotion": "rift",
+          "hookMovementStuds": 7.924253463745117
+        },
+        "state": "PLACED",
+        "uid": "a189d598-2e81-440d-9240-374c97a24faf",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": 0,
+        "price": 50000,
+        "production": 750
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          10.26450252532959,
+          12.600000381469727,
+          1.960409164428711
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://112600261118925",
+        "labelOffset": [
+          0,
+          8.5,
+          0
+        ],
+        "size": [
+          10.264501571655273,
+          12.59999942779541,
+          1.9604090452194214
+        ]
+      },
+      "triangles": 1018
+    },
+    {
+      "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "export": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+      "rarity": "COMMON",
+      "id": "candle_wisp",
+      "meshId": "rbxassetid://120691798070914",
+      "sourceReference": "rework-01-common.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 3606
+    },
+    {
+      "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "export": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+      "rarity": "COMMON",
+      "id": "grave_hopper",
+      "meshId": "rbxassetid://71461503692914",
+      "sourceReference": "rework-01-common.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2400
+    },
+    {
+      "fbxSha256": "576f3691cd91e8e8ba24acece868d92733aec991df7b83ced287e5b7ec6bada7",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/grave_key.fbx",
+      "rarity": "COMMON",
+      "id": "grave_key",
+      "meshId": "rbxassetid://90489798871777",
+      "sourceReference": "rework-01-common.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 1526
+    },
+    {
+      "fbxSha256": "0411b1e728df88b9578edd717fa7b1392d72b73878e6c8ff349d1cbe7daed803",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/mourning_ribbon.fbx",
+      "rarity": "COMMON",
+      "id": "mourning_ribbon",
+      "meshId": "rbxassetid://130926750484059",
+      "sourceReference": "rework-01-common.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 1728
+    },
+    {
+      "fbxSha256": "048acf69c08403971dd1dba103734a96d938f38d2a169e43f5cd8d7e72161e7e",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/wilted_sprout.fbx",
+      "rarity": "COMMON",
+      "id": "wilted_sprout",
+      "meshId": "rbxassetid://106401964036063",
+      "sourceReference": "rework-01-common.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 2220
+    },
+    {
+      "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "export": "assets/export/meshes/curses/rework/ink_imp.fbx",
+      "rarity": "COMMON",
+      "id": "ink_imp",
+      "meshId": "rbxassetid://138171047418372",
+      "sourceReference": "rework-02-common.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 1772
+    },
+    {
+      "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "export": "assets/export/meshes/curses/rework/lost_locket.fbx",
+      "rarity": "COMMON",
+      "id": "lost_locket",
+      "meshId": "rbxassetid://91422731371880",
+      "sourceReference": "rework-02-common.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2500
+    },
+    {
+      "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "export": "assets/export/meshes/curses/rework/ashen_book.fbx",
+      "rarity": "COMMON",
+      "id": "ashen_book",
+      "meshId": "rbxassetid://101139508733050",
+      "sourceReference": "rework-02-common.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2324
+    },
+    {
+      "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "export": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+      "rarity": "COMMON",
+      "id": "lantern_lurker",
+      "meshId": "rbxassetid://124690349043025",
+      "sourceReference": "rework-02-common.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2950
+    },
+    {
+      "fbxSha256": "9981a3876d15571080bd26d8281705695dd6a9b190ee112a6894c6d7fbfe946f",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/hourglass_hound.fbx",
+      "rarity": "COMMON",
+      "id": "hourglass_hound",
+      "meshId": "rbxassetid://139273616657290",
+      "sourceReference": "rework-02-common.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 2546
+    },
+    {
+      "fbxSha256": "5a2044284e918b967145eae09b076252f3075b9b4a37fc8d74a80e0c601b4396",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/nail_beetle.fbx",
+      "rarity": "COMMON",
+      "id": "nail_beetle",
+      "meshId": "rbxassetid://101680185970237",
+      "sourceReference": "rework-03-common.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 1594
+    },
+    {
+      "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+      "export": "assets/export/meshes/curses/visual-pass2/pale_guest.fbx",
+      "rarity": "COMMON",
+      "id": "pale_guest",
+      "meshId": "rbxassetid://124305513972828",
+      "gameplayChecked": true,
+      "sourceReference": "rework-03-common.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.68855094909668,
+        "incomeObservedSeconds": 1.1563906999654137,
+        "usedActualClientPrompt": true,
+        "slot": 2,
+        "group": 2,
+        "placedClient": {
+          "emittingSamples": 449,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.49953973293304443,
+          "semanticHookPositions": [],
+          "particleRateMax": 0.9800000190734863,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 0.9800000190734863,
+          "id": "pale_guest",
+          "samples": 449,
+          "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+          "particleRateMin": 0.9800000190734863,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.204652300046291,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "COMMON",
+              "textWidth": 43,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "245 Souls",
+              "textWidth": 49,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "PALE GUEST",
+              "textWidth": 106.32599639892578,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+4 Souls/s",
+              "textWidth": 51,
+              "width": 136
+            }
+          },
+          "profileMotion": "sway",
+          "hookMovementStuds": 0.15810570120811462
+        },
+        "incomeEarned": 762.1131900594337,
+        "deliveryClient": {
+          "emittingSamples": 421,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.13634078204631805,
+          "pulseRange": 0.49966368079185486,
+          "semanticHookPositions": [],
+          "particleRateMax": 0.9800000190734863,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 0.9800000190734863,
+          "id": "pale_guest",
+          "samples": 421,
+          "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+          "particleRateMin": 0.9800000190734863,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.207451199996285,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "COMMON",
+              "textWidth": 43,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "245 Souls",
+              "textWidth": 49,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "PALE GUEST",
+              "textWidth": 106.32599639892578,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+4 Souls/s",
+              "textWidth": 51,
+              "width": 136
+            }
+          },
+          "profileMotion": "sway",
+          "hookMovementStuds": 0.15542767941951752
+        },
+        "state": "PLACED",
+        "uid": "890cc136-9994-4136-960c-1683e0cbb1f1",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": -3.8565750292036682,
+        "price": 245,
+        "production": 754.75
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          3.8000011444091797,
+          4.799999713897705,
+          1.679997444152832
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://124305513972828",
+        "labelOffset": [
+          0,
+          4.599999904632568,
+          0
+        ],
+        "size": [
+          3.800001621246338,
+          4.800000190734863,
+          1.6799976825714111
+        ]
+      },
+      "triangles": 1716
+    },
+    {
+      "fbxSha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/cold_teacup.fbx",
+      "rarity": "COMMON",
+      "id": "cold_teacup",
+      "meshId": "rbxassetid://106171771978270",
+      "gameplayChecked": true,
+      "sourceReference": "rework-03-common.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 19.275524139404297,
+        "incomeObservedSeconds": 1.1546520999982022,
+        "usedActualClientPrompt": true,
+        "slot": 3,
+        "group": 2,
+        "placedClient": {
+          "emittingSamples": 442,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.4998035132884979,
+          "semanticHookPositions": [],
+          "particleRateMax": 2.0999999046325684,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 2.0999999046325684,
+          "id": "cold_teacup",
+          "samples": 442,
+          "fbxSha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425",
+          "particleRateMin": 2.0999999046325684,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.20096809999086,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "COMMON",
+              "textWidth": 43,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "260 Souls",
+              "textWidth": 49,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "COLD TEACUP",
+              "textWidth": 123.947998046875,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+5 Souls/s",
+              "textWidth": 50,
+              "width": 136
+            }
+          },
+          "profileMotion": "sway",
+          "hookMovementStuds": 0.1580095738172531
+        },
+        "incomeEarned": 966.9179462598986,
+        "deliveryClient": {
+          "emittingSamples": 421,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.10676781088113785,
+          "pulseRange": 0.4999431371688843,
+          "semanticHookPositions": [],
+          "particleRateMax": 2.0999999046325684,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 2.0999999046325684,
+          "id": "cold_teacup",
+          "samples": 421,
+          "fbxSha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425",
+          "particleRateMin": 2.0999999046325684,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.201378099969588,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "COMMON",
+              "textWidth": 43,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "260 Souls",
+              "textWidth": 49,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "COLD TEACUP",
+              "textWidth": 123.947998046875,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+5 Souls/s",
+              "textWidth": 50,
+              "width": 136
+            }
+          },
+          "profileMotion": "sway",
+          "hookMovementStuds": 0.15803170204162598
+        },
+        "state": "PLACED",
+        "uid": "3e4d0d86-99f1-4f91-ae7b-0d7169a4810d",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": 56.75033178257581,
+        "price": 260,
+        "production": 759.75
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          5,
+          4.90000057220459,
+          4.875944137573242
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://106171771978270",
+        "labelOffset": [
+          0,
+          4.650000095367432,
+          0
+        ],
+        "size": [
+          4.999999523162842,
+          4.900000095367432,
+          4.875943660736084
+        ]
+      },
+      "triangles": 2456
+    },
+    {
+      "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+      "export": "assets/export/meshes/curses/visual-pass2/revision02/coin_crawler.fbx",
+      "rarity": "COMMON",
+      "id": "coin_crawler",
+      "meshId": "rbxassetid://121209998415870",
+      "gameplayChecked": true,
+      "sourceReference": "rework-03-common.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.898916244506836,
+        "incomeObservedSeconds": 1.1565802000113763,
+        "usedActualClientPrompt": true,
+        "slot": 4,
+        "group": 2,
+        "placedClient": {
+          "emittingSamples": 484,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.4999266266822815,
+          "semanticHookPositions": [],
+          "particleRateMax": 0.5600000023841858,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 0.5600000023841858,
+          "id": "coin_crawler",
+          "samples": 484,
+          "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+          "particleRateMin": 0.5600000023841858,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.2009133999818005,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "COMMON",
+              "textWidth": 43,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "275 Souls",
+              "textWidth": 48,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.513044357299805,
+              "height": 20,
+              "text": "COIN CRAWLER",
+              "textWidth": 134.63999938964844,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+5 Souls/s",
+              "textWidth": 50,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "incomeEarned": 972.7839449699968,
+        "deliveryClient": {
+          "emittingSamples": 421,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.08053959906101227,
+          "pulseRange": 0.49987611174583435,
+          "semanticHookPositions": [],
+          "particleRateMax": 0.5600000023841858,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 0.5600000023841858,
+          "id": "coin_crawler",
+          "samples": 421,
+          "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+          "particleRateMin": 0.5600000023841858,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 0,
+          "observedSeconds": 4.209269699989818,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "COMMON",
+              "textWidth": 43,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "275 Souls",
+              "textWidth": 48,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.513044357299805,
+              "height": 20,
+              "text": "COIN CRAWLER",
+              "textWidth": 134.63999938964844,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+5 Souls/s",
+              "textWidth": 50,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "state": "PLACED",
+        "uid": "918ad972-04bd-40d5-a555-c12ca7a2f550",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": -0.6389497949421639,
+        "price": 275,
+        "production": 765
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          5.799999237060547,
+          3.200000286102295,
+          4.100000381469727
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://121209998415870",
+        "labelOffset": [
+          0,
+          3.799999952316284,
+          0
+        ],
+        "size": [
+          5.799998760223389,
+          3.200000047683716,
+          4.099999904632568
+        ]
+      },
+      "triangles": 2172
+    },
+    {
+      "fbxSha256": "5a525705186b04fe22f3f6950ea44e2db4f24fa1da80fc3814efd517d19eae6c",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/umbrella_wraith.fbx",
+      "rarity": "COMMON",
+      "id": "umbrella_wraith",
+      "meshId": "rbxassetid://78449252506968",
+      "sourceReference": "rework-03-common.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 1566
+    },
+    {
+      "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "export": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+      "rarity": "RARE",
+      "id": "marrow_dice",
+      "meshId": "rbxassetid://98208990983506",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 4138
+    },
+    {
+      "fbxSha256": "d375a8fafce80182545cf104d92a15bbe4c850436b89708e74030854f08056ce",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/veil_mourner.fbx",
+      "rarity": "RARE",
+      "id": "veil_mourner",
+      "meshId": "rbxassetid://94639671761359",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 3280
+    },
+    {
+      "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "export": "assets/export/meshes/curses/rework/grave_compass.fbx",
+      "rarity": "RARE",
+      "id": "grave_compass",
+      "meshId": "rbxassetid://92042737751538",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 3242
+    },
+    {
+      "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "export": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+      "rarity": "RARE",
+      "id": "hollow_violin",
+      "meshId": "rbxassetid://91498125175625",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2150
+    },
+    {
+      "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "export": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+      "rarity": "RARE",
+      "id": "chime_triplets",
+      "meshId": "rbxassetid://114343537583157",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 5332
+    },
+    {
+      "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "export": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+      "rarity": "RARE",
+      "id": "thimble_spider",
+      "meshId": "rbxassetid://99634226365979",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 5620
+    },
+    {
+      "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "export": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+      "rarity": "RARE",
+      "id": "music_box_dancer",
+      "meshId": "rbxassetid://103021046464363",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 3988
+    },
+    {
+      "fbxSha256": "e29d5c50b6c88ca98ac11d21f7884f335a8b2ff6e1635bc108e88b355217b75c",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/raven_quill.fbx",
+      "rarity": "RARE",
+      "id": "raven_quill",
+      "meshId": "rbxassetid://115188887219139",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 1394
+    },
+    {
+      "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "export": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+      "rarity": "RARE",
+      "id": "sorrow_chalice",
+      "meshId": "rbxassetid://124640513274761",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2828
+    },
+    {
+      "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+      "export": "assets/export/meshes/curses/visual-pass2/pale_gramophone.fbx",
+      "rarity": "RARE",
+      "id": "pale_gramophone",
+      "meshId": "rbxassetid://119236786916302",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.943071365356445,
+        "incomeObservedSeconds": 1.151756499952171,
+        "usedActualClientPrompt": true,
+        "slot": 5,
+        "group": 2,
+        "placedClient": {
+          "emittingSamples": 442,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.4997232258319855,
+          "semanticHookPositions": {
+            "turntable": [
+              -0.09916360676288605,
+              -0.6151025295257568,
+              -0.4302946925163269
+            ],
+            "hornMouth": [
+              1.3717632293701172,
+              1.4090690612792969,
+              0.8703106045722961
+            ]
+          },
+          "particleRateMax": 1.2599999904632568,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.2599999904632568,
+          "id": "pale_gramophone",
+          "samples": 442,
+          "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+          "particleRateMin": 1.2599999904632568,
+          "state": "PLACED",
+          "semanticHookVisits": {
+            "hornMouth": true
+          },
+          "nativeLightCount": 0,
+          "observedSeconds": 4.2082561000133865,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "RARE",
+              "textWidth": 24,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "1.3K Souls",
+              "textWidth": 50,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 14.86092758178711,
+              "height": 20,
+              "text": "PALE GRAMOPHONE",
+              "textWidth": 134.6400146484375,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+28 Souls/s",
+              "textWidth": 56,
+              "width": 136
+            }
+          },
+          "profileMotion": "gramophone",
+          "hookMovementStuds": 3.5016252994537354
+        },
+        "incomeEarned": 1013.6150583192357,
+        "deliveryClient": {
+          "emittingSamples": 424,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.06245361641049385,
+          "pulseRange": 0.49961450695991516,
+          "semanticHookPositions": {
+            "turntable": [
+              -0.09916360676288605,
+              -0.6151025295257568,
+              -0.4302946925163269
+            ],
+            "hornMouth": [
+              1.3717632293701172,
+              1.4090690612792969,
+              0.8703106045722961
+            ]
+          },
+          "particleRateMax": 1.2599999904632568,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.2599999904632568,
+          "id": "pale_gramophone",
+          "samples": 424,
+          "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+          "particleRateMin": 1.2599999904632568,
+          "state": "DELIVERING",
+          "semanticHookVisits": {
+            "hornMouth": true
+          },
+          "nativeLightCount": 0,
+          "observedSeconds": 4.205693099997006,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "RARE",
+              "textWidth": 24,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "1.3K Souls",
+              "textWidth": 50,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 14.86092758178711,
+              "height": 20,
+              "text": "PALE GRAMOPHONE",
+              "textWidth": 134.6400146484375,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+28 Souls/s",
+              "textWidth": 56,
+              "width": 136
+            }
+          },
+          "profileMotion": "gramophone",
+          "hookMovementStuds": 3.500718832015991
+        },
+        "state": "PLACED",
+        "uid": "a0de4440-55b9-49ea-bc94-2ed21f562b75",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": -192.47759549645707,
+        "price": 1300,
+        "production": 793
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          5.534446716308594,
+          6.199999809265137,
+          4.386199951171875
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://119236786916302",
+        "labelOffset": [
+          0,
+          5.299999713897705,
+          0
+        ],
+        "size": [
+          5.534446716308594,
+          6.199999809265137,
+          4.386199951171875
+        ]
+      },
+      "triangles": 6316
+    },
+    {
+      "fbxSha256": "7e49372109843e820041d62e31a0d059c62c314cd3e92c69ee78e763adad7b61",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/thorn_reliquary.fbx",
+      "rarity": "RARE",
+      "id": "thorn_reliquary",
+      "meshId": "rbxassetid://96608357528261",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 2060
+    },
+    {
+      "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "export": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+      "rarity": "RARE",
+      "id": "anchor_crab",
+      "meshId": "rbxassetid://138935951310223",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 3128
+    },
+    {
+      "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "export": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+      "rarity": "RARE",
+      "id": "sundial_sentinel",
+      "meshId": "rbxassetid://107305209907882",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2316
+    },
+    {
+      "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "export": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+      "rarity": "RARE",
+      "id": "sleepwalker_shoes",
+      "meshId": "rbxassetid://100900364423577",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 5176
+    },
+    {
+      "fbxSha256": "913ff5613199797f55dbf93f3cdd846c5cc4df6ef9d404ed92f97fe8a93568c3",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/night_harp.fbx",
+      "rarity": "LEGENDARY",
+      "id": "night_harp",
+      "meshId": "rbxassetid://93066675273109",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 2492
+    },
+    {
+      "fbxSha256": "af25cf2f2d783f43a6832f86f1c4f09946cf688f0978d187b17a6d7b874647d3",
+      "export": "assets/export/meshes/curses/visual-pass2/thorn_cathedral.fbx",
+      "rarity": "LEGENDARY",
+      "id": "thorn_cathedral",
+      "meshId": "rbxassetid://96405703736945",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 16.87870979309082,
+        "incomeObservedSeconds": 1.1618503000354394,
+        "usedActualClientPrompt": true,
+        "slot": 1,
+        "group": 3,
+        "placedClient": {
+          "emittingSamples": 450,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.49988433718681335,
+          "semanticHookPositions": [],
+          "particleRateMax": 1.9600000381469727,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.9600000381469727,
+          "id": "thorn_cathedral",
+          "samples": 450,
+          "fbxSha256": "af25cf2f2d783f43a6832f86f1c4f09946cf688f0978d187b17a6d7b874647d3",
+          "particleRateMin": 1.9600000381469727,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 1,
+          "observedSeconds": 4.202967299963348,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "LEGENDARY",
+              "textWidth": 55,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "2.9K Souls",
+              "textWidth": 52,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 15.369863510131836,
+              "height": 20,
+              "text": "THORN CATHEDRAL",
+              "textWidth": 134.63999938964844,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+50 Souls/s",
+              "textWidth": 57,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "incomeEarned": 64.31962999922689,
+        "deliveryClient": {
+          "emittingSamples": 423,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/smoke_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.04293760657310486,
+          "pulseRange": 0.49994930624961853,
+          "semanticHookPositions": [],
+          "particleRateMax": 1.9600000381469727,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.9600000381469727,
+          "id": "thorn_cathedral",
+          "samples": 423,
+          "fbxSha256": "af25cf2f2d783f43a6832f86f1c4f09946cf688f0978d187b17a6d7b874647d3",
+          "particleRateMin": 1.9600000381469727,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 1,
+          "observedSeconds": 4.204288300010376,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "LEGENDARY",
+              "textWidth": 55,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "2.9K Souls",
+              "textWidth": 52,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 15.369863510131836,
+              "height": 20,
+              "text": "THORN CATHEDRAL",
+              "textWidth": 134.63999938964844,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+50 Souls/s",
+              "textWidth": 57,
+              "width": 136
+            }
+          },
+          "profileMotion": "pulse",
+          "hookMovementStuds": 0
+        },
+        "state": "PLACED",
+        "uid": "3a5f60db-2467-4daf-b460-b8dbfc504af4",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": 0,
+        "price": 2850,
+        "production": 50
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "af25cf2f2d783f43a6832f86f1c4f09946cf688f0978d187b17a6d7b874647d3",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          5.599998474121094,
+          8.199999809265137,
+          3.9947128295898438
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://96405703736945",
+        "labelOffset": [
+          0,
+          6.299999713897705,
+          0
+        ],
+        "size": [
+          5.599998474121094,
+          8.199999809265137,
+          3.9947128295898438
+        ]
+      },
+      "triangles": 3064
+    },
+    {
+      "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "export": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+      "rarity": "LEGENDARY",
+      "id": "phantom_marionette",
+      "meshId": "rbxassetid://125181594913762",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 1964
+    },
+    {
+      "fbxSha256": "080eca4263120b74a03fb9f4893e1d7054f08847777c11c19f1fa4b3112a899a",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/blood_moon_rose.fbx",
+      "rarity": "LEGENDARY",
+      "id": "blood_moon_rose",
+      "meshId": "rbxassetid://76528234316355",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 5166
+    },
+    {
+      "fbxSha256": "40ba4fa6db0b1fb1b685a0accaba28517270a4dba2a38971cbef1193491a981e",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/judgement_scales.fbx",
+      "rarity": "LEGENDARY",
+      "id": "judgement_scales",
+      "meshId": "rbxassetid://123021846380098",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 2112
+    },
+    {
+      "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "export": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+      "rarity": "LEGENDARY",
+      "id": "clockwork_raven",
+      "meshId": "rbxassetid://132658656356560",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 3880
+    },
+    {
+      "fbxSha256": "6c384773c035c836def712bbd9bd53f034209a130f37b3e3c133d1482404dccb",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/eclipse_stag.fbx",
+      "rarity": "LEGENDARY",
+      "id": "eclipse_stag",
+      "meshId": "rbxassetid://114349185197281",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 1882
+    },
+    {
+      "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "export": "assets/export/meshes/curses/rework/endless_library.fbx",
+      "rarity": "LEGENDARY",
+      "id": "endless_library",
+      "meshId": "rbxassetid://119647220783912",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 4812
+    },
+    {
+      "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "export": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+      "rarity": "LEGENDARY",
+      "id": "sunken_crown",
+      "meshId": "rbxassetid://117032966363977",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 3408
+    },
+    {
+      "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "export": "assets/export/meshes/curses/rework/silent_choir.fbx",
+      "rarity": "LEGENDARY",
+      "id": "silent_choir",
+      "meshId": "rbxassetid://87533045551868",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2680
+    },
+    {
+      "fbxSha256": "af9cc66930524fc21ebbb5cdb971f1fcf7281c1e60b9a9774eaf831bf2c836a2",
+      "export": "assets/export/meshes/curses/visual-pass2/cathedral_heart.fbx",
+      "rarity": "MYTHIC",
+      "id": "cathedral_heart",
+      "meshId": "rbxassetid://99293575687788",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/rework-09-mythic.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 15.608452796936035,
+        "incomeObservedSeconds": 1.1576379000325687,
+        "usedActualClientPrompt": true,
+        "slot": 2,
+        "group": 3,
+        "placedClient": {
+          "emittingSamples": 445,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.4989966154098511,
+          "semanticHookPositions": [],
+          "particleRateMax": 3.3559963703155518,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.3650000095367432,
+          "id": "cathedral_heart",
+          "samples": 445,
+          "fbxSha256": "af9cc66930524fc21ebbb5cdb971f1fcf7281c1e60b9a9774eaf831bf2c836a2",
+          "particleRateMin": 1.3650000095367432,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 1,
+          "observedSeconds": 4.208765299990773,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "MYTHIC",
+              "textWidth": 34,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "12.5K Souls",
+              "textWidth": 56,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 15.71061897277832,
+              "height": 20,
+              "text": "CATHEDRAL HEART",
+              "textWidth": 134.63999938964844,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+180 Souls/s",
+              "textWidth": 61,
+              "width": 136
+            }
+          },
+          "profileMotion": "heartbeat",
+          "hookMovementStuds": 0
+        },
+        "incomeEarned": 293.47551500890404,
+        "deliveryClient": {
+          "emittingSamples": 423,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.04273754730820656,
+          "pulseRange": 0.4955613613128662,
+          "semanticHookPositions": [],
+          "particleRateMax": 3.342289686203003,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.3650000095367432,
+          "id": "cathedral_heart",
+          "samples": 423,
+          "fbxSha256": "af9cc66930524fc21ebbb5cdb971f1fcf7281c1e60b9a9774eaf831bf2c836a2",
+          "particleRateMin": 1.3650000095367432,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 1,
+          "observedSeconds": 4.205174300004728,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "MYTHIC",
+              "textWidth": 34,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "12.5K Souls",
+              "textWidth": 56,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 15.71061897277832,
+              "height": 20,
+              "text": "CATHEDRAL HEART",
+              "textWidth": 134.63999938964844,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+180 Souls/s",
+              "textWidth": 61,
+              "width": 136
+            }
+          },
+          "profileMotion": "heartbeat",
+          "hookMovementStuds": 0
+        },
+        "state": "PLACED",
+        "uid": "f8436932-14f3-4625-ad61-2d01b28a5c51",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": -0.014495002687908709,
+        "price": 12500,
+        "production": 230
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "af9cc66930524fc21ebbb5cdb971f1fcf7281c1e60b9a9774eaf831bf2c836a2",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          6.599998474121094,
+          9.59999942779541,
+          3.5869083404541016
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://99293575687788",
+        "labelOffset": [
+          0,
+          7,
+          0
+        ],
+        "size": [
+          6.59999942779541,
+          9.600000381469727,
+          3.5869088172912598
+        ]
+      },
+      "triangles": 3618
+    },
+    {
+      "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "export": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+      "rarity": "MYTHIC",
+      "id": "plague_monarch",
+      "meshId": "rbxassetid://84591406393703",
+      "sourceReference": "assets/reference/rework-09-mythic.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2828
+    },
+    {
+      "fbxSha256": "518d9422da7b3711c4dd43b097a34e8003c250cb98a328d048b0e5f7f14d9232",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/hollow_throne.fbx",
+      "rarity": "MYTHIC",
+      "id": "hollow_throne",
+      "meshId": "rbxassetid://128151003356093",
+      "sourceReference": "assets/reference/rework-09-mythic.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 2416
+    },
+    {
+      "fbxSha256": "07e7d08a2c99f3a996b49d0895893f2c1f4fbc4748f7088cb1b50eafb571b3e0",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/worldroot.fbx",
+      "rarity": "MYTHIC",
+      "id": "worldroot",
+      "meshId": "rbxassetid://89095525081556",
+      "sourceReference": "assets/reference/rework-10-mythic.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 3456
+    },
+    {
+      "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "export": "assets/export/meshes/curses/rework/the_undertow.fbx",
+      "rarity": "MYTHIC",
+      "id": "the_undertow",
+      "meshId": "rbxassetid://105483544111432",
+      "sourceReference": "assets/reference/rework-10-mythic.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2498
+    },
+    {
+      "fbxSha256": "9f5998dcaf354f42a03dac802352361feff28569e0b19f9d5e1bc17b25a580eb",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/the_last_funeral.fbx",
+      "rarity": "MYTHIC",
+      "id": "the_last_funeral",
+      "meshId": "rbxassetid://75524190405385",
+      "sourceReference": "assets/reference/rework-10-mythic.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 3030
+    },
+    {
+      "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "export": "assets/export/meshes/curses/rework/nameless_door.fbx",
+      "rarity": "SECRET",
+      "id": "nameless_door",
+      "meshId": "rbxassetid://136046415979732",
+      "sourceReference": "assets/reference/rework-11-secret.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 3232
+    },
+    {
+      "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "export": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+      "rarity": "SECRET",
+      "id": "crown_of_silence",
+      "meshId": "rbxassetid://87201548999780",
+      "sourceReference": "assets/reference/rework-11-secret.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 7204
+    },
+    {
+      "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "export": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+      "rarity": "SECRET",
+      "id": "the_first_grave",
+      "meshId": "rbxassetid://104080758542748",
+      "sourceReference": "assets/reference/rework-11-secret.png",
+      "implementationStatus": "VALIDATED",
+      "status": "PASS",
+      "triangles": 2136
+    },
+    {
+      "fbxSha256": "08fe246fc45a6838e34c0682adb7196e4cc62211235cb4ad0b3e7c5adcebc520",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/the_unwritten.fbx",
+      "rarity": "SECRET",
+      "id": "the_unwritten",
+      "meshId": "rbxassetid://125834394266770",
+      "sourceReference": "assets/reference/rework-12-secret.png",
+      "implementationStatus": "IMPORTED",
+      "status": "PASS",
+      "triangles": 8122
+    },
+    {
+      "fbxSha256": "c07d42e338c7621c1b27a81afe6e7733793d69485f0b7be9a7412e4e4003d917",
+      "export": "assets/export/meshes/curses/visual-pass2/the_last_star.fbx",
+      "rarity": "SECRET",
+      "id": "the_last_star",
+      "meshId": "rbxassetid://139013796148408",
+      "gameplayChecked": true,
+      "sourceReference": "assets/reference/rework-12-secret.png",
+      "implementationStatus": "IMPORTED",
+      "purchase": {
+        "followDistance": 15.73854923248291,
+        "incomeObservedSeconds": 1.1564907999709249,
+        "usedActualClientPrompt": true,
+        "slot": 3,
+        "group": 3,
+        "placedClient": {
+          "emittingSamples": 443,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0,
+          "pulseRange": 0.24986717104911804,
+          "semanticHookPositions": [],
+          "particleRateMax": 1.5399999618530273,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.5399999618530273,
+          "id": "the_last_star",
+          "samples": 443,
+          "fbxSha256": "c07d42e338c7621c1b27a81afe6e7733793d69485f0b7be9a7412e4e4003d917",
+          "particleRateMin": 1.5399999618530273,
+          "state": "PLACED",
+          "semanticHookVisits": [],
+          "nativeLightCount": 1,
+          "observedSeconds": 4.21266600000672,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "SECRET",
+              "textWidth": 34,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "140K Souls",
+              "textWidth": 55,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "THE LAST STAR",
+              "textWidth": 130.67999267578125,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+1.9K Souls/s",
+              "textWidth": 63,
+              "width": 136
+            }
+          },
+          "profileMotion": "star",
+          "hookMovementStuds": 0
+        },
+        "incomeEarned": 2648.681152081117,
+        "deliveryClient": {
+          "emittingSamples": 408,
+          "nativeGlassPaneCount": 0,
+          "particleTexture": "rbxasset://textures/particles/sparkles_main.dds",
+          "reviewHoldSeconds": 0,
+          "rootMovementStuds": 0.04273171350359917,
+          "pulseRange": 0.2483433485031128,
+          "semanticHookPositions": [],
+          "particleRateMax": 1.5399999618530273,
+          "nativeEmitterCount": 1,
+          "pausedSamples": 0,
+          "particleRate": 1.5399999618530273,
+          "id": "the_last_star",
+          "samples": 408,
+          "fbxSha256": "c07d42e338c7621c1b27a81afe6e7733793d69485f0b7be9a7412e4e4003d917",
+          "particleRateMin": 1.5399999618530273,
+          "state": "DELIVERING",
+          "semanticHookVisits": [],
+          "nativeLightCount": 1,
+          "observedSeconds": 4.203885600029025,
+          "nativeFocusCount": 1,
+          "labelFields": {
+            "InfoRarity": {
+              "textHeight": 9,
+              "height": 12,
+              "text": "SECRET",
+              "textWidth": 34,
+              "width": 136
+            },
+            "InfoPrice": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "140K Souls",
+              "textWidth": 55,
+              "width": 136
+            },
+            "InfoName": {
+              "textHeight": 19.799999237060547,
+              "height": 20,
+              "text": "THE LAST STAR",
+              "textWidth": 130.67999267578125,
+              "width": 136
+            },
+            "InfoIncome": {
+              "textHeight": 11,
+              "height": 14,
+              "text": "+1.9K Souls/s",
+              "textWidth": 63,
+              "width": 136
+            }
+          },
+          "profileMotion": "star",
+          "hookMovementStuds": 0
+        },
+        "state": "PLACED",
+        "uid": "bcd10cbd-3a24-4727-921f-ea3f88ca4736",
+        "pedestalError": 0,
+        "promptInput": {
+          "inputAPI": "InputHoldBegin/InputHoldEnd",
+          "nativePromptInputCount": 1
+        },
+        "status": "PASS",
+        "purchaseSpendError": 0.2946070075267926,
+        "price": 140000,
+        "production": 2080
+      },
+      "status": "PASS",
+      "vfxChecked": true,
+      "runtime": {
+        "fbxSha256": "c07d42e338c7621c1b27a81afe6e7733793d69485f0b7be9a7412e4e4003d917",
+        "material": "SmoothPlastic",
+        "meshSize": [
+          8.5,
+          11.40000057220459,
+          4.799999237060547
+        ],
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshId": "rbxassetid://139013796148408",
+        "labelOffset": [
+          0,
+          7.899999618530273,
+          0
+        ],
+        "size": [
+          8.499999046325684,
+          11.399999618530273,
+          4.799998760223389
+        ]
+      },
+      "triangles": 4792
+    }
+  ],
+  "builtAtUtc": "2026-10-02T11:41:59.1010323Z",
+  "purchase": {
+    "requestedCount": 13,
+    "claimInput": {
+      "inputAPI": "InputHoldBegin/InputHoldEnd",
+      "nativePromptInputCount": 2
+    },
+    "claimedBase": "Base07",
+    "completed": 13,
+    "requestedIds": [
+      "cursed_doll",
+      "haunted_mirror",
+      "crying_mask",
+      "watching_eye",
+      "soul_chains",
+      "the_void",
+      "pale_guest",
+      "cold_teacup",
+      "coin_crawler",
+      "pale_gramophone",
+      "thorn_cathedral",
+      "cathedral_heart",
+      "the_last_star"
+    ]
+  },
+  "phase": "passed",
+  "testedIds": [
+    "cursed_doll",
+    "haunted_mirror",
+    "crying_mask",
+    "watching_eye",
+    "soul_chains",
+    "the_void",
+    "candle_wisp",
+    "grave_hopper",
+    "grave_key",
+    "mourning_ribbon",
+    "wilted_sprout",
+    "ink_imp",
+    "lost_locket",
+    "ashen_book",
+    "lantern_lurker",
+    "hourglass_hound",
+    "nail_beetle",
+    "pale_guest",
+    "cold_teacup",
+    "coin_crawler",
+    "umbrella_wraith",
+    "marrow_dice",
+    "veil_mourner",
+    "grave_compass",
+    "hollow_violin",
+    "chime_triplets",
+    "thimble_spider",
+    "music_box_dancer",
+    "raven_quill",
+    "sorrow_chalice",
+    "pale_gramophone",
+    "thorn_reliquary",
+    "anchor_crab",
+    "sundial_sentinel",
+    "sleepwalker_shoes",
+    "night_harp",
+    "thorn_cathedral",
+    "phantom_marionette",
+    "blood_moon_rose",
+    "judgement_scales",
+    "clockwork_raven",
+    "eclipse_stag",
+    "endless_library",
+    "sunken_crown",
+    "silent_choir",
+    "cathedral_heart",
+    "plague_monarch",
+    "hollow_throne",
+    "worldroot",
+    "the_undertow",
+    "the_last_funeral",
+    "nameless_door",
+    "crown_of_silence",
+    "the_first_grave",
+    "the_unwritten",
+    "the_last_star"
+  ],
+  "productionServicesUnchanged": false,
+  "worldPolish": {
+    "lights": 2,
+    "collisionHulls": 0,
+    "maximumGroundingBoundError": 0.0000018666267395106573,
+    "meshParts": 139,
+    "missingTemplates": 0,
+    "grounding": [
+      {
+        "groundInset": 0.08,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.FramingTree1.CrookedTrunk",
+        "sourceTemplate": "tree_widow",
+        "boundError": 7.629394527253197e-8,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9200000762939453
+      },
+      {
+        "groundInset": 0.08,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.FramingTree2.CrookedTrunk",
+        "sourceTemplate": "tree_claw",
+        "boundError": 7.629394527253197e-8,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9200000762939453
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestRootGarden.FoundationRootCurl",
+        "sourceTemplate": "root_serpent",
+        "boundError": 9.274482727361644e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650009274482727
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestRootGarden.MourningGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 5.1021575930843e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650005102157593
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestRootGarden.MourningGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 5.1021575930843e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650005102157593
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestRootGarden.MourningGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 5.1021575930843e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650005102157593
+      },
+      {
+        "groundInset": 0.0368,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestRootGarden.CarvedAutumnOffering1.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 6.883621215258984e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9632006883621216
+      },
+      {
+        "groundInset": 0.0244,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestRootGarden.CarvedAutumnOffering2.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 0.000001724338531516878,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9755982756614685
+      },
+      {
+        "groundInset": 0.0152,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestRootGarden.CarvedAutumnOffering3.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 0.0000018666267395106573,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9847981333732605
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestGroundWatchlight.BuriedMoonSocket",
+        "sourceTemplate": "rock_crag",
+        "boundError": 4.5061111453303937e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650004506111145
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.WestGroundWatchlight.HandLanternHousing",
+        "sourceTemplate": "final_lantern",
+        "boundError": 0.0000017023086547052202,
+        "supportYBeforeMapElevation": 0.6499999761581421,
+        "actualBottomY": 1.6150016784667969
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastRootGarden.FoundationRootCurl",
+        "sourceTemplate": "root_serpent",
+        "boundError": 9.274482727361644e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650009274482727
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastRootGarden.MourningGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 5.1021575930843e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650005102157593
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastRootGarden.MourningGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 5.1021575930843e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650005102157593
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastRootGarden.MourningGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 5.1021575930843e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650005102157593
+      },
+      {
+        "groundInset": 0.0368,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastRootGarden.CarvedAutumnOffering1.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 6.883621215258984e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9632006883621216
+      },
+      {
+        "groundInset": 0.0244,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastRootGarden.CarvedAutumnOffering2.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 0.000001724338531516878,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9755982756614685
+      },
+      {
+        "groundInset": 0.0152,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastRootGarden.CarvedAutumnOffering3.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 0.0000018666267395106573,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9847981333732605
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastGroundWatchlight.BuriedMoonSocket",
+        "sourceTemplate": "rock_crag",
+        "boundError": 4.5061111453303937e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650004506111145
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CastleEntranceVigil.EastGroundWatchlight.HandLanternHousing",
+        "sourceTemplate": "final_lantern",
+        "boundError": 0.0000017023086547052202,
+        "supportYBeforeMapElevation": 0.6499999761581421,
+        "actualBottomY": 1.6150016784667969
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge1.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 2.9444694527036575e-7,
+        "supportYBeforeMapElevation": 0.3030177056789398,
+        "actualBottomY": 1.2680174112319946
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge1.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.000001344680786274921,
+        "supportYBeforeMapElevation": 2.5899999141693115,
+        "actualBottomY": 3.5550012588500977
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge1.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000015830993653764835,
+        "supportYBeforeMapElevation": 2.5899999141693115,
+        "actualBottomY": 3.5550014972686768
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge1.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.000001516342162943829,
+        "supportYBeforeMapElevation": 2.5899999141693115,
+        "actualBottomY": 3.5549983978271484
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge1.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000011807680129205522,
+        "supportYBeforeMapElevation": 0.07853393256664276,
+        "actualBottomY": 1.0435351133346558
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge2.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012779235838422665,
+        "supportYBeforeMapElevation": 2.434000015258789,
+        "actualBottomY": 3.398998737335205
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge2.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 8.010864256391415e-7,
+        "supportYBeforeMapElevation": 2.434000015258789,
+        "actualBottomY": 3.3989992141723633
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge2.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge2.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 1.5258789076710855e-7,
+        "supportYBeforeMapElevation": 2.434000015258789,
+        "actualBottomY": 3.3990001678466797
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge2.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge3.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000016951560974920454,
+        "supportYBeforeMapElevation": 0.4040246605873108,
+        "actualBottomY": 1.3690229654312134
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge3.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 1.5258789076710855e-7,
+        "supportYBeforeMapElevation": 3.369999885559082,
+        "actualBottomY": 4.335000038146973
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge3.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 1.5258789076710855e-7,
+        "supportYBeforeMapElevation": 3.369999885559082,
+        "actualBottomY": 4.335000038146973
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge3.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000011062622071733585,
+        "supportYBeforeMapElevation": 3.369999885559082,
+        "actualBottomY": 4.335000991821289
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge3.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 9.426474572027388e-7,
+        "supportYBeforeMapElevation": 0.10472776740789413,
+        "actualBottomY": 1.069726824760437
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge3.BuriedRootFan",
+        "sourceTemplate": "root_serpent",
+        "boundError": 6.294250489702335e-7,
+        "supportYBeforeMapElevation": 3.369999885559082,
+        "actualBottomY": 4.335000514984131
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge4.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.000001039505004740704,
+        "supportYBeforeMapElevation": 2.746000051498413,
+        "actualBottomY": 3.710999011993408
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge4.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 5.62667846537579e-7,
+        "supportYBeforeMapElevation": 2.746000051498413,
+        "actualBottomY": 3.7109994888305664
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge4.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge4.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 3.9100646986867105e-7,
+        "supportYBeforeMapElevation": 2.746000051498413,
+        "actualBottomY": 3.711000442504883
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge4.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.0168,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge4.QuietAutumnOffering.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 6.420135498785839e-7,
+        "supportYBeforeMapElevation": 2.746000051498413,
+        "actualBottomY": 3.7291994094848633
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge5.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 1.4543533333188918e-7,
+        "supportYBeforeMapElevation": 0.40402692556381226,
+        "actualBottomY": 1.369026780128479
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge5.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 1.5258789076710855e-7,
+        "supportYBeforeMapElevation": 3.369999885559082,
+        "actualBottomY": 4.335000038146973
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge5.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 1.5258789076710855e-7,
+        "supportYBeforeMapElevation": 3.369999885559082,
+        "actualBottomY": 4.335000038146973
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge5.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000011062622071733585,
+        "supportYBeforeMapElevation": 3.369999885559082,
+        "actualBottomY": 4.335000991821289
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge5.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000012999773024713335,
+        "supportYBeforeMapElevation": 0.10471789538860321,
+        "actualBottomY": 1.0697191953659058
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge6.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 1.5258789076710855e-7,
+        "supportYBeforeMapElevation": 2.9800000190734863,
+        "actualBottomY": 3.945000171661377
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge6.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 6.294250489702335e-7,
+        "supportYBeforeMapElevation": 2.9800000190734863,
+        "actualBottomY": 3.945000648498535
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge6.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge6.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000015830993653764835,
+        "supportYBeforeMapElevation": 2.9800000190734863,
+        "actualBottomY": 3.9450016021728516
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge6.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge6.BuriedRootFan",
+        "sourceTemplate": "root_serpent",
+        "boundError": 0.0000017023086548162425,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650017023086548
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge7.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 9.202957154119673e-7,
+        "supportYBeforeMapElevation": 0.42421889305114746,
+        "actualBottomY": 1.3892179727554321
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge7.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000017547607420453915,
+        "supportYBeforeMapElevation": 3.5260000228881836,
+        "actualBottomY": 4.490998268127441
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge7.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000017547607420453915,
+        "supportYBeforeMapElevation": 3.5260000228881836,
+        "actualBottomY": 4.490998268127441
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge7.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 8.010864256391415e-7,
+        "supportYBeforeMapElevation": 3.5260000228881836,
+        "actualBottomY": 4.490999221801758
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge7.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 4.857778557187942e-8,
+        "supportYBeforeMapElevation": 0.1099453791975975,
+        "actualBottomY": 1.074945330619812
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge8.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012779235838422665,
+        "supportYBeforeMapElevation": 2.434000015258789,
+        "actualBottomY": 3.398998737335205
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge8.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 8.010864256391415e-7,
+        "supportYBeforeMapElevation": 2.434000015258789,
+        "actualBottomY": 3.3989992141723633
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge8.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge8.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 1.5258789076710855e-7,
+        "supportYBeforeMapElevation": 2.434000015258789,
+        "actualBottomY": 3.3990001678466797
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge8.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.0168,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.CemeteryUnderstory.WildBurialEdge8.QuietAutumnOffering.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 8.804321289801464e-7,
+        "supportYBeforeMapElevation": 2.434000015258789,
+        "actualBottomY": 3.41719913482666
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket1.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket1.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket1.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket1.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket1.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket1.BuriedRootFan",
+        "sourceTemplate": "root_serpent",
+        "boundError": 0.0000017023086548162425,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650017023086548
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket2.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket2.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket2.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket2.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket2.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket3.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket3.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket3.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket3.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket3.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket4.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket4.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket4.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket4.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket4.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket4.BuriedRootFan",
+        "sourceTemplate": "root_serpent",
+        "boundError": 0.0000017023086548162425,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650017023086548
+      },
+      {
+        "groundInset": 0.0168,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket4.QuietAutumnOffering.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 0.0000011461257934941571,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9832011461257935
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket5.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket5.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket5.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket5.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket5.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket6.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket6.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket6.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket6.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket6.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket7.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket7.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket7.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket7.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket7.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket7.BuriedRootFan",
+        "sourceTemplate": "root_serpent",
+        "boundError": 0.0000017023086548162425,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650017023086548
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket8.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket8.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket8.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket8.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket8.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.0168,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket8.QuietAutumnOffering.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 0.0000011461257934941571,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9832011461257935
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket9.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket9.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket9.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket9.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket9.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket10.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket10.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket10.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket10.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket10.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket10.BuriedRootFan",
+        "sourceTemplate": "root_serpent",
+        "boundError": 0.0000017023086548162425,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650017023086548
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket11.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket11.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket11.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket11.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket11.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket12.CurvedGrass1",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 7.486343384099925e-7,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650007486343384
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket12.CurvedGrass2",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000010466575622869456,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650010466575623
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket12.CurvedGrass3",
+        "sourceTemplate": "foliage_swept",
+        "boundError": 0.0000012850761413885081,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9650012850761414
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket12.FallenCurvedLeaf1",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.035,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket12.FallenCurvedLeaf2",
+        "sourceTemplate": "foliage_tattered",
+        "boundError": 0.0000018143653869318044,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.964998185634613
+      },
+      {
+        "groundInset": 0.0168,
+        "path": "Workspace.StealACurseMap.HauntedWorldPolish.ForestFloorVigils.MoonlitFloorPocket12.QuietAutumnOffering.RibbedPumpkin",
+        "sourceTemplate": "final_pumpkin",
+        "boundError": 0.0000011461257934941571,
+        "supportYBeforeMapElevation": 0,
+        "actualBottomY": 0.9832011461257935
+      }
+    ],
+    "groundingAttributesMissing": 0,
+    "groundedMeshes": 131,
+    "attributes": {
+      "ForestPocketCount": 12,
+      "AddedLightCount": 2,
+      "MissingVerifiedTemplateCount": 0,
+      "BurialPocketCount": 8,
+      "MeshPartCount": 139,
+      "VisualDesign": "Hollow Crown autumn vigil",
+      "PartBudget": 214,
+      "BasePartCount": 178
+    },
+    "method": "Actual scoped Instances and production AssetKit GroundedPlacement/SupportY/GroundInset attributes; no replacement floor sampler",
+    "status": "PASS",
+    "sourceTemplates": {
+      "foliage_swept": 68,
+      "tree_claw": 1,
+      "root_serpent": 8,
+      "final_chain": 2,
+      "final_lantern": 2,
+      "final_pumpkin": 11,
+      "tree_widow": 1,
+      "rock_crag": 2,
+      "foliage_crescent": 2,
+      "foliage_tattered": 42
+    },
+    "collidingParts": 0,
+    "parts": 178
+  },
+  "proofScope": "Immutable built-source fingerprints; recheck changed presentation sources before reusing VFX/gameplay evidence",
+  "catalogMetadata": {
+    "original": 6,
+    "total": 56,
+    "expansion": 50,
+    "entries": [
+      {
+        "fbxSha256": "2f132f61404576ceb038f02b326e70e6172fbe6d93c311f65e06992121dbe048",
+        "rarity": "COMMON",
+        "id": "cursed_doll",
+        "meshId": "rbxassetid://105651608343321",
+        "displayName": "Cursed Doll",
+        "visualKey": "cursed_doll",
+        "income": 3,
+        "isExpansion": false,
+        "futureEffectId": "DOLL_WHISPER",
+        "price": 100
+      },
+      {
+        "fbxSha256": "5cc3f79625431692fad248cd36fd0417dafd13e05822024bf949af442d24d268",
+        "rarity": "RARE",
+        "id": "haunted_mirror",
+        "meshId": "rbxassetid://93035871766571",
+        "displayName": "Haunted Mirror",
+        "visualKey": "haunted_mirror",
+        "income": 10,
+        "isExpansion": false,
+        "futureEffectId": "REVERSED",
+        "price": 450
+      },
+      {
+        "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+        "rarity": "RARE",
+        "id": "crying_mask",
+        "meshId": "rbxassetid://139868374607408",
+        "displayName": "Crying Mask",
+        "visualKey": "crying_mask",
+        "income": 14,
+        "isExpansion": false,
+        "futureEffectId": "BLINDNESS",
+        "price": 650
+      },
+      {
+        "fbxSha256": "01af3b718119a116628ade1ac666039352ff8359e6fbcaf364bff3fa0a75d0c3",
+        "rarity": "LEGENDARY",
+        "id": "watching_eye",
+        "meshId": "rbxassetid://86953467231643",
+        "displayName": "Watching Eye",
+        "visualKey": "watching_eye",
+        "income": 45,
+        "isExpansion": false,
+        "futureEffectId": "WATCHED",
+        "price": 2500
+      },
+      {
+        "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+        "rarity": "MYTHIC",
+        "id": "soul_chains",
+        "meshId": "rbxassetid://135030143756939",
+        "displayName": "Soul Chains",
+        "visualKey": "soul_chains",
+        "income": 150,
+        "isExpansion": false,
+        "futureEffectId": "HEAVY",
+        "price": 10000
+      },
+      {
+        "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+        "rarity": "SECRET",
+        "id": "the_void",
+        "meshId": "rbxassetid://112600261118925",
+        "displayName": "The Void",
+        "visualKey": "the_void",
+        "income": 750,
+        "isExpansion": false,
+        "futureEffectId": "VOID_DISTORTION",
+        "price": 50000
+      },
+      {
+        "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+        "rarity": "COMMON",
+        "id": "candle_wisp",
+        "meshId": "rbxassetid://120691798070914",
+        "displayName": "Candle Wisp",
+        "visualKey": "candle_wisp",
+        "income": 2,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CANDLE_WISP",
+        "price": 80
+      },
+      {
+        "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+        "rarity": "COMMON",
+        "id": "grave_hopper",
+        "meshId": "rbxassetid://71461503692914",
+        "displayName": "Grave Hopper",
+        "visualKey": "grave_hopper",
+        "income": 2.25,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_GRAVE_HOPPER",
+        "price": 95
+      },
+      {
+        "fbxSha256": "576f3691cd91e8e8ba24acece868d92733aec991df7b83ced287e5b7ec6bada7",
+        "rarity": "COMMON",
+        "id": "grave_key",
+        "meshId": "rbxassetid://90489798871777",
+        "displayName": "Grave Key",
+        "visualKey": "grave_key",
+        "income": 2.5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_GRAVE_KEY",
+        "price": 110
+      },
+      {
+        "fbxSha256": "0411b1e728df88b9578edd717fa7b1392d72b73878e6c8ff349d1cbe7daed803",
+        "rarity": "COMMON",
+        "id": "mourning_ribbon",
+        "meshId": "rbxassetid://130926750484059",
+        "displayName": "Mourning Ribbon",
+        "visualKey": "mourning_ribbon",
+        "income": 2.75,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_MOURNING_RIBBON",
+        "price": 125
+      },
+      {
+        "fbxSha256": "048acf69c08403971dd1dba103734a96d938f38d2a169e43f5cd8d7e72161e7e",
+        "rarity": "COMMON",
+        "id": "wilted_sprout",
+        "meshId": "rbxassetid://106401964036063",
+        "displayName": "Wilted Sprout",
+        "visualKey": "wilted_sprout",
+        "income": 3,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_WILTED_SPROUT",
+        "price": 140
+      },
+      {
+        "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+        "rarity": "COMMON",
+        "id": "ink_imp",
+        "meshId": "rbxassetid://138171047418372",
+        "displayName": "Ink Imp",
+        "visualKey": "ink_imp",
+        "income": 3.25,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_INK_IMP",
+        "price": 155
+      },
+      {
+        "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+        "rarity": "COMMON",
+        "id": "lost_locket",
+        "meshId": "rbxassetid://91422731371880",
+        "displayName": "Lost Locket",
+        "visualKey": "lost_locket",
+        "income": 3.5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_LOST_LOCKET",
+        "price": 170
+      },
+      {
+        "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+        "rarity": "COMMON",
+        "id": "ashen_book",
+        "meshId": "rbxassetid://101139508733050",
+        "displayName": "Ashen Book",
+        "visualKey": "ashen_book",
+        "income": 3.75,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_ASHEN_BOOK",
+        "price": 185
+      },
+      {
+        "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+        "rarity": "COMMON",
+        "id": "lantern_lurker",
+        "meshId": "rbxassetid://124690349043025",
+        "displayName": "Lantern Lurker",
+        "visualKey": "lantern_lurker",
+        "income": 4,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_LANTERN_LURKER",
+        "price": 200
+      },
+      {
+        "fbxSha256": "9981a3876d15571080bd26d8281705695dd6a9b190ee112a6894c6d7fbfe946f",
+        "rarity": "COMMON",
+        "id": "hourglass_hound",
+        "meshId": "rbxassetid://139273616657290",
+        "displayName": "Hourglass Hound",
+        "visualKey": "hourglass_hound",
+        "income": 4.25,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_HOURGLASS_HOUND",
+        "price": 215
+      },
+      {
+        "fbxSha256": "5a2044284e918b967145eae09b076252f3075b9b4a37fc8d74a80e0c601b4396",
+        "rarity": "COMMON",
+        "id": "nail_beetle",
+        "meshId": "rbxassetid://101680185970237",
+        "displayName": "Nail Beetle",
+        "visualKey": "nail_beetle",
+        "income": 4.5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_NAIL_BEETLE",
+        "price": 230
+      },
+      {
+        "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+        "rarity": "COMMON",
+        "id": "pale_guest",
+        "meshId": "rbxassetid://124305513972828",
+        "displayName": "Pale Guest",
+        "visualKey": "pale_guest",
+        "income": 4.75,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_PALE_GUEST",
+        "price": 245
+      },
+      {
+        "fbxSha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425",
+        "rarity": "COMMON",
+        "id": "cold_teacup",
+        "meshId": "rbxassetid://106171771978270",
+        "displayName": "Cold Teacup",
+        "visualKey": "cold_teacup",
+        "income": 5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_COLD_TEACUP",
+        "price": 260
+      },
+      {
+        "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+        "rarity": "COMMON",
+        "id": "coin_crawler",
+        "meshId": "rbxassetid://121209998415870",
+        "displayName": "Coin Crawler",
+        "visualKey": "coin_crawler",
+        "income": 5.25,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_COIN_CRAWLER",
+        "price": 275
+      },
+      {
+        "fbxSha256": "5a525705186b04fe22f3f6950ea44e2db4f24fa1da80fc3814efd517d19eae6c",
+        "rarity": "COMMON",
+        "id": "umbrella_wraith",
+        "meshId": "rbxassetid://78449252506968",
+        "displayName": "Umbrella Wraith",
+        "visualKey": "umbrella_wraith",
+        "income": 5.5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_UMBRELLA_WRAITH",
+        "price": 290
+      },
+      {
+        "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+        "rarity": "RARE",
+        "id": "marrow_dice",
+        "meshId": "rbxassetid://98208990983506",
+        "displayName": "Marrow Dice",
+        "visualKey": "marrow_dice",
+        "income": 10,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_MARROW_DICE",
+        "price": 400
+      },
+      {
+        "fbxSha256": "d375a8fafce80182545cf104d92a15bbe4c850436b89708e74030854f08056ce",
+        "rarity": "RARE",
+        "id": "veil_mourner",
+        "meshId": "rbxassetid://94639671761359",
+        "displayName": "Veil Mourner",
+        "visualKey": "veil_mourner",
+        "income": 12,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_VEIL_MOURNER",
+        "price": 500
+      },
+      {
+        "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+        "rarity": "RARE",
+        "id": "grave_compass",
+        "meshId": "rbxassetid://92042737751538",
+        "displayName": "Grave Compass",
+        "visualKey": "grave_compass",
+        "income": 14,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_GRAVE_COMPASS",
+        "price": 600
+      },
+      {
+        "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+        "rarity": "RARE",
+        "id": "hollow_violin",
+        "meshId": "rbxassetid://91498125175625",
+        "displayName": "Hollow Violin",
+        "visualKey": "hollow_violin",
+        "income": 16,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_HOLLOW_VIOLIN",
+        "price": 700
+      },
+      {
+        "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+        "rarity": "RARE",
+        "id": "chime_triplets",
+        "meshId": "rbxassetid://114343537583157",
+        "displayName": "Chime Triplets",
+        "visualKey": "chime_triplets",
+        "income": 18,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CHIME_TRIPLETS",
+        "price": 800
+      },
+      {
+        "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+        "rarity": "RARE",
+        "id": "thimble_spider",
+        "meshId": "rbxassetid://99634226365979",
+        "displayName": "Thimble Spider",
+        "visualKey": "thimble_spider",
+        "income": 20,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THIMBLE_SPIDER",
+        "price": 900
+      },
+      {
+        "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+        "rarity": "RARE",
+        "id": "music_box_dancer",
+        "meshId": "rbxassetid://103021046464363",
+        "displayName": "Music Box Dancer",
+        "visualKey": "music_box_dancer",
+        "income": 22,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_MUSIC_BOX_DANCER",
+        "price": 1000
+      },
+      {
+        "fbxSha256": "e29d5c50b6c88ca98ac11d21f7884f335a8b2ff6e1635bc108e88b355217b75c",
+        "rarity": "RARE",
+        "id": "raven_quill",
+        "meshId": "rbxassetid://115188887219139",
+        "displayName": "Raven Quill",
+        "visualKey": "raven_quill",
+        "income": 24,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_RAVEN_QUILL",
+        "price": 1100
+      },
+      {
+        "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+        "rarity": "RARE",
+        "id": "sorrow_chalice",
+        "meshId": "rbxassetid://124640513274761",
+        "displayName": "Sorrow Chalice",
+        "visualKey": "sorrow_chalice",
+        "income": 26,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SORROW_CHALICE",
+        "price": 1200
+      },
+      {
+        "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+        "rarity": "RARE",
+        "id": "pale_gramophone",
+        "meshId": "rbxassetid://119236786916302",
+        "displayName": "Pale Gramophone",
+        "visualKey": "pale_gramophone",
+        "income": 28,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_PALE_GRAMOPHONE",
+        "price": 1300
+      },
+      {
+        "fbxSha256": "7e49372109843e820041d62e31a0d059c62c314cd3e92c69ee78e763adad7b61",
+        "rarity": "RARE",
+        "id": "thorn_reliquary",
+        "meshId": "rbxassetid://96608357528261",
+        "displayName": "Thorn Reliquary",
+        "visualKey": "thorn_reliquary",
+        "income": 30,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THORN_RELIQUARY",
+        "price": 1400
+      },
+      {
+        "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+        "rarity": "RARE",
+        "id": "anchor_crab",
+        "meshId": "rbxassetid://138935951310223",
+        "displayName": "Anchor Crab",
+        "visualKey": "anchor_crab",
+        "income": 32,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_ANCHOR_CRAB",
+        "price": 1500
+      },
+      {
+        "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+        "rarity": "RARE",
+        "id": "sundial_sentinel",
+        "meshId": "rbxassetid://107305209907882",
+        "displayName": "Sundial Sentinel",
+        "visualKey": "sundial_sentinel",
+        "income": 34,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SUNDIAL_SENTINEL",
+        "price": 1600
+      },
+      {
+        "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+        "rarity": "RARE",
+        "id": "sleepwalker_shoes",
+        "meshId": "rbxassetid://100900364423577",
+        "displayName": "Sleepwalker Shoes",
+        "visualKey": "sleepwalker_shoes",
+        "income": 36,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SLEEPWALKER_SHOES",
+        "price": 1700
+      },
+      {
+        "fbxSha256": "913ff5613199797f55dbf93f3cdd846c5cc4df6ef9d404ed92f97fe8a93568c3",
+        "rarity": "LEGENDARY",
+        "id": "night_harp",
+        "meshId": "rbxassetid://93066675273109",
+        "displayName": "Night Harp",
+        "visualKey": "night_harp",
+        "income": 40,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_NIGHT_HARP",
+        "price": 2200
+      },
+      {
+        "fbxSha256": "af25cf2f2d783f43a6832f86f1c4f09946cf688f0978d187b17a6d7b874647d3",
+        "rarity": "LEGENDARY",
+        "id": "thorn_cathedral",
+        "meshId": "rbxassetid://96405703736945",
+        "displayName": "Thorn Cathedral",
+        "visualKey": "thorn_cathedral",
+        "income": 50,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THORN_CATHEDRAL",
+        "price": 2850
+      },
+      {
+        "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+        "rarity": "LEGENDARY",
+        "id": "phantom_marionette",
+        "meshId": "rbxassetid://125181594913762",
+        "displayName": "Phantom Marionette",
+        "visualKey": "phantom_marionette",
+        "income": 60,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_PHANTOM_MARIONETTE",
+        "price": 3500
+      },
+      {
+        "fbxSha256": "080eca4263120b74a03fb9f4893e1d7054f08847777c11c19f1fa4b3112a899a",
+        "rarity": "LEGENDARY",
+        "id": "blood_moon_rose",
+        "meshId": "rbxassetid://76528234316355",
+        "displayName": "Blood Moon Rose",
+        "visualKey": "blood_moon_rose",
+        "income": 70,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_BLOOD_MOON_ROSE",
+        "price": 4150
+      },
+      {
+        "fbxSha256": "40ba4fa6db0b1fb1b685a0accaba28517270a4dba2a38971cbef1193491a981e",
+        "rarity": "LEGENDARY",
+        "id": "judgement_scales",
+        "meshId": "rbxassetid://123021846380098",
+        "displayName": "Judgement Scales",
+        "visualKey": "judgement_scales",
+        "income": 80,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_JUDGEMENT_SCALES",
+        "price": 4800
+      },
+      {
+        "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+        "rarity": "LEGENDARY",
+        "id": "clockwork_raven",
+        "meshId": "rbxassetid://132658656356560",
+        "displayName": "Clockwork Raven",
+        "visualKey": "clockwork_raven",
+        "income": 90,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CLOCKWORK_RAVEN",
+        "price": 5450
+      },
+      {
+        "fbxSha256": "6c384773c035c836def712bbd9bd53f034209a130f37b3e3c133d1482404dccb",
+        "rarity": "LEGENDARY",
+        "id": "eclipse_stag",
+        "meshId": "rbxassetid://114349185197281",
+        "displayName": "Eclipse Stag",
+        "visualKey": "eclipse_stag",
+        "income": 100,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_ECLIPSE_STAG",
+        "price": 6100
+      },
+      {
+        "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+        "rarity": "LEGENDARY",
+        "id": "endless_library",
+        "meshId": "rbxassetid://119647220783912",
+        "displayName": "Endless Library",
+        "visualKey": "endless_library",
+        "income": 110,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_ENDLESS_LIBRARY",
+        "price": 6750
+      },
+      {
+        "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+        "rarity": "LEGENDARY",
+        "id": "sunken_crown",
+        "meshId": "rbxassetid://117032966363977",
+        "displayName": "Sunken Crown",
+        "visualKey": "sunken_crown",
+        "income": 120,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SUNKEN_CROWN",
+        "price": 7400
+      },
+      {
+        "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+        "rarity": "LEGENDARY",
+        "id": "silent_choir",
+        "meshId": "rbxassetid://87533045551868",
+        "displayName": "Silent Choir",
+        "visualKey": "silent_choir",
+        "income": 130,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SILENT_CHOIR",
+        "price": 8050
+      },
+      {
+        "fbxSha256": "af9cc66930524fc21ebbb5cdb971f1fcf7281c1e60b9a9774eaf831bf2c836a2",
+        "rarity": "MYTHIC",
+        "id": "cathedral_heart",
+        "meshId": "rbxassetid://99293575687788",
+        "displayName": "Cathedral Heart",
+        "visualKey": "cathedral_heart",
+        "income": 180,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CATHEDRAL_HEART",
+        "price": 12500
+      },
+      {
+        "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+        "rarity": "MYTHIC",
+        "id": "plague_monarch",
+        "meshId": "rbxassetid://84591406393703",
+        "displayName": "Plague Monarch",
+        "visualKey": "plague_monarch",
+        "income": 250,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_PLAGUE_MONARCH",
+        "price": 18500
+      },
+      {
+        "fbxSha256": "518d9422da7b3711c4dd43b097a34e8003c250cb98a328d048b0e5f7f14d9232",
+        "rarity": "MYTHIC",
+        "id": "hollow_throne",
+        "meshId": "rbxassetid://128151003356093",
+        "displayName": "Hollow Throne",
+        "visualKey": "hollow_throne",
+        "income": 320,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_HOLLOW_THRONE",
+        "price": 24500
+      },
+      {
+        "fbxSha256": "07e7d08a2c99f3a996b49d0895893f2c1f4fbc4748f7088cb1b50eafb571b3e0",
+        "rarity": "MYTHIC",
+        "id": "worldroot",
+        "meshId": "rbxassetid://89095525081556",
+        "displayName": "Worldroot",
+        "visualKey": "worldroot",
+        "income": 390,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_WORLDROOT",
+        "price": 30500
+      },
+      {
+        "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+        "rarity": "MYTHIC",
+        "id": "the_undertow",
+        "meshId": "rbxassetid://105483544111432",
+        "displayName": "The Undertow",
+        "visualKey": "the_undertow",
+        "income": 460,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_UNDERTOW",
+        "price": 36500
+      },
+      {
+        "fbxSha256": "9f5998dcaf354f42a03dac802352361feff28569e0b19f9d5e1bc17b25a580eb",
+        "rarity": "MYTHIC",
+        "id": "the_last_funeral",
+        "meshId": "rbxassetid://75524190405385",
+        "displayName": "The Last Funeral",
+        "visualKey": "the_last_funeral",
+        "income": 530,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_LAST_FUNERAL",
+        "price": 42500
+      },
+      {
+        "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+        "rarity": "SECRET",
+        "id": "nameless_door",
+        "meshId": "rbxassetid://136046415979732",
+        "displayName": "Nameless Door",
+        "visualKey": "nameless_door",
+        "income": 850,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_NAMELESS_DOOR",
+        "price": 60000
+      },
+      {
+        "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+        "rarity": "SECRET",
+        "id": "crown_of_silence",
+        "meshId": "rbxassetid://87201548999780",
+        "displayName": "Crown of Silence",
+        "visualKey": "crown_of_silence",
+        "income": 1100,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CROWN_OF_SILENCE",
+        "price": 80000
+      },
+      {
+        "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+        "rarity": "SECRET",
+        "id": "the_first_grave",
+        "meshId": "rbxassetid://104080758542748",
+        "displayName": "The First Grave",
+        "visualKey": "the_first_grave",
+        "income": 1350,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_FIRST_GRAVE",
+        "price": 100000
+      },
+      {
+        "fbxSha256": "08fe246fc45a6838e34c0682adb7196e4cc62211235cb4ad0b3e7c5adcebc520",
+        "rarity": "SECRET",
+        "id": "the_unwritten",
+        "meshId": "rbxassetid://125834394266770",
+        "displayName": "The Unwritten",
+        "visualKey": "the_unwritten",
+        "income": 1600,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_UNWRITTEN",
+        "price": 120000
+      },
+      {
+        "fbxSha256": "c07d42e338c7621c1b27a81afe6e7733793d69485f0b7be9a7412e4e4003d917",
+        "rarity": "SECRET",
+        "id": "the_last_star",
+        "meshId": "rbxassetid://139013796148408",
+        "displayName": "The Last Star",
+        "visualKey": "the_last_star",
+        "income": 1850,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_LAST_STAR",
+        "price": 140000
+      }
+    ]
+  },
+  "requestedPhase": "PurchaseAndStress",
+  "currentImportedCount": 56,
+  "stress": {
+    "cleanup": {
+      "cleanedModels": 46,
+      "remainingLiveExpansionTags": 0
+    },
+    "presentationOnlyDisplays": 40,
+    "metadata": [
+      {
+        "fbxSha256": "2f132f61404576ceb038f02b326e70e6172fbe6d93c311f65e06992121dbe048",
+        "rarity": "COMMON",
+        "id": "cursed_doll",
+        "meshId": "rbxassetid://105651608343321",
+        "displayName": "Cursed Doll",
+        "visualKey": "cursed_doll",
+        "income": 3,
+        "isExpansion": false,
+        "futureEffectId": "DOLL_WHISPER",
+        "price": 100
+      },
+      {
+        "fbxSha256": "5cc3f79625431692fad248cd36fd0417dafd13e05822024bf949af442d24d268",
+        "rarity": "RARE",
+        "id": "haunted_mirror",
+        "meshId": "rbxassetid://93035871766571",
+        "displayName": "Haunted Mirror",
+        "visualKey": "haunted_mirror",
+        "income": 10,
+        "isExpansion": false,
+        "futureEffectId": "REVERSED",
+        "price": 450
+      },
+      {
+        "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+        "rarity": "RARE",
+        "id": "crying_mask",
+        "meshId": "rbxassetid://139868374607408",
+        "displayName": "Crying Mask",
+        "visualKey": "crying_mask",
+        "income": 14,
+        "isExpansion": false,
+        "futureEffectId": "BLINDNESS",
+        "price": 650
+      },
+      {
+        "fbxSha256": "01af3b718119a116628ade1ac666039352ff8359e6fbcaf364bff3fa0a75d0c3",
+        "rarity": "LEGENDARY",
+        "id": "watching_eye",
+        "meshId": "rbxassetid://86953467231643",
+        "displayName": "Watching Eye",
+        "visualKey": "watching_eye",
+        "income": 45,
+        "isExpansion": false,
+        "futureEffectId": "WATCHED",
+        "price": 2500
+      },
+      {
+        "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+        "rarity": "MYTHIC",
+        "id": "soul_chains",
+        "meshId": "rbxassetid://135030143756939",
+        "displayName": "Soul Chains",
+        "visualKey": "soul_chains",
+        "income": 150,
+        "isExpansion": false,
+        "futureEffectId": "HEAVY",
+        "price": 10000
+      },
+      {
+        "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+        "rarity": "SECRET",
+        "id": "the_void",
+        "meshId": "rbxassetid://112600261118925",
+        "displayName": "The Void",
+        "visualKey": "the_void",
+        "income": 750,
+        "isExpansion": false,
+        "futureEffectId": "VOID_DISTORTION",
+        "price": 50000
+      },
+      {
+        "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+        "rarity": "COMMON",
+        "id": "candle_wisp",
+        "meshId": "rbxassetid://120691798070914",
+        "displayName": "Candle Wisp",
+        "visualKey": "candle_wisp",
+        "income": 2,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CANDLE_WISP",
+        "price": 80
+      },
+      {
+        "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+        "rarity": "COMMON",
+        "id": "grave_hopper",
+        "meshId": "rbxassetid://71461503692914",
+        "displayName": "Grave Hopper",
+        "visualKey": "grave_hopper",
+        "income": 2.25,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_GRAVE_HOPPER",
+        "price": 95
+      },
+      {
+        "fbxSha256": "576f3691cd91e8e8ba24acece868d92733aec991df7b83ced287e5b7ec6bada7",
+        "rarity": "COMMON",
+        "id": "grave_key",
+        "meshId": "rbxassetid://90489798871777",
+        "displayName": "Grave Key",
+        "visualKey": "grave_key",
+        "income": 2.5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_GRAVE_KEY",
+        "price": 110
+      },
+      {
+        "fbxSha256": "0411b1e728df88b9578edd717fa7b1392d72b73878e6c8ff349d1cbe7daed803",
+        "rarity": "COMMON",
+        "id": "mourning_ribbon",
+        "meshId": "rbxassetid://130926750484059",
+        "displayName": "Mourning Ribbon",
+        "visualKey": "mourning_ribbon",
+        "income": 2.75,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_MOURNING_RIBBON",
+        "price": 125
+      },
+      {
+        "fbxSha256": "048acf69c08403971dd1dba103734a96d938f38d2a169e43f5cd8d7e72161e7e",
+        "rarity": "COMMON",
+        "id": "wilted_sprout",
+        "meshId": "rbxassetid://106401964036063",
+        "displayName": "Wilted Sprout",
+        "visualKey": "wilted_sprout",
+        "income": 3,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_WILTED_SPROUT",
+        "price": 140
+      },
+      {
+        "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+        "rarity": "COMMON",
+        "id": "ink_imp",
+        "meshId": "rbxassetid://138171047418372",
+        "displayName": "Ink Imp",
+        "visualKey": "ink_imp",
+        "income": 3.25,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_INK_IMP",
+        "price": 155
+      },
+      {
+        "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+        "rarity": "COMMON",
+        "id": "lost_locket",
+        "meshId": "rbxassetid://91422731371880",
+        "displayName": "Lost Locket",
+        "visualKey": "lost_locket",
+        "income": 3.5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_LOST_LOCKET",
+        "price": 170
+      },
+      {
+        "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+        "rarity": "COMMON",
+        "id": "ashen_book",
+        "meshId": "rbxassetid://101139508733050",
+        "displayName": "Ashen Book",
+        "visualKey": "ashen_book",
+        "income": 3.75,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_ASHEN_BOOK",
+        "price": 185
+      },
+      {
+        "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+        "rarity": "COMMON",
+        "id": "lantern_lurker",
+        "meshId": "rbxassetid://124690349043025",
+        "displayName": "Lantern Lurker",
+        "visualKey": "lantern_lurker",
+        "income": 4,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_LANTERN_LURKER",
+        "price": 200
+      },
+      {
+        "fbxSha256": "9981a3876d15571080bd26d8281705695dd6a9b190ee112a6894c6d7fbfe946f",
+        "rarity": "COMMON",
+        "id": "hourglass_hound",
+        "meshId": "rbxassetid://139273616657290",
+        "displayName": "Hourglass Hound",
+        "visualKey": "hourglass_hound",
+        "income": 4.25,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_HOURGLASS_HOUND",
+        "price": 215
+      },
+      {
+        "fbxSha256": "5a2044284e918b967145eae09b076252f3075b9b4a37fc8d74a80e0c601b4396",
+        "rarity": "COMMON",
+        "id": "nail_beetle",
+        "meshId": "rbxassetid://101680185970237",
+        "displayName": "Nail Beetle",
+        "visualKey": "nail_beetle",
+        "income": 4.5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_NAIL_BEETLE",
+        "price": 230
+      },
+      {
+        "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+        "rarity": "COMMON",
+        "id": "pale_guest",
+        "meshId": "rbxassetid://124305513972828",
+        "displayName": "Pale Guest",
+        "visualKey": "pale_guest",
+        "income": 4.75,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_PALE_GUEST",
+        "price": 245
+      },
+      {
+        "fbxSha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425",
+        "rarity": "COMMON",
+        "id": "cold_teacup",
+        "meshId": "rbxassetid://106171771978270",
+        "displayName": "Cold Teacup",
+        "visualKey": "cold_teacup",
+        "income": 5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_COLD_TEACUP",
+        "price": 260
+      },
+      {
+        "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+        "rarity": "COMMON",
+        "id": "coin_crawler",
+        "meshId": "rbxassetid://121209998415870",
+        "displayName": "Coin Crawler",
+        "visualKey": "coin_crawler",
+        "income": 5.25,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_COIN_CRAWLER",
+        "price": 275
+      },
+      {
+        "fbxSha256": "5a525705186b04fe22f3f6950ea44e2db4f24fa1da80fc3814efd517d19eae6c",
+        "rarity": "COMMON",
+        "id": "umbrella_wraith",
+        "meshId": "rbxassetid://78449252506968",
+        "displayName": "Umbrella Wraith",
+        "visualKey": "umbrella_wraith",
+        "income": 5.5,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_UMBRELLA_WRAITH",
+        "price": 290
+      },
+      {
+        "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+        "rarity": "RARE",
+        "id": "marrow_dice",
+        "meshId": "rbxassetid://98208990983506",
+        "displayName": "Marrow Dice",
+        "visualKey": "marrow_dice",
+        "income": 10,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_MARROW_DICE",
+        "price": 400
+      },
+      {
+        "fbxSha256": "d375a8fafce80182545cf104d92a15bbe4c850436b89708e74030854f08056ce",
+        "rarity": "RARE",
+        "id": "veil_mourner",
+        "meshId": "rbxassetid://94639671761359",
+        "displayName": "Veil Mourner",
+        "visualKey": "veil_mourner",
+        "income": 12,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_VEIL_MOURNER",
+        "price": 500
+      },
+      {
+        "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+        "rarity": "RARE",
+        "id": "grave_compass",
+        "meshId": "rbxassetid://92042737751538",
+        "displayName": "Grave Compass",
+        "visualKey": "grave_compass",
+        "income": 14,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_GRAVE_COMPASS",
+        "price": 600
+      },
+      {
+        "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+        "rarity": "RARE",
+        "id": "hollow_violin",
+        "meshId": "rbxassetid://91498125175625",
+        "displayName": "Hollow Violin",
+        "visualKey": "hollow_violin",
+        "income": 16,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_HOLLOW_VIOLIN",
+        "price": 700
+      },
+      {
+        "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+        "rarity": "RARE",
+        "id": "chime_triplets",
+        "meshId": "rbxassetid://114343537583157",
+        "displayName": "Chime Triplets",
+        "visualKey": "chime_triplets",
+        "income": 18,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CHIME_TRIPLETS",
+        "price": 800
+      },
+      {
+        "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+        "rarity": "RARE",
+        "id": "thimble_spider",
+        "meshId": "rbxassetid://99634226365979",
+        "displayName": "Thimble Spider",
+        "visualKey": "thimble_spider",
+        "income": 20,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THIMBLE_SPIDER",
+        "price": 900
+      },
+      {
+        "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+        "rarity": "RARE",
+        "id": "music_box_dancer",
+        "meshId": "rbxassetid://103021046464363",
+        "displayName": "Music Box Dancer",
+        "visualKey": "music_box_dancer",
+        "income": 22,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_MUSIC_BOX_DANCER",
+        "price": 1000
+      },
+      {
+        "fbxSha256": "e29d5c50b6c88ca98ac11d21f7884f335a8b2ff6e1635bc108e88b355217b75c",
+        "rarity": "RARE",
+        "id": "raven_quill",
+        "meshId": "rbxassetid://115188887219139",
+        "displayName": "Raven Quill",
+        "visualKey": "raven_quill",
+        "income": 24,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_RAVEN_QUILL",
+        "price": 1100
+      },
+      {
+        "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+        "rarity": "RARE",
+        "id": "sorrow_chalice",
+        "meshId": "rbxassetid://124640513274761",
+        "displayName": "Sorrow Chalice",
+        "visualKey": "sorrow_chalice",
+        "income": 26,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SORROW_CHALICE",
+        "price": 1200
+      },
+      {
+        "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+        "rarity": "RARE",
+        "id": "pale_gramophone",
+        "meshId": "rbxassetid://119236786916302",
+        "displayName": "Pale Gramophone",
+        "visualKey": "pale_gramophone",
+        "income": 28,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_PALE_GRAMOPHONE",
+        "price": 1300
+      },
+      {
+        "fbxSha256": "7e49372109843e820041d62e31a0d059c62c314cd3e92c69ee78e763adad7b61",
+        "rarity": "RARE",
+        "id": "thorn_reliquary",
+        "meshId": "rbxassetid://96608357528261",
+        "displayName": "Thorn Reliquary",
+        "visualKey": "thorn_reliquary",
+        "income": 30,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THORN_RELIQUARY",
+        "price": 1400
+      },
+      {
+        "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+        "rarity": "RARE",
+        "id": "anchor_crab",
+        "meshId": "rbxassetid://138935951310223",
+        "displayName": "Anchor Crab",
+        "visualKey": "anchor_crab",
+        "income": 32,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_ANCHOR_CRAB",
+        "price": 1500
+      },
+      {
+        "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+        "rarity": "RARE",
+        "id": "sundial_sentinel",
+        "meshId": "rbxassetid://107305209907882",
+        "displayName": "Sundial Sentinel",
+        "visualKey": "sundial_sentinel",
+        "income": 34,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SUNDIAL_SENTINEL",
+        "price": 1600
+      },
+      {
+        "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+        "rarity": "RARE",
+        "id": "sleepwalker_shoes",
+        "meshId": "rbxassetid://100900364423577",
+        "displayName": "Sleepwalker Shoes",
+        "visualKey": "sleepwalker_shoes",
+        "income": 36,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SLEEPWALKER_SHOES",
+        "price": 1700
+      },
+      {
+        "fbxSha256": "913ff5613199797f55dbf93f3cdd846c5cc4df6ef9d404ed92f97fe8a93568c3",
+        "rarity": "LEGENDARY",
+        "id": "night_harp",
+        "meshId": "rbxassetid://93066675273109",
+        "displayName": "Night Harp",
+        "visualKey": "night_harp",
+        "income": 40,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_NIGHT_HARP",
+        "price": 2200
+      },
+      {
+        "fbxSha256": "af25cf2f2d783f43a6832f86f1c4f09946cf688f0978d187b17a6d7b874647d3",
+        "rarity": "LEGENDARY",
+        "id": "thorn_cathedral",
+        "meshId": "rbxassetid://96405703736945",
+        "displayName": "Thorn Cathedral",
+        "visualKey": "thorn_cathedral",
+        "income": 50,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THORN_CATHEDRAL",
+        "price": 2850
+      },
+      {
+        "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+        "rarity": "LEGENDARY",
+        "id": "phantom_marionette",
+        "meshId": "rbxassetid://125181594913762",
+        "displayName": "Phantom Marionette",
+        "visualKey": "phantom_marionette",
+        "income": 60,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_PHANTOM_MARIONETTE",
+        "price": 3500
+      },
+      {
+        "fbxSha256": "080eca4263120b74a03fb9f4893e1d7054f08847777c11c19f1fa4b3112a899a",
+        "rarity": "LEGENDARY",
+        "id": "blood_moon_rose",
+        "meshId": "rbxassetid://76528234316355",
+        "displayName": "Blood Moon Rose",
+        "visualKey": "blood_moon_rose",
+        "income": 70,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_BLOOD_MOON_ROSE",
+        "price": 4150
+      },
+      {
+        "fbxSha256": "40ba4fa6db0b1fb1b685a0accaba28517270a4dba2a38971cbef1193491a981e",
+        "rarity": "LEGENDARY",
+        "id": "judgement_scales",
+        "meshId": "rbxassetid://123021846380098",
+        "displayName": "Judgement Scales",
+        "visualKey": "judgement_scales",
+        "income": 80,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_JUDGEMENT_SCALES",
+        "price": 4800
+      },
+      {
+        "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+        "rarity": "LEGENDARY",
+        "id": "clockwork_raven",
+        "meshId": "rbxassetid://132658656356560",
+        "displayName": "Clockwork Raven",
+        "visualKey": "clockwork_raven",
+        "income": 90,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CLOCKWORK_RAVEN",
+        "price": 5450
+      },
+      {
+        "fbxSha256": "6c384773c035c836def712bbd9bd53f034209a130f37b3e3c133d1482404dccb",
+        "rarity": "LEGENDARY",
+        "id": "eclipse_stag",
+        "meshId": "rbxassetid://114349185197281",
+        "displayName": "Eclipse Stag",
+        "visualKey": "eclipse_stag",
+        "income": 100,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_ECLIPSE_STAG",
+        "price": 6100
+      },
+      {
+        "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+        "rarity": "LEGENDARY",
+        "id": "endless_library",
+        "meshId": "rbxassetid://119647220783912",
+        "displayName": "Endless Library",
+        "visualKey": "endless_library",
+        "income": 110,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_ENDLESS_LIBRARY",
+        "price": 6750
+      },
+      {
+        "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+        "rarity": "LEGENDARY",
+        "id": "sunken_crown",
+        "meshId": "rbxassetid://117032966363977",
+        "displayName": "Sunken Crown",
+        "visualKey": "sunken_crown",
+        "income": 120,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SUNKEN_CROWN",
+        "price": 7400
+      },
+      {
+        "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+        "rarity": "LEGENDARY",
+        "id": "silent_choir",
+        "meshId": "rbxassetid://87533045551868",
+        "displayName": "Silent Choir",
+        "visualKey": "silent_choir",
+        "income": 130,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_SILENT_CHOIR",
+        "price": 8050
+      },
+      {
+        "fbxSha256": "af9cc66930524fc21ebbb5cdb971f1fcf7281c1e60b9a9774eaf831bf2c836a2",
+        "rarity": "MYTHIC",
+        "id": "cathedral_heart",
+        "meshId": "rbxassetid://99293575687788",
+        "displayName": "Cathedral Heart",
+        "visualKey": "cathedral_heart",
+        "income": 180,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CATHEDRAL_HEART",
+        "price": 12500
+      },
+      {
+        "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+        "rarity": "MYTHIC",
+        "id": "plague_monarch",
+        "meshId": "rbxassetid://84591406393703",
+        "displayName": "Plague Monarch",
+        "visualKey": "plague_monarch",
+        "income": 250,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_PLAGUE_MONARCH",
+        "price": 18500
+      },
+      {
+        "fbxSha256": "518d9422da7b3711c4dd43b097a34e8003c250cb98a328d048b0e5f7f14d9232",
+        "rarity": "MYTHIC",
+        "id": "hollow_throne",
+        "meshId": "rbxassetid://128151003356093",
+        "displayName": "Hollow Throne",
+        "visualKey": "hollow_throne",
+        "income": 320,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_HOLLOW_THRONE",
+        "price": 24500
+      },
+      {
+        "fbxSha256": "07e7d08a2c99f3a996b49d0895893f2c1f4fbc4748f7088cb1b50eafb571b3e0",
+        "rarity": "MYTHIC",
+        "id": "worldroot",
+        "meshId": "rbxassetid://89095525081556",
+        "displayName": "Worldroot",
+        "visualKey": "worldroot",
+        "income": 390,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_WORLDROOT",
+        "price": 30500
+      },
+      {
+        "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+        "rarity": "MYTHIC",
+        "id": "the_undertow",
+        "meshId": "rbxassetid://105483544111432",
+        "displayName": "The Undertow",
+        "visualKey": "the_undertow",
+        "income": 460,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_UNDERTOW",
+        "price": 36500
+      },
+      {
+        "fbxSha256": "9f5998dcaf354f42a03dac802352361feff28569e0b19f9d5e1bc17b25a580eb",
+        "rarity": "MYTHIC",
+        "id": "the_last_funeral",
+        "meshId": "rbxassetid://75524190405385",
+        "displayName": "The Last Funeral",
+        "visualKey": "the_last_funeral",
+        "income": 530,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_LAST_FUNERAL",
+        "price": 42500
+      },
+      {
+        "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+        "rarity": "SECRET",
+        "id": "nameless_door",
+        "meshId": "rbxassetid://136046415979732",
+        "displayName": "Nameless Door",
+        "visualKey": "nameless_door",
+        "income": 850,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_NAMELESS_DOOR",
+        "price": 60000
+      },
+      {
+        "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+        "rarity": "SECRET",
+        "id": "crown_of_silence",
+        "meshId": "rbxassetid://87201548999780",
+        "displayName": "Crown of Silence",
+        "visualKey": "crown_of_silence",
+        "income": 1100,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_CROWN_OF_SILENCE",
+        "price": 80000
+      },
+      {
+        "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+        "rarity": "SECRET",
+        "id": "the_first_grave",
+        "meshId": "rbxassetid://104080758542748",
+        "displayName": "The First Grave",
+        "visualKey": "the_first_grave",
+        "income": 1350,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_FIRST_GRAVE",
+        "price": 100000
+      },
+      {
+        "fbxSha256": "08fe246fc45a6838e34c0682adb7196e4cc62211235cb4ad0b3e7c5adcebc520",
+        "rarity": "SECRET",
+        "id": "the_unwritten",
+        "meshId": "rbxassetid://125834394266770",
+        "displayName": "The Unwritten",
+        "visualKey": "the_unwritten",
+        "income": 1600,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_UNWRITTEN",
+        "price": 120000
+      },
+      {
+        "fbxSha256": "c07d42e338c7621c1b27a81afe6e7733793d69485f0b7be9a7412e4e4003d917",
+        "rarity": "SECRET",
+        "id": "the_last_star",
+        "meshId": "rbxassetid://139013796148408",
+        "displayName": "The Last Star",
+        "visualKey": "the_last_star",
+        "income": 1850,
+        "isExpansion": true,
+        "futureEffectId": "FUTURE_THE_LAST_STAR",
+        "price": 140000
+      }
+    ],
+    "totalNativeVfxModels": 46,
+    "metadataCount": 56,
+    "client": {
+      "fixtureObservationOverheadIncluded": true,
+      "touchEnabled": true,
+      "deviceScope": "Actual local Studio client; device emulation when TouchEnabled, not a physical-device benchmark",
+      "far": {
+        "finalNativeCounts": {
+          "lights": 5,
+          "enabledBillboards": 0,
+          "activeLights": 0,
+          "billboards": 46,
+          "activeEmitters": 0,
+          "visibleFocuses": 0,
+          "nativeGlassPanes": 4,
+          "emitters": 46,
+          "focuses": 46,
+          "totalParticleRate": 0
+        },
+        "p99FrameMs": 16.628900542855263,
+        "framesOver33ms": 0,
+        "framesOver50ms": 0,
+        "maximumParticleRate": 0,
+        "maximumActiveEmitters": 0,
+        "p95FrameMs": 14.842700213193893,
+        "meanObservedFps": 94.97558238422722,
+        "p50FrameMs": 10.184399783611298,
+        "maximumFrameMs": 21.92549966275692,
+        "phase": "far",
+        "frameCount": 1425,
+        "observedSeconds": 15.0025587999844,
+        "countSamples": 142,
+        "maximumActiveLights": 0,
+        "minimumActiveEmitters": 0,
+        "meanFrameMs": 10.529022038048296
+      },
+      "viewport": [
+        749,
+        361
+      ],
+      "lightCap": 0,
+      "liveEffectCap": 12,
+      "near": {
+        "finalNativeCounts": {
+          "lights": 5,
+          "enabledBillboards": 0,
+          "activeLights": 0,
+          "billboards": 46,
+          "activeEmitters": 12,
+          "visibleFocuses": 12,
+          "nativeGlassPanes": 4,
+          "emitters": 46,
+          "focuses": 46,
+          "totalParticleRate": 17.366999983787537
+        },
+        "p99FrameMs": 18.43149960041046,
+        "framesOver33ms": 0,
+        "framesOver50ms": 0,
+        "maximumParticleRate": 19.35487139225006,
+        "maximumActiveEmitters": 12,
+        "p95FrameMs": 15.979999676346779,
+        "meanObservedFps": 91.32199430277736,
+        "p50FrameMs": 10.567099787294865,
+        "maximumFrameMs": 21.27069979906082,
+        "phase": "near",
+        "frameCount": 1370,
+        "observedSeconds": 15.00057699996978,
+        "countSamples": 142,
+        "maximumActiveLights": 0,
+        "minimumActiveEmitters": 12,
+        "meanFrameMs": 10.95026458450423
+      }
+    },
+    "ownedDisplaysAdded": 0,
+    "status": "PASS",
+    "earnedIncomeFromPresentation": 0,
+    "labelPolicy": "Unchanged production nearest placed label; visual display models have no logical Curse record",
+    "actualProductionOffers": 6
+  },
+  "failures": [],
+  "sourceFingerprints": {
+    "src/server/Map/HalloweenArt.luau": "f4667c141b7dbb5fdafb6793e1291ee9ebd9f1fcba8c9daeefd8152651ef0d13",
+    "src/client/UI/CurrencyCard.luau": "dbf23fa0898c4cb5768bdd21bb2c3d32a12c15d8813b3c6ce9233476cb2551d8",
+    "src/server/Gameplay/BaseService.luau": "a1735aa2f8843afae9fe02dd23b08bb6643f1c862e1ff6c1ae7f4a191675049d",
+    "assets/imports/curse-visual-pass2-current.json": "3a1aae2babba6c76aeaeb12c6f5a5d1283034ed36c25239c68e26c79dca400ed",
+    "tests/Build-VisualPass2Gameplay.ps1": "b73e8cb6206147c0a7c97be2dcf6fc805f420c46221a6218698d27268048e0c9",
+    "src/client/UI/PanelFrame.luau": "a3102d1f3a262168db857f1b12f724bb1b1282f39c3aeb407102650b62caa959",
+    "src/shared/CurseExpansionAssets.luau": "4681e844dde7b31416146fe96e3b196da8290517742bf38b4c854156bbaacafb",
+    "src/client/init.client.luau": "e22ca3c74c202dd516af715026a9c0a46950246349ee4d67da53ab7e6d1e4cbc",
+    "src/server/Map/Decorations.luau": "029c5c82ae913791c217d3831405ce29965b1c2617862e0afbbac7094bdc89a3",
+    "src/server/Gameplay/Config.luau": "d16ee3025c4decd924854744b5951fc0ea65b4d9b7bcae1689c38fab508f1158",
+    "src/server/Map/WorldPolish.luau": "192c09ffbbd8ae465956517303e90cb17e5e319ffb134da0601694507e87b558",
+    "default.project.json": "55123a5cc8a3a9559185404bdb01978ef24fc8940f48c3d7173cc1a7e5294363",
+    "src/shared/NumberFormat.luau": "741b35619768be3b2898537cadd0a7dfea2f89ea2abeec4266d24566b5147f45",
+    "tests/VisualPass2Gameplay.server.luau": "8b4aede75a501be2be26596ced916ba753122b0887e7ac4e29bc118374cfa166",
+    "src/server/Map/Layout.luau": "fae572e118ff58f563a2e25d65d39cbdafbc2fa039188f178ba0b8c1214ad61c",
+    "src/client/UI/CurseLabels.luau": "7645fba2c6f679d6361ca068ece66b7131d9e7db03e22fe84fa40ea3420bd225",
+    "src/server/Gameplay/CurseService.luau": "9110e0d53c04c3383fb2785cc3ba3fc45171032aa06cdb08d655144e983b2de1",
+    "tests/VisualPass2Gameplay.client.luau": "3c76a6108b37ed336589af2ad9abee35fbae46e0d7f0c662b4f5fa4323f6aa9c",
+    "src/server/Map/Config.luau": "c7efab0f6fa8d3b2b8132d3bd348132820bd3368832dd587237effd276d63d82",
+    "src/server/Map/AssetKit.luau": "b6ef3738a8d8df2609ef4a1b87bdf034330eba77bcdcc48b8798a0b263734fc9",
+    "src/client/UI/ShopPanel.luau": "c13ba8bb54f684e0a00021ec330cc9ecb666f0180ee654e6d0d71d94a8d3dd18",
+    "src/server/Gameplay/SoulsService.luau": "ef8cf9259dfbe0acecd53634229d10572e8a453bbafd1697ffee2efb75706997",
+    "src/server/init.server.luau": "cfb2dc029bafc0bd8a2f6e0a5fa5bf8b1e429fc5ca7044229921efb004551d54",
+    "src/server/Map/PlayerShrine.luau": "d6fb2ea5aeee3824d81d3062beba14fd259f57b077528d27f59231647fd62a70",
+    "src/server/Map/Primitives.luau": "08b51b521a2e2e85ff8bd05eae2ceb58b266d12444223e53cba29d4ab36a0cea",
+    "src/server/Map/Landmarks.luau": "b254546fdbd6e10bc36babbac1e77d685831d92a97960b52a83b065beab4ac0d",
+    "src/server/Map/SurfaceArt.luau": "4ea0bbfa7e21cdf276f4ff2d2e7a8e07b15befd81b878b0c40907fc527158075",
+    "src/server/Map/Grounding.luau": "7de16f0fdd5cbba38a758b2034fa7f5136c1a3b736a1d80798c4472ee8b74f31",
+    "src/server/Gameplay/CurseProcessionService.luau": "86dc30126de2d1ffb9e0d3e6c2b5d88f61fe4536b560d0bb904b8381c2d69674",
+    "src/client/UI/HUD.luau": "2da2b1393860f039664692d1fc166f8de59024a42be8a800065067966df1c3a1",
+    "src/server/Map/Build.luau": "033166ac2143349dc15b86b762e94090416784ab0b7f32062bdee6ceb838b2a0",
+    "src/client/UI/Navigation.luau": "773f5febef09ae0e39651ece3acfa762f12374da8d915467f1df5738510d541c",
+    "src/shared/Hello.luau": "f9c3e73a0f121694b403afd838212b5e1500a46f513853782e991d7ee183a85b",
+    "src/client/UI/Theme.luau": "c80edaef2bb34a36bc0a714beb890884f3cdff386838f792dc2ebc71d6c616e5",
+    "src/client/UI/ShopCard.luau": "86a617e458132f4ed5fb7ad761bc9038fbfaa6584ac5bd987ad92f74726c9069",
+    "src/server/Map/Mausoleum.luau": "936cb797f14617994ee274eeaeac70c2422ba090e1fcb768ef385fddd51649c8",
+    "src/client/UI/Icons.luau": "80fb24d0d4cf6f744b689a5cc58d8690d4e712caae43c3dea8f1744a76696f7a",
+    "src/shared/CurseCatalog.luau": "d8401f8d5c93b10908b1eab58c370d4cd7c8dc9c46464b5449cbaf36d96d0e97",
+    "src/server/Map/Materials.luau": "d9efafb58d0decd2cca29d4a5782816d722e55aa25547ba7c13c93ff3a2bf170",
+    "src/server/Map/TerrainArt.luau": "8ad4c8eb0e5aef128d09302acd95e048068558448d99acd320eb5a78b05c2364",
+    "src/server/Map/Cemetery.luau": "789ee798dfed80452662e2a02129412fc8fea1a61686cc7b446bf476b190b509",
+    "src/server/Gameplay/CurseVisualService.luau": "76e6c79a2115f4583d7ca81fa961dd887843d4020d606d3bf40b626f3907ddfa",
+    "src/shared/CurseVFXProfiles.luau": "54f24699ef3a900e1e73ef324ab7c8a501523691af0fdccc3bf861e8a5c8cdde",
+    "src/shared/CurseVisualPass2.luau": "de8e8e10fb8ee6cfff93648bc703d0d5b468f8c81eaddbd32d2c385d8cb2a485",
+    "src/client/CurseVFX.luau": "a4ec2991b372bf179fb9716fb67a2aafc133e15979d12cb5e9c8b6cfdc9c7a57",
+    "src/client/UI/ShellPanel.luau": "298f7c33f9f13fff59011f9a2781e78b2e232d37e128ecdadf0d8634de753cb7",
+    "src/server/Map/World.luau": "09f8c264b6868d2c32f4d3d5c3181bac89d9073edcdcdac8fcaa66765da0f569"
+  },
+  "route": []
+}

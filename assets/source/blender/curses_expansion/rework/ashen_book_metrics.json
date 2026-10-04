@@ -1,0 +1,108 @@
+{
+  "id": "ashen_book",
+  "displayName": "Ashen Book",
+  "rarity": "COMMON",
+  "sourceReference": "rework-02-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/ashen_book.blend",
+  "export": "assets/export/meshes/curses/rework/ashen_book.fbx",
+  "sha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+  "triangles": 2324,
+  "vertices": 1214,
+  "blenderDimensions": [
+    3.3299999237060547,
+    1.737797498703003,
+    2.6475000381469727
+  ],
+  "intendedRobloxSize": [
+    3.3299999237060547,
+    2.6475000381469727,
+    1.737797498703003
+  ],
+  "diagonal": 4.595442969983304,
+  "vfxHook": [
+    -0.29499999999999993,
+    -0.34625000268220907,
+    0.8611012200387088
+  ],
+  "vfxProfile": "ember_pages",
+  "palette": [
+    "cloth",
+    "ink",
+    "iron",
+    "ochre",
+    "paper",
+    "paper_light",
+    "rust",
+    "white_glow"
+  ],
+  "paintedColorCount": 391,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "CharredBookAndPageBlock",
+      "first_face": 0,
+      "last_face_exclusive": 446
+    },
+    {
+      "name": "RaisedBurntPageWing",
+      "first_face": 446,
+      "last_face_exclusive": 497
+    },
+    {
+      "name": "BurnScarsAndBinding",
+      "first_face": 497,
+      "last_face_exclusive": 551
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Remodeled charred walking book with deep page-block, angular opening, visible dark eyes, layered page feet, raised torn parchment wing and burnt gilding."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/ashen_book.blend",
+  "robloxIntendedSize": [
+    3.3299999237060547,
+    2.6475000381469727,
+    1.737797498703003
+  ],
+  "vfxHookRoblox": [
+    -0.29499999999999993,
+    -0.34625000268220907,
+    0.8611012200387088
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.033299997448921204,
+      0.017377978190779686,
+      0.026475002989172935
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2324,
+    "colorCount": 391,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "ashen_book",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

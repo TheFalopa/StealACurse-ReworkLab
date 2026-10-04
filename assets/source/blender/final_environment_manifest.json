@@ -1,0 +1,382 @@
+{
+  "generator": "assets/source/blender/generate_final_environment.py",
+  "source": "assets/source/blender/steal_a_curse_final_environment.blend",
+  "fbx_global_scale": 0.01,
+  "unique_mesh_count": 12,
+  "total_unique_triangles": 2468,
+  "original_project_assets": true,
+  "assets": [
+    {
+      "name": "final_gothic_doorway",
+      "fbx": "assets/export/meshes/final_gothic_doorway.fbx",
+      "triangles": 112,
+      "vertices": 68,
+      "blender_dimensions": [
+        20,
+        3,
+        25
+      ],
+      "expected_roblox_size": [
+        20,
+        25,
+        3
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Open pointed manor entrance; clear 13.2-stud opening",
+      "mesh_id": "rbxassetid://93984507446049",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        20,
+        25,
+        3.0000040531158447
+      ],
+      "initial_size": [
+        20,
+        25,
+        3.0000040531158447
+      ]
+    },
+    {
+      "name": "final_gothic_window",
+      "fbx": "assets/export/meshes/final_gothic_window.fbx",
+      "triangles": 128,
+      "vertices": 72,
+      "blender_dimensions": [
+        6,
+        1,
+        13
+      ],
+      "expected_roblox_size": [
+        6,
+        13,
+        1
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Hollow lancet frame and restrained tracery",
+      "mesh_id": "rbxassetid://111779363059681",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        6,
+        13,
+        1.0000001192092896
+      ],
+      "initial_size": [
+        6,
+        13,
+        1.0000001192092896
+      ]
+    },
+    {
+      "name": "final_crooked_roof",
+      "fbx": "assets/export/meshes/final_crooked_roof.fbx",
+      "triangles": 34,
+      "vertices": 21,
+      "blender_dimensions": [
+        28,
+        26,
+        18
+      ],
+      "expected_roblox_size": [
+        28,
+        18,
+        26
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Steep canted roof with rear finial",
+      "mesh_id": "rbxassetid://88083283938508",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        28,
+        18,
+        26
+      ],
+      "initial_size": [
+        28,
+        18,
+        26
+      ]
+    },
+    {
+      "name": "final_buttress",
+      "fbx": "assets/export/meshes/final_buttress.fbx",
+      "triangles": 68,
+      "vertices": 40,
+      "blender_dimensions": [
+        4,
+        7,
+        18
+      ],
+      "expected_roblox_size": [
+        4,
+        18,
+        7
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Tiered projecting gothic support",
+      "mesh_id": "rbxassetid://121418058164290",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        4,
+        18,
+        7.000002861022949
+      ],
+      "initial_size": [
+        4,
+        18,
+        7.000002861022949
+      ]
+    },
+    {
+      "name": "final_collection_pedestal",
+      "fbx": "assets/export/meshes/final_collection_pedestal.fbx",
+      "triangles": 172,
+      "vertices": 96,
+      "blender_dimensions": [
+        6,
+        6,
+        2.5
+      ],
+      "expected_roblox_size": [
+        6,
+        2.5,
+        6
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Broad octagonal collection dais",
+      "mesh_id": "rbxassetid://136578707816851",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        6,
+        2.5000009536743164,
+        6
+      ],
+      "initial_size": [
+        6,
+        2.5000009536743164,
+        6
+      ]
+    },
+    {
+      "name": "final_iron_fence",
+      "fbx": "assets/export/meshes/final_iron_fence.fbx",
+      "triangles": 244,
+      "vertices": 144,
+      "blender_dimensions": [
+        12,
+        1,
+        7
+      ],
+      "expected_roblox_size": [
+        12,
+        7,
+        1
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Open pointed cemetery railing",
+      "mesh_id": "rbxassetid://125211551490808",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        12,
+        7,
+        1.0000001192092896
+      ],
+      "initial_size": [
+        12,
+        7,
+        1.0000001192092896
+      ]
+    },
+    {
+      "name": "final_pumpkin",
+      "fbx": "assets/export/meshes/final_pumpkin.fbx",
+      "triangles": 246,
+      "vertices": 127,
+      "blender_dimensions": [
+        3.5,
+        3.5,
+        3
+      ],
+      "expected_roblox_size": [
+        3.5,
+        3,
+        3.5
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Ribbed low-poly pumpkin and bent stem",
+      "mesh_id": "rbxassetid://85694347830310",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        3.5,
+        3,
+        3.5
+      ],
+      "initial_size": [
+        3.5,
+        3,
+        3.5
+      ]
+    },
+    {
+      "name": "final_giant_tree",
+      "fbx": "assets/export/meshes/final_giant_tree.fbx",
+      "triangles": 464,
+      "vertices": 258,
+      "blender_dimensions": [
+        40,
+        30,
+        52
+      ],
+      "expected_roblox_size": [
+        40,
+        52,
+        30
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Twisted hero tree with silhouette branches and roots",
+      "mesh_id": "rbxassetid://106911067618583",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        40,
+        52,
+        30.000001907348633
+      ],
+      "initial_size": [
+        40,
+        52,
+        30.000001907348633
+      ]
+    },
+    {
+      "name": "final_cliff_cluster",
+      "fbx": "assets/export/meshes/final_cliff_cluster.fbx",
+      "triangles": 152,
+      "vertices": 84,
+      "blender_dimensions": [
+        38,
+        25,
+        15
+      ],
+      "expected_roblox_size": [
+        38,
+        15,
+        25
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Layered faceted embankment cluster",
+      "mesh_id": "rbxassetid://102007331454332",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        38,
+        15.000001907348633,
+        25
+      ],
+      "initial_size": [
+        38,
+        15.000001907348633,
+        25
+      ]
+    },
+    {
+      "name": "final_hero_grave",
+      "fbx": "assets/export/meshes/final_hero_grave.fbx",
+      "triangles": 120,
+      "vertices": 70,
+      "blender_dimensions": [
+        7,
+        3,
+        11
+      ],
+      "expected_roblox_size": [
+        7,
+        11,
+        3
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Pointed memorial with open carved ward",
+      "mesh_id": "rbxassetid://114437295252890",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        7,
+        11,
+        3.000000238418579
+      ],
+      "initial_size": [
+        7,
+        11,
+        3.000000238418579
+      ]
+    },
+    {
+      "name": "final_lantern",
+      "fbx": "assets/export/meshes/final_lantern.fbx",
+      "triangles": 248,
+      "vertices": 140,
+      "blender_dimensions": [
+        3,
+        3,
+        5
+      ],
+      "expected_roblox_size": [
+        3,
+        5,
+        3
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Open hexagonal cage; native flame placed separately",
+      "mesh_id": "rbxassetid://126649242262975",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        3,
+        5,
+        3.000000476837158
+      ],
+      "initial_size": [
+        3,
+        5,
+        3.000000476837158
+      ]
+    },
+    {
+      "name": "final_chain",
+      "fbx": "assets/export/meshes/final_chain.fbx",
+      "triangles": 480,
+      "vertices": 240,
+      "blender_dimensions": [
+        2,
+        1.5,
+        10
+      ],
+      "expected_roblox_size": [
+        2,
+        10,
+        1.5
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Six alternating oversized links",
+      "mesh_id": "rbxassetid://137302239107896",
+      "import_status": "verified_actual_studio_import",
+      "imported_size": [
+        2,
+        10,
+        1.5000009536743164
+      ],
+      "initial_size": [
+        2,
+        10,
+        1.5000009536743164
+      ]
+    }
+  ]
+}

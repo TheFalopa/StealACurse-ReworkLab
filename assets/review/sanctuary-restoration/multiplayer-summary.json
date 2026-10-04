@@ -1,0 +1,75 @@
+{
+  "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+  "robbery": "NOT_ASSERTED",
+  "owner": "Player1",
+  "cases": [
+    "cursed_doll",
+    "watching_eye",
+    "soul_chains",
+    "grave_hopper",
+    "nail_beetle",
+    "coin_crawler"
+  ],
+  "scope": "Two actual native clients; real RF management/restoration, QA RPC forwarding prompt-only purchase/contract handlers. Setup positions teleported; labelled walking sections use Humanoid movement. No mesh/bone/VFX writes.",
+  "observer": "Player2",
+  "physicalPhone": "NOT_TESTED",
+  "seedDisclosure": [
+    {
+      "souls": 1000000,
+      "fragments": 1000,
+      "cursesSeeded": false,
+      "userId": -1,
+      "before": {
+        "fragments": 0,
+        "style": "CRYPT",
+        "milestones": {
+          "sealing": 0,
+          "contracts": 0,
+          "recovery": 0,
+          "sealActivations": 0,
+          "transport": 0,
+          "majorRelics": 0
+        },
+        "level": 0,
+        "rituals": [],
+        "schema": 1,
+        "discoveries": []
+      },
+      "player": "Player1",
+      "discoveriesSeeded": false,
+      "level": 10,
+      "kind": "EXPLICIT_QA_LEVEL_AND_RESOURCES_NOT_GAMEPLAY_PROGRESSION"
+    },
+    {
+      "souls": 1000000,
+      "fragments": 1000,
+      "cursesSeeded": false,
+      "userId": -2,
+      "before": {
+        "fragments": 0,
+        "style": "CRYPT",
+        "milestones": {
+          "sealing": 0,
+          "contracts": 0,
+          "recovery": 0,
+          "sealActivations": 0,
+          "transport": 0,
+          "majorRelics": 0
+        },
+        "level": 0,
+        "rituals": [],
+        "schema": 1,
+        "discoveries": []
+      },
+      "player": "Player2",
+      "discoveriesSeeded": false,
+      "level": 2,
+      "kind": "EXPLICIT_QA_LEVEL_AND_RESOURCES_NOT_GAMEPLAY_PROGRESSION"
+    }
+  ],
+  "elapsedSeconds": 443.8463086999982,
+  "status": "PASS",
+  "observerLevel": 2,
+  "assertions": 478,
+  "ownerLevel": 10
+}

@@ -1,0 +1,82 @@
+{
+  "id": "thorn_reliquary",
+  "displayName": "Thorn Reliquary",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-06-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/thorn_reliquary.blend",
+  "export": "assets/export/meshes/curses/rework/thorn_reliquary.fbx",
+  "sha256": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+  "triangles": 2060,
+  "vertices": 1104,
+  "blenderDimensions": [
+    1.7483792304992676,
+    1.749131679534912,
+    3.612090587615967
+  ],
+  "intendedRobloxSize": [
+    1.7483792304992676,
+    3.612090587615967,
+    1.749131679534912
+  ],
+  "diagonal": 4.377612360538299,
+  "vfxHook": [
+    0.11857816100120544,
+    0.11904519543051717,
+    0.3000000131130218
+  ],
+  "vfxProfile": "glass_caged_thorn",
+  "palette": [
+    "glass",
+    "gold",
+    "gold_edge",
+    "ink",
+    "porcelain",
+    "white_glow"
+  ],
+  "paintedColorCount": 638,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "eight sided antique bronze reliquary frame and footed base",
+      "first_face": 0,
+      "last_face_exclusive": 580
+    },
+    {
+      "name": "sculpted blue glass edge reflections",
+      "first_face": 580,
+      "last_face_exclusive": 622
+    },
+    {
+      "name": "curved black thorn entity, forked root feet and pale eyes",
+      "first_face": 622,
+      "last_face_exclusive": 940
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Octagonal aged bronze urn with curved roof ribs, ring handle and feet; sculpted blue glass edge reflections preserve full visibility of a volumetric forked black thorn creature.",
+    "Studio profile adds eight faint transparent urn panes and a trapped dark vapor curl without obscuring the creature."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/thorn_reliquary.blend",
+  "robloxIntendedSize": [
+    1.7483792304992676,
+    3.612090587615967,
+    1.749131679534912
+  ],
+  "vfxHookRoblox": [
+    0.11857816100120544,
+    0.11904519543051717,
+    0.3000000131130218
+  ]
+}

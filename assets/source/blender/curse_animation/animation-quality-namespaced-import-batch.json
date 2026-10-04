@@ -1,0 +1,9 @@
+{
+  "ids": [
+    "watching_eye",
+    "plague_monarch",
+    "the_void"
+  ],
+  "fbx": "assets/export/meshes/curses/animations/animation-quality-namespaced.fbx",
+  "sha256": "5cb34068f36d3e44989d2b8b28520ab5b3606ec3624ae5fa59c31251fc3085ba"
+}

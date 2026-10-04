@@ -1,0 +1,80 @@
+{
+  "id": "veil_mourner",
+  "displayName": "Veil Mourner",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-04-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/veil_mourner.blend",
+  "export": "assets/export/meshes/curses/rework/veil_mourner.fbx",
+  "sha256": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+  "triangles": 3280,
+  "vertices": 1686,
+  "blenderDimensions": [
+    2.645899534225464,
+    1.655981183052063,
+    3.5281481742858887
+  ],
+  "intendedRobloxSize": [
+    2.645899534225464,
+    3.5281481742858887,
+    1.655981183052063
+  ],
+  "diagonal": 4.7107204930407285,
+  "vfxHook": [
+    -0.008109654141302158,
+    0.36907407701148065,
+    0.5204286510789994
+  ],
+  "vfxProfile": "black_veil_breath",
+  "palette": [
+    "bone",
+    "cloth",
+    "cloth_edge",
+    "ink"
+  ],
+  "paintedColorCount": 443,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "folded hollow black mourning cloak",
+      "first_face": 0,
+      "last_face_exclusive": 498
+    },
+    {
+      "name": "ragged lace hems and pale hands gripping the veil",
+      "first_face": 498,
+      "last_face_exclusive": 1406
+    },
+    {
+      "name": "aged bone mourning comb",
+      "first_face": 1406,
+      "last_face_exclusive": 1685
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Volumetric open front cloak with twelve gathered folds, irregular torn hem, hollow dark hood and pale gripping hands; bone mourning comb.",
+    "Slow low amplitude cloak breathing and pale dust settling from the bone comb."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/veil_mourner.blend",
+  "robloxIntendedSize": [
+    2.645899534225464,
+    3.5281481742858887,
+    1.655981183052063
+  ],
+  "vfxHookRoblox": [
+    -0.008109654141302158,
+    0.36907407701148065,
+    0.5204286510789994
+  ]
+}

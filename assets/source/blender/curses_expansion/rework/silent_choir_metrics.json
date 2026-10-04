@@ -1,0 +1,115 @@
+{
+  "id": "silent_choir",
+  "displayName": "Silent Choir",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-08-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/silent_choir.blend",
+  "export": "assets/export/meshes/curses/rework/silent_choir.fbx",
+  "sha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+  "triangles": 2680,
+  "vertices": 1402,
+  "blenderDimensions": [
+    3.1093266010284424,
+    0.9257192611694336,
+    3.3661372661590576
+  ],
+  "intendedRobloxSize": [
+    3.1093266010284424,
+    3.3661372661590576,
+    0.9257192611694336
+  ],
+  "diagonal": 4.675013171851813,
+  "vfxHook": [
+    -0.0421632766723633,
+    1.316931414604187,
+    0.30999999999999994
+  ],
+  "vfxProfile": "silent_choir_chimes",
+  "palette": [
+    "brass",
+    "brass_edge",
+    "burial",
+    "gold_glow",
+    "indigo",
+    "ivory",
+    "linen"
+  ],
+  "paintedColorCount": 486,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Three solemn separate robed presences with unequal heights",
+      "first_face": 0,
+      "last_face_exclusive": 81
+    },
+    {
+      "name": "Open inverted bell head -0.89",
+      "first_face": 81,
+      "last_face_exclusive": 310
+    },
+    {
+      "name": "Open inverted bell head 0",
+      "first_face": 310,
+      "last_face_exclusive": 539
+    },
+    {
+      "name": "Open inverted bell head 0.94",
+      "first_face": 539,
+      "last_face_exclusive": 687
+    },
+    {
+      "name": "Fine suspended chime chain between three bell heads",
+      "first_face": 687,
+      "last_face_exclusive": 705
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 08: three individually robed solemn presences in charcoal, pale linen and indigo, with different heights and genuinely open bell mouths turned toward the viewer. Folded cloth volumes, raised seam piping, small chimes and a suspended connecting line unify the choir."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/silent_choir.blend",
+  "robloxIntendedSize": [
+    3.1093266010284424,
+    3.3661372661590576,
+    0.9257192611694336
+  ],
+  "vfxHookRoblox": [
+    -0.0421632766723633,
+    1.316931414604187,
+    0.30999999999999994
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.031093265861272812,
+      0.009257198311388493,
+      0.0336613729596138
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2680,
+    "colorCount": 486,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "silent_choir",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "lantern_lurker",
+  "displayName": "Lantern Lurker",
+  "rarity": "COMMON",
+  "sourceReference": "rework-02-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/lantern_lurker.blend",
+  "export": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+  "sha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+  "triangles": 2950,
+  "vertices": 1539,
+  "blenderDimensions": [
+    2.6640000343322754,
+    2.010521173477173,
+    3.0691256523132324
+  ],
+  "intendedRobloxSize": [
+    2.6640000343322754,
+    3.0691256523132324,
+    2.010521173477173
+  ],
+  "diagonal": 4.534161867601279,
+  "vfxHook": [
+    -0.018000000000000016,
+    -0.20456282138824444,
+    0.05726058511691673
+  ],
+  "vfxProfile": "trapped_green_light",
+  "palette": [
+    "gold",
+    "green",
+    "green_glow",
+    "iron",
+    "iron_edge",
+    "rust"
+  ],
+  "paintedColorCount": 534,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "CageWithTrappedGreenLight",
+      "first_face": 0,
+      "last_face_exclusive": 360
+    },
+    {
+      "name": "CrookedHandleAndWalkingClaws",
+      "first_face": 360,
+      "last_face_exclusive": 1062
+    },
+    {
+      "name": "TarnishAndGlassVeins",
+      "first_face": 1062,
+      "last_face_exclusive": 1110
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Open deep cage surrounds bright green haunted core, eight uneven iron bars, crooked loop handle and four crouched jointed claw legs."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/lantern_lurker.blend",
+  "robloxIntendedSize": [
+    2.6640000343322754,
+    3.0691256523132324,
+    2.010521173477173
+  ],
+  "vfxHookRoblox": [
+    -0.018000000000000016,
+    -0.20456282138824444,
+    0.05726058511691673
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.026639999821782112,
+      0.020105216652154922,
+      0.03069126047194004
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2950,
+    "colorCount": 534,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "lantern_lurker",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

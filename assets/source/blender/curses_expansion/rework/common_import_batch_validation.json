@@ -1,0 +1,414 @@
+{
+  "status": "COMMON_BATCH_ROUND_TRIP_PASS",
+  "export": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+  "fbxSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+  "roots": 15,
+  "totalTriangles": 33076,
+  "assets": [
+    {
+      "dimensions": [
+        0.025200000032782555,
+        0.01604991778731346,
+        0.03925928846001625
+      ],
+      "center": [
+        0.0,
+        -2.7939677238464355e-09,
+        0.0
+      ],
+      "triangles": 3606,
+      "vertices": 1901,
+      "uvLayers": 1,
+      "colorCount": 1086,
+      "colorCornersSha256": "1e03e81f650949385b27d64f1d63fc07aab9bfddfe9aedf7540b707a7c401206",
+      "materials": 1,
+      "id": "candle_wisp",
+      "componentExport": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+      "componentFbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "robloxIntendedSize": [
+        2.5199999809265137,
+        3.9259285926818848,
+        1.6049913167953491
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.029301730915904045,
+        0.019563544541597366,
+        0.030210860073566437
+      ],
+      "center": [
+        0.0,
+        -1.862645149230957e-09,
+        0.0
+      ],
+      "triangles": 2400,
+      "vertices": 1258,
+      "uvLayers": 1,
+      "colorCount": 410,
+      "colorCornersSha256": "3878a00cc13715d1aa02bad299494a364b750885f37844cb252b0f4ecf68fe14",
+      "materials": 1,
+      "id": "grave_hopper",
+      "componentExport": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+      "componentFbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "robloxIntendedSize": [
+        2.93017315864563,
+        3.0210859775543213,
+        1.9563539028167725
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.029194774106144905,
+        0.007180376909673214,
+        0.034665003418922424
+      ],
+      "center": [
+        0.0,
+        -1.6298145055770874e-09,
+        0.0
+      ],
+      "triangles": 1526,
+      "vertices": 793,
+      "uvLayers": 1,
+      "colorCount": 336,
+      "colorCornersSha256": "16508fdd6c6b470834be1eb60c490850310bc194b26c63cd91f152af0cecec9a",
+      "materials": 1,
+      "id": "grave_key",
+      "componentExport": "assets/export/meshes/curses/rework/grave_key.fbx",
+      "componentFbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+      "robloxIntendedSize": [
+        2.9194774627685547,
+        3.4665002822875977,
+        0.718036949634552
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.03799999877810478,
+        0.007315351162105799,
+        0.03020000085234642
+      ],
+      "center": [
+        0.0,
+        6.984919309616089e-10,
+        0.0
+      ],
+      "triangles": 1728,
+      "vertices": 904,
+      "uvLayers": 1,
+      "colorCount": 152,
+      "colorCornersSha256": "4d7f62eb8c3274053efe5e99cfc9e990425362044c72336fc152f8b8a7bfebe1",
+      "materials": 1,
+      "id": "mourning_ribbon",
+      "componentExport": "assets/export/meshes/curses/rework/mourning_ribbon.fbx",
+      "componentFbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+      "robloxIntendedSize": [
+        3.799999952316284,
+        3.0199999809265137,
+        0.7315346002578735
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.02669999748468399,
+        0.013917145784944296,
+        0.03403151407837868
+      ],
+      "center": [
+        0.0,
+        1.6298145055770874e-09,
+        0.0
+      ],
+      "triangles": 2220,
+      "vertices": 1156,
+      "uvLayers": 1,
+      "colorCount": 388,
+      "colorCornersSha256": "fc803bb8f15d4faa9deac3cad85696351e2737f973b274e5284ddb9068290bed",
+      "materials": 1,
+      "id": "wilted_sprout",
+      "componentExport": "assets/export/meshes/curses/rework/wilted_sprout.fbx",
+      "componentFbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+      "robloxIntendedSize": [
+        2.6700000762939453,
+        3.403151035308838,
+        1.391714096069336
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.027402112260460854,
+        0.009678603149950504,
+        0.029946601018309593
+      ],
+      "center": [
+        0.0,
+        -4.656612873077393e-10,
+        0.0
+      ],
+      "triangles": 1772,
+      "vertices": 928,
+      "uvLayers": 1,
+      "colorCount": 234,
+      "colorCornersSha256": "99bf9b570d3aa92c7ece0f0ef0b0c78ec61d3813c98ad2a1dc9fc26c90169160",
+      "materials": 1,
+      "id": "ink_imp",
+      "componentExport": "assets/export/meshes/curses/rework/ink_imp.fbx",
+      "componentFbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "robloxIntendedSize": [
+        2.740211248397827,
+        2.994659900665283,
+        0.96785968542099
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.026900000870227814,
+        0.00501815602183342,
+        0.027650000527501106
+      ],
+      "center": [
+        0.0,
+        -2.3283064365386963e-10,
+        0.0
+      ],
+      "triangles": 2500,
+      "vertices": 1298,
+      "uvLayers": 1,
+      "colorCount": 451,
+      "colorCornersSha256": "99f723dd3a06017e03bd3ee1e7a7a23e9348c43c2aa29dd9f7941980c3d38037",
+      "materials": 1,
+      "id": "lost_locket",
+      "componentExport": "assets/export/meshes/curses/rework/lost_locket.fbx",
+      "componentFbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "robloxIntendedSize": [
+        2.690000057220459,
+        2.765000104904175,
+        0.501815140247345
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.033299997448921204,
+        0.01737797725945711,
+        0.026475002989172935
+      ],
+      "center": [
+        0.0,
+        -1.3969838619232178e-09,
+        0.0
+      ],
+      "triangles": 2324,
+      "vertices": 1214,
+      "uvLayers": 1,
+      "colorCount": 391,
+      "colorCornersSha256": "c7efba17879186a0705402e5fa76c59b7ab538c2ad01be9a6ab81e2fdb38574c",
+      "materials": 1,
+      "id": "ashen_book",
+      "componentExport": "assets/export/meshes/curses/rework/ashen_book.fbx",
+      "componentFbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "robloxIntendedSize": [
+        3.3299999237060547,
+        2.6475000381469727,
+        1.737797498703003
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.026639999821782112,
+        0.02010522037744522,
+        0.030691261403262615
+      ],
+      "center": [
+        0.0,
+        -9.313225746154785e-10,
+        -4.656612873077393e-10
+      ],
+      "triangles": 2950,
+      "vertices": 1539,
+      "uvLayers": 1,
+      "colorCount": 534,
+      "colorCornersSha256": "3c474a815377a79186c4704030f6a500ca218fd80dac2b2169fbe45e945a3685",
+      "materials": 1,
+      "id": "lantern_lurker",
+      "componentExport": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+      "componentFbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "robloxIntendedSize": [
+        2.6640000343322754,
+        3.0691256523132324,
+        2.010521173477173
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.03154965117573738,
+        0.012913806829601526,
+        0.02160000428557396
+      ],
+      "center": [
+        0.0,
+        -1.6298145055770874e-09,
+        0.0
+      ],
+      "triangles": 2546,
+      "vertices": 1335,
+      "uvLayers": 1,
+      "colorCount": 458,
+      "colorCornersSha256": "7e2e1a0653dd7711fe3d82d102abdff10b179e49bf29fde1ce283ee557636286",
+      "materials": 1,
+      "id": "hourglass_hound",
+      "componentExport": "assets/export/meshes/curses/rework/hourglass_hound.fbx",
+      "componentFbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+      "robloxIntendedSize": [
+        3.1549651622772217,
+        2.1600000858306885,
+        1.2913804054260254
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.02208719402551651,
+        0.023138373158872128,
+        0.01622933614999056
+      ],
+      "center": [
+        0.0,
+        -4.656612873077393e-10,
+        -4.656612873077393e-10
+      ],
+      "triangles": 1594,
+      "vertices": 833,
+      "uvLayers": 1,
+      "colorCount": 331,
+      "colorCornersSha256": "93566b6d51192903bd34600c4b9e0f20d6b1e9eb7a488629f019a2426f0cd8f9",
+      "materials": 1,
+      "id": "nail_beetle",
+      "componentExport": "assets/export/meshes/curses/rework/nail_beetle.fbx",
+      "componentFbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+      "robloxIntendedSize": [
+        2.2087197303771973,
+        1.6229333877563477,
+        2.3138370513916016
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.025144094601273537,
+        0.008689990267157555,
+        0.02940000221133232
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triangles": 1716,
+      "vertices": 916,
+      "uvLayers": 1,
+      "colorCount": 413,
+      "colorCornersSha256": "77bc27a4e446978e8a7b6f7cd224899ab655567a04f1ff3b92ee28bf522914be",
+      "materials": 1,
+      "id": "pale_guest",
+      "componentExport": "assets/export/meshes/curses/rework/pale_guest.fbx",
+      "componentFbxSha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+      "robloxIntendedSize": [
+        2.5144095420837402,
+        2.940000057220459,
+        0.8689985871315002
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.02705807238817215,
+        0.02471574116498232,
+        0.024837680160999298
+      ],
+      "center": [
+        0.0,
+        -2.3283064365386963e-09,
+        0.0
+      ],
+      "triangles": 2456,
+      "vertices": 1274,
+      "uvLayers": 1,
+      "colorCount": 330,
+      "colorCornersSha256": "7799dda53dcce9db635926efa6e2ecb7027f52229ab4f5697d42081ba4acc483",
+      "materials": 1,
+      "id": "cold_teacup",
+      "componentExport": "assets/export/meshes/curses/rework/cold_teacup.fbx",
+      "componentFbxSha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+      "robloxIntendedSize": [
+        2.7058072090148926,
+        2.4837677478790283,
+        2.471573829650879
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.027699999511241913,
+        0.025416333228349686,
+        0.011513852048665285
+      ],
+      "center": [
+        0.0,
+        0.0,
+        -2.3283064365386963e-10
+      ],
+      "triangles": 2172,
+      "vertices": 1142,
+      "uvLayers": 1,
+      "colorCount": 439,
+      "colorCornersSha256": "f33d31d9b72d5af1ee00c48e3152fc5699502958cfe3ff9700ad8c471579192c",
+      "materials": 1,
+      "id": "coin_crawler",
+      "componentExport": "assets/export/meshes/curses/rework/coin_crawler.fbx",
+      "componentFbxSha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+      "robloxIntendedSize": [
+        2.7699999809265137,
+        1.1513848304748535,
+        2.541633129119873
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    },
+    {
+      "dimensions": [
+        0.03644999861717224,
+        0.006982878316193819,
+        0.03389763459563255
+      ],
+      "center": [
+        0.0,
+        6.984919309616089e-10,
+        0.0
+      ],
+      "triangles": 1566,
+      "vertices": 823,
+      "uvLayers": 1,
+      "colorCount": 255,
+      "colorCornersSha256": "dbdacbba645901f340e38805359581017dff12c57d6ba342648b39f4dd876f1e",
+      "materials": 1,
+      "id": "umbrella_wraith",
+      "componentExport": "assets/export/meshes/curses/rework/umbrella_wraith.fbx",
+      "componentFbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+      "robloxIntendedSize": [
+        3.6449999809265137,
+        3.389763593673706,
+        0.6982869505882263
+      ],
+      "status": "BATCH_COMPONENT_ROUND_TRIP_PASS"
+    }
+  ]
+}

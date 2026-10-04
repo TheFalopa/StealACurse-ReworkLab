@@ -1,0 +1,113 @@
+{
+  "id": "umbrella_wraith",
+  "displayName": "Umbrella Wraith",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_visual_pass2/batch02/umbrella_wraith.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/batch02/umbrella_wraith.fbx",
+  "sha256": "5a525705186b04fe22f3f6950ea44e2db4f24fa1da80fc3814efd517d19eae6c",
+  "triangles": 1566,
+  "vertices": 823,
+  "blenderDimensions": [
+    5.591540336608887,
+    2.799999952316284,
+    5.199999809265137
+  ],
+  "intendedRobloxSize": [
+    5.591540336608887,
+    5.199999809265137,
+    2.799999952316284
+  ],
+  "diagonal": 8.13297738133169,
+  "vfxHook": [
+    0.03068060614168644,
+    0.5750799179077148,
+    0.8053969740867615
+  ],
+  "vfxProfile": "umbrella_shadow",
+  "palette": [
+    "cloth",
+    "gold",
+    "gold_edge",
+    "iron_edge",
+    "white_glow",
+    "wood"
+  ],
+  "paintedColorCount": 255,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "FoldedUmbrellaBodyAndHandle",
+      "first_face": 0,
+      "last_face_exclusive": 219
+    },
+    {
+      "name": "TatteredWingLikeFolds",
+      "first_face": 219,
+      "last_face_exclusive": 307
+    },
+    {
+      "name": "BrassFasteners",
+      "first_face": 307,
+      "last_face_exclusive": 423
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Tall folded black umbrella spirit with one glowing eye in the fold, torn bat-like cloth wings, exposed rib seams, brass clasp and curved hook handle.",
+    "Cool charcoal canopy facets and blue-gray seams reveal the folded, torn umbrella; preserve the pale eye and brass hook."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/batch02/umbrella_wraith.blend",
+  "robloxIntendedSize": [
+    5.591540336608887,
+    5.199999809265137,
+    2.799999952316284
+  ],
+  "vfxHookRoblox": [
+    0.03068060614168644,
+    0.5750799179077148,
+    0.8053969740867615
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.05591540038585663,
+      0.028000008314847946,
+      0.052000001072883606
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 1566,
+    "colorCount": 248,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "umbrella_wraith",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "5a525705186b04fe22f3f6950ea44e2db4f24fa1da80fc3814efd517d19eae6c"
+  },
+  "fbxExported": true,
+  "locallyValidated": true,
+  "pass": 2,
+  "revision": 2,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/umbrella_wraith.blend",
+  "sourceReusedSha256": "f77ba58347b95a2f0d0da1819ffca2a17d2c71fbd7185f7523e74e92a65364e0",
+  "vfxHooks": {},
+  "changedPaintCorners": 2669
+}

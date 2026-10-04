@@ -1,0 +1,41 @@
+[
+  {
+    "id": "wilted_sprout",
+    "exactUnchanged": {
+      "vertices": true,
+      "polygons": true,
+      "materials": true,
+      "uvs": true,
+      "colors": true,
+      "rest": true
+    },
+    "badWeightSums": 0,
+    "nativePlayReviewed": false
+  },
+  {
+    "id": "cold_teacup",
+    "exactUnchanged": {
+      "vertices": true,
+      "polygons": true,
+      "materials": true,
+      "uvs": true,
+      "colors": true,
+      "rest": true
+    },
+    "badWeightSums": 0,
+    "nativePlayReviewed": false
+  },
+  {
+    "id": "thorn_reliquary",
+    "exactUnchanged": {
+      "vertices": true,
+      "polygons": true,
+      "materials": true,
+      "uvs": true,
+      "colors": true,
+      "rest": true
+    },
+    "badWeightSums": 0,
+    "nativePlayReviewed": false
+  }
+]

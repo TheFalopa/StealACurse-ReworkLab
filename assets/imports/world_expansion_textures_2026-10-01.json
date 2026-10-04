@@ -1,0 +1,11 @@
+{
+  "workflow": "Roblox Studio Asset Manager > Import, original local PNGs only, creator Yo",
+  "evidence": "All three upload rows green/completed; inventory rows type Imagen and the exact IDs below observed in Studio",
+  "experiencePublished": false,
+  "playValidated": false,
+  "textures": [
+    {"name": "hollow_stone_v1", "source": "assets/source/textures/world_expansion/hollow_stone_v1.png", "imageId": "rbxassetid://93394270586297", "variant": "HollowStonePainted", "baseMaterial": "Slate", "studsPerTile": 16, "pattern": "Regular"},
+    {"name": "twilight_wood_v1", "source": "assets/source/textures/world_expansion/twilight_wood_v1.png", "imageId": "rbxassetid://81623021739244", "variant": "TwilightWoodPainted", "baseMaterial": "Wood", "studsPerTile": 12, "pattern": "Regular"},
+    {"name": "dusky_soil_v1", "source": "assets/source/textures/world_expansion/dusky_soil_v1.png", "imageId": "rbxassetid://117271298687011", "variant": "DuskySoilPainted", "baseMaterial": "Ground", "studsPerTile": 28, "pattern": "Organic"}
+  ]
+}

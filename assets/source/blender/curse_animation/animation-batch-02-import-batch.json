@@ -1,0 +1,16 @@
+{
+  "ids": [
+    "lantern_lurker",
+    "hourglass_hound",
+    "nail_beetle",
+    "pale_guest",
+    "cold_teacup",
+    "coin_crawler",
+    "umbrella_wraith",
+    "marrow_dice",
+    "veil_mourner",
+    "grave_compass"
+  ],
+  "fbx": "assets/export/meshes/curses/animations/animation-batch-02.fbx",
+  "sha256": "bce44efeecc9e668c67470f7555fcaec8cda1e9b946cf971aa55f44b2a5b3d62"
+}

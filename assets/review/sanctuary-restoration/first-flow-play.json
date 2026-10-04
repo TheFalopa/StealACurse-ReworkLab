@@ -1,0 +1,96 @@
+{
+  "UnitJSON": {
+    "failed": 0,
+    "run": 54,
+    "passed": 54
+  },
+  "Stage": "FIRST_FLOW_PASS",
+  "ResultsJSON": [
+    {
+      "ok": true,
+      "label": "actual local profile loaded"
+    },
+    {
+      "ok": true,
+      "label": "native E claim"
+    },
+    {
+      "ok": true,
+      "label": "clean new account without test balance"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Recupera una pieza del sello y llévala a tu altar.",
+      "label": "recovery contract accepted"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Tu altar.",
+      "label": "real physical relic picked"
+    },
+    {
+      "ok": true,
+      "label": "relic excludes simultaneous Curse purchase"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +4 Fragmentos de sello.",
+      "label": "physical delivery awards once"
+    },
+    {
+      "ok": true,
+      "label": "duplicate delivery cannot pay"
+    },
+    {
+      "ok": true,
+      "label": "production purchase succeeds after relic delivery"
+    },
+    {
+      "ok": true,
+      "label": "purchase without placement does not discover"
+    },
+    {
+      "ok": true,
+      "detail": "Cursed Doll colocada.",
+      "label": "legitimate manual placement records one species"
+    },
+    {
+      "ok": true,
+      "detail": "Activa las marcas en este orden: 1 → 2. Los ecos no producen Souls.",
+      "label": "first ritual uses actual owned species"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 1 activada. Continúa con la 2.",
+      "label": "first ritual physical mark 1"
+    },
+    {
+      "ok": true,
+      "detail": "Ritual completado. Su hito queda guardado permanentemente.",
+      "label": "first ritual physical mark 2"
+    },
+    {
+      "ok": true,
+      "label": "ritual consumes no Curse and leaves real production instance"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 1 restaurada.",
+      "label": "first upgrade grants permanent capacity"
+    },
+    {
+      "ok": true,
+      "label": "upgrade adds empty slot and preserves occupied identity"
+    },
+    {
+      "ok": true,
+      "label": "stale duplicate upgrade cannot debit"
+    },
+    {
+      "ok": true,
+      "label": "local journal flush acknowledged"
+    }
+  ],
+  "scope": "Native Studio Play, isolated profile; marker travel teleported by QA fixture, native E claim; not a real walking-duration measure.",
+  "namespace": "qa-restoration-20261003-041511"
+}

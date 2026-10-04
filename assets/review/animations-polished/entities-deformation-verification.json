@@ -1,0 +1,112 @@
+[
+  {
+    "id": "silent_choir",
+    "bone": "Bell1",
+    "affectedVertices": 210,
+    "expectedWeightedVertices": 210,
+    "maximumLocalDisplacement": 0.5083419424022406,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "silent_choir",
+    "bone": "Bell2",
+    "affectedVertices": 210,
+    "expectedWeightedVertices": 210,
+    "maximumLocalDisplacement": 0.5083419991966851,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "night_harp",
+    "bone": "String0",
+    "affectedVertices": 130,
+    "expectedWeightedVertices": 130,
+    "maximumLocalDisplacement": 0.09895634701475362,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "night_harp",
+    "bone": "String1",
+    "affectedVertices": 130,
+    "expectedWeightedVertices": 130,
+    "maximumLocalDisplacement": 0.09894347131539397,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "night_harp",
+    "bone": "String2",
+    "affectedVertices": 144,
+    "expectedWeightedVertices": 144,
+    "maximumLocalDisplacement": 0.09893962616361923,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "night_harp",
+    "bone": "String3",
+    "affectedVertices": 130,
+    "expectedWeightedVertices": 130,
+    "maximumLocalDisplacement": 0.09894245944783588,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "night_harp",
+    "bone": "Head",
+    "affectedVertices": 57,
+    "expectedWeightedVertices": 59,
+    "maximumLocalDisplacement": 0.3507898847880797,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "the_last_funeral",
+    "bone": "Leg0",
+    "affectedVertices": 226,
+    "expectedWeightedVertices": 226,
+    "maximumLocalDisplacement": 1.1289286479245995,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "the_last_funeral",
+    "bone": "Leg1",
+    "affectedVertices": 226,
+    "expectedWeightedVertices": 226,
+    "maximumLocalDisplacement": 1.1289289696595053,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "the_last_funeral",
+    "bone": "Leg2",
+    "affectedVertices": 186,
+    "expectedWeightedVertices": 186,
+    "maximumLocalDisplacement": 0.6848581446346934,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  },
+  {
+    "id": "the_last_funeral",
+    "bone": "Leg3",
+    "affectedVertices": 186,
+    "expectedWeightedVertices": 186,
+    "maximumLocalDisplacement": 0.6848581337555144,
+    "unexpectedAffectedVertices": 0,
+    "otherRobeVerticesMoved": 0,
+    "status": "PASS_BLENDER_WEIGHT_ISOLATION_ONLY"
+  }
+]

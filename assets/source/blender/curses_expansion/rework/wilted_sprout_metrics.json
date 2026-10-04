@@ -1,0 +1,106 @@
+{
+  "id": "wilted_sprout",
+  "displayName": "Wilted Sprout",
+  "rarity": "COMMON",
+  "sourceReference": "rework-01-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/wilted_sprout.blend",
+  "export": "assets/export/meshes/curses/rework/wilted_sprout.fbx",
+  "sha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+  "triangles": 2220,
+  "vertices": 1156,
+  "blenderDimensions": [
+    2.6700000762939453,
+    1.391714096069336,
+    3.403151035308838
+  ],
+  "intendedRobloxSize": [
+    2.6700000762939453,
+    3.403151035308838,
+    1.391714096069336
+  ],
+  "diagonal": 4.543919618757728,
+  "vfxHook": [
+    -0.255,
+    0.8527744249254465,
+    0.5120594846133018
+  ],
+  "vfxProfile": "wilted_pollen",
+  "palette": [
+    "bark",
+    "green",
+    "ink",
+    "ochre",
+    "petal",
+    "white_glow"
+  ],
+  "paintedColorCount": 388,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "BentStemAndRootFeet",
+      "first_face": 0,
+      "last_face_exclusive": 110
+    },
+    {
+      "name": "ShadowFaceUnderOchrePetals",
+      "first_face": 110,
+      "last_face_exclusive": 728
+    },
+    {
+      "name": "WiltedSideLeaf",
+      "first_face": 728,
+      "last_face_exclusive": 811
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Distinct wilted plant: twisted stem, branching root feet, dark face nested below overlapping ochre petals, dying drooping side leaf."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/wilted_sprout.blend",
+  "robloxIntendedSize": [
+    2.6700000762939453,
+    3.403151035308838,
+    1.391714096069336
+  ],
+  "vfxHookRoblox": [
+    -0.255,
+    0.8527744249254465,
+    0.5120594846133018
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.02669999934732914,
+      0.013917146250605583,
+      0.03403151407837868
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2220,
+    "colorCount": 388,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "wilted_sprout",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

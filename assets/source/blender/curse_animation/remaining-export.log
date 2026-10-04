@@ -1,0 +1,411 @@
+00:02.312  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\haunted_mirror.blend"
+00:02.343  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_891e46c9879d3ed7d36ae126da745c5f.png.png"
+Info: Guardado como "haunted_mirror.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\haunted_mirror.fbx'
+(bpy.data.armatures['haunted_mirror_Rig'], 'POSE')
+export finished in 0.0155 sec.
+RIG_EXPORTED haunted_mirror 7 {'Root': 310, 'Leg0': 19, 'Knee0': 27, 'Leg1': 20, 'Knee1': 27, 'GhostHead': 198, 'Reflection': 34}
+00:02.672  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\crying_mask.blend"
+00:02.703  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_01d1eee1f2afedbdc5e91fa855e8e701.png.png"
+Info: Guardado como "crying_mask.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\crying_mask.fbx'
+(bpy.data.armatures['crying_mask_Rig'], 'POSE')
+export finished in 0.0105 sec.
+RIG_EXPORTED crying_mask 4 {'Sorrow': 702, 'TieL': 20, 'TieR': 20}
+00:02.718  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\candle_wisp.blend"
+00:02.765  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_567f7451a9d8ef11aeee07e47744c55b.png.png"
+Info: Guardado como "candle_wisp.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\candle_wisp.fbx'
+(bpy.data.armatures['candle_wisp_Rig'], 'POSE')
+export finished in 0.0166 sec.
+RIG_EXPORTED candle_wisp 4 {'Root': 1278, 'HandL': 239, 'HandR': 239, 'Flame': 145}
+00:02.797  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\grave_hopper.blend"
+00:02.843  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_62d87a0282543c6166817a387ae632ce.png.png"
+Info: Guardado como "grave_hopper.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\grave_hopper.fbx'
+(bpy.data.armatures['grave_hopper_Rig'], 'POSE')
+export finished in 0.0147 sec.
+RIG_EXPORTED grave_hopper 10 {'Shell': 760, 'Leg0': 110, 'Knee0': 115, 'Knee2': 79, 'Leg2': 105, 'Leg1': 108, 'Knee1': 115, 'Knee3': 75, 'Leg3': 97}
+00:02.859  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\grave_key.blend"
+00:02.890  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_86ddd37fbb356210dd7545901ea9cde7.png.png"
+Info: Guardado como "grave_key.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\grave_key.fbx'
+(bpy.data.armatures['grave_key_Rig'], 'POSE')
+export finished in 0.0119 sec.
+RIG_EXPORTED grave_key 6 {'Root': 437, 'Leg0': 114, 'Knee0': 92, 'Leg1': 48, 'Knee1': 23, 'Scarf': 160}
+00:02.906  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\mourning_ribbon.blend"
+00:02.937  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_0edccfbf1f76f7c9f6cb926eff913657.png.png"
+Info: Guardado como "mourning_ribbon.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\mourning_ribbon.fbx'
+(bpy.data.armatures['mourning_ribbon_Rig'], 'POSE')
+export finished in 0.0127 sec.
+RIG_EXPORTED mourning_ribbon 5 {'LoopL': 320, 'LoopR': 240, 'TailL': 166, 'TailR': 178}
+00:02.968  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\wilted_sprout.blend"
+00:03.000  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_0fe2d4d9688a832053fec5b86d6edb47.png.png"
+Info: Guardado como "wilted_sprout.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\wilted_sprout.fbx'
+(bpy.data.armatures['wilted_sprout_Rig'], 'POSE')
+export finished in 0.0126 sec.
+RIG_EXPORTED wilted_sprout 4 {'Stem': 204, 'Root': 133, 'Bloom': 704, 'Leaf': 158}
+00:03.015  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\ink_imp.blend"
+00:03.047  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_e25a373533274faf366a071871d3f66d.png.png"
+Info: Guardado como "ink_imp.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\ink_imp.fbx'
+(bpy.data.armatures['ink_imp_Rig'], 'POSE')
+export finished in 0.0140 sec.
+RIG_EXPORTED ink_imp 5 {'Root': 232, 'Ink': 378, 'HandL': 138, 'HandR': 138, 'Tail': 42}
+00:03.078  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\lost_locket.blend"
+00:03.125  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_3c60c80a7fef9d469e1670926194f996.png.png"
+Info: Guardado como "lost_locket.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\lost_locket.fbx'
+(bpy.data.armatures['lost_locket_Rig'], 'POSE')
+export finished in 0.0145 sec.
+RIG_EXPORTED lost_locket 6 {'Root': 572, 'Cover': 507, 'Palm': 123, 'Finger0': 32, 'Finger1': 32, 'Finger2': 32}
+00:03.156  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\ashen_book.blend"
+00:03.187  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_0cb6d613aba8a544e8fff632f84a9551.png.png"
+Info: Guardado como "ashen_book.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\ashen_book.fbx'
+(bpy.data.armatures['ashen_book_Rig'], 'POSE')
+export finished in 0.0163 sec.
+RIG_EXPORTED ashen_book 7 {'Root': 264, 'Cover': 188, 'Leg0': 320, 'Knee0': 304, 'Leg1': 320, 'Knee1': 304, 'PageWing': 122}
+00:03.218  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\lantern_lurker.blend"
+00:03.281  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_a4acc776a40db0fee795204a774fa7cd.png.png"
+Info: Guardado como "lantern_lurker.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\lantern_lurker.fbx'
+(bpy.data.armatures['lantern_lurker_Rig'], 'POSE')
+export finished in 0.0178 sec.
+RIG_EXPORTED lantern_lurker 11 {'Root': 670, 'Captive': 128, 'Handle': 207, 'Leg0': 45, 'Knee0': 109, 'Leg1': 41, 'Knee1': 107, 'Leg2': 43, 'Knee2': 108, 'Leg3': 41, 'Knee3': 107}
+00:03.312  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\hourglass_hound.blend"
+00:03.359  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_fe6a6c3d48ab2636c9b6ea66c07f3af8.png.png"
+Info: Guardado como "hourglass_hound.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\hourglass_hound.fbx'
+(bpy.data.armatures['hourglass_hound_Rig'], 'POSE')
+export finished in 0.0164 sec.
+RIG_EXPORTED hourglass_hound 11 {'Root': 570, 'Head': 282, 'Leg0': 74, 'Knee0': 105, 'Leg1': 45, 'Knee1': 77, 'Leg2': 45, 'Knee2': 77, 'Leg3': 45, 'Knee3': 77, 'Tail': 74}
+00:03.375  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\nail_beetle.blend"
+00:03.422  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_36dbb0825e2a53d76e4cc683b493bbb3.png.png"
+Info: Guardado como "nail_beetle.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\nail_beetle.fbx'
+(bpy.data.armatures['nail_beetle_Rig'], 'POSE')
+export finished in 0.0141 sec.
+RIG_EXPORTED nail_beetle 14 {'Root': 405, 'Nail': 128, 'Leg0': 44, 'Knee0': 27, 'Leg1': 44, 'Knee1': 27, 'Leg2': 44, 'Knee2': 27, 'Leg3': 45, 'Knee3': 26, 'Leg4': 45, 'Knee4': 26, 'Leg5': 45, 'Knee5': 26}
+00:03.437  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\pale_guest.blend"
+00:03.468  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_82e197a03e987ef976c741183a902630.png.png"
+Info: Guardado como "pale_guest.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\pale_guest.fbx'
+(bpy.data.armatures['pale_guest_Rig'], 'POSE')
+export finished in 0.0129 sec.
+RIG_EXPORTED pale_guest 5 {'Root': 448, 'Ghost': 128, 'Head': 168, 'GripL': 86, 'GripR': 86}
+00:03.500  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\cold_teacup.blend"
+00:03.531  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_95e2735acd9941e1c6d16ed3e53886b1.png.png"
+Info: Guardado como "cold_teacup.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\cold_teacup.fbx'
+(bpy.data.armatures['cold_teacup_Rig'], 'POSE')
+export finished in 0.0151 sec.
+RIG_EXPORTED cold_teacup 3 {'Root': 1068, 'SteamTip': 179, 'Steam': 120}
+00:03.562  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\revision02\coin_crawler.blend"
+00:03.593  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_b980a3dbd2b0b4108c5ea6825e9ba897.png.png"
+Info: Guardado como "coin_crawler.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\coin_crawler.fbx'
+(bpy.data.armatures['coin_crawler_Rig'], 'POSE')
+export finished in 0.0160 sec.
+RIG_EXPORTED coin_crawler 11 {'CoinLid': 509, 'Root': 151, 'Gaze': 100, 'Leg0': 84, 'Knee0': 58, 'Leg1': 84, 'Knee1': 58, 'Leg2': 60, 'Knee2': 57, 'Leg3': 86, 'Knee3': 58}
+00:03.625  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\umbrella_wraith.blend"
+00:03.656  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_4adf9ca78eae3ce997f0c1728e9cb5e2.png.png"
+Info: Guardado como "umbrella_wraith.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\umbrella_wraith.fbx'
+(bpy.data.armatures['umbrella_wraith_Rig'], 'POSE')
+export finished in 0.0128 sec.
+RIG_EXPORTED umbrella_wraith 5 {'Root': 521, 'WingL': 147, 'RagL': 40, 'WingR': 147, 'RagR': 40}
+00:04.343  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\marrow_dice.blend"
+00:04.406  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_d37a13c3af37dc598bea6262a4f77445.png.png"
+Info: Guardado como "marrow_dice.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\marrow_dice.fbx'
+(bpy.data.armatures['marrow_dice_Rig'], 'POSE')
+export finished in 0.0187 sec.
+RIG_EXPORTED marrow_dice 6 {'DieL': 950, 'DieR': 959, 'Pip0': 62, 'Pip1': 62, 'Pip2': 62}
+00:04.437  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\veil_mourner.blend"
+00:04.484  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_05dc15b101b4aacc44c277d337b8a6dc.png.png"
+Info: Guardado como "veil_mourner.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\veil_mourner.fbx'
+(bpy.data.armatures['veil_mourner_Rig'], 'POSE')
+export finished in 0.0168 sec.
+RIG_EXPORTED veil_mourner 6 {'VeilR': 408, 'Root': 460, 'VeilL': 274, 'HandL': 300, 'HandR': 300, 'Comb': 280}
+00:04.515  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\grave_compass.blend"
+00:04.562  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_154476f4f21b74ead382c6815b3fa64c.png.png"
+Info: Guardado como "grave_compass.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\grave_compass.fbx'
+(bpy.data.armatures['grave_compass_Rig'], 'POSE')
+export finished in 0.0170 sec.
+RIG_EXPORTED grave_compass 4 {'Root': 857, 'Needle': 232, 'Lid': 456, 'Ring': 144}
+00:04.593  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\hollow_violin.blend"
+00:04.640  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_dc082583df4b261ef1dd04a7c8f15b08.png.png"
+Info: Guardado como "hollow_violin.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\hollow_violin.fbx'
+(bpy.data.armatures['hollow_violin_Rig'], 'POSE')
+export finished in 0.0165 sec.
+RIG_EXPORTED hollow_violin 9 {'Root': 745, 'Scroll': 202, 'String0': 24, 'String1': 24, 'String2': 24, 'Leg0': 45, 'Knee0': 66, 'Leg1': 45, 'Knee1': 66}
+00:04.672  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\chime_triplets.blend"
+00:04.750  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_a9b4b9e7988ad661fe5c786da2a1648a.png.png"
+Info: Guardado como "chime_triplets.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\chime_triplets.fbx'
+(bpy.data.armatures['chime_triplets_Rig'], 'POSE')
+export finished in 0.0208 sec.
+RIG_EXPORTED chime_triplets 4 {'Root': 361, 'Bell0': 823, 'Bell1': 823, 'Bell2': 823}
+00:06.484  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\thimble_spider.blend"
+00:06.547  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_f11fa83c883a4f92d830a55013816bed.png.png"
+Info: Guardado como "thimble_spider.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\thimble_spider.fbx'
+(bpy.data.armatures['thimble_spider_Rig'], 'POSE')
+export finished in 0.0263 sec.
+RIG_EXPORTED thimble_spider 18 {'Root': 2262, 'Fangs': 42, 'Leg0': 70, 'Knee0': 28, 'Leg1': 56, 'Knee1': 14, 'Leg2': 56, 'Knee2': 29, 'Leg3': 42, 'Knee3': 21, 'Leg4': 70, 'Knee4': 28, 'Leg5': 56, 'Knee5': 14, 'Leg6': 56, 'Knee6': 29, 'Leg7': 42, 'Knee7': 21}
+00:06.609  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\music_box_dancer.blend"
+00:06.656  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_c84309e9344a8de169202c1eeb266606.png.png"
+Info: Guardado como "music_box_dancer.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\music_box_dancer.fbx'
+(bpy.data.armatures['music_box_dancer_Rig'], 'POSE')
+export finished in 0.0188 sec.
+RIG_EXPORTED music_box_dancer 5 {'Root': 1000, 'Lid': 194, 'Dancer': 520, 'Head': 292, 'ArmR': 116}
+00:06.687  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\raven_quill.blend"
+00:06.718  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_6ec4563f1eb8b5f99ec84cb6a96f8157.png.png"
+Info: Guardado como "raven_quill.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\raven_quill.fbx'
+(bpy.data.armatures['raven_quill_Rig'], 'POSE')
+export finished in 0.0148 sec.
+RIG_EXPORTED raven_quill 8 {'BarbsR': 227, 'BarbsL': 168, 'Nib': 236, 'Leg0': 39, 'Knee0': 68, 'Leg1': 39, 'Knee1': 68}
+00:06.750  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\sorrow_chalice.blend"
+00:06.797  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_52ea775ee30c291ac0b6cabba428f776.png.png"
+Info: Guardado como "sorrow_chalice.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\sorrow_chalice.fbx'
+(bpy.data.armatures['sorrow_chalice_Rig'], 'POSE')
+export finished in 0.0168 sec.
+RIG_EXPORTED sorrow_chalice 5 {'Root': 980, 'Spirit': 244, 'Drop0': 76, 'Drop1': 76, 'Drop2': 76}
+00:06.828  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\pale_gramophone.blend"
+00:06.922  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_85d4f337515d087366863b1724829646.png.png"
+Info: Guardado como "pale_gramophone.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\pale_gramophone.fbx'
+(bpy.data.armatures['pale_gramophone_Rig'], 'POSE')
+export finished in 0.0264 sec.
+RIG_EXPORTED pale_gramophone 12 {'Root': 1104, 'Record': 706, 'Leg0': 139, 'Knee0': 134, 'Leg1': 138, 'Knee1': 134, 'Leg2': 139, 'Knee2': 134, 'Leg3': 138, 'Knee3': 134, 'Horn': 640, 'Crank': 66}
+00:06.953  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\thorn_reliquary.blend"
+00:07.000  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_b1aebc3568062b54db8655bdebb1e971.png.png"
+Info: Guardado como "thorn_reliquary.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\thorn_reliquary.fbx'
+(bpy.data.armatures['thorn_reliquary_Rig'], 'POSE')
+export finished in 0.0119 sec.
+RIG_EXPORTED thorn_reliquary 3 {'Root': 748, 'ThornTip': 194, 'Thorn': 218}
+00:07.015  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\anchor_crab.blend"
+00:07.062  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_c918f6a77669d6bec3cd6ea124bf9a3a.png.png"
+Info: Guardado como "anchor_crab.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\anchor_crab.fbx'
+(bpy.data.armatures['anchor_crab_Rig'], 'POSE')
+export finished in 0.0197 sec.
+RIG_EXPORTED anchor_crab 17 {'Root': 622, 'Leg0': 76, 'Knee0': 16, 'Leg1': 76, 'Knee1': 16, 'Leg2': 76, 'Knee2': 16, 'Leg3': 76, 'Knee3': 16, 'Leg4': 76, 'Knee4': 16, 'Leg5': 76, 'Knee5': 16, 'ClawL': 70, 'JawL': 188, 'ClawR': 70, 'JawR': 188}
+00:07.093  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\sundial_sentinel.blend"
+00:07.140  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_9d8626425189c71124e4160b0d05187d.png.png"
+Info: Guardado como "sundial_sentinel.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\sundial_sentinel.fbx'
+(bpy.data.armatures['sundial_sentinel_Rig'], 'POSE')
+export finished in 0.0148 sec.
+RIG_EXPORTED sundial_sentinel 6 {'Root': 770, 'Shadow': 130, 'Leg0': 96, 'Knee0': 158, 'Leg1': 96, 'Knee1': 158}
+00:07.172  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\sleepwalker_shoes.blend"
+00:07.265  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_e1ac0066c64c163ab08b14f331892712.png.png"
+Info: Guardado como "sleepwalker_shoes.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\sleepwalker_shoes.fbx'
+(bpy.data.armatures['sleepwalker_shoes_Rig'], 'POSE')
+export finished in 0.0220 sec.
+RIG_EXPORTED sleepwalker_shoes 3 {'Boot0': 1384, 'Boot1': 1280}
+00:07.297  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\night_harp.blend"
+00:07.343  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_ce2552e5c8fa3a1fa4f9b3c0f0b2cd53.png.png"
+Info: Guardado como "night_harp.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\night_harp.fbx'
+(bpy.data.armatures['night_harp_Rig'], 'POSE')
+export finished in 0.0194 sec.
+RIG_EXPORTED night_harp 14 {'Root': 561, 'Leg0': 69, 'Knee0': 90, 'Leg2': 67, 'Knee2': 90, 'Leg1': 67, 'Knee1': 89, 'Leg3': 69, 'Knee3': 90, 'String0': 143, 'String3': 67, 'String1': 10, 'String2': 24, 'Head': 329}
+00:07.375  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\thorn_cathedral.blend"
+00:07.422  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_dcc117a0ae2a4751d6abd5ed03a43f65.png.png"
+Info: Guardado como "thorn_cathedral.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\thorn_cathedral.fbx'
+(bpy.data.armatures['thorn_cathedral_Rig'], 'POSE')
+export finished in 0.0197 sec.
+RIG_EXPORTED thorn_cathedral 11 {'Root': 822, 'Leg0': 42, 'Knee0': 78, 'Leg1': 41, 'Knee1': 76, 'Leg2': 42, 'Knee2': 78, 'Leg3': 43, 'Knee3': 79, 'RoseWindow': 230, 'Belfry': 238}
+00:07.453  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\phantom_marionette.blend"
+00:07.484  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_3bced7a353eb2ca997d712bcae5f4490.png.png"
+Info: Guardado como "phantom_marionette.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\phantom_marionette.fbx'
+(bpy.data.armatures['phantom_marionette_Rig'], 'POSE')
+export finished in 0.0168 sec.
+RIG_EXPORTED phantom_marionette 11 {'Body': 214, 'Head': 62, 'ArmLTip': 158, 'ArmRTip': 113, 'LegLTip': 151, 'LegRTip': 228, 'Root': 164}
+00:07.515  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\blood_moon_rose.blend"
+00:07.593  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_e1b4053d6d954912ca58c415cd95a760.png.png"
+Info: Guardado como "blood_moon_rose.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\blood_moon_rose.fbx'
+(bpy.data.armatures['blood_moon_rose_Rig'], 'POSE')
+export finished in 0.0258 sec.
+RIG_EXPORTED blood_moon_rose 16 {'Root': 91, 'Leg0': 61, 'Knee0': 58, 'Leg2': 73, 'Knee2': 66, 'Leg1': 51, 'Knee1': 47, 'Leg3': 63, 'Knee3': 56, 'Petal2': 588, 'Petal1': 490, 'Petal0': 490, 'Petal3': 496, 'ThornArmL': 133, 'ThornArmR': 133}
+00:07.625  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\judgement_scales.blend"
+00:07.672  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_7886976951e88ed0f794895f355a32ab.png.png"
+Info: Guardado como "judgement_scales.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\judgement_scales.fbx'
+(bpy.data.armatures['judgement_scales_Rig'], 'POSE')
+export finished in 0.0160 sec.
+RIG_EXPORTED judgement_scales 9 {'Leg0': 46, 'Knee0': 83, 'Leg1': 47, 'Knee1': 84, 'Root': 292, 'BalanceL': 125, 'PanL': 228, 'BalanceR': 239, 'PanR': 215}
+00:07.703  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\clockwork_raven.blend"
+00:07.750  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_0f55953cd4e8eb6876acd69a05481b4d.png.png"
+Info: Guardado como "clockwork_raven.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\clockwork_raven.fbx'
+(bpy.data.armatures['clockwork_raven_Rig'], 'POSE')
+export finished in 0.0209 sec.
+RIG_EXPORTED clockwork_raven 10 {'Root': 182, 'Head': 190, 'Leg0': 71, 'Knee0': 74, 'Leg1': 72, 'Knee1': 74, 'WingL': 662, 'WingR': 662, 'Tail': 112, 'Wheel': 70}
+00:07.781  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\eclipse_stag.blend"
+00:07.828  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_0bb254546ac3ac9eef108f8399433964.png.png"
+Info: Guardado como "eclipse_stag.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\eclipse_stag.fbx'
+(bpy.data.armatures['eclipse_stag_Rig'], 'POSE')
+export finished in 0.0160 sec.
+RIG_EXPORTED eclipse_stag 12 {'Root': 90, 'Head': 331, 'Leg2': 66, 'Knee2': 90, 'Leg0': 66, 'Knee0': 80, 'Leg3': 66, 'Knee3': 90, 'Leg1': 66, 'Knee1': 82, 'Mane': 140, 'Tail': 18}
+00:07.859  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\endless_library.blend"
+00:07.937  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_9703ac6cd64c1753b4cbafef46283c0b.png.png"
+Info: Guardado como "endless_library.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\endless_library.fbx'
+(bpy.data.armatures['endless_library_Rig'], 'POSE')
+export finished in 0.0244 sec.
+RIG_EXPORTED endless_library 15 {'Book0': 490, 'Book1': 490, 'Book2': 490, 'Leg0': 178, 'Knee0': 162, 'Leg2': 178, 'Knee2': 162, 'Leg1': 34, 'Knee1': 18, 'Leg3': 34, 'Knee3': 18, 'Bookmarks': 40, 'Root': 400, 'PageR': 156, 'PageL': 64}
+00:07.968  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\sunken_crown.blend"
+00:08.031  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_62dca19d6b24e2cb659481a395d2e4f2.png.png"
+Info: Guardado como "sunken_crown.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\sunken_crown.fbx'
+(bpy.data.armatures['sunken_crown_Rig'], 'POSE')
+export finished in 0.0224 sec.
+RIG_EXPORTED sunken_crown 13 {'Root': 872, 'Tendril1': 145, 'Tendril0': 104, 'Tip0': 90, 'Tip1': 89, 'Tendril2': 103, 'Tip2': 93, 'Tendril3': 102, 'Tip3': 108, 'Tendril4': 103, 'Tip4': 93, 'Tendril5': 103, 'Tip5': 89}
+00:08.078  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\silent_choir.blend"
+00:08.125  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_b375990b004da76c7f1f16457ce78894.png.png"
+Info: Guardado como "silent_choir.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\silent_choir.fbx'
+(bpy.data.armatures['silent_choir_Rig'], 'POSE')
+export finished in 0.0152 sec.
+RIG_EXPORTED silent_choir 7 {'Singer0': 240, 'Bell0': 190, 'Bell1': 450, 'Bell2': 470, 'Root': 52}
+00:08.140  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\cathedral_heart.blend"
+00:08.203  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_b200e45287e9450588a91f2d4bd3be10.png.png"
+Info: Guardado como "cathedral_heart.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\cathedral_heart.fbx'
+(bpy.data.armatures['cathedral_heart_Rig'], 'POSE')
+export finished in 0.0566 sec.
+RIG_EXPORTED cathedral_heart 11 {'HeartL': 121, 'HeartR': 200, 'Root': 1220, 'Leg0': 48, 'Knee0': 84, 'Leg1': 48, 'Knee1': 84, 'Leg2': 47, 'Knee2': 84, 'Leg3': 47, 'Knee3': 84}
+00:08.281  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\hollow_throne.blend"
+00:08.312  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_64c90799fc08352ca84bb1fe7957cd80.png.png"
+Info: Guardado como "hollow_throne.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\hollow_throne.fbx'
+(bpy.data.armatures['hollow_throne_Rig'], 'POSE')
+export finished in 0.0176 sec.
+RIG_EXPORTED hollow_throne 11 {'Root': 766, 'Leg0': 52, 'Knee0': 80, 'Leg1': 52, 'Knee1': 80, 'Leg2': 53, 'Knee2': 79, 'Leg3': 53, 'Knee3': 79, 'Ghost': 76, 'Mantle': 72}
+00:08.343  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\worldroot.blend"
+00:08.406  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_1131b0f50271a8572d8c03edfdd1f4a9.png.png"
+Info: Guardado como "worldroot.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\worldroot.fbx'
+(bpy.data.armatures['worldroot_Rig'], 'POSE')
+export finished in 0.0219 sec.
+RIG_EXPORTED worldroot 14 {'Leg0': 86, 'Knee0': 99, 'Leg1': 87, 'Knee1': 95, 'Leg2': 87, 'Knee2': 99, 'Leg3': 86, 'Knee3': 99, 'TrunkL': 334, 'TrunkR': 334, 'Seed': 28, 'Root': 348, 'MossL': 120, 'MossR': 104}
+00:08.437  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\the_undertow.blend"
+00:08.484  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_a9bc2f8501fcef3a88e57a12c62f224b.png.png"
+Info: Guardado como "the_undertow.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\the_undertow.fbx'
+(bpy.data.armatures['the_undertow_Rig'], 'POSE')
+export finished in 0.0169 sec.
+RIG_EXPORTED the_undertow 6 {'Root': 390, 'Clapper': 239, 'BladeL': 222, 'BladeR': 216, 'Vortex': 86, 'Hanger': 132}
+00:08.515  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\the_last_funeral.blend"
+00:08.562  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_e0d0e8ed33b738d860b3d9c85955384e.png.png"
+Info: Guardado como "the_last_funeral.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\the_last_funeral.fbx'
+(bpy.data.armatures['the_last_funeral_Rig'], 'POSE')
+export finished in 0.0181 sec.
+RIG_EXPORTED the_last_funeral 9 {'Root': 619, 'Leg0': 162, 'Knee0': 144, 'Leg2': 123, 'Knee2': 144, 'Leg1': 162, 'Knee1': 144, 'Leg3': 123, 'Knee3': 144}
+00:08.593  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\nameless_door.blend"
+00:08.656  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_aefd818592c7f3dda2adf1545b0c7ba7.png.png"
+Info: Guardado como "nameless_door.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\nameless_door.fbx'
+(bpy.data.armatures['nameless_door_Rig'], 'POSE')
+export finished in 0.0188 sec.
+RIG_EXPORTED nameless_door 7 {'Root': 1024, 'Door': 374, 'Leg0': 37, 'Knee0': 66, 'LintelMoss': 196, 'Leg1': 35, 'Knee1': 63}
+00:08.687  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\crown_of_silence.blend"
+00:08.781  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_903f6d77002c29daeefa31efde5fd30a.png.png"
+Info: Guardado como "crown_of_silence.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\crown_of_silence.fbx'
+(bpy.data.armatures['crown_of_silence_Rig'], 'POSE')
+export finished in 0.0271 sec.
+RIG_EXPORTED crown_of_silence 11 {'Root': 1162, 'Crown0': 12, 'Crown1': 12, 'Crown2': 28, 'Crown3': 12, 'Robe2': 546, 'Robe3': 364, 'Robe0': 546, 'Robe1': 364, 'SleeveL': 793, 'SleeveR': 805}
+00:08.812  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\the_first_grave.blend"
+00:08.859  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_878dfeeb609fe2d5f04ca319ec7a0b4c.png.png"
+Info: Guardado como "the_first_grave.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\the_first_grave.fbx'
+(bpy.data.armatures['the_first_grave_Rig'], 'POSE')
+export finished in 0.0173 sec.
+RIG_EXPORTED the_first_grave 11 {'Leg0': 86, 'Knee0': 117, 'Leg1': 87, 'Knee1': 115, 'Root': 372, 'ArmL': 125, 'FingersL': 30, 'ArmR': 123, 'FingersR': 30, 'MossL': 116, 'MossR': 58}
+00:08.890  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\batch02\the_unwritten.blend"
+00:08.984  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_3c336d22edf4a7534f6293d13243f620.png.png"
+Info: Guardado como "the_unwritten.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\the_unwritten.fbx'
+(bpy.data.armatures['the_unwritten_Rig'], 'POSE')
+export finished in 0.0297 sec.
+RIG_EXPORTED the_unwritten 10 {'Root': 1513, 'PageTail3': 543, 'PageTail0': 566, 'PageTail1': 547, 'PageTail2': 492, 'Head': 74, 'SleeveL': 472, 'WritingHandL': 378, 'SleeveR': 472, 'WritingHandR': 378}
+00:09.031  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\the_last_star.blend"
+00:09.109  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1496_d96d0bfb1c4fce942e1709e5ec0407f8.png.png"
+Info: Guardado como "the_last_star.blend"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\animations\\the_last_star.fbx'
+(bpy.data.armatures['the_last_star_Rig'], 'POSE')
+export finished in 0.0248 sec.
+RIG_EXPORTED the_last_star 15 {'Leg0': 52, 'Knee0': 172, 'Leg1': 53, 'Knee1': 173, 'Leg2': 49, 'Knee2': 168, 'Leg3': 51, 'Knee3': 169, 'Root': 1172, 'ArmL': 123, 'TalonsL': 60, 'ArmR': 123, 'TalonsR': 60, 'Star': 168, 'Helm': 148}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

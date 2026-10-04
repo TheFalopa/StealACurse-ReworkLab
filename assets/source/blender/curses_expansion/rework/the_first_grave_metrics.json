@@ -1,0 +1,105 @@
+{
+  "id": "the_first_grave",
+  "displayName": "The First Grave",
+  "rarity": "Secret",
+  "sourceReference": "assets/reference/rework-11-secret.png",
+  "source": "assets/source/blender/curses_expansion/rework/the_first_grave.blend",
+  "export": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+  "sha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+  "triangles": 2136,
+  "vertices": 1162,
+  "blenderDimensions": [
+    3.058901071548462,
+    0.9342293739318848,
+    3.68656849861145
+  ],
+  "intendedRobloxSize": [
+    3.058901071548462,
+    3.68656849861145,
+    0.9342293739318848
+  ],
+  "diagonal": 4.88061959013318,
+  "vfxHook": [
+    -0.040358471870422366,
+    0.43328419923782335,
+    0.3128853189945221
+  ],
+  "vfxProfile": "first_grave_crack",
+  "palette": [
+    "bark_light",
+    "bone_high",
+    "ivory",
+    "jade_glow",
+    "moss_dark",
+    "moss_light",
+    "thorn_edge"
+  ],
+  "paintedColorCount": 606,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Pale rooted grave golem with five-part pointed tombstone torso",
+      "first_face": 0,
+      "last_face_exclusive": 286
+    },
+    {
+      "name": "Two crooked gravestone shoulders with branching wood fingers",
+      "first_face": 286,
+      "last_face_exclusive": 422
+    },
+    {
+      "name": "Long specific moss curtains on shoulder edges and broken memorial chips",
+      "first_face": 422,
+      "last_face_exclusive": 590
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 11: pale pointed tombstone torso on crooked root legs, with an engraved arch and a cold jade-green branching crack. Mineral shoulders, wooden arm joints, branching ivory fingers and selective long moss curtains create a rooted grave golem with warm stone and ancient plant surfaces."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/the_first_grave.blend",
+  "robloxIntendedSize": [
+    3.058901071548462,
+    3.68656849861145,
+    0.9342293739318848
+  ],
+  "vfxHookRoblox": [
+    -0.040358471870422366,
+    0.43328419923782335,
+    0.3128853189945221
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.030589010566473007,
+      0.009342298842966557,
+      0.036865685135126114
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2136,
+    "colorCount": 606,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "the_first_grave",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7"
+  }
+}

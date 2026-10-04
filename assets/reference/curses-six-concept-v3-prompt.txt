@@ -1,0 +1,15 @@
+Create a horizontal 16:9 concept reference sheet for six original cursed collectibles in a stylized Roblox haunted-cemetery game. Arrange exactly six separate objects in a clean 3-column, 2-row grid. Show every object fully, at a consistent scale, against a plain dark neutral background. No names, labels, or other text.
+
+Top row:
+1. Cursed Doll — a small, worn handmade doll with uneven stitching. Its shadow has a different pose from the doll.
+2. Haunted Mirror — a modest antique mirror with a slightly warped frame. A faint silhouette appears only inside its reflection.
+3. Crying Mask — a small, cracked porcelain mask with one suspended tear.
+
+Bottom row:
+4. Watching Eye — an old sealed relic that opens just enough to reveal an eye inside.
+5. Soul Chains — heavy, worn chains wrapped around an invisible human-shaped absence.
+6. The Void — a simple ancient object with a missing section that appears to be a hole in reality.
+
+These are practical design references for artists to model in Blender and import into a Roblox game. Make the geometry, materials, proportions, and construction easy to understand. Use distinct silhouettes, subtle asymmetry, restrained supernatural effects, and details that remain visible at normal gameplay distance.
+
+The sheet should feel thoughtfully designed by a game artist, not like generic AI-generated fantasy art. Avoid perfect symmetry, excessive spikes, floating decorative rings, ornate trim on every object, oversized glowing spheres, heavy bloom, cinematic poster lighting, complex backgrounds, characters, and extra objects.

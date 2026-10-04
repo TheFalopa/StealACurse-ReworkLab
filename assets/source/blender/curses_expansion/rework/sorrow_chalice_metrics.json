@@ -1,0 +1,75 @@
+{
+  "id": "sorrow_chalice",
+  "displayName": "Sorrow Chalice",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-05-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/sorrow_chalice.blend",
+  "export": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+  "sha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+  "triangles": 2828,
+  "vertices": 1452,
+  "blenderDimensions": [
+    1.9149999618530273,
+    1.7319999933242798,
+    2.841651439666748
+  ],
+  "intendedRobloxSize": [
+    1.9149999618530273,
+    2.841651439666748,
+    1.7319999933242798
+  ],
+  "diagonal": 3.8395353540933184,
+  "vfxHook": [
+    0.07249999999999991,
+    1.0391743278503418,
+    0.11000002145767213
+  ],
+  "vfxProfile": "gray_sorrow_tears",
+  "palette": [
+    "blue_paint",
+    "gold",
+    "ink",
+    "stone_light"
+  ],
+  "paintedColorCount": 777,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "matte blue chalice, actual hollow bowl and bronze rim",
+      "first_face": 0,
+      "last_face_exclusive": 954
+    },
+    {
+      "name": "curved gray tear spirit with carved dark eyes",
+      "first_face": 954,
+      "last_face_exclusive": 1443
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Blue matte chalice with sculpted concave bowl, bronze tear inlays and hairline fractures; bent volumetric gray teardrop ghost with two deep eyes and drifting gray drops.",
+    "Gray tears rise slowly and dissolve; blue rim breathes a low intensity cold halo."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/sorrow_chalice.blend",
+  "robloxIntendedSize": [
+    1.9149999618530273,
+    2.841651439666748,
+    1.7319999933242798
+  ],
+  "vfxHookRoblox": [
+    0.07249999999999991,
+    1.0391743278503418,
+    0.11000002145767213
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "discrepancies": [
+    {
+      "id": "ashen_book",
+      "openStudio": "rbxassetid://116088006645241",
+      "disk": "rbxassetid://101139508733050"
+    },
+    {
+      "id": "candle_wisp",
+      "openStudio": "rbxassetid://131441841706440",
+      "disk": "rbxassetid://120691798070914"
+    },
+    {
+      "id": "cathedral_heart",
+      "openStudio": "rbxassetid://100098877936582",
+      "disk": "rbxassetid://109562151283310"
+    },
+    {
+      "id": "grave_compass",
+      "openStudio": "rbxassetid://74406539185855",
+      "disk": "rbxassetid://92042737751538"
+    },
+    {
+      "id": "grave_hopper",
+      "openStudio": "rbxassetid://111985391427900",
+      "disk": "rbxassetid://71461503692914"
+    },
+    {
+      "id": "grave_key",
+      "openStudio": "rbxassetid://84656327821029",
+      "disk": "rbxassetid://81555225772390"
+    },
+    {
+      "id": "hollow_throne",
+      "openStudio": "rbxassetid://71770033436309",
+      "disk": "rbxassetid://137649959781597"
+    },
+    {
+      "id": "hollow_violin",
+      "openStudio": "rbxassetid://107587916723576",
+      "disk": "rbxassetid://91498125175625"
+    },
+    {
+      "id": "ink_imp",
+      "openStudio": "rbxassetid://104472040658209",
+      "disk": "rbxassetid://138171047418372"
+    },
+    {
+      "id": "judgement_scales",
+      "openStudio": "rbxassetid://127729438322025",
+      "disk": "rbxassetid://115544351986945"
+    },
+    {
+      "id": "marrow_dice",
+      "openStudio": "rbxassetid://139995104770981",
+      "disk": "rbxassetid://98208990983506"
+    },
+    {
+      "id": "nameless_door",
+      "openStudio": "rbxassetid://91097514366999",
+      "disk": "rbxassetid://136046415979732"
+    },
+    {
+      "id": "night_harp",
+      "openStudio": "rbxassetid://75368579112232",
+      "disk": "rbxassetid://83648018962626"
+    },
+    {
+      "id": "raven_quill",
+      "openStudio": "rbxassetid://107610707886136",
+      "disk": "rbxassetid://71223428160554"
+    },
+    {
+      "id": "thorn_cathedral",
+      "openStudio": "rbxassetid://83008441866856",
+      "disk": "rbxassetid://130353358132470"
+    }
+  ],
+  "assetsSourceMatches": true,
+  "visualSourceMatches": true
+}

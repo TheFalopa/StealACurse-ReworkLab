@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-02",
+  "timezone": "America/Montevideo",
+  "window": "C:\\RobloxProjects\\StealACurse\\build-slice-tests.rbxlx - Roblox Studio",
+  "fixtureSha256": "859B8438839D2D016F203C1D8A929F6B2A076B1302CDFF3C6AD082F019457A72",
+  "method": "Fresh isolated Studio Play; production services unchanged. Real client ProximityPrompt holds. First delivery physically walks via Pathfinding; other transition cases use fixture-only setup teleports and credits. Excluded from default.project.json.",
+  "events": [
+    {
+      "time": "00:01:16.887",
+      "marker": "SLICE_PASS",
+      "label": "player joined"
+    },
+    {
+      "time": "00:01:18.970",
+      "marker": "SLICE_PASS",
+      "label": "client ready"
+    },
+    {
+      "time": "00:01:24.061",
+      "marker": "SLICE_PASS",
+      "label": "no-base purchase rejected"
+    },
+    {
+      "time": "00:01:25.295",
+      "marker": "SLICE_PASS",
+      "label": "claim and respawn target"
+    },
+    {
+      "time": "00:01:29.444",
+      "marker": "SLICE_PASS",
+      "label": "insufficient Souls rejected"
+    },
+    {
+      "time": "00:01:31.010",
+      "marker": "SLICE_PASS",
+      "label": "purchase authoritative 500 to 400"
+    },
+    {
+      "time": "00:01:32.028",
+      "marker": "SLICE_PASS",
+      "label": "no income before placement"
+    },
+    {
+      "time": "00:01:35.610",
+      "marker": "SLICE_PASS",
+      "label": "one delivery at a time"
+    },
+    {
+      "time": "00:01:57.309",
+      "marker": "SLICE_PASS",
+      "label": "physical return walk delivers"
+    },
+    {
+      "time": "00:01:57.309",
+      "marker": "SLICE_PASS",
+      "label": "physical first pedestal"
+    },
+    {
+      "time": "00:01:57.310",
+      "marker": "SLICE_PASS",
+      "label": "first rate 3"
+    },
+    {
+      "time": "00:01:59.326",
+      "marker": "SLICE_PASS",
+      "label": "elapsed-time income accumulates"
+    },
+    {
+      "time": "00:02:01.527",
+      "marker": "SLICE_PASS",
+      "label": "placed 7ae7d974-7a54-4b4d-a556-7af19c0e82b1"
+    },
+    {
+      "time": "00:02:03.710",
+      "marker": "SLICE_PASS",
+      "label": "placed cf090cb4-87e5-4db2-b9df-2fb2011a825f"
+    },
+    {
+      "time": "00:02:05.876",
+      "marker": "SLICE_PASS",
+      "label": "placed 42f9b244-1cbb-4702-bcc1-cb5478e38441"
+    },
+    {
+      "time": "00:02:08.026",
+      "marker": "SLICE_PASS",
+      "label": "placed 4ffaa762-b77f-462f-a474-988cea013ef4"
+    },
+    {
+      "time": "00:02:08.026",
+      "marker": "SLICE_PASS",
+      "label": "five rates sum to 222"
+    },
+    {
+      "time": "00:02:08.542",
+      "marker": "SLICE_PASS",
+      "label": "client HUD 222 and only nearest pedestal label visible"
+    },
+    {
+      "time": "00:02:08.542",
+      "marker": "SLICE_PASS",
+      "label": "unique pedestal 1"
+    },
+    {
+      "time": "00:02:08.542",
+      "marker": "SLICE_PASS",
+      "label": "unique pedestal 2"
+    },
+    {
+      "time": "00:02:08.542",
+      "marker": "SLICE_PASS",
+      "label": "unique pedestal 3"
+    },
+    {
+      "time": "00:02:08.542",
+      "marker": "SLICE_PASS",
+      "label": "unique pedestal 4"
+    },
+    {
+      "time": "00:02:08.542",
+      "marker": "SLICE_PASS",
+      "label": "unique pedestal 5"
+    },
+    {
+      "time": "00:02:12.759",
+      "marker": "SLICE_PASS",
+      "label": "full base rejected"
+    },
+    {
+      "time": "00:02:15.426",
+      "marker": "SLICE_PASS",
+      "label": "lost placed pedestal removes its production"
+    },
+    {
+      "time": "00:02:17.608",
+      "marker": "SLICE_PASS",
+      "label": "missing delivery pedestal refunds safely"
+    },
+    {
+      "time": "00:02:19.275",
+      "marker": "SLICE_PASS",
+      "label": "missing display area cancels safely"
+    },
+    {
+      "time": "00:02:19.275",
+      "marker": "SLICE_PASS",
+      "label": "missing area price refunded"
+    },
+    {
+      "time": "00:02:20.961",
+      "marker": "SLICE_PASS",
+      "label": "death cancels delivery after geometry tests"
+    },
+    {
+      "time": "00:02:20.961",
+      "marker": "SLICE_PASS",
+      "label": "death refund"
+    },
+    {
+      "time": "00:02:26.695",
+      "marker": "SLICE_PASS",
+      "label": "respawn alive"
+    },
+    {
+      "time": "00:02:26.695",
+      "marker": "SLICE_PASS",
+      "label": "claim and placed income survive respawn"
+    },
+    {
+      "time": "00:02:27.459",
+      "marker": "SLICE_PASS",
+      "label": "destroyed placed model restored"
+    },
+    {
+      "time": "00:02:27.461",
+      "marker": "SLICE_PASS",
+      "label": "restoration does not duplicate income"
+    },
+    {
+      "time": "00:02:29.625",
+      "marker": "SLICE_PASS",
+      "label": "placed 5a01b9ee-e949-4161-8ff6-88059aa60037"
+    },
+    {
+      "time": "00:02:29.626",
+      "marker": "SLICE_PASS",
+      "label": "Void placed and rate summed to 822"
+    },
+    {
+      "time": "00:02:29.626",
+      "marker": "SLICE_PASS",
+      "label": "scale and noncollision cursed_doll"
+    },
+    {
+      "time": "00:02:29.627",
+      "marker": "SLICE_PASS",
+      "label": "scale and noncollision haunted_mirror"
+    },
+    {
+      "time": "00:02:29.628",
+      "marker": "SLICE_PASS",
+      "label": "scale and noncollision crying_mask"
+    },
+    {
+      "time": "00:02:29.629",
+      "marker": "SLICE_PASS",
+      "label": "scale and noncollision watching_eye"
+    },
+    {
+      "time": "00:02:29.630",
+      "marker": "SLICE_PASS",
+      "label": "scale and noncollision soul_chains"
+    },
+    {
+      "time": "00:02:29.630",
+      "marker": "SLICE_PASS",
+      "label": "front glow not buried soul_chains"
+    },
+    {
+      "time": "00:02:29.631",
+      "marker": "SLICE_PASS",
+      "label": "scale and noncollision the_void"
+    },
+    {
+      "time": "00:02:29.631",
+      "marker": "SLICE_PASS",
+      "label": "front glow not buried the_void"
+    },
+    {
+      "time": "00:02:29.631",
+      "marker": "SLICE_DONE",
+      "label": "single-client suite passed; multiplayer requires two actual clients"
+    }
+  ],
+  "result": "SLICE_DONE",
+  "limits": [
+    "Single client; not a multiplayer race or disconnect integration test.",
+    "Existing six Curses only; new disabled Curses gameplay is not approved.",
+    "Fixture is not the separate natural production purchase/delivery evidence."
+  ]
+}

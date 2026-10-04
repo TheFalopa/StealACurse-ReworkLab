@@ -1,0 +1,47 @@
+{
+  "theft-start": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"steal\":{\"ok\":true,\"message\":\"Llévala a un pedestal libre propio y pulsa Colocar. Aún pertenece a su dueño.\"},\"owned\":{\"1\":{\"state\":\"PLACED\",\"pedestalId\":\"floor1-slot1\",\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"definitionId\":\"cursed_doll\"}},\"thief\":[],\"ledger\":\"{\\\"b304affb-5777-4419-bf4e-47b7c8785c94\\\":{\\\"tx\\\":\\\"9a6424f6-b814-40b7-82aa-5904c01e1571\\\",\\\"uid\\\":\\\"b304affb-5777-4419-bf4e-47b7c8785c94\\\",\\\"definitionId\\\":\\\"cursed_doll\\\",\\\"phase\\\":\\\"ATTEMPT\\\",\\\"owner\\\":-1,\\\"revision\\\":2,\\\"from\\\":-1}}\",\"original\":{\"1\":{\"state\":\"CARRYING\",\"stealingUserId\":-2,\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"definitionId\":\"cursed_doll\"}}}"
+      }
+    ],
+    "isError": false
+  },
+  "theft-delivery": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"ok\":true,\"message\":\"Entrega confirmada. La Curse ahora te pertenece.\"}"
+      }
+    ],
+    "isError": false
+  },
+  "transfer-saved": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"thief\":{\"1\":{\"state\":\"PLACED\",\"pedestalId\":\"floor1-slot1\",\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"definitionId\":\"cursed_doll\"}},\"ledger\":\"{\\\"b304affb-5777-4419-bf4e-47b7c8785c94\\\":{\\\"revision\\\":3,\\\"definitionId\\\":\\\"cursed_doll\\\",\\\"phase\\\":\\\"COMMITTED\\\",\\\"owner\\\":-2,\\\"tx\\\":\\\"9a6424f6-b814-40b7-82aa-5904c01e1571\\\",\\\"uid\\\":\\\"b304affb-5777-4419-bf4e-47b7c8785c94\\\",\\\"from\\\":-1,\\\"pedestalId\\\":\\\"floor1-slot1\\\",\\\"baseId\\\":\\\"Base02\\\"}}\",\"original\":[],\"saved2\":true,\"saved1\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "shovel": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"velocity\":\"0, 0.4138258099555969, 0\",\"cooldown\":false,\"accepted\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "interruption": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"owner\":{\"1\":{\"state\":\"UNPLACED\",\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"definitionId\":\"cursed_doll\"}},\"thief\":[],\"production\":0}"
+      }
+    ],
+    "isError": false
+  }
+}

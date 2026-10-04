@@ -1,0 +1,103 @@
+{
+  "id": "soul_chains",
+  "displayName": "Soul Chains",
+  "rarity": "MYTHIC",
+  "sourceReference": "assets/reference/soul-chains-mythic-rework-v3.png",
+  "source": "assets/source/blender/curses_visual_pass2/soul_chains.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/soul_chains.fbx",
+  "sha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+  "triangles": 6092,
+  "vertices": 3096,
+  "blenderDimensions": [
+    6.6117777824401855,
+    2.3950300216674805,
+    9.5
+  ],
+  "intendedRobloxSize": [
+    6.6117777824401855,
+    9.5,
+    2.3950300216674805
+  ],
+  "diagonal": 11.81955050960307,
+  "vfxHook": [
+    -0.10237972044788668,
+    0.4294653475787902,
+    0.42297551220455276
+  ],
+  "vfxProfile": "bound_embers",
+  "palette": [
+    "ember",
+    "ember_core",
+    "iron",
+    "iron_edge",
+    "rust"
+  ],
+  "paintedColorCount": 1179,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Heavy rusted shoulder manacles around an empty captive silhouette",
+      "first_face": 0,
+      "last_face_exclusive": 372
+    },
+    {
+      "name": "Three actual alternating linked chains, dangling broken iron hook",
+      "first_face": 372,
+      "last_face_exclusive": 2630
+    },
+    {
+      "name": "Captive ember rib cage, empty head and tapered forge flame",
+      "first_face": 2630,
+      "last_face_exclusive": 3064
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Rusted forge entity with an empty iron head, massive shoulder manacles, three genuine linked chains and restrained bone-colored captive ember; no purple orb."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/soul_chains.blend",
+  "robloxIntendedSize": [
+    6.6117777824401855,
+    9.5,
+    2.3950300216674805
+  ],
+  "vfxHookRoblox": [
+    -0.10237972044788668,
+    0.4294653475787902,
+    0.42297551220455276
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.0661177784204483,
+      0.02395031414926052,
+      0.0950000062584877
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 6092,
+    "colorCount": 1179,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "soul_chains",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a"
+  }
+}

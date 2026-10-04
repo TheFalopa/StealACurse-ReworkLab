@@ -1,0 +1,1906 @@
+{
+  "studio": "9a9dca08-7bc7-4a5b-bf9c-b15b3a72f3e0",
+  "results": [
+    {
+      "ok": true,
+      "label": "actual local profile loaded"
+    },
+    {
+      "ok": true,
+      "label": "native E claim"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "level": 1
+      },
+      "label": "FULL / starts after actual first-flow/reload"
+    },
+    {
+      "ok": true,
+      "label": "FULL / original legitimate Doll retained"
+    },
+    {
+      "ok": true,
+      "label": "FULL / old level-zero confirmation cannot buy again"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Recupera una pieza del sello y llévala a tu altar.",
+      "label": "FULL / accept lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / relic collected before actual death"
+    },
+    {
+      "ok": true,
+      "label": "FULL / carried relic blocks own Curse pickup"
+    },
+    {
+      "ok": true,
+      "label": "FULL / carried relic blocks new Curse purchase"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "method": "Humanoid.Health=0"
+      },
+      "label": "FULL / relic death creates a fresh living character"
+    },
+    {
+      "ok": true,
+      "label": "FULL / death leaves relic recoverable without auto delivery/payment"
+    },
+    {
+      "ok": true,
+      "label": "FULL / relic death does not relocate any Curse"
+    },
+    {
+      "ok": true,
+      "label": "FULL / manual relic recovery after death"
+    },
+    {
+      "ok": true,
+      "label": "FULL / recovered relic delivered once"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Recupera una pieza del sello y llévala a tu altar.",
+      "label": "FULL / accept lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / relic collected before restart"
+    },
+    {
+      "ok": true,
+      "label": "FULL / restart releases only relic without paying or consuming materials"
+    },
+    {
+      "ok": true,
+      "label": "FULL / contract restart leaves original Curse pedestal untouched"
+    },
+    {
+      "ok": true,
+      "label": "FULL / restarted activity requires manual pickup and delivery"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Lleva la linterna del Sepulturero hasta la capilla.",
+      "label": "FULL / accept chapel_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / lantern collected before abandon"
+    },
+    {
+      "ok": true,
+      "label": "FULL / abandon retains all already earned fragments"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Recoge el relicario del pozo y entrégalo en tu altar.",
+      "label": "FULL / accept well_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / controlled restart repairs vanished target"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing target recreated as reachable marker"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repaired target supports actual pickup/delivery"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "gravekeeper_board": 1,
+        "castle_courtyard": 1,
+        "chapel_steps": 1,
+        "old_well": 1,
+        "cemetery_gate": 1,
+        "observatory_stone": 1,
+        "forest_shrine": 1
+      },
+      "label": "FULL / site repair creates no duplicate installations"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "afterSouls": 1000000,
+        "afterFragments": 1000,
+        "beforeFragments": 17,
+        "kind": "fixture provisioning, not gameplay reward",
+        "beforeSouls": 546.2238759999746
+      },
+      "label": "FULL / QA_SEED resources for broad service coverage"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "catalogPrice": 95,
+        "uid": "e3f30b2c-3757-435c-ac6b-bbd7e1bd4b18"
+      },
+      "label": "FULL / real purchase grave_hopper"
+    },
+    {
+      "ok": true,
+      "detail": "Grave Hopper colocada.",
+      "label": "FULL / manual placement grave_hopper"
+    },
+    {
+      "ok": true,
+      "label": "FULL / real new species discovered once / grave_hopper"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "catalogPrice": 230,
+        "uid": "a0c30fb0-1f04-4f08-bd9b-cf190fa45326"
+      },
+      "label": "FULL / real purchase nail_beetle"
+    },
+    {
+      "ok": true,
+      "detail": "Nail Beetle colocada.",
+      "label": "FULL / manual placement nail_beetle"
+    },
+    {
+      "ok": true,
+      "label": "FULL / real new species discovered once / nail_beetle"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "catalogPrice": 275,
+        "uid": "5fa9856f-c2c9-4714-a7a5-be66faf53bca"
+      },
+      "label": "FULL / real purchase coin_crawler"
+    },
+    {
+      "ok": true,
+      "detail": "Coin Crawler colocada.",
+      "label": "FULL / manual placement coin_crawler"
+    },
+    {
+      "ok": true,
+      "label": "FULL / real new species discovered once / coin_crawler"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "catalogPrice": 140,
+        "uid": "aa86bdf1-c831-4640-849d-ccad3acac497"
+      },
+      "label": "FULL / real purchase wilted_sprout"
+    },
+    {
+      "ok": true,
+      "detail": "Wilted Sprout colocada.",
+      "label": "FULL / manual placement wilted_sprout"
+    },
+    {
+      "ok": true,
+      "label": "FULL / real new species discovered once / wilted_sprout"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "catalogPrice": 260,
+        "uid": "2c8bfa69-a3d9-4aaf-89c4-7ed22836b856"
+      },
+      "label": "FULL / real purchase cold_teacup"
+    },
+    {
+      "ok": true,
+      "detail": "Cold Teacup colocada.",
+      "label": "FULL / manual placement cold_teacup"
+    },
+    {
+      "ok": true,
+      "label": "FULL / real new species discovered once / cold_teacup"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 6,
+        "kind": "32 Common/Rare discoveries seeded, not player achievements",
+        "after": 32,
+        "realOwnedSpecies": 6
+      },
+      "label": "FULL / QA_SEED collection requirements only"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Recupera una pieza del sello y llévala a tu altar.",
+      "label": "FULL / accept lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Tu altar.",
+      "label": "FULL / physical node 1 / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +4 Fragmentos de sello.",
+      "label": "FULL / physical node 2 / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 1000,
+        "after": 1004,
+        "token": "ce6905fd-36af-43f3-987f-5c62514ed295",
+        "reward": 4
+      },
+      "label": "FULL / one exact reward / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant lost_seal"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Recoge el relicario del pozo y entrégalo en tu altar.",
+      "label": "FULL / accept well_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant well_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant well_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant well_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant well_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Tu altar.",
+      "label": "FULL / physical node 1 / variant well_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant well_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +5 Fragmentos de sello.",
+      "label": "FULL / physical node 2 / variant well_relic"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 1004,
+        "after": 1009,
+        "token": "9657ac33-52be-46c3-8c64-9b1977f1b60d",
+        "reward": 5
+      },
+      "label": "FULL / one exact reward / variant well_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant well_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant well_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Lleva la linterna del Sepulturero hasta la capilla.",
+      "label": "FULL / accept chapel_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Escalinata de la capilla.",
+      "label": "FULL / physical node 1 / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +4 Fragmentos de sello.",
+      "label": "FULL / physical node 2 / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 1009,
+        "after": 1013,
+        "token": "2aee8c36-cd5f-4e42-a602-127f8861b7a1",
+        "reward": 4
+      },
+      "label": "FULL / one exact reward / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant chapel_lantern"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Activa las tres marcas en el orden indicado.",
+      "label": "FULL / accept cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 1 / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 2 / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +5 Fragmentos de sello.",
+      "label": "FULL / physical node 3 / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 1013,
+        "after": 1018,
+        "token": "5b20c29d-d457-4663-98c8-e141ee5f423a",
+        "reward": 5
+      },
+      "label": "FULL / one exact reward / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 2"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 2"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 2"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 2 restaurada.",
+      "label": "FULL / exact atomic stage cost 2"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 8
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 2"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 2"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Ilumina el santuario del bosque con una linterna ritual.",
+      "label": "FULL / accept forest_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Santuario del bosque.",
+      "label": "FULL / physical node 1 / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +7 Fragmentos de sello.",
+      "label": "FULL / physical node 2 / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 1012,
+        "after": 1019,
+        "token": "4d723c91-8398-4543-ac64-129a1786ed6d",
+        "reward": 7
+      },
+      "label": "FULL / one exact reward / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant forest_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 3"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 3"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 3"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 3 restaurada.",
+      "label": "FULL / exact atomic stage cost 3"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 10
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 3"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 3"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Devuelve el recuerdo del bosque a tu altar.",
+      "label": "FULL / accept forest_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Tu altar.",
+      "label": "FULL / physical node 1 / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +8 Fragmentos de sello.",
+      "label": "FULL / physical node 2 / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 1005,
+        "after": 1013,
+        "token": "e5775a76-2acc-40ec-9fbc-de24f5027ea0",
+        "reward": 8
+      },
+      "label": "FULL / one exact reward / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant forest_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Sigue las marcas desde el pozo hasta la capilla.",
+      "label": "FULL / accept forest_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 1 / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 2 / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +9 Fragmentos de sello.",
+      "label": "FULL / physical node 3 / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 1013,
+        "after": 1022,
+        "token": "8795bb5e-f234-4a68-8683-47d6d1134bc2",
+        "reward": 9
+      },
+      "label": "FULL / one exact reward / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant forest_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Activa las marcas en este orden: 1 → 3 → 2. Los ecos no producen Souls.",
+      "label": "FULL / begin actual owned-species ritual collection_vigil"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual echoes have no owned instances or added income / collection_vigil"
+    },
+    {
+      "ok": true,
+      "label": "FULL / wrong ritual mark permits safe retry"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual exit cleans echoes and preserves resources/ownership"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual can begin again after exit"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 1 activada. Continúa con la 3.",
+      "label": "FULL / ordered ritual mark 1 / collection_vigil"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 3 activada. Continúa con la 2.",
+      "label": "FULL / ordered ritual mark 2 / collection_vigil"
+    },
+    {
+      "ok": true,
+      "detail": "Ritual completado. Su hito queda guardado permanentemente.",
+      "label": "FULL / ordered ritual mark 3 / collection_vigil"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual completes once without consuming or duplicating / collection_vigil"
+    },
+    {
+      "ok": true,
+      "label": "FULL / completed ritual cannot replay / collection_vigil"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 4"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 4"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 4"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 4 restaurada.",
+      "label": "FULL / exact atomic stage cost 4"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 14
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 4"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 4"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 5"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 5"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 5"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 5 restaurada.",
+      "label": "FULL / exact atomic stage cost 5"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 18
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 5"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 5"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Lleva el farol astral a la piedra del observatorio.",
+      "label": "FULL / accept astral_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Piedra astral.",
+      "label": "FULL / physical node 1 / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +11 Fragmentos de sello.",
+      "label": "FULL / physical node 2 / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 962,
+        "after": 973,
+        "token": "a422c3ad-4f9e-4559-ae06-41c046559869",
+        "reward": 11
+      },
+      "label": "FULL / one exact reward / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant astral_lantern"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Activa las tres marcas en el orden indicado.",
+      "label": "FULL / accept cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 1 / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 2 / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +5 Fragmentos de sello.",
+      "label": "FULL / physical node 3 / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 973,
+        "after": 978,
+        "token": "c5da18bb-23ea-4aef-abb1-635e3f603851",
+        "reward": 5
+      },
+      "label": "FULL / one exact reward / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / additional real sequence for protective seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 6"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 6"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 6"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 6 restaurada.",
+      "label": "FULL / exact atomic stage cost 6"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 18
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 6"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 6"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Une las tres marcas de la constelación en orden.",
+      "label": "FULL / accept astral_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 1 / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 2 / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +12 Fragmentos de sello.",
+      "label": "FULL / physical node 3 / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 930,
+        "after": 942,
+        "token": "378419a0-5db4-400f-93a7-2a0fe4e8baf4",
+        "reward": 12
+      },
+      "label": "FULL / one exact reward / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant astral_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Recupera una reliquia mayor y entrégala físicamente en tu altar.",
+      "label": "FULL / accept greater_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Tu altar.",
+      "label": "FULL / physical node 1 / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +14 Fragmentos de sello.",
+      "label": "FULL / physical node 2 / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 942,
+        "after": 956,
+        "token": "00aab603-de63-4d2c-b19a-fef5d7b46802",
+        "reward": 14
+      },
+      "label": "FULL / one exact reward / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant greater_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Activa las marcas en este orden: 2 → 1 → 3 → 2. Los ecos no producen Souls.",
+      "label": "FULL / begin actual owned-species ritual relic_consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual echoes have no owned instances or added income / relic_consecration"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 2 activada. Continúa con la 1.",
+      "label": "FULL / ordered ritual mark 1 / relic_consecration"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 1 activada. Continúa con la 3.",
+      "label": "FULL / ordered ritual mark 2 / relic_consecration"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 3 activada. Continúa con la 2.",
+      "label": "FULL / ordered ritual mark 3 / relic_consecration"
+    },
+    {
+      "ok": true,
+      "detail": "Ritual completado. Su hito queda guardado permanentemente.",
+      "label": "FULL / ordered ritual mark 4 / relic_consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual completes once without consuming or duplicating / relic_consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / completed ritual cannot replay / relic_consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 7"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 7"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 7"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 7 restaurada.",
+      "label": "FULL / exact atomic stage cost 7"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 22
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 7"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 7"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 8"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 8"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 8"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 8 restaurada.",
+      "label": "FULL / exact atomic stage cost 8"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 26
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 8"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 8"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Lleva la memoria ancestral del castillo hasta tu altar.",
+      "label": "FULL / accept ancient_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Lleva la reliquia a Tu altar.",
+      "label": "FULL / physical node 1 / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +14 Fragmentos de sello.",
+      "label": "FULL / physical node 2 / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 796,
+        "after": 810,
+        "token": "121803b3-801c-4f11-b057-c61db98f22c0",
+        "reward": 14
+      },
+      "label": "FULL / one exact reward / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant ancient_relic"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Completa el círculo del bosque, castillo y observatorio.",
+      "label": "FULL / accept grand_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 1 / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 2 / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +14 Fragmentos de sello.",
+      "label": "FULL / physical node 3 / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 810,
+        "after": 824,
+        "token": "b40e0714-8fc0-434c-ab59-bc9142fe02fa",
+        "reward": 14
+      },
+      "label": "FULL / one exact reward / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / variant grand_marks"
+    },
+    {
+      "ok": true,
+      "detail": "Activa las marcas en este orden: 3 → 1 → 2 → 3 → 2. Los ecos no producen Souls.",
+      "label": "FULL / begin actual owned-species ritual grand_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual echoes have no owned instances or added income / grand_seal"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 3 activada. Continúa con la 1.",
+      "label": "FULL / ordered ritual mark 1 / grand_seal"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 1 activada. Continúa con la 2.",
+      "label": "FULL / ordered ritual mark 2 / grand_seal"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 2 activada. Continúa con la 3.",
+      "label": "FULL / ordered ritual mark 3 / grand_seal"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 3 activada. Continúa con la 2.",
+      "label": "FULL / ordered ritual mark 4 / grand_seal"
+    },
+    {
+      "ok": true,
+      "detail": "Ritual completado. Su hito queda guardado permanentemente.",
+      "label": "FULL / ordered ritual mark 5 / grand_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual completes once without consuming or duplicating / grand_seal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / completed ritual cannot replay / grand_seal"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 17,
+        "kind": "counter seeded to avoid repetitive grind, not player completion",
+        "after": 22,
+        "level": 9
+      },
+      "label": "FULL / QA_SEED late contract count requirement"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Activa las tres marcas en el orden indicado.",
+      "label": "FULL / accept cemetery_marks"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate accept preserves active token / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node cannot advance / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / out of order node grants no resources / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant interaction rejected / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 1 / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "detail": "Marca activada. Sigue al siguiente punto.",
+      "label": "FULL / physical node 2 / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated node cannot advance / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato completado: +5 Fragmentos de sello.",
+      "label": "FULL / physical node 3 / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 824,
+        "after": 829,
+        "token": "ed07ae03-4948-4df2-8362-5dd6eeec579a",
+        "reward": 5
+      },
+      "label": "FULL / one exact reward / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / correct real activity milestones / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat delivery and stale token do not repay / additional real marks for consecration"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 9"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 9"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 9"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 9 restaurada.",
+      "label": "FULL / exact atomic stage cost 9"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 26
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 9"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 9"
+    },
+    {
+      "ok": true,
+      "detail": "Activa las marcas en este orden: 1 → 2 → 3 → 1 → 3 → 2. Los ecos no producen Souls.",
+      "label": "FULL / begin actual owned-species ritual dominion"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual echoes have no owned instances or added income / dominion"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 1 activada. Continúa con la 2.",
+      "label": "FULL / ordered ritual mark 1 / dominion"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 2 activada. Continúa con la 3.",
+      "label": "FULL / ordered ritual mark 2 / dominion"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 3 activada. Continúa con la 1.",
+      "label": "FULL / ordered ritual mark 3 / dominion"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 1 activada. Continúa con la 3.",
+      "label": "FULL / ordered ritual mark 4 / dominion"
+    },
+    {
+      "ok": true,
+      "detail": "Marca 3 activada. Continúa con la 2.",
+      "label": "FULL / ordered ritual mark 5 / dominion"
+    },
+    {
+      "ok": true,
+      "detail": "Ritual completado. Su hito queda guardado permanentemente.",
+      "label": "FULL / ordered ritual mark 6 / dominion"
+    },
+    {
+      "ok": true,
+      "label": "FULL / ritual completes once without consuming or duplicating / dominion"
+    },
+    {
+      "ok": true,
+      "label": "FULL / completed ritual cannot replay / dominion"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "before": 23,
+        "kind": "counter seeded to avoid repetitive grind, not player completion",
+        "after": 30,
+        "level": 10
+      },
+      "label": "FULL / QA_SEED late contract count requirement"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing fragments cannot charge stage 10"
+    },
+    {
+      "ok": true,
+      "label": "FULL / missing Souls cannot charge stage 10"
+    },
+    {
+      "ok": true,
+      "label": "FULL / distant upgrade denied stage 10"
+    },
+    {
+      "ok": true,
+      "detail": "Etapa 10 restaurada.",
+      "label": "FULL / exact atomic stage cost 10"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "capacity": 30
+      },
+      "label": "FULL / stage adds empty stable pedestals without moving collection 10"
+    },
+    {
+      "ok": true,
+      "label": "FULL / stale duplicate stage confirmation cannot charge 10"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "count": 12
+      },
+      "label": "FULL / all 12 actual contract variants covered"
+    },
+    {
+      "ok": true,
+      "label": "FULL / all three floors expose 30 logical pedestals"
+    },
+    {
+      "ok": true,
+      "label": "FULL / featured display points to original real instance"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "endsAt": 1791020480.431802,
+        "availableAt": 1791020540.431802
+      },
+      "label": "FULL / consagrated protection has configured closure and vulnerability times"
+    },
+    {
+      "ok": true,
+      "label": "FULL / server owner access constraints exist during closure"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated seal activation cannot extend or chain closure"
+    },
+    {
+      "ok": true,
+      "label": "FULL / style preserves all identities and production / CRYPT"
+    },
+    {
+      "ok": true,
+      "label": "FULL / featured pedestal survives style / CRYPT"
+    },
+    {
+      "ok": true,
+      "label": "FULL / style preserves active server barrier and owner access / CRYPT"
+    },
+    {
+      "ok": true,
+      "label": "FULL / style preserves all identities and production / FOREST"
+    },
+    {
+      "ok": true,
+      "label": "FULL / featured pedestal survives style / FOREST"
+    },
+    {
+      "ok": true,
+      "label": "FULL / style preserves active server barrier and owner access / FOREST"
+    },
+    {
+      "ok": true,
+      "label": "FULL / style preserves all identities and production / OBSERVATORY"
+    },
+    {
+      "ok": true,
+      "label": "FULL / featured pedestal survives style / OBSERVATORY"
+    },
+    {
+      "ok": true,
+      "label": "FULL / style preserves active server barrier and owner access / OBSERVATORY"
+    },
+    {
+      "ok": true,
+      "label": "FULL / featured display can be cleared without changing collection"
+    },
+    {
+      "ok": true,
+      "label": "FULL / own Curse physically picked for floor relocation"
+    },
+    {
+      "ok": true,
+      "label": "FULL / pickup frees original pedestal and stops that income once"
+    },
+    {
+      "ok": true,
+      "detail": "Pedestal ocupado.",
+      "label": "FULL / occupied pedestal cannot steal or duplicate a slot"
+    },
+    {
+      "ok": true,
+      "detail": "Contrato aceptado. Lleva la linterna del Sepulturero hasta la capilla.",
+      "label": "FULL / accept chapel_lantern"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "contractToken": "aa1bb165-2c98-407a-8163-430d4b1fd80e"
+      },
+      "label": "FULL / carried Curse blocks simultaneous contract relic pickup"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "method": "Humanoid.Health=0"
+      },
+      "label": "FULL / carried Curse death creates a fresh living character"
+    },
+    {
+      "ok": true,
+      "label": "FULL / death keeps Curse unplaced without returning or earning"
+    },
+    {
+      "ok": true,
+      "label": "FULL / death recovery produces a reachable manual pickup"
+    },
+    {
+      "ok": true,
+      "label": "FULL / Curse manually recovered after death"
+    },
+    {
+      "ok": true,
+      "detail": "Cursed Doll colocada.",
+      "label": "FULL / manual second-floor placement resumes one real production instance"
+    },
+    {
+      "ok": true,
+      "label": "FULL / second-floor Curse picked for reset test"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "method": "Player.LoadCharacter"
+      },
+      "label": "FULL / carried Curse reset creates a fresh living character"
+    },
+    {
+      "ok": true,
+      "label": "FULL / reset keeps Curse recoverable and never returns it to old pedestal"
+    },
+    {
+      "ok": true,
+      "label": "FULL / reset persists unplaced ownership"
+    },
+    {
+      "ok": true,
+      "label": "FULL / unplaced reset snapshot durably acknowledged before manual recovery"
+    },
+    {
+      "ok": true,
+      "label": "FULL / recoverable Curse has reachable runtime representation"
+    },
+    {
+      "ok": true,
+      "label": "FULL / manual Curse recovery required after reset"
+    },
+    {
+      "ok": true,
+      "detail": "Cursed Doll colocada.",
+      "label": "FULL / manual third-floor placement resumes exactly one income"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeat placement cannot duplicate income"
+    },
+    {
+      "ok": true,
+      "label": "FULL / relic pickup succeeds after Curse placement"
+    },
+    {
+      "ok": true,
+      "label": "FULL / shared carry channel clears after delivery"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "catalogPrice": 100,
+        "uid": "f454c9e8-e4ed-416a-ac4a-ef6cf384dcc2"
+      },
+      "label": "FULL / real purchase cursed_doll"
+    },
+    {
+      "ok": true,
+      "detail": "Cursed Doll colocada.",
+      "label": "FULL / manual placement cursed_doll"
+    },
+    {
+      "ok": true,
+      "label": "FULL / duplicate species does not inflate Grimorio"
+    },
+    {
+      "ok": true,
+      "label": "FULL / sale quote is exact catalog half"
+    },
+    {
+      "ok": true,
+      "detail": "Venta completada. Recibiste 50 Souls.",
+      "label": "FULL / sale removes one instance frees pedestal and updates income"
+    },
+    {
+      "ok": true,
+      "label": "FULL / repeated sale cannot pay again or remove other duplicate"
+    },
+    {
+      "ok": true,
+      "label": "FULL / final featured selection follows relocated actual Curse"
+    },
+    {
+      "ok": true,
+      "label": "FULL / featured highlight uses current logical floor slot"
+    },
+    {
+      "ok": true,
+      "label": "FULL / final isolated local profile write acknowledged"
+    },
+    {
+      "ok": true,
+      "detail": {
+        "owned": 6,
+        "level": 10,
+        "featuredSlot": "floor3-slot10"
+      },
+      "label": "FULL / functional final checkpoint remains owned placed and ready for root reload"
+    }
+  ],
+  "full": {
+    "reviewedContracts": {
+      "chapel_lantern": true,
+      "ancient_relic": true,
+      "lost_seal": true,
+      "well_relic": true,
+      "cemetery_marks": true,
+      "astral_marks": true,
+      "grand_marks": true,
+      "forest_relic": true,
+      "forest_lantern": true,
+      "forest_marks": true,
+      "astral_lantern": true,
+      "greater_relic": true
+    },
+    "expectedProfile": {
+      "souls": 470791.70147197566,
+      "fragments": 553,
+      "curses": [
+        {
+          "state": "PLACED",
+          "uid": "161e10fd-e1c1-4406-988e-cf2afc936a9c",
+          "definitionId": "cursed_doll",
+          "pedestalId": "floor3-slot10",
+          "revision": 10
+        },
+        {
+          "state": "PLACED",
+          "uid": "2c8bfa69-a3d9-4aaf-89c4-7ed22836b856",
+          "definitionId": "cold_teacup",
+          "pedestalId": "floor1-slot6",
+          "revision": 2
+        },
+        {
+          "state": "PLACED",
+          "uid": "5fa9856f-c2c9-4714-a7a5-be66faf53bca",
+          "definitionId": "coin_crawler",
+          "pedestalId": "floor1-slot4",
+          "revision": 2
+        },
+        {
+          "state": "PLACED",
+          "uid": "a0c30fb0-1f04-4f08-bd9b-cf190fa45326",
+          "definitionId": "nail_beetle",
+          "pedestalId": "floor1-slot3",
+          "revision": 2
+        },
+        {
+          "state": "PLACED",
+          "uid": "aa86bdf1-c831-4640-849d-ccad3acac497",
+          "definitionId": "wilted_sprout",
+          "pedestalId": "floor1-slot5",
+          "revision": 2
+        },
+        {
+          "state": "PLACED",
+          "uid": "e3f30b2c-3757-435c-ac6b-bbd7e1bd4b18",
+          "definitionId": "grave_hopper",
+          "pedestalId": "floor1-slot2",
+          "revision": 2
+        }
+      ],
+      "rituals": {
+        "collection_vigil": true,
+        "dominion": true,
+        "grand_seal": true,
+        "relic_consecration": true,
+        "first_vigil": true
+      },
+      "revision": 146,
+      "style": "OBSERVATORY",
+      "milestones": {
+        "sealing": 6,
+        "contracts": 31,
+        "recovery": 9,
+        "sealActivations": 18,
+        "transport": 4,
+        "majorRelics": 2
+      },
+      "featuredUid": "161e10fd-e1c1-4406-988e-cf2afc936a9c",
+      "level": 10,
+      "discoveries": {
+        "haunted_mirror": true,
+        "raven_quill": true,
+        "lost_locket": true,
+        "sleepwalker_shoes": true,
+        "hourglass_hound": true,
+        "hollow_violin": true,
+        "pale_gramophone": true,
+        "cold_teacup": true,
+        "thorn_reliquary": true,
+        "umbrella_wraith": true,
+        "pale_guest": true,
+        "music_box_dancer": true,
+        "crying_mask": true,
+        "grave_hopper": true,
+        "ink_imp": true,
+        "wilted_sprout": true,
+        "thimble_spider": true,
+        "coin_crawler": true,
+        "chime_triplets": true,
+        "mourning_ribbon": true,
+        "cursed_doll": true,
+        "anchor_crab": true,
+        "lantern_lurker": true,
+        "ashen_book": true,
+        "grave_compass": true,
+        "veil_mourner": true,
+        "marrow_dice": true,
+        "sundial_sentinel": true,
+        "candle_wisp": true,
+        "nail_beetle": true,
+        "sorrow_chalice": true,
+        "grave_key": true
+      },
+      "savedAt": 1791020450.611391
+    },
+    "initialLevelOne": {
+      "fragments": 4,
+      "style": "CRYPT",
+      "milestones": {
+        "sealing": 0,
+        "contracts": 1,
+        "recovery": 1,
+        "sealActivations": 0,
+        "transport": 0,
+        "majorRelics": 0
+      },
+      "level": 1,
+      "rituals": {
+        "first_vigil": true
+      },
+      "schema": 1,
+      "discoveries": {
+        "cursed_doll": true
+      }
+    },
+    "upgradeReceipts": [
+      {
+        "capacity": 6,
+        "level": 1,
+        "source": "root first-flow actual purchase/contract/ritual"
+      },
+      {
+        "souls": 750,
+        "fragments": 6,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 8,
+        "level": 2
+      },
+      {
+        "souls": 2200,
+        "fragments": 14,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 10,
+        "level": 3
+      },
+      {
+        "souls": 6500,
+        "fragments": 24,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 14,
+        "level": 4
+      },
+      {
+        "souls": 13000,
+        "fragments": 36,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 18,
+        "level": 5
+      },
+      {
+        "souls": 22000,
+        "fragments": 48,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 18,
+        "level": 6
+      },
+      {
+        "souls": 45000,
+        "fragments": 70,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 22,
+        "level": 7
+      },
+      {
+        "souls": 80000,
+        "fragments": 90,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 26,
+        "level": 8
+      },
+      {
+        "souls": 140000,
+        "fragments": 120,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 26,
+        "level": 9
+      },
+      {
+        "souls": 220000,
+        "fragments": 160,
+        "source": "actual service action with QA provisioned requirements explicitly recorded",
+        "capacity": 30,
+        "level": 10
+      }
+    ],
+    "originalDollUid": "161e10fd-e1c1-4406-988e-cf2afc936a9c",
+    "scope": "Production server rules with teleported validated positions; QA seeded resources/collection and any late contract-count deficits are explicit. Native visuals, two clients, walking, network transport and mobile remain separate root checks."
+  },
+  "stage": "FULL_PASS"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "nail_beetle",
+  "displayName": "Nail Beetle",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/nail_beetle.blend",
+  "export": "assets/export/meshes/curses/rework/nail_beetle.fbx",
+  "sha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+  "triangles": 1594,
+  "vertices": 833,
+  "blenderDimensions": [
+    2.2087197303771973,
+    2.3138370513916016,
+    1.6229333877563477
+  ],
+  "intendedRobloxSize": [
+    2.2087197303771973,
+    1.6229333877563477,
+    2.3138370513916016
+  ],
+  "diagonal": 3.5869482194261453,
+  "vfxHook": [
+    -0.001666426658630371,
+    -0.31301863007247444,
+    1.0971209603818028
+  ],
+  "vfxProfile": "rust_dust",
+  "palette": [
+    "iron",
+    "iron_edge",
+    "moss",
+    "rust",
+    "white_glow"
+  ],
+  "paintedColorCount": 331,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "CoffinNailCarapace",
+      "first_face": 0,
+      "last_face_exclusive": 372
+    },
+    {
+      "name": "SixBentIronLegs",
+      "first_face": 372,
+      "last_face_exclusive": 510
+    },
+    {
+      "name": "RustAndMoss",
+      "first_face": 510,
+      "last_face_exclusive": 658
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Iron beetle with coherent coffin-nail carapace rather than a generic insect shell; thick nail head, six jointed legs, pale eyes, rust edges and moss."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/nail_beetle.blend",
+  "robloxIntendedSize": [
+    2.2087197303771973,
+    1.6229333877563477,
+    2.3138370513916016
+  ],
+  "vfxHookRoblox": [
+    -0.001666426658630371,
+    -0.31301863007247444,
+    1.0971209603818028
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.02208719588816166,
+      0.023138372227549553,
+      0.016229337081313133
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1594,
+    "colorCount": 331,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "nail_beetle",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

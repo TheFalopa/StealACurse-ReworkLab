@@ -1,0 +1,112 @@
+{
+  "id": "nail_beetle",
+  "displayName": "Nail Beetle",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_visual_pass2/batch02/nail_beetle.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/batch02/nail_beetle.fbx",
+  "sha256": "5a2044284e918b967145eae09b076252f3075b9b4a37fc8d74a80e0c601b4396",
+  "triangles": 1594,
+  "vertices": 833,
+  "blenderDimensions": [
+    5.599999904632568,
+    5.400000095367432,
+    3.200000047683716
+  ],
+  "intendedRobloxSize": [
+    5.599999904632568,
+    3.200000047683716,
+    5.400000095367432
+  ],
+  "diagonal": 8.411896353797331,
+  "vfxHook": [
+    -0.00422506732866168,
+    -0.6171908378601074,
+    2.5604453086853027
+  ],
+  "vfxProfile": "rust_dust",
+  "palette": [
+    "iron",
+    "iron_edge",
+    "moss",
+    "rust",
+    "white_glow"
+  ],
+  "paintedColorCount": 331,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "CoffinNailCarapace",
+      "first_face": 0,
+      "last_face_exclusive": 372
+    },
+    {
+      "name": "SixBentIronLegs",
+      "first_face": 372,
+      "last_face_exclusive": 510
+    },
+    {
+      "name": "RustAndMoss",
+      "first_face": 510,
+      "last_face_exclusive": 658
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Iron beetle with coherent coffin-nail carapace rather than a generic insect shell; thick nail head, six jointed legs, pale eyes, rust edges and moss.",
+    "Low broad six-leg stance, broad coffin nail head, visibly worn iron and orange rust surfaces."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/batch02/nail_beetle.blend",
+  "robloxIntendedSize": [
+    5.599999904632568,
+    3.200000047683716,
+    5.400000095367432
+  ],
+  "vfxHookRoblox": [
+    -0.00422506732866168,
+    -0.6171908378601074,
+    2.5604453086853027
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.0559999980032444,
+      0.05400000512599945,
+      0.03200000897049904
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 1594,
+    "colorCount": 784,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "nail_beetle",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "5a2044284e918b967145eae09b076252f3075b9b4a37fc8d74a80e0c601b4396"
+  },
+  "fbxExported": true,
+  "locallyValidated": true,
+  "pass": 2,
+  "revision": 2,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/nail_beetle.blend",
+  "sourceReusedSha256": "0d5258f248311fd9d7444a240db26af256651233f1c7c5a5d1033eab129685b2",
+  "vfxHooks": {},
+  "changedPaintCorners": 4027
+}

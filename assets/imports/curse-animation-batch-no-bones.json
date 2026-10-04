@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"1\":{\"bones\":[],\"path\":\"Workspace.animation-quality-five.plague_monarch\",\"name\":\"plague_monarch\",\"id\":\"rbxassetid://88889220583728\",\"size\":{\"1\":6.034782409667969,\"3\":3.700949192047119,\"2\":9.300000190734864}},\"4\":{\"bones\":[],\"path\":\"Workspace.animation-quality-five.watching_eye\",\"name\":\"watching_eye\",\"id\":\"rbxassetid://81484326253720\",\"size\":{\"1\":9.597518920898438,\"3\":2.2325332164764406,\"2\":6.5}},\"3\":{\"bones\":[],\"path\":\"Workspace.animation-quality-five.the_void\",\"name\":\"the_void\",\"id\":\"rbxassetid://92666046802787\",\"size\":{\"1\":10.264503479003907,\"3\":1.96040940284729,\"2\":12.59999942779541}},\"2\":{\"bones\":[],\"path\":\"Workspace.animation-quality-five.soul_chains\",\"name\":\"soul_chains\",\"id\":\"rbxassetid://135269045566890\",\"size\":{\"1\":6.611778259277344,\"3\":2.3950319290161135,\"2\":9.5}}}"
+    }
+  ],
+  "isError": false
+}

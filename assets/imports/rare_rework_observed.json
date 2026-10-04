@@ -1,0 +1,226 @@
+[
+  {
+    "observedPath": "Workspace.rare_import_batch.anchor_crab",
+    "meshSize": [
+      4.531620025634766,
+      2.9201908111572266,
+      1.3299423456192017
+    ],
+    "id": "anchor_crab",
+    "meshId": "rbxassetid://138935951310223",
+    "textureId": "",
+    "size": [
+      4.531620025634766,
+      2.9201908111572266,
+      1.3299423456192017
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.chime_triplets",
+    "meshSize": [
+      3.9294962882995605,
+      2.9680001735687256,
+      1.2350000143051147
+    ],
+    "id": "chime_triplets",
+    "meshId": "rbxassetid://114343537583157",
+    "textureId": "",
+    "size": [
+      3.9294962882995605,
+      2.9680001735687256,
+      1.2350000143051147
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.grave_compass",
+    "meshSize": [
+      3.7378311157226562,
+      2.8460559844970703,
+      0.8600339889526367
+    ],
+    "id": "grave_compass",
+    "meshId": "rbxassetid://92042737751538",
+    "textureId": "",
+    "size": [
+      3.7378311157226562,
+      2.8460559844970703,
+      0.8600339889526367
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.hollow_violin",
+    "meshSize": [
+      1.6355282068252563,
+      3.8532867431640625,
+      0.8499729633331299
+    ],
+    "id": "hollow_violin",
+    "meshId": "rbxassetid://91498125175625",
+    "textureId": "",
+    "size": [
+      1.6355282068252563,
+      3.8532867431640625,
+      0.8499729633331299
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.marrow_dice",
+    "meshSize": [
+      3.312481641769409,
+      2.809999942779541,
+      1.9026007652282715
+    ],
+    "id": "marrow_dice",
+    "meshId": "rbxassetid://98208990983506",
+    "textureId": "",
+    "size": [
+      3.312481641769409,
+      2.809999942779541,
+      1.9026007652282715
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.music_box_dancer",
+    "meshSize": [
+      2.7649190425872803,
+      3.3450002670288086,
+      1.8526499271392822
+    ],
+    "id": "music_box_dancer",
+    "meshId": "rbxassetid://103021046464363",
+    "textureId": "",
+    "size": [
+      2.7649190425872803,
+      3.3450002670288086,
+      1.8526499271392822
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.pale_gramophone",
+    "meshSize": [
+      3.3486762046813965,
+      4.104394912719727,
+      2.7653918266296387
+    ],
+    "id": "pale_gramophone",
+    "meshId": "rbxassetid://94119998367472",
+    "textureId": "",
+    "size": [
+      3.3486762046813965,
+      4.104394912719727,
+      2.7653918266296387
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.raven_quill",
+    "meshSize": [
+      2.4739999771118164,
+      3.5245018005371094,
+      0.8183358907699585
+    ],
+    "id": "raven_quill",
+    "meshId": "rbxassetid://71223428160554",
+    "textureId": "",
+    "size": [
+      2.4739999771118164,
+      3.5245018005371094,
+      0.8183358907699585
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.sleepwalker_shoes",
+    "meshSize": [
+      2.835836887359619,
+      2.1824073791503906,
+      2.3786511421203613
+    ],
+    "id": "sleepwalker_shoes",
+    "meshId": "rbxassetid://100900364423577",
+    "textureId": "",
+    "size": [
+      2.835836887359619,
+      2.1824073791503906,
+      2.3786511421203613
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.sorrow_chalice",
+    "meshSize": [
+      1.9149999618530273,
+      2.841651439666748,
+      1.7319999933242798
+    ],
+    "id": "sorrow_chalice",
+    "meshId": "rbxassetid://124640513274761",
+    "textureId": "",
+    "size": [
+      1.9149999618530273,
+      2.841651439666748,
+      1.7319999933242798
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.sundial_sentinel",
+    "meshSize": [
+      2.2615041732788086,
+      3.0419445037841797,
+      0.830551028251648
+    ],
+    "id": "sundial_sentinel",
+    "meshId": "rbxassetid://107305209907882",
+    "textureId": "",
+    "size": [
+      2.2615041732788086,
+      3.0419445037841797,
+      0.830551028251648
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.thimble_spider",
+    "meshSize": [
+      3.3798885345458984,
+      2.0764691829681396,
+      1.8815412521362305
+    ],
+    "id": "thimble_spider",
+    "meshId": "rbxassetid://99634226365979",
+    "textureId": "",
+    "size": [
+      3.3798885345458984,
+      2.0764691829681396,
+      1.8815412521362305
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.thorn_reliquary",
+    "meshSize": [
+      1.7483792304992676,
+      3.612090587615967,
+      1.749131679534912
+    ],
+    "id": "thorn_reliquary",
+    "meshId": "rbxassetid://136595375769922",
+    "textureId": "",
+    "size": [
+      1.7483792304992676,
+      3.612090587615967,
+      1.749131679534912
+    ]
+  },
+  {
+    "observedPath": "Workspace.rare_import_batch.veil_mourner",
+    "meshSize": [
+      2.645899534225464,
+      3.528148651123047,
+      1.6559808254241943
+    ],
+    "id": "veil_mourner",
+    "meshId": "rbxassetid://138895825932890",
+    "textureId": "",
+    "size": [
+      2.645899534225464,
+      3.528148651123047,
+      1.6559808254241943
+    ]
+  }
+]

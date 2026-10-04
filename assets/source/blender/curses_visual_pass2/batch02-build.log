@@ -1,0 +1,152 @@
+00:05.500  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_visual_pass2\cold_teacup.blend"
+00:06.484  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_3625b81c92e1e08fd32422a3071b2627.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\cold_teacup.fbx'
+export finished in 0.0192 sec.
+Info: Saved as "cold_teacup.blend"
+FBX version: 7400
+PASS2_BATCH02_READY cold_teacup [5.0, 4.900000095367432, 4.875944137573242] 1134
+00:06.640  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\grave_key.blend"
+00:06.812  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_137a98ae442d97b520b2e412250beb2a.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\grave_key.fbx'
+export finished in 0.0155 sec.
+Info: Saved as "grave_key.blend"
+FBX version: 7400
+PASS2_BATCH02_READY grave_key [3.874108076095581, 4.599999904632568, 0.9528255462646484] 4368
+00:06.843  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\mourning_ribbon.blend"
+00:07.000  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_a787c7d17f2b8d426eee68b69856a784.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\mourning_ribbon.fbx'
+export finished in 0.0189 sec.
+Info: Saved as "mourning_ribbon.blend"
+FBX version: 7400
+PASS2_BATCH02_READY mourning_ribbon [6.400000095367432, 4.800000190734863, 1.1627039909362793] 4800
+00:07.062  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\wilted_sprout.blend"
+00:07.234  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_6feb048c3e85d62c3344d75d071340f0.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\wilted_sprout.fbx'
+export finished in 0.0199 sec.
+Info: Saved as "wilted_sprout.blend"
+FBX version: 7400
+PASS2_BATCH02_READY wilted_sprout [3.7659215927124023, 4.800000190734863, 1.9629535675048828] 3829
+00:07.297  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\hourglass_hound.blend"
+00:07.515  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_c0f341e7167e690b27e480fee2438855.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\hourglass_hound.fbx'
+export finished in 0.0202 sec.
+Info: Saved as "hourglass_hound.blend"
+FBX version: 7400
+PASS2_BATCH02_READY hourglass_hound [5.800000190734863, 3.8000001907348633, 2.2718727588653564] 289
+00:07.578  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\nail_beetle.blend"
+00:07.718  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_52fefdcd22b0382f1a161764b4316bf0.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\nail_beetle.fbx'
+export finished in 0.0150 sec.
+Info: Saved as "nail_beetle.blend"
+FBX version: 7400
+PASS2_BATCH02_READY nail_beetle [5.599999904632568, 3.200000047683716, 5.400000095367432] 4027
+00:07.765  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\umbrella_wraith.blend"
+00:07.922  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_47d53cbbfd645a890de4b839ed125405.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\umbrella_wraith.fbx'
+export finished in 0.0203 sec.
+Info: Saved as "umbrella_wraith.blend"
+FBX version: 7400
+PASS2_BATCH02_READY umbrella_wraith [5.591540336608887, 5.199999809265137, 2.799999952316284] 2669
+00:07.984  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\veil_mourner.blend"
+00:08.187  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_8cd7b8baa8093bb2dc2a8402041a8f30.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\veil_mourner.fbx'
+export finished in 0.0233 sec.
+Info: Saved as "veil_mourner.blend"
+FBX version: 7400
+PASS2_BATCH02_READY veil_mourner [4.574634075164795, 6.099999904632568, 2.863112449645996] 6324
+00:08.281  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\raven_quill.blend"
+00:08.437  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_fa557475b759047fe21230a5a8990f2f.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\raven_quill.fbx'
+export finished in 0.0163 sec.
+Info: Saved as "raven_quill.blend"
+FBX version: 7400
+PASS2_BATCH02_READY raven_quill [5.199999809265137, 6.400000095367432, 2.4000000953674316] 678
+00:08.500  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\thorn_reliquary.blend"
+00:08.703  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_09c4eca86749f98ea2fa1c1f8a15c9d0.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\thorn_reliquary.fbx'
+export finished in 0.0176 sec.
+Info: Saved as "thorn_reliquary.blend"
+FBX version: 7400
+PASS2_BATCH02_READY thorn_reliquary [3.1462292671203613, 6.5, 3.147583246231079] 1637
+00:08.765  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\night_harp.blend"
+00:09.000  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_92d6f088e00cc5a68bd1d998a1935d89.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\night_harp.fbx'
+export finished in 0.0180 sec.
+Info: Saved as "night_harp.blend"
+FBX version: 7400
+PASS2_BATCH02_READY night_harp [5.734979152679443, 7.90000057220459, 2.8575713634490967] 3375
+00:09.062  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\blood_moon_rose.blend"
+00:09.468  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_0c46e09bd27c0cc44ae74de0e57b8f59.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\blood_moon_rose.fbx'
+export finished in 0.0319 sec.
+Info: Saved as "blood_moon_rose.blend"
+FBX version: 7400
+PASS2_BATCH02_READY blood_moon_rose [6.825550079345703, 7.399999618530273, 2.825404405593872] 15498
+00:09.562  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\judgement_scales.blend"
+00:09.765  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_0107ce32c059f9cb57b2839f91d56c04.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\judgement_scales.fbx'
+export finished in 0.0215 sec.
+Info: Saved as "judgement_scales.blend"
+FBX version: 7400
+PASS2_BATCH02_READY judgement_scales [7.404327392578125, 7.500000476837158, 2.3032803535461426] 3022
+00:09.828  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\eclipse_stag.blend"
+00:09.968  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_3e99ab6bd407117f053fba8bac7e3183.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\eclipse_stag.fbx'
+export finished in 0.0171 sec.
+Info: Saved as "eclipse_stag.blend"
+FBX version: 7400
+PASS2_BATCH02_READY eclipse_stag [6.504951000213623, 8.600000381469727, 2.521584987640381] 2099
+00:10.031  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\hollow_throne.blend"
+00:10.234  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_e4b67301a125cd6ecb61bf7f04c2404f.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\hollow_throne.fbx'
+export finished in 0.0203 sec.
+Info: Saved as "hollow_throne.blend"
+FBX version: 7400
+PASS2_BATCH02_READY hollow_throne [6.098017692565918, 10.0, 4.2822442054748535] 4982
+00:10.297  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\worldroot.blend"
+00:10.562  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_5bad4e7766685c79840f1f61ac9f0fc5.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\worldroot.fbx'
+export finished in 0.0290 sec.
+Info: Saved as "worldroot.blend"
+FBX version: 7400
+PASS2_BATCH02_READY worldroot [7.89845085144043, 10.199999809265137, 3.7966694831848145] 9268
+00:10.656  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\the_last_funeral.blend"
+00:10.875  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_44d3ae69f635c731514cd6182df9e907.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\the_last_funeral.fbx'
+export finished in 0.0231 sec.
+Info: Saved as "the_last_funeral.blend"
+FBX version: 7400
+PASS2_BATCH02_READY the_last_funeral [10.600000381469727, 8.899999618530273, 5.67941427230835] 7332
+00:10.968  blend            | Read blend: "C:\RobloxProjects\StealACurse\assets\source\blender\curses_expansion\rework\the_unwritten.blend"
+00:11.625  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\vbran\.thumbnails\large\blender_1748_2da5c0038ea0d65b899e6001b9bd58f5.png.png"
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\the_unwritten.fbx'
+export finished in 0.0363 sec.
+Info: Saved as "the_unwritten.blend"
+FBX version: 7400
+PASS2_BATCH02_READY the_unwritten [9.576600074768066, 11.699999809265137, 4.091584205627441] 22251
+Extensions: writing cache failed ([WinError 5] Acceso denegado: 'C:\\Users\\vbran\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions').
+
+FBX export starting... 'C:\\RobloxProjects\\StealACurse\\assets\\export\\meshes\\curses\\visual-pass2\\batch02\\batch02-18.fbx'
+export finished in 0.2031 sec.
+PASS2_BATCH02_DONE 18
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

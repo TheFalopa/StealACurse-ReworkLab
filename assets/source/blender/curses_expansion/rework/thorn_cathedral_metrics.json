@@ -1,0 +1,106 @@
+{
+  "id": "thorn_cathedral",
+  "displayName": "Thorn Cathedral",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-07-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/thorn_cathedral.blend",
+  "export": "assets/export/meshes/curses/rework/thorn_cathedral.fbx",
+  "sha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+  "triangles": 3064,
+  "vertices": 1648,
+  "blenderDimensions": [
+    2.7698776721954346,
+    1.9780349731445312,
+    4.060338973999023
+  ],
+  "intendedRobloxSize": [
+    2.7698776721954346,
+    4.060338973999023,
+    1.9780349731445312
+  ],
+  "diagonal": 5.298225859444379,
+  "vfxHook": [
+    -0.179863862991333,
+    -0.6198304223269226,
+    0.7489825248718261
+  ],
+  "vfxProfile": "rose_window",
+  "palette": [
+    "brass",
+    "obsidian",
+    "ruby",
+    "ruby_edge",
+    "star_edge",
+    "star_iron",
+    "star_wear",
+    "thorn"
+  ],
+  "paintedColorCount": 653,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Walking chapel with four stone buttress legs",
+      "first_face": 0,
+      "last_face_exclusive": 398
+    },
+    {
+      "name": "Crimson eight petal rose facade and side lancet windows",
+      "first_face": 398,
+      "last_face_exclusive": 796
+    },
+    {
+      "name": "Crooked belfry and thorn coils",
+      "first_face": 796,
+      "last_face_exclusive": 1050
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 07: asymmetric walking chapel with a readable eight-petal crimson rose window, three lancet windows, crooked right belfry and two volumetric thorn coils. Four shaped stone legs support the church rather than a generic animal body."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/thorn_cathedral.blend",
+  "robloxIntendedSize": [
+    2.7698776721954346,
+    4.060338973999023,
+    1.9780349731445312
+  ],
+  "vfxHookRoblox": [
+    -0.179863862991333,
+    -0.6198304223269226,
+    0.7489825248718261
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.027698775753378868,
+      0.01978035643696785,
+      0.0406033918261528
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 3064,
+    "colorCount": 653,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "thorn_cathedral",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e"
+  }
+}

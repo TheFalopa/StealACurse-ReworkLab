@@ -1,0 +1,82 @@
+{
+  "1": {
+    "before": true,
+    "geometry": {
+      "Base05": {
+        "lights": 8,
+        "parts": 478
+      },
+      "Base04": {
+        "lights": 8,
+        "parts": 465
+      },
+      "Base03": {
+        "lights": 8,
+        "parts": 473
+      },
+      "Base02": {
+        "lights": 8,
+        "parts": 478
+      },
+      "Base08": {
+        "lights": 8,
+        "parts": 478
+      },
+      "Base07": {
+        "lights": 8,
+        "parts": 465
+      },
+      "Base01": {
+        "lights": 8,
+        "parts": 465
+      },
+      "Base06": {
+        "lights": 8,
+        "parts": 473
+      }
+    },
+    "p95Ms": 10.56359987705946,
+    "frames": 597,
+    "meanMs": 8.377909709479493
+  },
+  "2": {
+    "before": false,
+    "geometry": {
+      "Base05": {
+        "lights": 8,
+        "parts": 585
+      },
+      "Base04": {
+        "lights": 8,
+        "parts": 566
+      },
+      "Base03": {
+        "lights": 8,
+        "parts": 564
+      },
+      "Base02": {
+        "lights": 8,
+        "parts": 585
+      },
+      "Base08": {
+        "lights": 8,
+        "parts": 585
+      },
+      "Base07": {
+        "lights": 8,
+        "parts": 566
+      },
+      "Base01": {
+        "lights": 8,
+        "parts": 566
+      },
+      "Base06": {
+        "lights": 8,
+        "parts": 564
+      }
+    },
+    "p95Ms": 10.536300018429756,
+    "frames": 613,
+    "meanMs": 8.167255964573794
+  }
+}

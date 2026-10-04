@@ -1,0 +1,298 @@
+{
+  "sources": [
+    {
+      "id": "grave_hopper",
+      "individualFBXSHA256": "bd2e8b094fa54325dcd61a557784a3aaa1e6e9d824e0ac07da836388b131d933",
+      "deformationIsolation": [
+        {
+          "bone": "Root",
+          "weightedIncludingDescendants": 2560,
+          "verticesMoved": 2560,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg0",
+          "weightedIncludingDescendants": 160,
+          "verticesMoved": 160,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee0",
+          "weightedIncludingDescendants": 133,
+          "verticesMoved": 133,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg1",
+          "weightedIncludingDescendants": 158,
+          "verticesMoved": 158,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee1",
+          "weightedIncludingDescendants": 133,
+          "verticesMoved": 133,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg2",
+          "weightedIncludingDescendants": 128,
+          "verticesMoved": 128,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee2",
+          "weightedIncludingDescendants": 97,
+          "verticesMoved": 97,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg3",
+          "weightedIncludingDescendants": 124,
+          "verticesMoved": 124,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee3",
+          "weightedIncludingDescendants": 93,
+          "verticesMoved": 93,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Shell",
+          "weightedIncludingDescendants": 1990,
+          "verticesMoved": 1990,
+          "foreignVerticesMoved": 0
+        }
+      ],
+      "roundTrip": {
+        "bones": 10,
+        "vertices": 2560,
+        "triangles": 4708,
+        "dimensionsBlender": [
+          0.04073610529303551,
+          0.027197791263461113,
+          0.041999995708465576
+        ],
+        "colorAttributes": [
+          "SACPaintedColor"
+        ],
+        "uvLayers": [
+          "CurseMaterialUV",
+          "UVMap"
+        ]
+      },
+      "weightsNormalized": true,
+      "status": "SOURCE_AND_REAL_FBX_VERIFIED",
+      "newNativePlayReview": false
+    },
+    {
+      "id": "nail_beetle",
+      "individualFBXSHA256": "9acf07267e2911372afd2ac1c86c58d104e865be4376a97a3116fa49da8a8581",
+      "deformationIsolation": [
+        {
+          "bone": "Root",
+          "weightedIncludingDescendants": 1353,
+          "verticesMoved": 1353,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg0",
+          "weightedIncludingDescendants": 83,
+          "verticesMoved": 83,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee0",
+          "weightedIncludingDescendants": 55,
+          "verticesMoved": 55,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg1",
+          "weightedIncludingDescendants": 83,
+          "verticesMoved": 83,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee1",
+          "weightedIncludingDescendants": 55,
+          "verticesMoved": 55,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg2",
+          "weightedIncludingDescendants": 83,
+          "verticesMoved": 83,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee2",
+          "weightedIncludingDescendants": 55,
+          "verticesMoved": 55,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg3",
+          "weightedIncludingDescendants": 83,
+          "verticesMoved": 83,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee3",
+          "weightedIncludingDescendants": 55,
+          "verticesMoved": 55,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg4",
+          "weightedIncludingDescendants": 83,
+          "verticesMoved": 83,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee4",
+          "weightedIncludingDescendants": 55,
+          "verticesMoved": 55,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg5",
+          "weightedIncludingDescendants": 83,
+          "verticesMoved": 83,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee5",
+          "weightedIncludingDescendants": 55,
+          "verticesMoved": 55,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Nail",
+          "weightedIncludingDescendants": 178,
+          "verticesMoved": 178,
+          "foreignVerticesMoved": 0
+        }
+      ],
+      "roundTrip": {
+        "bones": 14,
+        "vertices": 1353,
+        "triangles": 2526,
+        "dimensionsBlender": [
+          0.0560000017285347,
+          0.05400000512599945,
+          0.03200000524520874
+        ],
+        "colorAttributes": [
+          "SACPaintedColor"
+        ],
+        "uvLayers": [
+          "CurseMaterialUV"
+        ]
+      },
+      "weightsNormalized": true,
+      "status": "SOURCE_AND_REAL_FBX_VERIFIED",
+      "newNativePlayReview": false
+    },
+    {
+      "id": "coin_crawler",
+      "individualFBXSHA256": "5b9397713e4d2c2bd2fd25110a8e201cb4e2c96761efdd40133b9648fbd21b8e",
+      "deformationIsolation": [
+        {
+          "bone": "Root",
+          "weightedIncludingDescendants": 2180,
+          "verticesMoved": 2180,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg0",
+          "weightedIncludingDescendants": 119,
+          "verticesMoved": 119,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee0",
+          "weightedIncludingDescendants": 80,
+          "verticesMoved": 80,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg1",
+          "weightedIncludingDescendants": 119,
+          "verticesMoved": 119,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee1",
+          "weightedIncludingDescendants": 80,
+          "verticesMoved": 80,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg2",
+          "weightedIncludingDescendants": 95,
+          "verticesMoved": 95,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee2",
+          "weightedIncludingDescendants": 79,
+          "verticesMoved": 79,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Leg3",
+          "weightedIncludingDescendants": 121,
+          "verticesMoved": 121,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Knee3",
+          "weightedIncludingDescendants": 79,
+          "verticesMoved": 79,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "CoinLid",
+          "weightedIncludingDescendants": 1349,
+          "verticesMoved": 1349,
+          "foreignVerticesMoved": 0
+        },
+        {
+          "bone": "Gaze",
+          "weightedIncludingDescendants": 196,
+          "verticesMoved": 196,
+          "foreignVerticesMoved": 0
+        }
+      ],
+      "roundTrip": {
+        "bones": 11,
+        "vertices": 2180,
+        "triangles": 4080,
+        "dimensionsBlender": [
+          0.05799998715519905,
+          0.04099999740719795,
+          0.03200000151991844
+        ],
+        "colorAttributes": [
+          "SACPaintedColor"
+        ],
+        "uvLayers": [
+          "CurseMaterialUV"
+        ]
+      },
+      "weightsNormalized": true,
+      "status": "SOURCE_AND_REAL_FBX_VERIFIED",
+      "newNativePlayReview": false
+    }
+  ],
+  "combinedMeshes": [
+    "coin_crawler",
+    "grave_hopper",
+    "nail_beetle"
+  ],
+  "combinedBoneCount": 35,
+  "status": "SOURCE_AND_FBX_PASS",
+  "nativePlayReviewPending": true
+}

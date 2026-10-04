@@ -1,0 +1,2461 @@
+{
+  "schemaVersion": 2,
+  "task": "50-Curse current-reference rework",
+  "studioId": "14e9c606-85ec-447a-b06d-d05dd9ce5ee9",
+  "localPlace": "build-overnight.rbxlx",
+  "method": "Studio 3D Importer, original project FBX, Creator Yo, upload enabled",
+  "experiencePublished": false,
+  "imports": [
+    {
+      "id": "candle_wisp",
+      "name": "candle_wisp",
+      "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "export": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+      "meshId": "rbxassetid://120691798070914",
+      "meshSize": [
+        2.5199999809265137,
+        3.9259285926818848,
+        1.6049911975860596
+      ],
+      "size": [
+        2.5199999809265137,
+        3.9259285926818848,
+        1.6049911975860596
+      ],
+      "textureId": "",
+      "observedPath": "Workspace.common_import_batch.candle_wisp",
+      "sourceReference": "rework-01-common.png",
+      "vertexColorsVisibleInImporter": true,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-01-studio-front.jpg",
+        "assets/review/curse-rework/common-01-studio-back.jpg"
+      ],
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "source": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "candle_wisp",
+        "meshId": "rbxassetid://120691798070914",
+        "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+        "observedSize": [
+          2.5199999809265137,
+          3.9259285926818848,
+          1.6049911975860596
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-01-studio-front.jpg",
+          "assets/review/curse-rework/common-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.pale_gramophone",
+      "meshSize": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.7653918266296387
+      ],
+      "id": "pale_gramophone",
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-02-studio-front.jpg",
+        "assets/review/curse-rework/rare-02-studio-back.jpg"
+      ],
+      "meshId": "rbxassetid://94119998367472",
+      "textureId": "",
+      "size": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.7653918266296387
+      ],
+      "name": "pale_gramophone",
+      "export": "assets/export/meshes/curses/rework/pale_gramophone.fbx",
+      "source": "assets/export/meshes/curses/rework/pale_gramophone.fbx",
+      "fbxSha256": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "pale_gramophone",
+        "meshId": "rbxassetid://94119998367472",
+        "fbxSha256": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+        "observedSize": [
+          3.3486762046813965,
+          4.104394912719727,
+          2.7653918266296387
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-02-studio-front.jpg",
+          "assets/review/curse-rework/rare-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.ashen_book",
+      "meshSize": [
+        3.3299996852874756,
+        2.6475000381469727,
+        1.7377972602844238
+      ],
+      "id": "ashen_book",
+      "meshId": "rbxassetid://101139508733050",
+      "textureId": "",
+      "size": [
+        3.3299996852874756,
+        2.6475000381469727,
+        1.7377972602844238
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "name": "ashen_book",
+      "export": "assets/export/meshes/curses/rework/ashen_book.fbx",
+      "source": "assets/export/meshes/curses/rework/ashen_book.fbx",
+      "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "sourceReference": "rework-02-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-01-studio-front.jpg",
+        "assets/review/curse-rework/common-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "ashen_book",
+        "meshId": "rbxassetid://101139508733050",
+        "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+        "observedSize": [
+          3.3299996852874756,
+          2.6475000381469727,
+          1.7377972602844238
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-01-studio-front.jpg",
+          "assets/review/curse-rework/common-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.coin_crawler",
+      "meshSize": [
+        2.7699999809265137,
+        1.1513850688934326,
+        2.541633129119873
+      ],
+      "id": "coin_crawler",
+      "meshId": "rbxassetid://101300591039625",
+      "textureId": "",
+      "size": [
+        2.7699999809265137,
+        1.1513850688934326,
+        2.541633129119873
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+      "name": "coin_crawler",
+      "export": "assets/export/meshes/curses/rework/coin_crawler.fbx",
+      "source": "assets/export/meshes/curses/rework/coin_crawler.fbx",
+      "fbxSha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+      "sourceReference": "rework-03-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-01-studio-front.jpg",
+        "assets/review/curse-rework/common-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "coin_crawler",
+        "meshId": "rbxassetid://101300591039625",
+        "fbxSha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+        "observedSize": [
+          2.7699999809265137,
+          1.1513850688934326,
+          2.541633129119873
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-01-studio-front.jpg",
+          "assets/review/curse-rework/common-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.cold_teacup",
+      "meshSize": [
+        2.7058072090148926,
+        2.4837679862976074,
+        2.471573829650879
+      ],
+      "id": "cold_teacup",
+      "meshId": "rbxassetid://109492897154947",
+      "textureId": "",
+      "size": [
+        2.7058072090148926,
+        2.4837679862976074,
+        2.471573829650879
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+      "name": "cold_teacup",
+      "export": "assets/export/meshes/curses/rework/cold_teacup.fbx",
+      "source": "assets/export/meshes/curses/rework/cold_teacup.fbx",
+      "fbxSha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+      "sourceReference": "rework-03-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-01-studio-front.jpg",
+        "assets/review/curse-rework/common-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "cold_teacup",
+        "meshId": "rbxassetid://109492897154947",
+        "fbxSha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+        "observedSize": [
+          2.7058072090148926,
+          2.4837679862976074,
+          2.471573829650879
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-01-studio-front.jpg",
+          "assets/review/curse-rework/common-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.grave_hopper",
+      "meshSize": [
+        2.93017315864563,
+        3.021085739135742,
+        1.9563539028167725
+      ],
+      "id": "grave_hopper",
+      "meshId": "rbxassetid://71461503692914",
+      "textureId": "",
+      "size": [
+        2.93017315864563,
+        3.021085739135742,
+        1.9563539028167725
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "name": "grave_hopper",
+      "export": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+      "source": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+      "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "sourceReference": "rework-01-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-01-studio-front.jpg",
+        "assets/review/curse-rework/common-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "grave_hopper",
+        "meshId": "rbxassetid://71461503692914",
+        "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+        "observedSize": [
+          2.93017315864563,
+          3.021085739135742,
+          1.9563539028167725
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-01-studio-front.jpg",
+          "assets/review/curse-rework/common-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.grave_key",
+      "meshSize": [
+        2.9194774627685547,
+        3.4665002822875977,
+        0.7180373668670654
+      ],
+      "id": "grave_key",
+      "meshId": "rbxassetid://81555225772390",
+      "textureId": "",
+      "size": [
+        2.9194774627685547,
+        3.4665002822875977,
+        0.7180373668670654
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+      "name": "grave_key",
+      "export": "assets/export/meshes/curses/rework/grave_key.fbx",
+      "source": "assets/export/meshes/curses/rework/grave_key.fbx",
+      "fbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+      "sourceReference": "rework-01-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-02-studio-front.jpg",
+        "assets/review/curse-rework/common-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "grave_key",
+        "meshId": "rbxassetid://81555225772390",
+        "fbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+        "observedSize": [
+          2.9194774627685547,
+          3.4665002822875977,
+          0.7180373668670654
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-02-studio-front.jpg",
+          "assets/review/curse-rework/common-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.hourglass_hound",
+      "meshSize": [
+        3.1549651622772217,
+        2.1600005626678467,
+        1.2913804054260254
+      ],
+      "id": "hourglass_hound",
+      "meshId": "rbxassetid://122359731833236",
+      "textureId": "",
+      "size": [
+        3.1549651622772217,
+        2.1600005626678467,
+        1.2913804054260254
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+      "name": "hourglass_hound",
+      "export": "assets/export/meshes/curses/rework/hourglass_hound.fbx",
+      "source": "assets/export/meshes/curses/rework/hourglass_hound.fbx",
+      "fbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+      "sourceReference": "rework-02-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-02-studio-front.jpg",
+        "assets/review/curse-rework/common-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "hourglass_hound",
+        "meshId": "rbxassetid://122359731833236",
+        "fbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+        "observedSize": [
+          3.1549651622772217,
+          2.1600005626678467,
+          1.2913804054260254
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-02-studio-front.jpg",
+          "assets/review/curse-rework/common-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.ink_imp",
+      "meshSize": [
+        2.740211248397827,
+        2.994659900665283,
+        0.9678600430488586
+      ],
+      "id": "ink_imp",
+      "meshId": "rbxassetid://138171047418372",
+      "textureId": "",
+      "size": [
+        2.740211248397827,
+        2.994659900665283,
+        0.9678600430488586
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "name": "ink_imp",
+      "export": "assets/export/meshes/curses/rework/ink_imp.fbx",
+      "source": "assets/export/meshes/curses/rework/ink_imp.fbx",
+      "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "sourceReference": "rework-02-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-02-studio-front.jpg",
+        "assets/review/curse-rework/common-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "ink_imp",
+        "meshId": "rbxassetid://138171047418372",
+        "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+        "observedSize": [
+          2.740211248397827,
+          2.994659900665283,
+          0.9678600430488586
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-02-studio-front.jpg",
+          "assets/review/curse-rework/common-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.lantern_lurker",
+      "meshSize": [
+        2.6640000343322754,
+        3.0691258907318115,
+        2.01052188873291
+      ],
+      "id": "lantern_lurker",
+      "meshId": "rbxassetid://124690349043025",
+      "textureId": "",
+      "size": [
+        2.6640000343322754,
+        3.0691258907318115,
+        2.01052188873291
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "name": "lantern_lurker",
+      "export": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+      "source": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+      "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "sourceReference": "rework-02-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-02-studio-front.jpg",
+        "assets/review/curse-rework/common-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "lantern_lurker",
+        "meshId": "rbxassetid://124690349043025",
+        "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+        "observedSize": [
+          2.6640000343322754,
+          3.0691258907318115,
+          2.01052188873291
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-02-studio-front.jpg",
+          "assets/review/curse-rework/common-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.lost_locket",
+      "meshSize": [
+        2.690000057220459,
+        2.765000104904175,
+        0.5018151998519897
+      ],
+      "id": "lost_locket",
+      "meshId": "rbxassetid://91422731371880",
+      "textureId": "",
+      "size": [
+        2.690000057220459,
+        2.765000104904175,
+        0.5018151998519897
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "name": "lost_locket",
+      "export": "assets/export/meshes/curses/rework/lost_locket.fbx",
+      "source": "assets/export/meshes/curses/rework/lost_locket.fbx",
+      "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "sourceReference": "rework-02-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-02-studio-front.jpg",
+        "assets/review/curse-rework/common-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "lost_locket",
+        "meshId": "rbxassetid://91422731371880",
+        "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+        "observedSize": [
+          2.690000057220459,
+          2.765000104904175,
+          0.5018151998519897
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-02-studio-front.jpg",
+          "assets/review/curse-rework/common-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.mourning_ribbon",
+      "meshSize": [
+        3.799999952316284,
+        3.0199999809265137,
+        0.7315346598625183
+      ],
+      "id": "mourning_ribbon",
+      "meshId": "rbxassetid://86964137364657",
+      "textureId": "",
+      "size": [
+        3.799999952316284,
+        3.0199999809265137,
+        0.7315346598625183
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+      "name": "mourning_ribbon",
+      "export": "assets/export/meshes/curses/rework/mourning_ribbon.fbx",
+      "source": "assets/export/meshes/curses/rework/mourning_ribbon.fbx",
+      "fbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+      "sourceReference": "rework-01-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-03-studio-front.jpg",
+        "assets/review/curse-rework/common-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "mourning_ribbon",
+        "meshId": "rbxassetid://86964137364657",
+        "fbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+        "observedSize": [
+          3.799999952316284,
+          3.0199999809265137,
+          0.7315346598625183
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-03-studio-front.jpg",
+          "assets/review/curse-rework/common-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.nail_beetle",
+      "meshSize": [
+        2.208719491958618,
+        1.6229331493377686,
+        2.3138370513916016
+      ],
+      "id": "nail_beetle",
+      "meshId": "rbxassetid://134811561032307",
+      "textureId": "",
+      "size": [
+        2.208719491958618,
+        1.6229331493377686,
+        2.3138370513916016
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+      "name": "nail_beetle",
+      "export": "assets/export/meshes/curses/rework/nail_beetle.fbx",
+      "source": "assets/export/meshes/curses/rework/nail_beetle.fbx",
+      "fbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+      "sourceReference": "rework-03-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-03-studio-front.jpg",
+        "assets/review/curse-rework/common-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "nail_beetle",
+        "meshId": "rbxassetid://134811561032307",
+        "fbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+        "observedSize": [
+          2.208719491958618,
+          1.6229331493377686,
+          2.3138370513916016
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-03-studio-front.jpg",
+          "assets/review/curse-rework/common-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.pale_guest",
+      "meshSize": [
+        2.5144095420837402,
+        2.940000057220459,
+        0.8689985871315002
+      ],
+      "id": "pale_guest",
+      "meshId": "rbxassetid://95457500330255",
+      "textureId": "",
+      "size": [
+        2.5144095420837402,
+        2.940000057220459,
+        0.8689985871315002
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+      "name": "pale_guest",
+      "export": "assets/export/meshes/curses/rework/pale_guest.fbx",
+      "source": "assets/export/meshes/curses/rework/pale_guest.fbx",
+      "fbxSha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+      "sourceReference": "rework-03-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-03-studio-front.jpg",
+        "assets/review/curse-rework/common-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "pale_guest",
+        "meshId": "rbxassetid://95457500330255",
+        "fbxSha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+        "observedSize": [
+          2.5144095420837402,
+          2.940000057220459,
+          0.8689985871315002
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-03-studio-front.jpg",
+          "assets/review/curse-rework/common-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.umbrella_wraith",
+      "meshSize": [
+        3.6449999809265137,
+        3.389763355255127,
+        0.6982876062393188
+      ],
+      "id": "umbrella_wraith",
+      "meshId": "rbxassetid://74392665115825",
+      "textureId": "",
+      "size": [
+        3.6449999809265137,
+        3.389763355255127,
+        0.6982876062393188
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+      "name": "umbrella_wraith",
+      "export": "assets/export/meshes/curses/rework/umbrella_wraith.fbx",
+      "source": "assets/export/meshes/curses/rework/umbrella_wraith.fbx",
+      "fbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+      "sourceReference": "rework-03-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-03-studio-front.jpg",
+        "assets/review/curse-rework/common-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "umbrella_wraith",
+        "meshId": "rbxassetid://74392665115825",
+        "fbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+        "observedSize": [
+          3.6449999809265137,
+          3.389763355255127,
+          0.6982876062393188
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-03-studio-front.jpg",
+          "assets/review/curse-rework/common-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.common_import_batch.wilted_sprout",
+      "meshSize": [
+        2.669999837875366,
+        3.403151035308838,
+        1.391714096069336
+      ],
+      "id": "wilted_sprout",
+      "meshId": "rbxassetid://73497154913372",
+      "textureId": "",
+      "size": [
+        2.669999837875366,
+        3.403151035308838,
+        1.391714096069336
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/common_import_batch.fbx",
+      "sourceBatchSha256": "0c221c2a3d97c1ee8df5cc59fc5d77986c6f1fceacafdce19121ac270321831a",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/common_import_batch_validation.json",
+      "componentFbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+      "name": "wilted_sprout",
+      "export": "assets/export/meshes/curses/rework/wilted_sprout.fbx",
+      "source": "assets/export/meshes/curses/rework/wilted_sprout.fbx",
+      "fbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+      "sourceReference": "rework-01-common.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/common-03-studio-front.jpg",
+        "assets/review/curse-rework/common-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "wilted_sprout",
+        "meshId": "rbxassetid://73497154913372",
+        "fbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+        "observedSize": [
+          2.669999837875366,
+          3.403151035308838,
+          1.391714096069336
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/common-03-studio-front.jpg",
+          "assets/review/curse-rework/common-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.anchor_crab",
+      "meshSize": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ],
+      "id": "anchor_crab",
+      "meshId": "rbxassetid://138935951310223",
+      "textureId": "",
+      "size": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "name": "anchor_crab",
+      "export": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+      "source": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+      "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-01-studio-front.jpg",
+        "assets/review/curse-rework/rare-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "anchor_crab",
+        "meshId": "rbxassetid://138935951310223",
+        "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+        "observedSize": [
+          4.531620025634766,
+          2.9201908111572266,
+          1.3299423456192017
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-01-studio-front.jpg",
+          "assets/review/curse-rework/rare-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.chime_triplets",
+      "meshSize": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ],
+      "id": "chime_triplets",
+      "meshId": "rbxassetid://114343537583157",
+      "textureId": "",
+      "size": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "name": "chime_triplets",
+      "export": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+      "source": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+      "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-01-studio-front.jpg",
+        "assets/review/curse-rework/rare-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "chime_triplets",
+        "meshId": "rbxassetid://114343537583157",
+        "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+        "observedSize": [
+          3.9294962882995605,
+          2.9680001735687256,
+          1.2350000143051147
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-01-studio-front.jpg",
+          "assets/review/curse-rework/rare-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.grave_compass",
+      "meshSize": [
+        3.7378311157226562,
+        2.8460559844970703,
+        0.8600339889526367
+      ],
+      "id": "grave_compass",
+      "meshId": "rbxassetid://92042737751538",
+      "textureId": "",
+      "size": [
+        3.7378311157226562,
+        2.8460559844970703,
+        0.8600339889526367
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "name": "grave_compass",
+      "export": "assets/export/meshes/curses/rework/grave_compass.fbx",
+      "source": "assets/export/meshes/curses/rework/grave_compass.fbx",
+      "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-01-studio-front.jpg",
+        "assets/review/curse-rework/rare-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "grave_compass",
+        "meshId": "rbxassetid://92042737751538",
+        "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+        "observedSize": [
+          3.7378311157226562,
+          2.8460559844970703,
+          0.8600339889526367
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-01-studio-front.jpg",
+          "assets/review/curse-rework/rare-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.hollow_violin",
+      "meshSize": [
+        1.6355282068252563,
+        3.8532867431640625,
+        0.8499729633331299
+      ],
+      "id": "hollow_violin",
+      "meshId": "rbxassetid://91498125175625",
+      "textureId": "",
+      "size": [
+        1.6355282068252563,
+        3.8532867431640625,
+        0.8499729633331299
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "name": "hollow_violin",
+      "export": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+      "source": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+      "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-01-studio-front.jpg",
+        "assets/review/curse-rework/rare-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "hollow_violin",
+        "meshId": "rbxassetid://91498125175625",
+        "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+        "observedSize": [
+          1.6355282068252563,
+          3.8532867431640625,
+          0.8499729633331299
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-01-studio-front.jpg",
+          "assets/review/curse-rework/rare-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.marrow_dice",
+      "meshSize": [
+        3.312481641769409,
+        2.809999942779541,
+        1.9026007652282715
+      ],
+      "id": "marrow_dice",
+      "meshId": "rbxassetid://98208990983506",
+      "textureId": "",
+      "size": [
+        3.312481641769409,
+        2.809999942779541,
+        1.9026007652282715
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "name": "marrow_dice",
+      "export": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+      "source": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+      "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-01-studio-front.jpg",
+        "assets/review/curse-rework/rare-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "marrow_dice",
+        "meshId": "rbxassetid://98208990983506",
+        "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+        "observedSize": [
+          3.312481641769409,
+          2.809999942779541,
+          1.9026007652282715
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-01-studio-front.jpg",
+          "assets/review/curse-rework/rare-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.music_box_dancer",
+      "meshSize": [
+        2.7649190425872803,
+        3.3450002670288086,
+        1.8526499271392822
+      ],
+      "id": "music_box_dancer",
+      "meshId": "rbxassetid://103021046464363",
+      "textureId": "",
+      "size": [
+        2.7649190425872803,
+        3.3450002670288086,
+        1.8526499271392822
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "name": "music_box_dancer",
+      "export": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+      "source": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+      "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-02-studio-front.jpg",
+        "assets/review/curse-rework/rare-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "music_box_dancer",
+        "meshId": "rbxassetid://103021046464363",
+        "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+        "observedSize": [
+          2.7649190425872803,
+          3.3450002670288086,
+          1.8526499271392822
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-02-studio-front.jpg",
+          "assets/review/curse-rework/rare-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.raven_quill",
+      "meshSize": [
+        2.4739999771118164,
+        3.5245018005371094,
+        0.8183358907699585
+      ],
+      "id": "raven_quill",
+      "meshId": "rbxassetid://71223428160554",
+      "textureId": "",
+      "size": [
+        2.4739999771118164,
+        3.5245018005371094,
+        0.8183358907699585
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+      "name": "raven_quill",
+      "export": "assets/export/meshes/curses/rework/raven_quill.fbx",
+      "source": "assets/export/meshes/curses/rework/raven_quill.fbx",
+      "fbxSha256": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-02-studio-front.jpg",
+        "assets/review/curse-rework/rare-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "raven_quill",
+        "meshId": "rbxassetid://71223428160554",
+        "fbxSha256": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+        "observedSize": [
+          2.4739999771118164,
+          3.5245018005371094,
+          0.8183358907699585
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-02-studio-front.jpg",
+          "assets/review/curse-rework/rare-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.sleepwalker_shoes",
+      "meshSize": [
+        2.835836887359619,
+        2.1824073791503906,
+        2.3786511421203613
+      ],
+      "id": "sleepwalker_shoes",
+      "meshId": "rbxassetid://100900364423577",
+      "textureId": "",
+      "size": [
+        2.835836887359619,
+        2.1824073791503906,
+        2.3786511421203613
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "name": "sleepwalker_shoes",
+      "export": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+      "source": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+      "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-02-studio-front.jpg",
+        "assets/review/curse-rework/rare-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "sleepwalker_shoes",
+        "meshId": "rbxassetid://100900364423577",
+        "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+        "observedSize": [
+          2.835836887359619,
+          2.1824073791503906,
+          2.3786511421203613
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-02-studio-front.jpg",
+          "assets/review/curse-rework/rare-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.sorrow_chalice",
+      "meshSize": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ],
+      "id": "sorrow_chalice",
+      "meshId": "rbxassetid://124640513274761",
+      "textureId": "",
+      "size": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "name": "sorrow_chalice",
+      "export": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+      "source": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+      "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-02-studio-front.jpg",
+        "assets/review/curse-rework/rare-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "sorrow_chalice",
+        "meshId": "rbxassetid://124640513274761",
+        "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+        "observedSize": [
+          1.9149999618530273,
+          2.841651439666748,
+          1.7319999933242798
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-02-studio-front.jpg",
+          "assets/review/curse-rework/rare-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.sundial_sentinel",
+      "meshSize": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.830551028251648
+      ],
+      "id": "sundial_sentinel",
+      "meshId": "rbxassetid://107305209907882",
+      "textureId": "",
+      "size": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.830551028251648
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "name": "sundial_sentinel",
+      "export": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+      "source": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+      "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-03-studio-front.jpg",
+        "assets/review/curse-rework/rare-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "sundial_sentinel",
+        "meshId": "rbxassetid://107305209907882",
+        "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+        "observedSize": [
+          2.2615041732788086,
+          3.0419445037841797,
+          0.830551028251648
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-03-studio-front.jpg",
+          "assets/review/curse-rework/rare-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.thimble_spider",
+      "meshSize": [
+        3.3798885345458984,
+        2.0764691829681396,
+        1.8815412521362305
+      ],
+      "id": "thimble_spider",
+      "meshId": "rbxassetid://99634226365979",
+      "textureId": "",
+      "size": [
+        3.3798885345458984,
+        2.0764691829681396,
+        1.8815412521362305
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "name": "thimble_spider",
+      "export": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+      "source": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+      "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-03-studio-front.jpg",
+        "assets/review/curse-rework/rare-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "thimble_spider",
+        "meshId": "rbxassetid://99634226365979",
+        "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+        "observedSize": [
+          3.3798885345458984,
+          2.0764691829681396,
+          1.8815412521362305
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-03-studio-front.jpg",
+          "assets/review/curse-rework/rare-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.thorn_reliquary",
+      "meshSize": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ],
+      "id": "thorn_reliquary",
+      "meshId": "rbxassetid://136595375769922",
+      "textureId": "",
+      "size": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+      "name": "thorn_reliquary",
+      "export": "assets/export/meshes/curses/rework/thorn_reliquary.fbx",
+      "source": "assets/export/meshes/curses/rework/thorn_reliquary.fbx",
+      "fbxSha256": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-03-studio-front.jpg",
+        "assets/review/curse-rework/rare-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "thorn_reliquary",
+        "meshId": "rbxassetid://136595375769922",
+        "fbxSha256": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+        "observedSize": [
+          1.7483792304992676,
+          3.612090587615967,
+          1.749131679534912
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-03-studio-front.jpg",
+          "assets/review/curse-rework/rare-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.rare_import_batch.veil_mourner",
+      "meshSize": [
+        2.645899534225464,
+        3.528148651123047,
+        1.6559808254241943
+      ],
+      "id": "veil_mourner",
+      "meshId": "rbxassetid://138895825932890",
+      "textureId": "",
+      "size": [
+        2.645899534225464,
+        3.528148651123047,
+        1.6559808254241943
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/rare_import_batch.fbx",
+      "sourceBatchSha256": "8243a264b9b3c89bc8a7bf0a49993c46beced9a78bc37eee329dd19a47bf1559",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/rare_import_batch_validation.json",
+      "componentFbxSha256": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+      "name": "veil_mourner",
+      "export": "assets/export/meshes/curses/rework/veil_mourner.fbx",
+      "source": "assets/export/meshes/curses/rework/veil_mourner.fbx",
+      "fbxSha256": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/rare-03-studio-front.jpg",
+        "assets/review/curse-rework/rare-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "veil_mourner",
+        "meshId": "rbxassetid://138895825932890",
+        "fbxSha256": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+        "observedSize": [
+          2.645899534225464,
+          3.528148651123047,
+          1.6559808254241943
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/rare-03-studio-front.jpg",
+          "assets/review/curse-rework/rare-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.blood_moon_rose",
+      "meshSize": [
+        3.3685407638549805,
+        3.6520426273345947,
+        1.3943915367126465
+      ],
+      "id": "blood_moon_rose",
+      "meshId": "rbxassetid://80054563301680",
+      "textureId": "",
+      "size": [
+        3.3685407638549805,
+        3.6520426273345947,
+        1.3943915367126465
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "name": "blood_moon_rose",
+      "export": "assets/export/meshes/curses/rework/blood_moon_rose.fbx",
+      "source": "assets/export/meshes/curses/rework/blood_moon_rose.fbx",
+      "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-01-studio-front.jpg",
+        "assets/review/curse-rework/high-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "blood_moon_rose",
+        "meshId": "rbxassetid://80054563301680",
+        "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+        "observedSize": [
+          3.3685407638549805,
+          3.6520426273345947,
+          1.3943915367126465
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-01-studio-front.jpg",
+          "assets/review/curse-rework/high-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.cathedral_heart",
+      "meshSize": [
+        2.9446873664855957,
+        4.480339050292969,
+        1.6740179061889648
+      ],
+      "id": "cathedral_heart",
+      "meshId": "rbxassetid://109562151283310",
+      "textureId": "",
+      "size": [
+        2.9446873664855957,
+        4.480339050292969,
+        1.6740179061889648
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "name": "cathedral_heart",
+      "export": "assets/export/meshes/curses/rework/cathedral_heart.fbx",
+      "source": "assets/export/meshes/curses/rework/cathedral_heart.fbx",
+      "fbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "sourceReference": "assets/reference/rework-09-mythic.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-01-studio-front.jpg",
+        "assets/review/curse-rework/high-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "cathedral_heart",
+        "meshId": "rbxassetid://109562151283310",
+        "fbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+        "observedSize": [
+          2.9446873664855957,
+          4.480339050292969,
+          1.6740179061889648
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-01-studio-front.jpg",
+          "assets/review/curse-rework/high-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.clockwork_raven",
+      "meshSize": [
+        3.880000114440918,
+        3.6070618629455566,
+        1.5967077016830444
+      ],
+      "id": "clockwork_raven",
+      "meshId": "rbxassetid://132658656356560",
+      "textureId": "",
+      "size": [
+        3.880000114440918,
+        3.6070618629455566,
+        1.5967077016830444
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "name": "clockwork_raven",
+      "export": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+      "source": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+      "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-01-studio-front.jpg",
+        "assets/review/curse-rework/high-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "clockwork_raven",
+        "meshId": "rbxassetid://132658656356560",
+        "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+        "observedSize": [
+          3.880000114440918,
+          3.6070618629455566,
+          1.5967077016830444
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-01-studio-front.jpg",
+          "assets/review/curse-rework/high-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.crown_of_silence",
+      "meshSize": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ],
+      "id": "crown_of_silence",
+      "meshId": "rbxassetid://87201548999780",
+      "textureId": "",
+      "size": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "name": "crown_of_silence",
+      "export": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+      "source": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+      "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "sourceReference": "assets/reference/rework-11-secret.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-01-studio-front.jpg",
+        "assets/review/curse-rework/high-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "crown_of_silence",
+        "meshId": "rbxassetid://87201548999780",
+        "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+        "observedSize": [
+          3.1409904956817627,
+          4.1766886711120605,
+          1.5431336164474487
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-01-studio-front.jpg",
+          "assets/review/curse-rework/high-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.eclipse_stag",
+      "meshSize": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875004768371582
+      ],
+      "id": "eclipse_stag",
+      "meshId": "rbxassetid://84237463643087",
+      "textureId": "",
+      "size": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875004768371582
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "name": "eclipse_stag",
+      "export": "assets/export/meshes/curses/rework/eclipse_stag.fbx",
+      "source": "assets/export/meshes/curses/rework/eclipse_stag.fbx",
+      "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-01-studio-front.jpg",
+        "assets/review/curse-rework/high-01-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "eclipse_stag",
+        "meshId": "rbxassetid://84237463643087",
+        "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+        "observedSize": [
+          3.0634021759033203,
+          4.050032138824463,
+          1.1875004768371582
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-01-studio-front.jpg",
+          "assets/review/curse-rework/high-01-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.endless_library",
+      "meshSize": [
+        2.7799999713897705,
+        3.017867088317871,
+        1.1092703342437744
+      ],
+      "id": "endless_library",
+      "meshId": "rbxassetid://119647220783912",
+      "textureId": "",
+      "size": [
+        2.7799999713897705,
+        3.017867088317871,
+        1.1092703342437744
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "name": "endless_library",
+      "export": "assets/export/meshes/curses/rework/endless_library.fbx",
+      "source": "assets/export/meshes/curses/rework/endless_library.fbx",
+      "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-02-studio-front.jpg",
+        "assets/review/curse-rework/high-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "endless_library",
+        "meshId": "rbxassetid://119647220783912",
+        "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+        "observedSize": [
+          2.7799999713897705,
+          3.017867088317871,
+          1.1092703342437744
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-02-studio-front.jpg",
+          "assets/review/curse-rework/high-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.hollow_throne",
+      "meshSize": [
+        2.6719791889190674,
+        4.381717681884766,
+        1.876359462738037
+      ],
+      "id": "hollow_throne",
+      "meshId": "rbxassetid://137649959781597",
+      "textureId": "",
+      "size": [
+        2.6719791889190674,
+        4.381717681884766,
+        1.876359462738037
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "name": "hollow_throne",
+      "export": "assets/export/meshes/curses/rework/hollow_throne.fbx",
+      "source": "assets/export/meshes/curses/rework/hollow_throne.fbx",
+      "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "sourceReference": "assets/reference/rework-09-mythic.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-02-studio-front.jpg",
+        "assets/review/curse-rework/high-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "hollow_throne",
+        "meshId": "rbxassetid://137649959781597",
+        "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+        "observedSize": [
+          2.6719791889190674,
+          4.381717681884766,
+          1.876359462738037
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-02-studio-front.jpg",
+          "assets/review/curse-rework/high-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.judgement_scales",
+      "meshSize": [
+        3.5719997882843018,
+        3.618154287338257,
+        1.1111505031585693
+      ],
+      "id": "judgement_scales",
+      "meshId": "rbxassetid://115544351986945",
+      "textureId": "",
+      "size": [
+        3.5719997882843018,
+        3.618154287338257,
+        1.1111505031585693
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "name": "judgement_scales",
+      "export": "assets/export/meshes/curses/rework/judgement_scales.fbx",
+      "source": "assets/export/meshes/curses/rework/judgement_scales.fbx",
+      "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-02-studio-front.jpg",
+        "assets/review/curse-rework/high-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "judgement_scales",
+        "meshId": "rbxassetid://115544351986945",
+        "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+        "observedSize": [
+          3.5719997882843018,
+          3.618154287338257,
+          1.1111505031585693
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-02-studio-front.jpg",
+          "assets/review/curse-rework/high-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.nameless_door",
+      "meshSize": [
+        3.257023811340332,
+        3.7596497535705566,
+        2.2569029331207275
+      ],
+      "id": "nameless_door",
+      "meshId": "rbxassetid://136046415979732",
+      "textureId": "",
+      "size": [
+        3.257023811340332,
+        3.7596497535705566,
+        2.2569029331207275
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "name": "nameless_door",
+      "export": "assets/export/meshes/curses/rework/nameless_door.fbx",
+      "source": "assets/export/meshes/curses/rework/nameless_door.fbx",
+      "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "sourceReference": "assets/reference/rework-11-secret.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-02-studio-front.jpg",
+        "assets/review/curse-rework/high-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "nameless_door",
+        "meshId": "rbxassetid://136046415979732",
+        "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+        "observedSize": [
+          3.257023811340332,
+          3.7596497535705566,
+          2.2569029331207275
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-02-studio-front.jpg",
+          "assets/review/curse-rework/high-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.night_harp",
+      "meshSize": [
+        2.8185055255889893,
+        3.882523536682129,
+        1.4043785333633423
+      ],
+      "id": "night_harp",
+      "meshId": "rbxassetid://83648018962626",
+      "textureId": "",
+      "size": [
+        2.8185055255889893,
+        3.882523536682129,
+        1.4043785333633423
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "name": "night_harp",
+      "export": "assets/export/meshes/curses/rework/night_harp.fbx",
+      "source": "assets/export/meshes/curses/rework/night_harp.fbx",
+      "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-02-studio-front.jpg",
+        "assets/review/curse-rework/high-02-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "night_harp",
+        "meshId": "rbxassetid://83648018962626",
+        "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+        "observedSize": [
+          2.8185055255889893,
+          3.882523536682129,
+          1.4043785333633423
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-02-studio-front.jpg",
+          "assets/review/curse-rework/high-02-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.phantom_marionette",
+      "meshSize": [
+        3.011920928955078,
+        3.8288023471832275,
+        0.863531231880188
+      ],
+      "id": "phantom_marionette",
+      "meshId": "rbxassetid://125181594913762",
+      "textureId": "",
+      "size": [
+        3.011920928955078,
+        3.8288023471832275,
+        0.863531231880188
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "name": "phantom_marionette",
+      "export": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+      "source": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+      "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-03-studio-front.jpg",
+        "assets/review/curse-rework/high-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "phantom_marionette",
+        "meshId": "rbxassetid://125181594913762",
+        "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+        "observedSize": [
+          3.011920928955078,
+          3.8288023471832275,
+          0.863531231880188
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-03-studio-front.jpg",
+          "assets/review/curse-rework/high-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.plague_monarch",
+      "meshSize": [
+        2.5277419090270996,
+        3.895419120788574,
+        1.5501878261566162
+      ],
+      "id": "plague_monarch",
+      "meshId": "rbxassetid://84591406393703",
+      "textureId": "",
+      "size": [
+        2.5277419090270996,
+        3.895419120788574,
+        1.5501878261566162
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "name": "plague_monarch",
+      "export": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+      "source": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+      "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "sourceReference": "assets/reference/rework-09-mythic.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-03-studio-front.jpg",
+        "assets/review/curse-rework/high-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "plague_monarch",
+        "meshId": "rbxassetid://84591406393703",
+        "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+        "observedSize": [
+          2.5277419090270996,
+          3.895419120788574,
+          1.5501878261566162
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-03-studio-front.jpg",
+          "assets/review/curse-rework/high-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.silent_choir",
+      "meshSize": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ],
+      "id": "silent_choir",
+      "meshId": "rbxassetid://87533045551868",
+      "textureId": "",
+      "size": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "name": "silent_choir",
+      "export": "assets/export/meshes/curses/rework/silent_choir.fbx",
+      "source": "assets/export/meshes/curses/rework/silent_choir.fbx",
+      "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-03-studio-front.jpg",
+        "assets/review/curse-rework/high-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "silent_choir",
+        "meshId": "rbxassetid://87533045551868",
+        "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+        "observedSize": [
+          3.1093266010284424,
+          3.3661372661590576,
+          0.9257192611694336
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-03-studio-front.jpg",
+          "assets/review/curse-rework/high-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.sunken_crown",
+      "meshSize": [
+        2.4799997806549072,
+        3.0794734954833984,
+        2.2599997520446777
+      ],
+      "id": "sunken_crown",
+      "meshId": "rbxassetid://117032966363977",
+      "textureId": "",
+      "size": [
+        2.4799997806549072,
+        3.0794734954833984,
+        2.2599997520446777
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "name": "sunken_crown",
+      "export": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+      "source": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+      "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-03-studio-front.jpg",
+        "assets/review/curse-rework/high-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "sunken_crown",
+        "meshId": "rbxassetid://117032966363977",
+        "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+        "observedSize": [
+          2.4799997806549072,
+          3.0794734954833984,
+          2.2599997520446777
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-03-studio-front.jpg",
+          "assets/review/curse-rework/high-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.the_first_grave",
+      "meshSize": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342305064201355
+      ],
+      "id": "the_first_grave",
+      "meshId": "rbxassetid://104080758542748",
+      "textureId": "",
+      "size": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342305064201355
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "name": "the_first_grave",
+      "export": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+      "source": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+      "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "sourceReference": "assets/reference/rework-11-secret.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-03-studio-front.jpg",
+        "assets/review/curse-rework/high-03-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "the_first_grave",
+        "meshId": "rbxassetid://104080758542748",
+        "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+        "observedSize": [
+          3.058901071548462,
+          3.68656849861145,
+          0.9342305064201355
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-03-studio-front.jpg",
+          "assets/review/curse-rework/high-03-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.the_last_funeral",
+      "meshSize": [
+        3.680000066757202,
+        3.13149356842041,
+        1.9983208179473877
+      ],
+      "id": "the_last_funeral",
+      "meshId": "rbxassetid://138087526906503",
+      "textureId": "",
+      "size": [
+        3.680000066757202,
+        3.13149356842041,
+        1.9983208179473877
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "name": "the_last_funeral",
+      "export": "assets/export/meshes/curses/rework/the_last_funeral.fbx",
+      "source": "assets/export/meshes/curses/rework/the_last_funeral.fbx",
+      "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "sourceReference": "assets/reference/rework-10-mythic.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-04-studio-front.jpg",
+        "assets/review/curse-rework/high-04-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "the_last_funeral",
+        "meshId": "rbxassetid://138087526906503",
+        "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+        "observedSize": [
+          3.680000066757202,
+          3.13149356842041,
+          1.9983208179473877
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-04-studio-front.jpg",
+          "assets/review/curse-rework/high-04-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.the_last_star",
+      "meshSize": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557762145996
+      ],
+      "id": "the_last_star",
+      "meshId": "rbxassetid://103602552479756",
+      "textureId": "",
+      "size": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557762145996
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "name": "the_last_star",
+      "export": "assets/export/meshes/curses/rework/the_last_star.fbx",
+      "source": "assets/export/meshes/curses/rework/the_last_star.fbx",
+      "fbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "sourceReference": "assets/reference/rework-12-secret.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-04-studio-front.jpg",
+        "assets/review/curse-rework/high-04-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "the_last_star",
+        "meshId": "rbxassetid://103602552479756",
+        "fbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+        "observedSize": [
+          3.880000114440918,
+          4.618844032287598,
+          2.094557762145996
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-04-studio-front.jpg",
+          "assets/review/curse-rework/high-04-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.the_undertow",
+      "meshSize": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776622295379639
+      ],
+      "id": "the_undertow",
+      "meshId": "rbxassetid://105483544111432",
+      "textureId": "",
+      "size": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776622295379639
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "name": "the_undertow",
+      "export": "assets/export/meshes/curses/rework/the_undertow.fbx",
+      "source": "assets/export/meshes/curses/rework/the_undertow.fbx",
+      "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "sourceReference": "assets/reference/rework-10-mythic.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-04-studio-front.jpg",
+        "assets/review/curse-rework/high-04-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "the_undertow",
+        "meshId": "rbxassetid://105483544111432",
+        "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+        "observedSize": [
+          3.587083578109741,
+          3.175576686859131,
+          1.5776622295379639
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-04-studio-front.jpg",
+          "assets/review/curse-rework/high-04-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.the_unwritten",
+      "meshSize": [
+        3.3359720706939697,
+        4.075650691986084,
+        1.4252877235412598
+      ],
+      "id": "the_unwritten",
+      "meshId": "rbxassetid://132077689568800",
+      "textureId": "",
+      "size": [
+        3.3359720706939697,
+        4.075650691986084,
+        1.4252877235412598
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "name": "the_unwritten",
+      "export": "assets/export/meshes/curses/rework/the_unwritten.fbx",
+      "source": "assets/export/meshes/curses/rework/the_unwritten.fbx",
+      "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "sourceReference": "assets/reference/rework-12-secret.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-04-studio-front.jpg",
+        "assets/review/curse-rework/high-04-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "the_unwritten",
+        "meshId": "rbxassetid://132077689568800",
+        "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+        "observedSize": [
+          3.3359720706939697,
+          4.075650691986084,
+          1.4252877235412598
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-04-studio-front.jpg",
+          "assets/review/curse-rework/high-04-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.thorn_cathedral",
+      "meshSize": [
+        2.7698776721954346,
+        4.060338973999023,
+        1.9780354499816895
+      ],
+      "id": "thorn_cathedral",
+      "meshId": "rbxassetid://130353358132470",
+      "textureId": "",
+      "size": [
+        2.7698776721954346,
+        4.060338973999023,
+        1.9780354499816895
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "name": "thorn_cathedral",
+      "export": "assets/export/meshes/curses/rework/thorn_cathedral.fbx",
+      "source": "assets/export/meshes/curses/rework/thorn_cathedral.fbx",
+      "fbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-04-studio-front.jpg",
+        "assets/review/curse-rework/high-04-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "thorn_cathedral",
+        "meshId": "rbxassetid://130353358132470",
+        "fbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+        "observedSize": [
+          2.7698776721954346,
+          4.060338973999023,
+          1.9780354499816895
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-04-studio-front.jpg",
+          "assets/review/curse-rework/high-04-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    },
+    {
+      "observedPath": "Workspace.high_import_batch.worldroot",
+      "meshSize": [
+        3.2417218685150146,
+        4.186335563659668,
+        1.5582488775253296
+      ],
+      "id": "worldroot",
+      "meshId": "rbxassetid://78477623099004",
+      "textureId": "",
+      "size": [
+        3.2417218685150146,
+        4.186335563659668,
+        1.5582488775253296
+      ],
+      "sourceBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+      "sourceBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "batchValidation": "assets/source/blender/curses_expansion/rework/high_import_batch_validation.json",
+      "componentFbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "name": "worldroot",
+      "export": "assets/export/meshes/curses/rework/worldroot.fbx",
+      "source": "assets/export/meshes/curses/rework/worldroot.fbx",
+      "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "sourceReference": "assets/reference/rework-10-mythic.png",
+      "status": "IMPORTED",
+      "gameplayValidated": false,
+      "studioAppearanceChecked": true,
+      "appearanceEvidence": [
+        "assets/review/curse-rework/high-05-studio-front.jpg",
+        "assets/review/curse-rework/high-05-studio-back.jpg"
+      ],
+      "materialTechnique": "Authored painted vertex colors; UV map retained; no uploaded texture required.",
+      "appearanceReview": {
+        "id": "worldroot",
+        "meshId": "rbxassetid://78477623099004",
+        "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+        "observedSize": [
+          3.2417218685150146,
+          4.186335563659668,
+          1.5582488775253296
+        ],
+        "screenshots": [
+          "assets/review/curse-rework/high-05-studio-front.jpg",
+          "assets/review/curse-rework/high-05-studio-back.jpg"
+        ],
+        "result": "ROOT_VISUAL_REVIEW_PASS",
+        "scope": "Fresh actual Studio imports, isolated copies at original size, white SmoothPlastic multiplier; front and rear inspection. Painted colors, palette, three-dimensional form and focal detail visible. No gameplay/VFX approval implied."
+      }
+    }
+  ]
+}

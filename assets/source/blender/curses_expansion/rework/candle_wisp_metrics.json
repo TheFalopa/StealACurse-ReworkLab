@@ -1,0 +1,101 @@
+{
+  "id": "candle_wisp",
+  "displayName": "Candle Wisp",
+  "rarity": "COMMON",
+  "sourceReference": "rework-01-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/candle_wisp.blend",
+  "export": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+  "sha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+  "triangles": 3606,
+  "vertices": 1901,
+  "blenderDimensions": [
+    2.5199999809265137,
+    1.6049913167953491,
+    3.9259285926818848
+  ],
+  "intendedRobloxSize": [
+    2.5199999809265137,
+    3.9259285926818848,
+    1.6049913167953491
+  ],
+  "diagonal": 4.933488861413925,
+  "vfxHook": [
+    0.0,
+    1.2770356893539427,
+    0.039023236646606896
+  ],
+  "vfxProfile": "ghost_flame",
+  "palette": [
+    "eye",
+    "flame",
+    "flame_core",
+    "iron_edge",
+    "wax",
+    "wax_light",
+    "wax_shadow"
+  ],
+  "paintedColorCount": 1086,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "MeltedWaxBody",
+      "first_face": 0,
+      "last_face_exclusive": 534
+    },
+    {
+      "name": "WaxCrownAndDrips",
+      "first_face": 534,
+      "last_face_exclusive": 914
+    },
+    {
+      "name": "DroopingHands",
+      "first_face": 914,
+      "last_face_exclusive": 1398
+    },
+    {
+      "name": "InsetBlackEyes",
+      "first_face": 1398,
+      "last_face_exclusive": 1818
+    },
+    {
+      "name": "BlueGhostFlame",
+      "first_face": 1818,
+      "last_face_exclusive": 1937
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": "Rebuilt from current rework01: substantial asymmetric wax volumes, melted crown, round hand drips, inset eyes and sculpted blue flame; replaces weak first-wave shape.",
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.025200000032782555,
+      0.01604991778731346,
+      0.03925928846001625
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 3606,
+    "colorCount": 1086,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

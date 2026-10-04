@@ -1,0 +1,99 @@
+{
+  "id": "the_last_funeral",
+  "displayName": "The Last Funeral",
+  "rarity": "Mythic",
+  "sourceReference": "assets/reference/rework-10-mythic.png",
+  "source": "assets/source/blender/curses_expansion/rework/the_last_funeral.blend",
+  "export": "assets/export/meshes/curses/rework/the_last_funeral.fbx",
+  "sha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+  "triangles": 3030,
+  "vertices": 1611,
+  "blenderDimensions": [
+    3.680000066757202,
+    1.9983203411102295,
+    3.1314938068389893
+  ],
+  "intendedRobloxSize": [
+    3.680000066757202,
+    3.1314938068389893,
+    1.9983203411102295
+  ],
+  "diagonal": 5.228951915948249,
+  "vfxHook": [
+    0.16,
+    1.105746957808733,
+    0.9179120576381683
+  ],
+  "vfxProfile": "last_funeral_lilies",
+  "palette": [
+    "brass",
+    "brass_edge",
+    "burial",
+    "burial_edge",
+    "ivory",
+    "obsidian"
+  ],
+  "paintedColorCount": 384,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Long horizontal chamfered black coffin with a raised lid and ivory memorial lilies",
+      "first_face": 0,
+      "last_face_exclusive": 276
+    },
+    {
+      "name": "Two broad wrapping straps each continuing into front and rear tall curved claw legs",
+      "first_face": 276,
+      "last_face_exclusive": 860
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 10 final correction: long HORIZONTAL black coffin on four tall, physically folded curved straps ending in two-toed ivory claws. Two bands wrap the lid and body before becoming its supports; raised lilies, gold seams and a chamfered coffin silhouette preserve the solemn funeral object from all sides."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/the_last_funeral.blend",
+  "robloxIntendedSize": [
+    3.680000066757202,
+    3.1314938068389893,
+    1.9983203411102295
+  ],
+  "vfxHookRoblox": [
+    0.16,
+    1.105746957808733,
+    0.9179120576381683
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03680000081658363,
+      0.019983207806944847,
+      0.03131493926048279
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 3030,
+    "colorCount": 384,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "the_last_funeral",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5"
+  }
+}

@@ -1,0 +1,683 @@
+{
+  "status": "HIGH21_COMBINED_FBX_ROUND_TRIP_PASS",
+  "batchExport": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+  "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+  "assetCount": 21,
+  "globalScale": 0.01,
+  "combinedByJoining": false,
+  "method": "Actual frozen component FBX import, inverse100 scale, distinct mesh export, actual combined FBX reimport; individual export hashes verified unchanged",
+  "assets": [
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "blood_moon_rose",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "blood_moon_rose",
+      "individualFbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 5166,
+      "vertices": 2669,
+      "roundtripDimensions": [
+        0.033685408532619476,
+        0.013943920377641916,
+        0.03652043081820011
+      ],
+      "robloxIntendedSize": [
+        3.3685410022735596,
+        3.652043104171753,
+        1.3943915367126465
+      ],
+      "center": [
+        0.0,
+        -3.026798367500305e-09,
+        9.313225746154785e-10
+      ],
+      "paintedColorCount": 519,
+      "uvLayers": 1,
+      "uvMin": 0.0035000001080334187,
+      "uvMax": 0.9925638437271118
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "cathedral_heart",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "cathedral_heart",
+      "individualFbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "fbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 3618,
+      "vertices": 1925,
+      "roundtripDimensions": [
+        0.02944687381386757,
+        0.016740186139941216,
+        0.04480339214205742
+      ],
+      "robloxIntendedSize": [
+        2.9446873664855957,
+        4.480339050292969,
+        1.6740176677703857
+      ],
+      "center": [
+        0.0,
+        -2.7939677238464355e-09,
+        0.0
+      ],
+      "paintedColorCount": 644,
+      "uvLayers": 1,
+      "uvMin": 0.008367546834051609,
+      "uvMax": 0.9858394861221313
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "clockwork_raven",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "clockwork_raven",
+      "individualFbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 3880,
+      "vertices": 2098,
+      "roundtripDimensions": [
+        0.03880000114440918,
+        0.015967081300914288,
+        0.036070624366402626
+      ],
+      "robloxIntendedSize": [
+        3.880000114440918,
+        3.607062339782715,
+        1.5967074632644653
+      ],
+      "center": [
+        0.0,
+        -2.3283064365386963e-09,
+        9.313225746154785e-10
+      ],
+      "paintedColorCount": 807,
+      "uvLayers": 1,
+      "uvMin": 0.05182703211903572,
+      "uvMax": 0.9944908022880554
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "crown_of_silence",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "crown_of_silence",
+      "individualFbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 7204,
+      "vertices": 3684,
+      "roundtripDimensions": [
+        0.03140990436077118,
+        0.015431342646479607,
+        0.04176688939332962
+      ],
+      "robloxIntendedSize": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ],
+      "center": [
+        0.0,
+        -2.3283064365386963e-09,
+        0.0
+      ],
+      "paintedColorCount": 894,
+      "uvLayers": 1,
+      "uvMin": 0.0035000001080334187,
+      "uvMax": 0.9836863279342651
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "eclipse_stag",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "eclipse_stag",
+      "individualFbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 1882,
+      "vertices": 1019,
+      "roundtripDimensions": [
+        0.030634021386504173,
+        0.011875008698552847,
+        0.040500324219465256
+      ],
+      "robloxIntendedSize": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875
+      ],
+      "center": [
+        0.0,
+        -1.6298145055770874e-09,
+        0.0
+      ],
+      "paintedColorCount": 467,
+      "uvLayers": 1,
+      "uvMin": 0.003888888983055949,
+      "uvMax": 0.9776124954223633
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "endless_library",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "endless_library",
+      "individualFbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 4812,
+      "vertices": 2554,
+      "roundtripDimensions": [
+        0.027799999341368675,
+        0.011092706583440304,
+        0.030178671702742577
+      ],
+      "robloxIntendedSize": [
+        2.7799999713897705,
+        3.017866849899292,
+        1.1092700958251953
+      ],
+      "center": [
+        0.0,
+        -1.862645149230957e-09,
+        0.0
+      ],
+      "paintedColorCount": 1083,
+      "uvLayers": 1,
+      "uvMin": 0.003888888983055949,
+      "uvMax": 0.883411705493927
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "hollow_throne",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "hollow_throne",
+      "individualFbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 2416,
+      "vertices": 1298,
+      "roundtripDimensions": [
+        0.026719791814684868,
+        0.01876359712332487,
+        0.043817177414894104
+      ],
+      "robloxIntendedSize": [
+        2.6719791889190674,
+        4.381717681884766,
+        1.8763585090637207
+      ],
+      "center": [
+        0.0,
+        -1.3969838619232178e-09,
+        -1.862645149230957e-09
+      ],
+      "paintedColorCount": 595,
+      "uvLayers": 1,
+      "uvMin": 0.12915389239788055,
+      "uvMax": 0.9788195490837097
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "judgement_scales",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "judgement_scales",
+      "individualFbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 2112,
+      "vertices": 1128,
+      "roundtripDimensions": [
+        0.03571999818086624,
+        0.01111150672659278,
+        0.03618154302239418
+      ],
+      "robloxIntendedSize": [
+        3.572000026702881,
+        3.618154525756836,
+        1.1111499071121216
+      ],
+      "center": [
+        0.0,
+        -1.1641532182693481e-09,
+        0.0
+      ],
+      "paintedColorCount": 606,
+      "uvLayers": 1,
+      "uvMin": 0.02392576076090336,
+      "uvMax": 0.9569843411445618
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "nameless_door",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "nameless_door",
+      "individualFbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 3232,
+      "vertices": 1736,
+      "roundtripDimensions": [
+        0.032570239156484604,
+        0.022569035179913044,
+        0.03759650141000748
+      ],
+      "robloxIntendedSize": [
+        3.257023811340332,
+        3.7596499919891357,
+        2.2569031715393066
+      ],
+      "center": [
+        0.0,
+        -2.3283064365386963e-09,
+        0.0
+      ],
+      "paintedColorCount": 770,
+      "uvLayers": 1,
+      "uvMin": 0.0224652998149395,
+      "uvMax": 0.9864634275436401
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "night_harp",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "night_harp",
+      "individualFbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 2492,
+      "vertices": 1358,
+      "roundtripDimensions": [
+        0.028185054659843445,
+        0.01404379028826952,
+        0.03882523998618126
+      ],
+      "robloxIntendedSize": [
+        2.8185055255889893,
+        3.882523775100708,
+        1.4043782949447632
+      ],
+      "center": [
+        0.0,
+        -2.3283064365386963e-09,
+        0.0
+      ],
+      "paintedColorCount": 596,
+      "uvLayers": 1,
+      "uvMin": 0.051268141716718674,
+      "uvMax": 0.9881665110588074
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "phantom_marionette",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "phantom_marionette",
+      "individualFbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 1964,
+      "vertices": 1066,
+      "roundtripDimensions": [
+        0.030119208618998528,
+        0.008635313250124454,
+        0.03828802332282066
+      ],
+      "robloxIntendedSize": [
+        3.011920928955078,
+        3.8288025856018066,
+        0.863530158996582
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paintedColorCount": 495,
+      "uvLayers": 1,
+      "uvMin": 0.003888888983055949,
+      "uvMax": 0.9923946261405945
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "plague_monarch",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "plague_monarch",
+      "individualFbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 2828,
+      "vertices": 1536,
+      "roundtripDimensions": [
+        0.02527741901576519,
+        0.015501881949603558,
+        0.03895419463515282
+      ],
+      "robloxIntendedSize": [
+        2.5277419090270996,
+        3.8954193592071533,
+        1.550187349319458
+      ],
+      "center": [
+        0.0,
+        -2.3283064365386963e-09,
+        0.0
+      ],
+      "paintedColorCount": 743,
+      "uvLayers": 1,
+      "uvMin": 0.024844083935022354,
+      "uvMax": 0.9961110949516296
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "silent_choir",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "silent_choir",
+      "individualFbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 2680,
+      "vertices": 1402,
+      "roundtripDimensions": [
+        0.031093265861272812,
+        0.009257198311388493,
+        0.0336613729596138
+      ],
+      "robloxIntendedSize": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ],
+      "center": [
+        0.0,
+        -2.7939677238464355e-09,
+        0.0
+      ],
+      "paintedColorCount": 486,
+      "uvLayers": 1,
+      "uvMin": 0.016861604526638985,
+      "uvMax": 0.9913502335548401
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "sunken_crown",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "sunken_crown",
+      "individualFbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 3408,
+      "vertices": 1804,
+      "roundtripDimensions": [
+        0.024799996986985207,
+        0.022600002586841583,
+        0.030794737860560417
+      ],
+      "robloxIntendedSize": [
+        2.4800000190734863,
+        3.0794734954833984,
+        2.259999990463257
+      ],
+      "center": [
+        0.0,
+        9.313225746154785e-10,
+        0.0
+      ],
+      "paintedColorCount": 599,
+      "uvLayers": 1,
+      "uvMin": 0.009411104954779148,
+      "uvMax": 0.9961110949516296
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "the_first_grave",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "the_first_grave",
+      "individualFbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 2136,
+      "vertices": 1162,
+      "roundtripDimensions": [
+        0.030589010566473007,
+        0.009342304430902004,
+        0.036865685135126114
+      ],
+      "robloxIntendedSize": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342293739318848
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paintedColorCount": 606,
+      "uvLayers": 1,
+      "uvMin": 0.003888888983055949,
+      "uvMax": 0.7685019969940186
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "the_last_funeral",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "the_last_funeral",
+      "individualFbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 3030,
+      "vertices": 1611,
+      "roundtripDimensions": [
+        0.03680000081658363,
+        0.01998321060091257,
+        0.03131493926048279
+      ],
+      "robloxIntendedSize": [
+        3.680000066757202,
+        3.1314938068389893,
+        1.9983203411102295
+      ],
+      "center": [
+        0.0,
+        -1.3969838619232178e-09,
+        0.0
+      ],
+      "paintedColorCount": 384,
+      "uvLayers": 1,
+      "uvMin": 0.006643718108534813,
+      "uvMax": 0.9920344352722168
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "the_last_star",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "the_last_star",
+      "individualFbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "fbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 4792,
+      "vertices": 2588,
+      "roundtripDimensions": [
+        0.03880000114440918,
+        0.02094558347016573,
+        0.04618844389915466
+      ],
+      "robloxIntendedSize": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557523727417
+      ],
+      "center": [
+        0.0,
+        -3.259629011154175e-09,
+        0.0
+      ],
+      "paintedColorCount": 768,
+      "uvLayers": 1,
+      "uvMin": 0.04556844383478165,
+      "uvMax": 0.7694464325904846
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "the_undertow",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "the_undertow",
+      "individualFbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 2498,
+      "vertices": 1285,
+      "roundtripDimensions": [
+        0.035870835185050964,
+        0.015776626765727997,
+        0.03175577148795128
+      ],
+      "robloxIntendedSize": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776621103286743
+      ],
+      "center": [
+        0.0,
+        -9.313225746154785e-10,
+        0.0
+      ],
+      "paintedColorCount": 675,
+      "uvLayers": 1,
+      "uvMin": 0.503182053565979,
+      "uvMax": 0.9843758344650269
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "the_unwritten",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "the_unwritten",
+      "individualFbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 8122,
+      "vertices": 4155,
+      "roundtripDimensions": [
+        0.033359721302986145,
+        0.014252883847802877,
+        0.04075650870800018
+      ],
+      "robloxIntendedSize": [
+        3.335972309112549,
+        4.075650691986084,
+        1.4252878427505493
+      ],
+      "center": [
+        0.0,
+        -1.6298145055770874e-09,
+        0.0
+      ],
+      "paintedColorCount": 340,
+      "uvLayers": 1,
+      "uvMin": 0.3034999966621399,
+      "uvMax": 0.8901144862174988
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "thorn_cathedral",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "thorn_cathedral",
+      "individualFbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "fbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 3064,
+      "vertices": 1648,
+      "roundtripDimensions": [
+        0.027698775753378868,
+        0.019780359230935574,
+        0.0406033918261528
+      ],
+      "robloxIntendedSize": [
+        2.7698776721954346,
+        4.060338973999023,
+        1.9780349731445312
+      ],
+      "center": [
+        0.0,
+        -1.3969838619232178e-09,
+        0.0
+      ],
+      "paintedColorCount": 653,
+      "uvLayers": 1,
+      "uvMin": 0.2331162393093109,
+      "uvMax": 0.8849999904632568
+    },
+    {
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "id": "worldroot",
+      "status": "COMBINED_FBX_COMPONENT_PASS",
+      "meshName": "worldroot",
+      "individualFbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "batchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+      "triangles": 3456,
+      "vertices": 1846,
+      "roundtripDimensions": [
+        0.03241721913218498,
+        0.015582491643726826,
+        0.04186335951089859
+      ],
+      "robloxIntendedSize": [
+        3.2417221069335938,
+        4.186335563659668,
+        1.5582482814788818
+      ],
+      "center": [
+        0.0,
+        -1.862645149230957e-09,
+        0.0
+      ],
+      "paintedColorCount": 473,
+      "uvLayers": 1,
+      "uvMin": 0.04819727689027786,
+      "uvMax": 0.9438960552215576
+    }
+  ]
+}

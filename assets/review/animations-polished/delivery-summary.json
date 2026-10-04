@@ -1,0 +1,59 @@
+{
+  "schema": "steal-a-curse-polished-delivery-v1",
+  "savedAtUTC": "2026-10-03T06:32:52.252Z",
+  "branch": "codex/curse-animations-polished",
+  "build": "C:/RobloxProjects/StealACurse/build-curse-animations-polished.rbxlx",
+  "buildSHA256": "cc2dad834a457517b633615292b4f2be261519af6ac0a118be44930dcf7d2cc3",
+  "sourceScriptsMatched": 55,
+  "nativeSkinnedTemplates": 56,
+  "realRigReimports": 10,
+  "visualReview": {
+    "curses": 56,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "nativeBatchVideos": 28,
+    "observations": 168,
+    "record": "visual-reviewed.json"
+  },
+  "management": {
+    "status": "PASS",
+    "cases": 56,
+    "record": "management-all56-observed.json"
+  },
+  "twoClients": {
+    "status": "PASS",
+    "nativePlayers": 2,
+    "curses": 5,
+    "stateRows": 30,
+    "videoClips": 10,
+    "geometryReview": "ROOT_NATIVE_PIXELS_REVIEWED",
+    "record": "multiplayer-observed.json"
+  },
+  "performance": {
+    "status": "PASS",
+    "checks": 15,
+    "record": "performance-observed.json"
+  },
+  "freshDiskPlay": {
+    "mapGenerated": true,
+    "profileReady": true,
+    "blockingErrorsObserved": 0,
+    "leftPlayStopped": true,
+    "record": "final-play-proof.json"
+  },
+  "vfx": "Existing modules and anchor names preserved; recalibrate documented bone offsets for friend integration.",
+  "pending": [
+    "Physical phone and new mobile animation emulation/performance not tested.",
+    "No implemented robbery transfer service in current base; actual theft ownership transfer not verified.",
+    "Published DataStore not exercised; local Studio profile verified."
+  ],
+  "limits": "56 pixel reviews of three states; five complete same-instance multiplayer cycles. Not every angle or rare gesture/transition recorded for every curse.",
+  "noExperiencePublished": true,
+  "noCommitPushMerge": true,
+  "report": "C:/RobloxProjects/StealACurse/docs/CURSE_ANIMATIONS_POLISHED.md",
+  "latestFollowup": "user-two-curses/review.json",
+  "historicalRegressionNote": "Management, multiplayer and performance rows describe the prior delivery. This follow-up visually rechecks two decorative acts and preserves user sequential spawn settings."
+}

@@ -1,0 +1,74 @@
+{
+  "id": "marrow_dice",
+  "displayName": "Marrow Dice",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-04-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/marrow_dice.blend",
+  "export": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+  "sha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+  "triangles": 4138,
+  "vertices": 2095,
+  "blenderDimensions": [
+    3.312481641769409,
+    1.9026013612747192,
+    2.809999942779541
+  ],
+  "intendedRobloxSize": [
+    3.312481641769409,
+    2.809999942779541,
+    1.9026013612747192
+  ],
+  "diagonal": 4.742206896098566,
+  "vfxHook": [
+    -0.9225021546626389,
+    1.3150000000000002,
+    0.8613006734848023
+  ],
+  "vfxProfile": "wandering_dice_pips",
+  "palette": [
+    "bone",
+    "cyan",
+    "ink"
+  ],
+  "paintedColorCount": 382,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "two rounded ivory dice with carved pip cavities",
+      "first_face": 0,
+      "last_face_exclusive": 1624
+    },
+    {
+      "name": "squat articulated appendages and errant ghost pips",
+      "first_face": 1624,
+      "last_face_exclusive": 2112
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Paired differently scaled and tilted worn ivory dice; true carved spherical pips on four faces; squat shadow feet.",
+    "Three errant cyan pips circle slowly and pause at carved sockets."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/marrow_dice.blend",
+  "robloxIntendedSize": [
+    3.312481641769409,
+    2.809999942779541,
+    1.9026013612747192
+  ],
+  "vfxHookRoblox": [
+    -0.9225021546626389,
+    1.3150000000000002,
+    0.8613006734848023
+  ]
+}

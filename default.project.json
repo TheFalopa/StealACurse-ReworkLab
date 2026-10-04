@@ -1,0 +1,577 @@
+{
+  "name": "StealACurse",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "ServerStorage": {
+      "MapMeshKit": {
+        "$className": "Folder",
+        "tree_widow": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://122809375664813",
+            "InitialSize": [
+              19.930954,
+              21.9595795,
+              15.1773987
+            ],
+            "Size": [
+              19.930954,
+              21.9595795,
+              15.1773987
+            ]
+          }
+        },
+        "tree_claw": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://131805060179843",
+            "InitialSize": [
+              27.0939751,
+              19.0528793,
+              17.2920189
+            ],
+            "Size": [
+              27.0939751,
+              19.0528793,
+              17.2920189
+            ]
+          }
+        },
+        "tree_sundered": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://107228046689984",
+            "InitialSize": [
+              14.5482693,
+              13.9303417,
+              7.37214565
+            ],
+            "Size": [
+              14.5482693,
+              13.9303417,
+              7.37214565
+            ]
+          }
+        },
+        "grave_arched": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://140584953927298",
+            "InitialSize": [
+              3.70000005,
+              5.1500001,
+              0.900000811
+            ],
+            "Size": [
+              3.70000005,
+              5.1500001,
+              0.900000811
+            ]
+          }
+        },
+        "grave_spire": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://102340099430836",
+            "InitialSize": [
+              2.8499999,
+              7.4000001,
+              1.25000119
+            ],
+            "Size": [
+              2.8499999,
+              7.4000001,
+              1.25000119
+            ]
+          }
+        },
+        "grave_broken": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://89351124895535",
+            "InitialSize": [
+              4.0999999,
+              3.70000029,
+              1.10000062
+            ],
+            "Size": [
+              4.0999999,
+              3.70000029,
+              1.10000062
+            ]
+          }
+        },
+        "rock_crag": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://73840671477879",
+            "InitialSize": [
+              6.41645908,
+              4.90000105,
+              6.43452454
+            ],
+            "Size": [
+              6.41645908,
+              4.90000105,
+              6.43452454
+            ]
+          }
+        },
+        "root_serpent": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://139236839602664",
+            "InitialSize": [
+              10.2933712,
+              3.37458372,
+              6.1015234
+            ],
+            "Size": [
+              10.2933712,
+              3.37458372,
+              6.1015234
+            ]
+          }
+        },
+        "ruin_point_arch": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://74412455843030",
+            "InitialSize": [
+              15.868598,
+              17.7050781,
+              2.5455842
+            ],
+            "Size": [
+              15.868598,
+              17.7050781,
+              2.5455842
+            ]
+          }
+        },
+        "shrine_reliquary": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://86240551907672",
+            "InitialSize": [
+              11.6000004,
+              16.3999996,
+              1.87175298
+            ],
+            "Size": [
+              11.6000004,
+              16.3999996,
+              1.87175298
+            ]
+          }
+        },
+        "temple_wing_crest": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://84273071973804",
+            "InitialSize": [
+              27.2000008,
+              28.3052444,
+              3.2000041
+            ],
+            "Size": [
+              27.2000008,
+              28.3052444,
+              3.2000041
+            ]
+          }
+        },
+        "stone_warden": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://104096416936194",
+            "InitialSize": [
+              5.4000001,
+              12.5,
+              3.40000105
+            ],
+            "Size": [
+              5.4000001,
+              12.5,
+              3.40000105
+            ]
+          }
+        },
+        "final_buttress": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://121418058164290",
+            "InitialSize": [
+              4,
+              18,
+              7.000002861022949
+            ],
+            "Size": [
+              4,
+              18,
+              7.000002861022949
+            ]
+          }
+        },
+        "final_chain": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://137302239107896",
+            "InitialSize": [
+              2,
+              10,
+              1.5000009536743164
+            ],
+            "Size": [
+              2,
+              10,
+              1.5000009536743164
+            ]
+          }
+        },
+        "final_cliff_cluster": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://102007331454332",
+            "InitialSize": [
+              38,
+              15.000001907348633,
+              25
+            ],
+            "Size": [
+              38,
+              15.000001907348633,
+              25
+            ]
+          }
+        },
+        "final_collection_pedestal": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://136578707816851",
+            "InitialSize": [
+              6,
+              2.5000009536743164,
+              6
+            ],
+            "Size": [
+              6,
+              2.5000009536743164,
+              6
+            ]
+          }
+        },
+        "final_crooked_roof": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://88083283938508",
+            "InitialSize": [
+              28,
+              18,
+              26
+            ],
+            "Size": [
+              28,
+              18,
+              26
+            ]
+          }
+        },
+        "final_giant_tree": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://106911067618583",
+            "InitialSize": [
+              40,
+              52,
+              30.000001907348633
+            ],
+            "Size": [
+              40,
+              52,
+              30.000001907348633
+            ]
+          }
+        },
+        "final_gothic_doorway": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://93984507446049",
+            "InitialSize": [
+              20,
+              25,
+              3.0000040531158447
+            ],
+            "Size": [
+              20,
+              25,
+              3.0000040531158447
+            ]
+          }
+        },
+        "final_gothic_window": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://111779363059681",
+            "InitialSize": [
+              6,
+              13,
+              1.0000001192092896
+            ],
+            "Size": [
+              6,
+              13,
+              1.0000001192092896
+            ]
+          }
+        },
+        "final_hero_grave": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://114437295252890",
+            "InitialSize": [
+              7,
+              11,
+              3.000000238418579
+            ],
+            "Size": [
+              7,
+              11,
+              3.000000238418579
+            ]
+          }
+        },
+        "final_iron_fence": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://125211551490808",
+            "InitialSize": [
+              12,
+              7,
+              1.0000001192092896
+            ],
+            "Size": [
+              12,
+              7,
+              1.0000001192092896
+            ]
+          }
+        },
+        "final_lantern": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://126649242262975",
+            "InitialSize": [
+              3,
+              5,
+              3.000000476837158
+            ],
+            "Size": [
+              3,
+              5,
+              3.000000476837158
+            ]
+          }
+        },
+        "final_pumpkin": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://85694347830310",
+            "InitialSize": [
+              3.5,
+              3,
+              3.5
+            ],
+            "Size": [
+              3.5,
+              3,
+              3.5
+            ]
+          }
+        },
+        "foliage_crescent": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://93801806942626",
+            "InitialSize": [
+              16,
+              6.000000476837158,
+              10
+            ],
+            "Size": [
+              16,
+              6.000000476837158,
+              10
+            ]
+          }
+        },
+        "foliage_tattered": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://93606032304189",
+            "InitialSize": [
+              14,
+              7.000001430511475,
+              12
+            ],
+            "Size": [
+              14,
+              7.000001430511475,
+              12
+            ]
+          }
+        },
+        "foliage_swept": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://110491378095483",
+            "InitialSize": [
+              15,
+              7.999999046325684,
+              9
+            ],
+            "Size": [
+              15,
+              7.999999046325684,
+              9
+            ]
+          }
+        }
+      },
+      "CurseMeshKit": {
+        "$path": "assets/imports/CurseMeshKit.rbxmx"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "MaterialService": {
+      "HollowStonePainted": {
+        "$className": "MaterialVariant",
+        "$properties": {
+          "BaseMaterial": "Slate",
+          "ColorMap": "rbxassetid://93394270586297",
+          "StudsPerTile": 16,
+          "MaterialPattern": "Regular"
+        }
+      },
+      "TwilightWoodPainted": {
+        "$className": "MaterialVariant",
+        "$properties": {
+          "BaseMaterial": "Wood",
+          "ColorMap": "rbxassetid://81623021739244",
+          "StudsPerTile": 12,
+          "MaterialPattern": "Regular"
+        }
+      },
+      "DuskySoilPainted": {
+        "$className": "MaterialVariant",
+        "$properties": {
+          "BaseMaterial": "Ground",
+          "ColorMap": "rbxassetid://117271298687011",
+          "StudsPerTile": 28,
+          "MaterialPattern": "Organic"
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.62,
+          0.6,
+          0.78
+        ],
+        "OutdoorAmbient": [
+          0.65,
+          0.67,
+          0.83
+        ],
+        "Brightness": 3,
+        "ClockTime": 1.2,
+        "ExposureCompensation": 0.75,
+        "FogColor": [
+          0.17,
+          0.2,
+          0.35
+        ],
+        "FogStart": 180,
+        "FogEnd": 640,
+        "GlobalShadows": true,
+        "Technology": "ShadowMap"
+      },
+      "GraveyardAtmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Color": [
+            0.38,
+            0.44,
+            0.64
+          ],
+          "Decay": [
+            0.18,
+            0.22,
+            0.38
+          ],
+          "Density": 0.28,
+          "Haze": 1.5,
+          "Glare": 0,
+          "Offset": 0.1
+        }
+      },
+      "GraveyardBloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Intensity": 0.2,
+          "Size": 20,
+          "Threshold": 1.65
+        }
+      },
+      "GraveyardColor": {
+        "$className": "ColorCorrectionEffect",
+        "$properties": {
+          "Brightness": 0.03,
+          "Contrast": 0.06,
+          "Saturation": -0.03,
+          "TintColor": [
+            0.91,
+            0.94,
+            1
+          ]
+        }
+      },
+      "GraveyardSky": {
+        "$className": "Sky",
+        "$properties": {
+          "CelestialBodiesShown": true,
+          "MoonAngularSize": 18,
+          "StarCount": 160,
+          "SunAngularSize": 0
+        }
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}

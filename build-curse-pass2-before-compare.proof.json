@@ -1,0 +1,18 @@
+{
+  "scope": "Frozen before sources plus presentation-only QA; all original imported mesh IDs retained",
+  "sourcePlace": "build-curse-expansion-50.rbxlx",
+  "sourcePlaceSha256": "17cf6f2517e514e619becb9a2e68811d961e0a3477a7504fb7f85a67505c4769",
+  "sourceFingerprints": {
+    "assets/review/curse-pass2/baseline/frozen/src__shared__CurseCatalog.luau": "e0e9dfded693646595f89921c1979e09d97e3591835ba04603726a3e905dab08",
+    "assets/review/curse-pass2/baseline/frozen/src__shared__CurseExpansionAssets.luau": "4681e844dde7b31416146fe96e3b196da8290517742bf38b4c854156bbaacafb",
+    "assets/review/curse-pass2/baseline/frozen/src__shared__CurseVFXProfiles.luau": "355350ab2c4ee5b268217d0ab98913cdaf990637936f86164ff17ff97f6017db",
+    "assets/review/curse-pass2/baseline/frozen/src__server__Gameplay__CurseVisualService.luau": "10db7d14ba85b61d14a09ad5b2732d111ecf123ecf8cc5217aee4b7629dafafe",
+    "assets/review/curse-pass2/baseline/frozen/src__server__Gameplay__CurseService.luau": "eff2236c307141fa98cb975a80e6edfb81729a8c25c61ee06ee16c12bb033e71",
+    "assets/review/curse-pass2/baseline/frozen/src__client__CurseVFX.luau": "16e38dac55ea63f72cea1e1840c6a935ee29de01f664180e1d5b5241e8eb569c",
+    "assets/review/curse-pass2/baseline/frozen/src__client__UI__CurseLabels.luau": "885320e6d991d86c5e37feba28ef277dff5bf0b44d5b2e669237c4ee908be71e",
+    "tests/VisualPass2Audit.server.luau": "6b339abd7d5337086e5fbf3c7dbcd1f78aa7ce19d47959097e1cdf1e8a6b1a5a",
+    "tests/VisualPass2Audit.client.luau": "7b8fd2858ea669e3cc5b08ee40ce163d6986aed26c16948b73482847a5166b34"
+  },
+  "artifact": "build-curse-pass2-before-compare.rbxlx",
+  "artifactSha256": "913d06f32429a2ee2cfc66f03530cf8b7a5bdce5faa1bf9f2e7f5489117cd270"
+}

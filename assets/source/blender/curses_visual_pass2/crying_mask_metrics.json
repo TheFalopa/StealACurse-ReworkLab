@@ -1,0 +1,97 @@
+{
+  "id": "crying_mask",
+  "displayName": "Crying Mask",
+  "rarity": "RARE",
+  "sourceReference": "assets/reference/crying-mask-roblox-rework-v2.png",
+  "source": "assets/source/blender/curses_visual_pass2/crying_mask.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/crying_mask.fbx",
+  "sha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+  "triangles": 1436,
+  "vertices": 742,
+  "blenderDimensions": [
+    5.529238224029541,
+    1.6159999370574951,
+    5.800000190734863
+  ],
+  "intendedRobloxSize": [
+    5.529238224029541,
+    5.800000190734863,
+    1.6159999370574951
+  ],
+  "diagonal": 8.174590714351615,
+  "vfxHook": [
+    0,
+    -0.5771498771498775,
+    0.17810964120213507
+  ],
+  "vfxProfile": "porcelain_tears",
+  "palette": [
+    "blue_cloth",
+    "porcelain",
+    "porcelain_shadow",
+    "tear"
+  ],
+  "paintedColorCount": 649,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Sculpted tragic porcelain with genuinely empty eye apertures",
+      "first_face": 0,
+      "last_face_exclusive": 449
+    },
+    {
+      "name": "Open sorrowful mouth and long asymmetric cloth ties",
+      "first_face": 449,
+      "last_face_exclusive": 771
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Tragic faceted porcelain, empty eye holes, projecting nose and open downturned mouth; long blue ties, shaped turquoise tears instead of neon stripes."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/crying_mask.blend",
+  "robloxIntendedSize": [
+    5.529238224029541,
+    5.800000190734863,
+    1.6159999370574951
+  ],
+  "vfxHookRoblox": [
+    0,
+    -0.5771498771498775,
+    0.17810964120213507
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.05529238283634186,
+      0.016160007566213608,
+      0.05800000578165054
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 1436,
+    "colorCount": 649,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "crying_mask",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "raven_quill",
+  "displayName": "Raven Quill",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-05-rare.png",
+  "source": "assets/source/blender/curses_visual_pass2/batch02/raven_quill.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/batch02/raven_quill.fbx",
+  "sha256": "e29d5c50b6c88ca98ac11d21f7884f335a8b2ff6e1635bc108e88b355217b75c",
+  "triangles": 1394,
+  "vertices": 781,
+  "blenderDimensions": [
+    5.199999809265137,
+    2.4000000953674316,
+    6.400000095367432
+  ],
+  "intendedRobloxSize": [
+    5.199999809265137,
+    6.400000095367432,
+    2.4000000953674316
+  ],
+  "diagonal": 8.588364203666742,
+  "vfxHook": [
+    1.765561819076538,
+    0.9846514463424683,
+    0.7424861788749695
+  ],
+  "vfxProfile": "raven_ink_signature",
+  "palette": [
+    "gold",
+    "gold_edge",
+    "ink",
+    "iron",
+    "iron_edge",
+    "ochre",
+    "white_glow"
+  ],
+  "paintedColorCount": 398,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "layered curved feather body and individual sculpted barbs",
+      "first_face": 0,
+      "last_face_exclusive": 332
+    },
+    {
+      "name": "pale eye and true divided bronze fountain nib beak",
+      "first_face": 332,
+      "last_face_exclusive": 586
+    },
+    {
+      "name": "two orange toes and three claws per foot",
+      "first_face": 586,
+      "last_face_exclusive": 702
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "A curved thick feather made of twenty shaped barbs and two layered wings, ivory eye, bronze fountain nib with separated slit and three-toed orange feet.",
+    "One brief fading ink signature trails from the nib; feather tips sway gently.",
+    "Broad layered feather barbs in oil-blue charcoal with visible silver-gray faces, bronze nib and orange talons."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/batch02/raven_quill.blend",
+  "robloxIntendedSize": [
+    5.199999809265137,
+    6.400000095367432,
+    2.4000000953674316
+  ],
+  "vfxHookRoblox": [
+    1.765561819076538,
+    0.9846514463424683,
+    0.7424861788749695
+  ],
+  "pass": 2,
+  "revision": 2,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/raven_quill.blend",
+  "sourceReusedSha256": "f76bb91cd5bba9741713bcb3bd6073812a66e749b68cd7c3b8a171e3e2909e1e",
+  "vfxHooks": {
+    "nibTip": [
+      1.996765216868394,
+      0.9120169139719697,
+      0.6251750320558945
+    ]
+  },
+  "changedPaintCorners": 678,
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.05199999734759331,
+      0.024000011384487152,
+      0.06400001049041748
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 1394,
+    "colorCount": 376,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "raven_quill",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "e29d5c50b6c88ca98ac11d21f7884f335a8b2ff6e1635bc108e88b355217b75c"
+  }
+}

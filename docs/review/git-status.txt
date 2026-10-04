@@ -1,0 +1,63 @@
+ M README.md
+ M assets/README.md
+ M default.project.json
+ M src/client/UI/HUD.luau
+ M src/server/Map/AssetKit.luau
+ M src/server/Map/Build.luau
+ M src/server/Map/Cemetery.luau
+ M src/server/Map/Config.luau
+ M src/server/Map/Decorations.luau
+ M src/server/Map/Landmarks.luau
+ M src/server/Map/Mausoleum.luau
+ M src/server/Map/PlayerShrine.luau
+ M src/server/Map/TerrainArt.luau
+ M src/server/Map/World.luau
+ M tests/Build-StudioFixture.ps1
+ M tests/Slice.client.luau
+?? assets/FINAL_ENVIRONMENT.md
+?? assets/export/meshes/final_buttress.fbx
+?? assets/export/meshes/final_chain.fbx
+?? assets/export/meshes/final_cliff_cluster.fbx
+?? assets/export/meshes/final_collection_pedestal.fbx
+?? assets/export/meshes/final_crooked_roof.fbx
+?? assets/export/meshes/final_giant_tree.fbx
+?? assets/export/meshes/final_gothic_doorway.fbx
+?? assets/export/meshes/final_gothic_window.fbx
+?? assets/export/meshes/final_hero_grave.fbx
+?? assets/export/meshes/final_iron_fence.fbx
+?? assets/export/meshes/final_lantern.fbx
+?? assets/export/meshes/final_pumpkin.fbx
+?? assets/source/blender/final_environment_geometry.json
+?? assets/source/blender/final_environment_manifest.json
+?? assets/source/blender/final_environment_preview.png
+?? assets/source/blender/generate_final_environment.py
+?? assets/source/blender/steal_a_curse_final_environment.blend
+?? assets/source/blender/validate_final_environment.py
+?? docs/FINAL_MAP_REWORK.md
+?? docs/review/aerial.jpg
+?? docs/review/aerial.png
+?? docs/review/all-bases-results.json
+?? docs/review/all-bases-test.log
+?? docs/review/baseline-castle.png
+?? docs/review/between-sanctuaries.jpg
+?? docs/review/between-sanctuaries.png
+?? docs/review/castle-entrance.png
+?? docs/review/castle-front.jpg
+?? docs/review/castle-front.png
+?? docs/review/cemetery-family-plot.jpg
+?? docs/review/cemetery-family-plot.png
+?? docs/review/cemetery-path.png
+?? docs/review/git-status.txt
+?? docs/review/leaving-sanctuary.jpg
+?? docs/review/leaving-sanctuary.png
+?? docs/review/mobile-castle-before-hud.jpg
+?? docs/review/mobile-castle.jpg
+?? docs/review/mobile-sanctuary.jpg
+?? docs/review/sanctuary.jpg
+?? docs/review/sanctuary.png
+?? docs/review/slice-test.log
+?? docs/review/validation-results.json
+?? src/server/Map/Layout.luau
+?? tests/AllBases.server.luau
+?? tests/FinalMap.server.luau
+?? tests/FinalWalk.client.luau

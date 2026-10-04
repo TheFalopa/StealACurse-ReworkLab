@@ -1,0 +1,759 @@
+{
+  "scope": "Legendary10,Mythic6,Secret5; authored local Blender geometry, not live Roblox validation",
+  "assetCount": 21,
+  "referencesReviewed": [
+    "assets/reference/rework-07-legendary.png",
+    "assets/reference/rework-08-legendary.png",
+    "assets/reference/rework-09-mythic.png",
+    "assets/reference/rework-10-mythic.png",
+    "assets/reference/rework-11-secret.png",
+    "assets/reference/rework-12-secret.png"
+  ],
+  "totalTriangles": 74792,
+  "maximumDiagonal": 6.385553406155446,
+  "localFrontRearReviewed": true,
+  "representativeFourAngleTurnarounds": [
+    {
+      "id": "night_harp",
+      "rarity": "Legendary",
+      "angles": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "views": [
+        "assets/source/blender/curses_expansion/rework/night_harp_angle_0.png",
+        "assets/source/blender/curses_expansion/rework/night_harp_angle_90.png",
+        "assets/source/blender/curses_expansion/rework/night_harp_angle_180.png",
+        "assets/source/blender/curses_expansion/rework/night_harp_angle_270.png"
+      ],
+      "sheet": "assets/source/blender/curses_expansion/rework/high_night_harp_turnaround.png"
+    },
+    {
+      "id": "worldroot",
+      "rarity": "Mythic",
+      "angles": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "views": [
+        "assets/source/blender/curses_expansion/rework/worldroot_angle_0.png",
+        "assets/source/blender/curses_expansion/rework/worldroot_angle_90.png",
+        "assets/source/blender/curses_expansion/rework/worldroot_angle_180.png",
+        "assets/source/blender/curses_expansion/rework/worldroot_angle_270.png"
+      ],
+      "sheet": "assets/source/blender/curses_expansion/rework/high_worldroot_turnaround.png"
+    },
+    {
+      "id": "the_last_star",
+      "rarity": "Secret",
+      "angles": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "views": [
+        "assets/source/blender/curses_expansion/rework/the_last_star_angle_0.png",
+        "assets/source/blender/curses_expansion/rework/the_last_star_angle_90.png",
+        "assets/source/blender/curses_expansion/rework/the_last_star_angle_180.png",
+        "assets/source/blender/curses_expansion/rework/the_last_star_angle_270.png"
+      ],
+      "sheet": "assets/source/blender/curses_expansion/rework/high_the_last_star_turnaround.png"
+    }
+  ],
+  "singleAssetFbxRoundtrips": "PASS all21; actual topology/color/UV/finite centered bounds",
+  "combinedBatch": "assets/export/meshes/curses/rework/high_import_batch.fbx",
+  "combinedBatchSha256": "d861310d893abc1b26d37ca576a6bccc2f07cd28280b5b06b27c25eec00b18f7",
+  "combinedBatchValidation": "PASS all21; exact individual component color sets, topology, dimensions and current FBX hashes",
+  "sourcesRemainEditable": true,
+  "frozenIndividualExports": true,
+  "frozenBatchExport": true,
+  "realImportRecordedByThisAgent": false,
+  "liveRobloxAppearanceCheckedByThisAgent": false,
+  "gameplayCheckedByThisAgent": false,
+  "publishPerformed": false,
+  "assets": [
+    {
+      "id": "the_last_star",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_last_star.blend",
+      "export": "assets/export/meshes/curses/rework/the_last_star.fbx",
+      "fbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "triangles": 4792,
+      "robloxIntendedSize": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557523727417
+      ],
+      "vfxHookRoblox": [
+        0.0,
+        0.2994219504296778,
+        0.20545986771583558
+      ],
+      "vfxProfile": "last_star_cage",
+      "palette": [
+        "cold_white",
+        "ivory",
+        "obsidian",
+        "star_edge",
+        "star_iron",
+        "star_wear",
+        "white_glow"
+      ],
+      "designNotes": [
+        "Reference 12: blind iron sentinel on four articulated claw feet; three layered open ribs on each side surround a suspended volumetric eight-point cold-white star. Narrow split helm and shaped weathered plates preserve negative space from every angle."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/the_last_star_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/the_last_star_rear.png"
+    },
+    {
+      "id": "night_harp",
+      "blendSource": "assets/source/blender/curses_expansion/rework/night_harp.blend",
+      "export": "assets/export/meshes/curses/rework/night_harp.fbx",
+      "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "triangles": 2492,
+      "robloxIntendedSize": [
+        2.8185055255889893,
+        3.882523775100708,
+        1.4043782949447632
+      ],
+      "vfxHookRoblox": [
+        -0.0992527556419372,
+        0.1712618535012007,
+        -0.02673078060150147
+      ],
+      "vfxProfile": "harp_strings",
+      "palette": [
+        "bone_high",
+        "brass",
+        "brass_edge",
+        "gold_glow",
+        "indigo",
+        "indigo_edge",
+        "ivory",
+        "obsidian",
+        "thorn_edge"
+      ],
+      "designNotes": [
+        "Reference 07: four-legged indigo harp beast; curved armored back, gold soundboard, exact four suspended strings and an ivory blind crescent head. Gilded joints and layered scales separate metal from indigo stone."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/night_harp_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/night_harp_rear.png"
+    },
+    {
+      "id": "worldroot",
+      "blendSource": "assets/source/blender/curses_expansion/rework/worldroot.blend",
+      "export": "assets/export/meshes/curses/rework/worldroot.fbx",
+      "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "triangles": 3456,
+      "robloxIntendedSize": [
+        3.2417221069335938,
+        4.186335563659668,
+        1.5582482814788818
+      ],
+      "vfxHookRoblox": [
+        0.03915971517562866,
+        -0.20877227507531648,
+        0.3653331470489502
+      ],
+      "vfxProfile": "worldroot_seed",
+      "palette": [
+        "bark_dark",
+        "bark_light",
+        "gold_glow",
+        "jade",
+        "jade_glow",
+        "moss_dark",
+        "moss_light"
+      ],
+      "designNotes": [
+        "Reference 10: an inverted tree beast with four twisting root feet, two opposite trunk arches and a suspended jade seed in a true central opening. Wide asymmetric branch forks, longitudinal painted bark and individually hanging moss strips create a living ancient tree rather than a pile of spikes."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/worldroot_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/worldroot_rear.png"
+    },
+    {
+      "id": "phantom_marionette",
+      "blendSource": "assets/source/blender/curses_expansion/rework/phantom_marionette.blend",
+      "export": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+      "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "triangles": 1964,
+      "robloxIntendedSize": [
+        3.011920928955078,
+        3.8288025856018066,
+        0.863530158996582
+      ],
+      "vfxHookRoblox": [
+        0.10980852127075195,
+        0.605598678588867,
+        0.32176506519317627
+      ],
+      "vfxProfile": "puppet_strings",
+      "palette": [
+        "bark_dark",
+        "bone_high",
+        "brass",
+        "gold_glow",
+        "inkblack",
+        "ivory",
+        "ruby",
+        "thorn_edge"
+      ],
+      "designNotes": [
+        "Reference 07: faceless ivory articulated marionette in an uneven hanging pose, black wooden crossbar and four individually visible gold strings. Brass ball joints, separated finger rods and a ragged garnet cape are real volumes on both sides."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/phantom_marionette_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/phantom_marionette_rear.png"
+    },
+    {
+      "id": "judgement_scales",
+      "blendSource": "assets/source/blender/curses_expansion/rework/judgement_scales.blend",
+      "export": "assets/export/meshes/curses/rework/judgement_scales.fbx",
+      "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "triangles": 2112,
+      "robloxIntendedSize": [
+        3.572000026702881,
+        3.618154525756836,
+        1.1111499071121216
+      ],
+      "vfxHookRoblox": [
+        1.28,
+        0.2090773099660872,
+        0.06442502617835999
+      ],
+      "vfxProfile": "unequal_scales",
+      "palette": [
+        "bone_high",
+        "brass",
+        "brass_edge",
+        "gold_glow",
+        "indigo",
+        "ivory",
+        "obsidian",
+        "star_edge",
+        "star_iron",
+        "thorn_edge"
+      ],
+      "designNotes": [
+        "Reference 07: blind bone and iron judgment idol with unequal suspended real open pans. The pale right bowl bears a gold soul, the dark lower bowl a folded smoke volume; unequal legs, a tall split face and brass halo complete the ceremonial silhouette."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/judgement_scales_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/judgement_scales_rear.png"
+    },
+    {
+      "id": "clockwork_raven",
+      "blendSource": "assets/source/blender/curses_expansion/rework/clockwork_raven.blend",
+      "export": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+      "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "triangles": 3880,
+      "robloxIntendedSize": [
+        3.880000114440918,
+        3.607062339782715,
+        1.5967074632644653
+      ],
+      "vfxHookRoblox": [
+        0.05,
+        0.9935311760008332,
+        0.5416462862491608
+      ],
+      "vfxProfile": "raven_clock",
+      "palette": [
+        "brass",
+        "brass_edge",
+        "indigo_edge",
+        "ivory",
+        "obsidian"
+      ],
+      "designNotes": [
+        "Reference 08: black and brass mechanical raven with white clock eye and two visible hands. Unequally raised wings contain individual thick armored flight feathers, brass quills, winding joints, long tail and separate claw toes; no generic rounded pet body."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/clockwork_raven_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/clockwork_raven_rear.png"
+    },
+    {
+      "id": "eclipse_stag",
+      "blendSource": "assets/source/blender/curses_expansion/rework/eclipse_stag.blend",
+      "export": "assets/export/meshes/curses/rework/eclipse_stag.fbx",
+      "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "triangles": 1882,
+      "robloxIntendedSize": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875
+      ],
+      "vfxHookRoblox": [
+        0.33141117572784423,
+        0.5099838827177883,
+        0.3637499940395355
+      ],
+      "vfxProfile": "eclipse_antlers",
+      "palette": [
+        "bone_high",
+        "ivory",
+        "jade",
+        "moon_glow",
+        "obsidian",
+        "thorn_edge"
+      ],
+      "designNotes": [
+        "Reference 08: lean spectral deer with black armored body, four jointed hooves, pale mask and broad multi-branch ivory antlers. Small moon crystals and separated jade mane ribbons occupy controlled negative space rather than a halo of spikes."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/eclipse_stag_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/eclipse_stag_rear.png"
+    },
+    {
+      "id": "endless_library",
+      "blendSource": "assets/source/blender/curses_expansion/rework/endless_library.blend",
+      "export": "assets/export/meshes/curses/rework/endless_library.fbx",
+      "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "triangles": 4812,
+      "robloxIntendedSize": [
+        2.7799999713897705,
+        3.017866849899292,
+        1.1092700958251953
+      ],
+      "vfxHookRoblox": [
+        0.22999999046325684,
+        1.1735665223002432,
+        0.3396350395679474
+      ],
+      "vfxProfile": "library_pages",
+      "palette": [
+        "bark_dark",
+        "bark_light",
+        "brass",
+        "brass_edge",
+        "ivory",
+        "jade",
+        "parchment",
+        "star_iron"
+      ],
+      "designNotes": [
+        "Reference 08: three distinct oversized chained tomes walking on four bookshelf legs. Actual page blocks, cover corners, clasps, sun sigils, dangling bookmarks, separated chain links and a suspended fourth open codex distinguish an animate library from stacked plain boxes."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/endless_library_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/endless_library_rear.png"
+    },
+    {
+      "id": "sunken_crown",
+      "blendSource": "assets/source/blender/curses_expansion/rework/sunken_crown.blend",
+      "export": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+      "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "triangles": 3408,
+      "robloxIntendedSize": [
+        2.4800000190734863,
+        3.0794734954833984,
+        2.259999990463257
+      ],
+      "vfxHookRoblox": [
+        0.0,
+        1.0858683657646178,
+        1.0099999761581422
+      ],
+      "vfxProfile": "sunken_tides",
+      "palette": [
+        "coral",
+        "ivory",
+        "sea_edge",
+        "sea_glass"
+      ],
+      "designNotes": [
+        "Reference 08: an open pale coral crown with eight branching points and a prominent aquamarine jewel serves as the head of a six-tendril aquatic spirit. Thick curled water volumes, bright water ridges and warm coral branches create distinct ivory/turquoise/orange material roles."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/sunken_crown_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/sunken_crown_rear.png"
+    },
+    {
+      "id": "cathedral_heart",
+      "blendSource": "assets/source/blender/curses_expansion/rework/cathedral_heart.blend",
+      "export": "assets/export/meshes/curses/rework/cathedral_heart.fbx",
+      "fbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "triangles": 3618,
+      "robloxIntendedSize": [
+        2.9446873664855957,
+        4.480339050292969,
+        1.6740176677703857
+      ],
+      "vfxHookRoblox": [
+        0.0,
+        -0.07983042024075981,
+        0.6469738674163819
+      ],
+      "vfxProfile": "cathedral_heart_seam",
+      "palette": [
+        "bone_high",
+        "brass",
+        "gold_glow",
+        "ivory",
+        "obsidian",
+        "star_iron",
+        "thorn_edge"
+      ],
+      "designNotes": [
+        "Reference 09: large cracked ivory heart suspended inside paired depth-separated pointed cathedral arches. Four buttress feet, dark shaped stone, pale arch ridges and slender golden lancets leave genuine openings around the heart and create a sacred monumental silhouette within gameplay bounds."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/cathedral_heart_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/cathedral_heart_rear.png"
+    },
+    {
+      "id": "hollow_throne",
+      "blendSource": "assets/source/blender/curses_expansion/rework/hollow_throne.blend",
+      "export": "assets/export/meshes/curses/rework/hollow_throne.fbx",
+      "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "triangles": 2416,
+      "robloxIntendedSize": [
+        2.6719791889190674,
+        4.381717681884766,
+        1.8763585090637207
+      ],
+      "vfxHookRoblox": [
+        0.0,
+        0.18085885882377628,
+        -0.27319371461868286
+      ],
+      "vfxProfile": "hollow_throne_presence",
+      "palette": [
+        "burial",
+        "charcoal",
+        "cold_white",
+        "linen",
+        "obsidian",
+        "star_edge",
+        "star_iron",
+        "star_wear",
+        "white_glow"
+      ],
+      "designNotes": [
+        "Reference 09: living dark throne with four claw feet, tall open gothic back rails and an occupant defined only by a thin luminous monarch outline. Real empty openings remain visible from the rear; torn linen shoulders and white chipped rail ridges provide a restrained monochrome identity."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/hollow_throne_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/hollow_throne_rear.png"
+    },
+    {
+      "id": "the_undertow",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_undertow.blend",
+      "export": "assets/export/meshes/curses/rework/the_undertow.fbx",
+      "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "triangles": 2498,
+      "robloxIntendedSize": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776621103286743
+      ],
+      "vfxHookRoblox": [
+        0.00015366077423095703,
+        -0.9622116868197917,
+        0.2200000023841858
+      ],
+      "vfxProfile": "undertow_spiral",
+      "palette": [
+        "cold_white",
+        "copper",
+        "copper_edge",
+        "deep_water",
+        "patina",
+        "sea_edge",
+        "sea_glass"
+      ],
+      "designNotes": [
+        "Reference 10: a genuinely hollow corroded wreck bell with visible hanging clapper, copper rim bands and two large unequal curling water blade arms. A compact dark-water undertow spiral occupies the open bottom while bright water edges and patina islands preserve readable material boundaries."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/the_undertow_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/the_undertow_rear.png"
+    },
+    {
+      "id": "nameless_door",
+      "blendSource": "assets/source/blender/curses_expansion/rework/nameless_door.blend",
+      "export": "assets/export/meshes/curses/rework/nameless_door.fbx",
+      "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "triangles": 3232,
+      "robloxIntendedSize": [
+        3.257023811340332,
+        3.7596499919891357,
+        2.2569031715393066
+      ],
+      "vfxHookRoblox": [
+        -0.05299109220504761,
+        -0.24017505906522274,
+        -0.5934515738487244
+      ],
+      "vfxProfile": "nameless_threshold",
+      "palette": [
+        "bark_dark",
+        "copper",
+        "copper_edge",
+        "jade",
+        "jade_glow",
+        "moss_dark",
+        "moss_light",
+        "obsidian",
+        "patina",
+        "star_iron",
+        "stone_light"
+      ],
+      "designNotes": [
+        "Reference 11: living dark-jade door with five decreasing open frames forming an actual deep corridor, an individually modeled hinged half-open slab, raised lock and receding threshold steps. Crooked mineral legs, root tendrils and selective hanging moss surround the supernatural geometry."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/nameless_door_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/nameless_door_rear.png"
+    },
+    {
+      "id": "the_first_grave",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_first_grave.blend",
+      "export": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+      "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "triangles": 2136,
+      "robloxIntendedSize": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342293739318848
+      ],
+      "vfxHookRoblox": [
+        -0.040358471870422366,
+        0.43328419923782335,
+        0.3128853189945221
+      ],
+      "vfxProfile": "first_grave_crack",
+      "palette": [
+        "bark_light",
+        "bone_high",
+        "ivory",
+        "jade_glow",
+        "moss_dark",
+        "moss_light",
+        "thorn_edge"
+      ],
+      "designNotes": [
+        "Reference 11: pale pointed tombstone torso on crooked root legs, with an engraved arch and a cold jade-green branching crack. Mineral shoulders, wooden arm joints, branching ivory fingers and selective long moss curtains create a rooted grave golem with warm stone and ancient plant surfaces."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/the_first_grave_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/the_first_grave_rear.png"
+    },
+    {
+      "id": "thorn_cathedral",
+      "blendSource": "assets/source/blender/curses_expansion/rework/thorn_cathedral.blend",
+      "export": "assets/export/meshes/curses/rework/thorn_cathedral.fbx",
+      "fbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "triangles": 3064,
+      "robloxIntendedSize": [
+        2.7698776721954346,
+        4.060338973999023,
+        1.9780349731445312
+      ],
+      "vfxHookRoblox": [
+        -0.179863862991333,
+        -0.6198304223269226,
+        0.7489825248718261
+      ],
+      "vfxProfile": "rose_window",
+      "palette": [
+        "brass",
+        "obsidian",
+        "ruby",
+        "ruby_edge",
+        "star_edge",
+        "star_iron",
+        "star_wear",
+        "thorn"
+      ],
+      "designNotes": [
+        "Reference 07: asymmetric walking chapel with a readable eight-petal crimson rose window, three lancet windows, crooked right belfry and two volumetric thorn coils. Four shaped stone legs support the church rather than a generic animal body."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/thorn_cathedral_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/thorn_cathedral_rear.png"
+    },
+    {
+      "id": "silent_choir",
+      "blendSource": "assets/source/blender/curses_expansion/rework/silent_choir.blend",
+      "export": "assets/export/meshes/curses/rework/silent_choir.fbx",
+      "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "triangles": 2680,
+      "robloxIntendedSize": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ],
+      "vfxHookRoblox": [
+        -0.0421632766723633,
+        1.316931414604187,
+        0.30999999999999994
+      ],
+      "vfxProfile": "silent_choir_chimes",
+      "palette": [
+        "brass",
+        "brass_edge",
+        "burial",
+        "gold_glow",
+        "indigo",
+        "ivory",
+        "linen"
+      ],
+      "designNotes": [
+        "Reference 08: three individually robed solemn presences in charcoal, pale linen and indigo, with different heights and genuinely open bell mouths turned toward the viewer. Folded cloth volumes, raised seam piping, small chimes and a suspended connecting line unify the choir."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/silent_choir_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/silent_choir_rear.png"
+    },
+    {
+      "id": "plague_monarch",
+      "blendSource": "assets/source/blender/curses_expansion/rework/plague_monarch.blend",
+      "export": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+      "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "triangles": 2828,
+      "robloxIntendedSize": [
+        2.5277419090270996,
+        3.8954193592071533,
+        1.550187349319458
+      ],
+      "vfxHookRoblox": [
+        -0.00784999132156372,
+        0.34194025836884956,
+        0.545727766752243
+      ],
+      "vfxProfile": "plague_monarch_breath",
+      "palette": [
+        "bone_high",
+        "copper",
+        "copper_edge",
+        "ivory",
+        "obsidian",
+        "patina",
+        "plague_glow",
+        "star_iron"
+      ],
+      "designNotes": [
+        "Reference 09: four-legged corroded copper monarch with a broad open crown shell, irregular antler-like copper points, pale plague mask and warm exposed metal under broad verdigris islands. Small contained green wisps support the form without obscuring its four-leg anatomy."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/plague_monarch_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/plague_monarch_rear.png"
+    },
+    {
+      "id": "blood_moon_rose",
+      "blendSource": "assets/source/blender/curses_expansion/rework/blood_moon_rose.blend",
+      "export": "assets/export/meshes/curses/rework/blood_moon_rose.fbx",
+      "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "triangles": 5166,
+      "robloxIntendedSize": [
+        3.3685410022735596,
+        3.652043104171753,
+        1.3943915367126465
+      ],
+      "vfxHookRoblox": [
+        0.18427055358886718,
+        0.8104945264049146,
+        0.5818204128742218
+      ],
+      "vfxProfile": "rose_pulse",
+      "palette": [
+        "rose_core",
+        "rose_glint",
+        "rose_petal",
+        "rose_rim",
+        "ruby",
+        "ruby_edge",
+        "thorn",
+        "thorn_edge"
+      ],
+      "designNotes": [
+        "Reference 07: a deep garnet rose has three rings of overlapping, cross-cupped thick petals whose lips curl inward around a small dark red core. Twenty-one closed individual petal volumes, warm rose glints, unequal thorn arms and hooked ruby talons flank an arched woody stem and four branching roots; no flat radial starflower or overbright core."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/blood_moon_rose_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/blood_moon_rose_rear.png"
+    },
+    {
+      "id": "the_last_funeral",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_last_funeral.blend",
+      "export": "assets/export/meshes/curses/rework/the_last_funeral.fbx",
+      "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "triangles": 3030,
+      "robloxIntendedSize": [
+        3.680000066757202,
+        3.1314938068389893,
+        1.9983203411102295
+      ],
+      "vfxHookRoblox": [
+        0.16,
+        1.105746957808733,
+        0.9179120576381683
+      ],
+      "vfxProfile": "last_funeral_lilies",
+      "palette": [
+        "brass",
+        "brass_edge",
+        "burial",
+        "burial_edge",
+        "ivory",
+        "obsidian"
+      ],
+      "designNotes": [
+        "Reference 10 final correction: long HORIZONTAL black coffin on four tall, physically folded curved straps ending in two-toed ivory claws. Two bands wrap the lid and body before becoming its supports; raised lilies, gold seams and a chamfered coffin silhouette preserve the solemn funeral object from all sides."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/the_last_funeral_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/the_last_funeral_rear.png"
+    },
+    {
+      "id": "crown_of_silence",
+      "blendSource": "assets/source/blender/curses_expansion/rework/crown_of_silence.blend",
+      "export": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+      "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "triangles": 7204,
+      "robloxIntendedSize": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ],
+      "vfxHookRoblox": [
+        0.0,
+        1.2183442875742911,
+        0.07999052286148071
+      ],
+      "vfxProfile": "crown_silence",
+      "palette": [
+        "brass",
+        "brass_edge",
+        "royal_cloth",
+        "royal_edge",
+        "royal_shadow",
+        "white_glow"
+      ],
+      "designNotes": [
+        "Reference 11 final correction: headless pale-ivory regent in a HEAVY cloth robe, ten broad curved circumferential folds, uneven torn hems, six wide hanging sleeve folds and layered shoulder cloth. Four separate floating crown fragments sit above a genuinely open gold collar; restrained gold trim and bounded sound marks preserve the missing-head motif."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/crown_of_silence_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/crown_of_silence_rear.png"
+    },
+    {
+      "id": "the_unwritten",
+      "blendSource": "assets/source/blender/curses_expansion/rework/the_unwritten.blend",
+      "export": "assets/export/meshes/curses/rework/the_unwritten.fbx",
+      "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "triangles": 8122,
+      "robloxIntendedSize": [
+        3.335972309112549,
+        4.075650691986084,
+        1.4252878427505493
+      ],
+      "vfxHookRoblox": [
+        0.09499410390853882,
+        0.24782527267932863,
+        0.6200045895576477
+      ],
+      "vfxProfile": "unwritten_erasure",
+      "palette": [
+        "paper_black",
+        "paper_wear",
+        "parchment",
+        "ruby",
+        "white_glow"
+      ],
+      "designNotes": [
+        "Reference 12 final correction: a specter whose coat is made from twelve broad physically folded black pages with uneven ragged hems, eight curved shoulder pages and torn bent paper sleeves. The faceless parchment head has split irregular curled tips rather than ruled notebook lines; pale writing claws, asymmetrical erased glyphs and red bookbinding stitches carry the concept."
+      ],
+      "front": "assets/source/blender/curses_expansion/rework/the_unwritten_preview.png",
+      "rear": "assets/source/blender/curses_expansion/rework/the_unwritten_rear.png"
+    }
+  ]
+}

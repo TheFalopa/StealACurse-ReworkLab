@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"unpainted\":0,\"holes\":0,\"maxPlaneError\":0,\"supportFailures\":0,\"maxOverlapArea\":0.0009451859514229,\"surfaces\":641,\"slabs\":84,\"overlapPairs\":0,\"examples\":[],\"coverageSamples\":4116}"
+    }
+  ],
+  "isError": false
+}

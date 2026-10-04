@@ -1,0 +1,48 @@
+{
+  "integrated-push": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"push\":3.4554812908172609,\"chain\":true,\"shovel\":true,\"ownerAuto\":true,\"cleanup\":true,\"pulled\":4.372393608093262}"
+      }
+    ],
+    "isError": false
+  },
+  "retry-fixed": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"recipient\":{\"1\":{\"state\":\"PLACED\",\"pedestalId\":\"floor1-slot1\",\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"definitionId\":\"cursed_doll\"}},\"concurrent\":{\"1\":{\"ok\":true,\"message\":\"Entrega confirmada. La Curse ahora te pertenece.\"},\"2\":{\"ok\":false,\"message\":\"No llevas un robo disponible.\"}},\"original\":[],\"start\":{\"ok\":true,\"message\":\"Llévala a un pedestal libre propio y pulsa Colocar. Aún pertenece a su dueño.\"},\"saved2\":true,\"failed\":{\"ok\":false,\"message\":\"Guardado pendiente.\"},\"saved1\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "disconnect": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"state\":\"CARRYING\",\"saved\":true,\"start\":{\"ok\":true,\"message\":\"Llévala a un pedestal libre propio y pulsa Colocar. Aún pertenece a su dueño.\"},\"owner\":{\"1\":{\"state\":\"CARRYING\",\"stealingUserId\":-2,\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"definitionId\":\"cursed_doll\"}},\"stolen\":-2}"
+      }
+    ],
+    "isError": false
+  },
+  "sell": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"quote\":{\"ok\":true,\"data\":{\"sale\":50,\"uid\":\"b304affb-5777-4419-bf4e-47b7c8785c94\",\"token\":\"5374a4b1-81a5-4f4a-8928-b57480e57652\",\"rarity\":\"COMMON\",\"name\":\"Cursed Doll\"},\"message\":\"\"},\"remaining\":[],\"duplicate\":{\"ok\":false,\"message\":\"Esa Curse no te pertenece o ya no está disponible.\"},\"saved\":true,\"place\":{\"ok\":true,\"message\":\"Cursed Doll colocada.\"},\"sell\":{\"ok\":true,\"message\":\"Venta completada. Recibiste 50 Souls.\"},\"slotFree\":true,\"pick\":{\"ok\":true,\"message\":\"Llévala a un pedestal libre y pulsa Colocar.\"}}"
+      }
+    ],
+    "isError": false
+  },
+  "manual-recovery-reload": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"placed\":{\"ok\":true,\"message\":\"Cursed Doll colocada.\"},\"base1\":\"Base01\"}"
+      }
+    ],
+    "isError": false
+  },
+  "disconnectInterpretation": "La instantánea a un segundo seguía CARRYING; la recogida manual posterior pasó y el cliente desconectado ya no estaba en Players. No prueba recuperación instantánea."
+}

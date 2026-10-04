@@ -1,0 +1,35 @@
+{
+  "reviewer": "root coordinator",
+  "scope": "3 changed models; 53 unchanged preserve prior native reviews. No claim of 56 new reviews. Sampled animation inspection is not a guarantee of perfect contact at every pose.",
+  "rows": [
+    {
+      "id": "grave_hopper",
+      "meshId": "rbxassetid://130614622379245",
+      "review": "Readable cut stone rim, RIP inscription, grouped moss and integrated expressive face. Four weighted leg chains preserved; native frames show changing stance/body and shell acting. Carry and ordinary pedestal instance inspected.",
+      "video": "assets/review/sanctuary-restoration/videos/grave-hopper-native.mp4",
+      "videoSHA256": "326618d85483a568ceecf14a09a56e81e3cf74d24b4238dfeab572edd5ee5d83",
+      "before": "assets/review/sanctuary-restoration/visuals/grave-hopper-before-user.png",
+      "after": "assets/review/sanctuary-restoration/visuals/grave-hopper-native-pedestal.png"
+    },
+    {
+      "id": "nail_beetle",
+      "meshId": "rbxassetid://73295688458517",
+      "review": "Six plated leg chains, contrasting head/eyes/mandibles and forged nail remain distinguishable at native play distance. Native sampled poses retain leg articulation and separate moving nail. Normal carry and placed instance inspected.",
+      "video": "assets/review/sanctuary-restoration/videos/nail-beetle-native.mp4",
+      "videoSHA256": "a272b884cbd3e7ad68c449d3213c8013024d5f247f26d3df9859ad025a508d66",
+      "before": "assets/review/sanctuary-restoration/visuals/nail-beetle-before-user.png",
+      "after": "assets/review/sanctuary-restoration/visuals/nail-beetle-native-pedestal.png"
+    },
+    {
+      "id": "coin_crawler",
+      "meshId": "rbxassetid://74159266876686",
+      "review": "Bronze lip/body, pale minted coins, dark face and blue-gray legs are visually separated. Native stance/gaze/lid acting retained; all four knee chains have corrected source pivots and weights. Carry and placed instance inspected.",
+      "video": "assets/review/sanctuary-restoration/videos/coin-crawler-native.mp4",
+      "videoSHA256": "5f1d0a357b577fdbafe11310996441a90630fccd2fbd5a0af346488965133bb4",
+      "before": "assets/review/sanctuary-restoration/visuals/coin-crawler-before-user.png",
+      "after": "assets/review/sanctuary-restoration/visuals/coin-crawler-native-pedestal.png"
+    }
+  ],
+  "sourceDeformationEvidence": "visuals/rig-deformation-checks.json",
+  "denseFrames": "videos/native-gait-detail.png"
+}

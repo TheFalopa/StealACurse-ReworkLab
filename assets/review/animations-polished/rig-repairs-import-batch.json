@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "id": "thimble_spider",
+      "blend": "assets/source/blender/animations-polished/thimble_spider.blend",
+      "blendSHA256": "76fc593a6096123b650cea1b9f6b9d204bd66c9d164043d9e5bd01cd9610f924"
+    },
+    {
+      "id": "anchor_crab",
+      "blend": "assets/source/blender/animations-polished/anchor_crab.blend",
+      "blendSHA256": "3f20c457511bebc19b516e7917833a9289458f1471bc98e793e4d50673d1bfb8"
+    },
+    {
+      "id": "nail_beetle",
+      "blend": "assets/source/blender/animations-polished/nail_beetle.blend",
+      "blendSHA256": "9b8c12c02a28f1e7bf16312350c782c5a10d6f949574d80189ce50afd246bfa4"
+    },
+    {
+      "id": "phantom_marionette",
+      "blend": "assets/source/blender/animations-polished/phantom_marionette.blend",
+      "blendSHA256": "04498a80bcdfa6baf2b5aec29c338bfd0f27c653f7d880a10db9d9e5303873f2"
+    },
+    {
+      "id": "wilted_sprout",
+      "blend": "assets/source/blender/curse_animation/wilted_sprout.blend",
+      "blendSHA256": "8f52a07d2a6bf0847ed3014e2af347938188237bcc1bc38f00d029d4bbab49bd"
+    },
+    {
+      "id": "cold_teacup",
+      "blend": "assets/source/blender/curse_animation/cold_teacup.blend",
+      "blendSHA256": "158ed4a8c21c8500b9946dd570fa27c24f38c3f71dba8ba1dc96827df3776892"
+    },
+    {
+      "id": "thorn_reliquary",
+      "blend": "assets/source/blender/curse_animation/thorn_reliquary.blend",
+      "blendSHA256": "a678894cefa134a547cc27b6e9812e9d8445a914f74f3f0b00ce94075d7f2b8a"
+    },
+    {
+      "id": "silent_choir",
+      "blend": "assets/source/blender/curse_animation/silent_choir.blend",
+      "blendSHA256": "c5c18d6fc9033f3c699df1f76a63f2eb8c41f41a01394c82d1bd658e2fa7a087"
+    },
+    {
+      "id": "night_harp",
+      "blend": "assets/source/blender/curse_animation/night_harp.blend",
+      "blendSHA256": "4c847f61b76c92409ecefe888a8cd7451f66c98c1d5aba3168f754abaa51f246"
+    },
+    {
+      "id": "the_last_funeral",
+      "blend": "assets/source/blender/curse_animation/the_last_funeral.blend",
+      "blendSHA256": "061389617233087f3b693ed1064f0907f73b8ca0262a49e75a9827c545627bfd"
+    }
+  ],
+  "ids": [
+    "thimble_spider",
+    "anchor_crab",
+    "nail_beetle",
+    "phantom_marionette",
+    "wilted_sprout",
+    "cold_teacup",
+    "thorn_reliquary",
+    "silent_choir",
+    "night_harp",
+    "the_last_funeral"
+  ],
+  "fbx": "assets/export/meshes/curses/animations-polished/polished-rig-repairs-10.fbx",
+  "sha256": "42e5a4f3d33b9358c551f13ad0f1007eda1c88e39c6ab32134f768fa90ecb99b"
+}

@@ -1,0 +1,27 @@
+{
+  "deliveredAt": "2026-10-03",
+  "branch": "codex/sanctuary-restoration-update",
+  "build": "build-sanctuary-restoration-update.rbxlx",
+  "buildSHA256": "db91b82cafea873176a85334e6efa9eadd09e7e787ec0c676c0b23b3064aaa1c",
+  "report": "docs\\SANCTUARY_RESTORATION_UPDATE.md",
+  "reportSHA256": "3a2ffdac6bb4a62131b4bda64d05ef7ac24fa3022e6e2afdc2da212a045c5e51",
+  "sourceIntegrity": {
+    "passed": true,
+    "expected": 66,
+    "observed": 66,
+    "mismatches": [],
+    "unexpected": [],
+    "scope": "Sources observed in the fresh final Studio opened from disk, compared to current production files; no QA scripts"
+  },
+  "reportLinks": 50,
+  "missingLinks": [],
+  "playStopped": true,
+  "checkpoint": "10-final-delivery",
+  "limitations": [
+    "online persistence unavailable without authorized online test environment",
+    "physical phone untested; mobile native emulation documented",
+    "collection robbery service not operational; physical access seal tested",
+    "Music Box Dancer and Marrow Dice walk corrections explicitly deferred",
+    "53 models retained from audit; three new native visual remodel approvals, not 56 new approvals"
+  ]
+}

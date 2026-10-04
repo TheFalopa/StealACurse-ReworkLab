@@ -1,0 +1,104 @@
+{
+  "id": "cold_teacup",
+  "displayName": "Cold Teacup",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/cold_teacup.blend",
+  "export": "assets/export/meshes/curses/rework/cold_teacup.fbx",
+  "sha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+  "triangles": 2456,
+  "vertices": 1274,
+  "blenderDimensions": [
+    2.7058072090148926,
+    2.471573829650879,
+    2.4837677478790283
+  ],
+  "intendedRobloxSize": [
+    2.7058072090148926,
+    2.4837677478790283,
+    2.471573829650879
+  ],
+  "diagonal": 4.427095218444723,
+  "vfxHook": [
+    -0.06709640837531376,
+    0.6081161260604859,
+    0.029874898862167182
+  ],
+  "vfxProfile": "cold_shadow",
+  "palette": [
+    "blue_paint",
+    "ink",
+    "ochre",
+    "porcelain"
+  ],
+  "paintedColorCount": 330,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "CrackedPorcelainCupAndSaucer",
+      "first_face": 0,
+      "last_face_exclusive": 456
+    },
+    {
+      "name": "CurledShadowSteam",
+      "first_face": 456,
+      "last_face_exclusive": 642
+    },
+    {
+      "name": "BlueBotanicalPaintAndCracks",
+      "first_face": 642,
+      "last_face_exclusive": 1138
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Thick genuinely hollow porcelain bowl with saucer and loop handle, dark liquid, curling three-dimensional ink steam, blue botanical decoration and large warm fissures."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/cold_teacup.blend",
+  "robloxIntendedSize": [
+    2.7058072090148926,
+    2.4837677478790283,
+    2.471573829650879
+  ],
+  "vfxHookRoblox": [
+    -0.06709640837531376,
+    0.6081161260604859,
+    0.029874898862167182
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.02705807238817215,
+      0.024715742096304893,
+      0.024837680160999298
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2456,
+    "colorCount": 330,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "cold_teacup",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

@@ -1,0 +1,44 @@
+{
+  "procession": {
+    "model": "Soul Chains",
+    "state": "PROCESSION",
+    "duration": 6.000616699999227,
+    "totalFrames": 1268,
+    "unchangedFrames": 1195,
+    "unchangedFraction": 0.942429022082019,
+    "frames": {
+      "count": 1268,
+      "mean": 0.004734757491123014,
+      "p95": 0.005294499918818474,
+      "max": 0.00935249961912632
+    },
+    "updates": {
+      "count": 73,
+      "mean": 0.08194486438380459,
+      "p95": 0.08665420000033919,
+      "max": 0.0906622000002244
+    },
+    "jumps": {
+      "count": 73,
+      "mean": 0.5384418421412167,
+      "p95": 0.5505795478820801,
+      "max": 0.5554418563842773
+    }
+  },
+  "carryToolResult": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"unchangedFrames\":303,\"totalFrames\":361,\"playerFinal\":\"177.8911590576172, 3.999999761581421, 82.41739654541016\",\"duration\":6.00781619999907,\"frames\":{\"max\":0.018652500584721566,\"mean\":0.016666022720140434,\"count\":361,\"p95\":0.017752399668097497},\"state\":\"DELIVERING\",\"unchangedFraction\":0.8393351800554016,\"model\":\"Grave Key\",\"jumps\":{\"max\":1.709818720817566,\"mean\":0.5351188126018126,\"count\":58,\"p95\":1.673753023147583},\"updates\":{\"max\":0.11726039834320545,\"mean\":0.1025763517566796,\"count\":58,\"p95\":0.1169153992086649}}"
+      }
+    ],
+    "isError": false
+  },
+  "blocks": [
+    {
+      "scope": "native before/after video recording via OBS",
+      "cause": "Computer Use app approval timed out",
+      "independentWorkContinues": true
+    }
+  ]
+}

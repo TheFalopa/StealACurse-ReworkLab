@@ -1,0 +1,675 @@
+{
+  "schemaVersion": 1,
+  "waveCount": 15,
+  "totalSourceTriangles": 9964,
+  "paintedPalette": {
+    "bone": [
+      0.79,
+      0.7,
+      0.48
+    ],
+    "wax": [
+      0.9,
+      0.77,
+      0.48
+    ],
+    "stone": [
+      0.38,
+      0.39,
+      0.43
+    ],
+    "moss": [
+      0.35,
+      0.45,
+      0.17
+    ],
+    "iron": [
+      0.2,
+      0.24,
+      0.3
+    ],
+    "wood": [
+      0.36,
+      0.19,
+      0.12
+    ],
+    "paper": [
+      0.81,
+      0.69,
+      0.45
+    ],
+    "ink": [
+      0.045,
+      0.055,
+      0.08
+    ],
+    "gold": [
+      0.7,
+      0.49,
+      0.21
+    ],
+    "cyan": [
+      0.25,
+      0.83,
+      0.91
+    ],
+    "red": [
+      0.6,
+      0.085,
+      0.14
+    ],
+    "violet": [
+      0.38,
+      0.25,
+      0.56
+    ],
+    "green": [
+      0.24,
+      0.42,
+      0.35
+    ],
+    "cloth": [
+      0.22,
+      0.2,
+      0.28
+    ],
+    "glass": [
+      0.28,
+      0.45,
+      0.49
+    ],
+    "bark": [
+      0.22,
+      0.27,
+      0.18
+    ]
+  },
+  "colorPipeline": "Original broad per-corner vertex gradients, one neutral material, no texture assets",
+  "assets": [
+    {
+      "triangles": 758,
+      "vertices": 403,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 2.385812,
+      "blenderDimensions": [
+        2.06963,
+        1.613095,
+        3.00481
+      ],
+      "robloxIntendedSize": [
+        2.06963,
+        3.00481,
+        1.613095
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "candle_wisp",
+      "displayName": "Candle Wisp",
+      "rarity": "COMMON",
+      "export": "assets/export/meshes/curses/candle_wisp.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "ghost_flame",
+      "glowPalette": "cyan",
+      "vfxHookRoblox": [
+        0.0,
+        0.937595,
+        -0.044246
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 640,
+      "vertices": 348,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 2.894912,
+      "blenderDimensions": [
+        2.343339,
+        1.287115,
+        2.56
+      ],
+      "robloxIntendedSize": [
+        2.343339,
+        2.56,
+        1.287115
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "grave_hopper",
+      "displayName": "Grave Hopper",
+      "rarity": "COMMON",
+      "export": "assets/export/meshes/curses/grave_hopper.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "moss_relic",
+      "glowPalette": "green",
+      "vfxHookRoblox": [
+        0.003274,
+        -0.34,
+        -0.370146
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 470,
+      "vertices": 251,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 0.404611,
+      "blenderDimensions": [
+        1.69753,
+        0.47,
+        2.809826
+      ],
+      "robloxIntendedSize": [
+        1.69753,
+        2.809826,
+        0.47
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "grave_key",
+      "displayName": "Grave Key",
+      "rarity": "COMMON",
+      "export": "assets/export/meshes/curses/grave_key.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "relic_glint",
+      "glowPalette": "cyan",
+      "vfxHookRoblox": [
+        -0.096235,
+        0.615087,
+        -0.02
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 586,
+      "vertices": 319,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 1.474234,
+      "blenderDimensions": [
+        2.282433,
+        0.856294,
+        2.15
+      ],
+      "robloxIntendedSize": [
+        2.282433,
+        2.15,
+        0.856294
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "ink_imp",
+      "displayName": "Ink Imp",
+      "rarity": "COMMON",
+      "export": "assets/export/meshes/curses/ink_imp.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "ink_eyes",
+      "glowPalette": "bone",
+      "vfxHookRoblox": [
+        0.051216,
+        0.255,
+        -0.421573
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 608,
+      "vertices": 338,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 1.902669,
+      "blenderDimensions": [
+        1.935,
+        1.326574,
+        1.6575
+      ],
+      "robloxIntendedSize": [
+        1.935,
+        1.6575,
+        1.326574
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "ashen_book",
+      "displayName": "Ashen Book",
+      "rarity": "COMMON",
+      "export": "assets/export/meshes/curses/ashen_book.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "page_spark",
+      "glowPalette": "gold",
+      "vfxHookRoblox": [
+        0.0125,
+        0.10875,
+        -0.616713
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 880,
+      "vertices": 486,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 2.844923,
+      "blenderDimensions": [
+        2.325,
+        1.176108,
+        2.373442
+      ],
+      "robloxIntendedSize": [
+        2.325,
+        2.373442,
+        1.176108
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "marrow_dice",
+      "displayName": "Marrow Dice",
+      "rarity": "RARE",
+      "export": "assets/export/meshes/curses/marrow_dice.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "spirit_pips",
+      "glowPalette": "cyan",
+      "vfxHookRoblox": [
+        0.5125,
+        0.023937,
+        -0.591946
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 1116,
+      "vertices": 578,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 1.272178,
+      "blenderDimensions": [
+        2.76,
+        1.6,
+        2.418579
+      ],
+      "robloxIntendedSize": [
+        2.76,
+        2.418579,
+        1.6
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "grave_compass",
+      "displayName": "Grave Compass",
+      "rarity": "RARE",
+      "export": "assets/export/meshes/curses/grave_compass.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "compass_well",
+      "glowPalette": "violet",
+      "vfxHookRoblox": [
+        0.41,
+        -0.159289,
+        -0.25
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 594,
+      "vertices": 331,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 0.859271,
+      "blenderDimensions": [
+        1.54,
+        0.525,
+        2.936978
+      ],
+      "robloxIntendedSize": [
+        1.54,
+        2.936978,
+        0.525
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "hollow_violin",
+      "displayName": "Hollow Violin",
+      "rarity": "RARE",
+      "export": "assets/export/meshes/curses/hollow_violin.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "hollow_strings",
+      "glowPalette": "cyan",
+      "vfxHookRoblox": [
+        -0.01,
+        -0.528489,
+        -0.2275
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 358,
+      "vertices": 205,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 0.480343,
+      "blenderDimensions": [
+        1.715,
+        0.488435,
+        2.841865
+      ],
+      "robloxIntendedSize": [
+        1.715,
+        2.841865,
+        0.488435
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "raven_quill",
+      "displayName": "Raven Quill",
+      "rarity": "RARE",
+      "export": "assets/export/meshes/curses/raven_quill.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "quill_eye",
+      "glowPalette": "bone",
+      "vfxHookRoblox": [
+        -0.3175,
+        -0.549068,
+        -0.19
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 520,
+      "vertices": 290,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 0.999594,
+      "blenderDimensions": [
+        2.509265,
+        0.590885,
+        4.022938
+      ],
+      "robloxIntendedSize": [
+        2.509265,
+        4.022938,
+        0.590885
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "night_harp",
+      "displayName": "Night Harp",
+      "rarity": "LEGENDARY",
+      "export": "assets/export/meshes/curses/night_harp.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "harp_strings",
+      "glowPalette": "gold",
+      "vfxHookRoblox": [
+        0.081938,
+        -0.048531,
+        -0.1
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 700,
+      "vertices": 388,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 5.657254,
+      "blenderDimensions": [
+        2.499964,
+        1.541602,
+        4.108808
+      ],
+      "robloxIntendedSize": [
+        2.499964,
+        4.108808,
+        1.541602
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "thorn_cathedral",
+      "displayName": "Thorn Cathedral",
+      "rarity": "LEGENDARY",
+      "export": "assets/export/meshes/curses/thorn_cathedral.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "rose_window",
+      "glowPalette": "red",
+      "vfxHookRoblox": [
+        -0.148456,
+        -0.685596,
+        -0.774199
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 730,
+      "vertices": 399,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 1.022733,
+      "blenderDimensions": [
+        3.66,
+        1.0,
+        3.448026
+      ],
+      "robloxIntendedSize": [
+        3.66,
+        3.448026,
+        1.0
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "judgement_scales",
+      "displayName": "Judgement Scales",
+      "rarity": "LEGENDARY",
+      "export": "assets/export/meshes/curses/judgement_scales.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "balanced_soul",
+      "glowPalette": "gold",
+      "vfxHookRoblox": [
+        1.33,
+        0.041013,
+        -0.02
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 818,
+      "vertices": 447,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 4.336884,
+      "blenderDimensions": [
+        2.625361,
+        1.35,
+        4.018371
+      ],
+      "robloxIntendedSize": [
+        2.625361,
+        4.018371,
+        1.35
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "cathedral_heart",
+      "displayName": "Cathedral Heart",
+      "rarity": "MYTHIC",
+      "export": "assets/export/meshes/curses/cathedral_heart.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "heart_seam",
+      "glowPalette": "gold",
+      "vfxHookRoblox": [
+        0.02477,
+        -0.009186,
+        -0.5
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 418,
+      "vertices": 237,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 5.239094,
+      "blenderDimensions": [
+        2.337051,
+        1.39,
+        3.982793
+      ],
+      "robloxIntendedSize": [
+        2.337051,
+        3.982793,
+        1.39
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "hollow_throne",
+      "displayName": "Hollow Throne",
+      "rarity": "MYTHIC",
+      "export": "assets/export/meshes/curses/hollow_throne.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "hollow_silence",
+      "glowPalette": "bone",
+      "vfxHookRoblox": [
+        -0.003386,
+        0.201397,
+        0.095
+      ],
+      "requiresImportedTexture": false
+    },
+    {
+      "triangles": 768,
+      "vertices": 432,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "signedVolume": 1.999062,
+      "blenderDimensions": [
+        2.8494,
+        1.105,
+        4.08
+      ],
+      "robloxIntendedSize": [
+        2.8494,
+        4.08,
+        1.105
+      ],
+      "uvLayers": 1,
+      "vertexColorLayers": 1,
+      "materialSlots": 1,
+      "id": "nameless_door",
+      "displayName": "Nameless Door",
+      "rarity": "SECRET",
+      "export": "assets/export/meshes/curses/nameless_door.fbx",
+      "implementationStatus": "EXPORTED",
+      "enabled": false,
+      "meshId": null,
+      "textureId": null,
+      "colorPipeline": "FBX per-corner BYTE_COLOR SACPaintedColor, white Roblox tint; importer appearance unverified",
+      "fbxGlobalScale": 0.01,
+      "vfxProfile": "threshold_veil",
+      "glowPalette": "cyan",
+      "vfxHookRoblox": [
+        0.0,
+        -0.24,
+        -0.1525
+      ],
+      "requiresImportedTexture": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+local HUD = require(script.UI.HUD)
+local CurseLabels = require(script.UI.CurseLabels)
+local CurseVFX = require(script.CurseVFX)
+local CursePresentation = require(script.CursePresentation)
+local CurseManagement = require(script.UI.CurseManagement)
+local RelicPresentation = require(script.RelicPresentation)
+local SanctuaryPanel = require(script.UI.SanctuaryPanel)
+
+HUD.start()
+CurseLabels.start()
+CurseVFX.start()
+CursePresentation.start()
+CurseManagement.start()
+RelicPresentation.start()
+SanctuaryPanel.start()
+
+-- Replaceable tool input/presentation, separate from the shared UI/VFX branch.
+task.spawn(function()require(script.ToolsInput).start()end)
+task.spawn(function()require(script.ToolPresentation).start()end)
+task.spawn(function()require(script.ToolAnimator).start()end)
+task.spawn(function()require(script.ProgressionClient).start()end)
+task.spawn(function()require(script.SpawnReveal).start()end)

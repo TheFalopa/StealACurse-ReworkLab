@@ -1,0 +1,117 @@
+{
+  "observed": {
+    "live": {
+      "state": "UNPLACED",
+      "owner": 1550774388,
+      "position": "283.111083984375, 4.430001735687256, 44.045021057128906"
+    },
+    "profile": {
+      "souls": 501353.23904779786,
+      "revision": 238,
+      "sanctuary": {
+        "fragments": 553,
+        "rituals": {
+          "collection_vigil": true,
+          "first_vigil": true,
+          "relic_consecration": true,
+          "dominion": true,
+          "grand_seal": true
+        },
+        "featuredUid": "161e10fd-e1c1-4406-988e-cf2afc936a9c",
+        "style": "OBSERVATORY",
+        "milestones": {
+          "sealing": 6,
+          "contracts": 31,
+          "recovery": 9,
+          "sealActivations": 18,
+          "majorRelics": 2,
+          "transport": 4
+        },
+        "level": 10,
+        "schema": 1,
+        "discoveries": {
+          "haunted_mirror": true,
+          "raven_quill": true,
+          "lost_locket": true,
+          "sleepwalker_shoes": true,
+          "hourglass_hound": true,
+          "hollow_violin": true,
+          "pale_gramophone": true,
+          "grave_hopper": true,
+          "thorn_reliquary": true,
+          "umbrella_wraith": true,
+          "pale_guest": true,
+          "music_box_dancer": true,
+          "sorrow_chalice": true,
+          "candle_wisp": true,
+          "grave_compass": true,
+          "wilted_sprout": true,
+          "thimble_spider": true,
+          "coin_crawler": true,
+          "chime_triplets": true,
+          "mourning_ribbon": true,
+          "cursed_doll": true,
+          "anchor_crab": true,
+          "lantern_lurker": true,
+          "ashen_book": true,
+          "nail_beetle": true,
+          "sundial_sentinel": true,
+          "marrow_dice": true,
+          "veil_mourner": true,
+          "ink_imp": true,
+          "cold_teacup": true,
+          "crying_mask": true,
+          "grave_key": true
+        }
+      },
+      "curses": [
+        {
+          "state": "PLACED",
+          "uid": "161e10fd-e1c1-4406-988e-cf2afc936a9c",
+          "definitionId": "cursed_doll",
+          "pedestalId": "floor3-slot10",
+          "revision": 10
+        },
+        {
+          "state": "PLACED",
+          "uid": "2c8bfa69-a3d9-4aaf-89c4-7ed22836b856",
+          "definitionId": "cold_teacup",
+          "pedestalId": "floor1-slot6",
+          "revision": 2
+        },
+        {
+          "state": "PLACED",
+          "uid": "5fa9856f-c2c9-4714-a7a5-be66faf53bca",
+          "definitionId": "coin_crawler",
+          "pedestalId": "floor1-slot4",
+          "revision": 2
+        },
+        {
+          "state": "PLACED",
+          "uid": "a0c30fb0-1f04-4f08-bd9b-cf190fa45326",
+          "definitionId": "nail_beetle",
+          "pedestalId": "floor1-slot3",
+          "revision": 2
+        },
+        {
+          "state": "PLACED",
+          "uid": "aa86bdf1-c831-4640-849d-ccad3acac497",
+          "definitionId": "wilted_sprout",
+          "pedestalId": "floor1-slot5",
+          "revision": 2
+        },
+        {
+          "state": "UNPLACED",
+          "uid": "e3f30b2c-3757-435c-ac6b-bbd7e1bd4b18",
+          "definitionId": "grave_hopper",
+          "revision": 4
+        }
+      ],
+      "session": "9c80e050-3393-4f07-91d8-f79bc5429eeb",
+      "schema": 1,
+      "savedAt": 1791023013.622607
+    },
+    "production": 20.75
+  },
+  "scope": "After actual stop/restart of local native Play. Same Grave UID is UNPLACED with no pedestal; existing featured Doll remains floor3-slot10. Production reflects other five only. No setup placement/reward."
+}

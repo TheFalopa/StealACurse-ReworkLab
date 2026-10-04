@@ -1,0 +1,86 @@
+{
+  "video": "assets\\review\\animations-polished\\user-two-curses\\after-native.mp4",
+  "duration": 30.02,
+  "frames": [
+    {
+      "id": "music_box_dancer",
+      "pts": 1.013,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\music_box_dancer-0.png"
+    },
+    {
+      "id": "music_box_dancer",
+      "pts": 2.015,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\music_box_dancer-1.png"
+    },
+    {
+      "id": "music_box_dancer",
+      "pts": 3.018,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\music_box_dancer-2.png"
+    },
+    {
+      "id": "music_box_dancer",
+      "pts": 4.016,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\music_box_dancer-3.png"
+    },
+    {
+      "id": "music_box_dancer",
+      "pts": 5.015,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\music_box_dancer-4.png"
+    },
+    {
+      "id": "music_box_dancer",
+      "pts": 6.014,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\music_box_dancer-5.png"
+    },
+    {
+      "id": "music_box_dancer",
+      "pts": 8.517,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\music_box_dancer-6.png"
+    },
+    {
+      "id": "music_box_dancer",
+      "pts": 12.017,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\music_box_dancer-7.png"
+    },
+    {
+      "id": "thorn_reliquary",
+      "pts": 15.017,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\thorn_reliquary-0.png"
+    },
+    {
+      "id": "thorn_reliquary",
+      "pts": 16.015,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\thorn_reliquary-1.png"
+    },
+    {
+      "id": "thorn_reliquary",
+      "pts": 17.016,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\thorn_reliquary-2.png"
+    },
+    {
+      "id": "thorn_reliquary",
+      "pts": 18.015,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\thorn_reliquary-3.png"
+    },
+    {
+      "id": "thorn_reliquary",
+      "pts": 19.014,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\thorn_reliquary-4.png"
+    },
+    {
+      "id": "thorn_reliquary",
+      "pts": 20.016,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\thorn_reliquary-5.png"
+    },
+    {
+      "id": "thorn_reliquary",
+      "pts": 23.018,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\thorn_reliquary-6.png"
+    },
+    {
+      "id": "thorn_reliquary",
+      "pts": 27.012,
+      "file": "assets\\review\\animations-polished\\user-two-curses\\thorn_reliquary-7.png"
+    }
+  ]
+}

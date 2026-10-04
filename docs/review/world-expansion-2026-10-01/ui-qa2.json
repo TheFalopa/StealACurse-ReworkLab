@@ -1,0 +1,432 @@
+{
+  "fixture": "build-expansion-qa2.rbxlx",
+  "events": [
+    {
+      "time": "23:11:37.611",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[934,457],\"failures\":[],\"cardPosition\":[440,12],\"reason\":\"initial\"}"
+    },
+    {
+      "time": "23:11:37.611",
+      "marker": "QUALITY_UI_PASS",
+      "data": "initial 934 457"
+    },
+    {
+      "time": "23:15:06.087",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,457],\"failures\":[],\"cardPosition\":[1041,12],\"reason\":\"viewport resized\"}"
+    },
+    {
+      "time": "23:15:06.087",
+      "marker": "QUALITY_UI_PASS",
+      "data": "viewport resized 1251 457"
+    },
+    {
+      "time": "23:17:44.479",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"viewport resized\"}"
+    },
+    {
+      "time": "23:17:44.480",
+      "marker": "QUALITY_UI_PASS",
+      "data": "viewport resized 1251 635"
+    },
+    {
+      "time": "23:18:06.762",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"shop visibility changed\"}"
+    },
+    {
+      "time": "23:18:06.762",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "shop visibility changed 1251 635"
+    },
+    {
+      "time": "23:18:26.996",
+      "marker": "QUALITY_PREVIEW_CTA_OBSERVED",
+      "data": "DoubleSouls 500 Actual Activated event; purchase exclusion is a static check"
+    },
+    {
+      "time": "23:18:45.743",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"tab changed\"}"
+    },
+    {
+      "time": "23:18:45.744",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "tab changed 1251 635"
+    },
+    {
+      "time": "23:18:45.744",
+      "marker": "QUALITY_SHOP_TAB_OBSERVED",
+      "data": "Boosts"
+    },
+    {
+      "time": "23:19:03.009",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"tab changed\"}"
+    },
+    {
+      "time": "23:19:03.010",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "tab changed 1251 635"
+    },
+    {
+      "time": "23:19:03.010",
+      "marker": "QUALITY_SHOP_TAB_OBSERVED",
+      "data": "SoulPacks"
+    },
+    {
+      "time": "23:19:28.259",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"shop visibility changed\"}"
+    },
+    {
+      "time": "23:19:28.259",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shop visibility changed 1251 635"
+    },
+    {
+      "time": "23:19:28.259",
+      "marker": "QUALITY_SHOP_CLOSE_OBSERVED",
+      "data": "Actual overlay changed from open to closed; input source must be documented separately"
+    },
+    {
+      "time": "23:25:36.413",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"shell visibility changed\"}"
+    },
+    {
+      "time": "23:25:36.413",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shell visibility changed 1251 635"
+    },
+    {
+      "time": "23:26:12.276",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"shell visibility changed\"}"
+    },
+    {
+      "time": "23:26:12.277",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shell visibility changed 1251 635"
+    },
+    {
+      "time": "23:26:27.743",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"shell visibility changed\"}"
+    },
+    {
+      "time": "23:26:27.743",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shell visibility changed 1251 635"
+    },
+    {
+      "time": "23:26:42.108",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,635],\"failures\":[],\"cardPosition\":[987,12],\"reason\":\"shell visibility changed\"}"
+    },
+    {
+      "time": "23:26:42.109",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shell visibility changed 1251 635"
+    },
+    {
+      "time": "23:27:01.707",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[401,777],\"failures\":[],\"cardPosition\":[191,12],\"reason\":\"viewport resized\"}"
+    },
+    {
+      "time": "23:27:01.707",
+      "marker": "QUALITY_UI_PASS",
+      "data": "viewport resized 401 777"
+    },
+    {
+      "time": "23:27:17.941",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[401,777],\"failures\":[],\"cardPosition\":[191,12],\"reason\":\"shop visibility changed\"}"
+    },
+    {
+      "time": "23:27:17.941",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "shop visibility changed 401 777"
+    },
+    {
+      "time": "23:27:51.272",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks 0 275.1884460449219 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:27:51.489",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks 275.1884460449219 241.06546020507812 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:27:51.706",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks 241.06546020507812 240 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:28:08.277",
+      "marker": "QUALITY_PREVIEW_CTA_OBSERVED",
+      "data": "MegaSoulPack 500 Actual Activated event; purchase exclusion is a static check"
+    },
+    {
+      "time": "23:28:25.905",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[401,777],\"failures\":[],\"cardPosition\":[191,12],\"reason\":\"tab changed\"}"
+    },
+    {
+      "time": "23:28:25.905",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "tab changed 401 777"
+    },
+    {
+      "time": "23:28:25.906",
+      "marker": "QUALITY_SHOP_TAB_OBSERVED",
+      "data": "Passes"
+    },
+    {
+      "time": "23:29:00.470",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "Passes 0.341552734375 276.41357421875 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:29:00.686",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "Passes 276.41357421875 241.10205078125 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:29:00.903",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "Passes 241.10205078125 240 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:29:23.202",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[401,777],\"failures\":[],\"cardPosition\":[191,12],\"reason\":\"tab changed\"}"
+    },
+    {
+      "time": "23:29:23.202",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "tab changed 401 777"
+    },
+    {
+      "time": "23:29:23.202",
+      "marker": "QUALITY_SHOP_TAB_OBSERVED",
+      "data": "Boosts"
+    },
+    {
+      "time": "23:29:43.167",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[401,777],\"failures\":[],\"cardPosition\":[191,12],\"reason\":\"shop visibility changed\"}"
+    },
+    {
+      "time": "23:29:43.168",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shop visibility changed 401 777"
+    },
+    {
+      "time": "23:29:43.168",
+      "marker": "QUALITY_SHOP_CLOSE_OBSERVED",
+      "data": "Actual overlay changed from open to closed; input source must be documented separately"
+    },
+    {
+      "time": "23:30:06.401",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"viewport resized\"}"
+    },
+    {
+      "time": "23:30:06.401",
+      "marker": "QUALITY_UI_PASS",
+      "data": "viewport resized 749 361"
+    },
+    {
+      "time": "23:30:30.266",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"shop visibility changed\"}"
+    },
+    {
+      "time": "23:30:30.266",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "shop visibility changed 749 361"
+    },
+    {
+      "time": "23:30:52.532",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"tab changed\"}"
+    },
+    {
+      "time": "23:30:52.532",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "tab changed 749 361"
+    },
+    {
+      "time": "23:30:52.532",
+      "marker": "QUALITY_SHOP_TAB_OBSERVED",
+      "data": "SoulPacks"
+    },
+    {
+      "time": "23:31:10.982",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks 139.35232543945312 -10.629049301147461 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:31:11.198",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks -10.629049301147461 0 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:42:33.754",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks 1.3468475341796875 -10.768320083618164 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:42:33.970",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks -10.768320083618164 0 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:42:57.452",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks 0 152.03350830078125 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:42:57.670",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "SoulPacks 152.03350830078125 141 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:43:17.104",
+      "marker": "QUALITY_PREVIEW_CTA_OBSERVED",
+      "data": "MegaSoulPack 500 Actual Activated event; purchase exclusion is a static check"
+    },
+    {
+      "time": "23:43:34.668",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"tab changed\"}"
+    },
+    {
+      "time": "23:43:34.668",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "tab changed 749 361"
+    },
+    {
+      "time": "23:43:34.669",
+      "marker": "QUALITY_SHOP_TAB_OBSERVED",
+      "data": "Passes"
+    },
+    {
+      "time": "23:43:53.484",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "Passes 139.35232543945312 -10.737401008605957 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:43:53.700",
+      "marker": "QUALITY_SCROLL_OBSERVED",
+      "data": "Passes -10.737401008605957 0 Native canvas moved; document the actual input separately"
+    },
+    {
+      "time": "23:46:59.327",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":true,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"tab changed\"}"
+    },
+    {
+      "time": "23:46:59.327",
+      "marker": "QUALITY_SHOP_OPEN_PASS",
+      "data": "tab changed 749 361"
+    },
+    {
+      "time": "23:46:59.327",
+      "marker": "QUALITY_SHOP_TAB_OBSERVED",
+      "data": "Boosts"
+    },
+    {
+      "time": "23:47:18.009",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"shop visibility changed\"}"
+    },
+    {
+      "time": "23:47:18.009",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shop visibility changed 749 361"
+    },
+    {
+      "time": "23:47:18.009",
+      "marker": "QUALITY_SHOP_CLOSE_OBSERVED",
+      "data": "Actual overlay changed from open to closed; input source must be documented separately"
+    },
+    {
+      "time": "23:48:59.491",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"shell visibility changed\"}"
+    },
+    {
+      "time": "23:48:59.491",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shell visibility changed 749 361"
+    },
+    {
+      "time": "23:48:59.491",
+      "marker": "QUALITY_SHELL_VISIBILITY_OBSERVED",
+      "data": "CursesOverlay true"
+    },
+    {
+      "time": "23:49:17.521",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"shell visibility changed\"}"
+    },
+    {
+      "time": "23:49:17.522",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shell visibility changed 749 361"
+    },
+    {
+      "time": "23:49:17.522",
+      "marker": "QUALITY_SHELL_VISIBILITY_OBSERVED",
+      "data": "CursesOverlay false"
+    },
+    {
+      "time": "23:49:34.621",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"shell visibility changed\"}"
+    },
+    {
+      "time": "23:49:34.621",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shell visibility changed 749 361"
+    },
+    {
+      "time": "23:49:34.621",
+      "marker": "QUALITY_SHELL_VISIBILITY_OBSERVED",
+      "data": "SettingsOverlay true"
+    },
+    {
+      "time": "23:49:52.519",
+      "marker": "QUALITY_UI_REPORT",
+      "data": "{\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[749,361],\"failures\":[],\"cardPosition\":[539,12],\"reason\":\"shell visibility changed\"}"
+    },
+    {
+      "time": "23:49:52.519",
+      "marker": "QUALITY_UI_PASS",
+      "data": "shell visibility changed 749 361"
+    },
+    {
+      "time": "23:49:52.519",
+      "marker": "QUALITY_SHELL_VISIBILITY_OBSERVED",
+      "data": "SettingsOverlay false"
+    }
+  ],
+  "method": "Actual native clicks/drags in Studio emulator; QualityUI is read-only. No scripts set CanvasPosition or activate shop buttons.",
+  "inputs": {
+    "desktop": "Native Shop click, DoubleSouls CTA, Boosts/SoulPacks tabs, close; Curses open/native wheel/close and Settings open/close.",
+    "portrait": "iPhone 17 Pro emulator; native Shop/tabs/close and MegaSoulPack CTA; drag SoulPacks (612,698)->(612,480), Passes edge (728,690)->(728,480).",
+    "landscape": "Rotate same emulator; native Shop/tabs/MegaSoulPack CTA/close. SoulPacks edge drag (1355,630)->(1355,510) gave canvas 0->152.0335->141; Passes downward drag (1355,510)->(1355,630) gave retained139.3523->-10.7374->0. Native Curses open/close 23:48:59–23:49:17 and Settings open/close 23:49:34–23:49:52."
+  },
+  "limitations": [
+    "Emulator, not physical phone or all devices.",
+    "Some attempts missed hit targets or produced no retained scroll event; only recorded successful gestures approved.",
+    "Passes landscape reached top from retained end position; repeated top-to-end gestures did not reliably register.",
+    "Desktop viewport1251x635 is not a full-screen16:9 device certification."
+  ]
+}

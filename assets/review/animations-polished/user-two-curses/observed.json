@@ -1,0 +1,192 @@
+{
+  "attributes": {
+    "Souls": 500,
+    "ProfileStatus": "READY",
+    "GalleryClipReady": true,
+    "SoulsPerSecond": 0,
+    "HUDNoticeSerial": 0,
+    "ProfileSaveStatus": "SAVED",
+    "ReviewClipSeconds": 30.016000000000002,
+    "GalleryBatch": 1
+  },
+  "observations": [
+    {
+      "state": "PLACED",
+      "metrics": {
+        "tracked": 5,
+        "posed": 2208,
+        "boneWrites": 16409,
+        "missingActs": 0,
+        "suspended": 0
+      },
+      "changedBones": [
+        "music_box_dancer__ArmR",
+        "music_box_dancer__Dancer",
+        "music_box_dancer__Head",
+        "music_box_dancer__Lid",
+        "music_box_dancer__Root"
+      ],
+      "preloadStatus": "Success",
+      "id": "music_box_dancer",
+      "meshId": "rbxassetid://79953489577090",
+      "frames": {
+        "mean": 0.0059165366981988364,
+        "p95": 0.007007500156760216,
+        "count": 1150,
+        "maximum": 0.013836399652063847
+      },
+      "size": [
+        4.628861904144287,
+        5.599999904632568,
+        3.1015961170196533
+      ]
+    },
+    {
+      "state": "PROCESSION",
+      "metrics": {
+        "tracked": 6,
+        "posed": 3216,
+        "boneWrites": 23484,
+        "missingActs": 0,
+        "suspended": 0
+      },
+      "changedBones": [
+        "music_box_dancer__ArmR",
+        "music_box_dancer__Dancer",
+        "music_box_dancer__Head",
+        "music_box_dancer__Lid"
+      ],
+      "preloadStatus": "Success",
+      "id": "music_box_dancer",
+      "meshId": "rbxassetid://79953489577090",
+      "frames": {
+        "mean": 0.006160425388770818,
+        "p95": 0.007237699814140797,
+        "count": 512,
+        "maximum": 0.016859300434589386
+      },
+      "size": [
+        4.628861904144287,
+        5.599999904632568,
+        3.1015961170196533
+      ]
+    },
+    {
+      "state": "CARRYING",
+      "metrics": {
+        "tracked": 7,
+        "posed": 4092,
+        "boneWrites": 30144,
+        "missingActs": 0,
+        "suspended": 0
+      },
+      "changedBones": [
+        "music_box_dancer__ArmR",
+        "music_box_dancer__Dancer",
+        "music_box_dancer__Head",
+        "music_box_dancer__Lid",
+        "music_box_dancer__Root"
+      ],
+      "preloadStatus": "Success",
+      "id": "music_box_dancer",
+      "meshId": "rbxassetid://79953489577090",
+      "frames": {
+        "mean": 0.006167049617033626,
+        "p95": 0.007236000150442123,
+        "count": 512,
+        "maximum": 0.010203699581325054
+      },
+      "size": [
+        4.628861904144287,
+        5.599999904632568,
+        3.1015961170196533
+      ]
+    },
+    {
+      "state": "PLACED",
+      "metrics": {
+        "tracked": 10,
+        "posed": 5970,
+        "boneWrites": 43058,
+        "missingActs": 0,
+        "suspended": 1
+      },
+      "changedBones": [
+        "thorn_reliquary__Root",
+        "thorn_reliquary__Thorn",
+        "thorn_reliquary__ThornTip"
+      ],
+      "preloadStatus": "Success",
+      "id": "thorn_reliquary",
+      "meshId": "rbxassetid://88712433437774",
+      "frames": {
+        "mean": 0.006485246241295105,
+        "p95": 0.007616200018674135,
+        "count": 1049,
+        "maximum": 0.01286690030246973
+      },
+      "size": [
+        3.146228790283203,
+        6.5,
+        3.1475839614868164
+      ]
+    },
+    {
+      "state": "PROCESSION",
+      "metrics": {
+        "tracked": 11,
+        "posed": 6923,
+        "boneWrites": 47959,
+        "missingActs": 0,
+        "suspended": 4
+      },
+      "changedBones": [
+        "thorn_reliquary__Thorn",
+        "thorn_reliquary__ThornTip"
+      ],
+      "preloadStatus": "Success",
+      "id": "thorn_reliquary",
+      "meshId": "rbxassetid://88712433437774",
+      "frames": {
+        "mean": 0.006735153415670188,
+        "p95": 0.007861499674618244,
+        "count": 468,
+        "maximum": 0.014158600009977818
+      },
+      "size": [
+        3.146228790283203,
+        6.5,
+        3.1475839614868164
+      ]
+    },
+    {
+      "state": "CARRYING",
+      "metrics": {
+        "tracked": 12,
+        "posed": 7799,
+        "boneWrites": 53029,
+        "missingActs": 0,
+        "suspended": 3
+      },
+      "changedBones": [
+        "thorn_reliquary__Root",
+        "thorn_reliquary__Thorn",
+        "thorn_reliquary__ThornTip"
+      ],
+      "preloadStatus": "Success",
+      "id": "thorn_reliquary",
+      "meshId": "rbxassetid://88712433437774",
+      "frames": {
+        "mean": 0.006953153294605502,
+        "p95": 0.008677699603140354,
+        "count": 454,
+        "maximum": 0.013417799957096577
+      },
+      "size": [
+        3.146228790283203,
+        6.5,
+        3.1475839614868164
+      ]
+    }
+  ]
+}

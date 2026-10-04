@@ -1,0 +1,153 @@
+{
+  "meshSize": [
+    5.534446716308594,
+    6.199999809265137,
+    4.386199951171875
+  ],
+  "id": "pale_gramophone",
+  "meshId": "rbxassetid://119236786916302",
+  "textureId": "",
+  "size": [
+    5.534446716308594,
+    6.199999809265137,
+    4.386199951171875
+  ],
+  "displayName": "Pale Gramophone",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-05-rare.png",
+  "source": "assets/source/blender/curses_visual_pass2/pale_gramophone.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/pale_gramophone.fbx",
+  "sha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+  "triangles": 6316,
+  "vertices": 3304,
+  "blenderDimensions": [
+    5.534445762634277,
+    4.386201858520508,
+    6.199999809265137
+  ],
+  "intendedRobloxSize": [
+    5.534445762634277,
+    6.199999809265137,
+    4.386201858520508
+  ],
+  "diagonal": 9.39727908908302,
+  "vfxHook": [
+    1.1216444969177246,
+    1.4090691804885864,
+    0.7244341969490051
+  ],
+  "vfxProfile": "bone_horn_echo",
+  "palette": [
+    "bone",
+    "gold",
+    "ink",
+    "iron",
+    "wax",
+    "wood"
+  ],
+  "paintedColorCount": 1405,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "fitted walnut case and brass furniture",
+      "first_face": 0,
+      "last_face_exclusive": 1180
+    },
+    {
+      "name": "grooved record, spindle and turntable",
+      "first_face": 1180,
+      "last_face_exclusive": 1780
+    },
+    {
+      "name": "four articulated walking feet",
+      "first_face": 1780,
+      "last_face_exclusive": 2652
+    },
+    {
+      "name": "curved neck and hollow scalloped bone horn",
+      "first_face": 2652,
+      "last_face_exclusive": 3250
+    },
+    {
+      "name": "sound arm and rear winding crank",
+      "first_face": 3250,
+      "last_face_exclusive": 3404
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": true,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Curved eight-petal hollow ivory horn; fitted walnut boards, bronze fittings, record grooves and four articulated walking legs.",
+    "restrained horn pulse and musical arc echoes",
+    "Pass 2: concept-specific proportions and silhouette, lifted dark materials, expanded authored dimensions; preserves actual editable .blend."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/pale_gramophone.blend",
+  "robloxIntendedSize": [
+    5.534445762634277,
+    6.199999809265137,
+    4.386201858520508
+  ],
+  "vfxHookRoblox": [
+    1.1216444969177246,
+    1.4090691804885864,
+    0.7244341969490051
+  ],
+  "sourceReused": "assets/source/blender/curses_expansion/rework/pale_gramophone.blend",
+  "sourceReusedSha256": "86536d8cfe4eef4ab6c68fee0e7fea56eb3a30cb7a0df897391e1d6cb81d86d3",
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.05534445494413376,
+      0.043862029910087585,
+      0.06200000271201134
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 6316,
+    "colorCount": 1405,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "pale_gramophone",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a"
+  },
+  "observedNativeSize": [
+    5.534446716308594,
+    6.199999809265137,
+    4.386199951171875
+  ],
+  "observedMeshSize": [
+    5.534446716308594,
+    6.199999809265137,
+    4.386199951171875
+  ],
+  "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+  "vfxHooks": {
+    "hornMouth": [
+      1.3717631964877242,
+      1.4090690904572676,
+      0.8703106255111278
+    ],
+    "turntable": [
+      -0.09916360456537765,
+      -0.6151025404616708,
+      -0.4302947010647807
+    ]
+  }
+}

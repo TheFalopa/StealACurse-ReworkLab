@@ -1,0 +1,103 @@
+{
+  "schema": "steal-a-curse-polished-final-play-v1",
+  "observedAtUTC": "2026-10-03T06:27:32.724Z",
+  "studioId": "6c25faf3-e3e8-424d-bf00-d884ed4d06d6",
+  "file": "C:/RobloxProjects/StealACurse/build-curse-animations-polished.rbxlx",
+  "freshDiskOpen": true,
+  "noManualInitialization": true,
+  "noQAScriptsInFinal": true,
+  "observation": {
+    "running": true,
+    "playerAttributes": {
+      "Souls": 1000135559.09,
+      "ProfileStatus": "READY",
+      "HUDNoticeSerial": 0,
+      "ProfileSaveStatus": "SAVED",
+      "SoulsPerSecond": 0
+    },
+    "mapGenerated": true,
+    "mapChildren": 15,
+    "naturalCurseModels": [
+      {
+        "state": "PROCESSION",
+        "hasNativeSkin": true,
+        "preload": "Success",
+        "bones": 4,
+        "id": "crying_mask",
+        "meshId": "rbxassetid://91122947095681",
+        "nonRestBones": 4,
+        "presentationReady": true
+      },
+      {
+        "state": "PROCESSION",
+        "hasNativeSkin": true,
+        "preload": "Success",
+        "bones": 7,
+        "id": "ashen_book",
+        "meshId": "rbxassetid://99694655865736",
+        "nonRestBones": 7,
+        "presentationReady": true
+      },
+      {
+        "state": "PROCESSION",
+        "hasNativeSkin": true,
+        "preload": "Success",
+        "bones": 6,
+        "id": "sundial_sentinel",
+        "meshId": "rbxassetid://79426701982201",
+        "nonRestBones": 6,
+        "presentationReady": true
+      },
+      {
+        "state": "PROCESSION",
+        "hasNativeSkin": true,
+        "preload": "Success",
+        "bones": 11,
+        "id": "lantern_lurker",
+        "meshId": "rbxassetid://123417911546532",
+        "nonRestBones": 10,
+        "presentationReady": true
+      },
+      {
+        "state": "PROCESSION",
+        "hasNativeSkin": true,
+        "preload": "Success",
+        "bones": 14,
+        "id": "night_harp",
+        "meshId": "rbxassetid://113686383003044",
+        "nonRestBones": 10,
+        "presentationReady": true
+      },
+      {
+        "state": "PROCESSION",
+        "hasNativeSkin": true,
+        "preload": "Success",
+        "bones": 11,
+        "id": "cursed_doll",
+        "meshId": "rbxassetid://78524965466136",
+        "nonRestBones": 10,
+        "presentationReady": true
+      }
+    ],
+    "player": "Brandonpro7830"
+  },
+  "consoleOutput": {
+    "content": [
+      {
+        "type": "text",
+        "text": ""
+      }
+    ],
+    "isError": false
+  },
+  "consoleBlockingErrorsObserved": 0,
+  "nativeScreenshot": "final-play.jpg",
+  "scope": "Normal final game startup and natural asset loading; bone telemetry does not replace the 56 native geometry reviews.",
+  "leftStudio": {
+    "mode": "Edit",
+    "playStopped": true,
+    "file": "C:/RobloxProjects/StealACurse/build-curse-animations-polished.rbxlx",
+    "nativeScreenshot": "final-ready-for-f5.jpg",
+    "observedAtUTC": "2026-10-03T06:30:38.244Z"
+  }
+}

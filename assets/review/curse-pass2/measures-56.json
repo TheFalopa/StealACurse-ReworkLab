@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "cursed_doll",
+    "name": "Cursed Doll",
+    "rarity": "COMMON",
+    "initialClassification": "FULL_REDESIGN",
+    "work": "Rediseño completo",
+    "beforeSize": [
+      2.46461820602417,
+      3.2434380054473877,
+      1.0471642017364502
+    ],
+    "afterSize": [
+      2.965750217437744,
+      4.799999713897705,
+      2.0622432231903076
+    ],
+    "beforeMeshId": "rbxassetid://105604620104717",
+    "meshId": "rbxassetid://105651608343321",
+    "source": "assets/source/blender/curses_visual_pass2/cursed_doll.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/cursed_doll.fbx",
+    "fbxSha256": "2f132f61404576ceb038f02b326e70e6172fbe6d93c311f65e06992121dbe048",
+    "triangles": 2646,
+    "beforeImage": "before-compare/cursed_doll-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group01-geometry-avatar.jpg",
+    "afterImage": "review02/cursed_doll-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "haunted_mirror",
+    "name": "Haunted Mirror",
+    "rarity": "RARE",
+    "initialClassification": "FULL_REDESIGN",
+    "work": "Rediseño completo",
+    "beforeSize": [
+      2.6581873893737793,
+      4.039997100830078,
+      0.5949995517730713
+    ],
+    "afterSize": [
+      3.56011962890625,
+      7,
+      0.7096978425979614
+    ],
+    "beforeMeshId": "rbxassetid://117384769473837",
+    "meshId": "rbxassetid://93035871766571",
+    "source": "assets/source/blender/curses_visual_pass2/haunted_mirror.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/haunted_mirror.fbx",
+    "fbxSha256": "5cc3f79625431692fad248cd36fd0417dafd13e05822024bf949af442d24d268",
+    "triangles": 1164,
+    "beforeImage": "before-compare/haunted_mirror-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group01-geometry-avatar.jpg",
+    "afterImage": "review02/haunted_mirror-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "crying_mask",
+    "name": "Crying Mask",
+    "rarity": "RARE",
+    "initialClassification": "FULL_REDESIGN",
+    "work": "Rediseño completo",
+    "beforeSize": [
+      2.109999895095825,
+      3.0500001907348633,
+      0.8650002479553223
+    ],
+    "afterSize": [
+      5.529237270355225,
+      5.799999713897705,
+      1.6159995794296265
+    ],
+    "beforeMeshId": "rbxassetid://88322086415087",
+    "meshId": "rbxassetid://139868374607408",
+    "source": "assets/source/blender/curses_visual_pass2/crying_mask.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/crying_mask.fbx",
+    "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+    "triangles": 1436,
+    "beforeImage": "before-compare/crying_mask-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group01-geometry-avatar.jpg",
+    "afterImage": "review02/crying_mask-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "watching_eye",
+    "name": "Watching Eye",
+    "rarity": "LEGENDARY",
+    "initialClassification": "FULL_REDESIGN",
+    "work": "Rediseño completo",
+    "beforeSize": [
+      3.815904140472412,
+      2.6813852787017822,
+      1.1515071392059326
+    ],
+    "afterSize": [
+      9.597518920898438,
+      6.5,
+      2.1835741996765137
+    ],
+    "beforeMeshId": "rbxassetid://96354826665507",
+    "meshId": "rbxassetid://86953467231643",
+    "source": "assets/source/blender/curses_visual_pass2/watching_eye.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/watching_eye.fbx",
+    "fbxSha256": "01af3b718119a116628ade1ac666039352ff8359e6fbcaf364bff3fa0a75d0c3",
+    "triangles": 3020,
+    "beforeImage": "before-compare/watching_eye-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group01-geometry-avatar.jpg",
+    "afterImage": "review02/watching_eye-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "soul_chains",
+    "name": "Soul Chains",
+    "rarity": "MYTHIC",
+    "initialClassification": "FULL_REDESIGN",
+    "work": "Rediseño completo",
+    "beforeSize": [
+      4.019999980926514,
+      2.5999999046325684,
+      0.9185643196105957
+    ],
+    "afterSize": [
+      6.6117777824401855,
+      9.5,
+      2.395030975341797
+    ],
+    "beforeMeshId": "rbxassetid://99888861877300",
+    "meshId": "rbxassetid://135030143756939",
+    "source": "assets/source/blender/curses_visual_pass2/soul_chains.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/soul_chains.fbx",
+    "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+    "triangles": 6092,
+    "beforeImage": "before-compare/soul_chains-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group02-geometry-avatar.jpg",
+    "afterImage": "review02/soul_chains-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "the_void",
+    "name": "The Void",
+    "rarity": "SECRET",
+    "initialClassification": "FULL_REDESIGN",
+    "work": "Rediseño completo",
+    "beforeSize": [
+      4.170000076293945,
+      4.449999809265137,
+      1.6669225692749023
+    ],
+    "afterSize": [
+      10.264501571655273,
+      12.59999942779541,
+      1.9604090452194214
+    ],
+    "beforeMeshId": "rbxassetid://140422771537428",
+    "meshId": "rbxassetid://112600261118925",
+    "source": "assets/source/blender/curses_visual_pass2/the_void.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/the_void.fbx",
+    "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+    "triangles": 1018,
+    "beforeImage": "before-compare/the_void-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group02-geometry-avatar.jpg",
+    "afterImage": "review03/the_void-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "candle_wisp",
+    "name": "Candle Wisp",
+    "rarity": "COMMON",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.5199999809265137,
+      3.9259285926818848,
+      1.6049911975860596
+    ],
+    "afterSize": [
+      3.0168657302856445,
+      4.699999809265137,
+      1.921445608139038
+    ],
+    "beforeMeshId": "rbxassetid://120691798070914",
+    "meshId": "rbxassetid://120691798070914",
+    "source": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+    "fbx": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+    "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group02-geometry-avatar.jpg",
+    "afterImage": "review02/candle_wisp-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "grave_hopper",
+    "name": "Grave Hopper",
+    "rarity": "COMMON",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.93017315864563,
+      3.021085739135742,
+      1.9563539028167725
+    ],
+    "afterSize": [
+      4.073610782623291,
+      4.199999809265137,
+      2.7197792530059814
+    ],
+    "beforeMeshId": "rbxassetid://71461503692914",
+    "meshId": "rbxassetid://71461503692914",
+    "source": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+    "fbx": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+    "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group02-geometry-avatar.jpg",
+    "afterImage": "review02/grave_hopper-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "grave_key",
+    "name": "Grave Key",
+    "rarity": "COMMON",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.9194774627685547,
+      3.4665002822875977,
+      0.7180373668670654
+    ],
+    "afterSize": [
+      3.8741073608398438,
+      4.599999904632568,
+      0.9528258442878723
+    ],
+    "beforeMeshId": "rbxassetid://81555225772390",
+    "meshId": "rbxassetid://90489798871777",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/grave_key.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/grave_key.fbx",
+    "fbxSha256": "576f3691cd91e8e8ba24acece868d92733aec991df7b83ced287e5b7ec6bada7",
+    "triangles": 1526,
+    "beforeImage": "before-compare/grave_key-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group03-geometry-avatar.jpg",
+    "afterImage": "review03/grave_key-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "mourning_ribbon",
+    "name": "Mourning Ribbon",
+    "rarity": "COMMON",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.799999952316284,
+      3.0199999809265137,
+      0.7315346598625183
+    ],
+    "afterSize": [
+      6.400001049041748,
+      4.799999713897705,
+      1.1627038717269897
+    ],
+    "beforeMeshId": "rbxassetid://86964137364657",
+    "meshId": "rbxassetid://130926750484059",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/mourning_ribbon.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/mourning_ribbon.fbx",
+    "fbxSha256": "0411b1e728df88b9578edd717fa7b1392d72b73878e6c8ff349d1cbe7daed803",
+    "triangles": 1728,
+    "beforeImage": "before-compare/mourning_ribbon-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group03-geometry-avatar.jpg",
+    "afterImage": "review03/mourning_ribbon-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "wilted_sprout",
+    "name": "Wilted Sprout",
+    "rarity": "COMMON",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.669999837875366,
+      3.403151035308838,
+      1.391714096069336
+    ],
+    "afterSize": [
+      3.7659223079681396,
+      4.799999713897705,
+      1.9629534482955933
+    ],
+    "beforeMeshId": "rbxassetid://73497154913372",
+    "meshId": "rbxassetid://106401964036063",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/wilted_sprout.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/wilted_sprout.fbx",
+    "fbxSha256": "048acf69c08403971dd1dba103734a96d938f38d2a169e43f5cd8d7e72161e7e",
+    "triangles": 2220,
+    "beforeImage": "before-compare/wilted_sprout-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group03-geometry-avatar.jpg",
+    "afterImage": "review03/wilted_sprout-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "ink_imp",
+    "name": "Ink Imp",
+    "rarity": "COMMON",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.740211248397827,
+      2.994659900665283,
+      0.9678600430488586
+    ],
+    "afterSize": [
+      3.660130262374878,
+      4,
+      1.2927813529968262
+    ],
+    "beforeMeshId": "rbxassetid://138171047418372",
+    "meshId": "rbxassetid://138171047418372",
+    "source": "assets/export/meshes/curses/rework/ink_imp.fbx",
+    "fbx": "assets/export/meshes/curses/rework/ink_imp.fbx",
+    "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group03-geometry-avatar.jpg",
+    "afterImage": "review02/ink_imp-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "lost_locket",
+    "name": "Lost Locket",
+    "rarity": "COMMON",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.690000057220459,
+      2.765000104904175,
+      0.5018151998519897
+    ],
+    "afterSize": [
+      4.377938270568848,
+      4.5,
+      0.816697359085083
+    ],
+    "beforeMeshId": "rbxassetid://91422731371880",
+    "meshId": "rbxassetid://91422731371880",
+    "source": "assets/export/meshes/curses/rework/lost_locket.fbx",
+    "fbx": "assets/export/meshes/curses/rework/lost_locket.fbx",
+    "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group04-geometry-avatar.jpg",
+    "afterImage": "review02/lost_locket-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "ashen_book",
+    "name": "Ashen Book",
+    "rarity": "COMMON",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.3299996852874756,
+      2.6475000381469727,
+      1.7377972602844238
+    ],
+    "afterSize": [
+      5.15693998336792,
+      4.099999904632568,
+      2.691206216812134
+    ],
+    "beforeMeshId": "rbxassetid://101139508733050",
+    "meshId": "rbxassetid://101139508733050",
+    "source": "assets/export/meshes/curses/rework/ashen_book.fbx",
+    "fbx": "assets/export/meshes/curses/rework/ashen_book.fbx",
+    "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group04-geometry-avatar.jpg",
+    "afterImage": "review02/ashen_book-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "lantern_lurker",
+    "name": "Lantern Lurker",
+    "rarity": "COMMON",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.6640000343322754,
+      3.0691258907318115,
+      2.01052188873291
+    ],
+    "afterSize": [
+      3.9059982299804688,
+      4.5,
+      2.9478583335876465
+    ],
+    "beforeMeshId": "rbxassetid://124690349043025",
+    "meshId": "rbxassetid://124690349043025",
+    "source": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+    "fbx": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+    "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group04-geometry-avatar.jpg",
+    "afterImage": "review02/lantern_lurker-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "hourglass_hound",
+    "name": "Hourglass Hound",
+    "rarity": "COMMON",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.1549651622772217,
+      2.1600005626678467,
+      1.2913804054260254
+    ],
+    "afterSize": [
+      5.800002574920654,
+      3.799999952316284,
+      2.2718725204467773
+    ],
+    "beforeMeshId": "rbxassetid://122359731833236",
+    "meshId": "rbxassetid://139273616657290",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/hourglass_hound.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/hourglass_hound.fbx",
+    "fbxSha256": "9981a3876d15571080bd26d8281705695dd6a9b190ee112a6894c6d7fbfe946f",
+    "triangles": 2546,
+    "beforeImage": "before-compare/hourglass_hound-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group04-geometry-avatar.jpg",
+    "afterImage": "review03/hourglass_hound-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "nail_beetle",
+    "name": "Nail Beetle",
+    "rarity": "COMMON",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.208719491958618,
+      1.6229331493377686,
+      2.3138370513916016
+    ],
+    "afterSize": [
+      5.600000381469727,
+      3.200000286102295,
+      5.400001049041748
+    ],
+    "beforeMeshId": "rbxassetid://134811561032307",
+    "meshId": "rbxassetid://101680185970237",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/nail_beetle.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/nail_beetle.fbx",
+    "fbxSha256": "5a2044284e918b967145eae09b076252f3075b9b4a37fc8d74a80e0c601b4396",
+    "triangles": 1594,
+    "beforeImage": "before-compare/nail_beetle-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group05-geometry-avatar.jpg",
+    "afterImage": "review03/nail_beetle-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "pale_guest",
+    "name": "Pale Guest",
+    "rarity": "COMMON",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.5144095420837402,
+      2.940000057220459,
+      0.8689985871315002
+    ],
+    "afterSize": [
+      3.800001621246338,
+      4.800000190734863,
+      1.6799976825714111
+    ],
+    "beforeMeshId": "rbxassetid://95457500330255",
+    "meshId": "rbxassetid://124305513972828",
+    "source": "assets/source/blender/curses_visual_pass2/pale_guest.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/pale_guest.fbx",
+    "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+    "triangles": 1716,
+    "beforeImage": "before-compare/pale_guest-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group05-geometry-avatar.jpg",
+    "afterImage": "review02/pale_guest-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "cold_teacup",
+    "name": "Cold Teacup",
+    "rarity": "COMMON",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.7058072090148926,
+      2.4837679862976074,
+      2.471573829650879
+    ],
+    "afterSize": [
+      4.999999523162842,
+      4.900000095367432,
+      4.875943660736084
+    ],
+    "beforeMeshId": "rbxassetid://109492897154947",
+    "meshId": "rbxassetid://106171771978270",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/cold_teacup.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/cold_teacup.fbx",
+    "fbxSha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425",
+    "triangles": 2456,
+    "beforeImage": "before-compare/cold_teacup-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group05-geometry-avatar.jpg",
+    "afterImage": "review03/cold_teacup-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "coin_crawler",
+    "name": "Coin Crawler",
+    "rarity": "COMMON",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.7699999809265137,
+      1.1513850688934326,
+      2.541633129119873
+    ],
+    "afterSize": [
+      5.799998760223389,
+      3.200000047683716,
+      4.099999904632568
+    ],
+    "beforeMeshId": "rbxassetid://101300591039625",
+    "meshId": "rbxassetid://121209998415870",
+    "source": "assets/source/blender/curses_visual_pass2/revision02/coin_crawler.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/revision02/coin_crawler.fbx",
+    "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+    "triangles": 2172,
+    "beforeImage": "before-compare/coin_crawler-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group05-geometry-avatar.jpg",
+    "afterImage": "review02/coin_crawler-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "umbrella_wraith",
+    "name": "Umbrella Wraith",
+    "rarity": "COMMON",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.6449999809265137,
+      3.389763355255127,
+      0.6982876062393188
+    ],
+    "afterSize": [
+      5.591541290283203,
+      5.199999809265137,
+      2.8000001907348633
+    ],
+    "beforeMeshId": "rbxassetid://74392665115825",
+    "meshId": "rbxassetid://78449252506968",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/umbrella_wraith.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/umbrella_wraith.fbx",
+    "fbxSha256": "5a525705186b04fe22f3f6950ea44e2db4f24fa1da80fc3814efd517d19eae6c",
+    "triangles": 1566,
+    "beforeImage": "before-compare/umbrella_wraith-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group06-geometry-avatar.jpg",
+    "afterImage": "review03/umbrella_wraith-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "marrow_dice",
+    "name": "Marrow Dice",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.312481641769409,
+      2.809999942779541,
+      1.9026007652282715
+    ],
+    "afterSize": [
+      4.951040267944336,
+      4.199999809265137,
+      2.843744993209839
+    ],
+    "beforeMeshId": "rbxassetid://98208990983506",
+    "meshId": "rbxassetid://98208990983506",
+    "source": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+    "fbx": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+    "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group06-geometry-avatar.jpg",
+    "afterImage": "review02/marrow_dice-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "veil_mourner",
+    "name": "Veil Mourner",
+    "rarity": "RARE",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.645899534225464,
+      3.528148651123047,
+      1.6559808254241943
+    ],
+    "afterSize": [
+      4.574632167816162,
+      6.099999904632568,
+      2.8631131649017334
+    ],
+    "beforeMeshId": "rbxassetid://138895825932890",
+    "meshId": "rbxassetid://94639671761359",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/veil_mourner.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/veil_mourner.fbx",
+    "fbxSha256": "d375a8fafce80182545cf104d92a15bbe4c850436b89708e74030854f08056ce",
+    "triangles": 3280,
+    "beforeImage": "before-compare/veil_mourner-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group06-geometry-avatar.jpg",
+    "afterImage": "review03/veil_mourner-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "grave_compass",
+    "name": "Grave Compass",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.7378311157226562,
+      2.8460559844970703,
+      0.8600339889526367
+    ],
+    "afterSize": [
+      7.0920209884643555,
+      5.400000095367432,
+      1.6317963600158691
+    ],
+    "beforeMeshId": "rbxassetid://92042737751538",
+    "meshId": "rbxassetid://92042737751538",
+    "source": "assets/export/meshes/curses/rework/grave_compass.fbx",
+    "fbx": "assets/export/meshes/curses/rework/grave_compass.fbx",
+    "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group06-geometry-avatar.jpg",
+    "afterImage": "review02/grave_compass-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "hollow_violin",
+    "name": "Hollow Violin",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      1.6355282068252563,
+      3.8532867431640625,
+      0.8499729633331299
+    ],
+    "afterSize": [
+      2.7164812088012695,
+      6.400000095367432,
+      1.4117369651794434
+    ],
+    "beforeMeshId": "rbxassetid://91498125175625",
+    "meshId": "rbxassetid://91498125175625",
+    "source": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+    "fbx": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+    "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group07-geometry-avatar.jpg",
+    "afterImage": "review02/hollow_violin-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "chime_triplets",
+    "name": "Chime Triplets",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.9294962882995605,
+      2.9680001735687256,
+      1.2350000143051147
+    ],
+    "afterSize": [
+      7.281747817993164,
+      5.5,
+      2.2885780334472656
+    ],
+    "beforeMeshId": "rbxassetid://114343537583157",
+    "meshId": "rbxassetid://114343537583157",
+    "source": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+    "fbx": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+    "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group07-geometry-avatar.jpg",
+    "afterImage": "review02/chime_triplets-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "thimble_spider",
+    "name": "Thimble Spider",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.3798885345458984,
+      2.0764691829681396,
+      1.8815412521362305
+    ],
+    "afterSize": [
+      5.8597540855407715,
+      3.5999999046325684,
+      3.2620511054992676
+    ],
+    "beforeMeshId": "rbxassetid://99634226365979",
+    "meshId": "rbxassetid://99634226365979",
+    "source": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+    "fbx": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+    "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group07-geometry-avatar.jpg",
+    "afterImage": "review02/thimble_spider-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "music_box_dancer",
+    "name": "Music Box Dancer",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.7649190425872803,
+      3.3450002670288086,
+      1.8526499271392822
+    ],
+    "afterSize": [
+      4.628862380981445,
+      5.599999904632568,
+      3.101595878601074
+    ],
+    "beforeMeshId": "rbxassetid://103021046464363",
+    "meshId": "rbxassetid://103021046464363",
+    "source": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+    "fbx": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+    "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group07-geometry-avatar.jpg",
+    "afterImage": "review02/music_box_dancer-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "raven_quill",
+    "name": "Raven Quill",
+    "rarity": "RARE",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.4739999771118164,
+      3.5245018005371094,
+      0.8183358907699585
+    ],
+    "afterSize": [
+      5.199997425079346,
+      6.40000057220459,
+      2.400000810623169
+    ],
+    "beforeMeshId": "rbxassetid://71223428160554",
+    "meshId": "rbxassetid://115188887219139",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/raven_quill.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/raven_quill.fbx",
+    "fbxSha256": "e29d5c50b6c88ca98ac11d21f7884f335a8b2ff6e1635bc108e88b355217b75c",
+    "triangles": 1394,
+    "beforeImage": "before-compare/raven_quill-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group08-geometry-avatar.jpg",
+    "afterImage": "review03/raven_quill-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "sorrow_chalice",
+    "name": "Sorrow Chalice",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      1.9149999618530273,
+      2.841651439666748,
+      1.7319999933242798
+    ],
+    "afterSize": [
+      3.7738616466522217,
+      5.599999904632568,
+      3.413226366043091
+    ],
+    "beforeMeshId": "rbxassetid://124640513274761",
+    "meshId": "rbxassetid://124640513274761",
+    "source": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+    "fbx": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+    "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group08-geometry-avatar.jpg",
+    "afterImage": "review02/sorrow_chalice-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "pale_gramophone",
+    "name": "Pale Gramophone",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.3486762046813965,
+      4.104394912719727,
+      2.7653918266296387
+    ],
+    "afterSize": [
+      5.534446716308594,
+      6.199999809265137,
+      4.386199951171875
+    ],
+    "beforeMeshId": "rbxassetid://94119998367472",
+    "meshId": "rbxassetid://119236786916302",
+    "source": "assets/source/blender/curses_visual_pass2/pale_gramophone.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/pale_gramophone.fbx",
+    "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+    "triangles": 6316,
+    "beforeImage": "before-compare/pale_gramophone-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group08-geometry-avatar.jpg",
+    "afterImage": "review02/pale_gramophone-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "thorn_reliquary",
+    "name": "Thorn Reliquary",
+    "rarity": "RARE",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      1.7483792304992676,
+      3.612090587615967,
+      1.749131679534912
+    ],
+    "afterSize": [
+      3.146228790283203,
+      6.5,
+      3.1475839614868164
+    ],
+    "beforeMeshId": "rbxassetid://136595375769922",
+    "meshId": "rbxassetid://96608357528261",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/thorn_reliquary.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/thorn_reliquary.fbx",
+    "fbxSha256": "7e49372109843e820041d62e31a0d059c62c314cd3e92c69ee78e763adad7b61",
+    "triangles": 2060,
+    "beforeImage": "before-compare/thorn_reliquary-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group08-geometry-avatar.jpg",
+    "afterImage": "review03/thorn_reliquary-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "anchor_crab",
+    "name": "Anchor Crab",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      4.531620025634766,
+      2.9201908111572266,
+      1.3299423456192017
+    ],
+    "afterSize": [
+      7.448751926422119,
+      4.800000190734863,
+      2.186063766479492
+    ],
+    "beforeMeshId": "rbxassetid://138935951310223",
+    "meshId": "rbxassetid://138935951310223",
+    "source": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+    "fbx": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+    "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group09-geometry-avatar.jpg",
+    "afterImage": "review02/anchor_crab-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "sundial_sentinel",
+    "name": "Sundial Sentinel",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.2615041732788086,
+      3.0419445037841797,
+      0.830551028251648
+    ],
+    "afterSize": [
+      4.23760986328125,
+      5.700000286102295,
+      1.5562877655029297
+    ],
+    "beforeMeshId": "rbxassetid://107305209907882",
+    "meshId": "rbxassetid://107305209907882",
+    "source": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+    "fbx": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+    "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group09-geometry-avatar.jpg",
+    "afterImage": "review02/sundial_sentinel-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "sleepwalker_shoes",
+    "name": "Sleepwalker Shoes",
+    "rarity": "RARE",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.835836887359619,
+      2.1824073791503906,
+      2.3786511421203613
+    ],
+    "afterSize": [
+      5.5874528884887695,
+      4.300000190734863,
+      4.686659336090088
+    ],
+    "beforeMeshId": "rbxassetid://100900364423577",
+    "meshId": "rbxassetid://100900364423577",
+    "source": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+    "fbx": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+    "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group09-geometry-avatar.jpg",
+    "afterImage": "review02/sleepwalker_shoes-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "night_harp",
+    "name": "Night Harp",
+    "rarity": "LEGENDARY",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.8185055255889893,
+      3.882523536682129,
+      1.4043785333633423
+    ],
+    "afterSize": [
+      5.734978675842285,
+      7.900000095367432,
+      2.8575704097747803
+    ],
+    "beforeMeshId": "rbxassetid://83648018962626",
+    "meshId": "rbxassetid://93066675273109",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/night_harp.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/night_harp.fbx",
+    "fbxSha256": "913ff5613199797f55dbf93f3cdd846c5cc4df6ef9d404ed92f97fe8a93568c3",
+    "triangles": 2492,
+    "beforeImage": "before-compare/night_harp-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group09-geometry-avatar.jpg",
+    "afterImage": "review03/night_harp-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "thorn_cathedral",
+    "name": "Thorn Cathedral",
+    "rarity": "LEGENDARY",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.7698776721954346,
+      4.060338973999023,
+      1.9780354499816895
+    ],
+    "afterSize": [
+      5.599998474121094,
+      8.199999809265137,
+      3.9947128295898438
+    ],
+    "beforeMeshId": "rbxassetid://130353358132470",
+    "meshId": "rbxassetid://96405703736945",
+    "source": "assets/source/blender/curses_visual_pass2/thorn_cathedral.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/thorn_cathedral.fbx",
+    "fbxSha256": "af25cf2f2d783f43a6832f86f1c4f09946cf688f0978d187b17a6d7b874647d3",
+    "triangles": 3064,
+    "beforeImage": "before-compare/thorn_cathedral-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group10-geometry-avatar.jpg",
+    "afterImage": "review02/thorn_cathedral-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "phantom_marionette",
+    "name": "Phantom Marionette",
+    "rarity": "LEGENDARY",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.011920928955078,
+      3.8288023471832275,
+      0.863531231880188
+    ],
+    "afterSize": [
+      6.135857105255127,
+      7.8000006675720215,
+      1.759177803993225
+    ],
+    "beforeMeshId": "rbxassetid://125181594913762",
+    "meshId": "rbxassetid://125181594913762",
+    "source": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+    "fbx": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+    "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group10-geometry-avatar.jpg",
+    "afterImage": "review02/phantom_marionette-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "blood_moon_rose",
+    "name": "Blood Moon Rose",
+    "rarity": "LEGENDARY",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.3685407638549805,
+      3.6520426273345947,
+      1.3943915367126465
+    ],
+    "afterSize": [
+      6.825550079345703,
+      7.399999618530273,
+      2.8254032135009766
+    ],
+    "beforeMeshId": "rbxassetid://80054563301680",
+    "meshId": "rbxassetid://76528234316355",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/blood_moon_rose.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/blood_moon_rose.fbx",
+    "fbxSha256": "080eca4263120b74a03fb9f4893e1d7054f08847777c11c19f1fa4b3112a899a",
+    "triangles": 5166,
+    "beforeImage": "before-compare/blood_moon_rose-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group10-geometry-avatar.jpg",
+    "afterImage": "review03/blood_moon_rose-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "judgement_scales",
+    "name": "Judgement Scales",
+    "rarity": "LEGENDARY",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.5719997882843018,
+      3.618154287338257,
+      1.1111505031585693
+    ],
+    "afterSize": [
+      7.404327392578125,
+      7.5,
+      2.303281784057617
+    ],
+    "beforeMeshId": "rbxassetid://115544351986945",
+    "meshId": "rbxassetid://123021846380098",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/judgement_scales.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/judgement_scales.fbx",
+    "fbxSha256": "40ba4fa6db0b1fb1b685a0accaba28517270a4dba2a38971cbef1193491a981e",
+    "triangles": 2112,
+    "beforeImage": "before-compare/judgement_scales-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group10-geometry-avatar.jpg",
+    "afterImage": "review03/judgement_scales-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "clockwork_raven",
+    "name": "Clockwork Raven",
+    "rarity": "LEGENDARY",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.880000114440918,
+      3.6070618629455566,
+      1.5967077016830444
+    ],
+    "afterSize": [
+      8.282642364501953,
+      7.700000286102295,
+      3.408494234085083
+    ],
+    "beforeMeshId": "rbxassetid://132658656356560",
+    "meshId": "rbxassetid://132658656356560",
+    "source": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+    "fbx": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+    "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group11-geometry-avatar.jpg",
+    "afterImage": "review02/clockwork_raven-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "eclipse_stag",
+    "name": "Eclipse Stag",
+    "rarity": "LEGENDARY",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.0634021759033203,
+      4.050032138824463,
+      1.1875004768371582
+    ],
+    "afterSize": [
+      6.504951000213623,
+      8.59999942779541,
+      2.52158522605896
+    ],
+    "beforeMeshId": "rbxassetid://84237463643087",
+    "meshId": "rbxassetid://114349185197281",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/eclipse_stag.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/eclipse_stag.fbx",
+    "fbxSha256": "6c384773c035c836def712bbd9bd53f034209a130f37b3e3c133d1482404dccb",
+    "triangles": 1882,
+    "beforeImage": "before-compare/eclipse_stag-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group11-geometry-avatar.jpg",
+    "afterImage": "review03/eclipse_stag-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "endless_library",
+    "name": "Endless Library",
+    "rarity": "LEGENDARY",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.7799999713897705,
+      3.017867088317871,
+      1.1092703342437744
+    ],
+    "afterSize": [
+      6.724617004394531,
+      7.300000190734863,
+      2.683243989944458
+    ],
+    "beforeMeshId": "rbxassetid://119647220783912",
+    "meshId": "rbxassetid://119647220783912",
+    "source": "assets/export/meshes/curses/rework/endless_library.fbx",
+    "fbx": "assets/export/meshes/curses/rework/endless_library.fbx",
+    "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group11-geometry-avatar.jpg",
+    "afterImage": "review02/endless_library-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "sunken_crown",
+    "name": "Sunken Crown",
+    "rarity": "LEGENDARY",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.4799997806549072,
+      3.0794734954833984,
+      2.2599997520446777
+    ],
+    "afterSize": [
+      5.798393249511719,
+      7.200000286102295,
+      5.284019470214844
+    ],
+    "beforeMeshId": "rbxassetid://117032966363977",
+    "meshId": "rbxassetid://117032966363977",
+    "source": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+    "fbx": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+    "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group11-geometry-avatar.jpg",
+    "afterImage": "review02/sunken_crown-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "silent_choir",
+    "name": "Silent Choir",
+    "rarity": "LEGENDARY",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.1093266010284424,
+      3.3661372661590576,
+      0.9257192611694336
+    ],
+    "afterSize": [
+      7.389660358428955,
+      7.999999523162842,
+      2.2000749111175537
+    ],
+    "beforeMeshId": "rbxassetid://87533045551868",
+    "meshId": "rbxassetid://87533045551868",
+    "source": "assets/export/meshes/curses/rework/silent_choir.fbx",
+    "fbx": "assets/export/meshes/curses/rework/silent_choir.fbx",
+    "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group12-geometry-avatar.jpg",
+    "afterImage": "review02/silent_choir-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "cathedral_heart",
+    "name": "Cathedral Heart",
+    "rarity": "MYTHIC",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.9446873664855957,
+      4.480339050292969,
+      1.6740179061889648
+    ],
+    "afterSize": [
+      6.59999942779541,
+      9.600000381469727,
+      3.5869088172912598
+    ],
+    "beforeMeshId": "rbxassetid://109562151283310",
+    "meshId": "rbxassetid://99293575687788",
+    "source": "assets/source/blender/curses_visual_pass2/cathedral_heart.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/cathedral_heart.fbx",
+    "fbxSha256": "af9cc66930524fc21ebbb5cdb971f1fcf7281c1e60b9a9774eaf831bf2c836a2",
+    "triangles": 3618,
+    "beforeImage": "before-compare/cathedral_heart-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group12-geometry-avatar.jpg",
+    "afterImage": "review02/cathedral_heart-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "plague_monarch",
+    "name": "Plague Monarch",
+    "rarity": "MYTHIC",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      2.5277419090270996,
+      3.895419120788574,
+      1.5501878261566162
+    ],
+    "afterSize": [
+      6.034780979156494,
+      9.300000190734863,
+      3.70094895362854
+    ],
+    "beforeMeshId": "rbxassetid://84591406393703",
+    "meshId": "rbxassetid://84591406393703",
+    "source": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+    "fbx": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+    "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group12-geometry-avatar.jpg",
+    "afterImage": "review02/plague_monarch-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "hollow_throne",
+    "name": "Hollow Throne",
+    "rarity": "MYTHIC",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      2.6719791889190674,
+      4.381717681884766,
+      1.876359462738037
+    ],
+    "afterSize": [
+      6.098018646240234,
+      10,
+      4.282243728637695
+    ],
+    "beforeMeshId": "rbxassetid://137649959781597",
+    "meshId": "rbxassetid://128151003356093",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/hollow_throne.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/hollow_throne.fbx",
+    "fbxSha256": "518d9422da7b3711c4dd43b097a34e8003c250cb98a328d048b0e5f7f14d9232",
+    "triangles": 2416,
+    "beforeImage": "before-compare/hollow_throne-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group12-geometry-avatar.jpg",
+    "afterImage": "review03/hollow_throne-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "worldroot",
+    "name": "Worldroot",
+    "rarity": "MYTHIC",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.2417218685150146,
+      4.186335563659668,
+      1.5582488775253296
+    ],
+    "afterSize": [
+      7.89845085144043,
+      10.199999809265137,
+      3.7966690063476562
+    ],
+    "beforeMeshId": "rbxassetid://78477623099004",
+    "meshId": "rbxassetid://89095525081556",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/worldroot.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/worldroot.fbx",
+    "fbxSha256": "07e7d08a2c99f3a996b49d0895893f2c1f4fbc4748f7088cb1b50eafb571b3e0",
+    "triangles": 3456,
+    "beforeImage": "before-compare/worldroot-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group13-geometry-avatar.jpg",
+    "afterImage": "review03/worldroot-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "the_undertow",
+    "name": "The Undertow",
+    "rarity": "MYTHIC",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.587083578109741,
+      3.175576686859131,
+      1.5776622295379639
+    ],
+    "afterSize": [
+      10.844015121459961,
+      9.600000381469727,
+      4.769388198852539
+    ],
+    "beforeMeshId": "rbxassetid://105483544111432",
+    "meshId": "rbxassetid://105483544111432",
+    "source": "assets/export/meshes/curses/rework/the_undertow.fbx",
+    "fbx": "assets/export/meshes/curses/rework/the_undertow.fbx",
+    "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group13-geometry-avatar.jpg",
+    "afterImage": "review02/the_undertow-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "the_last_funeral",
+    "name": "The Last Funeral",
+    "rarity": "MYTHIC",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.680000066757202,
+      3.13149356842041,
+      1.9983208179473877
+    ],
+    "afterSize": [
+      10.59999942779541,
+      8.899999618530273,
+      5.679412841796875
+    ],
+    "beforeMeshId": "rbxassetid://138087526906503",
+    "meshId": "rbxassetid://75524190405385",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/the_last_funeral.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/the_last_funeral.fbx",
+    "fbxSha256": "9f5998dcaf354f42a03dac802352361feff28569e0b19f9d5e1bc17b25a580eb",
+    "triangles": 3030,
+    "beforeImage": "before-compare/the_last_funeral-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group13-geometry-avatar.jpg",
+    "afterImage": "review03/the_last_funeral-play-avatar-recheck.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "nameless_door",
+    "name": "Nameless Door",
+    "rarity": "SECRET",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.257023811340332,
+      3.7596497535705566,
+      2.2569029331207275
+    ],
+    "afterSize": [
+      8.658831596374512,
+      9.995068550109863,
+      6
+    ],
+    "beforeMeshId": "rbxassetid://136046415979732",
+    "meshId": "rbxassetid://136046415979732",
+    "source": "assets/export/meshes/curses/rework/nameless_door.fbx",
+    "fbx": "assets/export/meshes/curses/rework/nameless_door.fbx",
+    "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group13-geometry-avatar.jpg",
+    "afterImage": "review02/nameless_door-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "crown_of_silence",
+    "name": "Crown Of Silence",
+    "rarity": "SECRET",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.1409904956817627,
+      4.1766886711120605,
+      1.5431336164474487
+    ],
+    "afterSize": [
+      8.798737525939941,
+      11.699999809265137,
+      4.3227219581604
+    ],
+    "beforeMeshId": "rbxassetid://87201548999780",
+    "meshId": "rbxassetid://87201548999780",
+    "source": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+    "fbx": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+    "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group14-geometry-avatar.jpg",
+    "afterImage": "review02/crown_of_silence-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "the_first_grave",
+    "name": "The First Grave",
+    "rarity": "SECRET",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Escala y presentación; geometría conservada",
+    "beforeSize": [
+      3.058901071548462,
+      3.68656849861145,
+      0.9342305064201355
+    ],
+    "afterSize": [
+      8.961214065551758,
+      10.799999237060547,
+      2.7368781566619873
+    ],
+    "beforeMeshId": "rbxassetid://104080758542748",
+    "meshId": "rbxassetid://104080758542748",
+    "source": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+    "fbx": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+    "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+    "triangles": "",
+    "beforeImage": "",
+    "baselineGroupImage": "baseline/group14-geometry-avatar.jpg",
+    "afterImage": "review02/the_first_grave-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "the_unwritten",
+    "name": "The Unwritten",
+    "rarity": "SECRET",
+    "initialClassification": "GEOMETRY_MATERIAL",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.3359720706939697,
+      4.075650691986084,
+      1.4252877235412598
+    ],
+    "afterSize": [
+      9.57659912109375,
+      11.699999809265137,
+      4.091583251953125
+    ],
+    "beforeMeshId": "rbxassetid://132077689568800",
+    "meshId": "rbxassetid://125834394266770",
+    "source": "assets/source/blender/curses_visual_pass2/batch02/the_unwritten.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/batch02/the_unwritten.fbx",
+    "fbxSha256": "08fe246fc45a6838e34c0682adb7196e4cc62211235cb4ad0b3e7c5adcebc520",
+    "triangles": 8122,
+    "beforeImage": "before-compare/the_unwritten-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group14-geometry-avatar.jpg",
+    "afterImage": "review03/the_unwritten-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  },
+  {
+    "id": "the_last_star",
+    "name": "The Last Star",
+    "rarity": "SECRET",
+    "initialClassification": "SCALE_PRESENTATION",
+    "work": "Geometría/materiales y escala",
+    "beforeSize": [
+      3.880000114440918,
+      4.618844032287598,
+      2.094557762145996
+    ],
+    "afterSize": [
+      8.499999046325684,
+      11.399999618530273,
+      4.799998760223389
+    ],
+    "beforeMeshId": "rbxassetid://103602552479756",
+    "meshId": "rbxassetid://139013796148408",
+    "source": "assets/source/blender/curses_visual_pass2/the_last_star.blend",
+    "fbx": "assets/export/meshes/curses/visual-pass2/the_last_star.fbx",
+    "fbxSha256": "c07d42e338c7621c1b27a81afe6e7733793d69485f0b7be9a7412e4e4003d917",
+    "triangles": 4792,
+    "beforeImage": "before-compare/the_last_star-play-avatar.jpg",
+    "baselineGroupImage": "baseline/group14-geometry-avatar.jpg",
+    "afterImage": "review02/the_last_star-play-avatar.jpg",
+    "comparisonDistanceStuds": 22,
+    "comparisonFov": 65,
+    "avatarHeightBefore": 5.7481913566589355,
+    "avatarHeightAfter": 5.740318298339844
+  }
+]

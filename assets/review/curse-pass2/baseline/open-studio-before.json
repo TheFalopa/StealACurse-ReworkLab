@@ -1,0 +1,847 @@
+{
+  "visualSource": "local ServerStorage = game:GetService(\"ServerStorage\")\nlocal TweenService = game:GetService(\"TweenService\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal CollectionService = game:GetService(\"CollectionService\")\n\nlocal NumberFormat = require(ReplicatedStorage.Shared.NumberFormat)\nlocal Catalog = require(ReplicatedStorage.Shared.CurseCatalog)\n\nlocal Visual = {}\n\nlocal function label(parent: Instance, name: string, y: number, height: number, font: Enum.Font, size: number, color: Color3): TextLabel\n\tlocal text = Instance.new(\"TextLabel\")\n\ttext.Name = name\n\ttext.BackgroundTransparency = 1\n\ttext.Position = UDim2.fromOffset(8, y)\n\ttext.Size = UDim2.new(1, -16, 0, height)\n\ttext.Font = font\n\ttext.TextSize = size\n\ttext.TextColor3 = color\n\ttext.TextStrokeColor3 = Color3.fromRGB(20, 12, 34)\n\ttext.TextStrokeTransparency = 0.4\n\ttext.TextXAlignment = Enum.TextXAlignment.Center\n\ttext.TextTruncate = Enum.TextTruncate.AtEnd\n\ttext.Parent = parent\n\treturn text\nend\n\nlocal function accent(parent: Model, name: string, size: Vector3, offset: Vector3, color: Color3, shape: Enum.PartType?): Part\n\tlocal item = Instance.new(\"Part\")\n\titem.Name = name\n\titem.Size = size\n\titem.CFrame = CFrame.new(offset)\n\titem.Color = color\n\titem.Material = Enum.Material.Neon\n\titem.Shape = shape or Enum.PartType.Block\n\titem.Anchored = true\n\titem.CanCollide = false\n\titem.CanTouch = false\n\titem.CanQuery = false\n\titem.CastShadow = false\n\titem.Transparency = 0.12\n\titem.Parent = parent\n\treturn item\nend\n\nlocal function addIdentityAccents(model: Model, definition, root: MeshPart)\n\tlocal size = root.Size\n\tlocal rarity = Catalog.Rarities[definition.rarity]\n\tlocal front = -size.Z * 0.5 - 0.055\n\tif definition.id == \"cursed_doll\" then\n\t\taccent(model, \"UnevenSpectralEye\", Vector3.new(0.24, 0.25, 0.1), Vector3.new(size.X * 0.19, size.Y * 0.13, front), rarity.glow, Enum.PartType.Ball)\n\telseif definition.id == \"haunted_mirror\" then\n\t\tlocal sheen = accent(model, \"MirrorSheen\", Vector3.new(size.X * 0.55, size.Y * 0.52, 0.08), Vector3.new(0, size.Y * 0.04, front), rarity.glow)\n\t\tsheen.Transparency = 0.52\n\telseif definition.id == \"crying_mask\" then\n\t\tfor _, side in ipairs({ -1, 1 }) do\n\t\t\taccent(model, side < 0 and \"LeftSpectralTear\" or \"RightSpectralTear\", Vector3.new(0.12, size.Y * 0.37, 0.09), Vector3.new(side * size.X * 0.2, -size.Y * 0.17, front), rarity.glow)\n\t\tend\n\telseif definition.id == \"watching_eye\" then\n\t\taccent(model, \"WatchfulPupil\", Vector3.new(0.65, 0.65, 0.12), Vector3.new(0, 0, front), rarity.glow, Enum.PartType.Ball)\n\telseif definition.id == \"soul_chains\" then\n\t\t-- The original mesh contains a solid ward/core at its center. Place the\n\t\t-- glow on the front surface so that it is not buried inside that mesh.\n\t\taccent(model, \"BoundSoul\", Vector3.new(0.65, 0.65, 0.65), Vector3.new(0, 0, front), rarity.glow, Enum.PartType.Ball)\n\telseif definition.id == \"the_void\" then\n\t\taccent(model, \"ImpossibleCore\", Vector3.new(1.05, 1.05, 1.05), Vector3.new(0, 0, front), rarity.glow, Enum.PartType.Ball)\n\t\tlocal light = Instance.new(\"PointLight\")\n\t\tlight.Name = \"VoidGlow\"\n\t\tlight.Color = rarity.glow\n\t\tlight.Range = 10\n\t\tlight.Brightness = 0.55\n\t\tlight.Shadows = false\n\t\tlight.Parent = root\n\telseif definition.isExpansion then\n\t\t-- Origin-relative focal point authored with the actual reworked FBX.\n\t\t-- Presentation is client-local and shares one distance-limited update.\n\t\tlocal hook = Instance.new(\"Attachment\")\n\t\thook.Name = \"CurseVFXHook\"\n\t\thook.Position = definition.vfxHook\n\t\thook:SetAttribute(\"VFXProfile\", definition.vfxProfile)\n\t\thook.Parent = root\n\t\tfor name, point in definition.vfxHooks or {} do\n\t\t\tlocal detail = Instance.new(\"Attachment\")\n\t\t\tdetail.Name = \"VFX_\" .. name\n\t\t\tdetail.Position = point\n\t\t\tdetail.Parent = root\n\t\tend\n\tend\nend\n\nfunction Visual.create(definition, parent: Instance): (Model, ProximityPrompt)\n\tlocal kit = ServerStorage:FindFirstChild(\"CurseMeshKit\")\n\tassert(kit, \"ServerStorage.CurseMeshKit is missing; verified original Curse templates are required\")\n\tlocal template = kit:FindFirstChild(definition.visualKey)\n\tassert(template and template:IsA(\"MeshPart\"), \"Missing verified Curse MeshPart template: \" .. definition.visualKey)\n\tassert(template.MeshId ~= \"\", \"Curse MeshPart has no imported MeshId: \" .. definition.visualKey)\n\tassert(template.Size.Magnitude < 7, \"Curse template exceeds the route/display clearance contract: \" .. definition.visualKey)\n\tif definition.isExpansion then\n\t\tassert(template.MeshId == definition.meshId, \"Template does not match current-source import: \" .. definition.visualKey)\n\t\tassert(definition.implementationStatus == \"IMPORTED\" or definition.implementationStatus == \"VALIDATED\",\n\t\t\t\"Expansion Curse requires an actual verified Studio import: \" .. definition.visualKey)\n\t\tassert(definition.originalVertexColors, \"Expansion Curse needs reviewed original material colors: \" .. definition.visualKey)\n\t\t-- InitialSize is Rojo's serialized field, not a public runtime member.\n\t\tassert(template.MeshSize.Magnitude > 0 and (template.Size - template.MeshSize).Magnitude < 0.02,\n\t\t\t\"Expansion template Size and imported MeshSize must match: \" .. definition.visualKey)\n\tend\n\n\tlocal model = Instance.new(\"Model\")\n\tmodel.Name = definition.displayName\n\tmodel:SetAttribute(\"CurseState\", \"PROCESSION\")\n\tmodel:SetAttribute(\"CurseId\", definition.id)\n\tif definition.isExpansion then model:SetAttribute(\"FbxSha256\", definition.fbxSha256) end\n\tlocal root = template:Clone()\n\troot.Name = \"CurseMesh\"\n\troot.CFrame = CFrame.new()\n\t-- Preserve the original six's native tint. New imported meshes carry their\n\t-- authored color gradients in the mesh; white avoids multiplying them away.\n\troot.Color = if definition.isExpansion then Color3.new(1, 1, 1) else definition.modelColor\n\troot.Material = Enum.Material.SmoothPlastic\n\troot.Anchored = true\n\troot.CanCollide = false\n\troot.CanTouch = false\n\troot.CanQuery = true\n\troot.CastShadow = false\n\troot.Parent = model\n\tmodel.PrimaryPart = root\n\taddIdentityAccents(model, definition, root)\n\n\tlocal rarity = Catalog.Rarities[definition.rarity]\n\tlocal billboard = Instance.new(\"BillboardGui\")\n\tbillboard.Name = \"CurseInfo\"\n\tbillboard.Adornee = root\n\tbillboard.Size = UDim2.fromOffset(202, 98)\n\tbillboard.StudsOffsetWorldSpace = Vector3.new(0, root.Size.Y * 0.5 + 2.1, 0)\n\tbillboard.MaxDistance = 65\n\tbillboard.AlwaysOnTop = true\n\tbillboard.Parent = model\n\tlocal panel = Instance.new(\"Frame\")\n\tpanel.Name = \"Panel\"\n\tpanel.Size = UDim2.fromScale(1, 1)\n\tpanel.BackgroundColor3 = Color3.fromRGB(28, 19, 45)\n\tpanel.BackgroundTransparency = 0.13\n\tpanel.BorderSizePixel = 0\n\tpanel.Parent = billboard\n\tlocal corner = Instance.new(\"UICorner\")\n\tcorner.CornerRadius = UDim.new(0, 12)\n\tcorner.Parent = panel\n\tlocal stroke = Instance.new(\"UIStroke\")\n\tstroke.Color = rarity.glow\n\tstroke.Thickness = 2\n\tstroke.Transparency = 0.14\n\tstroke.Parent = panel\n\n\tlocal nameLabel = label(panel, \"InfoName\", 4, 26, Enum.Font.GothamBold, 19, Color3.fromRGB(255, 246, 255))\n\tnameLabel.Text = string.upper(definition.displayName)\n\tnameLabel.TextScaled = true\n\tlocal nameSize = Instance.new(\"UITextSizeConstraint\")\n\tnameSize.MinTextSize = 12\n\tnameSize.MaxTextSize = 19\n\tnameSize.Parent = nameLabel\n\tlabel(panel, \"InfoRarity\", 29, 19, Enum.Font.GothamBold, 14, rarity.color).Text = rarity.label\n\tlabel(panel, \"InfoIncome\", 49, 20, Enum.Font.GothamMedium, 16, Color3.fromRGB(158, 246, 226)).Text = \"+\" .. NumberFormat.compact(definition.baseSoulsPerSecond) .. \" Souls/s\"\n\tlabel(panel, \"InfoPrice\", 70, 20, Enum.Font.GothamBold, 15, Color3.fromRGB(255, 222, 151)).Text = NumberFormat.compact(definition.price) .. \" Souls\"\n\n\tlocal prompt = Instance.new(\"ProximityPrompt\")\n\tprompt.Name = \"BuyCurse\"\n\tprompt.ActionText = \"Buy for \" .. NumberFormat.compact(definition.price) .. \" Souls\"\n\tprompt.ObjectText = definition.displayName\n\tprompt.KeyboardKeyCode = Enum.KeyCode.E\n\tprompt.HoldDuration = 0\n\tprompt.MaxActivationDistance = 10\n\tprompt.RequiresLineOfSight = false\n\tprompt.Exclusivity = Enum.ProximityPromptExclusivity.OnePerButton\n\tprompt.Parent = root\n\n\tmodel.Parent = parent\n\tif definition.isExpansion then CollectionService:AddTag(model, \"ExpansionCurseVFX\") end\n\treturn model, prompt\nend\n\nfunction Visual.setState(model: Model, definition, state: string)\n\tmodel:SetAttribute(\"CurseState\", state)\n\tlocal billboard = model:FindFirstChild(\"CurseInfo\")\n\tlocal panel = billboard and billboard:FindFirstChild(\"Panel\")\n\tlocal price = panel and panel:FindFirstChild(\"InfoPrice\")\n\tlocal prompt = model.PrimaryPart and model.PrimaryPart:FindFirstChild(\"BuyCurse\")\n\tif price and price:IsA(\"TextLabel\") then\n\t\tif state == \"DELIVERING\" then\n\t\t\tprice.Text = \"RETURN TO YOUR SANCTUARY\"\n\t\t\tprice.TextSize = 12\n\t\telseif state == \"PLACED\" then\n\t\t\tprice.Text = \"COLLECTED\"\n\t\t\tprice.TextSize = 14\n\t\telse\n\t\t\tprice.Text = NumberFormat.compact(definition.price) .. \" Souls\"\n\t\t\tprice.TextSize = 15\n\t\tend\n\tend\n\tif prompt and prompt:IsA(\"ProximityPrompt\") then\n\t\tprompt.Enabled = state == \"PROCESSION\"\n\tend\nend\n\nfunction Visual.pulse(parent: Instance, position: Vector3, color: Color3)\n\tlocal orb = Instance.new(\"Part\")\n\torb.Name = \"CursePulse\"\n\torb.Shape = Enum.PartType.Ball\n\torb.Size = Vector3.new(0.7, 0.7, 0.7)\n\torb.CFrame = CFrame.new(position)\n\torb.Color = color\n\torb.Material = Enum.Material.Neon\n\torb.Transparency = 0.45\n\torb.Anchored = true\n\torb.CanCollide = false\n\torb.CanTouch = false\n\torb.CanQuery = false\n\torb.CastShadow = false\n\torb.Parent = parent\n\tTweenService:Create(orb, TweenInfo.new(0.65, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {\n\t\tSize = Vector3.new(5.5, 5.5, 5.5),\n\t\tTransparency = 1,\n\t}):Play()\n\ttask.delay(0.7, function()\n\t\torb:Destroy()\n\tend)\nend\n\nreturn Visual\n",
+  "rows": [
+    {
+      "meshSize": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ],
+      "id": "anchor_crab",
+      "meshId": "rbxassetid://138935951310223",
+      "textureId": "",
+      "size": [
+        4.531620025634766,
+        2.9201908111572266,
+        1.3299423456192017
+      ]
+    },
+    {
+      "meshSize": [
+        1.934999942779541,
+        1.6575000286102295,
+        1.3265740871429443
+      ],
+      "id": "ashen_book",
+      "meshId": "rbxassetid://116088006645241",
+      "textureId": "",
+      "size": [
+        1.934999942779541,
+        1.6575000286102295,
+        1.3265740871429443
+      ]
+    },
+    {
+      "meshSize": [
+        3.3685407638549805,
+        3.6520426273345947,
+        1.3943915367126465
+      ],
+      "id": "blood_moon_rose",
+      "meshId": "rbxassetid://80054563301680",
+      "textureId": "",
+      "size": [
+        3.3685407638549805,
+        3.6520426273345947,
+        1.3943915367126465
+      ]
+    },
+    {
+      "meshSize": [
+        2.0696299076080322,
+        3.004809856414795,
+        1.6130954027175903
+      ],
+      "id": "candle_wisp",
+      "meshId": "rbxassetid://131441841706440",
+      "textureId": "",
+      "size": [
+        2.0696299076080322,
+        3.004809856414795,
+        1.6130954027175903
+      ]
+    },
+    {
+      "meshSize": [
+        2.6253609657287598,
+        4.018371105194092,
+        1.3500001430511475
+      ],
+      "id": "cathedral_heart",
+      "meshId": "rbxassetid://100098877936582",
+      "textureId": "",
+      "size": [
+        2.6253609657287598,
+        4.018371105194092,
+        1.3500001430511475
+      ]
+    },
+    {
+      "meshSize": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ],
+      "id": "chime_triplets",
+      "meshId": "rbxassetid://114343537583157",
+      "textureId": "",
+      "size": [
+        3.9294962882995605,
+        2.9680001735687256,
+        1.2350000143051147
+      ]
+    },
+    {
+      "meshSize": [
+        3.880000114440918,
+        3.6070618629455566,
+        1.5967077016830444
+      ],
+      "id": "clockwork_raven",
+      "meshId": "rbxassetid://132658656356560",
+      "textureId": "",
+      "size": [
+        3.880000114440918,
+        3.6070618629455566,
+        1.5967077016830444
+      ]
+    },
+    {
+      "meshSize": [
+        2.7699999809265137,
+        1.1513850688934326,
+        2.541633129119873
+      ],
+      "id": "coin_crawler",
+      "meshId": "rbxassetid://101300591039625",
+      "textureId": "",
+      "size": [
+        2.7699999809265137,
+        1.1513850688934326,
+        2.541633129119873
+      ]
+    },
+    {
+      "meshSize": [
+        2.7058072090148926,
+        2.4837679862976074,
+        2.471573829650879
+      ],
+      "id": "cold_teacup",
+      "meshId": "rbxassetid://109492897154947",
+      "textureId": "",
+      "size": [
+        2.7058072090148926,
+        2.4837679862976074,
+        2.471573829650879
+      ]
+    },
+    {
+      "meshSize": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ],
+      "id": "crown_of_silence",
+      "meshId": "rbxassetid://87201548999780",
+      "textureId": "",
+      "size": [
+        3.1409904956817627,
+        4.1766886711120605,
+        1.5431336164474487
+      ]
+    },
+    {
+      "meshSize": [
+        2.109999895095825,
+        3.0500001907348633,
+        0.8650002479553223
+      ],
+      "id": "crying_mask",
+      "meshId": "rbxassetid://88322086415087",
+      "textureId": "",
+      "size": [
+        2.109999895095825,
+        3.0500001907348633,
+        0.8650002479553223
+      ]
+    },
+    {
+      "meshSize": [
+        2.46461820602417,
+        3.2434380054473877,
+        1.0471642017364502
+      ],
+      "id": "cursed_doll",
+      "meshId": "rbxassetid://105604620104717",
+      "textureId": "",
+      "size": [
+        2.46461820602417,
+        3.2434380054473877,
+        1.0471642017364502
+      ]
+    },
+    {
+      "meshSize": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875004768371582
+      ],
+      "id": "eclipse_stag",
+      "meshId": "rbxassetid://84237463643087",
+      "textureId": "",
+      "size": [
+        3.0634021759033203,
+        4.050032138824463,
+        1.1875004768371582
+      ]
+    },
+    {
+      "meshSize": [
+        2.7799999713897705,
+        3.017867088317871,
+        1.1092703342437744
+      ],
+      "id": "endless_library",
+      "meshId": "rbxassetid://119647220783912",
+      "textureId": "",
+      "size": [
+        2.7799999713897705,
+        3.017867088317871,
+        1.1092703342437744
+      ]
+    },
+    {
+      "meshSize": [
+        2.759999990463257,
+        2.4185791015625,
+        1.600000023841858
+      ],
+      "id": "grave_compass",
+      "meshId": "rbxassetid://74406539185855",
+      "textureId": "",
+      "size": [
+        2.759999990463257,
+        2.4185791015625,
+        1.600000023841858
+      ]
+    },
+    {
+      "meshSize": [
+        2.343339443206787,
+        2.559999942779541,
+        1.2871146202087402
+      ],
+      "id": "grave_hopper",
+      "meshId": "rbxassetid://111985391427900",
+      "textureId": "",
+      "size": [
+        2.343339443206787,
+        2.559999942779541,
+        1.2871146202087402
+      ]
+    },
+    {
+      "meshSize": [
+        1.6975297927856445,
+        2.809825897216797,
+        0.4699999690055847
+      ],
+      "id": "grave_key",
+      "meshId": "rbxassetid://84656327821029",
+      "textureId": "",
+      "size": [
+        1.6975297927856445,
+        2.809825897216797,
+        0.4699999690055847
+      ]
+    },
+    {
+      "meshSize": [
+        2.6581873893737793,
+        4.039997100830078,
+        0.5949995517730713
+      ],
+      "id": "haunted_mirror",
+      "meshId": "rbxassetid://117384769473837",
+      "textureId": "",
+      "size": [
+        2.6581873893737793,
+        4.039997100830078,
+        0.5949995517730713
+      ]
+    },
+    {
+      "meshSize": [
+        2.3370511531829834,
+        3.9827933311462402,
+        1.3900001049041748
+      ],
+      "id": "hollow_throne",
+      "meshId": "rbxassetid://71770033436309",
+      "textureId": "",
+      "size": [
+        2.3370511531829834,
+        3.9827933311462402,
+        1.3900001049041748
+      ]
+    },
+    {
+      "meshSize": [
+        1.5399999618530273,
+        2.9369778633117676,
+        0.5250002145767212
+      ],
+      "id": "hollow_violin",
+      "meshId": "rbxassetid://107587916723576",
+      "textureId": "",
+      "size": [
+        1.5399999618530273,
+        2.9369778633117676,
+        0.5250002145767212
+      ]
+    },
+    {
+      "meshSize": [
+        3.1549651622772217,
+        2.1600005626678467,
+        1.2913804054260254
+      ],
+      "id": "hourglass_hound",
+      "meshId": "rbxassetid://122359731833236",
+      "textureId": "",
+      "size": [
+        3.1549651622772217,
+        2.1600005626678467,
+        1.2913804054260254
+      ]
+    },
+    {
+      "meshSize": [
+        2.282432794570923,
+        2.1500000953674316,
+        0.8562943935394287
+      ],
+      "id": "ink_imp",
+      "meshId": "rbxassetid://104472040658209",
+      "textureId": "",
+      "size": [
+        2.282432794570923,
+        2.1500000953674316,
+        0.8562943935394287
+      ]
+    },
+    {
+      "meshSize": [
+        3.6600000858306885,
+        3.448026418685913,
+        1.0000001192092896
+      ],
+      "id": "judgement_scales",
+      "meshId": "rbxassetid://127729438322025",
+      "textureId": "",
+      "size": [
+        3.6600000858306885,
+        3.448026418685913,
+        1.0000001192092896
+      ]
+    },
+    {
+      "meshSize": [
+        2.6640000343322754,
+        3.0691258907318115,
+        2.01052188873291
+      ],
+      "id": "lantern_lurker",
+      "meshId": "rbxassetid://124690349043025",
+      "textureId": "",
+      "size": [
+        2.6640000343322754,
+        3.0691258907318115,
+        2.01052188873291
+      ]
+    },
+    {
+      "meshSize": [
+        2.690000057220459,
+        2.765000104904175,
+        0.5018151998519897
+      ],
+      "id": "lost_locket",
+      "meshId": "rbxassetid://91422731371880",
+      "textureId": "",
+      "size": [
+        2.690000057220459,
+        2.765000104904175,
+        0.5018151998519897
+      ]
+    },
+    {
+      "meshSize": [
+        2.3249998092651367,
+        2.3734421730041504,
+        1.1761078834533691
+      ],
+      "id": "marrow_dice",
+      "meshId": "rbxassetid://139995104770981",
+      "textureId": "",
+      "size": [
+        2.3249998092651367,
+        2.3734421730041504,
+        1.1761078834533691
+      ]
+    },
+    {
+      "meshSize": [
+        3.799999952316284,
+        3.0199999809265137,
+        0.7315346598625183
+      ],
+      "id": "mourning_ribbon",
+      "meshId": "rbxassetid://86964137364657",
+      "textureId": "",
+      "size": [
+        3.799999952316284,
+        3.0199999809265137,
+        0.7315346598625183
+      ]
+    },
+    {
+      "meshSize": [
+        2.7649190425872803,
+        3.3450002670288086,
+        1.8526499271392822
+      ],
+      "id": "music_box_dancer",
+      "meshId": "rbxassetid://103021046464363",
+      "textureId": "",
+      "size": [
+        2.7649190425872803,
+        3.3450002670288086,
+        1.8526499271392822
+      ]
+    },
+    {
+      "meshSize": [
+        2.208719491958618,
+        1.6229331493377686,
+        2.3138370513916016
+      ],
+      "id": "nail_beetle",
+      "meshId": "rbxassetid://134811561032307",
+      "textureId": "",
+      "size": [
+        2.208719491958618,
+        1.6229331493377686,
+        2.3138370513916016
+      ]
+    },
+    {
+      "meshSize": [
+        2.849400281906128,
+        4.079999923706055,
+        1.1050001382827759
+      ],
+      "id": "nameless_door",
+      "meshId": "rbxassetid://91097514366999",
+      "textureId": "",
+      "size": [
+        2.849400281906128,
+        4.079999923706055,
+        1.1050001382827759
+      ]
+    },
+    {
+      "meshSize": [
+        2.509265184402466,
+        4.022938251495361,
+        0.5908846855163574
+      ],
+      "id": "night_harp",
+      "meshId": "rbxassetid://75368579112232",
+      "textureId": "",
+      "size": [
+        2.509265184402466,
+        4.022938251495361,
+        0.5908846855163574
+      ]
+    },
+    {
+      "meshSize": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.7653918266296387
+      ],
+      "id": "pale_gramophone",
+      "meshId": "rbxassetid://94119998367472",
+      "textureId": "",
+      "size": [
+        3.3486762046813965,
+        4.104394912719727,
+        2.7653918266296387
+      ]
+    },
+    {
+      "meshSize": [
+        2.5144095420837402,
+        2.940000057220459,
+        0.8689985871315002
+      ],
+      "id": "pale_guest",
+      "meshId": "rbxassetid://95457500330255",
+      "textureId": "",
+      "size": [
+        2.5144095420837402,
+        2.940000057220459,
+        0.8689985871315002
+      ]
+    },
+    {
+      "meshSize": [
+        3.011920928955078,
+        3.8288023471832275,
+        0.863531231880188
+      ],
+      "id": "phantom_marionette",
+      "meshId": "rbxassetid://125181594913762",
+      "textureId": "",
+      "size": [
+        3.011920928955078,
+        3.8288023471832275,
+        0.863531231880188
+      ]
+    },
+    {
+      "meshSize": [
+        2.5277419090270996,
+        3.895419120788574,
+        1.5501878261566162
+      ],
+      "id": "plague_monarch",
+      "meshId": "rbxassetid://84591406393703",
+      "textureId": "",
+      "size": [
+        2.5277419090270996,
+        3.895419120788574,
+        1.5501878261566162
+      ]
+    },
+    {
+      "meshSize": [
+        1.715000033378601,
+        2.841864585876465,
+        0.4884346127510071
+      ],
+      "id": "raven_quill",
+      "meshId": "rbxassetid://107610707886136",
+      "textureId": "",
+      "size": [
+        1.715000033378601,
+        2.841864585876465,
+        0.4884346127510071
+      ]
+    },
+    {
+      "meshSize": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ],
+      "id": "silent_choir",
+      "meshId": "rbxassetid://87533045551868",
+      "textureId": "",
+      "size": [
+        3.1093266010284424,
+        3.3661372661590576,
+        0.9257192611694336
+      ]
+    },
+    {
+      "meshSize": [
+        2.835836887359619,
+        2.1824073791503906,
+        2.3786511421203613
+      ],
+      "id": "sleepwalker_shoes",
+      "meshId": "rbxassetid://100900364423577",
+      "textureId": "",
+      "size": [
+        2.835836887359619,
+        2.1824073791503906,
+        2.3786511421203613
+      ]
+    },
+    {
+      "meshSize": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ],
+      "id": "sorrow_chalice",
+      "meshId": "rbxassetid://124640513274761",
+      "textureId": "",
+      "size": [
+        1.9149999618530273,
+        2.841651439666748,
+        1.7319999933242798
+      ]
+    },
+    {
+      "meshSize": [
+        4.019999980926514,
+        2.5999999046325684,
+        0.9185643196105957
+      ],
+      "id": "soul_chains",
+      "meshId": "rbxassetid://99888861877300",
+      "textureId": "",
+      "size": [
+        4.019999980926514,
+        2.5999999046325684,
+        0.9185643196105957
+      ]
+    },
+    {
+      "meshSize": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.830551028251648
+      ],
+      "id": "sundial_sentinel",
+      "meshId": "rbxassetid://107305209907882",
+      "textureId": "",
+      "size": [
+        2.2615041732788086,
+        3.0419445037841797,
+        0.830551028251648
+      ]
+    },
+    {
+      "meshSize": [
+        2.4799997806549072,
+        3.0794734954833984,
+        2.2599997520446777
+      ],
+      "id": "sunken_crown",
+      "meshId": "rbxassetid://117032966363977",
+      "textureId": "",
+      "size": [
+        2.4799997806549072,
+        3.0794734954833984,
+        2.2599997520446777
+      ]
+    },
+    {
+      "meshSize": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342305064201355
+      ],
+      "id": "the_first_grave",
+      "meshId": "rbxassetid://104080758542748",
+      "textureId": "",
+      "size": [
+        3.058901071548462,
+        3.68656849861145,
+        0.9342305064201355
+      ]
+    },
+    {
+      "meshSize": [
+        3.680000066757202,
+        3.13149356842041,
+        1.9983208179473877
+      ],
+      "id": "the_last_funeral",
+      "meshId": "rbxassetid://138087526906503",
+      "textureId": "",
+      "size": [
+        3.680000066757202,
+        3.13149356842041,
+        1.9983208179473877
+      ]
+    },
+    {
+      "meshSize": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557762145996
+      ],
+      "id": "the_last_star",
+      "meshId": "rbxassetid://103602552479756",
+      "textureId": "",
+      "size": [
+        3.880000114440918,
+        4.618844032287598,
+        2.094557762145996
+      ]
+    },
+    {
+      "meshSize": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776622295379639
+      ],
+      "id": "the_undertow",
+      "meshId": "rbxassetid://105483544111432",
+      "textureId": "",
+      "size": [
+        3.587083578109741,
+        3.175576686859131,
+        1.5776622295379639
+      ]
+    },
+    {
+      "meshSize": [
+        3.3359720706939697,
+        4.075650691986084,
+        1.4252877235412598
+      ],
+      "id": "the_unwritten",
+      "meshId": "rbxassetid://132077689568800",
+      "textureId": "",
+      "size": [
+        3.3359720706939697,
+        4.075650691986084,
+        1.4252877235412598
+      ]
+    },
+    {
+      "meshSize": [
+        4.170000076293945,
+        4.449999809265137,
+        1.6669225692749023
+      ],
+      "id": "the_void",
+      "meshId": "rbxassetid://140422771537428",
+      "textureId": "",
+      "size": [
+        4.170000076293945,
+        4.449999809265137,
+        1.6669225692749023
+      ]
+    },
+    {
+      "meshSize": [
+        3.3798885345458984,
+        2.0764691829681396,
+        1.8815412521362305
+      ],
+      "id": "thimble_spider",
+      "meshId": "rbxassetid://99634226365979",
+      "textureId": "",
+      "size": [
+        3.3798885345458984,
+        2.0764691829681396,
+        1.8815412521362305
+      ]
+    },
+    {
+      "meshSize": [
+        2.499964475631714,
+        4.108807563781738,
+        1.5416028499603271
+      ],
+      "id": "thorn_cathedral",
+      "meshId": "rbxassetid://83008441866856",
+      "textureId": "",
+      "size": [
+        2.499964475631714,
+        4.108807563781738,
+        1.5416028499603271
+      ]
+    },
+    {
+      "meshSize": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ],
+      "id": "thorn_reliquary",
+      "meshId": "rbxassetid://136595375769922",
+      "textureId": "",
+      "size": [
+        1.7483792304992676,
+        3.612090587615967,
+        1.749131679534912
+      ]
+    },
+    {
+      "meshSize": [
+        3.6449999809265137,
+        3.389763355255127,
+        0.6982876062393188
+      ],
+      "id": "umbrella_wraith",
+      "meshId": "rbxassetid://74392665115825",
+      "textureId": "",
+      "size": [
+        3.6449999809265137,
+        3.389763355255127,
+        0.6982876062393188
+      ]
+    },
+    {
+      "meshSize": [
+        2.645899534225464,
+        3.528148651123047,
+        1.6559808254241943
+      ],
+      "id": "veil_mourner",
+      "meshId": "rbxassetid://138895825932890",
+      "textureId": "",
+      "size": [
+        2.645899534225464,
+        3.528148651123047,
+        1.6559808254241943
+      ]
+    },
+    {
+      "meshSize": [
+        3.815904140472412,
+        2.6813852787017822,
+        1.1515071392059326
+      ],
+      "id": "watching_eye",
+      "meshId": "rbxassetid://96354826665507",
+      "textureId": "",
+      "size": [
+        3.815904140472412,
+        2.6813852787017822,
+        1.1515071392059326
+      ]
+    },
+    {
+      "meshSize": [
+        2.669999837875366,
+        3.403151035308838,
+        1.391714096069336
+      ],
+      "id": "wilted_sprout",
+      "meshId": "rbxassetid://73497154913372",
+      "textureId": "",
+      "size": [
+        2.669999837875366,
+        3.403151035308838,
+        1.391714096069336
+      ]
+    },
+    {
+      "meshSize": [
+        3.2417218685150146,
+        4.186335563659668,
+        1.5582488775253296
+      ],
+      "id": "worldroot",
+      "meshId": "rbxassetid://78477623099004",
+      "textureId": "",
+      "size": [
+        3.2417218685150146,
+        4.186335563659668,
+        1.5582488775253296
+      ]
+    }
+  ],
+  "count": 56,
+  "assetSource": "-- Generated from the current FBX ledger and observed Studio imports.\n-- Run assets/source/blender/curses_expansion/apply_rework_assets.py.\nreturn {\n\tcandle_wisp = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-01-common.png\", fbxSha256 = \"6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a\",\n\t\tvfxHook = Vector3.new(0, 1.2770357132, 0.273239344358), vfxProfile = \"ghost_flame\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://120691798070914\" },\n\tgrave_hopper = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-01-common.png\", fbxSha256 = \"fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99\",\n\t\tvfxHook = Vector3.new(0, -0.669456953704, 0.681823069639), vfxProfile = \"moss_relic\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://71461503692914\" },\n\tgrave_key = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-01-common.png\", fbxSha256 = \"490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169\",\n\t\tvfxHook = Vector3.new(-0.625261240005, 0.836749892086, -0.110981518055), vfxProfile = \"relic_glint\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://81555225772390\" },\n\tmourning_ribbon = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-01-common.png\", fbxSha256 = \"97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e\",\n\t\tvfxHook = Vector3.new(0, 0.430000004768, 0.195457472756), vfxProfile = \"mourning_stitch\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://86964137364657\" },\n\twilted_sprout = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-01-common.png\", fbxSha256 = \"a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a\",\n\t\tvfxHook = Vector3.new(-0.254999995232, 0.852774441242, 0.793331742287), vfxProfile = \"wilted_pollen\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://73497154913372\" },\n\tink_imp = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-02-common.png\", fbxSha256 = \"5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662\",\n\t\tvfxHook = Vector3.new(0.015, 0.447329999506, 0.448929814805), vfxProfile = \"ink_splatter\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://138171047418372\" },\n\tlost_locket = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-02-common.png\", fbxSha256 = \"2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f\",\n\t\tvfxHook = Vector3.new(0.625000019073, -0.282500004768, 0.243907576825), vfxProfile = \"ghost_handprint\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://91422731371880\" },\n\tashen_book = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-02-common.png\", fbxSha256 = \"f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8\",\n\t\tvfxHook = Vector3.new(-0.295, -0.346250002682, 0.861101220039), vfxProfile = \"ember_pages\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://101139508733050\" },\n\tlantern_lurker = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-02-common.png\", fbxSha256 = \"2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9\",\n\t\tvfxHook = Vector3.new(-0.018, -0.204562821388, 0.0572605851169), vfxProfile = \"trapped_green_light\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://124690349043025\" },\n\thourglass_hound = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-02-common.png\", fbxSha256 = \"3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c\",\n\t\tvfxHook = Vector3.new(0.095280542633, 0.3, 0.0575), vfxProfile = \"falling_sand\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://122359731833236\" },\n\tnail_beetle = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-03-common.png\", fbxSha256 = \"4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8\",\n\t\tvfxHook = Vector3.new(-0.00166642665863, -0.313018630072, 1.09712096038), vfxProfile = \"rust_dust\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://134811561032307\" },\n\tpale_guest = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-03-common.png\", fbxSha256 = \"6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5\",\n\t\tvfxHook = Vector3.new(0.24, 0.0900000199676, 0.351701758889), vfxProfile = \"portrait_ghost\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://95457500330255\" },\n\tcold_teacup = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-03-common.png\", fbxSha256 = \"2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6\",\n\t\tvfxHook = Vector3.new(-0.0670964083753, 0.60811612606, 0.0298748988622), vfxProfile = \"cold_shadow\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://109492897154947\" },\n\tcoin_crawler = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-03-common.png\", fbxSha256 = \"860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52\",\n\t\tvfxHook = Vector3.new(0, -0.205692410357, 0.80989227402), vfxProfile = \"coin_moss\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://101300591039625\" },\n\tumbrella_wraith = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-03-common.png\", fbxSha256 = \"2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b\",\n\t\tvfxHook = Vector3.new(0.02, 0.374881758243, 0.200856510965), vfxProfile = \"umbrella_shadow\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://74392665115825\" },\n\tmarrow_dice = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-04-rare.png\", fbxSha256 = \"9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9\",\n\t\tvfxHook = Vector3.new(-0.922502160072, 1.31500005722, 1.13130068779), vfxProfile = \"wandering_dice_pips\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://98208990983506\", vfxHooks = { diePair = Vector3.new(-0.0525021546626, 0.285, 0.641300673485) } },\n\tveil_mourner = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-04-rare.png\", fbxSha256 = \"47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6\",\n\t\tvfxHook = Vector3.new(-0.0081096541413, 0.369074077011, 0.520428651079), vfxProfile = \"black_veil_breath\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://138895825932890\", vfxHooks = { veilFace = Vector3.new(-0.0081096541413, 0.369074077011, 0.520428651079) } },\n\tgrave_compass = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-04-rare.png\", fbxSha256 = \"dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31\",\n\t\tvfxHook = Vector3.new(0.700915501118, -0.243971884251, 0.325919829607), vfxProfile = \"inward_compass_wisp\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://92042737751538\", vfxHooks = { dialCenter = Vector3.new(0.700915501118, -0.243971884251, 0.325919829607) } },\n\thollow_violin = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-04-rare.png\", fbxSha256 = \"5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427\",\n\t\tvfxHook = Vector3.new(0, -0.0616434288025, 0.352132073641), vfxProfile = \"three_spectral_strings\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://91498125175625\", vfxHooks = { stringBridge = Vector3.new(0, -0.591643428802, 0.432132073641) } },\n\tchime_triplets = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-04-rare.png\", fbxSha256 = \"0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6\",\n\t\tvfxHook = Vector3.new(0.0899720788002, -0.571000038147, 0.1), vfxProfile = \"three_bell_spirits\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://114343537583157\", vfxHooks = { leftBell = Vector3.new(-1.0100279212, -0.831000038147, -0), middleBell = Vector3.new(0.0899720788002, -1.07100003815, -0), rightBell = Vector3.new(1.2199720788, -0.761000038147, -0) } },\n\tthimble_spider = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-05-rare.png\", fbxSha256 = \"366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc\",\n\t\tvfxHook = Vector3.new(-9.30428504944e-05, 0.868234694004, 0.414729446173), vfxProfile = \"thimble_thread_glints\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://99634226365979\", vfxHooks = { fangs = Vector3.new(-9.30428504944e-05, -0.581765325069, 0.919229519367) } },\n\tmusic_box_dancer = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-05-rare.png\", fbxSha256 = \"7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff\",\n\t\tvfxHook = Vector3.new(-0.116511655775, 0.3175, 0.289912019968), vfxProfile = \"wooden_music_box_refrain\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://103021046464363\", vfxHooks = { musicMechanism = Vector3.new(-0.116511655775, -0.6225, 0.289912019968) } },\n\traven_quill = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-05-rare.png\", fbxSha256 = \"5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64\",\n\t\tvfxHook = Vector3.new(0.84, 0.542250851095, 0.253167919794), vfxProfile = \"raven_ink_signature\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://71223428160554\", vfxHooks = { nibTip = Vector3.new(0.95, 0.502250851095, 0.213167919794) } },\n\tsorrow_chalice = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-05-rare.png\", fbxSha256 = \"0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11\",\n\t\tvfxHook = Vector3.new(0.0724999979138, 1.03917431831, 0.373152434826), vfxProfile = \"gray_sorrow_tears\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://124640513274761\", vfxHooks = { tearFace = Vector3.new(-0.0375, 0.62917432785, 0.490000021458), bowlRim = Vector3.new(-0.0375, 0.30917432785, 2.14576721183e-08) } },\n\tpale_gramophone = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-05-rare.png\", fbxSha256 = \"64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1\",\n\t\tvfxHook = Vector3.new(0.83, 0.932802610397, 0.548709664905), vfxProfile = \"bone_horn_echo\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://94119998367472\", vfxHooks = { hornMouth = Vector3.new(0.83, 0.932802610397, 0.548709664905), turntable = Vector3.new(-0.06, -0.407197389603, -0.271290335095) } },\n\tthorn_reliquary = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-06-rare.png\", fbxSha256 = \"96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f\",\n\t\tvfxHook = Vector3.new(0.118578161001, 0.119045195431, 0.300000013113), vfxProfile = \"glass_caged_thorn\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://136595375769922\", vfxHooks = { urnCenter = Vector3.new(-0.00142183899879, -0.340954804569, 1.31130218489e-08), thornFace = Vector3.new(0.118578161001, 0.119045195431, 0.300000013113) } },\n\tanchor_crab = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-06-rare.png\", fbxSha256 = \"0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803\",\n\t\tvfxHook = Vector3.new(-0.192804455757, -0.388904394954, -0.208008650538), vfxProfile = \"rusted_anchor_bubbles\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://138935951310223\", vfxHooks = { anchorEyelet = Vector3.new(-0.182804455757, 1.05109560505, -0.228008650538), largeClaw = Vector3.new(1.84719554424, -0.148904394954, 0.391991349462) } },\n\tsundial_sentinel = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-06-rare.png\", fbxSha256 = \"ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583\",\n\t\tvfxHook = Vector3.new(-0.368452374935, 0.274027690887, 0.275275141001), vfxProfile = \"autonomous_sundial_shadow\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://107305209907882\", vfxHooks = { dialCenter = Vector3.new(0.0115476250648, 0.364027690887, 0.145275141001), shadowEyes = Vector3.new(-0.388452374935, 0.324027690887, 0.365275141001) } },\n\tsleepwalker_shoes = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-06-rare.png\", fbxSha256 = \"41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770\",\n\t\tvfxHook = Vector3.new(0.0159556746483, 0.265843398273, -0.0270082592964), vfxProfile = \"out_of_step_boot_echoes\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://100900364423577\", vfxHooks = { leftCuff = Vector3.new(-0.734044325352, 0.955843398273, -0.617008259296), rightCuff = Vector3.new(0.715955674648, 0.405843398273, -0.0870082592964) } },\n\tnight_harp = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-07-legendary.png\", fbxSha256 = \"8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06\",\n\t\tvfxHook = Vector3.new(-0.0992527556419, 0.171261853501, -0.0267307806015), vfxProfile = \"harp_strings\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://83648018962626\" },\n\tthorn_cathedral = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-07-legendary.png\", fbxSha256 = \"6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e\",\n\t\tvfxHook = Vector3.new(-0.179863862991, -0.619830422327, 0.748982524872), vfxProfile = \"rose_window\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://130353358132470\" },\n\tphantom_marionette = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-07-legendary.png\", fbxSha256 = \"bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e\",\n\t\tvfxHook = Vector3.new(0.109808521271, 0.605598678589, 0.321765065193), vfxProfile = \"puppet_strings\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://125181594913762\" },\n\tblood_moon_rose = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-07-legendary.png\", fbxSha256 = \"3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba\",\n\t\tvfxHook = Vector3.new(0.184270553589, 0.810494526405, 0.581820412874), vfxProfile = \"rose_pulse\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://80054563301680\" },\n\tjudgement_scales = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-07-legendary.png\", fbxSha256 = \"43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04\",\n\t\tvfxHook = Vector3.new(1.28, 0.209077309966, 0.0644250261784), vfxProfile = \"unequal_scales\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://115544351986945\", vfxHooks = { leftPan = Vector3.new(-1.27999997139, -0.210922598839, 0.16442501545), rightPan = Vector3.new(1.27999997139, 0.279077291489, 0.16442501545) } },\n\tclockwork_raven = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-08-legendary.png\", fbxSha256 = \"3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1\",\n\t\tvfxHook = Vector3.new(0.05, 0.993531176001, 0.541646286249), vfxProfile = \"raven_clock\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://132658656356560\" },\n\teclipse_stag = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-08-legendary.png\", fbxSha256 = \"ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b\",\n\t\tvfxHook = Vector3.new(0.331411175728, 0.509983882718, 0.36374999404), vfxProfile = \"eclipse_antlers\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://84237463643087\" },\n\tendless_library = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-08-legendary.png\", fbxSha256 = \"806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514\",\n\t\tvfxHook = Vector3.new(0.229999990463, 1.1735665223, 0.339635039568), vfxProfile = \"library_pages\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://119647220783912\" },\n\tsunken_crown = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-08-legendary.png\", fbxSha256 = \"278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995\",\n\t\tvfxHook = Vector3.new(0, 1.08586836576, 1.00999997616), vfxProfile = \"sunken_tides\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://117032966363977\" },\n\tsilent_choir = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-08-legendary.png\", fbxSha256 = \"1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c\",\n\t\tvfxHook = Vector3.new(-0.0421632766724, 1.3169314146, 0.31), vfxProfile = \"silent_choir_chimes\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://87533045551868\", vfxHooks = { leftHead = Vector3.new(-0.932163238525, 0.636931538582, 0.239999994636), middleHead = Vector3.new(-0.0421632751822, 1.28693139553, 0.239999994636), rightHead = Vector3.new(0.897836744785, 0.81693136692, 0.239999994636) } },\n\tcathedral_heart = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-09-mythic.png\", fbxSha256 = \"df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890\",\n\t\tvfxHook = Vector3.new(0, -0.0798304202408, 0.646973867416), vfxProfile = \"cathedral_heart_seam\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://109562151283310\" },\n\tplague_monarch = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-09-mythic.png\", fbxSha256 = \"bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1\",\n\t\tvfxHook = Vector3.new(-0.00784999132156, 0.341940258369, 0.545727766752), vfxProfile = \"plague_monarch_breath\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://84591406393703\" },\n\thollow_throne = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-09-mythic.png\", fbxSha256 = \"09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61\",\n\t\tvfxHook = Vector3.new(0, 0.180858858824, -0.273193714619), vfxProfile = \"hollow_throne_presence\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://137649959781597\" },\n\tworldroot = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-10-mythic.png\", fbxSha256 = \"d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f\",\n\t\tvfxHook = Vector3.new(0.0391597151756, -0.208772275075, 0.365333147049), vfxProfile = \"worldroot_seed\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://78477623099004\" },\n\tthe_undertow = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-10-mythic.png\", fbxSha256 = \"8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7\",\n\t\tvfxHook = Vector3.new(0.000153660774231, -0.96221168682, 0.220000002384), vfxProfile = \"undertow_spiral\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://105483544111432\" },\n\tthe_last_funeral = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-10-mythic.png\", fbxSha256 = \"5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5\",\n\t\tvfxHook = Vector3.new(0.16, 1.10574695781, 0.917912057638), vfxProfile = \"last_funeral_lilies\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://138087526906503\" },\n\tnameless_door = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-11-secret.png\", fbxSha256 = \"b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb\",\n\t\tvfxHook = Vector3.new(-0.052991092205, -0.240175059065, -0.593451573849), vfxProfile = \"nameless_threshold\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://136046415979732\" },\n\tcrown_of_silence = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-11-secret.png\", fbxSha256 = \"4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c\",\n\t\tvfxHook = Vector3.new(0, 1.21834428757, 0.0799905228615), vfxProfile = \"crown_silence\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://87201548999780\" },\n\tthe_first_grave = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-11-secret.png\", fbxSha256 = \"ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7\",\n\t\tvfxHook = Vector3.new(-0.0403584718704, 0.433284199238, 0.312885318995), vfxProfile = \"first_grave_crack\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://104080758542748\" },\n\tthe_unwritten = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-12-secret.png\", fbxSha256 = \"238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e\",\n\t\tvfxHook = Vector3.new(0.0949941039085, 0.247825272679, 0.620004589558), vfxProfile = \"unwritten_erasure\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://132077689568800\" },\n\tthe_last_star = { status = \"VALIDATED\", enabled = true,\n\t\tsourceReference = \"rework-12-secret.png\", fbxSha256 = \"682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31\",\n\t\tvfxHook = Vector3.new(0, 0.29942195043, 0.205459867716), vfxProfile = \"last_star_cage\",\n\t\toriginalVertexColors = true, meshId = \"rbxassetid://103602552479756\" },\n}\n"
+}

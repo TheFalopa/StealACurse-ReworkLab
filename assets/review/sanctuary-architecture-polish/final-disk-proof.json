@@ -1,0 +1,5344 @@
+{
+  "schema": "steal-a-curse-polished-build-proof-v1",
+  "verifiedAtUTC": "2026-10-03T19:29:53.434221+00:00",
+  "root": "C:\\RobloxProjects\\StealACurse",
+  "build": "C:\\RobloxProjects\\StealACurse\\build-sanctuary-architecture-polish.rbxlx",
+  "passed": true,
+  "verificationScope": "Static source, native-template and binary-payload integrity; not a Play or visual approval.",
+  "ledgerAuthority": "assets/imports/curse-animation-current.json; historical repair snapshots are not consulted.",
+  "errors": [],
+  "warnings": [],
+  "scripts": [
+    {
+      "path": "game.ReplicatedStorage.Shared.CurseAnimationAssets",
+      "source": "src/shared/CurseAnimationAssets.luau",
+      "sourceFileSHA256": "badc713a65fd6388fa6b059b357d8fa298384a3f51a5d13efba85ccf616e04fa",
+      "expectedSourceSHA256": "2049eb8f79c008c4332ac8016739acdd27d6c1211bb88042b8b9045102721525",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "2049eb8f79c008c4332ac8016739acdd27d6c1211bb88042b8b9045102721525",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.CurseAnimationProfiles",
+      "source": "src/shared/CurseAnimationProfiles.luau",
+      "sourceFileSHA256": "2905afa383b7bd549ed8e6dda56d8916da18c71c681849050f4ef03be7deee95",
+      "expectedSourceSHA256": "d11f54c463bb584ff0383edef2c688be9857f5cba930ba6726cee912fd1271ae",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "d11f54c463bb584ff0383edef2c688be9857f5cba930ba6726cee912fd1271ae",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.CurseCarryGeometry",
+      "source": "src/shared/CurseCarryGeometry.luau",
+      "sourceFileSHA256": "048f590959693853b8db506c5b441b5611a81c6feb7888d563ed0c25786719c6",
+      "expectedSourceSHA256": "048f590959693853b8db506c5b441b5611a81c6feb7888d563ed0c25786719c6",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "048f590959693853b8db506c5b441b5611a81c6feb7888d563ed0c25786719c6",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.CurseCatalog",
+      "source": "src/shared/CurseCatalog.luau",
+      "sourceFileSHA256": "50762a18b5068f7f9dbcb26a02a350b8d37cd0427cb6c231926d4ad2a6f34ef6",
+      "expectedSourceSHA256": "c482c369a03566bece59e22e40945ad0c79a171e71eec45905b1fd4b436bb75e",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "c482c369a03566bece59e22e40945ad0c79a171e71eec45905b1fd4b436bb75e",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.CurseExpansionAssets",
+      "source": "src/shared/CurseExpansionAssets.luau",
+      "sourceFileSHA256": "4681e844dde7b31416146fe96e3b196da8290517742bf38b4c854156bbaacafb",
+      "expectedSourceSHA256": "c83b776a6b0c892cf638634df3783ba61237139fcbe1f1d6a7716a28558935e0",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "c83b776a6b0c892cf638634df3783ba61237139fcbe1f1d6a7716a28558935e0",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.CurseMotionMath",
+      "source": "src/shared/CurseMotionMath.luau",
+      "sourceFileSHA256": "1893d5105f4cd6f1f374a4da954f8f9d6add59af4e57045f0d6c6530c4b0754c",
+      "expectedSourceSHA256": "1893d5105f4cd6f1f374a4da954f8f9d6add59af4e57045f0d6c6530c4b0754c",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "1893d5105f4cd6f1f374a4da954f8f9d6add59af4e57045f0d6c6530c4b0754c",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.CurseVFXProfiles",
+      "source": "src/shared/CurseVFXProfiles.luau",
+      "sourceFileSHA256": "54f24699ef3a900e1e73ef324ab7c8a501523691af0fdccc3bf861e8a5c8cdde",
+      "expectedSourceSHA256": "54f24699ef3a900e1e73ef324ab7c8a501523691af0fdccc3bf861e8a5c8cdde",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "54f24699ef3a900e1e73ef324ab7c8a501523691af0fdccc3bf861e8a5c8cdde",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.CurseVisualPass2",
+      "source": "src/shared/CurseVisualPass2.luau",
+      "sourceFileSHA256": "426dc3563251c5dfe4bf388f716cd5cd6fe590381cf9b1563de7c533cb50061e",
+      "expectedSourceSHA256": "337caf23c3ad5fe82888f53d49d4ffbcb963863a7994049b7887241ce1a77bbd",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "337caf23c3ad5fe82888f53d49d4ffbcb963863a7994049b7887241ce1a77bbd",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.Hello",
+      "source": "src/shared/Hello.luau",
+      "sourceFileSHA256": "f9c3e73a0f121694b403afd838212b5e1500a46f513853782e991d7ee183a85b",
+      "expectedSourceSHA256": "68de9377a853c5dd3863901c12e8f29802b9d6d3dd01b99e44a8d332755cca8f",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "68de9377a853c5dd3863901c12e8f29802b9d6d3dd01b99e44a8d332755cca8f",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.NumberFormat",
+      "source": "src/shared/NumberFormat.luau",
+      "sourceFileSHA256": "741b35619768be3b2898537cadd0a7dfea2f89ea2abeec4266d24566b5147f45",
+      "expectedSourceSHA256": "1a80d56f2d4487f21a5009eba4150a9518f3eff2a7280da64d174497e2ee0537",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "1a80d56f2d4487f21a5009eba4150a9518f3eff2a7280da64d174497e2ee0537",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.SanctuaryConfig",
+      "source": "src/shared/SanctuaryConfig.luau",
+      "sourceFileSHA256": "b2fe0f31d748f12b238f4f194d56d43b7e03c55490a3a49f19f96e8a73b83fdb",
+      "expectedSourceSHA256": "b2fe0f31d748f12b238f4f194d56d43b7e03c55490a3a49f19f96e8a73b83fdb",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "b2fe0f31d748f12b238f4f194d56d43b7e03c55490a3a49f19f96e8a73b83fdb",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ReplicatedStorage.Shared.SanctuaryProgression",
+      "source": "src/shared/SanctuaryProgression.luau",
+      "sourceFileSHA256": "206d0a15fa80a3940d4e3ef71879db05bddc09512300498c8b0b0a4c6c4aa6cd",
+      "expectedSourceSHA256": "206d0a15fa80a3940d4e3ef71879db05bddc09512300498c8b0b0a4c6c4aa6cd",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "206d0a15fa80a3940d4e3ef71879db05bddc09512300498c8b0b0a4c6c4aa6cd",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server",
+      "source": "src/server/init.server.luau",
+      "sourceFileSHA256": "5987fc9f1b78738af46116acef901d36b988a1f12bc39b5b08a2da53f5596e89",
+      "expectedSourceSHA256": "02d1ecd8d7dd411cdd671fcefbae3f106c4be879eba2573082f828ad666ec3f5",
+      "expectedClass": "Script",
+      "present": true,
+      "actualClass": "Script",
+      "buildSourceSHA256": "02d1ecd8d7dd411cdd671fcefbae3f106c4be879eba2573082f828ad666ec3f5",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.BaseService",
+      "source": "src/server/Gameplay/BaseService.luau",
+      "sourceFileSHA256": "f78163c04202f4666bf930ef07a7e69b8417206b2982a2abde96dc6ab0fc776c",
+      "expectedSourceSHA256": "4b3aefc6c6bbdcf152212c7dd63760f04b619dbb53f1274d879e46efb0ffe7a9",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "4b3aefc6c6bbdcf152212c7dd63760f04b619dbb53f1274d879e46efb0ffe7a9",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.CarryService",
+      "source": "src/server/Gameplay/CarryService.luau",
+      "sourceFileSHA256": "c00b2fdfdb9536b6e7e9640ac64d30d3a74bd05c5a85905727ebc058ebcc1688",
+      "expectedSourceSHA256": "c00b2fdfdb9536b6e7e9640ac64d30d3a74bd05c5a85905727ebc058ebcc1688",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "c00b2fdfdb9536b6e7e9640ac64d30d3a74bd05c5a85905727ebc058ebcc1688",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.Config",
+      "source": "src/server/Gameplay/Config.luau",
+      "sourceFileSHA256": "53e1929095ac1a70af830bbf4835e1ad12b5281672eb23d5e7001d9f554bb586",
+      "expectedSourceSHA256": "53e1929095ac1a70af830bbf4835e1ad12b5281672eb23d5e7001d9f554bb586",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "53e1929095ac1a70af830bbf4835e1ad12b5281672eb23d5e7001d9f554bb586",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.ContractService",
+      "source": "src/server/Gameplay/ContractService.luau",
+      "sourceFileSHA256": "f4e48f83105d776d87fc6dc1a17d675b70ccdfa42a7892276dc103bd67950973",
+      "expectedSourceSHA256": "f4e48f83105d776d87fc6dc1a17d675b70ccdfa42a7892276dc103bd67950973",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "f4e48f83105d776d87fc6dc1a17d675b70ccdfa42a7892276dc103bd67950973",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.CurseProcessionService",
+      "source": "src/server/Gameplay/CurseProcessionService.luau",
+      "sourceFileSHA256": "c864ca345f18227461c45365dc062a075d040f7e2b1532a10df29d77bcddffd0",
+      "expectedSourceSHA256": "c864ca345f18227461c45365dc062a075d040f7e2b1532a10df29d77bcddffd0",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "c864ca345f18227461c45365dc062a075d040f7e2b1532a10df29d77bcddffd0",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.CurseService",
+      "source": "src/server/Gameplay/CurseService.luau",
+      "sourceFileSHA256": "5650c6e7bfe36c6fda109573755fdcba6c947f84bb0bcde003e7662e6f9f58aa",
+      "expectedSourceSHA256": "5650c6e7bfe36c6fda109573755fdcba6c947f84bb0bcde003e7662e6f9f58aa",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "5650c6e7bfe36c6fda109573755fdcba6c947f84bb0bcde003e7662e6f9f58aa",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.CurseVisualService",
+      "source": "src/server/Gameplay/CurseVisualService.luau",
+      "sourceFileSHA256": "564c6b921e9b55856d67f6d3c44d3e7383f6326164eaa6a4a060bae3c3305269",
+      "expectedSourceSHA256": "12b17704a2f8894e7e3b13c5beb1711eb853784aa8eecd45c166ad3fdc88506e",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "12b17704a2f8894e7e3b13c5beb1711eb853784aa8eecd45c166ad3fdc88506e",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.OwnedCurseRules",
+      "source": "src/server/Gameplay/OwnedCurseRules.luau",
+      "sourceFileSHA256": "728147b8b2af603e86dafb8affe3648544c39a5d5ad5ae54049764d5d58eae9a",
+      "expectedSourceSHA256": "728147b8b2af603e86dafb8affe3648544c39a5d5ad5ae54049764d5d58eae9a",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "728147b8b2af603e86dafb8affe3648544c39a5d5ad5ae54049764d5d58eae9a",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.ProfileStore",
+      "source": "src/server/Gameplay/ProfileStore.luau",
+      "sourceFileSHA256": "ff27aae42f113b85cd45052a1a093721632293a1407f7934d34f29bacbd99f20",
+      "expectedSourceSHA256": "ff27aae42f113b85cd45052a1a093721632293a1407f7934d34f29bacbd99f20",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "ff27aae42f113b85cd45052a1a093721632293a1407f7934d34f29bacbd99f20",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.RitualService",
+      "source": "src/server/Gameplay/RitualService.luau",
+      "sourceFileSHA256": "cbb36006b93ceb3cdd4add76dbd7a78b3806cf5709e5019b431bb88339b25b16",
+      "expectedSourceSHA256": "cbb36006b93ceb3cdd4add76dbd7a78b3806cf5709e5019b431bb88339b25b16",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "cbb36006b93ceb3cdd4add76dbd7a78b3806cf5709e5019b431bb88339b25b16",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.SanctuaryService",
+      "source": "src/server/Gameplay/SanctuaryService.luau",
+      "sourceFileSHA256": "ecf9307952b6c670ac4539ed37117cd537cef7842f240ee3544d6139496bcfae",
+      "expectedSourceSHA256": "ecf9307952b6c670ac4539ed37117cd537cef7842f240ee3544d6139496bcfae",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "ecf9307952b6c670ac4539ed37117cd537cef7842f240ee3544d6139496bcfae",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Gameplay.SoulsService",
+      "source": "src/server/Gameplay/SoulsService.luau",
+      "sourceFileSHA256": "563d2f2ae964a0a4b19d6220494368a6c344eb546dac402e8a8064c8d2f46bdc",
+      "expectedSourceSHA256": "563d2f2ae964a0a4b19d6220494368a6c344eb546dac402e8a8064c8d2f46bdc",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "563d2f2ae964a0a4b19d6220494368a6c344eb546dac402e8a8064c8d2f46bdc",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.AssetKit",
+      "source": "src/server/Map/AssetKit.luau",
+      "sourceFileSHA256": "b6ef3738a8d8df2609ef4a1b87bdf034330eba77bcdcc48b8798a0b263734fc9",
+      "expectedSourceSHA256": "737f0f08178d6158241b53db5e5ed8d80281ca4bb0dc700c00bb8d88831266d0",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "737f0f08178d6158241b53db5e5ed8d80281ca4bb0dc700c00bb8d88831266d0",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Build",
+      "source": "src/server/Map/Build.luau",
+      "sourceFileSHA256": "f517d97675b6f6105200c5382765c48dfa8bf81c83587752c38a18b16902f55a",
+      "expectedSourceSHA256": "6a4670c563cbd8e31d0c623e5720c6cb2b37560be6b374b37212329fd615bef5",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "6a4670c563cbd8e31d0c623e5720c6cb2b37560be6b374b37212329fd615bef5",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Cemetery",
+      "source": "src/server/Map/Cemetery.luau",
+      "sourceFileSHA256": "789ee798dfed80452662e2a02129412fc8fea1a61686cc7b446bf476b190b509",
+      "expectedSourceSHA256": "8c7d681e8baae51132946aba4c5fc02e732b8faafdff81979a1334eac06328e1",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "8c7d681e8baae51132946aba4c5fc02e732b8faafdff81979a1334eac06328e1",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Config",
+      "source": "src/server/Map/Config.luau",
+      "sourceFileSHA256": "7fcbd89c8b0eef18680c91a3e7da8dfa0b587764e7528f8679981a0baddd4b6b",
+      "expectedSourceSHA256": "36ab27ee6adad63f40fa3319539ca1485b8c6c09a7121c152ee6e9b5193dcc36",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "36ab27ee6adad63f40fa3319539ca1485b8c6c09a7121c152ee6e9b5193dcc36",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.ContractSites",
+      "source": "src/server/Map/ContractSites.luau",
+      "sourceFileSHA256": "07aeef6b9fd6e7f2bc005e74436567d8a5c7f2522c3aa814a2c65f7f2b5dd1db",
+      "expectedSourceSHA256": "07aeef6b9fd6e7f2bc005e74436567d8a5c7f2522c3aa814a2c65f7f2b5dd1db",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "07aeef6b9fd6e7f2bc005e74436567d8a5c7f2522c3aa814a2c65f7f2b5dd1db",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Decorations",
+      "source": "src/server/Map/Decorations.luau",
+      "sourceFileSHA256": "029c5c82ae913791c217d3831405ce29965b1c2617862e0afbbac7094bdc89a3",
+      "expectedSourceSHA256": "0a0eebbbbeff17e41e0f67685506c50f31607ab559c70a1461986f1c486fff6b",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "0a0eebbbbeff17e41e0f67685506c50f31607ab559c70a1461986f1c486fff6b",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Grounding",
+      "source": "src/server/Map/Grounding.luau",
+      "sourceFileSHA256": "7de16f0fdd5cbba38a758b2034fa7f5136c1a3b736a1d80798c4472ee8b74f31",
+      "expectedSourceSHA256": "dc8ab459bc9fe87d56a46e68632f5228da24f2123646428f44ad27c4c6917c65",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "dc8ab459bc9fe87d56a46e68632f5228da24f2123646428f44ad27c4c6917c65",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.HalloweenArt",
+      "source": "src/server/Map/HalloweenArt.luau",
+      "sourceFileSHA256": "f4667c141b7dbb5fdafb6793e1291ee9ebd9f1fcba8c9daeefd8152651ef0d13",
+      "expectedSourceSHA256": "e16617ccf0dfc8241fb86a3dea86f837a8c6f43818e460f8eeb582915f1195bf",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "e16617ccf0dfc8241fb86a3dea86f837a8c6f43818e460f8eeb582915f1195bf",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Landmarks",
+      "source": "src/server/Map/Landmarks.luau",
+      "sourceFileSHA256": "b254546fdbd6e10bc36babbac1e77d685831d92a97960b52a83b065beab4ac0d",
+      "expectedSourceSHA256": "2354bce0d4974ca1a03427ab5830b9dcab966aefbefc2995adf03719f6faa221",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "2354bce0d4974ca1a03427ab5830b9dcab966aefbefc2995adf03719f6faa221",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Layout",
+      "source": "src/server/Map/Layout.luau",
+      "sourceFileSHA256": "754ff807c9d7f2beaecad94427a934d5dd8f3b81a01e9ac01855d70aba1cc1b6",
+      "expectedSourceSHA256": "acad3b6cbf518757999a40582edb36376a5e9d1eb20664ae52b382c6505f3215",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "acad3b6cbf518757999a40582edb36376a5e9d1eb20664ae52b382c6505f3215",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Materials",
+      "source": "src/server/Map/Materials.luau",
+      "sourceFileSHA256": "d9efafb58d0decd2cca29d4a5782816d722e55aa25547ba7c13c93ff3a2bf170",
+      "expectedSourceSHA256": "89dada9f1804315e9328dbede165fe48b19146f4cecac245f80170e641ecf9bc",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "89dada9f1804315e9328dbede165fe48b19146f4cecac245f80170e641ecf9bc",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Mausoleum",
+      "source": "src/server/Map/Mausoleum.luau",
+      "sourceFileSHA256": "936cb797f14617994ee274eeaeac70c2422ba090e1fcb768ef385fddd51649c8",
+      "expectedSourceSHA256": "b2c4aa02e3e2d8595c1c6aaff812721c8d0223b19cba115df69f58f206743017",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "b2c4aa02e3e2d8595c1c6aaff812721c8d0223b19cba115df69f58f206743017",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.PlayerShrine",
+      "source": "src/server/Map/PlayerShrine.luau",
+      "sourceFileSHA256": "60afd29cde81f759d37df483b12966832348076d48fbe72f6c29853a6c779c0e",
+      "expectedSourceSHA256": "16453c3df7adbd9fd91a453b354cbfd7fb0e13e7c38e69afe82734015d572575",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "16453c3df7adbd9fd91a453b354cbfd7fb0e13e7c38e69afe82734015d572575",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.Primitives",
+      "source": "src/server/Map/Primitives.luau",
+      "sourceFileSHA256": "08b51b521a2e2e85ff8bd05eae2ceb58b266d12444223e53cba29d4ab36a0cea",
+      "expectedSourceSHA256": "bd620b1701e054ed42f181b2eecc0acfff81697ce75e2163fd7733ab3949825e",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "bd620b1701e054ed42f181b2eecc0acfff81697ce75e2163fd7733ab3949825e",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.RestorationArchitecture",
+      "source": "src/server/Map/RestorationArchitecture.luau",
+      "sourceFileSHA256": "97587a5f80dafafd62fd2dd0c60054d336da24fdf55f381c6cae0a061fa83cc4",
+      "expectedSourceSHA256": "5fc44d68cd3309a37e861fa05dc9a33354ef823340f604af7db9ed6c813ae99a",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "5fc44d68cd3309a37e861fa05dc9a33354ef823340f604af7db9ed6c813ae99a",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.RoadSurfaceResolver",
+      "source": "src/server/Map/RoadSurfaceResolver.luau",
+      "sourceFileSHA256": "e9345b27282a67ba2a644fb3f4ae1af095495a35b0e8ff4aa56a2e62e8685656",
+      "expectedSourceSHA256": "e9345b27282a67ba2a644fb3f4ae1af095495a35b0e8ff4aa56a2e62e8685656",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "e9345b27282a67ba2a644fb3f4ae1af095495a35b0e8ff4aa56a2e62e8685656",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.SurfaceArt",
+      "source": "src/server/Map/SurfaceArt.luau",
+      "sourceFileSHA256": "dac3b63d48f301052f15ab4f09127f5cf3c242f9c05b60f4ce56e56ec5dd10f6",
+      "expectedSourceSHA256": "418574fa4816729601cef487b5ac47ce06d4c201bb80987aa5f4d6f7e271373a",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "418574fa4816729601cef487b5ac47ce06d4c201bb80987aa5f4d6f7e271373a",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.TerrainArt",
+      "source": "src/server/Map/TerrainArt.luau",
+      "sourceFileSHA256": "8ad4c8eb0e5aef128d09302acd95e048068558448d99acd320eb5a78b05c2364",
+      "expectedSourceSHA256": "167a5142b434a60e9592dc71e50319fe0a6ba1d8c00599c29eb38d4d61c9e898",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "167a5142b434a60e9592dc71e50319fe0a6ba1d8c00599c29eb38d4d61c9e898",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.World",
+      "source": "src/server/Map/World.luau",
+      "sourceFileSHA256": "d3dacf636f773d90149ca0625f6641f4ee5f629cc897f4a7284e3e73979db1f2",
+      "expectedSourceSHA256": "2fc142cd23173f1eb194c1b049c085a7152174f2696f00db2f9bb853e1578c88",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "2fc142cd23173f1eb194c1b049c085a7152174f2696f00db2f9bb853e1578c88",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.ServerScriptService.Server.Map.WorldPolish",
+      "source": "src/server/Map/WorldPolish.luau",
+      "sourceFileSHA256": "192c09ffbbd8ae465956517303e90cb17e5e319ffb134da0601694507e87b558",
+      "expectedSourceSHA256": "192c09ffbbd8ae465956517303e90cb17e5e319ffb134da0601694507e87b558",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "192c09ffbbd8ae465956517303e90cb17e5e319ffb134da0601694507e87b558",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client",
+      "source": "src/client/init.client.luau",
+      "sourceFileSHA256": "8e0c169b559891fa54dfdc36f2bf0b2cf7a42dd068e14243db1f54ded263f402",
+      "expectedSourceSHA256": "c8346ce67448e5b220b7981eee19b96d8a85ae4a2c01f6c63a4ed531dcd3d246",
+      "expectedClass": "LocalScript",
+      "present": true,
+      "actualClass": "LocalScript",
+      "buildSourceSHA256": "c8346ce67448e5b220b7981eee19b96d8a85ae4a2c01f6c63a4ed531dcd3d246",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.CurseActsCore",
+      "source": "src/client/CurseActsCore.luau",
+      "sourceFileSHA256": "2746ed6188594331445ae04237daeac05ac6b122fda50487812d11f2df6b0a0d",
+      "expectedSourceSHA256": "2746ed6188594331445ae04237daeac05ac6b122fda50487812d11f2df6b0a0d",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "2746ed6188594331445ae04237daeac05ac6b122fda50487812d11f2df6b0a0d",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.CurseActsCreatures",
+      "source": "src/client/CurseActsCreatures.luau",
+      "sourceFileSHA256": "c51cc743af7c678811d5ad34188a6ad5305e132567360b5096db8c31750c0c10",
+      "expectedSourceSHA256": "c51cc743af7c678811d5ad34188a6ad5305e132567360b5096db8c31750c0c10",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "c51cc743af7c678811d5ad34188a6ad5305e132567360b5096db8c31750c0c10",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.CurseActsEntities",
+      "source": "src/client/CurseActsEntities.luau",
+      "sourceFileSHA256": "adf77ea935f40aa5fc78ce55a4399b8b0360f7d8edcb78a74cbf53309a3424fc",
+      "expectedSourceSHA256": "adf77ea935f40aa5fc78ce55a4399b8b0360f7d8edcb78a74cbf53309a3424fc",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "adf77ea935f40aa5fc78ce55a4399b8b0360f7d8edcb78a74cbf53309a3424fc",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.CurseActsObjects",
+      "source": "src/client/CurseActsObjects.luau",
+      "sourceFileSHA256": "a2f210786d2c9b0e10f5f490e538bc39b24054cae1451e0ecb0c740c32b72c98",
+      "expectedSourceSHA256": "a2f210786d2c9b0e10f5f490e538bc39b24054cae1451e0ecb0c740c32b72c98",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "a2f210786d2c9b0e10f5f490e538bc39b24054cae1451e0ecb0c740c32b72c98",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.CurseAnimation",
+      "source": "src/client/CurseAnimation.luau",
+      "sourceFileSHA256": "cab23002205cd49de5b296a9dc8abe2d8172790192fe0e7395f3774b9bcae4ab",
+      "expectedSourceSHA256": "cab23002205cd49de5b296a9dc8abe2d8172790192fe0e7395f3774b9bcae4ab",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "cab23002205cd49de5b296a9dc8abe2d8172790192fe0e7395f3774b9bcae4ab",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.CursePresentation",
+      "source": "src/client/CursePresentation.luau",
+      "sourceFileSHA256": "2fdfef24c47d35df3707a807c1fc5636566d6ceff9482b575b62a44c37f3db2a",
+      "expectedSourceSHA256": "2fdfef24c47d35df3707a807c1fc5636566d6ceff9482b575b62a44c37f3db2a",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "2fdfef24c47d35df3707a807c1fc5636566d6ceff9482b575b62a44c37f3db2a",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.CurseVFX",
+      "source": "src/client/CurseVFX.luau",
+      "sourceFileSHA256": "9c7273f109b28b159710d97855f6b5549f379ffdf21ec7b12951b06101c98787",
+      "expectedSourceSHA256": "9c7273f109b28b159710d97855f6b5549f379ffdf21ec7b12951b06101c98787",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "9c7273f109b28b159710d97855f6b5549f379ffdf21ec7b12951b06101c98787",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.RelicPresentation",
+      "source": "src/client/RelicPresentation.luau",
+      "sourceFileSHA256": "2d2235f48eb19176a23681f720866c448358235876dd2c1cb25f5a093d4a7ec5",
+      "expectedSourceSHA256": "2d2235f48eb19176a23681f720866c448358235876dd2c1cb25f5a093d4a7ec5",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "2d2235f48eb19176a23681f720866c448358235876dd2c1cb25f5a093d4a7ec5",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.CurrencyCard",
+      "source": "src/client/UI/CurrencyCard.luau",
+      "sourceFileSHA256": "dbf23fa0898c4cb5768bdd21bb2c3d32a12c15d8813b3c6ce9233476cb2551d8",
+      "expectedSourceSHA256": "7e8f33c571fdde54a7f11e8da669f6e3e698285e17eb955b97858a0563c4e058",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "7e8f33c571fdde54a7f11e8da669f6e3e698285e17eb955b97858a0563c4e058",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.CurseLabels",
+      "source": "src/client/UI/CurseLabels.luau",
+      "sourceFileSHA256": "4f23af7925148466fcdc667dddc5d933e50dcbb465ca8949dbcd49ad6aa99f84",
+      "expectedSourceSHA256": "4f23af7925148466fcdc667dddc5d933e50dcbb465ca8949dbcd49ad6aa99f84",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "4f23af7925148466fcdc667dddc5d933e50dcbb465ca8949dbcd49ad6aa99f84",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.CurseManagement",
+      "source": "src/client/UI/CurseManagement.luau",
+      "sourceFileSHA256": "cefd7801e9d355a357596dc52f81ea492990b0781b959c3028b67abeb76edc13",
+      "expectedSourceSHA256": "cefd7801e9d355a357596dc52f81ea492990b0781b959c3028b67abeb76edc13",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "cefd7801e9d355a357596dc52f81ea492990b0781b959c3028b67abeb76edc13",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.HUD",
+      "source": "src/client/UI/HUD.luau",
+      "sourceFileSHA256": "ceea63787e5aeb106d46d04d2d4fe557ac19c7899e88f42e230990b9f43f7a40",
+      "expectedSourceSHA256": "76158f0098497e1669e4efb8d32818f8ad137300841ddc98bedf2be79cdbba44",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "76158f0098497e1669e4efb8d32818f8ad137300841ddc98bedf2be79cdbba44",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.Icons",
+      "source": "src/client/UI/Icons.luau",
+      "sourceFileSHA256": "80fb24d0d4cf6f744b689a5cc58d8690d4e712caae43c3dea8f1744a76696f7a",
+      "expectedSourceSHA256": "1ee585c255bf21cc8cd5136751155c0e95a91c2cbd2628e4a739d494a7d3d976",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "1ee585c255bf21cc8cd5136751155c0e95a91c2cbd2628e4a739d494a7d3d976",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.Navigation",
+      "source": "src/client/UI/Navigation.luau",
+      "sourceFileSHA256": "773f5febef09ae0e39651ece3acfa762f12374da8d915467f1df5738510d541c",
+      "expectedSourceSHA256": "15611215f43236e2d5e1b22b061a4dc7742a748babafee2dcbe651853b447076",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "15611215f43236e2d5e1b22b061a4dc7742a748babafee2dcbe651853b447076",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.PanelFrame",
+      "source": "src/client/UI/PanelFrame.luau",
+      "sourceFileSHA256": "a3102d1f3a262168db857f1b12f724bb1b1282f39c3aeb407102650b62caa959",
+      "expectedSourceSHA256": "afdc427547c0c65ac317ed56921da43c725031c65d842eb1c8569b8235e192de",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "afdc427547c0c65ac317ed56921da43c725031c65d842eb1c8569b8235e192de",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.SanctuaryPanel",
+      "source": "src/client/UI/SanctuaryPanel.luau",
+      "sourceFileSHA256": "f8b5fe351de9328a3a58dddcd2a0986888d391c804dc1bf170b810b7d2818997",
+      "expectedSourceSHA256": "f8b5fe351de9328a3a58dddcd2a0986888d391c804dc1bf170b810b7d2818997",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "f8b5fe351de9328a3a58dddcd2a0986888d391c804dc1bf170b810b7d2818997",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.ShellPanel",
+      "source": "src/client/UI/ShellPanel.luau",
+      "sourceFileSHA256": "298f7c33f9f13fff59011f9a2781e78b2e232d37e128ecdadf0d8634de753cb7",
+      "expectedSourceSHA256": "da937d6dcdd7a59871ba229d202525214d877df0bf4c97a4b3262e78d668eb6a",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "da937d6dcdd7a59871ba229d202525214d877df0bf4c97a4b3262e78d668eb6a",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.ShopCard",
+      "source": "src/client/UI/ShopCard.luau",
+      "sourceFileSHA256": "86a617e458132f4ed5fb7ad761bc9038fbfaa6584ac5bd987ad92f74726c9069",
+      "expectedSourceSHA256": "6f621f64e6c564c630b2fed947426d76a11356a128467232c1cfa3124ff78ec7",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "6f621f64e6c564c630b2fed947426d76a11356a128467232c1cfa3124ff78ec7",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.ShopPanel",
+      "source": "src/client/UI/ShopPanel.luau",
+      "sourceFileSHA256": "c13ba8bb54f684e0a00021ec330cc9ecb666f0180ee654e6d0d71d94a8d3dd18",
+      "expectedSourceSHA256": "df96652c40394444f75ad7b3f4d83cb4886c196d4282ddb9848a286cc73503c7",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "df96652c40394444f75ad7b3f4d83cb4886c196d4282ddb9848a286cc73503c7",
+      "exactSourceMatch": true
+    },
+    {
+      "path": "game.StarterPlayer.StarterPlayerScripts.Client.UI.Theme",
+      "source": "src/client/UI/Theme.luau",
+      "sourceFileSHA256": "c80edaef2bb34a36bc0a714beb890884f3cdff386838f792dc2ebc71d6c616e5",
+      "expectedSourceSHA256": "defbdef57c3ef9f481d4cbff5559c16fa7a32a3b20c54bc47cfb37c94a4b6881",
+      "expectedClass": "ModuleScript",
+      "present": true,
+      "actualClass": "ModuleScript",
+      "buildSourceSHA256": "defbdef57c3ef9f481d4cbff5559c16fa7a32a3b20c54bc47cfb37c94a4b6881",
+      "exactSourceMatch": true
+    }
+  ],
+  "templates": [
+    {
+      "id": "anchor_crab",
+      "meshId": "rbxassetid://72923579345186",
+      "expectedMeshId": "rbxassetid://72923579345186",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 14724,
+          "buildBytes": 14724,
+          "expectedPayloadSHA256": "d00d2a8317b84fc59d5edd808bfb640f606b0fbf4918b11e31aaa777e6ea0cc1",
+          "buildPayloadSHA256": "d00d2a8317b84fc59d5edd808bfb640f606b0fbf4918b11e31aaa777e6ea0cc1"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        7.44875193,
+        4.80000019,
+        2.18606377
+      ],
+      "boneCount": 17,
+      "boneNames": [
+        "anchor_crab__ClawL",
+        "anchor_crab__ClawR",
+        "anchor_crab__JawL",
+        "anchor_crab__JawR",
+        "anchor_crab__Knee0",
+        "anchor_crab__Knee1",
+        "anchor_crab__Knee2",
+        "anchor_crab__Knee3",
+        "anchor_crab__Knee4",
+        "anchor_crab__Knee5",
+        "anchor_crab__Leg0",
+        "anchor_crab__Leg1",
+        "anchor_crab__Leg2",
+        "anchor_crab__Leg3",
+        "anchor_crab__Leg4",
+        "anchor_crab__Leg5",
+        "anchor_crab__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ashen_book",
+      "meshId": "rbxassetid://99694655865736",
+      "expectedMeshId": "rbxassetid://99694655865736",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 5507,
+          "buildBytes": 5507,
+          "expectedPayloadSHA256": "2541ec9ed087e7353c723e518e615ae56e721b36b7911387b2bb608c08fe0577",
+          "buildPayloadSHA256": "2541ec9ed087e7353c723e518e615ae56e721b36b7911387b2bb608c08fe0577"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.15693998,
+        4.0999999,
+        2.69120598
+      ],
+      "boneCount": 7,
+      "boneNames": [
+        "ashen_book__Cover",
+        "ashen_book__Knee0",
+        "ashen_book__Knee1",
+        "ashen_book__Leg0",
+        "ashen_book__Leg1",
+        "ashen_book__PageWing",
+        "ashen_book__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "blood_moon_rose",
+      "meshId": "rbxassetid://124316421747681",
+      "expectedMeshId": "rbxassetid://124316421747681",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 17345,
+          "buildBytes": 17345,
+          "expectedPayloadSHA256": "ecca79a4bc293354c303510dce0c5a54d69c8345b10d58538be30f3e0a8cbff3",
+          "buildPayloadSHA256": "ecca79a4bc293354c303510dce0c5a54d69c8345b10d58538be30f3e0a8cbff3"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.82555008,
+        7.39999962,
+        2.82540321
+      ],
+      "boneCount": 16,
+      "boneNames": [
+        "blood_moon_rose__Bloom",
+        "blood_moon_rose__Knee0",
+        "blood_moon_rose__Knee1",
+        "blood_moon_rose__Knee2",
+        "blood_moon_rose__Knee3",
+        "blood_moon_rose__Leg0",
+        "blood_moon_rose__Leg1",
+        "blood_moon_rose__Leg2",
+        "blood_moon_rose__Leg3",
+        "blood_moon_rose__Petal0",
+        "blood_moon_rose__Petal1",
+        "blood_moon_rose__Petal2",
+        "blood_moon_rose__Petal3",
+        "blood_moon_rose__Root",
+        "blood_moon_rose__ThornArmL",
+        "blood_moon_rose__ThornArmR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "candle_wisp",
+      "meshId": "rbxassetid://107705851408772",
+      "expectedMeshId": "rbxassetid://107705851408772",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11896,
+          "buildBytes": 11896,
+          "expectedPayloadSHA256": "b09677c8dcb908d631fb12b32b6d7c8a3ae1864555d488c4bb1f2ab42a5178a8",
+          "buildPayloadSHA256": "b09677c8dcb908d631fb12b32b6d7c8a3ae1864555d488c4bb1f2ab42a5178a8"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.01686573,
+        4.69999981,
+        1.92144561
+      ],
+      "boneCount": 4,
+      "boneNames": [
+        "candle_wisp__Flame",
+        "candle_wisp__HandL",
+        "candle_wisp__HandR",
+        "candle_wisp__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "cathedral_heart",
+      "meshId": "rbxassetid://101357601099401",
+      "expectedMeshId": "rbxassetid://101357601099401",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12528,
+          "buildBytes": 12528,
+          "expectedPayloadSHA256": "00bb02a6a2b830df8bacfdb1f1423ae802fb7be9aef3c8f6bbfe84c8c6e65328",
+          "buildPayloadSHA256": "00bb02a6a2b830df8bacfdb1f1423ae802fb7be9aef3c8f6bbfe84c8c6e65328"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.59999943,
+        9.60000038,
+        3.58690906
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "cathedral_heart__HeartL",
+        "cathedral_heart__HeartR",
+        "cathedral_heart__Knee0",
+        "cathedral_heart__Knee1",
+        "cathedral_heart__Knee2",
+        "cathedral_heart__Knee3",
+        "cathedral_heart__Leg0",
+        "cathedral_heart__Leg1",
+        "cathedral_heart__Leg2",
+        "cathedral_heart__Leg3",
+        "cathedral_heart__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "chime_triplets",
+      "meshId": "rbxassetid://82307616424520",
+      "expectedMeshId": "rbxassetid://82307616424520",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 15331,
+          "buildBytes": 15331,
+          "expectedPayloadSHA256": "d335a98fcb49d55c41958e9a7bece5fa8a972df608127d9ab9bfdc496abf4120",
+          "buildPayloadSHA256": "d335a98fcb49d55c41958e9a7bece5fa8a972df608127d9ab9bfdc496abf4120"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        7.28174782,
+        5.5,
+        2.28857803
+      ],
+      "boneCount": 4,
+      "boneNames": [
+        "chime_triplets__Bell0",
+        "chime_triplets__Bell1",
+        "chime_triplets__Bell2",
+        "chime_triplets__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "clockwork_raven",
+      "meshId": "rbxassetid://130961132710238",
+      "expectedMeshId": "rbxassetid://130961132710238",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12070,
+          "buildBytes": 12070,
+          "expectedPayloadSHA256": "73fe68162a5e986e6d6d9bfc361e96a083abbfe9604d49ab4aae28871f7abbd6",
+          "buildPayloadSHA256": "73fe68162a5e986e6d6d9bfc361e96a083abbfe9604d49ab4aae28871f7abbd6"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        8.28264236,
+        7.69999981,
+        3.40849447
+      ],
+      "boneCount": 10,
+      "boneNames": [
+        "clockwork_raven__Head",
+        "clockwork_raven__Knee0",
+        "clockwork_raven__Knee1",
+        "clockwork_raven__Leg0",
+        "clockwork_raven__Leg1",
+        "clockwork_raven__Root",
+        "clockwork_raven__Tail",
+        "clockwork_raven__Wheel",
+        "clockwork_raven__WingL",
+        "clockwork_raven__WingR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "coin_crawler",
+      "meshId": "rbxassetid://74159266876686",
+      "expectedMeshId": "rbxassetid://74159266876686",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11319,
+          "buildBytes": 11319,
+          "expectedPayloadSHA256": "1c249268a77e5017ffcc8d3f6c8e69e3596a5714e7925f43ef976b3f395d053a",
+          "buildPayloadSHA256": "1c249268a77e5017ffcc8d3f6c8e69e3596a5714e7925f43ef976b3f395d053a"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.79999876,
+        3.20000029,
+        4.0999999
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "coin_crawler__CoinLid",
+        "coin_crawler__Gaze",
+        "coin_crawler__Knee0",
+        "coin_crawler__Knee1",
+        "coin_crawler__Knee2",
+        "coin_crawler__Knee3",
+        "coin_crawler__Leg0",
+        "coin_crawler__Leg1",
+        "coin_crawler__Leg2",
+        "coin_crawler__Leg3",
+        "coin_crawler__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "cold_teacup",
+      "meshId": "rbxassetid://134975446540424",
+      "expectedMeshId": "rbxassetid://134975446540424",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 10973,
+          "buildBytes": 10973,
+          "expectedPayloadSHA256": "4b97deda472de31c386f1ebc0925da79c27362340a0af929aa12dec8da398300",
+          "buildPayloadSHA256": "4b97deda472de31c386f1ebc0925da79c27362340a0af929aa12dec8da398300"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        4.99999952,
+        4.90000057,
+        4.87594366
+      ],
+      "boneCount": 3,
+      "boneNames": [
+        "cold_teacup__Root",
+        "cold_teacup__Steam",
+        "cold_teacup__SteamTip"
+      ],
+      "passed": true
+    },
+    {
+      "id": "crown_of_silence",
+      "meshId": "rbxassetid://90205601263704",
+      "expectedMeshId": "rbxassetid://90205601263704",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 14506,
+          "buildBytes": 14506,
+          "expectedPayloadSHA256": "7c64e94fcc1312e312db9d5ae933f959fbc81fbe2b5b027808909c0d336d9025",
+          "buildPayloadSHA256": "7c64e94fcc1312e312db9d5ae933f959fbc81fbe2b5b027808909c0d336d9025"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        8.79873753,
+        11.6999998,
+        4.32272196
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "crown_of_silence__Crown0",
+        "crown_of_silence__Crown1",
+        "crown_of_silence__Crown2",
+        "crown_of_silence__Crown3",
+        "crown_of_silence__Robe0",
+        "crown_of_silence__Robe1",
+        "crown_of_silence__Robe2",
+        "crown_of_silence__Robe3",
+        "crown_of_silence__Root",
+        "crown_of_silence__SleeveL",
+        "crown_of_silence__SleeveR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "crying_mask",
+      "meshId": "rbxassetid://91122947095681",
+      "expectedMeshId": "rbxassetid://91122947095681",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 7395,
+          "buildBytes": 7395,
+          "expectedPayloadSHA256": "b901d1ce3c561bb5f7584007b4eed6127d7aa913d6728f45681ffef9c6a8d316",
+          "buildPayloadSHA256": "b901d1ce3c561bb5f7584007b4eed6127d7aa913d6728f45681ffef9c6a8d316"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.52923727,
+        5.79999971,
+        1.61599922
+      ],
+      "boneCount": 4,
+      "boneNames": [
+        "crying_mask__Root",
+        "crying_mask__Sorrow",
+        "crying_mask__TieL",
+        "crying_mask__TieR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "cursed_doll",
+      "meshId": "rbxassetid://78524965466136",
+      "expectedMeshId": "rbxassetid://78524965466136",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11587,
+          "buildBytes": 11587,
+          "expectedPayloadSHA256": "221c94c7ef13d6910ccd306427828b479a1ec445c73c124f73f81f83d08245a9",
+          "buildPayloadSHA256": "221c94c7ef13d6910ccd306427828b479a1ec445c73c124f73f81f83d08245a9"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        2.96575022,
+        4.79999971,
+        2.06224322
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "ArmL",
+        "ArmR",
+        "Dress",
+        "FootL",
+        "FootR",
+        "HandL",
+        "HandR",
+        "Head",
+        "LegL",
+        "LegR",
+        "Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "eclipse_stag",
+      "meshId": "rbxassetid://93097877530969",
+      "expectedMeshId": "rbxassetid://93097877530969",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 10419,
+          "buildBytes": 10419,
+          "expectedPayloadSHA256": "34022997f765eb609eb08dada049f582a112758dc6ed183b8b1dbfa6621cc45f",
+          "buildPayloadSHA256": "34022997f765eb609eb08dada049f582a112758dc6ed183b8b1dbfa6621cc45f"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.504951,
+        8.59999943,
+        2.52158594
+      ],
+      "boneCount": 12,
+      "boneNames": [
+        "eclipse_stag__Head",
+        "eclipse_stag__Knee0",
+        "eclipse_stag__Knee1",
+        "eclipse_stag__Knee2",
+        "eclipse_stag__Knee3",
+        "eclipse_stag__Leg0",
+        "eclipse_stag__Leg1",
+        "eclipse_stag__Leg2",
+        "eclipse_stag__Leg3",
+        "eclipse_stag__Mane",
+        "eclipse_stag__Root",
+        "eclipse_stag__Tail"
+      ],
+      "passed": true
+    },
+    {
+      "id": "endless_library",
+      "meshId": "rbxassetid://108899671617263",
+      "expectedMeshId": "rbxassetid://108899671617263",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 10321,
+          "buildBytes": 10321,
+          "expectedPayloadSHA256": "594be1f610f1b8535a0f68fcae768e71c90f18ea339c13decea665e9af518c99",
+          "buildPayloadSHA256": "594be1f610f1b8535a0f68fcae768e71c90f18ea339c13decea665e9af518c99"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.724617,
+        7.30000067,
+        2.68324423
+      ],
+      "boneCount": 15,
+      "boneNames": [
+        "endless_library__Book0",
+        "endless_library__Book1",
+        "endless_library__Book2",
+        "endless_library__Bookmarks",
+        "endless_library__Knee0",
+        "endless_library__Knee1",
+        "endless_library__Knee2",
+        "endless_library__Knee3",
+        "endless_library__Leg0",
+        "endless_library__Leg1",
+        "endless_library__Leg2",
+        "endless_library__Leg3",
+        "endless_library__PageL",
+        "endless_library__PageR",
+        "endless_library__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "grave_compass",
+      "meshId": "rbxassetid://121930534862207",
+      "expectedMeshId": "rbxassetid://121930534862207",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 17486,
+          "buildBytes": 17486,
+          "expectedPayloadSHA256": "7d9bc87371a25766889d31cc856a9b99eaaa0a220627701c74469ece796572f4",
+          "buildPayloadSHA256": "7d9bc87371a25766889d31cc856a9b99eaaa0a220627701c74469ece796572f4"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        7.09202099,
+        5.4000001,
+        1.63179636
+      ],
+      "boneCount": 4,
+      "boneNames": [
+        "grave_compass__Lid",
+        "grave_compass__Needle",
+        "grave_compass__Ring",
+        "grave_compass__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "grave_hopper",
+      "meshId": "rbxassetid://130614622379245",
+      "expectedMeshId": "rbxassetid://130614622379245",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11490,
+          "buildBytes": 11490,
+          "expectedPayloadSHA256": "39d88892ef0333dd9a3af43b333a4c830766113e3e709fe1c1a8f6f57292410b",
+          "buildPayloadSHA256": "39d88892ef0333dd9a3af43b333a4c830766113e3e709fe1c1a8f6f57292410b"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        4.07361078,
+        4.19999981,
+        2.71977949
+      ],
+      "boneCount": 10,
+      "boneNames": [
+        "grave_hopper__Knee0",
+        "grave_hopper__Knee1",
+        "grave_hopper__Knee2",
+        "grave_hopper__Knee3",
+        "grave_hopper__Leg0",
+        "grave_hopper__Leg1",
+        "grave_hopper__Leg2",
+        "grave_hopper__Leg3",
+        "grave_hopper__Root",
+        "grave_hopper__Shell"
+      ],
+      "passed": true
+    },
+    {
+      "id": "grave_key",
+      "meshId": "rbxassetid://113999996204033",
+      "expectedMeshId": "rbxassetid://113999996204033",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 8370,
+          "buildBytes": 8370,
+          "expectedPayloadSHA256": "13369633dffbd8fb7a64a5120f2d02728844519ab41d6b92d5b178c7e34d6444",
+          "buildPayloadSHA256": "13369633dffbd8fb7a64a5120f2d02728844519ab41d6b92d5b178c7e34d6444"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.87410736,
+        4.5999999,
+        0.952826142
+      ],
+      "boneCount": 6,
+      "boneNames": [
+        "grave_key__Knee0",
+        "grave_key__Knee1",
+        "grave_key__Leg0",
+        "grave_key__Leg1",
+        "grave_key__Root",
+        "grave_key__Scarf"
+      ],
+      "passed": true
+    },
+    {
+      "id": "haunted_mirror",
+      "meshId": "rbxassetid://103880133201902",
+      "expectedMeshId": "rbxassetid://103880133201902",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 8214,
+          "buildBytes": 8214,
+          "expectedPayloadSHA256": "f9313a7e272488392a32054796649a3569e8da21bfe3108ae3607ce61d8cab98",
+          "buildPayloadSHA256": "f9313a7e272488392a32054796649a3569e8da21bfe3108ae3607ce61d8cab98"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.56011963,
+        7.0,
+        0.709698439
+      ],
+      "boneCount": 7,
+      "boneNames": [
+        "haunted_mirror__GhostHead",
+        "haunted_mirror__Knee0",
+        "haunted_mirror__Knee1",
+        "haunted_mirror__Leg0",
+        "haunted_mirror__Leg1",
+        "haunted_mirror__Reflection",
+        "haunted_mirror__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "hollow_throne",
+      "meshId": "rbxassetid://124107645513629",
+      "expectedMeshId": "rbxassetid://124107645513629",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11116,
+          "buildBytes": 11116,
+          "expectedPayloadSHA256": "82f6947be936292cd454486034b072ba057cadae3b81b7956cfc8aa6a482f77d",
+          "buildPayloadSHA256": "82f6947be936292cd454486034b072ba057cadae3b81b7956cfc8aa6a482f77d"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.09801865,
+        10.0,
+        4.28224468
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "hollow_throne__Ghost",
+        "hollow_throne__Knee0",
+        "hollow_throne__Knee1",
+        "hollow_throne__Knee2",
+        "hollow_throne__Knee3",
+        "hollow_throne__Leg0",
+        "hollow_throne__Leg1",
+        "hollow_throne__Leg2",
+        "hollow_throne__Leg3",
+        "hollow_throne__Mantle",
+        "hollow_throne__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "hollow_violin",
+      "meshId": "rbxassetid://74267295029639",
+      "expectedMeshId": "rbxassetid://74267295029639",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 9913,
+          "buildBytes": 9913,
+          "expectedPayloadSHA256": "aa93e832d1624a2266af394ecad38a1378b10207e81ce98fc1b080a25ce25f42",
+          "buildPayloadSHA256": "aa93e832d1624a2266af394ecad38a1378b10207e81ce98fc1b080a25ce25f42"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        2.71648121,
+        6.4000001,
+        1.41173697
+      ],
+      "boneCount": 9,
+      "boneNames": [
+        "hollow_violin__Knee0",
+        "hollow_violin__Knee1",
+        "hollow_violin__Leg0",
+        "hollow_violin__Leg1",
+        "hollow_violin__Root",
+        "hollow_violin__Scroll",
+        "hollow_violin__String0",
+        "hollow_violin__String1",
+        "hollow_violin__String2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "hourglass_hound",
+      "meshId": "rbxassetid://101906790725480",
+      "expectedMeshId": "rbxassetid://101906790725480",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11522,
+          "buildBytes": 11522,
+          "expectedPayloadSHA256": "104c5d82864ab074e5b4708830523dfad5b82af3f0c60f795b977746e7486b4c",
+          "buildPayloadSHA256": "104c5d82864ab074e5b4708830523dfad5b82af3f0c60f795b977746e7486b4c"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.80000257,
+        3.80000019,
+        2.27187252
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "hourglass_hound__Head",
+        "hourglass_hound__Knee0",
+        "hourglass_hound__Knee1",
+        "hourglass_hound__Knee2",
+        "hourglass_hound__Knee3",
+        "hourglass_hound__Leg0",
+        "hourglass_hound__Leg1",
+        "hourglass_hound__Leg2",
+        "hourglass_hound__Leg3",
+        "hourglass_hound__Root",
+        "hourglass_hound__Tail"
+      ],
+      "passed": true
+    },
+    {
+      "id": "ink_imp",
+      "meshId": "rbxassetid://78033505174804",
+      "expectedMeshId": "rbxassetid://78033505174804",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 9678,
+          "buildBytes": 9678,
+          "expectedPayloadSHA256": "f070640014f20a3ccdf42caec978b500defe13d21c68f76664d0e0cd8ca837c2",
+          "buildPayloadSHA256": "f070640014f20a3ccdf42caec978b500defe13d21c68f76664d0e0cd8ca837c2"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.66013026,
+        4.0,
+        1.29278159
+      ],
+      "boneCount": 5,
+      "boneNames": [
+        "ink_imp__HandL",
+        "ink_imp__HandR",
+        "ink_imp__Ink",
+        "ink_imp__Root",
+        "ink_imp__Tail"
+      ],
+      "passed": true
+    },
+    {
+      "id": "judgement_scales",
+      "meshId": "rbxassetid://114197388640805",
+      "expectedMeshId": "rbxassetid://114197388640805",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11085,
+          "buildBytes": 11085,
+          "expectedPayloadSHA256": "9eaa321ee0d53b6ae48003139f3699b8cad6d47570ab6f700e9fdcd19c1b181d",
+          "buildPayloadSHA256": "9eaa321ee0d53b6ae48003139f3699b8cad6d47570ab6f700e9fdcd19c1b181d"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        7.40432739,
+        7.5,
+        2.30328226
+      ],
+      "boneCount": 9,
+      "boneNames": [
+        "judgement_scales__BalanceL",
+        "judgement_scales__BalanceR",
+        "judgement_scales__Knee0",
+        "judgement_scales__Knee1",
+        "judgement_scales__Leg0",
+        "judgement_scales__Leg1",
+        "judgement_scales__PanL",
+        "judgement_scales__PanR",
+        "judgement_scales__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "lantern_lurker",
+      "meshId": "rbxassetid://123417911546532",
+      "expectedMeshId": "rbxassetid://123417911546532",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12195,
+          "buildBytes": 12195,
+          "expectedPayloadSHA256": "d3348d8bcf6c5cb6d456bd09815e3d7c5b2408ab035ef32bee1e6ce00b933276",
+          "buildPayloadSHA256": "d3348d8bcf6c5cb6d456bd09815e3d7c5b2408ab035ef32bee1e6ce00b933276"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.90599823,
+        4.5,
+        2.94785881
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "lantern_lurker__Captive",
+        "lantern_lurker__Handle",
+        "lantern_lurker__Knee0",
+        "lantern_lurker__Knee1",
+        "lantern_lurker__Knee2",
+        "lantern_lurker__Knee3",
+        "lantern_lurker__Leg0",
+        "lantern_lurker__Leg1",
+        "lantern_lurker__Leg2",
+        "lantern_lurker__Leg3",
+        "lantern_lurker__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "lost_locket",
+      "meshId": "rbxassetid://121053869610883",
+      "expectedMeshId": "rbxassetid://121053869610883",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 10675,
+          "buildBytes": 10675,
+          "expectedPayloadSHA256": "d5e46798e5048aaa59ce39964a38360bebc69dd60d38aa3ff49da3f8b2e8b232",
+          "buildPayloadSHA256": "d5e46798e5048aaa59ce39964a38360bebc69dd60d38aa3ff49da3f8b2e8b232"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        4.37793827,
+        4.5,
+        0.816697419
+      ],
+      "boneCount": 6,
+      "boneNames": [
+        "lost_locket__Cover",
+        "lost_locket__Finger0",
+        "lost_locket__Finger1",
+        "lost_locket__Finger2",
+        "lost_locket__Palm",
+        "lost_locket__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "marrow_dice",
+      "meshId": "rbxassetid://93842267716498",
+      "expectedMeshId": "rbxassetid://93842267716498",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 14618,
+          "buildBytes": 14618,
+          "expectedPayloadSHA256": "28fadcb7db020cf175da6fd6ca67032d330daafc360f706dad6265df9dece624",
+          "buildPayloadSHA256": "28fadcb7db020cf175da6fd6ca67032d330daafc360f706dad6265df9dece624"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        4.95104027,
+        4.19999981,
+        2.84374452
+      ],
+      "boneCount": 6,
+      "boneNames": [
+        "marrow_dice__DieL",
+        "marrow_dice__DieR",
+        "marrow_dice__Pip0",
+        "marrow_dice__Pip1",
+        "marrow_dice__Pip2",
+        "marrow_dice__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "mourning_ribbon",
+      "meshId": "rbxassetid://129627287179722",
+      "expectedMeshId": "rbxassetid://129627287179722",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 10456,
+          "buildBytes": 10456,
+          "expectedPayloadSHA256": "bd10bd362504c9a80ef893e98b48b7fd7feac1625ac25f90cb3b611679edf2ae",
+          "buildPayloadSHA256": "bd10bd362504c9a80ef893e98b48b7fd7feac1625ac25f90cb3b611679edf2ae"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.40000105,
+        4.79999971,
+        1.16270387
+      ],
+      "boneCount": 5,
+      "boneNames": [
+        "mourning_ribbon__LoopL",
+        "mourning_ribbon__LoopR",
+        "mourning_ribbon__Root",
+        "mourning_ribbon__TailL",
+        "mourning_ribbon__TailR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "music_box_dancer",
+      "meshId": "rbxassetid://79953489577090",
+      "expectedMeshId": "rbxassetid://79953489577090",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12272,
+          "buildBytes": 12272,
+          "expectedPayloadSHA256": "2f8625e00e3703326d76f3919cc0d2dc5fb2ab5ffb6bd08db7830ca9208d7d34",
+          "buildPayloadSHA256": "2f8625e00e3703326d76f3919cc0d2dc5fb2ab5ffb6bd08db7830ca9208d7d34"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        4.62886238,
+        5.60000038,
+        3.10159636
+      ],
+      "boneCount": 5,
+      "boneNames": [
+        "music_box_dancer__ArmR",
+        "music_box_dancer__Dancer",
+        "music_box_dancer__Head",
+        "music_box_dancer__Lid",
+        "music_box_dancer__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "nail_beetle",
+      "meshId": "rbxassetid://73295688458517",
+      "expectedMeshId": "rbxassetid://73295688458517",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11811,
+          "buildBytes": 11811,
+          "expectedPayloadSHA256": "88a00f3c7853ec6ab5698fd99f0a984b8baec36689687c7910166c475364dc7e",
+          "buildPayloadSHA256": "88a00f3c7853ec6ab5698fd99f0a984b8baec36689687c7910166c475364dc7e"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.60000038,
+        3.20000005,
+        5.40000057
+      ],
+      "boneCount": 14,
+      "boneNames": [
+        "nail_beetle__Knee0",
+        "nail_beetle__Knee1",
+        "nail_beetle__Knee2",
+        "nail_beetle__Knee3",
+        "nail_beetle__Knee4",
+        "nail_beetle__Knee5",
+        "nail_beetle__Leg0",
+        "nail_beetle__Leg1",
+        "nail_beetle__Leg2",
+        "nail_beetle__Leg3",
+        "nail_beetle__Leg4",
+        "nail_beetle__Leg5",
+        "nail_beetle__Nail",
+        "nail_beetle__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "nameless_door",
+      "meshId": "rbxassetid://86390949175351",
+      "expectedMeshId": "rbxassetid://86390949175351",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11017,
+          "buildBytes": 11017,
+          "expectedPayloadSHA256": "fbf66cf0cd6b92c5a367bd367cb4b0a38dddbb25f2abda536e34ecd4d94cddf3",
+          "buildPayloadSHA256": "fbf66cf0cd6b92c5a367bd367cb4b0a38dddbb25f2abda536e34ecd4d94cddf3"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        8.6588316,
+        9.99506855,
+        6.0
+      ],
+      "boneCount": 7,
+      "boneNames": [
+        "nameless_door__Door",
+        "nameless_door__Knee0",
+        "nameless_door__Knee1",
+        "nameless_door__Leg0",
+        "nameless_door__Leg1",
+        "nameless_door__LintelMoss",
+        "nameless_door__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "night_harp",
+      "meshId": "rbxassetid://113686383003044",
+      "expectedMeshId": "rbxassetid://113686383003044",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12482,
+          "buildBytes": 12482,
+          "expectedPayloadSHA256": "66a873b71e3358b68cd00b14655db7cf9757b6d72a9b2068ee682386e17369cb",
+          "buildPayloadSHA256": "66a873b71e3358b68cd00b14655db7cf9757b6d72a9b2068ee682386e17369cb"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.73497868,
+        7.9000001,
+        2.85757065
+      ],
+      "boneCount": 14,
+      "boneNames": [
+        "night_harp__Head",
+        "night_harp__Knee0",
+        "night_harp__Knee1",
+        "night_harp__Knee2",
+        "night_harp__Knee3",
+        "night_harp__Leg0",
+        "night_harp__Leg1",
+        "night_harp__Leg2",
+        "night_harp__Leg3",
+        "night_harp__Root",
+        "night_harp__String0",
+        "night_harp__String1",
+        "night_harp__String2",
+        "night_harp__String3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "pale_gramophone",
+      "meshId": "rbxassetid://104753530967365",
+      "expectedMeshId": "rbxassetid://104753530967365",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 15128,
+          "buildBytes": 15128,
+          "expectedPayloadSHA256": "33cadf462dfdb98ae0118ca4b1b7885122566b4aee88de703a0fe86e14c0f7e5",
+          "buildPayloadSHA256": "33cadf462dfdb98ae0118ca4b1b7885122566b4aee88de703a0fe86e14c0f7e5"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.53444672,
+        6.19999981,
+        4.38619947
+      ],
+      "boneCount": 12,
+      "boneNames": [
+        "pale_gramophone__Crank",
+        "pale_gramophone__Horn",
+        "pale_gramophone__Knee0",
+        "pale_gramophone__Knee1",
+        "pale_gramophone__Knee2",
+        "pale_gramophone__Knee3",
+        "pale_gramophone__Leg0",
+        "pale_gramophone__Leg1",
+        "pale_gramophone__Leg2",
+        "pale_gramophone__Leg3",
+        "pale_gramophone__Record",
+        "pale_gramophone__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "pale_guest",
+      "meshId": "rbxassetid://72620754242624",
+      "expectedMeshId": "rbxassetid://72620754242624",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 9383,
+          "buildBytes": 9383,
+          "expectedPayloadSHA256": "410c74e1ce13a86e32434dc8a1fd873bc469ad7154c9b572e74eb4be595f0491",
+          "buildPayloadSHA256": "410c74e1ce13a86e32434dc8a1fd873bc469ad7154c9b572e74eb4be595f0491"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.80000162,
+        4.80000019,
+        1.67999768
+      ],
+      "boneCount": 5,
+      "boneNames": [
+        "pale_guest__Ghost",
+        "pale_guest__GripL",
+        "pale_guest__GripR",
+        "pale_guest__Head",
+        "pale_guest__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "phantom_marionette",
+      "meshId": "rbxassetid://137095600537526",
+      "expectedMeshId": "rbxassetid://137095600537526",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 10138,
+          "buildBytes": 10138,
+          "expectedPayloadSHA256": "8fae867f9c85ca0f8abe6385fc1823b97b4a8016375abd0b5a59d59df55c7ee9",
+          "buildPayloadSHA256": "8fae867f9c85ca0f8abe6385fc1823b97b4a8016375abd0b5a59d59df55c7ee9"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.13585711,
+        7.80000067,
+        1.75917888
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "phantom_marionette__ArmL",
+        "phantom_marionette__ArmLTip",
+        "phantom_marionette__ArmR",
+        "phantom_marionette__ArmRTip",
+        "phantom_marionette__Body",
+        "phantom_marionette__Head",
+        "phantom_marionette__LegL",
+        "phantom_marionette__LegLTip",
+        "phantom_marionette__LegR",
+        "phantom_marionette__LegRTip",
+        "phantom_marionette__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "plague_monarch",
+      "meshId": "rbxassetid://104120516517868",
+      "expectedMeshId": "rbxassetid://104120516517868",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12842,
+          "buildBytes": 12842,
+          "expectedPayloadSHA256": "e781ca9373cddabf4031ad32d5409e1c5bbc860accba87a8ca4bfc2d6e7570fc",
+          "buildPayloadSHA256": "e781ca9373cddabf4031ad32d5409e1c5bbc860accba87a8ca4bfc2d6e7570fc"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.03478098,
+        9.30000019,
+        3.70094919
+      ],
+      "boneCount": 12,
+      "boneNames": [
+        "plague_monarch__Breath",
+        "plague_monarch__Crown",
+        "plague_monarch__Leg0",
+        "plague_monarch__Leg1",
+        "plague_monarch__Leg2",
+        "plague_monarch__Leg3",
+        "plague_monarch__Mask",
+        "plague_monarch__Root",
+        "plague_monarch__Shin0",
+        "plague_monarch__Shin1",
+        "plague_monarch__Shin2",
+        "plague_monarch__Shin3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "raven_quill",
+      "meshId": "rbxassetid://90916932998054",
+      "expectedMeshId": "rbxassetid://90916932998054",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12285,
+          "buildBytes": 12285,
+          "expectedPayloadSHA256": "24b17a3a08c4bc142138866911c951819a4723b1e4c2a2a8fa96512d46971c8a",
+          "buildPayloadSHA256": "24b17a3a08c4bc142138866911c951819a4723b1e4c2a2a8fa96512d46971c8a"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.19999743,
+        6.40000057,
+        2.40000105
+      ],
+      "boneCount": 8,
+      "boneNames": [
+        "raven_quill__BarbsL",
+        "raven_quill__BarbsR",
+        "raven_quill__Knee0",
+        "raven_quill__Knee1",
+        "raven_quill__Leg0",
+        "raven_quill__Leg1",
+        "raven_quill__Nib",
+        "raven_quill__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "silent_choir",
+      "meshId": "rbxassetid://87571819872933",
+      "expectedMeshId": "rbxassetid://87571819872933",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12347,
+          "buildBytes": 12347,
+          "expectedPayloadSHA256": "c6a7b0e3f41bf72ac70cc8d13ca160a3d1fade99e6b0d0d577e4aefc7d689a1f",
+          "buildPayloadSHA256": "c6a7b0e3f41bf72ac70cc8d13ca160a3d1fade99e6b0d0d577e4aefc7d689a1f"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        7.38966036,
+        7.99999905,
+        2.20007491
+      ],
+      "boneCount": 7,
+      "boneNames": [
+        "silent_choir__Bell0",
+        "silent_choir__Bell1",
+        "silent_choir__Bell2",
+        "silent_choir__Root",
+        "silent_choir__Singer0",
+        "silent_choir__Singer1",
+        "silent_choir__Singer2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "sleepwalker_shoes",
+      "meshId": "rbxassetid://119875011262633",
+      "expectedMeshId": "rbxassetid://119875011262633",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 18654,
+          "buildBytes": 18654,
+          "expectedPayloadSHA256": "9f358b5ace9c438efa0968474a2383b8e194730765adb998e40e352bd24ad144",
+          "buildPayloadSHA256": "9f358b5ace9c438efa0968474a2383b8e194730765adb998e40e352bd24ad144"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.58745289,
+        4.29999971,
+        4.68665981
+      ],
+      "boneCount": 3,
+      "boneNames": [
+        "sleepwalker_shoes__Boot0",
+        "sleepwalker_shoes__Boot1",
+        "sleepwalker_shoes__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "sorrow_chalice",
+      "meshId": "rbxassetid://101252314858213",
+      "expectedMeshId": "rbxassetid://101252314858213",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12976,
+          "buildBytes": 12976,
+          "expectedPayloadSHA256": "27c4e787026fc38ec16413a112b9f99d8dcdf2ee1d541df8dfacaa1a566ad3e5",
+          "buildPayloadSHA256": "27c4e787026fc38ec16413a112b9f99d8dcdf2ee1d541df8dfacaa1a566ad3e5"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.77386165,
+        5.60000038,
+        3.41322637
+      ],
+      "boneCount": 5,
+      "boneNames": [
+        "sorrow_chalice__Drop0",
+        "sorrow_chalice__Drop1",
+        "sorrow_chalice__Drop2",
+        "sorrow_chalice__Root",
+        "sorrow_chalice__Spirit"
+      ],
+      "passed": true
+    },
+    {
+      "id": "soul_chains",
+      "meshId": "rbxassetid://111986162294773",
+      "expectedMeshId": "rbxassetid://111986162294773",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 13900,
+          "buildBytes": 13900,
+          "expectedPayloadSHA256": "24897b6b39b7012c597356be690acd24350116b05aa12b4f4504e75b5878d258",
+          "buildPayloadSHA256": "24897b6b39b7012c597356be690acd24350116b05aa12b4f4504e75b5878d258"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        6.61177778,
+        9.5,
+        2.39503193
+      ],
+      "boneCount": 24,
+      "boneNames": [
+        "ChainL0",
+        "ChainL1",
+        "ChainL2",
+        "ChainL3",
+        "ChainL4",
+        "ChainL5",
+        "ChainR0",
+        "ChainR1",
+        "ChainR2",
+        "ChainR3",
+        "ChainR4",
+        "ChainR5",
+        "Core",
+        "CrownLink0",
+        "CrownLink1",
+        "CrownLink2",
+        "CrownLink3",
+        "CrownLink4",
+        "CrownLink5",
+        "CrownLink6",
+        "CuffL",
+        "CuffR",
+        "Hook",
+        "Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "sundial_sentinel",
+      "meshId": "rbxassetid://79426701982201",
+      "expectedMeshId": "rbxassetid://79426701982201",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12820,
+          "buildBytes": 12820,
+          "expectedPayloadSHA256": "866c3e0aa7dac4350b1042409635b52720f42effc24a5eced9b57cf7723f7b79",
+          "buildPayloadSHA256": "866c3e0aa7dac4350b1042409635b52720f42effc24a5eced9b57cf7723f7b79"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        4.23760986,
+        5.70000029,
+        1.5562886
+      ],
+      "boneCount": 6,
+      "boneNames": [
+        "sundial_sentinel__Knee0",
+        "sundial_sentinel__Knee1",
+        "sundial_sentinel__Leg0",
+        "sundial_sentinel__Leg1",
+        "sundial_sentinel__Root",
+        "sundial_sentinel__Shadow"
+      ],
+      "passed": true
+    },
+    {
+      "id": "sunken_crown",
+      "meshId": "rbxassetid://91121993644042",
+      "expectedMeshId": "rbxassetid://91121993644042",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 13928,
+          "buildBytes": 13928,
+          "expectedPayloadSHA256": "4e4e7938ac7a55b8c2b1aa418c4d4295b7ffe24af9a7366765eee1f5f67c6b03",
+          "buildPayloadSHA256": "4e4e7938ac7a55b8c2b1aa418c4d4295b7ffe24af9a7366765eee1f5f67c6b03"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.79839325,
+        7.20000029,
+        5.28401947
+      ],
+      "boneCount": 13,
+      "boneNames": [
+        "sunken_crown__Root",
+        "sunken_crown__Tendril0",
+        "sunken_crown__Tendril1",
+        "sunken_crown__Tendril2",
+        "sunken_crown__Tendril3",
+        "sunken_crown__Tendril4",
+        "sunken_crown__Tendril5",
+        "sunken_crown__Tip0",
+        "sunken_crown__Tip1",
+        "sunken_crown__Tip2",
+        "sunken_crown__Tip3",
+        "sunken_crown__Tip4",
+        "sunken_crown__Tip5"
+      ],
+      "passed": true
+    },
+    {
+      "id": "the_first_grave",
+      "meshId": "rbxassetid://77848586399024",
+      "expectedMeshId": "rbxassetid://77848586399024",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 10299,
+          "buildBytes": 10299,
+          "expectedPayloadSHA256": "b5ce40f4d900024541bf845c8ffd1460c43c69fe89bade38da336a2a0cf1dae4",
+          "buildPayloadSHA256": "b5ce40f4d900024541bf845c8ffd1460c43c69fe89bade38da336a2a0cf1dae4"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        8.96121407,
+        10.7999992,
+        2.73687983
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "the_first_grave__ArmL",
+        "the_first_grave__ArmR",
+        "the_first_grave__FingersL",
+        "the_first_grave__FingersR",
+        "the_first_grave__Knee0",
+        "the_first_grave__Knee1",
+        "the_first_grave__Leg0",
+        "the_first_grave__Leg1",
+        "the_first_grave__MossL",
+        "the_first_grave__MossR",
+        "the_first_grave__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "the_last_funeral",
+      "meshId": "rbxassetid://80720698097324",
+      "expectedMeshId": "rbxassetid://80720698097324",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 8306,
+          "buildBytes": 8306,
+          "expectedPayloadSHA256": "246b0a260d00f2e13bb5c3da037e97078cac6159633b3d52fc46dba0da9a7a5c",
+          "buildPayloadSHA256": "246b0a260d00f2e13bb5c3da037e97078cac6159633b3d52fc46dba0da9a7a5c"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        10.5999994,
+        8.89999962,
+        5.6794138
+      ],
+      "boneCount": 9,
+      "boneNames": [
+        "the_last_funeral__Knee0",
+        "the_last_funeral__Knee1",
+        "the_last_funeral__Knee2",
+        "the_last_funeral__Knee3",
+        "the_last_funeral__Leg0",
+        "the_last_funeral__Leg1",
+        "the_last_funeral__Leg2",
+        "the_last_funeral__Leg3",
+        "the_last_funeral__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "the_last_star",
+      "meshId": "rbxassetid://120800608135396",
+      "expectedMeshId": "rbxassetid://120800608135396",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 12897,
+          "buildBytes": 12897,
+          "expectedPayloadSHA256": "70c908e330594acf272a50198bc86c68d5e72f3e238ee715fb4160446f33aba6",
+          "buildPayloadSHA256": "70c908e330594acf272a50198bc86c68d5e72f3e238ee715fb4160446f33aba6"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        8.49999905,
+        11.3999996,
+        4.79999924
+      ],
+      "boneCount": 15,
+      "boneNames": [
+        "the_last_star__ArmL",
+        "the_last_star__ArmR",
+        "the_last_star__Helm",
+        "the_last_star__Knee0",
+        "the_last_star__Knee1",
+        "the_last_star__Knee2",
+        "the_last_star__Knee3",
+        "the_last_star__Leg0",
+        "the_last_star__Leg1",
+        "the_last_star__Leg2",
+        "the_last_star__Leg3",
+        "the_last_star__Root",
+        "the_last_star__Star",
+        "the_last_star__TalonsL",
+        "the_last_star__TalonsR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "the_undertow",
+      "meshId": "rbxassetid://138985494357393",
+      "expectedMeshId": "rbxassetid://138985494357393",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11885,
+          "buildBytes": 11885,
+          "expectedPayloadSHA256": "b91db83fcc4bb0f099102e1d775614cd73cb45262c83a5abe97f94b281b2fbd3",
+          "buildPayloadSHA256": "b91db83fcc4bb0f099102e1d775614cd73cb45262c83a5abe97f94b281b2fbd3"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        10.8440151,
+        9.60000038,
+        4.7693882
+      ],
+      "boneCount": 6,
+      "boneNames": [
+        "the_undertow__BladeL",
+        "the_undertow__BladeR",
+        "the_undertow__Clapper",
+        "the_undertow__Hanger",
+        "the_undertow__Root",
+        "the_undertow__Vortex"
+      ],
+      "passed": true
+    },
+    {
+      "id": "the_unwritten",
+      "meshId": "rbxassetid://83389959423516",
+      "expectedMeshId": "rbxassetid://83389959423516",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 15040,
+          "buildBytes": 15040,
+          "expectedPayloadSHA256": "b036eaa3e546120497ea6cc7f8ffb38c62d21977395dc2f1b839c55ee69601ad",
+          "buildPayloadSHA256": "b036eaa3e546120497ea6cc7f8ffb38c62d21977395dc2f1b839c55ee69601ad"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        9.57659912,
+        11.6999998,
+        4.09158325
+      ],
+      "boneCount": 10,
+      "boneNames": [
+        "the_unwritten__Head",
+        "the_unwritten__PageTail0",
+        "the_unwritten__PageTail1",
+        "the_unwritten__PageTail2",
+        "the_unwritten__PageTail3",
+        "the_unwritten__Root",
+        "the_unwritten__SleeveL",
+        "the_unwritten__SleeveR",
+        "the_unwritten__WritingHandL",
+        "the_unwritten__WritingHandR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "the_void",
+      "meshId": "rbxassetid://72905956993942",
+      "expectedMeshId": "rbxassetid://72905956993942",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11548,
+          "buildBytes": 11548,
+          "expectedPayloadSHA256": "dee89e6d905fd6ee80b3ea9f96d6be5a5931d0e696d39382162421f1bb677082",
+          "buildPayloadSHA256": "dee89e6d905fd6ee80b3ea9f96d6be5a5931d0e696d39382162421f1bb677082"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        10.2645016,
+        12.5999994,
+        1.9604094
+      ],
+      "boneCount": 9,
+      "boneNames": [
+        "the_void__ArcBase",
+        "the_void__ArcL",
+        "the_void__ArcR",
+        "the_void__Root",
+        "the_void__Shard0",
+        "the_void__Shard1",
+        "the_void__Shard2",
+        "the_void__Shard3",
+        "the_void__Shard4"
+      ],
+      "passed": true
+    },
+    {
+      "id": "thimble_spider",
+      "meshId": "rbxassetid://119696227522152",
+      "expectedMeshId": "rbxassetid://119696227522152",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 16515,
+          "buildBytes": 16515,
+          "expectedPayloadSHA256": "df5990dc36ce95954668af5ef49bef8319654a63cc9fc01ffd5532426f36a732",
+          "buildPayloadSHA256": "df5990dc36ce95954668af5ef49bef8319654a63cc9fc01ffd5532426f36a732"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.85975409,
+        3.59999967,
+        3.26205134
+      ],
+      "boneCount": 18,
+      "boneNames": [
+        "thimble_spider__Fangs",
+        "thimble_spider__Knee0",
+        "thimble_spider__Knee1",
+        "thimble_spider__Knee2",
+        "thimble_spider__Knee3",
+        "thimble_spider__Knee4",
+        "thimble_spider__Knee5",
+        "thimble_spider__Knee6",
+        "thimble_spider__Knee7",
+        "thimble_spider__Leg0",
+        "thimble_spider__Leg1",
+        "thimble_spider__Leg2",
+        "thimble_spider__Leg3",
+        "thimble_spider__Leg4",
+        "thimble_spider__Leg5",
+        "thimble_spider__Leg6",
+        "thimble_spider__Leg7",
+        "thimble_spider__Root"
+      ],
+      "passed": true
+    },
+    {
+      "id": "thorn_cathedral",
+      "meshId": "rbxassetid://73995878925062",
+      "expectedMeshId": "rbxassetid://73995878925062",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 8699,
+          "buildBytes": 8699,
+          "expectedPayloadSHA256": "4e1bb6a2536d388288e3f3ffebaedfc96db9bfeeadfab330e5e2d78ec68ccd9f",
+          "buildPayloadSHA256": "4e1bb6a2536d388288e3f3ffebaedfc96db9bfeeadfab330e5e2d78ec68ccd9f"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.59999847,
+        8.19999981,
+        3.99471331
+      ],
+      "boneCount": 11,
+      "boneNames": [
+        "thorn_cathedral__Belfry",
+        "thorn_cathedral__Knee0",
+        "thorn_cathedral__Knee1",
+        "thorn_cathedral__Knee2",
+        "thorn_cathedral__Knee3",
+        "thorn_cathedral__Leg0",
+        "thorn_cathedral__Leg1",
+        "thorn_cathedral__Leg2",
+        "thorn_cathedral__Leg3",
+        "thorn_cathedral__Root",
+        "thorn_cathedral__RoseWindow"
+      ],
+      "passed": true
+    },
+    {
+      "id": "thorn_reliquary",
+      "meshId": "rbxassetid://88712433437774",
+      "expectedMeshId": "rbxassetid://88712433437774",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 14271,
+          "buildBytes": 14271,
+          "expectedPayloadSHA256": "33a2acdbdc695ee9d6282e748eac0acddc02644c569aebeac1eb55fabfa89143",
+          "buildPayloadSHA256": "33a2acdbdc695ee9d6282e748eac0acddc02644c569aebeac1eb55fabfa89143"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.14622879,
+        6.5,
+        3.14758396
+      ],
+      "boneCount": 3,
+      "boneNames": [
+        "thorn_reliquary__Root",
+        "thorn_reliquary__Thorn",
+        "thorn_reliquary__ThornTip"
+      ],
+      "passed": true
+    },
+    {
+      "id": "umbrella_wraith",
+      "meshId": "rbxassetid://128916833526652",
+      "expectedMeshId": "rbxassetid://128916833526652",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 7975,
+          "buildBytes": 7975,
+          "expectedPayloadSHA256": "ead9fac4cc27cbf7559a486e0a00056d53108e2603238c27646a8acab16968a9",
+          "buildPayloadSHA256": "ead9fac4cc27cbf7559a486e0a00056d53108e2603238c27646a8acab16968a9"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        5.59154129,
+        5.19999981,
+        2.80000067
+      ],
+      "boneCount": 5,
+      "boneNames": [
+        "umbrella_wraith__RagL",
+        "umbrella_wraith__RagR",
+        "umbrella_wraith__Root",
+        "umbrella_wraith__WingL",
+        "umbrella_wraith__WingR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "veil_mourner",
+      "meshId": "rbxassetid://137006334533562",
+      "expectedMeshId": "rbxassetid://137006334533562",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 13447,
+          "buildBytes": 13447,
+          "expectedPayloadSHA256": "876235e66b692d40a6b61dbbef9674aaec04987cf497557b81065f7de9d4ed6f",
+          "buildPayloadSHA256": "876235e66b692d40a6b61dbbef9674aaec04987cf497557b81065f7de9d4ed6f"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        4.57463217,
+        6.10000038,
+        2.86311293
+      ],
+      "boneCount": 6,
+      "boneNames": [
+        "veil_mourner__Comb",
+        "veil_mourner__HandL",
+        "veil_mourner__HandR",
+        "veil_mourner__Root",
+        "veil_mourner__VeilL",
+        "veil_mourner__VeilR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "watching_eye",
+      "meshId": "rbxassetid://81484326253720",
+      "expectedMeshId": "rbxassetid://81484326253720",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 14677,
+          "buildBytes": 14677,
+          "expectedPayloadSHA256": "df2448cb5cec80de0bd67e6c3a8dbf6eaaca73ad6a071b075e8875f2f67079eb",
+          "buildPayloadSHA256": "df2448cb5cec80de0bd67e6c3a8dbf6eaaca73ad6a071b075e8875f2f67079eb"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        9.59751892,
+        6.5,
+        2.23253322
+      ],
+      "boneCount": 21,
+      "boneNames": [
+        "ArmL",
+        "ArmR",
+        "FingerL0",
+        "FingerL1",
+        "FingerL2",
+        "FingerL3",
+        "FingerR0",
+        "FingerR1",
+        "FingerR2",
+        "FingerR3",
+        "ForearmL",
+        "ForearmR",
+        "Gaze",
+        "HandL",
+        "HandR",
+        "Iris",
+        "LidLower",
+        "LidUpper",
+        "Root",
+        "ThumbL",
+        "ThumbR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "wilted_sprout",
+      "meshId": "rbxassetid://88036556724682",
+      "expectedMeshId": "rbxassetid://88036556724682",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 11261,
+          "buildBytes": 11261,
+          "expectedPayloadSHA256": "ccd794451679e98ba9eb3a862d3d14beca1c5fbcfc051c0bcfbb3c275a6db1c9",
+          "buildPayloadSHA256": "ccd794451679e98ba9eb3a862d3d14beca1c5fbcfc051c0bcfbb3c275a6db1c9"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        3.76592231,
+        4.79999971,
+        1.96295357
+      ],
+      "boneCount": 4,
+      "boneNames": [
+        "wilted_sprout__Bloom",
+        "wilted_sprout__Leaf",
+        "wilted_sprout__Root",
+        "wilted_sprout__Stem"
+      ],
+      "passed": true
+    },
+    {
+      "id": "worldroot",
+      "meshId": "rbxassetid://83034008360017",
+      "expectedMeshId": "rbxassetid://83034008360017",
+      "hasSkinnedMesh": true,
+      "nativePhysicsProperties": {
+        "HasSkinnedMesh": {
+          "preserved": true
+        },
+        "HasJointOffset": {
+          "preserved": true
+        },
+        "JointOffset": {
+          "preserved": true
+        },
+        "InitialSize": {
+          "preserved": true
+        },
+        "PhysicsData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "PhysicalConfigData": {
+          "preserved": true,
+          "expectedBytes": 16648,
+          "buildBytes": 16648,
+          "expectedPayloadSHA256": "c4109139bdbd1d1d3490652f72a3a766dd7fadff83f2db28c0a1425e0c32d00b",
+          "buildPayloadSHA256": "c4109139bdbd1d1d3490652f72a3a766dd7fadff83f2db28c0a1425e0c32d00b"
+        },
+        "AeroMeshData": {
+          "preserved": true,
+          "expectedBytes": 0,
+          "buildBytes": 0,
+          "expectedPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "buildPayloadSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "InertiaMigrated": {
+          "preserved": true
+        },
+        "UnscaledCofm": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaDiags": {
+          "preserved": true
+        },
+        "UnscaledVolInertiaOffDiags": {
+          "preserved": true
+        },
+        "UnscaledVolume": {
+          "preserved": true
+        },
+        "VertexCount": {
+          "preserved": true
+        },
+        "FluidFidelityInternal": {
+          "preserved": true
+        }
+      },
+      "errors": [],
+      "size": [
+        7.89845085,
+        10.1999998,
+        3.79666996
+      ],
+      "boneCount": 14,
+      "boneNames": [
+        "worldroot__Knee0",
+        "worldroot__Knee1",
+        "worldroot__Knee2",
+        "worldroot__Knee3",
+        "worldroot__Leg0",
+        "worldroot__Leg1",
+        "worldroot__Leg2",
+        "worldroot__Leg3",
+        "worldroot__MossL",
+        "worldroot__MossR",
+        "worldroot__Root",
+        "worldroot__Seed",
+        "worldroot__TrunkL",
+        "worldroot__TrunkR"
+      ],
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "build": {
+      "path": "C:\\RobloxProjects\\StealACurse\\build-sanctuary-architecture-polish.rbxlx",
+      "bytes": 2506245,
+      "sha256": "ffe3eda19ccc155fd333f92aca2e25e4d47f1caddf88442307d754311e258956"
+    },
+    "project": {
+      "path": "C:\\RobloxProjects\\StealACurse\\default.project.json",
+      "bytes": 14263,
+      "sha256": "8f117f414c38983ad983656de1f73d92110d40dbcf2ee3fabde2d8ae6d2823f1"
+    },
+    "ledger": {
+      "path": "C:\\RobloxProjects\\StealACurse\\assets\\imports\\curse-animation-current.json",
+      "bytes": 388198,
+      "sha256": "7ee87142e8dc603f32895ff823023e611808c77fef5492ca78d46e473ef433a3"
+    },
+    "nativeKit": {
+      "path": "C:\\RobloxProjects\\StealACurse\\assets\\imports\\CurseMeshKit.rbxmx",
+      "bytes": 1855045,
+      "sha256": "4e0601012b1521540e181ca019f9c4148f929bb475dff9b0e5fe326d44461511"
+    },
+    "animationAssets": {
+      "path": "C:\\RobloxProjects\\StealACurse\\src\\shared\\CurseAnimationAssets.luau",
+      "bytes": 8318,
+      "sha256": "badc713a65fd6388fa6b059b357d8fa298384a3f51a5d13efba85ccf616e04fa"
+    }
+  },
+  "buildSHA256": "ffe3eda19ccc155fd333f92aca2e25e4d47f1caddf88442307d754311e258956",
+  "scriptSummary": {
+    "currentSourceFiles": 66,
+    "expectedScripts": 66,
+    "buildScripts": 66,
+    "exactMatches": 66,
+    "unexpectedScripts": []
+  },
+  "sharedStrings": {
+    "buildEntries": 59,
+    "nativeKitEntries": 57,
+    "allBuildReferencesResolved": true,
+    "nativePayloadsComparedAfterResolvingKeys": true
+  },
+  "templateSummary": {
+    "expected": 56,
+    "checked": 56,
+    "skinned": 56,
+    "passed": 56
+  }
+}

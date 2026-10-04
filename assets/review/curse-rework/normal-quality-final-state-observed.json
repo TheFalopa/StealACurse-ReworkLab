@@ -1,0 +1,39 @@
+{
+  "studioId": "c7deb1a3-7f8d-40d3-a722-5aff0d74a787",
+  "report": {
+    "qualityValueBytes": 138,
+    "galleryValueBytes": 46273,
+    "gallery": {
+      "PresentationOnly": true,
+      "DisplayCount": 5,
+      "Phase": "ready",
+      "TemplateCount": 50,
+      "EnabledSpawnCount": 56,
+      "CatalogCount": 56
+    },
+    "quality": {
+      "Completed": true,
+      "Publishing": false,
+      "PartCount": 2,
+      "Generation": 1,
+      "ReportByteCount": 120270,
+      "TotalByteCount": 120270,
+      "WarningCount": 0,
+      "FailureCount": 0
+    }
+  },
+  "scope": "Final direct Server report attributes confirm native Quality generation1 remains complete with zero failures/warnings and Gallery retains56enabled/50templates/5presentationclones. Full Quality/Gallery bodies were previously saved without truncation. Console endpoint returned a5000-character tail marked truncated; its exact returned bytes are preserved separately. AssistantCommand capability/PrimaryPart errors were observation-tool failures and are not native production test failures.",
+  "consoleTailMarkedTruncated": true,
+  "instrumentationNotes": [
+    {
+      "kind": "AssistantCommand require capability",
+      "count": 3,
+      "scope": "Earlier observation attempt produced no samples; module requires removed."
+    },
+    {
+      "kind": "AssistantCommand non-Model PrimaryPart",
+      "count": 1,
+      "scope": "Transient CursePulse Part is not an offer; corrected observation uses Model class guard."
+    }
+  ]
+}

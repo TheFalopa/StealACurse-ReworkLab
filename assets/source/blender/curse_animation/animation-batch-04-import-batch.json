@@ -1,0 +1,16 @@
+{
+  "ids": [
+    "sleepwalker_shoes",
+    "night_harp",
+    "thorn_cathedral",
+    "phantom_marionette",
+    "blood_moon_rose",
+    "judgement_scales",
+    "clockwork_raven",
+    "eclipse_stag",
+    "endless_library",
+    "sunken_crown"
+  ],
+  "fbx": "assets/export/meshes/curses/animations/animation-batch-04.fbx",
+  "sha256": "3e0377304e3132cce870992775b9fe8e2aa2bae0d58215c461245ba4326f5619"
+}

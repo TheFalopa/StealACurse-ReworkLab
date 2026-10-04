@@ -1,0 +1,104 @@
+{
+  "id": "mourning_ribbon",
+  "displayName": "Mourning Ribbon",
+  "rarity": "COMMON",
+  "sourceReference": "rework-01-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/mourning_ribbon.blend",
+  "export": "assets/export/meshes/curses/rework/mourning_ribbon.fbx",
+  "sha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+  "triangles": 1728,
+  "vertices": 904,
+  "blenderDimensions": [
+    3.799999952316284,
+    0.7315346002578735,
+    3.0199999809265137
+  ],
+  "intendedRobloxSize": [
+    3.799999952316284,
+    3.0199999809265137,
+    0.7315346002578735
+  ],
+  "diagonal": 4.908721054793636,
+  "vfxHook": [
+    0.0,
+    0.43000000476837164,
+    0.19545747275609432
+  ],
+  "vfxProfile": "mourning_stitch",
+  "palette": [
+    "bone",
+    "cloth",
+    "cloth_edge",
+    "ink"
+  ],
+  "paintedColorCount": 152,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "FuneralBowLoops",
+      "first_face": 0,
+      "last_face_exclusive": 452
+    },
+    {
+      "name": "StitchedMouth",
+      "first_face": 452,
+      "last_face_exclusive": 508
+    },
+    {
+      "name": "FloatingTatteredTails",
+      "first_face": 508,
+      "last_face_exclusive": 688
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Two volumetric funeral-bow loops, a stitched central knot and asymmetrically folded/frayed floating ribbon tails; no generic body."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/mourning_ribbon.blend",
+  "robloxIntendedSize": [
+    3.799999952316284,
+    3.0199999809265137,
+    0.7315346002578735
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    0.43000000476837164,
+    0.19545747275609432
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03799999877810478,
+      0.007315351162105799,
+      0.03020000085234642
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1728,
+    "colorCount": 152,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "mourning_ribbon",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

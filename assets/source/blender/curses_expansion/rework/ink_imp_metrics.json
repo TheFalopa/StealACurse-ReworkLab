@@ -1,0 +1,101 @@
+{
+  "id": "ink_imp",
+  "displayName": "Ink Imp",
+  "rarity": "COMMON",
+  "sourceReference": "rework-02-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/ink_imp.blend",
+  "export": "assets/export/meshes/curses/rework/ink_imp.fbx",
+  "sha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+  "triangles": 1772,
+  "vertices": 928,
+  "blenderDimensions": [
+    2.740211248397827,
+    0.96785968542099,
+    2.994659900665283
+  ],
+  "intendedRobloxSize": [
+    2.740211248397827,
+    2.994659900665283,
+    0.96785968542099
+  ],
+  "diagonal": 4.17294835543909,
+  "vfxHook": [
+    0.015000000000000013,
+    0.4473299995064737,
+    0.4489298148053115
+  ],
+  "vfxProfile": "ink_splatter",
+  "palette": [
+    "ink",
+    "ochre",
+    "paper",
+    "paper_light",
+    "red",
+    "white_glow"
+  ],
+  "paintedColorCount": 234,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "SealedLetter",
+      "first_face": 0,
+      "last_face_exclusive": 176
+    },
+    {
+      "name": "GlossyInkEntity",
+      "first_face": 176,
+      "last_face_exclusive": 802
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Substantially reworked letter-born ink entity: deep ink head with cream eyes, folded parchment ears, crawling ink tendrils and thick sealed envelope."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/ink_imp.blend",
+  "robloxIntendedSize": [
+    2.740211248397827,
+    2.994659900665283,
+    0.96785968542099
+  ],
+  "vfxHookRoblox": [
+    0.015000000000000013,
+    0.4473299995064737,
+    0.4489298148053115
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.027402112260460854,
+      0.009678601287305355,
+      0.029946601018309593
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1772,
+    "colorCount": 234,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "ink_imp",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

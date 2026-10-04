@@ -1,0 +1,132 @@
+{
+  "status": "PASS_OBSERVED_SCOPE",
+  "date": "2026-10-03",
+  "device": "Studio iPhone 7 landscape; TouchEnabled=true; viewport 666x374",
+  "input": "Native UI taps using @oai/sky. Character/camera positions arranged for specific interactions; not a mobile walking or physical-phone benchmark.",
+  "actions": [
+    "Claim own Base04",
+    "Open altar and tabs",
+    "Start first_vigil via native button and activate both marks via native prompts",
+    "Buy first restoration stage for 150 Souls",
+    "Change style to FOREST while preserving two legacy UIDs",
+    "Accept well_relic, native pickup at old_well, native delivery at own altar: fragments4->9, no remaining relic carry",
+    "Open Curse management, exact name/rarity/47-Soul sale confirmation, Back without selling",
+    "Pick up Grave Hopper: income5.25->3 and freed floor1-slot3; native Place same logical destination: income3->5.25"
+  ],
+  "fixes": [
+    "Sanctuary content ScrollingFrame.Active=true",
+    "Touch launcher placed upper-left below contextual objective, clear of joystick/jump/placement prompt",
+    "Touch contextual objective kept clear of HUD/prompts",
+    "Contract physical Interact prompts support tap/E (HoldDuration0); all server distance, ownership, state and once-only checks retained"
+  ],
+  "limits": [
+    "The mobile list accepted one actual full touch swipe; very short tool-injected drags limited further long-list scrolling QA. All 56 entries were not independently touch-reviewed.",
+    "Studio portrait layout preview inspected but game's existing landscape orientation retained; no claim of portrait gameplay support.",
+    "Sale confirmation inspected without selling conserved legacy record; actual sale payout/cleanup verified separately in multiplayer.",
+    "Physical phone and full touch walking between floors not tested."
+  ],
+  "observed": {
+    "records": [
+      {
+        "name": "Cursed Doll",
+        "attributes": {
+          "FbxSha256": "cafef3930ca2d516d46875e7a41ca6784ca8acda3816f9212de6fc83b0f9cbda",
+          "StateRevision": 0,
+          "OwnerUserId": 1550774388,
+          "DefinitionId": "cursed_doll",
+          "StateStartedAt": 1791027895.014455,
+          "OperationLocked": false,
+          "CurseState": "PLACED",
+          "VFXGeometryScale": 1,
+          "MotionRevision": 2,
+          "PedestalId": "floor1-slot1",
+          "MotionFormat": 1,
+          "PresentationScale": 1.0000000596046483,
+          "CurseId": "cursed_doll",
+          "BaseId": "Base04",
+          "CurseUid": "qa-legacy-sanctuary-doll"
+        }
+      },
+      {
+        "name": "Grave Hopper",
+        "attributes": {
+          "FbxSha256": "c7676a0f18761925b5d7753c8519e5e933b2f1ca2169898d064674baff7e0567",
+          "StateRevision": 8,
+          "OwnerUserId": 1550774388,
+          "DefinitionId": "grave_hopper",
+          "StateStartedAt": 1791029889.917986,
+          "OperationLocked": false,
+          "CurseState": "PLACED",
+          "VFXGeometryScale": 1,
+          "MotionRevision": 6,
+          "PedestalId": "floor1-slot3",
+          "MotionFormat": 1,
+          "PresentationScale": 1.0000000454130649,
+          "CurseId": "grave_hopper",
+          "BaseId": "Base04",
+          "CurseUid": "qa-legacy-sanctuary-grave"
+        }
+      }
+    ],
+    "player": {
+      "Souls": 12769.5,
+      "ProfileStatus": "READY",
+      "ProfileMigrationStatus": "CURRENT",
+      "ClaimedBaseId": "Base04",
+      "HUDNotice": "Grave Hopper colocada.",
+      "SoulsPerSecond": 5.25,
+      "HUDNoticeSerial": 6,
+      "ProfileSaveStatus": "SAVED",
+      "SanctuaryLevel": 1,
+      "SanctuaryStyle": "FOREST",
+      "SealFragments": 9
+    },
+    "journal": {
+      "souls": 12694.940698225015,
+      "revision": 155,
+      "sanctuary": {
+        "fragments": 9,
+        "style": "FOREST",
+        "milestones": {
+          "sealing": 0,
+          "contracts": 2,
+          "recovery": 2,
+          "sealActivations": 0,
+          "transport": 0,
+          "majorRelics": 0
+        },
+        "level": 1,
+        "rituals": {
+          "first_vigil": true
+        },
+        "schema": 1,
+        "discoveries": {
+          "cursed_doll": true,
+          "grave_hopper": true
+        }
+      },
+      "curses": [
+        {
+          "state": "PLACED",
+          "uid": "qa-legacy-sanctuary-doll",
+          "definitionId": "cursed_doll",
+          "pedestalId": "floor1-slot1",
+          "revision": 0
+        },
+        {
+          "state": "PLACED",
+          "uid": "qa-legacy-sanctuary-grave",
+          "definitionId": "grave_hopper",
+          "pedestalId": "floor1-slot3",
+          "revision": 8
+        }
+      ],
+      "schema": 1,
+      "session": "679bb8e9-e673-423c-a70b-ec05e7f4ff49",
+      "savedAt": 1791029948.493569
+    },
+    "journalAttributes": {
+      "SavedRevision": 155
+    }
+  }
+}

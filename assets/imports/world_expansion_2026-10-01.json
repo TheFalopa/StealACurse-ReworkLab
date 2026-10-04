@@ -1,0 +1,295 @@
+{
+  "observedAt": "2026-10-01 20:48:51.684 (Roblox Studio Output local timestamp)",
+  "workflow": "Studio Import 3D, original local FBX, creator Yo; MeshId/MeshSize/Size read directly through CommandBar",
+  "playValidated": false,
+  "imports": [
+    {
+      "name": "candle_wisp",
+      "meshId": "rbxassetid://131441841706440",
+      "meshSize": [
+        2.0696299076080322,
+        3.004809856414795,
+        1.6130954027175903
+      ],
+      "size": [
+        2.0696299076080322,
+        3.004809856414795,
+        1.6130954027175903
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/candle_wisp.fbx"
+    },
+    {
+      "name": "ashen_book",
+      "meshId": "rbxassetid://116088006645241",
+      "meshSize": [
+        1.934999942779541,
+        1.6575000286102295,
+        1.3265740871429443
+      ],
+      "size": [
+        1.934999942779541,
+        1.6575000286102295,
+        1.3265740871429443
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/ashen_book.fbx"
+    },
+    {
+      "name": "cathedral_heart",
+      "meshId": "rbxassetid://100098877936582",
+      "meshSize": [
+        2.6253609657287598,
+        4.018371105194092,
+        1.3500001430511475
+      ],
+      "size": [
+        2.6253609657287598,
+        4.018371105194092,
+        1.3500001430511475
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/cathedral_heart.fbx"
+    },
+    {
+      "name": "grave_compass",
+      "meshId": "rbxassetid://74406539185855",
+      "meshSize": [
+        2.759999990463257,
+        2.4185791015625,
+        1.600000023841858
+      ],
+      "size": [
+        2.759999990463257,
+        2.4185791015625,
+        1.600000023841858
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/grave_compass.fbx"
+    },
+    {
+      "name": "grave_key",
+      "meshId": "rbxassetid://84656327821029",
+      "meshSize": [
+        1.6975297927856445,
+        2.809825897216797,
+        0.4699999690055847
+      ],
+      "size": [
+        1.6975297927856445,
+        2.809825897216797,
+        0.4699999690055847
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/grave_key.fbx"
+    },
+    {
+      "name": "night_harp",
+      "meshId": "rbxassetid://75368579112232",
+      "meshSize": [
+        2.509265184402466,
+        4.022938251495361,
+        0.5908846855163574
+      ],
+      "size": [
+        2.509265184402466,
+        4.022938251495361,
+        0.5908846855163574
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/night_harp.fbx"
+    },
+    {
+      "name": "hollow_throne",
+      "meshId": "rbxassetid://71770033436309",
+      "meshSize": [
+        2.3370511531829834,
+        3.9827933311462402,
+        1.3900001049041748
+      ],
+      "size": [
+        2.3370511531829834,
+        3.9827933311462402,
+        1.3900001049041748
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/hollow_throne.fbx"
+    },
+    {
+      "name": "raven_quill",
+      "meshId": "rbxassetid://107610707886136",
+      "meshSize": [
+        1.715000033378601,
+        2.841864585876465,
+        0.4884346127510071
+      ],
+      "size": [
+        1.715000033378601,
+        2.841864585876465,
+        0.4884346127510071
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/raven_quill.fbx"
+    },
+    {
+      "name": "grave_hopper",
+      "meshId": "rbxassetid://111985391427900",
+      "meshSize": [
+        2.343339443206787,
+        2.559999942779541,
+        1.2871146202087402
+      ],
+      "size": [
+        2.343339443206787,
+        2.559999942779541,
+        1.2871146202087402
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/grave_hopper.fbx"
+    },
+    {
+      "name": "judgement_scales",
+      "meshId": "rbxassetid://127729438322025",
+      "meshSize": [
+        3.6600000858306885,
+        3.448026418685913,
+        1.0000001192092896
+      ],
+      "size": [
+        3.6600000858306885,
+        3.448026418685913,
+        1.0000001192092896
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/judgement_scales.fbx"
+    },
+    {
+      "name": "hollow_violin",
+      "meshId": "rbxassetid://107587916723576",
+      "meshSize": [
+        1.5399999618530273,
+        2.9369778633117676,
+        0.5250002145767212
+      ],
+      "size": [
+        1.5399999618530273,
+        2.9369778633117676,
+        0.5250002145767212
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/hollow_violin.fbx"
+    },
+    {
+      "name": "thorn_cathedral",
+      "meshId": "rbxassetid://83008441866856",
+      "meshSize": [
+        2.499964475631714,
+        4.108807563781738,
+        1.5416028499603271
+      ],
+      "size": [
+        2.499964475631714,
+        4.108807563781738,
+        1.5416028499603271
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/thorn_cathedral.fbx"
+    },
+    {
+      "name": "nameless_door",
+      "meshId": "rbxassetid://91097514366999",
+      "meshSize": [
+        2.849400281906128,
+        4.079999923706055,
+        1.1050001382827759
+      ],
+      "size": [
+        2.849400281906128,
+        4.079999923706055,
+        1.1050001382827759
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/nameless_door.fbx"
+    },
+    {
+      "name": "ink_imp",
+      "meshId": "rbxassetid://104472040658209",
+      "meshSize": [
+        2.282432794570923,
+        2.1500000953674316,
+        0.8562943935394287
+      ],
+      "size": [
+        2.282432794570923,
+        2.1500000953674316,
+        0.8562943935394287
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/ink_imp.fbx"
+    },
+    {
+      "name": "marrow_dice",
+      "meshId": "rbxassetid://139995104770981",
+      "meshSize": [
+        2.3249998092651367,
+        2.3734421730041504,
+        1.1761078834533691
+      ],
+      "size": [
+        2.3249998092651367,
+        2.3734421730041504,
+        1.1761078834533691
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/curses/marrow_dice.fbx"
+    },
+    {
+      "name": "foliage_swept",
+      "meshId": "rbxassetid://110491378095483",
+      "meshSize": [
+        15,
+        7.999999046325684,
+        9
+      ],
+      "size": [
+        15,
+        7.999999046325684,
+        9
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/foliage_expansion/foliage_swept.fbx"
+    },
+    {
+      "name": "foliage_tattered",
+      "meshId": "rbxassetid://93606032304189",
+      "meshSize": [
+        14,
+        7.000001430511475,
+        12
+      ],
+      "size": [
+        14,
+        7.000001430511475,
+        12
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/foliage_expansion/foliage_tattered.fbx"
+    },
+    {
+      "name": "foliage_crescent",
+      "meshId": "rbxassetid://93801806942626",
+      "meshSize": [
+        16,
+        6.000000476837158,
+        10
+      ],
+      "size": [
+        16,
+        6.000000476837158,
+        10
+      ],
+      "status": "IMPORTED",
+      "source": "assets/export/meshes/foliage_expansion/foliage_crescent.fbx"
+    }
+  ]
+}

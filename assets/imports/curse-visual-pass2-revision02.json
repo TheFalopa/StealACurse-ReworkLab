@@ -1,0 +1,65 @@
+{
+  "studioId": "6f0f9c89-e252-4e25-961d-a97845755ab5",
+  "importMethod": "Native Studio 3D Importer; upload meshes only",
+  "count": 2,
+  "rows": [
+    {
+      "meshSize": [
+        5.799999237060547,
+        3.200000286102295,
+        4.100000381469727
+      ],
+      "id": "coin_crawler",
+      "meshId": "rbxassetid://121209998415870",
+      "textureId": "",
+      "size": [
+        5.799999237060547,
+        3.200000286102295,
+        4.100000381469727
+      ],
+      "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+      "export": "assets/export/meshes/curses/visual-pass2/revision02/coin_crawler.fbx",
+      "blendSource": "assets/source/blender/curses_visual_pass2/revision02/coin_crawler.blend",
+      "triangles": 2172,
+      "sourceReference": "rework-03-common.png",
+      "vfxHook": [
+        0,
+        -0.3862656056880951,
+        1.3064664602279663
+      ],
+      "realImportRecorded": true,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "previousMeshId": "rbxassetid://90324492801258"
+    },
+    {
+      "meshSize": [
+        5,
+        4.899999618530273,
+        4.875943660736084
+      ],
+      "id": "cold_teacup",
+      "meshId": "rbxassetid://122738715837945",
+      "textureId": "",
+      "size": [
+        5,
+        4.899999618530273,
+        4.875943660736084
+      ],
+      "fbxSha256": "33f76654b9c4ac734b1ff7c653ed864739284038a7bc6dd62d82f5e894289af2",
+      "export": "assets/export/meshes/curses/visual-pass2/revision02/cold_teacup.fbx",
+      "blendSource": "assets/source/blender/curses_visual_pass2/revision02/cold_teacup.blend",
+      "triangles": 2456,
+      "sourceReference": "rework-03-common.png",
+      "vfxHook": [
+        -0.12398593127727509,
+        1.1996971368789673,
+        0.058937475085258484
+      ],
+      "realImportRecorded": true,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "previousMeshId": "rbxassetid://87738482977919"
+    }
+  ]
+}

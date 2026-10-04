@@ -1,0 +1,107 @@
+{
+  "id": "pale_guest",
+  "displayName": "Pale Guest",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/pale_guest.blend",
+  "export": "assets/export/meshes/curses/rework/pale_guest.fbx",
+  "sha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+  "triangles": 1716,
+  "vertices": 916,
+  "blenderDimensions": [
+    2.5144095420837402,
+    0.8689985871315002,
+    2.940000057220459
+  ],
+  "intendedRobloxSize": [
+    2.5144095420837402,
+    2.940000057220459,
+    0.8689985871315002
+  ],
+  "diagonal": 3.964973420618934,
+  "vfxHook": [
+    0.24,
+    0.09000001996755591,
+    0.3517017588885394
+  ],
+  "vfxProfile": "portrait_ghost",
+  "palette": [
+    "eye",
+    "ghost",
+    "gold",
+    "ink",
+    "ochre",
+    "paper",
+    "wood"
+  ],
+  "paintedColorCount": 413,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "CrookedWoodPortraitFrame",
+      "first_face": 0,
+      "last_face_exclusive": 244
+    },
+    {
+      "name": "GhostPeeringOut",
+      "first_face": 244,
+      "last_face_exclusive": 702
+    },
+    {
+      "name": "PortraitLeafPatternAndWear",
+      "first_face": 702,
+      "last_face_exclusive": 752
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Pale tapered ghost genuinely emerges through torn portrait canvas and deep skewed wooden frame, grips the lower rail with small hands; authored leaf motifs and worn joinery."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/pale_guest.blend",
+  "robloxIntendedSize": [
+    2.5144095420837402,
+    2.940000057220459,
+    0.8689985871315002
+  ],
+  "vfxHookRoblox": [
+    0.24,
+    0.09000001996755591,
+    0.3517017588885394
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.025144094601273537,
+      0.008689990267157555,
+      0.02940000221133232
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1716,
+    "colorCount": 413,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "pale_guest",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

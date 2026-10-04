@@ -1,0 +1,81 @@
+{
+  "id": "hollow_violin",
+  "displayName": "Hollow Violin",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-04-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/hollow_violin.blend",
+  "export": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+  "sha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+  "triangles": 2150,
+  "vertices": 1131,
+  "blenderDimensions": [
+    1.6355282068252563,
+    0.8499729037284851,
+    3.8532867431640625
+  ],
+  "intendedRobloxSize": [
+    1.6355282068252563,
+    3.8532867431640625,
+    0.8499729037284851
+  ],
+  "diagonal": 4.271442985390017,
+  "vfxHook": [
+    0.0,
+    -0.061643428802490075,
+    0.3521320736408234
+  ],
+  "vfxProfile": "three_spectral_strings",
+  "palette": [
+    "bone",
+    "cyan",
+    "gold",
+    "ink",
+    "wood"
+  ],
+  "paintedColorCount": 653,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "carved walnut violin with genuinely open hollow waist",
+      "first_face": 0,
+      "last_face_exclusive": 472
+    },
+    {
+      "name": "carved neck, curled scroll and tuning pegs",
+      "first_face": 472,
+      "last_face_exclusive": 866
+    },
+    {
+      "name": "three cold strings, bridge and two carved legs",
+      "first_face": 866,
+      "last_face_exclusive": 1094
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Carved double-lobed violin body with an actual open waist cavity and intact convex back, inset purfling, curved scroll, tuning pegs and two wooden legs.",
+    "Three cyan strings shimmer in turn; sparse notes emerge from the hollow body."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/hollow_violin.blend",
+  "robloxIntendedSize": [
+    1.6355282068252563,
+    3.8532867431640625,
+    0.8499729037284851
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    -0.061643428802490075,
+    0.3521320736408234
+  ]
+}

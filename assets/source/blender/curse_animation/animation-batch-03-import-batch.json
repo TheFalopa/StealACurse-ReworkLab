@@ -1,0 +1,16 @@
+{
+  "ids": [
+    "hollow_violin",
+    "chime_triplets",
+    "thimble_spider",
+    "music_box_dancer",
+    "raven_quill",
+    "sorrow_chalice",
+    "pale_gramophone",
+    "thorn_reliquary",
+    "anchor_crab",
+    "sundial_sentinel"
+  ],
+  "fbx": "assets/export/meshes/curses/animations/animation-batch-03.fbx",
+  "sha256": "6f2cdf8ec8f55d4aed3ee5694eb602e76cab766d14e37e7d2b6e4bed13831578"
+}

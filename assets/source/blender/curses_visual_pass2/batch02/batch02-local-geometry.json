@@ -1,0 +1,2234 @@
+{
+  "assets": [
+    {
+      "id": "cold_teacup",
+      "displayName": "Cold Teacup",
+      "rarity": "COMMON",
+      "sourceReference": "rework-03-common.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/cold_teacup.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/cold_teacup.fbx",
+      "sha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425",
+      "triangles": 2456,
+      "vertices": 1274,
+      "blenderDimensions": [
+        5,
+        4.875944137573242,
+        4.900000095367432
+      ],
+      "intendedRobloxSize": [
+        5,
+        4.900000095367432,
+        4.875944137573242
+      ],
+      "diagonal": 8.531402708074195,
+      "vfxHook": [
+        -0.12398593127727509,
+        1.1996972560882568,
+        0.05893748253583908
+      ],
+      "vfxProfile": "cold_shadow",
+      "palette": [
+        "blue_paint",
+        "ink",
+        "ochre",
+        "porcelain"
+      ],
+      "paintedColorCount": 330,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "CrackedPorcelainCupAndSaucer",
+          "first_face": 0,
+          "last_face_exclusive": 456
+        },
+        {
+          "name": "CurledShadowSteam",
+          "first_face": 456,
+          "last_face_exclusive": 642
+        },
+        {
+          "name": "BlueBotanicalPaintAndCracks",
+          "first_face": 642,
+          "last_face_exclusive": 1138
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Thick genuinely hollow porcelain bowl with saucer and loop handle, dark liquid, curling three-dimensional ink steam, blue botanical decoration and large warm fissures.",
+        "Pass 2: concept-specific proportions and silhouette, lifted dark materials, expanded authored dimensions; preserves actual editable .blend.",
+        "Lift only the black curled steam above the porcelain rim; preserve white porcelain and blue botanical paint."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/cold_teacup.blend",
+      "robloxIntendedSize": [
+        5,
+        4.900000095367432,
+        4.875944137573242
+      ],
+      "vfxHookRoblox": [
+        -0.12398593127727509,
+        1.1996972560882568,
+        0.05893748253583908
+      ],
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.04999999701976776,
+          0.048759449273347855,
+          0.049000006169080734
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2456,
+        "colorCount": 391,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "cold_teacup",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "2d36cf3c8f9fef8d472ebb94d27a8beb2cdb1f7391d23b4ba9e91d0c271dc425"
+      },
+      "fbxExported": true,
+      "locallyValidated": true,
+      "sourceReused": "assets/source/blender/curses_visual_pass2/cold_teacup.blend",
+      "sourceReusedSha256": "aaee8581032cc53be475b5c7a0ca4a0569d4e00cebbfa6c0a4af74b08d71165b",
+      "pass": 2,
+      "revision": 3,
+      "vfxHooks": {},
+      "changedPaintCorners": 1134
+    },
+    {
+      "id": "grave_key",
+      "displayName": "Grave Key",
+      "rarity": "COMMON",
+      "sourceReference": "rework-01-common.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/grave_key.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/grave_key.fbx",
+      "sha256": "576f3691cd91e8e8ba24acece868d92733aec991df7b83ced287e5b7ec6bada7",
+      "triangles": 1526,
+      "vertices": 793,
+      "blenderDimensions": [
+        3.874108076095581,
+        0.9528255462646484,
+        4.599999904632568
+      ],
+      "intendedRobloxSize": [
+        3.874108076095581,
+        4.599999904632568,
+        0.9528255462646484
+      ],
+      "diagonal": 6.0890548551892,
+      "vfxHook": [
+        -0.8297134041786194,
+        1.110356092453003,
+        -0.14727100729942322
+      ],
+      "vfxProfile": "relic_glint",
+      "palette": [
+        "blue_cloth",
+        "iron",
+        "iron_edge",
+        "rust"
+      ],
+      "paintedColorCount": 336,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "BrokenIronKeyBow",
+          "first_face": 0,
+          "last_face_exclusive": 378
+        },
+        {
+          "name": "KeyTeethWalkingLegs",
+          "first_face": 378,
+          "last_face_exclusive": 522
+        },
+        {
+          "name": "BlueFuneraryScarf",
+          "first_face": 522,
+          "last_face_exclusive": 634
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Substantially rebuilt dark fractured iron key, diagonal shaft, key-bit walking legs, substantial blue scarf knot and trailing torn cloth.",
+        "Readable cool iron and worn bronze edge; preserve the broken key-ring opening and blue scarf."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/grave_key.blend",
+      "robloxIntendedSize": [
+        3.874108076095581,
+        4.599999904632568,
+        0.9528255462646484
+      ],
+      "vfxHookRoblox": [
+        -0.8297134041786194,
+        1.110356092453003,
+        -0.14727100729942322
+      ],
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.03874107822775841,
+          0.009528262540698051,
+          0.04599999636411667
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 1526,
+        "colorCount": 957,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "grave_key",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "576f3691cd91e8e8ba24acece868d92733aec991df7b83ced287e5b7ec6bada7"
+      },
+      "fbxExported": true,
+      "locallyValidated": true,
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/grave_key.blend",
+      "sourceReusedSha256": "2fbf956a6b39a006fc9a0248d748a53526aaaeec6b272afaf4b88fd98072d9f6",
+      "vfxHooks": {},
+      "changedPaintCorners": 4368
+    },
+    {
+      "id": "mourning_ribbon",
+      "displayName": "Mourning Ribbon",
+      "rarity": "COMMON",
+      "sourceReference": "rework-01-common.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/mourning_ribbon.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/mourning_ribbon.fbx",
+      "sha256": "0411b1e728df88b9578edd717fa7b1392d72b73878e6c8ff349d1cbe7daed803",
+      "triangles": 1728,
+      "vertices": 904,
+      "blenderDimensions": [
+        6.400000095367432,
+        1.1627039909362793,
+        4.800000190734863
+      ],
+      "intendedRobloxSize": [
+        6.400000095367432,
+        4.800000190734863,
+        1.1627039909362793
+      ],
+      "diagonal": 8.084051188747942,
+      "vfxHook": [
+        0,
+        0.6834437847137451,
+        0.3106608986854553
+      ],
+      "vfxProfile": "mourning_stitch",
+      "palette": [
+        "bone",
+        "cloth",
+        "cloth_edge",
+        "ink"
+      ],
+      "paintedColorCount": 152,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "FuneralBowLoops",
+          "first_face": 0,
+          "last_face_exclusive": 452
+        },
+        {
+          "name": "StitchedMouth",
+          "first_face": 452,
+          "last_face_exclusive": 508
+        },
+        {
+          "name": "FloatingTatteredTails",
+          "first_face": 508,
+          "last_face_exclusive": 688
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Two volumetric funeral-bow loops, a stitched central knot and asymmetrically folded/frayed floating ribbon tails; no generic body.",
+        "Shaped satin folds and pale violet edge faces expose both asymmetric bow loops and frayed tails."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/mourning_ribbon.blend",
+      "robloxIntendedSize": [
+        6.400000095367432,
+        4.800000190734863,
+        1.1627039909362793
+      ],
+      "vfxHookRoblox": [
+        0,
+        0.6834437847137451,
+        0.3106608986854553
+      ],
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.06400000303983688,
+          0.011627047322690487,
+          0.04800000414252281
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 1728,
+        "colorCount": 120,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "mourning_ribbon",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "0411b1e728df88b9578edd717fa7b1392d72b73878e6c8ff349d1cbe7daed803"
+      },
+      "fbxExported": true,
+      "locallyValidated": true,
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/mourning_ribbon.blend",
+      "sourceReusedSha256": "cc0943c3866d9f33a97b4c0c042c20118a54a408d89cf338eaae522ffc9c4dff",
+      "vfxHooks": {},
+      "changedPaintCorners": 4800
+    },
+    {
+      "id": "wilted_sprout",
+      "displayName": "Wilted Sprout",
+      "rarity": "COMMON",
+      "sourceReference": "rework-01-common.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/wilted_sprout.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/wilted_sprout.fbx",
+      "sha256": "048acf69c08403971dd1dba103734a96d938f38d2a169e43f5cd8d7e72161e7e",
+      "triangles": 2220,
+      "vertices": 1156,
+      "blenderDimensions": [
+        3.7659215927124023,
+        1.9629535675048828,
+        4.800000190734863
+      ],
+      "intendedRobloxSize": [
+        3.7659215927124023,
+        4.800000190734863,
+        1.9629535675048828
+      ],
+      "diagonal": 6.40900569368544,
+      "vfxHook": [
+        -0.359666645526886,
+        1.2028021812438965,
+        0.7222381830215454
+      ],
+      "vfxProfile": "wilted_pollen",
+      "palette": [
+        "bark",
+        "green",
+        "ink",
+        "ochre",
+        "petal",
+        "white_glow"
+      ],
+      "paintedColorCount": 388,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "BentStemAndRootFeet",
+          "first_face": 0,
+          "last_face_exclusive": 110
+        },
+        {
+          "name": "ShadowFaceUnderOchrePetals",
+          "first_face": 110,
+          "last_face_exclusive": 728
+        },
+        {
+          "name": "WiltedSideLeaf",
+          "first_face": 728,
+          "last_face_exclusive": 811
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Distinct wilted plant: twisted stem, branching root feet, dark face nested below overlapping ochre petals, dying drooping side leaf.",
+        "Dry olive stem facets and ochre petal faces stay distinct from the genuinely dark nested face."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/wilted_sprout.blend",
+      "robloxIntendedSize": [
+        3.7659215927124023,
+        4.800000190734863,
+        1.9629535675048828
+      ],
+      "vfxHookRoblox": [
+        -0.359666645526886,
+        1.2028021812438965,
+        0.7222381830215454
+      ],
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.03765921667218208,
+          0.019629541784524918,
+          0.04800000414252281
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2220,
+        "colorCount": 937,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "wilted_sprout",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "048acf69c08403971dd1dba103734a96d938f38d2a169e43f5cd8d7e72161e7e"
+      },
+      "fbxExported": true,
+      "locallyValidated": true,
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/wilted_sprout.blend",
+      "sourceReusedSha256": "0ca71e64786461ba73191941dfaa43ec9708f7531c72e52dad30668edceb1252",
+      "vfxHooks": {},
+      "changedPaintCorners": 3829
+    },
+    {
+      "id": "hourglass_hound",
+      "displayName": "Hourglass Hound",
+      "rarity": "COMMON",
+      "sourceReference": "rework-02-common.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/hourglass_hound.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/hourglass_hound.fbx",
+      "sha256": "9981a3876d15571080bd26d8281705695dd6a9b190ee112a6894c6d7fbfe946f",
+      "triangles": 2546,
+      "vertices": 1335,
+      "blenderDimensions": [
+        5.800000190734863,
+        2.2718727588653564,
+        3.8000001907348633
+      ],
+      "intendedRobloxSize": [
+        5.800000190734863,
+        3.8000001907348633,
+        2.2718727588653564
+      ],
+      "diagonal": 7.296671124189711,
+      "vfxHook": [
+        0.17516110837459564,
+        0.5277777910232544,
+        0.10115739703178406
+      ],
+      "vfxProfile": "falling_sand",
+      "palette": [
+        "ink",
+        "ochre",
+        "sand",
+        "sand_light",
+        "stone_dark",
+        "white_glow"
+      ],
+      "paintedColorCount": 458,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "HourglassTorso",
+          "first_face": 0,
+          "last_face_exclusive": 366
+        },
+        {
+          "name": "SandstoneHoundHeadAndLegs",
+          "first_face": 366,
+          "last_face_exclusive": 916
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Distinct quadrupedal sandstone relic with an open curved hourglass torso, two dark sand cones and falling-grain geometry, pointed hound skull and curled stone tail.",
+        "Dark ochre sand cones replace unreadable black fill; keep the open framed waist and pale grain stream."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/hourglass_hound.blend",
+      "robloxIntendedSize": [
+        5.800000190734863,
+        3.8000001907348633,
+        2.2718727588653564
+      ],
+      "vfxHookRoblox": [
+        0.17516110837459564,
+        0.5277777910232544,
+        0.10115739703178406
+      ],
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.058000002056360245,
+          0.022718733176589012,
+          0.03800000622868538
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2546,
+        "colorCount": 450,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "hourglass_hound",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "9981a3876d15571080bd26d8281705695dd6a9b190ee112a6894c6d7fbfe946f"
+      },
+      "fbxExported": true,
+      "locallyValidated": true,
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/hourglass_hound.blend",
+      "sourceReusedSha256": "09ab7e31c393754dc869c9317b797d36cc9056df82d48689985a2c6b2fcd5e5e",
+      "vfxHooks": {},
+      "changedPaintCorners": 289
+    },
+    {
+      "id": "nail_beetle",
+      "displayName": "Nail Beetle",
+      "rarity": "COMMON",
+      "sourceReference": "rework-03-common.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/nail_beetle.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/nail_beetle.fbx",
+      "sha256": "5a2044284e918b967145eae09b076252f3075b9b4a37fc8d74a80e0c601b4396",
+      "triangles": 1594,
+      "vertices": 833,
+      "blenderDimensions": [
+        5.599999904632568,
+        5.400000095367432,
+        3.200000047683716
+      ],
+      "intendedRobloxSize": [
+        5.599999904632568,
+        3.200000047683716,
+        5.400000095367432
+      ],
+      "diagonal": 8.411896353797331,
+      "vfxHook": [
+        -0.00422506732866168,
+        -0.6171908378601074,
+        2.5604453086853027
+      ],
+      "vfxProfile": "rust_dust",
+      "palette": [
+        "iron",
+        "iron_edge",
+        "moss",
+        "rust",
+        "white_glow"
+      ],
+      "paintedColorCount": 331,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "CoffinNailCarapace",
+          "first_face": 0,
+          "last_face_exclusive": 372
+        },
+        {
+          "name": "SixBentIronLegs",
+          "first_face": 372,
+          "last_face_exclusive": 510
+        },
+        {
+          "name": "RustAndMoss",
+          "first_face": 510,
+          "last_face_exclusive": 658
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Iron beetle with coherent coffin-nail carapace rather than a generic insect shell; thick nail head, six jointed legs, pale eyes, rust edges and moss.",
+        "Low broad six-leg stance, broad coffin nail head, visibly worn iron and orange rust surfaces."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/nail_beetle.blend",
+      "robloxIntendedSize": [
+        5.599999904632568,
+        3.200000047683716,
+        5.400000095367432
+      ],
+      "vfxHookRoblox": [
+        -0.00422506732866168,
+        -0.6171908378601074,
+        2.5604453086853027
+      ],
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.0559999980032444,
+          0.05400000512599945,
+          0.03200000897049904
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 1594,
+        "colorCount": 784,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "nail_beetle",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "5a2044284e918b967145eae09b076252f3075b9b4a37fc8d74a80e0c601b4396"
+      },
+      "fbxExported": true,
+      "locallyValidated": true,
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/nail_beetle.blend",
+      "sourceReusedSha256": "0d5258f248311fd9d7444a240db26af256651233f1c7c5a5d1033eab129685b2",
+      "vfxHooks": {},
+      "changedPaintCorners": 4027
+    },
+    {
+      "id": "umbrella_wraith",
+      "displayName": "Umbrella Wraith",
+      "rarity": "COMMON",
+      "sourceReference": "rework-03-common.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/umbrella_wraith.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/umbrella_wraith.fbx",
+      "sha256": "5a525705186b04fe22f3f6950ea44e2db4f24fa1da80fc3814efd517d19eae6c",
+      "triangles": 1566,
+      "vertices": 823,
+      "blenderDimensions": [
+        5.591540336608887,
+        2.799999952316284,
+        5.199999809265137
+      ],
+      "intendedRobloxSize": [
+        5.591540336608887,
+        5.199999809265137,
+        2.799999952316284
+      ],
+      "diagonal": 8.13297738133169,
+      "vfxHook": [
+        0.03068060614168644,
+        0.5750799179077148,
+        0.8053969740867615
+      ],
+      "vfxProfile": "umbrella_shadow",
+      "palette": [
+        "cloth",
+        "gold",
+        "gold_edge",
+        "iron_edge",
+        "white_glow",
+        "wood"
+      ],
+      "paintedColorCount": 255,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "FoldedUmbrellaBodyAndHandle",
+          "first_face": 0,
+          "last_face_exclusive": 219
+        },
+        {
+          "name": "TatteredWingLikeFolds",
+          "first_face": 219,
+          "last_face_exclusive": 307
+        },
+        {
+          "name": "BrassFasteners",
+          "first_face": 307,
+          "last_face_exclusive": 423
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Tall folded black umbrella spirit with one glowing eye in the fold, torn bat-like cloth wings, exposed rib seams, brass clasp and curved hook handle.",
+        "Cool charcoal canopy facets and blue-gray seams reveal the folded, torn umbrella; preserve the pale eye and brass hook."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/umbrella_wraith.blend",
+      "robloxIntendedSize": [
+        5.591540336608887,
+        5.199999809265137,
+        2.799999952316284
+      ],
+      "vfxHookRoblox": [
+        0.03068060614168644,
+        0.5750799179077148,
+        0.8053969740867615
+      ],
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.05591540038585663,
+          0.028000008314847946,
+          0.052000001072883606
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 1566,
+        "colorCount": 248,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "umbrella_wraith",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "5a525705186b04fe22f3f6950ea44e2db4f24fa1da80fc3814efd517d19eae6c"
+      },
+      "fbxExported": true,
+      "locallyValidated": true,
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/umbrella_wraith.blend",
+      "sourceReusedSha256": "f77ba58347b95a2f0d0da1819ffca2a17d2c71fbd7185f7523e74e92a65364e0",
+      "vfxHooks": {},
+      "changedPaintCorners": 2669
+    },
+    {
+      "id": "veil_mourner",
+      "displayName": "Veil Mourner",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-04-rare.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/veil_mourner.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/veil_mourner.fbx",
+      "sha256": "d375a8fafce80182545cf104d92a15bbe4c850436b89708e74030854f08056ce",
+      "triangles": 3280,
+      "vertices": 1686,
+      "blenderDimensions": [
+        4.574634075164795,
+        2.863112449645996,
+        6.099999904632568
+      ],
+      "intendedRobloxSize": [
+        4.574634075164795,
+        6.099999904632568,
+        2.863112449645996
+      ],
+      "diagonal": 8.144611019409957,
+      "vfxHook": [
+        -0.014021205715835094,
+        0.6381114721298218,
+        0.8997963070869446
+      ],
+      "vfxProfile": "black_veil_breath",
+      "palette": [
+        "bone",
+        "cloth",
+        "cloth_edge",
+        "ink"
+      ],
+      "paintedColorCount": 443,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "folded hollow black mourning cloak",
+          "first_face": 0,
+          "last_face_exclusive": 498
+        },
+        {
+          "name": "ragged lace hems and pale hands gripping the veil",
+          "first_face": 498,
+          "last_face_exclusive": 1406
+        },
+        {
+          "name": "aged bone mourning comb",
+          "first_face": 1406,
+          "last_face_exclusive": 1685
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Volumetric open front cloak with twelve gathered folds, irregular torn hem, hollow dark hood and pale gripping hands; bone mourning comb.",
+        "Slow low amplitude cloak breathing and pale dust settling from the bone comb.",
+        "Deep slate cloth with lit folded faces; preserve the hollow cloak, faceless interior, lace hems and bone hands."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/veil_mourner.blend",
+      "robloxIntendedSize": [
+        4.574634075164795,
+        6.099999904632568,
+        2.863112449645996
+      ],
+      "vfxHookRoblox": [
+        -0.014021205715835094,
+        0.6381114721298218,
+        0.8997963070869446
+      ],
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/veil_mourner.blend",
+      "sourceReusedSha256": "c3a5ab1dbda7a66cebe47df2fd052ac4ede41e848ecf3d79ab0e306404d03a2c",
+      "vfxHooks": {
+        "veilFace": [
+          -0.01402120076433624,
+          0.6381115246140051,
+          0.8997966049529376
+        ]
+      },
+      "changedPaintCorners": 6324,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.0457463413476944,
+          0.02863113395869732,
+          0.061000000685453415
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 3280,
+        "colorCount": 412,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "veil_mourner",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "d375a8fafce80182545cf104d92a15bbe4c850436b89708e74030854f08056ce"
+      }
+    },
+    {
+      "id": "raven_quill",
+      "displayName": "Raven Quill",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/raven_quill.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/raven_quill.fbx",
+      "sha256": "e29d5c50b6c88ca98ac11d21f7884f335a8b2ff6e1635bc108e88b355217b75c",
+      "triangles": 1394,
+      "vertices": 781,
+      "blenderDimensions": [
+        5.199999809265137,
+        2.4000000953674316,
+        6.400000095367432
+      ],
+      "intendedRobloxSize": [
+        5.199999809265137,
+        6.400000095367432,
+        2.4000000953674316
+      ],
+      "diagonal": 8.588364203666742,
+      "vfxHook": [
+        1.765561819076538,
+        0.9846514463424683,
+        0.7424861788749695
+      ],
+      "vfxProfile": "raven_ink_signature",
+      "palette": [
+        "gold",
+        "gold_edge",
+        "ink",
+        "iron",
+        "iron_edge",
+        "ochre",
+        "white_glow"
+      ],
+      "paintedColorCount": 398,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "layered curved feather body and individual sculpted barbs",
+          "first_face": 0,
+          "last_face_exclusive": 332
+        },
+        {
+          "name": "pale eye and true divided bronze fountain nib beak",
+          "first_face": 332,
+          "last_face_exclusive": 586
+        },
+        {
+          "name": "two orange toes and three claws per foot",
+          "first_face": 586,
+          "last_face_exclusive": 702
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "A curved thick feather made of twenty shaped barbs and two layered wings, ivory eye, bronze fountain nib with separated slit and three-toed orange feet.",
+        "One brief fading ink signature trails from the nib; feather tips sway gently.",
+        "Broad layered feather barbs in oil-blue charcoal with visible silver-gray faces, bronze nib and orange talons."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/raven_quill.blend",
+      "robloxIntendedSize": [
+        5.199999809265137,
+        6.400000095367432,
+        2.4000000953674316
+      ],
+      "vfxHookRoblox": [
+        1.765561819076538,
+        0.9846514463424683,
+        0.7424861788749695
+      ],
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/raven_quill.blend",
+      "sourceReusedSha256": "f76bb91cd5bba9741713bcb3bd6073812a66e749b68cd7c3b8a171e3e2909e1e",
+      "vfxHooks": {
+        "nibTip": [
+          1.996765216868394,
+          0.9120169139719697,
+          0.6251750320558945
+        ]
+      },
+      "changedPaintCorners": 678,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.05199999734759331,
+          0.024000011384487152,
+          0.06400001049041748
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 1394,
+        "colorCount": 376,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "raven_quill",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "e29d5c50b6c88ca98ac11d21f7884f335a8b2ff6e1635bc108e88b355217b75c"
+      }
+    },
+    {
+      "id": "thorn_reliquary",
+      "displayName": "Thorn Reliquary",
+      "rarity": "Rare",
+      "sourceReference": "assets/reference/rework-06-rare.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/thorn_reliquary.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/thorn_reliquary.fbx",
+      "sha256": "7e49372109843e820041d62e31a0d059c62c314cd3e92c69ee78e763adad7b61",
+      "triangles": 2060,
+      "vertices": 1104,
+      "blenderDimensions": [
+        3.1462292671203613,
+        3.147583246231079,
+        6.5
+      ],
+      "intendedRobloxSize": [
+        3.1462292671203613,
+        6.5,
+        3.147583246231079
+      ],
+      "diagonal": 7.877565543569872,
+      "vfxHook": [
+        0.2133828103542328,
+        0.214223250746727,
+        0.539853572845459
+      ],
+      "vfxProfile": "glass_caged_thorn",
+      "palette": [
+        "glass",
+        "gold",
+        "gold_edge",
+        "ink",
+        "porcelain",
+        "white_glow"
+      ],
+      "paintedColorCount": 638,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "eight sided antique bronze reliquary frame and footed base",
+          "first_face": 0,
+          "last_face_exclusive": 580
+        },
+        {
+          "name": "sculpted blue glass edge reflections",
+          "first_face": 580,
+          "last_face_exclusive": 622
+        },
+        {
+          "name": "curved black thorn entity, forked root feet and pale eyes",
+          "first_face": 622,
+          "last_face_exclusive": 940
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Octagonal aged bronze urn with curved roof ribs, ring handle and feet; sculpted blue glass edge reflections preserve full visibility of a volumetric forked black thorn creature.",
+        "Studio profile adds eight faint transparent urn panes and a trapped dark vapor curl without obscuring the creature.",
+        "Readable aged green thorn entity behind actual native glass, antique bronze cage preserved."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/thorn_reliquary.blend",
+      "robloxIntendedSize": [
+        3.1462292671203613,
+        6.5,
+        3.147583246231079
+      ],
+      "vfxHookRoblox": [
+        0.2133828103542328,
+        0.214223250746727,
+        0.539853572845459
+      ],
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/thorn_reliquary.blend",
+      "sourceReusedSha256": "cddc1a0f37b924404e2f8c65ae57ddf97dca69f6d9308f5ab0c0bfa5eac4e35b",
+      "vfxHooks": {
+        "urnCenter": [
+          -0.0025586158398044506,
+          -0.6135522285340106,
+          2.3597044031126655e-8
+        ],
+        "thornFace": [
+          0.21338278191147808,
+          0.21422324593808578,
+          0.5398537118551262
+        ]
+      },
+      "changedPaintCorners": 1637,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.03146229311823845,
+          0.031475841999053955,
+          0.0650000050663948
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2060,
+        "colorCount": 670,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "thorn_reliquary",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "7e49372109843e820041d62e31a0d059c62c314cd3e92c69ee78e763adad7b61"
+      },
+      "vfxGeometryScale": 1.7995119010262963
+    },
+    {
+      "id": "night_harp",
+      "displayName": "Night Harp",
+      "rarity": "Legendary",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/night_harp.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/night_harp.fbx",
+      "sha256": "913ff5613199797f55dbf93f3cdd846c5cc4df6ef9d404ed92f97fe8a93568c3",
+      "triangles": 2492,
+      "vertices": 1358,
+      "blenderDimensions": [
+        5.734979152679443,
+        2.8575713634490967,
+        7.90000057220459
+      ],
+      "intendedRobloxSize": [
+        5.734979152679443,
+        7.90000057220459,
+        2.8575713634490967
+      ],
+      "diagonal": 10.171809525335451,
+      "vfxHook": [
+        -0.2019554078578949,
+        0.3484765887260437,
+        -0.05439069867134094
+      ],
+      "vfxProfile": "harp_strings",
+      "palette": [
+        "bone_high",
+        "brass",
+        "brass_edge",
+        "gold_glow",
+        "indigo",
+        "indigo_edge",
+        "ivory",
+        "obsidian",
+        "thorn_edge"
+      ],
+      "paintedColorCount": 596,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "Indigo quadruped shell and four gilded claw feet",
+          "first_face": 0,
+          "last_face_exclusive": 400
+        },
+        {
+          "name": "Crescent beast back and exact four playable harp strings",
+          "first_face": 400,
+          "last_face_exclusive": 608
+        },
+        {
+          "name": "Blind crescent head and overlapping indigo scales",
+          "first_face": 608,
+          "last_face_exclusive": 880
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Reference 07: four-legged indigo harp beast; curved armored back, gold soundboard, exact four suspended strings and an ivory blind crescent head. Gilded joints and layered scales separate metal from indigo stone.",
+        "Lift sculpted indigo frame faces, retain warm gold strings, pale mask and open instrument interior."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/night_harp.blend",
+      "robloxIntendedSize": [
+        5.734979152679443,
+        7.90000057220459,
+        2.8575713634490967
+      ],
+      "vfxHookRoblox": [
+        -0.2019554078578949,
+        0.3484765887260437,
+        -0.05439069867134094
+      ],
+      "roundtrip": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.028185054659843445,
+          0.014043789356946945,
+          0.03882523998618126
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2492,
+        "colorCount": 596,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "night_harp",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06"
+      },
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/night_harp.blend",
+      "sourceReusedSha256": "9da7f19719d3d350ae3a9d43f48c13400a2f6511cc32fac69ba7716431f0b2ee",
+      "vfxHooks": {},
+      "changedPaintCorners": 3375,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.0573497898876667,
+          0.028575725853443146,
+          0.07900001108646393
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2492,
+        "colorCount": 445,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "night_harp",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "913ff5613199797f55dbf93f3cdd846c5cc4df6ef9d404ed92f97fe8a93568c3"
+      }
+    },
+    {
+      "id": "blood_moon_rose",
+      "displayName": "Blood Moon Rose",
+      "rarity": "Legendary",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/blood_moon_rose.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/blood_moon_rose.fbx",
+      "sha256": "080eca4263120b74a03fb9f4893e1d7054f08847777c11c19f1fa4b3112a899a",
+      "triangles": 5166,
+      "vertices": 2669,
+      "blenderDimensions": [
+        6.825550079345703,
+        2.825404405593872,
+        7.399999618530273
+      ],
+      "intendedRobloxSize": [
+        6.825550079345703,
+        7.399999618530273,
+        2.825404405593872
+      ],
+      "diagonal": 10.456148348940618,
+      "vfxHook": [
+        0.3733806312084198,
+        1.642275094985962,
+        1.1789213418960571
+      ],
+      "vfxProfile": "rose_pulse",
+      "palette": [
+        "rose_core",
+        "rose_glint",
+        "rose_petal",
+        "rose_rim",
+        "ruby",
+        "ruby_edge",
+        "thorn",
+        "thorn_edge"
+      ],
+      "paintedColorCount": 519,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "Arched thorn stem and four spreading root feet",
+          "first_face": 0,
+          "last_face_exclusive": 158
+        },
+        {
+          "name": "Layered garnet glass rose with spiraling physical petals",
+          "first_face": 158,
+          "last_face_exclusive": 2182
+        },
+        {
+          "name": "Two curved thorn arms with hooked ruby talons",
+          "first_face": 2182,
+          "last_face_exclusive": 2332
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Reference 07: a deep garnet rose has three rings of overlapping, cross-cupped thick petals whose lips curl inward around a small dark red core. Twenty-one closed individual petal volumes, warm rose glints, unequal thorn arms and hooked ruby talons flank an arched woody stem and four branching roots; no flat radial starflower or overbright core.",
+        "Garnet-to-coral petal face contrast separates the concentric sculpted blossom; olive stem stays readable."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/blood_moon_rose.blend",
+      "robloxIntendedSize": [
+        6.825550079345703,
+        7.399999618530273,
+        2.825404405593872
+      ],
+      "vfxHookRoblox": [
+        0.3733806312084198,
+        1.642275094985962,
+        1.1789213418960571
+      ],
+      "roundtrip": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.033685408532619476,
+          0.013943920843303204,
+          0.03652043268084526
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 5166,
+        "colorCount": 519,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "blood_moon_rose",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba"
+      },
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/blood_moon_rose.blend",
+      "sourceReusedSha256": "5f4671112b3fa697d535c8d86d016e6156083c0782f3c9e6088ae1dbfbeea33d",
+      "vfxHooks": {},
+      "changedPaintCorners": 15498,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.06825549900531769,
+          0.028254054486751556,
+          0.07400000095367432
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 5166,
+        "colorCount": 2001,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "blood_moon_rose",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "080eca4263120b74a03fb9f4893e1d7054f08847777c11c19f1fa4b3112a899a"
+      }
+    },
+    {
+      "id": "judgement_scales",
+      "displayName": "Judgement Scales",
+      "rarity": "Legendary",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/judgement_scales.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/judgement_scales.fbx",
+      "sha256": "40ba4fa6db0b1fb1b685a0accaba28517270a4dba2a38971cbef1193491a981e",
+      "triangles": 2112,
+      "vertices": 1128,
+      "blenderDimensions": [
+        7.404327392578125,
+        2.3032803535461426,
+        7.500000476837158
+      ],
+      "intendedRobloxSize": [
+        7.404327392578125,
+        7.500000476837158,
+        2.3032803535461426
+      ],
+      "diagonal": 10.787917856383224,
+      "vfxHook": [
+        2.6532864570617676,
+        0.433392196893692,
+        0.13354535400867462
+      ],
+      "vfxProfile": "unequal_scales",
+      "palette": [
+        "bone_high",
+        "brass",
+        "brass_edge",
+        "gold_glow",
+        "indigo",
+        "ivory",
+        "obsidian",
+        "star_edge",
+        "star_iron",
+        "thorn_edge"
+      ],
+      "paintedColorCount": 606,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "Bone and iron idol with two broad planted feet",
+          "first_face": 0,
+          "last_face_exclusive": 307
+        },
+        {
+          "name": "Uneven balance arms and suspended open bowl pans",
+          "first_face": 307,
+          "last_face_exclusive": 805
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Reference 07: blind bone and iron judgment idol with unequal suspended real open pans. The pale right bowl bears a gold soul, the dark lower bowl a folded smoke volume; unequal legs, a tall split face and brass halo complete the ceremonial silhouette.",
+        "Steel facets on the dark half retain the asymmetric ivory/gold judgement identity and open hanging pans."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/judgement_scales.blend",
+      "robloxIntendedSize": [
+        7.404327392578125,
+        7.500000476837158,
+        2.3032803535461426
+      ],
+      "vfxHookRoblox": [
+        2.6532864570617676,
+        0.433392196893692,
+        0.13354535400867462
+      ],
+      "roundtrip": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.03571999818086624,
+          0.011111504398286343,
+          0.03618154302239418
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2112,
+        "colorCount": 606,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "judgement_scales",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04"
+      },
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/judgement_scales.blend",
+      "sourceReusedSha256": "9f1e9e163e26ad20a20261c20adc202a410f917936c1a0b1995bd29e64022ea1",
+      "vfxHooks": {
+        "leftPan": [
+          -2.6532863325341,
+          -0.43721722774170296,
+          0.340833527956334
+        ],
+        "rightPan": [
+          2.6532863325341,
+          0.578493724153386,
+          0.340833527956334
+        ]
+      },
+      "changedPaintCorners": 3022,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.07404327392578125,
+          0.023032816126942635,
+          0.07500001043081284
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2112,
+        "colorCount": 1141,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "judgement_scales",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "40ba4fa6db0b1fb1b685a0accaba28517270a4dba2a38971cbef1193491a981e"
+      }
+    },
+    {
+      "id": "eclipse_stag",
+      "displayName": "Eclipse Stag",
+      "rarity": "Legendary",
+      "sourceReference": "assets/reference/rework-08-legendary.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/eclipse_stag.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/eclipse_stag.fbx",
+      "sha256": "6c384773c035c836def712bbd9bd53f034209a130f37b3e3c133d1482404dccb",
+      "triangles": 1882,
+      "vertices": 1019,
+      "blenderDimensions": [
+        6.504951000213623,
+        2.521584987640381,
+        8.600000381469727
+      ],
+      "intendedRobloxSize": [
+        6.504951000213623,
+        8.600000381469727,
+        2.521584987640381
+      ],
+      "diagonal": 11.073968797425474,
+      "vfxHook": [
+        0.7037317752838135,
+        1.0829201936721802,
+        0.7724012732505798
+      ],
+      "vfxProfile": "eclipse_antlers",
+      "palette": [
+        "bone_high",
+        "ivory",
+        "jade",
+        "moon_glow",
+        "obsidian",
+        "thorn_edge"
+      ],
+      "paintedColorCount": 467,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "Lean black spectral deer with four articulated hooves",
+          "first_face": 0,
+          "last_face_exclusive": 382
+        },
+        {
+          "name": "Broad pale branching antlers with suspended moon crystals",
+          "first_face": 382,
+          "last_face_exclusive": 522
+        },
+        {
+          "name": "Separated wind mane and tapered phantom tail",
+          "first_face": 522,
+          "last_face_exclusive": 586
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Reference 08: lean spectral deer with black armored body, four jointed hooves, pale mask and broad multi-branch ivory antlers. Small moon crystals and separated jade mane ribbons occupy controlled negative space rather than a halo of spikes.",
+        "Warm charcoal hide with silver-brown facets gives the body volume beneath the ivory antlers and jade mane."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/eclipse_stag.blend",
+      "robloxIntendedSize": [
+        6.504951000213623,
+        8.600000381469727,
+        2.521584987640381
+      ],
+      "vfxHookRoblox": [
+        0.7037317752838135,
+        1.0829201936721802,
+        0.7724012732505798
+      ],
+      "roundtrip": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.030634021386504173,
+          0.01187500637024641,
+          0.040500324219465256
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 1882,
+        "colorCount": 467,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "eclipse_stag",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b"
+      },
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/eclipse_stag.blend",
+      "sourceReusedSha256": "612f78bcaed6b1655269a5f00e7c4661000f12faf7505281fda3f830b80307b7",
+      "vfxHooks": {},
+      "changedPaintCorners": 2099,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.06504950672388077,
+          0.025215864181518555,
+          0.08600001037120819
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 1882,
+        "colorCount": 429,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "eclipse_stag",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "6c384773c035c836def712bbd9bd53f034209a130f37b3e3c133d1482404dccb"
+      }
+    },
+    {
+      "id": "hollow_throne",
+      "displayName": "Hollow Throne",
+      "rarity": "Mythic",
+      "sourceReference": "assets/reference/rework-09-mythic.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/hollow_throne.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/hollow_throne.fbx",
+      "sha256": "518d9422da7b3711c4dd43b097a34e8003c250cb98a328d048b0e5f7f14d9232",
+      "triangles": 2416,
+      "vertices": 1298,
+      "blenderDimensions": [
+        6.098017692565918,
+        4.2822442054748535,
+        10
+      ],
+      "intendedRobloxSize": [
+        6.098017692565918,
+        10,
+        4.2822442054748535
+      ],
+      "diagonal": 12.470903544417698,
+      "vfxHook": [
+        0,
+        0.412757933139801,
+        -0.6234854459762573
+      ],
+      "vfxProfile": "hollow_throne_presence",
+      "palette": [
+        "burial",
+        "charcoal",
+        "cold_white",
+        "linen",
+        "obsidian",
+        "star_edge",
+        "star_iron",
+        "star_wear",
+        "white_glow"
+      ],
+      "paintedColorCount": 595,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "Open throne architecture with tall pointed rails and four living feet",
+          "first_face": 0,
+          "last_face_exclusive": 588
+        },
+        {
+          "name": "Monarch occupied only by a luminous empty outline",
+          "first_face": 588,
+          "last_face_exclusive": 658
+        },
+        {
+          "name": "Chipped outer lancets and white diamond finials",
+          "first_face": 658,
+          "last_face_exclusive": 698
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Reference 09: living dark throne with four claw feet, tall open gothic back rails and an occupant defined only by a thin luminous monarch outline. Real empty openings remain visible from the rear; torn linen shoulders and white chipped rail ridges provide a restrained monochrome identity.",
+        "Cold dark iron with broad pale bevel faces; preserve the empty king silhouette and architectural aperture."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/hollow_throne.blend",
+      "robloxIntendedSize": [
+        6.098017692565918,
+        10,
+        4.2822442054748535
+      ],
+      "vfxHookRoblox": [
+        0,
+        0.412757933139801,
+        -0.6234854459762573
+      ],
+      "roundtrip": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.026719791814684868,
+          0.018763592466711998,
+          0.0438171811401844
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2416,
+        "colorCount": 595,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "hollow_throne",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61"
+      },
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/hollow_throne.blend",
+      "sourceReusedSha256": "5953351d9769d69cb58a89bf8f39eb4bdd6cd7aa42f7d3acc4cfcdc780d6cb9f",
+      "vfxHooks": {},
+      "changedPaintCorners": 4982,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.060980174690485,
+          0.0428224578499794,
+          0.10000000149011612
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 2416,
+        "colorCount": 1145,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "hollow_throne",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "518d9422da7b3711c4dd43b097a34e8003c250cb98a328d048b0e5f7f14d9232"
+      }
+    },
+    {
+      "id": "worldroot",
+      "displayName": "Worldroot",
+      "rarity": "Mythic",
+      "sourceReference": "assets/reference/rework-10-mythic.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/worldroot.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/worldroot.fbx",
+      "sha256": "07e7d08a2c99f3a996b49d0895893f2c1f4fbc4748f7088cb1b50eafb571b3e0",
+      "triangles": 3456,
+      "vertices": 1846,
+      "blenderDimensions": [
+        7.89845085144043,
+        3.7966694831848145,
+        10.199999809265137
+      ],
+      "intendedRobloxSize": [
+        7.89845085144043,
+        10.199999809265137,
+        3.7966694831848145
+      ],
+      "diagonal": 13.447684600933192,
+      "vfxHook": [
+        0.09541258215904236,
+        -0.5086733102798462,
+        0.8901336193084717
+      ],
+      "vfxProfile": "worldroot_seed",
+      "palette": [
+        "bark_dark",
+        "bark_light",
+        "gold_glow",
+        "jade",
+        "jade_glow",
+        "moss_dark",
+        "moss_light"
+      ],
+      "paintedColorCount": 473,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "Four twisting inverted tree root legs with bifurcated toes",
+          "first_face": 0,
+          "last_face_exclusive": 256
+        },
+        {
+          "name": "Two thick opposing trunk arches surrounding a suspended jade seed",
+          "first_face": 256,
+          "last_face_exclusive": 514
+        },
+        {
+          "name": "Wide inverted branching crown with individually hanging moss strips",
+          "first_face": 514,
+          "last_face_exclusive": 957
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Reference 10: an inverted tree beast with four twisting root feet, two opposite trunk arches and a suspended jade seed in a true central opening. Wide asymmetric branch forks, longitudinal painted bark and individually hanging moss strips create a living ancient tree rather than a pile of spikes.",
+        "Warm bark relief and separate moss colors reveal the forked trunk and root feet around the jade seed."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/worldroot.blend",
+      "robloxIntendedSize": [
+        7.89845085144043,
+        10.199999809265137,
+        3.7966694831848145
+      ],
+      "vfxHookRoblox": [
+        0.09541258215904236,
+        -0.5086733102798462,
+        0.8901336193084717
+      ],
+      "roundtrip": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.03241721913218498,
+          0.015582488849759102,
+          0.04186335951089859
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 3456,
+        "colorCount": 473,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "worldroot",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f"
+      },
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/worldroot.blend",
+      "sourceReusedSha256": "78a0e6683bc4a6bd2908672f736828af4230236d573ad7945f553212d33728dc",
+      "vfxHooks": {},
+      "changedPaintCorners": 9268,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.07898450642824173,
+          0.037966709583997726,
+          0.10200000554323196
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 3456,
+        "colorCount": 245,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "worldroot",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "07e7d08a2c99f3a996b49d0895893f2c1f4fbc4748f7088cb1b50eafb571b3e0"
+      }
+    },
+    {
+      "id": "the_last_funeral",
+      "displayName": "The Last Funeral",
+      "rarity": "Mythic",
+      "sourceReference": "assets/reference/rework-10-mythic.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/the_last_funeral.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/the_last_funeral.fbx",
+      "sha256": "9f5998dcaf354f42a03dac802352361feff28569e0b19f9d5e1bc17b25a580eb",
+      "triangles": 3030,
+      "vertices": 1611,
+      "blenderDimensions": [
+        10.600000381469727,
+        5.67941427230835,
+        8.899999618530273
+      ],
+      "intendedRobloxSize": [
+        10.600000381469727,
+        8.899999618530273,
+        5.67941427230835
+      ],
+      "diagonal": 14.960807056221839,
+      "vfxHook": [
+        0.46086955070495605,
+        3.142636775970459,
+        2.608792304992676
+      ],
+      "vfxProfile": "last_funeral_lilies",
+      "palette": [
+        "brass",
+        "brass_edge",
+        "burial",
+        "burial_edge",
+        "ivory",
+        "obsidian"
+      ],
+      "paintedColorCount": 384,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "Long horizontal chamfered black coffin with a raised lid and ivory memorial lilies",
+          "first_face": 0,
+          "last_face_exclusive": 276
+        },
+        {
+          "name": "Two broad wrapping straps each continuing into front and rear tall curved claw legs",
+          "first_face": 276,
+          "last_face_exclusive": 860
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Reference 10 final correction: long HORIZONTAL black coffin on four tall, physically folded curved straps ending in two-toed ivory claws. Two bands wrap the lid and body before becoming its supports; raised lilies, gold seams and a chamfered coffin silhouette preserve the solemn funeral object from all sides.",
+        "Muted aubergine cloth and graphite leg facets define the coffin bearers beneath the ivory floral inlays."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/the_last_funeral.blend",
+      "robloxIntendedSize": [
+        10.600000381469727,
+        8.899999618530273,
+        5.67941427230835
+      ],
+      "vfxHookRoblox": [
+        0.46086955070495605,
+        3.142636775970459,
+        2.608792304992676
+      ],
+      "roundtrip": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.03680000081658363,
+          0.019983207806944847,
+          0.03131493926048279
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 3030,
+        "colorCount": 384,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "the_last_funeral",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5"
+      },
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/the_last_funeral.blend",
+      "sourceReusedSha256": "761d9ae4de0af78f189c636680c9c918b4d1c931b68fcafae8da7573641cb943",
+      "vfxHooks": {},
+      "changedPaintCorners": 7332,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.10599999874830246,
+          0.05679415538907051,
+          0.08900000154972076
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 3030,
+        "colorCount": 297,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "the_last_funeral",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "9f5998dcaf354f42a03dac802352361feff28569e0b19f9d5e1bc17b25a580eb"
+      }
+    },
+    {
+      "id": "the_unwritten",
+      "displayName": "The Unwritten",
+      "rarity": "Secret",
+      "sourceReference": "assets/reference/rework-12-secret.png",
+      "source": "assets/source/blender/curses_visual_pass2/batch02/the_unwritten.blend",
+      "export": "assets/export/meshes/curses/visual-pass2/batch02/the_unwritten.fbx",
+      "sha256": "08fe246fc45a6838e34c0682adb7196e4cc62211235cb4ad0b3e7c5adcebc520",
+      "triangles": 8122,
+      "vertices": 4155,
+      "blenderDimensions": [
+        9.576600074768066,
+        4.091584205627441,
+        11.699999809265137
+      ],
+      "intendedRobloxSize": [
+        9.576600074768066,
+        11.699999809265137,
+        4.091584205627441
+      ],
+      "diagonal": 15.663407223225473,
+      "vfxHook": [
+        0.2727002799510956,
+        0.7114338278770447,
+        1.7798516750335693
+      ],
+      "vfxProfile": "unwritten_erasure",
+      "palette": [
+        "paper_black",
+        "paper_wear",
+        "parchment",
+        "ruby",
+        "white_glow"
+      ],
+      "paintedColorCount": 340,
+      "uvLayers": 1,
+      "colorLayer": "SACPaintedColor",
+      "semanticParts": [
+        {
+          "name": "Paper specter built from twelve broad folded black coat pages with unequal ragged tails",
+          "first_face": 0,
+          "last_face_exclusive": 866
+        },
+        {
+          "name": "Faceless irregular torn parchment head with split curled tips",
+          "first_face": 866,
+          "last_face_exclusive": 922
+        },
+        {
+          "name": "Overlapping curved shoulder pages and bent paper sleeve volumes",
+          "first_face": 922,
+          "last_face_exclusive": 1674
+        },
+        {
+          "name": "Large physically modeled erased writing and red binding stitches",
+          "first_face": 1674,
+          "last_face_exclusive": 1814
+        }
+      ],
+      "modelComplete": true,
+      "referenceReviewed": true,
+      "localValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0
+      },
+      "realImportRecorded": false,
+      "appearanceChecked": false,
+      "gameplayChecked": false,
+      "enabled": false,
+      "designNotes": [
+        "Reference 12 final correction: a specter whose coat is made from twelve broad physically folded black pages with uneven ragged hems, eight curved shoulder pages and torn bent paper sleeves. The faceless parchment head has split irregular curled tips rather than ruled notebook lines; pale writing claws, asymmetrical erased glyphs and red bookbinding stitches carry the concept.",
+        "Ink-charcoal paper folds with dusty warm edges; keep the erased parchment face and white fractured glyphs."
+      ],
+      "blendSource": "assets/source/blender/curses_visual_pass2/batch02/the_unwritten.blend",
+      "robloxIntendedSize": [
+        9.576600074768066,
+        11.699999809265137,
+        4.091584205627441
+      ],
+      "vfxHookRoblox": [
+        0.2727002799510956,
+        0.7114338278770447,
+        1.7798516750335693
+      ],
+      "roundtrip": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.033359721302986145,
+          0.014252884313464165,
+          0.04075650870800018
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 8122,
+        "colorCount": 340,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "the_unwritten",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e"
+      },
+      "pass": 2,
+      "revision": 2,
+      "sourceReused": "assets/source/blender/curses_expansion/rework/the_unwritten.blend",
+      "sourceReusedSha256": "cd5bb3f64cef3e2c9fcba18edf9de41eb519cf7008f73ff52aa3e398a52f4064",
+      "vfxHooks": {},
+      "changedPaintCorners": 22251,
+      "roundtripValidation": {
+        "nonManifoldEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "fbxDimensions": [
+          0.09576600044965744,
+          0.04091585800051689,
+          0.11700000613927841
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "triangleCount": 8122,
+        "colorCount": 274,
+        "uvLayers": 1,
+        "materials": 1,
+        "valid": true,
+        "id": "the_unwritten",
+        "status": "FBX_ROUND_TRIP_PASS",
+        "fbxSha256": "08fe246fc45a6838e34c0682adb7196e4cc62211235cb4ad0b3e7c5adcebc520"
+      }
+    }
+  ],
+  "studioImportPending": false
+}

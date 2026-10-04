@@ -1,0 +1,121 @@
+{
+  "generator": "assets/source/blender/foliage_expansion/generate_foliage.py",
+  "source": "assets/source/blender/foliage_expansion/steal_a_curse_foliage_expansion.blend",
+  "original_project_assets": true,
+  "fbx_global_scale": 0.01,
+  "unique_mesh_count": 3,
+  "total_unique_triangles": 1568,
+  "assets": [
+    {
+      "name": "foliage_crescent",
+      "fbx": "assets/export/meshes/foliage_expansion/foliage_crescent.fbx",
+      "triangles": 504,
+      "vertices": 270,
+      "blender_dimensions": [
+        16,
+        10,
+        6
+      ],
+      "expected_roblox_size": [
+        16,
+        6,
+        10
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Asymmetric crescent of nine curved tapered blades",
+      "mesh_id": "rbxassetid://93801806942626",
+      "import_status": "IMPORTED",
+      "imported_size": [
+        16,
+        6.000000476837158,
+        10
+      ],
+      "imported_initial_size": [
+        16,
+        6.000000476837158,
+        10
+      ],
+      "import_evidence": {
+        "file": "assets/imports/world_expansion_2026-10-01.json",
+        "observedAt": "2026-10-01 20:48:51.684 (Roblox Studio Output local timestamp)",
+        "workflow": "Studio Import 3D, original local FBX, creator Yo; MeshId/MeshSize/Size read directly through CommandBar"
+      },
+      "play_validated": false
+    },
+    {
+      "name": "foliage_tattered",
+      "fbx": "assets/export/meshes/foliage_expansion/foliage_tattered.fbx",
+      "triangles": 672,
+      "vertices": 360,
+      "blender_dimensions": [
+        14,
+        12,
+        7
+      ],
+      "expected_roblox_size": [
+        14,
+        7,
+        12
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Twelve layered jagged blades with broken outer contour",
+      "mesh_id": "rbxassetid://93606032304189",
+      "import_status": "IMPORTED",
+      "imported_size": [
+        14,
+        7.000001430511475,
+        12
+      ],
+      "imported_initial_size": [
+        14,
+        7.000001430511475,
+        12
+      ],
+      "import_evidence": {
+        "file": "assets/imports/world_expansion_2026-10-01.json",
+        "observedAt": "2026-10-01 20:48:51.684 (Roblox Studio Output local timestamp)",
+        "workflow": "Studio Import 3D, original local FBX, creator Yo; MeshId/MeshSize/Size read directly through CommandBar"
+      },
+      "play_validated": false
+    },
+    {
+      "name": "foliage_swept",
+      "fbx": "assets/export/meshes/foliage_expansion/foliage_swept.fbx",
+      "triangles": 392,
+      "vertices": 210,
+      "blender_dimensions": [
+        15,
+        9,
+        8
+      ],
+      "expected_roblox_size": [
+        15,
+        8,
+        9
+      ],
+      "origin": "bounds_center",
+      "materials": 1,
+      "purpose": "Sparse swept arch of seven curled blades",
+      "mesh_id": "rbxassetid://110491378095483",
+      "import_status": "IMPORTED",
+      "imported_size": [
+        15,
+        7.999999046325684,
+        9
+      ],
+      "imported_initial_size": [
+        15,
+        7.999999046325684,
+        9
+      ],
+      "import_evidence": {
+        "file": "assets/imports/world_expansion_2026-10-01.json",
+        "observedAt": "2026-10-01 20:48:51.684 (Roblox Studio Output local timestamp)",
+        "workflow": "Studio Import 3D, original local FBX, creator Yo; MeshId/MeshSize/Size read directly through CommandBar"
+      },
+      "play_validated": false
+    }
+  ]
+}

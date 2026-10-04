@@ -1,0 +1,52 @@
+[TRUNCATED DUE TO LENGTH LIMIT]
+QUALITY_WORLD_PASS Grounded bounds, simple classified hulls, eight sanctuary contracts, forty slots and eight castle navmesh paths. Player-height seating and physical hull/camera review remain separate.
+QUALITY_UI_REPORT {"shopVisible":false,"cardSize":[252,82],"method":"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.","mockCards":10,"viewport":[1580,633],"failures":[],"cardPosition":[1032,12],"reason":"viewport resized"}
+QUALITY_UI_PASS viewport resized 1580 633
+[Roblox][sabuiltin_Assistant.rbxm.Assistant.Packages._Index.AssistantUI.AssistantUI.Actions.ExecuteLuauActions] The execute_luau changed camera type. Resetting from Enum.CameraType.Scriptable back to Enum.CameraType.Custom
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("candle_wisp")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("candle_wisp")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("candle_wisp")
+CURSE_REVIEW_CAMERA candle_wisp actual client Scriptable camera; character unmoved
+The current thread cannot require 'CurseCatalog' since 'CurseCatalog' has additional values for the Capabilities property: LoadUnownedAsset (and 3 more)
+Stack Begin
+Script 'AssistantCommand', Line 1
+Stack End
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("pale_gramophone")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("pale_gramophone")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("pale_gramophone")
+CURSE_REVIEW_CAMERA pale_gramophone actual client Scriptable camera; character unmoved
+The current thread cannot require 'CurseCatalog' since 'CurseCatalog' has additional values for the Capabilities property: LoadUnownedAsset (and 3 more)
+Stack Begin
+Script 'AssistantCommand', Line 1
+Stack End
+The current thread cannot require 'CurseCatalog' since 'CurseCatalog' has additional values for the Capabilities property: LoadUnownedAsset (and 3 more)
+Stack Begin
+Script 'AssistantCommand', Line 1
+Stack End
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("thorn_cathedral")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("thorn_cathedral")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("thorn_cathedral")
+CURSE_REVIEW_CAMERA thorn_cathedral actual client Scriptable camera; character unmoved
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("cathedral_heart")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("cathedral_heart")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("cathedral_heart")
+CURSE_REVIEW_CAMERA cathedral_heart actual client Scriptable camera; character unmoved
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("the_last_star")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("the_last_star")
+> require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame("the_last_star")
+CURSE_REVIEW_CAMERA the_last_star actual client Scriptable camera; character unmoved
+QUALITY_UI_REPORT {"shopVisible":false,"cardSize":[252,82],"method":"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.","mockCards":10,"viewport":[1580,633],"failures":[],"cardPosition":[1316,12],"reason":"shell visibility changed"}
+QUALITY_UI_PASS shell visibility changed 1580 633
+QUALITY_SHELL_VISIBILITY_OBSERVED CursesOverlay true
+PrimaryPart is not a valid member of Part "Workspace.StealACurseMap.ActiveCurses.CursePulse"
+Stack Begin
+Script 'AssistantCommand', Line 1
+Stack End
+QUALITY_UI_REPORT {"shopVisible":false,"cardSize":[252,82],"method":"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.","mockCards":10,"viewport":[1580,633],"failures":[],"cardPosition":[1316,12],"reason":"shell visibility changed"}
+QUALITY_UI_PASS shell visibility changed 1580 633
+QUALITY_SHELL_VISIBILITY_OBSERVED CursesOverlay false
+QUALITY_UI_REPORT {"shopVisible":true,"cardSize":[252,82],"method":"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.","mockCards":10,"viewport":[1580,633],"failures":[],"cardPosition":[1316,12],"reason":"shop visibility changed"}
+QUALITY_SHOP_OPEN_PASS shop visibility changed 1580 633
+QUALITY_UI_REPORT {"shopVisible":false,"cardSize":[252,82],"method":"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.","mockCards":10,"viewport":[1580,633],"failures":[],"cardPosition":[1316,12],"reason":"shop visibility changed"}
+QUALITY_UI_PASS shop visibility changed 1580 633
+QUALITY_SHOP_CLOSE_OBSERVED Actual overlay changed from open to closed; input source must be documented separately

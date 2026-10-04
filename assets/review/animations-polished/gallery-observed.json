@@ -1,0 +1,5651 @@
+[
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 6,
+      "posed": 10870,
+      "boneWrites": 112975,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "cursed_doll",
+    "frames": {
+      "mean": 0.006019366902208566,
+      "p95": 0.008340099826455116,
+      "count": 1130,
+      "maximum": 0.01096890028566122
+    },
+    "changedBones": [
+      "ArmL",
+      "ArmR",
+      "HandL",
+      "HandR",
+      "Head",
+      "Root"
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 11805,
+      "boneWrites": 121110,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "cursed_doll",
+    "frames": {
+      "mean": 0.005647847591357869,
+      "p95": 0.007465700153261423,
+      "count": 559,
+      "maximum": 0.010059500113129616
+    },
+    "changedBones": [
+      "ArmL",
+      "ArmR",
+      "Dress",
+      "FootL",
+      "FootR",
+      "HandL",
+      "HandR",
+      "Head",
+      "LegL",
+      "LegR",
+      "Root"
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 12581,
+      "boneWrites": 128820,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "cursed_doll",
+    "frames": {
+      "mean": 0.0053533487273332726,
+      "p95": 0.006058900151401758,
+      "count": 589,
+      "maximum": 0.007971500046551228
+    },
+    "changedBones": [
+      "ArmL",
+      "ArmR",
+      "Dress",
+      "FootL",
+      "FootR",
+      "HandL",
+      "HandR",
+      "Head",
+      "LegL",
+      "LegR",
+      "Root"
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 14052,
+      "boneWrites": 156689,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "watching_eye",
+    "frames": {
+      "mean": 0.005569854007390634,
+      "p95": 0.006726799998432398,
+      "count": 1222,
+      "maximum": 0.009397200308740139
+    },
+    "changedBones": [
+      "ArmL",
+      "ArmR",
+      "FingerL0",
+      "FingerL1",
+      "FingerL2",
+      "FingerL3",
+      "FingerR0",
+      "FingerR1",
+      "FingerR2",
+      "FingerR3",
+      "ForearmL",
+      "ForearmR",
+      "Gaze",
+      "HandL",
+      "HandR",
+      "Iris",
+      "LidLower",
+      "LidUpper",
+      "Root",
+      "ThumbL",
+      "ThumbR"
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 14767,
+      "boneWrites": 170413,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "id": "watching_eye",
+    "frames": {
+      "mean": 0.005508641711554863,
+      "p95": 0.0062811002135276794,
+      "count": 573,
+      "maximum": 0.007981100119650364
+    },
+    "changedBones": [
+      "ArmL",
+      "ArmR",
+      "FingerL0",
+      "FingerL1",
+      "FingerL2",
+      "FingerL3",
+      "FingerR0",
+      "FingerR1",
+      "FingerR2",
+      "FingerR3",
+      "ForearmL",
+      "ForearmR",
+      "Gaze",
+      "HandL",
+      "HandR",
+      "Iris",
+      "LidLower",
+      "LidUpper",
+      "Root",
+      "ThumbL",
+      "ThumbR"
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 15420,
+      "boneWrites": 183453,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "id": "watching_eye",
+    "frames": {
+      "mean": 0.0057376718157055705,
+      "p95": 0.0071470001712441444,
+      "count": 550,
+      "maximum": 0.01067699957638979
+    },
+    "changedBones": [
+      "ArmL",
+      "ArmR",
+      "FingerL0",
+      "FingerL1",
+      "FingerL2",
+      "FingerL3",
+      "FingerR0",
+      "FingerR1",
+      "FingerR2",
+      "FingerR3",
+      "ForearmL",
+      "ForearmR",
+      "Gaze",
+      "HandL",
+      "HandR",
+      "Iris",
+      "LidLower",
+      "LidUpper",
+      "Root",
+      "ThumbL",
+      "ThumbR"
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 27595,
+      "boneWrites": 439571,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "id": "soul_chains",
+    "frames": {
+      "mean": 0.008008390934042195,
+      "p95": 0.009617200121283531,
+      "count": 850,
+      "maximum": 0.017701299861073494
+    },
+    "changedBones": [
+      "ChainL0",
+      "ChainL1",
+      "ChainL2",
+      "ChainL3",
+      "ChainL4",
+      "ChainL5",
+      "ChainR0",
+      "ChainR1",
+      "ChainR2",
+      "ChainR3",
+      "ChainR4",
+      "ChainR5",
+      "Core",
+      "CrownLink0",
+      "CrownLink1",
+      "CrownLink2",
+      "CrownLink3",
+      "CrownLink4",
+      "CrownLink5",
+      "CrownLink6",
+      "CuffL",
+      "CuffR",
+      "Hook",
+      "Root"
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 28155,
+      "boneWrites": 451374,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "id": "soul_chains",
+    "frames": {
+      "mean": 0.007774771677486122,
+      "p95": 0.009405800141394138,
+      "count": 406,
+      "maximum": 0.01263749971985817
+    },
+    "changedBones": [
+      "ChainL0",
+      "ChainL1",
+      "ChainL2",
+      "ChainL3",
+      "ChainL4",
+      "ChainL5",
+      "ChainR0",
+      "ChainR1",
+      "ChainR2",
+      "ChainR3",
+      "ChainR4",
+      "ChainR5",
+      "Core",
+      "CrownLink0",
+      "CrownLink1",
+      "CrownLink2",
+      "CrownLink3",
+      "CrownLink4",
+      "CrownLink5",
+      "CrownLink6",
+      "CuffL",
+      "CuffR",
+      "Hook",
+      "Root"
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 28849,
+      "boneWrites": 466539,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "id": "soul_chains",
+    "frames": {
+      "mean": 0.005811041447421464,
+      "p95": 0.0068176002241671085,
+      "count": 543,
+      "maximum": 0.009216000325977802
+    },
+    "changedBones": [
+      "ChainL0",
+      "ChainL1",
+      "ChainL2",
+      "ChainL3",
+      "ChainL4",
+      "ChainL5",
+      "ChainR0",
+      "ChainR1",
+      "ChainR2",
+      "ChainR3",
+      "ChainR4",
+      "ChainR5",
+      "Core",
+      "CrownLink0",
+      "CrownLink1",
+      "CrownLink2",
+      "CrownLink3",
+      "CrownLink4",
+      "CrownLink5",
+      "CrownLink6",
+      "CuffL",
+      "CuffR",
+      "Hook",
+      "Root"
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 30379,
+      "boneWrites": 483887,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "plague_monarch",
+    "frames": {
+      "mean": 0.0055805356020201076,
+      "p95": 0.006267200224101543,
+      "count": 1219,
+      "maximum": 0.008178399875760078
+    },
+    "changedBones": [
+      "plague_monarch__Breath",
+      "plague_monarch__Crown",
+      "plague_monarch__Leg0",
+      "plague_monarch__Leg1",
+      "plague_monarch__Leg2",
+      "plague_monarch__Leg3",
+      "plague_monarch__Mask",
+      "plague_monarch__Root",
+      "plague_monarch__Shin0",
+      "plague_monarch__Shin1",
+      "plague_monarch__Shin2",
+      "plague_monarch__Shin3"
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 31096,
+      "boneWrites": 491216,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "plague_monarch",
+    "frames": {
+      "mean": 0.007128904059604988,
+      "p95": 0.008326300419867039,
+      "count": 443,
+      "maximum": 0.015421600081026554
+    },
+    "changedBones": [
+      "plague_monarch__Breath",
+      "plague_monarch__Crown",
+      "plague_monarch__Leg0",
+      "plague_monarch__Leg1",
+      "plague_monarch__Leg2",
+      "plague_monarch__Leg3",
+      "plague_monarch__Mask",
+      "plague_monarch__Root",
+      "plague_monarch__Shin0",
+      "plague_monarch__Shin1",
+      "plague_monarch__Shin2",
+      "plague_monarch__Shin3"
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 31687,
+      "boneWrites": 497630,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "plague_monarch",
+    "frames": {
+      "mean": 0.007433283720429073,
+      "p95": 0.008607099764049053,
+      "count": 424,
+      "maximum": 0.01008090004324913
+    },
+    "changedBones": [
+      "plague_monarch__Breath",
+      "plague_monarch__Crown",
+      "plague_monarch__Leg0",
+      "plague_monarch__Leg1",
+      "plague_monarch__Leg2",
+      "plague_monarch__Leg3",
+      "plague_monarch__Mask",
+      "plague_monarch__Root",
+      "plague_monarch__Shin0",
+      "plague_monarch__Shin1",
+      "plague_monarch__Shin2",
+      "plague_monarch__Shin3"
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 51663,
+      "boneWrites": 729347,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "the_void",
+    "frames": {
+      "mean": 0.0076010487172440445,
+      "p95": 0.009144499897956848,
+      "count": 895,
+      "maximum": 0.010828699916601181
+    },
+    "changedBones": [
+      "the_void__ArcBase",
+      "the_void__ArcL",
+      "the_void__ArcR",
+      "the_void__Root",
+      "the_void__Shard0",
+      "the_void__Shard1",
+      "the_void__Shard2",
+      "the_void__Shard3",
+      "the_void__Shard4"
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 52217,
+      "boneWrites": 735017,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "id": "the_void",
+    "frames": {
+      "mean": 0.007454235684655025,
+      "p95": 0.008907400071620941,
+      "count": 423,
+      "maximum": 0.00999350007623434
+    },
+    "changedBones": [
+      "the_void__ArcBase",
+      "the_void__ArcL",
+      "the_void__ArcR",
+      "the_void__Root",
+      "the_void__Shard0",
+      "the_void__Shard1",
+      "the_void__Shard2",
+      "the_void__Shard3",
+      "the_void__Shard4"
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 52733,
+      "boneWrites": 740129,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "id": "the_void",
+    "frames": {
+      "mean": 0.007343671638735159,
+      "p95": 0.008595800027251244,
+      "count": 430,
+      "maximum": 0.01376890018582344
+    },
+    "changedBones": [
+      "the_void__ArcBase",
+      "the_void__ArcL",
+      "the_void__ArcR",
+      "the_void__Root",
+      "the_void__Shard0",
+      "the_void__Shard1",
+      "the_void__Shard2",
+      "the_void__Shard3",
+      "the_void__Shard4"
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 53914,
+      "boneWrites": 749158,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "id": "haunted_mirror",
+    "frames": {
+      "mean": 0.006303302774257544,
+      "p95": 0.008331900462508202,
+      "count": 1080,
+      "maximum": 0.01050539966672659
+    },
+    "changedBones": [
+      "haunted_mirror__GhostHead",
+      "haunted_mirror__Reflection",
+      "haunted_mirror__Root"
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 54375,
+      "boneWrites": 752385,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "id": "haunted_mirror",
+    "frames": {
+      "mean": 0.007549925839849279,
+      "p95": 0.009769599884748459,
+      "count": 418,
+      "maximum": 0.01438950002193451
+    },
+    "changedBones": [
+      "haunted_mirror__GhostHead",
+      "haunted_mirror__Knee0",
+      "haunted_mirror__Knee1",
+      "haunted_mirror__Leg0",
+      "haunted_mirror__Leg1",
+      "haunted_mirror__Reflection",
+      "haunted_mirror__Root"
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 54868,
+      "boneWrites": 755836,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "id": "haunted_mirror",
+    "frames": {
+      "mean": 0.007085498880720541,
+      "p95": 0.008481300435960293,
+      "count": 445,
+      "maximum": 0.010090700350701809
+    },
+    "changedBones": [
+      "haunted_mirror__GhostHead",
+      "haunted_mirror__Knee0",
+      "haunted_mirror__Knee1",
+      "haunted_mirror__Leg0",
+      "haunted_mirror__Leg1",
+      "haunted_mirror__Reflection",
+      "haunted_mirror__Root"
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 6,
+      "posed": 65558,
+      "boneWrites": 833469,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "id": "crying_mask",
+    "frames": {
+      "mean": 0.007720908734001337,
+      "p95": 0.0092308996245265,
+      "count": 882,
+      "maximum": 0.012837800197303295
+    },
+    "changedBones": [
+      "crying_mask__Root",
+      "crying_mask__Sorrow",
+      "crying_mask__TieL",
+      "crying_mask__TieR"
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 66257,
+      "boneWrites": 837530,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "crying_mask",
+    "frames": {
+      "mean": 0.006534281987928271,
+      "p95": 0.007957600057125092,
+      "count": 483,
+      "maximum": 0.011131299659609795
+    },
+    "changedBones": [
+      "crying_mask__Root",
+      "crying_mask__Sorrow",
+      "crying_mask__TieL",
+      "crying_mask__TieR"
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 66970,
+      "boneWrites": 841029,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "crying_mask",
+    "frames": {
+      "mean": 0.006016751905931658,
+      "p95": 0.007336200214922428,
+      "count": 524,
+      "maximum": 0.008215599693357944
+    },
+    "changedBones": [
+      "crying_mask__Root",
+      "crying_mask__Sorrow",
+      "crying_mask__TieL",
+      "crying_mask__TieR"
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 68318,
+      "boneWrites": 846903,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "id": "candle_wisp",
+    "frames": {
+      "mean": 0.006200916391249427,
+      "p95": 0.008231200277805328,
+      "count": 1098,
+      "maximum": 0.009803500026464462
+    },
+    "changedBones": [
+      "candle_wisp__Flame",
+      "candle_wisp__HandL",
+      "candle_wisp__HandR",
+      "candle_wisp__Root"
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 68933,
+      "boneWrites": 850260,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "candle_wisp",
+    "frames": {
+      "mean": 0.007326616016443465,
+      "p95": 0.008487099781632423,
+      "count": 431,
+      "maximum": 0.0181489996612072
+    },
+    "changedBones": [
+      "candle_wisp__Flame",
+      "candle_wisp__HandL",
+      "candle_wisp__HandR",
+      "candle_wisp__Root"
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 69505,
+      "boneWrites": 852988,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "id": "candle_wisp",
+    "frames": {
+      "mean": 0.007541938278262624,
+      "p95": 0.010646900162100792,
+      "count": 418,
+      "maximum": 0.016072500497102737
+    },
+    "changedBones": [
+      "candle_wisp__Flame",
+      "candle_wisp__HandL",
+      "candle_wisp__HandR",
+      "candle_wisp__Root"
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 4,
+      "posed": 4679,
+      "boneWrites": 49068,
+      "missingActs": 0,
+      "suspended": 0
+    },
+    "changedBones": [
+      "grave_hopper__Knee0",
+      "grave_hopper__Knee1",
+      "grave_hopper__Knee2",
+      "grave_hopper__Knee3",
+      "grave_hopper__Leg0",
+      "grave_hopper__Leg1",
+      "grave_hopper__Leg2",
+      "grave_hopper__Leg3",
+      "grave_hopper__Root",
+      "grave_hopper__Shell"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_hopper",
+    "meshId": "rbxassetid://104320767545698",
+    "frames": {
+      "mean": 0.005497976171262021,
+      "p95": 0.006627100054174662,
+      "count": 1238,
+      "maximum": 0.009553699754178524
+    },
+    "size": [
+      4.073610782623291,
+      4.199999809265137,
+      2.7197794914245605
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 4,
+      "posed": 5483,
+      "boneWrites": 56642,
+      "missingActs": 0,
+      "suspended": 1
+    },
+    "changedBones": [
+      "grave_hopper__Knee0",
+      "grave_hopper__Knee1",
+      "grave_hopper__Knee2",
+      "grave_hopper__Knee3",
+      "grave_hopper__Leg0",
+      "grave_hopper__Leg1",
+      "grave_hopper__Leg2",
+      "grave_hopper__Leg3",
+      "grave_hopper__Root",
+      "grave_hopper__Shell"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_hopper",
+    "meshId": "rbxassetid://104320767545698",
+    "frames": {
+      "mean": 0.005343682540706911,
+      "p95": 0.006227599922567606,
+      "count": 590,
+      "maximum": 0.008748100139200687
+    },
+    "size": [
+      4.073610782623291,
+      4.199999809265137,
+      2.7197794914245605
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 4,
+      "posed": 6151,
+      "boneWrites": 62982,
+      "missingActs": 0,
+      "suspended": 1
+    },
+    "changedBones": [
+      "grave_hopper__Knee0",
+      "grave_hopper__Knee1",
+      "grave_hopper__Knee2",
+      "grave_hopper__Knee3",
+      "grave_hopper__Leg0",
+      "grave_hopper__Leg1",
+      "grave_hopper__Leg2",
+      "grave_hopper__Leg3",
+      "grave_hopper__Root",
+      "grave_hopper__Shell"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_hopper",
+    "meshId": "rbxassetid://104320767545698",
+    "frames": {
+      "mean": 0.006189807641374714,
+      "p95": 0.008782800287008286,
+      "count": 510,
+      "maximum": 0.019530899822711945
+    },
+    "size": [
+      4.073610782623291,
+      4.199999809265137,
+      2.7197794914245605
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 5,
+      "posed": 7717,
+      "boneWrites": 72545,
+      "missingActs": 0,
+      "suspended": 2
+    },
+    "changedBones": [
+      "grave_key__Root",
+      "grave_key__Scarf"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_key",
+    "meshId": "rbxassetid://113999996204033",
+    "frames": {
+      "mean": 0.0054002703914034465,
+      "p95": 0.006424999795854092,
+      "count": 1260,
+      "maximum": 0.00830840039998293
+    },
+    "size": [
+      3.8741073608398438,
+      4.599999904632568,
+      0.9528261423110962
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 5,
+      "posed": 8523,
+      "boneWrites": 77591,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "grave_key__Knee0",
+      "grave_key__Knee1",
+      "grave_key__Leg0",
+      "grave_key__Leg1",
+      "grave_key__Root",
+      "grave_key__Scarf"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_key",
+    "meshId": "rbxassetid://113999996204033",
+    "frames": {
+      "mean": 0.005954153785692915,
+      "p95": 0.007230800110846758,
+      "count": 530,
+      "maximum": 0.009287400171160698
+    },
+    "size": [
+      3.8741073608398438,
+      4.599999904632568,
+      0.9528261423110962
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 6,
+      "posed": 9173,
+      "boneWrites": 81667,
+      "missingActs": 0,
+      "suspended": 2
+    },
+    "changedBones": [
+      "grave_key__Knee0",
+      "grave_key__Knee1",
+      "grave_key__Leg0",
+      "grave_key__Leg1",
+      "grave_key__Root",
+      "grave_key__Scarf"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_key",
+    "meshId": "rbxassetid://113999996204033",
+    "frames": {
+      "mean": 0.00662101260308145,
+      "p95": 0.008852099999785423,
+      "count": 476,
+      "maximum": 0.011589599773287773
+    },
+    "size": [
+      3.8741073608398438,
+      4.599999904632568,
+      0.9528261423110962
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 15119,
+      "boneWrites": 119536,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "mourning_ribbon__LoopL",
+      "mourning_ribbon__LoopR",
+      "mourning_ribbon__Root",
+      "mourning_ribbon__TailL",
+      "mourning_ribbon__TailR"
+    ],
+    "preloadStatus": "Success",
+    "id": "mourning_ribbon",
+    "meshId": "rbxassetid://129627287179722",
+    "frames": {
+      "mean": 0.008057475859883445,
+      "p95": 0.011307300068438053,
+      "count": 845,
+      "maximum": 0.015422999858856201
+    },
+    "size": [
+      6.4000020027160645,
+      4.800000190734863,
+      1.1627039909362793
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 15597,
+      "boneWrites": 122088,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "mourning_ribbon__LoopL",
+      "mourning_ribbon__LoopR",
+      "mourning_ribbon__Root",
+      "mourning_ribbon__TailL",
+      "mourning_ribbon__TailR"
+    ],
+    "preloadStatus": "Success",
+    "id": "mourning_ribbon",
+    "meshId": "rbxassetid://129627287179722",
+    "frames": {
+      "mean": 0.007723719317666403,
+      "p95": 0.009512100368738174,
+      "count": 409,
+      "maximum": 0.017368199303746223
+    },
+    "size": [
+      6.4000020027160645,
+      4.800000190734863,
+      1.1627039909362793
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 16186,
+      "boneWrites": 125039,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "mourning_ribbon__LoopL",
+      "mourning_ribbon__LoopR",
+      "mourning_ribbon__Root",
+      "mourning_ribbon__TailL",
+      "mourning_ribbon__TailR"
+    ],
+    "preloadStatus": "Success",
+    "id": "mourning_ribbon",
+    "meshId": "rbxassetid://129627287179722",
+    "frames": {
+      "mean": 0.005808614010872871,
+      "p95": 0.008150200359523296,
+      "count": 543,
+      "maximum": 0.010202700272202492
+    },
+    "size": [
+      6.4000020027160645,
+      4.800000190734863,
+      1.1627039909362793
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 17512,
+      "boneWrites": 130346,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "wilted_sprout__Bloom",
+      "wilted_sprout__Leaf",
+      "wilted_sprout__Root",
+      "wilted_sprout__Stem"
+    ],
+    "preloadStatus": "Success",
+    "id": "wilted_sprout",
+    "meshId": "rbxassetid://88036556724682",
+    "frames": {
+      "mean": 0.005393408961198237,
+      "p95": 0.006240100134164095,
+      "count": 1261,
+      "maximum": 0.007854100316762924
+    },
+    "size": [
+      3.765922784805298,
+      4.800000190734863,
+      1.962953805923462
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 18139,
+      "boneWrites": 132854,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "wilted_sprout__Bloom",
+      "wilted_sprout__Leaf",
+      "wilted_sprout__Root",
+      "wilted_sprout__Stem"
+    ],
+    "preloadStatus": "Success",
+    "id": "wilted_sprout",
+    "meshId": "rbxassetid://88036556724682",
+    "frames": {
+      "mean": 0.005487278433435637,
+      "p95": 0.006366400048136711,
+      "count": 575,
+      "maximum": 0.007598499767482281
+    },
+    "size": [
+      3.765922784805298,
+      4.800000190734863,
+      1.962953805923462
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 18746,
+      "boneWrites": 135282,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "wilted_sprout__Bloom",
+      "wilted_sprout__Leaf",
+      "wilted_sprout__Root",
+      "wilted_sprout__Stem"
+    ],
+    "preloadStatus": "Success",
+    "id": "wilted_sprout",
+    "meshId": "rbxassetid://88036556724682",
+    "frames": {
+      "mean": 0.005821145384493404,
+      "p95": 0.0076524000614881516,
+      "count": 542,
+      "maximum": 0.010780800133943558
+    },
+    "size": [
+      3.765922784805298,
+      4.800000190734863,
+      1.962953805923462
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 24840,
+      "boneWrites": 163704,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "ink_imp__HandL",
+      "ink_imp__HandR",
+      "ink_imp__Ink",
+      "ink_imp__Root",
+      "ink_imp__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "ink_imp",
+    "meshId": "rbxassetid://78033505174804",
+    "frames": {
+      "mean": 0.007904688497782445,
+      "p95": 0.011181400157511234,
+      "count": 861,
+      "maximum": 0.014675100333988667
+    },
+    "size": [
+      3.660130262374878,
+      4,
+      1.2927815914154053
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 25538,
+      "boneWrites": 168568,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "ink_imp__HandL",
+      "ink_imp__HandR",
+      "ink_imp__Ink",
+      "ink_imp__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "ink_imp",
+    "meshId": "rbxassetid://78033505174804",
+    "frames": {
+      "mean": 0.007458854143025604,
+      "p95": 0.009166499599814415,
+      "count": 423,
+      "maximum": 0.012705300003290176
+    },
+    "size": [
+      3.660130262374878,
+      4,
+      1.2927815914154053
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 26182,
+      "boneWrites": 172406,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "ink_imp__HandL",
+      "ink_imp__HandR",
+      "ink_imp__Ink",
+      "ink_imp__Root",
+      "ink_imp__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "ink_imp",
+    "meshId": "rbxassetid://78033505174804",
+    "frames": {
+      "mean": 0.006709195115662953,
+      "p95": 0.009045500308275223,
+      "count": 470,
+      "maximum": 0.013550899922847748
+    },
+    "size": [
+      3.660130262374878,
+      4,
+      1.2927815914154053
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 27714,
+      "boneWrites": 182538,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "lost_locket__Cover",
+      "lost_locket__Finger0",
+      "lost_locket__Finger1",
+      "lost_locket__Finger2",
+      "lost_locket__Palm",
+      "lost_locket__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "lost_locket",
+    "meshId": "rbxassetid://121053869610883",
+    "frames": {
+      "mean": 0.005382646046154484,
+      "p95": 0.0060940999537706375,
+      "count": 1264,
+      "maximum": 0.00949269998818636
+    },
+    "size": [
+      4.377938270568848,
+      4.5,
+      0.8166974186897278
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 28403,
+      "boneWrites": 187020,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "lost_locket__Cover",
+      "lost_locket__Finger0",
+      "lost_locket__Finger1",
+      "lost_locket__Finger2",
+      "lost_locket__Palm",
+      "lost_locket__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "lost_locket",
+    "meshId": "rbxassetid://121053869610883",
+    "frames": {
+      "mean": 0.006607295822539215,
+      "p95": 0.008977600373327732,
+      "count": 478,
+      "maximum": 0.010505800135433674
+    },
+    "size": [
+      4.377938270568848,
+      4.5,
+      0.8166974186897278
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 29064,
+      "boneWrites": 191014,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "lost_locket__Cover",
+      "lost_locket__Finger0",
+      "lost_locket__Finger1",
+      "lost_locket__Finger2",
+      "lost_locket__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "lost_locket",
+    "meshId": "rbxassetid://121053869610883",
+    "frames": {
+      "mean": 0.006144776612658192,
+      "p95": 0.007291300222277641,
+      "count": 513,
+      "maximum": 0.00828230008482933
+    },
+    "size": [
+      4.377938270568848,
+      4.5,
+      0.8166974186897278
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 34838,
+      "boneWrites": 225734,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "ashen_book__Cover",
+      "ashen_book__PageWing",
+      "ashen_book__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "ashen_book",
+    "meshId": "rbxassetid://99694655865736",
+    "frames": {
+      "mean": 0.007987698487622636,
+      "p95": 0.01111540012061596,
+      "count": 852,
+      "maximum": 0.01487130019813776
+    },
+    "size": [
+      5.15693998336792,
+      4.099999904632568,
+      2.6912059783935547
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 35304,
+      "boneWrites": 228996,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "ashen_book__Cover",
+      "ashen_book__Knee0",
+      "ashen_book__Knee1",
+      "ashen_book__Leg0",
+      "ashen_book__Leg1",
+      "ashen_book__PageWing",
+      "ashen_book__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "ashen_book",
+    "meshId": "rbxassetid://99694655865736",
+    "frames": {
+      "mean": 0.007543492817172879,
+      "p95": 0.009047900326550007,
+      "count": 418,
+      "maximum": 0.010915299877524376
+    },
+    "size": [
+      5.15693998336792,
+      4.099999904632568,
+      2.6912059783935547
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 35883,
+      "boneWrites": 233049,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "ashen_book__Cover",
+      "ashen_book__Knee0",
+      "ashen_book__Knee1",
+      "ashen_book__Leg0",
+      "ashen_book__Leg1",
+      "ashen_book__PageWing",
+      "ashen_book__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "ashen_book",
+    "meshId": "rbxassetid://99694655865736",
+    "frames": {
+      "mean": 0.005952864150815415,
+      "p95": 0.008340899832546711,
+      "count": 530,
+      "maximum": 0.01073480024933815
+    },
+    "size": [
+      5.15693998336792,
+      4.099999904632568,
+      2.6912059783935547
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 37200,
+      "boneWrites": 247524,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "lantern_lurker__Captive",
+      "lantern_lurker__Handle",
+      "lantern_lurker__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "lantern_lurker",
+    "meshId": "rbxassetid://123417911546532",
+    "frames": {
+      "mean": 0.005400888652481612,
+      "p95": 0.006228399928659201,
+      "count": 1260,
+      "maximum": 0.01156229991465807
+    },
+    "size": [
+      3.9059982299804688,
+      4.5,
+      2.9478588104248047
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 37768,
+      "boneWrites": 253772,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "lantern_lurker__Captive",
+      "lantern_lurker__Handle",
+      "lantern_lurker__Knee0",
+      "lantern_lurker__Knee1",
+      "lantern_lurker__Knee2",
+      "lantern_lurker__Knee3",
+      "lantern_lurker__Leg0",
+      "lantern_lurker__Leg1",
+      "lantern_lurker__Leg2",
+      "lantern_lurker__Leg3",
+      "lantern_lurker__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "lantern_lurker",
+    "meshId": "rbxassetid://123417911546532",
+    "frames": {
+      "mean": 0.006240112061903116,
+      "p95": 0.007988099940121174,
+      "count": 506,
+      "maximum": 0.009783299639821053
+    },
+    "size": [
+      3.9059982299804688,
+      4.5,
+      2.9478588104248047
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 38273,
+      "boneWrites": 259285,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "lantern_lurker__Captive",
+      "lantern_lurker__Handle",
+      "lantern_lurker__Knee0",
+      "lantern_lurker__Knee1",
+      "lantern_lurker__Knee2",
+      "lantern_lurker__Knee3",
+      "lantern_lurker__Leg0",
+      "lantern_lurker__Leg1",
+      "lantern_lurker__Leg2",
+      "lantern_lurker__Leg3",
+      "lantern_lurker__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "lantern_lurker",
+    "meshId": "rbxassetid://123417911546532",
+    "frames": {
+      "mean": 0.007032864149410966,
+      "p95": 0.008523999713361263,
+      "count": 449,
+      "maximum": 0.011522999964654446
+    },
+    "size": [
+      3.9059982299804688,
+      4.5,
+      2.9478588104248047
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 50542,
+      "boneWrites": 387221,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "hourglass_hound__Head",
+      "hourglass_hound__Knee0",
+      "hourglass_hound__Knee1",
+      "hourglass_hound__Knee2",
+      "hourglass_hound__Knee3",
+      "hourglass_hound__Leg0",
+      "hourglass_hound__Leg1",
+      "hourglass_hound__Leg2",
+      "hourglass_hound__Leg3",
+      "hourglass_hound__Root",
+      "hourglass_hound__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "hourglass_hound",
+    "meshId": "rbxassetid://101906790725480",
+    "frames": {
+      "mean": 0.008039628921369137,
+      "p95": 0.011127299629151821,
+      "count": 847,
+      "maximum": 0.01569250039756298
+    },
+    "size": [
+      5.800002098083496,
+      3.799999952316284,
+      2.2718722820281982
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 51015,
+      "boneWrites": 392368,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "hourglass_hound__Head",
+      "hourglass_hound__Knee0",
+      "hourglass_hound__Knee1",
+      "hourglass_hound__Knee2",
+      "hourglass_hound__Knee3",
+      "hourglass_hound__Leg0",
+      "hourglass_hound__Leg1",
+      "hourglass_hound__Leg2",
+      "hourglass_hound__Leg3",
+      "hourglass_hound__Root",
+      "hourglass_hound__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "hourglass_hound",
+    "meshId": "rbxassetid://101906790725480",
+    "frames": {
+      "mean": 0.0075235609574953,
+      "p95": 0.009099599905312061,
+      "count": 420,
+      "maximum": 0.012011200189590454
+    },
+    "size": [
+      5.800002098083496,
+      3.799999952316284,
+      2.2718722820281982
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 51635,
+      "boneWrites": 399118,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "hourglass_hound__Head",
+      "hourglass_hound__Knee0",
+      "hourglass_hound__Knee1",
+      "hourglass_hound__Knee2",
+      "hourglass_hound__Knee3",
+      "hourglass_hound__Leg0",
+      "hourglass_hound__Leg1",
+      "hourglass_hound__Leg2",
+      "hourglass_hound__Leg3",
+      "hourglass_hound__Root",
+      "hourglass_hound__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "hourglass_hound",
+    "meshId": "rbxassetid://101906790725480",
+    "frames": {
+      "mean": 0.005582294345264678,
+      "p95": 0.006576200015842915,
+      "count": 565,
+      "maximum": 0.009949300438165665
+    },
+    "size": [
+      5.800002098083496,
+      3.799999952316284,
+      2.2718722820281982
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 52752,
+      "boneWrites": 414747,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "nail_beetle__Knee0",
+      "nail_beetle__Knee1",
+      "nail_beetle__Knee2",
+      "nail_beetle__Knee3",
+      "nail_beetle__Knee4",
+      "nail_beetle__Knee5",
+      "nail_beetle__Leg0",
+      "nail_beetle__Leg1",
+      "nail_beetle__Leg2",
+      "nail_beetle__Leg3",
+      "nail_beetle__Leg4",
+      "nail_beetle__Leg5",
+      "nail_beetle__Nail",
+      "nail_beetle__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "nail_beetle",
+    "meshId": "rbxassetid://93759402954584",
+    "frames": {
+      "mean": 0.006454069735977156,
+      "p95": 0.009130899794399738,
+      "count": 1054,
+      "maximum": 0.01364319957792759
+    },
+    "size": [
+      5.600000381469727,
+      3.200000047683716,
+      5.400001049041748
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 53232,
+      "boneWrites": 421467,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "nail_beetle__Knee0",
+      "nail_beetle__Knee1",
+      "nail_beetle__Knee2",
+      "nail_beetle__Knee3",
+      "nail_beetle__Knee4",
+      "nail_beetle__Knee5",
+      "nail_beetle__Leg0",
+      "nail_beetle__Leg1",
+      "nail_beetle__Leg2",
+      "nail_beetle__Leg3",
+      "nail_beetle__Leg4",
+      "nail_beetle__Leg5",
+      "nail_beetle__Nail",
+      "nail_beetle__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "nail_beetle",
+    "meshId": "rbxassetid://93759402954584",
+    "frames": {
+      "mean": 0.007304214598628244,
+      "p95": 0.008867800235748291,
+      "count": 432,
+      "maximum": 0.010081900283694267
+    },
+    "size": [
+      5.600000381469727,
+      3.200000047683716,
+      5.400001049041748
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 53840,
+      "boneWrites": 429979,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "nail_beetle__Knee0",
+      "nail_beetle__Knee1",
+      "nail_beetle__Knee2",
+      "nail_beetle__Knee3",
+      "nail_beetle__Knee4",
+      "nail_beetle__Knee5",
+      "nail_beetle__Leg0",
+      "nail_beetle__Leg1",
+      "nail_beetle__Leg2",
+      "nail_beetle__Leg3",
+      "nail_beetle__Leg4",
+      "nail_beetle__Leg5",
+      "nail_beetle__Nail",
+      "nail_beetle__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "nail_beetle",
+    "meshId": "rbxassetid://93759402954584",
+    "frames": {
+      "mean": 0.0056786219398457585,
+      "p95": 0.006647000089287758,
+      "count": 556,
+      "maximum": 0.008621199987828732
+    },
+    "size": [
+      5.600000381469727,
+      3.200000047683716,
+      5.400001049041748
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 64315,
+      "boneWrites": 557990,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "pale_guest__Ghost",
+      "pale_guest__GripL",
+      "pale_guest__GripR",
+      "pale_guest__Head",
+      "pale_guest__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "pale_guest",
+    "meshId": "rbxassetid://72620754242624",
+    "frames": {
+      "mean": 0.008015898228551671,
+      "p95": 0.010896599851548672,
+      "count": 849,
+      "maximum": 0.024065600708127022
+    },
+    "size": [
+      3.800001382827759,
+      4.799999713897705,
+      1.6799975633621216
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 65115,
+      "boneWrites": 562568,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "pale_guest__Ghost",
+      "pale_guest__GripL",
+      "pale_guest__GripR",
+      "pale_guest__Head",
+      "pale_guest__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "pale_guest",
+    "meshId": "rbxassetid://72620754242624",
+    "frames": {
+      "mean": 0.00702652784130787,
+      "p95": 0.00896220002323389,
+      "count": 449,
+      "maximum": 0.010776299983263016
+    },
+    "size": [
+      3.800001382827759,
+      4.799999713897705,
+      1.6799975633621216
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 65765,
+      "boneWrites": 566038,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "pale_guest__Ghost",
+      "pale_guest__GripL",
+      "pale_guest__GripR",
+      "pale_guest__Head",
+      "pale_guest__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "pale_guest",
+    "meshId": "rbxassetid://72620754242624",
+    "frames": {
+      "mean": 0.006803607547069611,
+      "p95": 0.008091099560260773,
+      "count": 464,
+      "maximum": 0.010290799662470818
+    },
+    "size": [
+      3.800001382827759,
+      4.799999713897705,
+      1.6799975633621216
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 66940,
+      "boneWrites": 570013,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "cold_teacup__Root",
+      "cold_teacup__Steam",
+      "cold_teacup__SteamTip"
+    ],
+    "preloadStatus": "Success",
+    "id": "cold_teacup",
+    "meshId": "rbxassetid://134975446540424",
+    "frames": {
+      "mean": 0.007155331755086356,
+      "p95": 0.008416200056672096,
+      "count": 951,
+      "maximum": 0.010343099944293499
+    },
+    "size": [
+      4.999999046325684,
+      4.900000095367432,
+      4.875943183898926
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 67484,
+      "boneWrites": 571827,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "cold_teacup__Root",
+      "cold_teacup__Steam",
+      "cold_teacup__SteamTip"
+    ],
+    "preloadStatus": "Success",
+    "id": "cold_teacup",
+    "meshId": "rbxassetid://134975446540424",
+    "frames": {
+      "mean": 0.007316146395979514,
+      "p95": 0.008764400146901608,
+      "count": 431,
+      "maximum": 0.0112076997756958
+    },
+    "size": [
+      4.999999046325684,
+      4.900000095367432,
+      4.875943183898926
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 68011,
+      "boneWrites": 573488,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "cold_teacup__Root",
+      "cold_teacup__Steam",
+      "cold_teacup__SteamTip"
+    ],
+    "preloadStatus": "Success",
+    "id": "cold_teacup",
+    "meshId": "rbxassetid://134975446540424",
+    "frames": {
+      "mean": 0.007246494706420378,
+      "p95": 0.008763999678194523,
+      "count": 435,
+      "maximum": 0.011760800145566463
+    },
+    "size": [
+      4.999999046325684,
+      4.900000095367432,
+      4.875943183898926
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 72517,
+      "boneWrites": 594240,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "coin_crawler__CoinLid",
+      "coin_crawler__Gaze",
+      "coin_crawler__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "coin_crawler",
+    "meshId": "rbxassetid://83612966926933",
+    "frames": {
+      "mean": 0.007963665848739488,
+      "p95": 0.01118560042232275,
+      "count": 855,
+      "maximum": 0.015049399808049202
+    },
+    "size": [
+      5.7999982833862305,
+      3.200000047683716,
+      4.09999942779541
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 6,
+      "posed": 72994,
+      "boneWrites": 599487,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "coin_crawler__CoinLid",
+      "coin_crawler__Gaze",
+      "coin_crawler__Knee0",
+      "coin_crawler__Knee1",
+      "coin_crawler__Knee2",
+      "coin_crawler__Knee3",
+      "coin_crawler__Leg0",
+      "coin_crawler__Leg1",
+      "coin_crawler__Leg2",
+      "coin_crawler__Leg3",
+      "coin_crawler__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "coin_crawler",
+    "meshId": "rbxassetid://83612966926933",
+    "frames": {
+      "mean": 0.007324250122173549,
+      "p95": 0.00878360029309988,
+      "count": 431,
+      "maximum": 0.010331200435757637
+    },
+    "size": [
+      5.7999982833862305,
+      3.200000047683716,
+      4.09999942779541
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 73526,
+      "boneWrites": 605189,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "coin_crawler__CoinLid",
+      "coin_crawler__Gaze",
+      "coin_crawler__Knee0",
+      "coin_crawler__Knee1",
+      "coin_crawler__Knee2",
+      "coin_crawler__Knee3",
+      "coin_crawler__Leg0",
+      "coin_crawler__Leg1",
+      "coin_crawler__Leg2",
+      "coin_crawler__Leg3",
+      "coin_crawler__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "coin_crawler",
+    "meshId": "rbxassetid://83612966926933",
+    "frames": {
+      "mean": 0.006870760146147026,
+      "p95": 0.00833120010793209,
+      "count": 459,
+      "maximum": 0.013199600391089916
+    },
+    "size": [
+      5.7999982833862305,
+      3.200000047683716,
+      4.09999942779541
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 74682,
+      "boneWrites": 610989,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "umbrella_wraith__RagL",
+      "umbrella_wraith__RagR",
+      "umbrella_wraith__Root",
+      "umbrella_wraith__WingL",
+      "umbrella_wraith__WingR"
+    ],
+    "preloadStatus": "Success",
+    "id": "umbrella_wraith",
+    "meshId": "rbxassetid://128916833526652",
+    "frames": {
+      "mean": 0.0070049116334251595,
+      "p95": 0.008311700075864792,
+      "count": 971,
+      "maximum": 0.014187700115144253
+    },
+    "size": [
+      5.591541290283203,
+      5.199999809265137,
+      2.8000006675720215
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 75277,
+      "boneWrites": 614017,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "umbrella_wraith__RagL",
+      "umbrella_wraith__RagR",
+      "umbrella_wraith__Root",
+      "umbrella_wraith__WingL",
+      "umbrella_wraith__WingR"
+    ],
+    "preloadStatus": "Success",
+    "id": "umbrella_wraith",
+    "meshId": "rbxassetid://128916833526652",
+    "frames": {
+      "mean": 0.0073835363042316195,
+      "p95": 0.00902239978313446,
+      "count": 427,
+      "maximum": 0.010795800015330315
+    },
+    "size": [
+      5.591541290283203,
+      5.199999809265137,
+      2.8000006675720215
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 75874,
+      "boneWrites": 617068,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "umbrella_wraith__RagL",
+      "umbrella_wraith__RagR",
+      "umbrella_wraith__Root",
+      "umbrella_wraith__WingL",
+      "umbrella_wraith__WingR"
+    ],
+    "preloadStatus": "Success",
+    "id": "umbrella_wraith",
+    "meshId": "rbxassetid://128916833526652",
+    "frames": {
+      "mean": 0.007090144270633379,
+      "p95": 0.009096500463783741,
+      "count": 445,
+      "maximum": 0.014978700317442417
+    },
+    "size": [
+      5.591541290283203,
+      5.199999809265137,
+      2.8000006675720215
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 83486,
+      "boneWrites": 658570,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "marrow_dice__DieL",
+      "marrow_dice__DieR",
+      "marrow_dice__Pip0",
+      "marrow_dice__Pip1",
+      "marrow_dice__Pip2",
+      "marrow_dice__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "marrow_dice",
+    "meshId": "rbxassetid://93842267716498",
+    "frames": {
+      "mean": 0.007859086373704754,
+      "p95": 0.011102000251412392,
+      "count": 866,
+      "maximum": 0.01599149964749813
+    },
+    "size": [
+      4.951040267944336,
+      4.199999809265137,
+      2.8437445163726807
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 84129,
+      "boneWrites": 663754,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "marrow_dice__DieL",
+      "marrow_dice__DieR",
+      "marrow_dice__Pip0",
+      "marrow_dice__Pip1",
+      "marrow_dice__Pip2"
+    ],
+    "preloadStatus": "Success",
+    "id": "marrow_dice",
+    "meshId": "rbxassetid://93842267716498",
+    "frames": {
+      "mean": 0.007494001907037655,
+      "p95": 0.009167700074613094,
+      "count": 421,
+      "maximum": 0.013229399919509888
+    },
+    "size": [
+      4.951040267944336,
+      4.199999809265137,
+      2.8437445163726807
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 84741,
+      "boneWrites": 667897,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "marrow_dice__DieL",
+      "marrow_dice__DieR",
+      "marrow_dice__Pip0",
+      "marrow_dice__Pip1",
+      "marrow_dice__Pip2",
+      "marrow_dice__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "marrow_dice",
+    "meshId": "rbxassetid://93842267716498",
+    "frames": {
+      "mean": 0.006718643188000994,
+      "p95": 0.008243399672210217,
+      "count": 470,
+      "maximum": 0.011718099936842918
+    },
+    "size": [
+      4.951040267944336,
+      4.199999809265137,
+      2.8437445163726807
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 85821,
+      "boneWrites": 674933,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "veil_mourner__Comb",
+      "veil_mourner__HandL",
+      "veil_mourner__HandR",
+      "veil_mourner__Root",
+      "veil_mourner__VeilL",
+      "veil_mourner__VeilR"
+    ],
+    "preloadStatus": "Success",
+    "id": "veil_mourner",
+    "meshId": "rbxassetid://137006334533562",
+    "frames": {
+      "mean": 0.007349565444658983,
+      "p95": 0.008723599836230278,
+      "count": 926,
+      "maximum": 0.012719100341200829
+    },
+    "size": [
+      4.574631690979004,
+      6.099999904632568,
+      2.863112688064575
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 86297,
+      "boneWrites": 677869,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "veil_mourner__Comb",
+      "veil_mourner__Root",
+      "veil_mourner__VeilL",
+      "veil_mourner__VeilR"
+    ],
+    "preloadStatus": "Success",
+    "id": "veil_mourner",
+    "meshId": "rbxassetid://137006334533562",
+    "frames": {
+      "mean": 0.007511664283949704,
+      "p95": 0.009235999546945095,
+      "count": 420,
+      "maximum": 0.010752500034868717
+    },
+    "size": [
+      4.574631690979004,
+      6.099999904632568,
+      2.863112688064575
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 86825,
+      "boneWrites": 681109,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "veil_mourner__Comb",
+      "veil_mourner__HandL",
+      "veil_mourner__HandR",
+      "veil_mourner__Root",
+      "veil_mourner__VeilL",
+      "veil_mourner__VeilR"
+    ],
+    "preloadStatus": "Success",
+    "id": "veil_mourner",
+    "meshId": "rbxassetid://137006334533562",
+    "frames": {
+      "mean": 0.006847416698213448,
+      "p95": 0.008322699926793575,
+      "count": 461,
+      "maximum": 0.010943399742245674
+    },
+    "size": [
+      4.574631690979004,
+      6.099999904632568,
+      2.863112688064575
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 93515,
+      "boneWrites": 720914,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "grave_compass__Lid",
+      "grave_compass__Needle",
+      "grave_compass__Ring",
+      "grave_compass__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_compass",
+    "meshId": "rbxassetid://121930534862207",
+    "frames": {
+      "mean": 0.008127191987471697,
+      "p95": 0.011352100409567356,
+      "count": 837,
+      "maximum": 0.016082700341939926
+    },
+    "size": [
+      7.0920209884643555,
+      5.400000095367432,
+      1.6317963600158691
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 94128,
+      "boneWrites": 724451,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "grave_compass__Lid",
+      "grave_compass__Needle",
+      "grave_compass__Ring",
+      "grave_compass__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_compass",
+    "meshId": "rbxassetid://121930534862207",
+    "frames": {
+      "mean": 0.007671834004690274,
+      "p95": 0.009303299710154533,
+      "count": 412,
+      "maximum": 0.012441599741578102
+    },
+    "size": [
+      7.0920209884643555,
+      5.400000095367432,
+      1.6317963600158691
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 94722,
+      "boneWrites": 727555,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "grave_compass__Lid",
+      "grave_compass__Needle",
+      "grave_compass__Ring",
+      "grave_compass__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "grave_compass",
+    "meshId": "rbxassetid://121930534862207",
+    "frames": {
+      "mean": 0.007120732961193097,
+      "p95": 0.008524100296199322,
+      "count": 443,
+      "maximum": 0.012730900198221207
+    },
+    "size": [
+      7.0920209884643555,
+      5.400000095367432,
+      1.6317963600158691
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 6,
+      "posed": 95954,
+      "boneWrites": 739086,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "hollow_violin__Knee0",
+      "hollow_violin__Knee1",
+      "hollow_violin__Leg0",
+      "hollow_violin__Leg1",
+      "hollow_violin__Root",
+      "hollow_violin__Scroll",
+      "hollow_violin__String0",
+      "hollow_violin__String1",
+      "hollow_violin__String2"
+    ],
+    "preloadStatus": "Success",
+    "id": "hollow_violin",
+    "meshId": "rbxassetid://74267295029639",
+    "frames": {
+      "mean": 0.007110513467438979,
+      "p95": 0.00841359980404377,
+      "count": 957,
+      "maximum": 0.016577599570155144
+    },
+    "size": [
+      2.7164812088012695,
+      6.400000095367432,
+      1.4117369651794434
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 96689,
+      "boneWrites": 746169,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "hollow_violin__Knee0",
+      "hollow_violin__Knee1",
+      "hollow_violin__Leg0",
+      "hollow_violin__Leg1",
+      "hollow_violin__Root",
+      "hollow_violin__Scroll",
+      "hollow_violin__String0"
+    ],
+    "preloadStatus": "Success",
+    "id": "hollow_violin",
+    "meshId": "rbxassetid://74267295029639",
+    "frames": {
+      "mean": 0.006929150101943658,
+      "p95": 0.008356600068509579,
+      "count": 455,
+      "maximum": 0.009867699816823006
+    },
+    "size": [
+      2.7164812088012695,
+      6.400000095367432,
+      1.4117369651794434
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 97301,
+      "boneWrites": 751939,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "hollow_violin__Knee0",
+      "hollow_violin__Knee1",
+      "hollow_violin__Leg0",
+      "hollow_violin__Leg1",
+      "hollow_violin__Root",
+      "hollow_violin__Scroll",
+      "hollow_violin__String0",
+      "hollow_violin__String1",
+      "hollow_violin__String2"
+    ],
+    "preloadStatus": "Success",
+    "id": "hollow_violin",
+    "meshId": "rbxassetid://74267295029639",
+    "frames": {
+      "mean": 0.0072633882433021536,
+      "p95": 0.008347899653017521,
+      "count": 434,
+      "maximum": 0.009771600365638733
+    },
+    "size": [
+      2.7164812088012695,
+      6.400000095367432,
+      1.4117369651794434
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 105425,
+      "boneWrites": 820003,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "chime_triplets__Bell0",
+      "chime_triplets__Bell1",
+      "chime_triplets__Bell2",
+      "chime_triplets__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "chime_triplets",
+    "meshId": "rbxassetid://82307616424520",
+    "frames": {
+      "mean": 0.008250907652192947,
+      "p95": 0.011331499554216862,
+      "count": 825,
+      "maximum": 0.014899499714374542
+    },
+    "size": [
+      7.281747817993164,
+      5.5,
+      2.2885780334472656
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 105876,
+      "boneWrites": 821807,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "chime_triplets__Bell0",
+      "chime_triplets__Bell1",
+      "chime_triplets__Bell2",
+      "chime_triplets__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "chime_triplets",
+    "meshId": "rbxassetid://82307616424520",
+    "frames": {
+      "mean": 0.0077628598472773295,
+      "p95": 0.009121599607169628,
+      "count": 406,
+      "maximum": 0.01041060034185648
+    },
+    "size": [
+      7.281747817993164,
+      5.5,
+      2.2885780334472656
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 106389,
+      "boneWrites": 823859,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "chime_triplets__Bell0",
+      "chime_triplets__Bell1",
+      "chime_triplets__Bell2",
+      "chime_triplets__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "chime_triplets",
+    "meshId": "rbxassetid://82307616424520",
+    "frames": {
+      "mean": 0.006743097223110625,
+      "p95": 0.008311600424349308,
+      "count": 468,
+      "maximum": 0.010938099585473537
+    },
+    "size": [
+      7.281747817993164,
+      5.5,
+      2.2885780334472656
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 107525,
+      "boneWrites": 844265,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "thimble_spider__Fangs",
+      "thimble_spider__Knee0",
+      "thimble_spider__Knee1",
+      "thimble_spider__Knee2",
+      "thimble_spider__Knee3",
+      "thimble_spider__Knee4",
+      "thimble_spider__Knee5",
+      "thimble_spider__Knee6",
+      "thimble_spider__Knee7",
+      "thimble_spider__Leg0",
+      "thimble_spider__Leg1",
+      "thimble_spider__Leg2",
+      "thimble_spider__Leg3",
+      "thimble_spider__Leg4",
+      "thimble_spider__Leg5",
+      "thimble_spider__Leg6",
+      "thimble_spider__Leg7",
+      "thimble_spider__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "thimble_spider",
+    "meshId": "rbxassetid://119696227522152",
+    "frames": {
+      "mean": 0.00625429541019805,
+      "p95": 0.0077865999191999435,
+      "count": 1088,
+      "maximum": 0.010054499842226505
+    },
+    "size": [
+      5.85975456237793,
+      3.6000001430511475,
+      3.262051820755005
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 108000,
+      "boneWrites": 852815,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "thimble_spider__Fangs",
+      "thimble_spider__Knee0",
+      "thimble_spider__Knee1",
+      "thimble_spider__Knee2",
+      "thimble_spider__Knee3",
+      "thimble_spider__Knee4",
+      "thimble_spider__Knee5",
+      "thimble_spider__Knee6",
+      "thimble_spider__Knee7",
+      "thimble_spider__Leg0",
+      "thimble_spider__Leg1",
+      "thimble_spider__Leg2",
+      "thimble_spider__Leg3",
+      "thimble_spider__Leg4",
+      "thimble_spider__Leg5",
+      "thimble_spider__Leg6",
+      "thimble_spider__Leg7",
+      "thimble_spider__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "thimble_spider",
+    "meshId": "rbxassetid://119696227522152",
+    "frames": {
+      "mean": 0.007429631774258964,
+      "p95": 0.009036799892783165,
+      "count": 425,
+      "maximum": 0.011594099923968315
+    },
+    "size": [
+      5.85975456237793,
+      3.6000001430511475,
+      3.262051820755005
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 6,
+      "posed": 108482,
+      "boneWrites": 861491,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "thimble_spider__Fangs",
+      "thimble_spider__Knee0",
+      "thimble_spider__Knee1",
+      "thimble_spider__Knee2",
+      "thimble_spider__Knee3",
+      "thimble_spider__Knee4",
+      "thimble_spider__Knee5",
+      "thimble_spider__Knee6",
+      "thimble_spider__Knee7",
+      "thimble_spider__Leg0",
+      "thimble_spider__Leg1",
+      "thimble_spider__Leg2",
+      "thimble_spider__Leg3",
+      "thimble_spider__Leg4",
+      "thimble_spider__Leg5",
+      "thimble_spider__Leg6",
+      "thimble_spider__Leg7",
+      "thimble_spider__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "thimble_spider",
+    "meshId": "rbxassetid://119696227522152",
+    "frames": {
+      "mean": 0.007246743202552028,
+      "p95": 0.00879720039665699,
+      "count": 435,
+      "maximum": 0.015984000638127327
+    },
+    "size": [
+      5.85975456237793,
+      3.6000001430511475,
+      3.262051820755005
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 117521,
+      "boneWrites": 998922,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "music_box_dancer__ArmR",
+      "music_box_dancer__Dancer",
+      "music_box_dancer__Head",
+      "music_box_dancer__Lid",
+      "music_box_dancer__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "music_box_dancer",
+    "meshId": "rbxassetid://79953489577090",
+    "frames": {
+      "mean": 0.008146606945616756,
+      "p95": 0.011603999882936478,
+      "count": 835,
+      "maximum": 0.016987400129437447
+    },
+    "size": [
+      4.628861904144287,
+      5.599999904632568,
+      3.1015961170196533
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 118261,
+      "boneWrites": 1004125,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "music_box_dancer__ArmR",
+      "music_box_dancer__Dancer",
+      "music_box_dancer__Head",
+      "music_box_dancer__Lid"
+    ],
+    "preloadStatus": "Success",
+    "id": "music_box_dancer",
+    "meshId": "rbxassetid://79953489577090",
+    "frames": {
+      "mean": 0.0075261672960954375,
+      "p95": 0.009146399796009064,
+      "count": 419,
+      "maximum": 0.016796300187706947
+    },
+    "size": [
+      4.628861904144287,
+      5.599999904632568,
+      3.1015961170196533
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 118877,
+      "boneWrites": 1007652,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "music_box_dancer__ArmR",
+      "music_box_dancer__Dancer",
+      "music_box_dancer__Head",
+      "music_box_dancer__Lid",
+      "music_box_dancer__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "music_box_dancer",
+    "meshId": "rbxassetid://79953489577090",
+    "frames": {
+      "mean": 0.007121258466788326,
+      "p95": 0.00906050018966198,
+      "count": 443,
+      "maximum": 0.010141599923372269
+    },
+    "size": [
+      4.628861904144287,
+      5.599999904632568,
+      3.1015961170196533
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 120032,
+      "boneWrites": 1016482,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "raven_quill__BarbsL",
+      "raven_quill__BarbsR",
+      "raven_quill__Nib",
+      "raven_quill__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "raven_quill",
+    "meshId": "rbxassetid://90916932998054",
+    "frames": {
+      "mean": 0.007325116362005665,
+      "p95": 0.008978799916803837,
+      "count": 929,
+      "maximum": 0.015342599712312222
+    },
+    "size": [
+      5.1999969482421875,
+      6.400000095367432,
+      2.400000810623169
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 120581,
+      "boneWrites": 1020802,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "raven_quill__BarbsL",
+      "raven_quill__BarbsR",
+      "raven_quill__Knee0",
+      "raven_quill__Knee1",
+      "raven_quill__Leg0",
+      "raven_quill__Leg1",
+      "raven_quill__Nib",
+      "raven_quill__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "raven_quill",
+    "meshId": "rbxassetid://90916932998054",
+    "frames": {
+      "mean": 0.007254416788874687,
+      "p95": 0.008724399842321873,
+      "count": 435,
+      "maximum": 0.014517400413751602
+    },
+    "size": [
+      5.1999969482421875,
+      6.400000095367432,
+      2.400000810623169
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 121110,
+      "boneWrites": 1024890,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "raven_quill__BarbsL",
+      "raven_quill__BarbsR",
+      "raven_quill__Knee0",
+      "raven_quill__Knee1",
+      "raven_quill__Leg0",
+      "raven_quill__Leg1",
+      "raven_quill__Nib",
+      "raven_quill__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "raven_quill",
+    "meshId": "rbxassetid://90916932998054",
+    "frames": {
+      "mean": 0.0070806466452276225,
+      "p95": 0.008843700401484966,
+      "count": 446,
+      "maximum": 0.01131370011717081
+    },
+    "size": [
+      5.1999969482421875,
+      6.400000095367432,
+      2.400000810623169
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 131243,
+      "boneWrites": 1104284,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "sorrow_chalice__Drop0",
+      "sorrow_chalice__Drop1",
+      "sorrow_chalice__Drop2",
+      "sorrow_chalice__Root",
+      "sorrow_chalice__Spirit"
+    ],
+    "preloadStatus": "Success",
+    "id": "sorrow_chalice",
+    "meshId": "rbxassetid://101252314858213",
+    "frames": {
+      "mean": 0.007999576616717106,
+      "p95": 0.01128039974719286,
+      "count": 851,
+      "maximum": 0.020260699093341827
+    },
+    "size": [
+      3.7738614082336426,
+      5.599999904632568,
+      3.4132261276245117
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 6,
+      "posed": 131906,
+      "boneWrites": 1111399,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "sorrow_chalice__Drop0",
+      "sorrow_chalice__Drop1",
+      "sorrow_chalice__Drop2",
+      "sorrow_chalice__Root",
+      "sorrow_chalice__Spirit"
+    ],
+    "preloadStatus": "Success",
+    "id": "sorrow_chalice",
+    "meshId": "rbxassetid://101252314858213",
+    "frames": {
+      "mean": 0.007538832694087578,
+      "p95": 0.00915759988129139,
+      "count": 419,
+      "maximum": 0.013654899783432484
+    },
+    "size": [
+      3.7738614082336426,
+      5.599999904632568,
+      3.4132261276245117
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 132582,
+      "boneWrites": 1116485,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "sorrow_chalice__Drop0",
+      "sorrow_chalice__Drop1",
+      "sorrow_chalice__Drop2",
+      "sorrow_chalice__Root",
+      "sorrow_chalice__Spirit"
+    ],
+    "preloadStatus": "Success",
+    "id": "sorrow_chalice",
+    "meshId": "rbxassetid://101252314858213",
+    "frames": {
+      "mean": 0.00614487347928317,
+      "p95": 0.007974199950695038,
+      "count": 513,
+      "maximum": 0.011416399851441383
+    },
+    "size": [
+      3.7738614082336426,
+      5.599999904632568,
+      3.4132261276245117
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 6,
+      "posed": 134086,
+      "boneWrites": 1136082,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "pale_gramophone__Crank",
+      "pale_gramophone__Horn",
+      "pale_gramophone__Record",
+      "pale_gramophone__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "pale_gramophone",
+    "meshId": "rbxassetid://104753530967365",
+    "frames": {
+      "mean": 0.005527601299306588,
+      "p95": 0.006311600096523762,
+      "count": 1231,
+      "maximum": 0.009975399821996689
+    },
+    "size": [
+      5.534446716308594,
+      6.199999809265137,
+      4.386199474334717
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 134663,
+      "boneWrites": 1144005,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "pale_gramophone__Crank",
+      "pale_gramophone__Horn",
+      "pale_gramophone__Knee0",
+      "pale_gramophone__Knee1",
+      "pale_gramophone__Knee2",
+      "pale_gramophone__Knee3",
+      "pale_gramophone__Leg0",
+      "pale_gramophone__Leg1",
+      "pale_gramophone__Leg2",
+      "pale_gramophone__Leg3",
+      "pale_gramophone__Record",
+      "pale_gramophone__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "pale_gramophone",
+    "meshId": "rbxassetid://104753530967365",
+    "frames": {
+      "mean": 0.007796348399126235,
+      "p95": 0.009919900447130203,
+      "count": 405,
+      "maximum": 0.014863800257444382
+    },
+    "size": [
+      5.534446716308594,
+      6.199999809265137,
+      4.386199474334717
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 135224,
+      "boneWrites": 1151673,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "pale_gramophone__Crank",
+      "pale_gramophone__Horn",
+      "pale_gramophone__Knee0",
+      "pale_gramophone__Knee1",
+      "pale_gramophone__Knee2",
+      "pale_gramophone__Knee3",
+      "pale_gramophone__Leg0",
+      "pale_gramophone__Leg1",
+      "pale_gramophone__Leg2",
+      "pale_gramophone__Leg3",
+      "pale_gramophone__Record",
+      "pale_gramophone__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "pale_gramophone",
+    "meshId": "rbxassetid://104753530967365",
+    "frames": {
+      "mean": 0.007905017040707264,
+      "p95": 0.009603899903595448,
+      "count": 399,
+      "maximum": 0.011945500038564205
+    },
+    "size": [
+      5.534446716308594,
+      6.199999809265137,
+      4.386199474334717
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 139541,
+      "boneWrites": 1195700,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "thorn_reliquary__Root",
+      "thorn_reliquary__Thorn",
+      "thorn_reliquary__ThornTip"
+    ],
+    "preloadStatus": "Success",
+    "id": "thorn_reliquary",
+    "meshId": "rbxassetid://88712433437774",
+    "frames": {
+      "mean": 0.008168911641868365,
+      "p95": 0.011602800339460373,
+      "count": 833,
+      "maximum": 0.016223300248384476
+    },
+    "size": [
+      3.146228790283203,
+      6.5,
+      3.1475839614868164
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 140012,
+      "boneWrites": 1197140,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "thorn_reliquary__Root",
+      "thorn_reliquary__Thorn",
+      "thorn_reliquary__ThornTip"
+    ],
+    "preloadStatus": "Success",
+    "id": "thorn_reliquary",
+    "meshId": "rbxassetid://88712433437774",
+    "frames": {
+      "mean": 0.007930613320611006,
+      "p95": 0.009594700299203396,
+      "count": 398,
+      "maximum": 0.013079799711704254
+    },
+    "size": [
+      3.146228790283203,
+      6.5,
+      3.1475839614868164
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 140534,
+      "boneWrites": 1198712,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "thorn_reliquary__Root",
+      "thorn_reliquary__Thorn",
+      "thorn_reliquary__ThornTip"
+    ],
+    "preloadStatus": "Success",
+    "id": "thorn_reliquary",
+    "meshId": "rbxassetid://88712433437774",
+    "frames": {
+      "mean": 0.006699147773609989,
+      "p95": 0.008789099752902985,
+      "count": 471,
+      "maximum": 0.012433700263500214
+    },
+    "size": [
+      3.146228790283203,
+      6.5,
+      3.1475839614868164
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 141570,
+      "boneWrites": 1216282,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "anchor_crab__ClawL",
+      "anchor_crab__ClawR",
+      "anchor_crab__JawL",
+      "anchor_crab__JawR",
+      "anchor_crab__Knee0",
+      "anchor_crab__Knee1",
+      "anchor_crab__Knee2",
+      "anchor_crab__Knee3",
+      "anchor_crab__Knee4",
+      "anchor_crab__Knee5",
+      "anchor_crab__Leg0",
+      "anchor_crab__Leg1",
+      "anchor_crab__Leg2",
+      "anchor_crab__Leg3",
+      "anchor_crab__Leg4",
+      "anchor_crab__Leg5",
+      "anchor_crab__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "anchor_crab",
+    "meshId": "rbxassetid://72923579345186",
+    "frames": {
+      "mean": 0.006971205939676185,
+      "p95": 0.009152400307357311,
+      "count": 976,
+      "maximum": 0.013653299771249294
+    },
+    "size": [
+      7.448751449584961,
+      4.799999713897705,
+      2.186063528060913
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 142106,
+      "boneWrites": 1225381,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "anchor_crab__ClawL",
+      "anchor_crab__ClawR",
+      "anchor_crab__JawL",
+      "anchor_crab__Knee0",
+      "anchor_crab__Knee1",
+      "anchor_crab__Knee2",
+      "anchor_crab__Knee3",
+      "anchor_crab__Knee4",
+      "anchor_crab__Knee5",
+      "anchor_crab__Leg0",
+      "anchor_crab__Leg1",
+      "anchor_crab__Leg2",
+      "anchor_crab__Leg3",
+      "anchor_crab__Leg4",
+      "anchor_crab__Leg5",
+      "anchor_crab__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "anchor_crab",
+    "meshId": "rbxassetid://72923579345186",
+    "frames": {
+      "mean": 0.006446551328719211,
+      "p95": 0.007691099774092436,
+      "count": 489,
+      "maximum": 0.00851459987461567
+    },
+    "size": [
+      7.448751449584961,
+      4.799999713897705,
+      2.186063528060913
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 142608,
+      "boneWrites": 1233915,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "anchor_crab__ClawL",
+      "anchor_crab__ClawR",
+      "anchor_crab__JawL",
+      "anchor_crab__JawR",
+      "anchor_crab__Knee0",
+      "anchor_crab__Knee1",
+      "anchor_crab__Knee2",
+      "anchor_crab__Knee3",
+      "anchor_crab__Knee4",
+      "anchor_crab__Knee5",
+      "anchor_crab__Leg0",
+      "anchor_crab__Leg1",
+      "anchor_crab__Leg2",
+      "anchor_crab__Leg3",
+      "anchor_crab__Leg4",
+      "anchor_crab__Leg5",
+      "anchor_crab__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "anchor_crab",
+    "meshId": "rbxassetid://72923579345186",
+    "frames": {
+      "mean": 0.0071950559355488655,
+      "p95": 0.00878790020942688,
+      "count": 438,
+      "maximum": 0.01108159963041544
+    },
+    "size": [
+      7.448751449584961,
+      4.799999713897705,
+      2.186063528060913
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 156829,
+      "boneWrites": 1445792,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "sundial_sentinel__Root",
+      "sundial_sentinel__Shadow"
+    ],
+    "preloadStatus": "Success",
+    "id": "sundial_sentinel",
+    "meshId": "rbxassetid://79426701982201",
+    "frames": {
+      "mean": 0.008040499278447695,
+      "p95": 0.01119139976799488,
+      "count": 846,
+      "maximum": 0.016163500025868416
+    },
+    "size": [
+      4.237609386444092,
+      5.699999809265137,
+      1.556288480758667
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 157334,
+      "boneWrites": 1448927,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "sundial_sentinel__Knee0",
+      "sundial_sentinel__Knee1",
+      "sundial_sentinel__Leg0",
+      "sundial_sentinel__Leg1",
+      "sundial_sentinel__Root",
+      "sundial_sentinel__Shadow"
+    ],
+    "preloadStatus": "Success",
+    "id": "sundial_sentinel",
+    "meshId": "rbxassetid://79426701982201",
+    "frames": {
+      "mean": 0.007557817988267405,
+      "p95": 0.00917890015989542,
+      "count": 417,
+      "maximum": 0.01321799959987402
+    },
+    "size": [
+      4.237609386444092,
+      5.699999809265137,
+      1.556288480758667
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 157838,
+      "boneWrites": 1452119,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "sundial_sentinel__Knee0",
+      "sundial_sentinel__Knee1",
+      "sundial_sentinel__Leg0",
+      "sundial_sentinel__Leg1",
+      "sundial_sentinel__Root",
+      "sundial_sentinel__Shadow"
+    ],
+    "preloadStatus": "Success",
+    "id": "sundial_sentinel",
+    "meshId": "rbxassetid://79426701982201",
+    "frames": {
+      "mean": 0.007341601618370691,
+      "p95": 0.009166199713945389,
+      "count": 430,
+      "maximum": 0.010485599748790264
+    },
+    "size": [
+      4.237609386444092,
+      5.699999809265137,
+      1.556288480758667
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 158963,
+      "boneWrites": 1455773,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "sleepwalker_shoes__Boot0",
+      "sleepwalker_shoes__Boot1",
+      "sleepwalker_shoes__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "sleepwalker_shoes",
+    "meshId": "rbxassetid://119875011262633",
+    "frames": {
+      "mean": 0.006489347856939265,
+      "p95": 0.008819200098514557,
+      "count": 1049,
+      "maximum": 0.011802099645137787
+    },
+    "size": [
+      5.587453365325928,
+      4.300000190734863,
+      4.686660289764404
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 159557,
+      "boneWrites": 1457555,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "sleepwalker_shoes__Boot0",
+      "sleepwalker_shoes__Boot1"
+    ],
+    "preloadStatus": "Success",
+    "id": "sleepwalker_shoes",
+    "meshId": "rbxassetid://119875011262633",
+    "frames": {
+      "mean": 0.005909484080370334,
+      "p95": 0.007464999798685312,
+      "count": 534,
+      "maximum": 0.012251299805939198
+    },
+    "size": [
+      5.587453365325928,
+      4.300000190734863,
+      4.686660289764404
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 160123,
+      "boneWrites": 1459253,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "sleepwalker_shoes__Boot0",
+      "sleepwalker_shoes__Boot1",
+      "sleepwalker_shoes__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "sleepwalker_shoes",
+    "meshId": "rbxassetid://119875011262633",
+    "frames": {
+      "mean": 0.006150538398617366,
+      "p95": 0.00783849973231554,
+      "count": 513,
+      "maximum": 0.00958940014243126
+    },
+    "size": [
+      5.587453365325928,
+      4.300000190734863,
+      4.686660289764404
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 165567,
+      "boneWrites": 1487864,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "night_harp__Head",
+      "night_harp__Root",
+      "night_harp__String0",
+      "night_harp__String1",
+      "night_harp__String2",
+      "night_harp__String3"
+    ],
+    "preloadStatus": "Success",
+    "id": "night_harp",
+    "meshId": "rbxassetid://113686383003044",
+    "frames": {
+      "mean": 0.008218416784426584,
+      "p95": 0.011662599630653858,
+      "count": 828,
+      "maximum": 0.016070399433374405
+    },
+    "size": [
+      5.734978675842285,
+      7.900000095367432,
+      2.8575706481933594
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 6,
+      "posed": 166217,
+      "boneWrites": 1496370,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "night_harp__Head",
+      "night_harp__Knee0",
+      "night_harp__Knee1",
+      "night_harp__Knee2",
+      "night_harp__Knee3",
+      "night_harp__Leg0",
+      "night_harp__Leg1",
+      "night_harp__Leg2",
+      "night_harp__Leg3",
+      "night_harp__Root",
+      "night_harp__String3"
+    ],
+    "preloadStatus": "Success",
+    "id": "night_harp",
+    "meshId": "rbxassetid://113686383003044",
+    "frames": {
+      "mean": 0.007770693360878329,
+      "p95": 0.009493100456893444,
+      "count": 406,
+      "maximum": 0.012032399885356426
+    },
+    "size": [
+      5.734978675842285,
+      7.900000095367432,
+      2.8575706481933594
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 166858,
+      "boneWrites": 1505210,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "night_harp__Head",
+      "night_harp__Knee0",
+      "night_harp__Knee1",
+      "night_harp__Knee2",
+      "night_harp__Knee3",
+      "night_harp__Leg0",
+      "night_harp__Leg1",
+      "night_harp__Leg2",
+      "night_harp__Leg3",
+      "night_harp__Root",
+      "night_harp__String0",
+      "night_harp__String1",
+      "night_harp__String2",
+      "night_harp__String3"
+    ],
+    "preloadStatus": "Success",
+    "id": "night_harp",
+    "meshId": "rbxassetid://113686383003044",
+    "frames": {
+      "mean": 0.006635002728293361,
+      "p95": 0.008887399919331074,
+      "count": 476,
+      "maximum": 0.012332900427281857
+    },
+    "size": [
+      5.734978675842285,
+      7.900000095367432,
+      2.8575706481933594
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 168104,
+      "boneWrites": 1520255,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "thorn_cathedral__Belfry",
+      "thorn_cathedral__Knee0",
+      "thorn_cathedral__Knee1",
+      "thorn_cathedral__Knee2",
+      "thorn_cathedral__Knee3",
+      "thorn_cathedral__Leg0",
+      "thorn_cathedral__Leg1",
+      "thorn_cathedral__Leg2",
+      "thorn_cathedral__Leg3",
+      "thorn_cathedral__Root",
+      "thorn_cathedral__RoseWindow"
+    ],
+    "preloadStatus": "Success",
+    "id": "thorn_cathedral",
+    "meshId": "rbxassetid://73995878925062",
+    "frames": {
+      "mean": 0.006903307808045502,
+      "p95": 0.009196399711072445,
+      "count": 986,
+      "maximum": 0.017278600484132767
+    },
+    "size": [
+      5.599998474121094,
+      8.199999809265137,
+      3.994713306427002
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 168719,
+      "boneWrites": 1527680,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "thorn_cathedral__Belfry",
+      "thorn_cathedral__Knee0",
+      "thorn_cathedral__Knee1",
+      "thorn_cathedral__Knee2",
+      "thorn_cathedral__Knee3",
+      "thorn_cathedral__Leg0",
+      "thorn_cathedral__Leg1",
+      "thorn_cathedral__Leg2",
+      "thorn_cathedral__Leg3",
+      "thorn_cathedral__Root",
+      "thorn_cathedral__RoseWindow"
+    ],
+    "preloadStatus": "Success",
+    "id": "thorn_cathedral",
+    "meshId": "rbxassetid://73995878925062",
+    "frames": {
+      "mean": 0.00743528513813321,
+      "p95": 0.00876460038125515,
+      "count": 424,
+      "maximum": 0.009902000427246094
+    },
+    "size": [
+      5.599998474121094,
+      8.199999809265137,
+      3.994713306427002
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 169320,
+      "boneWrites": 1534781,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "thorn_cathedral__Belfry",
+      "thorn_cathedral__Knee0",
+      "thorn_cathedral__Knee1",
+      "thorn_cathedral__Knee2",
+      "thorn_cathedral__Knee3",
+      "thorn_cathedral__Leg0",
+      "thorn_cathedral__Leg1",
+      "thorn_cathedral__Leg2",
+      "thorn_cathedral__Leg3",
+      "thorn_cathedral__Root",
+      "thorn_cathedral__RoseWindow"
+    ],
+    "preloadStatus": "Success",
+    "id": "thorn_cathedral",
+    "meshId": "rbxassetid://73995878925062",
+    "frames": {
+      "mean": 0.007279281057073255,
+      "p95": 0.008515900000929832,
+      "count": 433,
+      "maximum": 0.009990599937736988
+    },
+    "size": [
+      5.599998474121094,
+      8.199999809265137,
+      3.994713306427002
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 178998,
+      "boneWrites": 1638503,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "phantom_marionette__ArmL",
+      "phantom_marionette__ArmLTip",
+      "phantom_marionette__ArmR",
+      "phantom_marionette__ArmRTip",
+      "phantom_marionette__Body",
+      "phantom_marionette__Head",
+      "phantom_marionette__LegL",
+      "phantom_marionette__LegLTip",
+      "phantom_marionette__LegR",
+      "phantom_marionette__LegRTip",
+      "phantom_marionette__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "phantom_marionette",
+    "meshId": "rbxassetid://137095600537526",
+    "frames": {
+      "mean": 0.00818458543059323,
+      "p95": 0.011446000076830387,
+      "count": 831,
+      "maximum": 0.019565900787711143
+    },
+    "size": [
+      6.135856628417969,
+      7.800000190734863,
+      1.7591787576675415
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 179453,
+      "boneWrites": 1643508,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "phantom_marionette__ArmL",
+      "phantom_marionette__ArmLTip",
+      "phantom_marionette__ArmR",
+      "phantom_marionette__ArmRTip",
+      "phantom_marionette__Body",
+      "phantom_marionette__Head",
+      "phantom_marionette__LegL",
+      "phantom_marionette__LegLTip",
+      "phantom_marionette__LegR",
+      "phantom_marionette__LegRTip"
+    ],
+    "preloadStatus": "Success",
+    "id": "phantom_marionette",
+    "meshId": "rbxassetid://137095600537526",
+    "frames": {
+      "mean": 0.0076766291887039395,
+      "p95": 0.009172400459647179,
+      "count": 411,
+      "maximum": 0.010712199844419956
+    },
+    "size": [
+      6.135856628417969,
+      7.800000190734863,
+      1.7591787576675415
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 180007,
+      "boneWrites": 1649602,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "phantom_marionette__ArmL",
+      "phantom_marionette__ArmLTip",
+      "phantom_marionette__ArmR",
+      "phantom_marionette__ArmRTip",
+      "phantom_marionette__Body",
+      "phantom_marionette__Head",
+      "phantom_marionette__LegL",
+      "phantom_marionette__LegLTip",
+      "phantom_marionette__LegR",
+      "phantom_marionette__LegRTip",
+      "phantom_marionette__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "phantom_marionette",
+    "meshId": "rbxassetid://137095600537526",
+    "frames": {
+      "mean": 0.006187300782139395,
+      "p95": 0.00858789961785078,
+      "count": 510,
+      "maximum": 0.01041639968752861
+    },
+    "size": [
+      6.135856628417969,
+      7.800000190734863,
+      1.7591787576675415
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 181253,
+      "boneWrites": 1669499,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "blood_moon_rose__Bloom",
+      "blood_moon_rose__Petal0",
+      "blood_moon_rose__Petal1",
+      "blood_moon_rose__Petal2",
+      "blood_moon_rose__Petal3",
+      "blood_moon_rose__Root",
+      "blood_moon_rose__ThornArmL",
+      "blood_moon_rose__ThornArmR"
+    ],
+    "preloadStatus": "Success",
+    "id": "blood_moon_rose",
+    "meshId": "rbxassetid://124316421747681",
+    "frames": {
+      "mean": 0.005803291814898769,
+      "p95": 0.007353600114583969,
+      "count": 1173,
+      "maximum": 0.014070499688386917
+    },
+    "size": [
+      6.825550079345703,
+      7.399999618530273,
+      2.8254032135009766
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 181790,
+      "boneWrites": 1677971,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "blood_moon_rose__Bloom",
+      "blood_moon_rose__Knee0",
+      "blood_moon_rose__Knee1",
+      "blood_moon_rose__Knee2",
+      "blood_moon_rose__Knee3",
+      "blood_moon_rose__Leg0",
+      "blood_moon_rose__Leg1",
+      "blood_moon_rose__Leg2",
+      "blood_moon_rose__Leg3",
+      "blood_moon_rose__Petal0",
+      "blood_moon_rose__Petal1",
+      "blood_moon_rose__Petal2",
+      "blood_moon_rose__Petal3",
+      "blood_moon_rose__Root",
+      "blood_moon_rose__ThornArmL",
+      "blood_moon_rose__ThornArmR"
+    ],
+    "preloadStatus": "Success",
+    "id": "blood_moon_rose",
+    "meshId": "rbxassetid://124316421747681",
+    "frames": {
+      "mean": 0.007367099764774266,
+      "p95": 0.008939200080931187,
+      "count": 428,
+      "maximum": 0.010603300295770168
+    },
+    "size": [
+      6.825550079345703,
+      7.399999618530273,
+      2.8254032135009766
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 6,
+      "posed": 182444,
+      "boneWrites": 1688303,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "blood_moon_rose__Bloom",
+      "blood_moon_rose__Knee0",
+      "blood_moon_rose__Knee1",
+      "blood_moon_rose__Knee2",
+      "blood_moon_rose__Knee3",
+      "blood_moon_rose__Leg0",
+      "blood_moon_rose__Leg1",
+      "blood_moon_rose__Leg2",
+      "blood_moon_rose__Leg3",
+      "blood_moon_rose__Petal0",
+      "blood_moon_rose__Petal1",
+      "blood_moon_rose__Petal2",
+      "blood_moon_rose__Petal3",
+      "blood_moon_rose__Root",
+      "blood_moon_rose__ThornArmL",
+      "blood_moon_rose__ThornArmR"
+    ],
+    "preloadStatus": "Success",
+    "id": "blood_moon_rose",
+    "meshId": "rbxassetid://124316421747681",
+    "frames": {
+      "mean": 0.005849517627873204,
+      "p95": 0.00678119994699955,
+      "count": 539,
+      "maximum": 0.009419400244951248
+    },
+    "size": [
+      6.825550079345703,
+      7.399999618530273,
+      2.8254032135009766
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 188859,
+      "boneWrites": 1780511,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "judgement_scales__BalanceL",
+      "judgement_scales__BalanceR",
+      "judgement_scales__PanL",
+      "judgement_scales__PanR",
+      "judgement_scales__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "judgement_scales",
+    "meshId": "rbxassetid://114197388640805",
+    "frames": {
+      "mean": 0.008141598798463824,
+      "p95": 0.011703699827194214,
+      "count": 836,
+      "maximum": 0.019009800627827644
+    },
+    "size": [
+      7.404327392578125,
+      7.5,
+      2.3032822608947754
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 189457,
+      "boneWrites": 1786582,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "judgement_scales__BalanceL",
+      "judgement_scales__BalanceR",
+      "judgement_scales__Knee0",
+      "judgement_scales__Knee1",
+      "judgement_scales__Leg0",
+      "judgement_scales__Leg1",
+      "judgement_scales__PanL",
+      "judgement_scales__PanR",
+      "judgement_scales__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "judgement_scales",
+    "meshId": "rbxassetid://114197388640805",
+    "frames": {
+      "mean": 0.007798051381092749,
+      "p95": 0.009539499878883362,
+      "count": 405,
+      "maximum": 0.012129800394177437
+    },
+    "size": [
+      7.404327392578125,
+      7.5,
+      2.3032822608947754
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 190081,
+      "boneWrites": 1792732,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "judgement_scales__BalanceL",
+      "judgement_scales__BalanceR",
+      "judgement_scales__Knee0",
+      "judgement_scales__Knee1",
+      "judgement_scales__Leg0",
+      "judgement_scales__Leg1",
+      "judgement_scales__PanL",
+      "judgement_scales__PanR",
+      "judgement_scales__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "judgement_scales",
+    "meshId": "rbxassetid://114197388640805",
+    "frames": {
+      "mean": 0.006657579096372117,
+      "p95": 0.008570400066673756,
+      "count": 474,
+      "maximum": 0.009863000363111496
+    },
+    "size": [
+      7.404327392578125,
+      7.5,
+      2.3032822608947754
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 191563,
+      "boneWrites": 1807892,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "clockwork_raven__Head",
+      "clockwork_raven__Knee0",
+      "clockwork_raven__Knee1",
+      "clockwork_raven__Leg0",
+      "clockwork_raven__Leg1",
+      "clockwork_raven__Root",
+      "clockwork_raven__Tail",
+      "clockwork_raven__Wheel",
+      "clockwork_raven__WingL",
+      "clockwork_raven__WingR"
+    ],
+    "preloadStatus": "Success",
+    "id": "clockwork_raven",
+    "meshId": "rbxassetid://130961132710238",
+    "frames": {
+      "mean": 0.005751057387827971,
+      "p95": 0.006997900083661079,
+      "count": 1183,
+      "maximum": 0.009720800444483757
+    },
+    "size": [
+      8.282642364501953,
+      7.699999809265137,
+      3.408494472503662
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 192415,
+      "boneWrites": 1815734,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "clockwork_raven__Head",
+      "clockwork_raven__Knee0",
+      "clockwork_raven__Knee1",
+      "clockwork_raven__Leg0",
+      "clockwork_raven__Leg1",
+      "clockwork_raven__Root",
+      "clockwork_raven__Tail",
+      "clockwork_raven__Wheel",
+      "clockwork_raven__WingL",
+      "clockwork_raven__WingR"
+    ],
+    "preloadStatus": "Success",
+    "id": "clockwork_raven",
+    "meshId": "rbxassetid://130961132710238",
+    "frames": {
+      "mean": 0.005608263876275872,
+      "p95": 0.006355899851769209,
+      "count": 562,
+      "maximum": 0.007165499962866306
+    },
+    "size": [
+      8.282642364501953,
+      7.699999809265137,
+      3.408494472503662
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 193131,
+      "boneWrites": 1822687,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "clockwork_raven__Head",
+      "clockwork_raven__Knee0",
+      "clockwork_raven__Knee1",
+      "clockwork_raven__Leg0",
+      "clockwork_raven__Leg1",
+      "clockwork_raven__Root",
+      "clockwork_raven__Tail",
+      "clockwork_raven__Wheel",
+      "clockwork_raven__WingL",
+      "clockwork_raven__WingR"
+    ],
+    "preloadStatus": "Success",
+    "id": "clockwork_raven",
+    "meshId": "rbxassetid://130961132710238",
+    "frames": {
+      "mean": 0.005668839923836452,
+      "p95": 0.006656100042164326,
+      "count": 556,
+      "maximum": 0.008849900215864182
+    },
+    "size": [
+      8.282642364501953,
+      7.699999809265137,
+      3.408494472503662
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 6,
+      "posed": 201223,
+      "boneWrites": 1905136,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "eclipse_stag__Head",
+      "eclipse_stag__Knee0",
+      "eclipse_stag__Knee1",
+      "eclipse_stag__Knee2",
+      "eclipse_stag__Knee3",
+      "eclipse_stag__Leg0",
+      "eclipse_stag__Leg1",
+      "eclipse_stag__Leg2",
+      "eclipse_stag__Leg3",
+      "eclipse_stag__Mane",
+      "eclipse_stag__Root",
+      "eclipse_stag__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "eclipse_stag",
+    "meshId": "rbxassetid://93097877530969",
+    "frames": {
+      "mean": 0.008014996356173946,
+      "p95": 0.011062700301408768,
+      "count": 849,
+      "maximum": 0.014622800052165985
+    },
+    "size": [
+      6.5049519538879395,
+      8.600000381469727,
+      2.5215861797332764
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 201833,
+      "boneWrites": 1912303,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "eclipse_stag__Head",
+      "eclipse_stag__Knee0",
+      "eclipse_stag__Knee1",
+      "eclipse_stag__Knee2",
+      "eclipse_stag__Knee3",
+      "eclipse_stag__Leg0",
+      "eclipse_stag__Leg1",
+      "eclipse_stag__Leg2",
+      "eclipse_stag__Leg3",
+      "eclipse_stag__Mane",
+      "eclipse_stag__Root",
+      "eclipse_stag__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "eclipse_stag",
+    "meshId": "rbxassetid://93097877530969",
+    "frames": {
+      "mean": 0.007700813404943158,
+      "p95": 0.009458200074732304,
+      "count": 410,
+      "maximum": 0.016742799431085587
+    },
+    "size": [
+      6.5049519538879395,
+      8.600000381469727,
+      2.5215861797332764
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 202416,
+      "boneWrites": 1919181,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "eclipse_stag__Head",
+      "eclipse_stag__Knee0",
+      "eclipse_stag__Knee1",
+      "eclipse_stag__Knee2",
+      "eclipse_stag__Knee3",
+      "eclipse_stag__Leg0",
+      "eclipse_stag__Leg1",
+      "eclipse_stag__Leg2",
+      "eclipse_stag__Leg3",
+      "eclipse_stag__Mane",
+      "eclipse_stag__Root",
+      "eclipse_stag__Tail"
+    ],
+    "preloadStatus": "Success",
+    "id": "eclipse_stag",
+    "meshId": "rbxassetid://93097877530969",
+    "frames": {
+      "mean": 0.0074681886273654215,
+      "p95": 0.008750500157475471,
+      "count": 423,
+      "maximum": 0.011729699559509754
+    },
+    "size": [
+      6.5049519538879395,
+      8.600000381469727,
+      2.5215861797332764
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 203848,
+      "boneWrites": 1940086,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "endless_library__Book0",
+      "endless_library__Book1",
+      "endless_library__Book2",
+      "endless_library__Bookmarks",
+      "endless_library__Knee0",
+      "endless_library__Knee1",
+      "endless_library__Knee2",
+      "endless_library__Knee3",
+      "endless_library__Leg0",
+      "endless_library__Leg1",
+      "endless_library__Leg2",
+      "endless_library__Leg3",
+      "endless_library__PageL",
+      "endless_library__PageR",
+      "endless_library__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "endless_library",
+    "meshId": "rbxassetid://108899671617263",
+    "frames": {
+      "mean": 0.005729124073867344,
+      "p95": 0.0065842000767588615,
+      "count": 1188,
+      "maximum": 0.01005650032311678
+    },
+    "size": [
+      6.724616050720215,
+      7.299999713897705,
+      2.683243989944458
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 204531,
+      "boneWrites": 1950629,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "endless_library__Book0",
+      "endless_library__Book1",
+      "endless_library__Book2",
+      "endless_library__Bookmarks",
+      "endless_library__Knee0",
+      "endless_library__Knee1",
+      "endless_library__Knee2",
+      "endless_library__Knee3",
+      "endless_library__Leg0",
+      "endless_library__Leg1",
+      "endless_library__Leg2",
+      "endless_library__Leg3",
+      "endless_library__PageL",
+      "endless_library__PageR",
+      "endless_library__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "endless_library",
+    "meshId": "rbxassetid://108899671617263",
+    "frames": {
+      "mean": 0.006374913738156208,
+      "p95": 0.007986100390553474,
+      "count": 495,
+      "maximum": 0.01011080015450716
+    },
+    "size": [
+      6.724616050720215,
+      7.299999713897705,
+      2.683243989944458
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 6,
+      "posed": 205133,
+      "boneWrites": 1959929,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "endless_library__Book0",
+      "endless_library__Book1",
+      "endless_library__Book2",
+      "endless_library__Bookmarks",
+      "endless_library__Knee0",
+      "endless_library__Knee1",
+      "endless_library__Knee2",
+      "endless_library__Knee3",
+      "endless_library__Leg0",
+      "endless_library__Leg1",
+      "endless_library__Leg2",
+      "endless_library__Leg3",
+      "endless_library__PageL",
+      "endless_library__PageR",
+      "endless_library__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "endless_library",
+    "meshId": "rbxassetid://108899671617263",
+    "frames": {
+      "mean": 0.007015340663492679,
+      "p95": 0.008286300115287304,
+      "count": 450,
+      "maximum": 0.012504800222814083
+    },
+    "size": [
+      6.724616050720215,
+      7.299999713897705,
+      2.683243989944458
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 212425,
+      "boneWrites": 2068158,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "sunken_crown__Root",
+      "sunken_crown__Tendril0",
+      "sunken_crown__Tendril1",
+      "sunken_crown__Tendril2",
+      "sunken_crown__Tendril3",
+      "sunken_crown__Tendril4",
+      "sunken_crown__Tendril5",
+      "sunken_crown__Tip0",
+      "sunken_crown__Tip1",
+      "sunken_crown__Tip2",
+      "sunken_crown__Tip3",
+      "sunken_crown__Tip4",
+      "sunken_crown__Tip5"
+    ],
+    "preloadStatus": "Success",
+    "id": "sunken_crown",
+    "meshId": "rbxassetid://91121993644042",
+    "frames": {
+      "mean": 0.00828568708269554,
+      "p95": 0.011860700324177742,
+      "count": 821,
+      "maximum": 0.015214400365948677
+    },
+    "size": [
+      5.7983927726745605,
+      7.199999809265137,
+      5.2840189933776855
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 212878,
+      "boneWrites": 2074047,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "sunken_crown__Root",
+      "sunken_crown__Tendril0",
+      "sunken_crown__Tendril1",
+      "sunken_crown__Tendril2",
+      "sunken_crown__Tendril3",
+      "sunken_crown__Tendril4",
+      "sunken_crown__Tendril5",
+      "sunken_crown__Tip0",
+      "sunken_crown__Tip1",
+      "sunken_crown__Tip2",
+      "sunken_crown__Tip3",
+      "sunken_crown__Tip4",
+      "sunken_crown__Tip5"
+    ],
+    "preloadStatus": "Success",
+    "id": "sunken_crown",
+    "meshId": "rbxassetid://91121993644042",
+    "frames": {
+      "mean": 0.007707409783833476,
+      "p95": 0.009226899594068527,
+      "count": 409,
+      "maximum": 0.01074879989027977
+    },
+    "size": [
+      5.7983927726745605,
+      7.199999809265137,
+      5.2840189933776855
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 213353,
+      "boneWrites": 2080096,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "sunken_crown__Root",
+      "sunken_crown__Tendril0",
+      "sunken_crown__Tendril1",
+      "sunken_crown__Tendril2",
+      "sunken_crown__Tendril3",
+      "sunken_crown__Tendril4",
+      "sunken_crown__Tendril5",
+      "sunken_crown__Tip0",
+      "sunken_crown__Tip1",
+      "sunken_crown__Tip2",
+      "sunken_crown__Tip3",
+      "sunken_crown__Tip4",
+      "sunken_crown__Tip5"
+    ],
+    "preloadStatus": "Success",
+    "id": "sunken_crown",
+    "meshId": "rbxassetid://91121993644042",
+    "frames": {
+      "mean": 0.0077477821272195265,
+      "p95": 0.009698900394141674,
+      "count": 408,
+      "maximum": 0.011275500059127808
+    },
+    "size": [
+      5.7983927726745605,
+      7.199999809265137,
+      5.2840189933776855
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 214517,
+      "boneWrites": 2088262,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "silent_choir__Bell0",
+      "silent_choir__Bell1",
+      "silent_choir__Bell2",
+      "silent_choir__Root",
+      "silent_choir__Singer0",
+      "silent_choir__Singer1",
+      "silent_choir__Singer2"
+    ],
+    "preloadStatus": "Success",
+    "id": "silent_choir",
+    "meshId": "rbxassetid://87571819872933",
+    "frames": {
+      "mean": 0.006104918839952871,
+      "p95": 0.008386299945414066,
+      "count": 1115,
+      "maximum": 0.010922100394964218
+    },
+    "size": [
+      7.3896613121032715,
+      8,
+      2.200075149536133
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 215086,
+      "boneWrites": 2092245,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "silent_choir__Bell0",
+      "silent_choir__Bell1",
+      "silent_choir__Bell2",
+      "silent_choir__Root",
+      "silent_choir__Singer0",
+      "silent_choir__Singer1",
+      "silent_choir__Singer2"
+    ],
+    "preloadStatus": "Success",
+    "id": "silent_choir",
+    "meshId": "rbxassetid://87571819872933",
+    "frames": {
+      "mean": 0.006230079050805317,
+      "p95": 0.007874500006437302,
+      "count": 506,
+      "maximum": 0.010265899822115898
+    },
+    "size": [
+      7.3896613121032715,
+      8,
+      2.200075149536133
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 215650,
+      "boneWrites": 2096193,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "silent_choir__Bell0",
+      "silent_choir__Bell1",
+      "silent_choir__Bell2",
+      "silent_choir__Root",
+      "silent_choir__Singer0",
+      "silent_choir__Singer1",
+      "silent_choir__Singer2"
+    ],
+    "preloadStatus": "Success",
+    "id": "silent_choir",
+    "meshId": "rbxassetid://87571819872933",
+    "frames": {
+      "mean": 0.006137041060674342,
+      "p95": 0.00830489955842495,
+      "count": 514,
+      "maximum": 0.00968290027230978
+    },
+    "size": [
+      7.3896613121032715,
+      8,
+      2.200075149536133
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 233890,
+      "boneWrites": 2234566,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "cathedral_heart__HeartL",
+      "cathedral_heart__HeartR",
+      "cathedral_heart__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "cathedral_heart",
+    "meshId": "rbxassetid://101357601099401",
+    "frames": {
+      "mean": 0.008359196187392866,
+      "p95": 0.011876000091433525,
+      "count": 814,
+      "maximum": 0.01626249961555004
+    },
+    "size": [
+      6.599998950958252,
+      9.59999942779541,
+      3.5869088172912598
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 234341,
+      "boneWrites": 2239527,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "cathedral_heart__HeartL",
+      "cathedral_heart__HeartR",
+      "cathedral_heart__Knee0",
+      "cathedral_heart__Knee1",
+      "cathedral_heart__Knee2",
+      "cathedral_heart__Knee3",
+      "cathedral_heart__Leg0",
+      "cathedral_heart__Leg1",
+      "cathedral_heart__Leg2",
+      "cathedral_heart__Leg3",
+      "cathedral_heart__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "cathedral_heart",
+    "meshId": "rbxassetid://101357601099401",
+    "frames": {
+      "mean": 0.007770690649490932,
+      "p95": 0.00930820032954216,
+      "count": 406,
+      "maximum": 0.01170090027153492
+    },
+    "size": [
+      6.599998950958252,
+      9.59999942779541,
+      3.5869088172912598
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 234815,
+      "boneWrites": 2244741,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "cathedral_heart__HeartL",
+      "cathedral_heart__HeartR",
+      "cathedral_heart__Knee0",
+      "cathedral_heart__Knee1",
+      "cathedral_heart__Knee2",
+      "cathedral_heart__Knee3",
+      "cathedral_heart__Leg0",
+      "cathedral_heart__Leg1",
+      "cathedral_heart__Leg2",
+      "cathedral_heart__Leg3",
+      "cathedral_heart__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "cathedral_heart",
+    "meshId": "rbxassetid://101357601099401",
+    "frames": {
+      "mean": 0.007331918617493885,
+      "p95": 0.008833900094032288,
+      "count": 430,
+      "maximum": 0.01130709983408451
+    },
+    "size": [
+      6.599998950958252,
+      9.59999942779541,
+      3.5869088172912598
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 235842,
+      "boneWrites": 2256038,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "hollow_throne__Ghost",
+      "hollow_throne__Mantle",
+      "hollow_throne__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "hollow_throne",
+    "meshId": "rbxassetid://124107645513629",
+    "frames": {
+      "mean": 0.0069899021478626085,
+      "p95": 0.008313000202178955,
+      "count": 974,
+      "maximum": 0.012693299911916256
+    },
+    "size": [
+      6.098018646240234,
+      10,
+      4.282244682312012
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 236319,
+      "boneWrites": 2261315,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "hollow_throne__Ghost",
+      "hollow_throne__Knee0",
+      "hollow_throne__Knee1",
+      "hollow_throne__Knee2",
+      "hollow_throne__Knee3",
+      "hollow_throne__Leg0",
+      "hollow_throne__Leg1",
+      "hollow_throne__Leg2",
+      "hollow_throne__Leg3",
+      "hollow_throne__Mantle",
+      "hollow_throne__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "hollow_throne",
+    "meshId": "rbxassetid://124107645513629",
+    "frames": {
+      "mean": 0.007403846478150904,
+      "p95": 0.008903400041162968,
+      "count": 426,
+      "maximum": 0.017336100339889526
+    },
+    "size": [
+      6.098018646240234,
+      10,
+      4.282244682312012
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 236840,
+      "boneWrites": 2267220,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "hollow_throne__Ghost",
+      "hollow_throne__Knee0",
+      "hollow_throne__Knee1",
+      "hollow_throne__Knee2",
+      "hollow_throne__Knee3",
+      "hollow_throne__Leg0",
+      "hollow_throne__Leg1",
+      "hollow_throne__Leg2",
+      "hollow_throne__Leg3",
+      "hollow_throne__Mantle",
+      "hollow_throne__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "hollow_throne",
+    "meshId": "rbxassetid://124107645513629",
+    "frames": {
+      "mean": 0.007245718125561508,
+      "p95": 0.008398099802434444,
+      "count": 436,
+      "maximum": 0.010028500109910965
+    },
+    "size": [
+      6.098018646240234,
+      10,
+      4.282244682312012
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 246082,
+      "boneWrites": 2368328,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "worldroot__MossL",
+      "worldroot__MossR",
+      "worldroot__Root",
+      "worldroot__Seed",
+      "worldroot__TrunkL",
+      "worldroot__TrunkR"
+    ],
+    "preloadStatus": "Success",
+    "id": "worldroot",
+    "meshId": "rbxassetid://83034008360017",
+    "frames": {
+      "mean": 0.008262713722324053,
+      "p95": 0.011960499919950962,
+      "count": 824,
+      "maximum": 0.01710519939661026
+    },
+    "size": [
+      7.89845085144043,
+      10.199999809265137,
+      3.7966699600219727
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 246658,
+      "boneWrites": 2375408,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "worldroot__Knee0",
+      "worldroot__Knee1",
+      "worldroot__Knee2",
+      "worldroot__Knee3",
+      "worldroot__Leg0",
+      "worldroot__Leg1",
+      "worldroot__Leg2",
+      "worldroot__Leg3",
+      "worldroot__MossL",
+      "worldroot__MossR",
+      "worldroot__Root",
+      "worldroot__Seed",
+      "worldroot__TrunkL",
+      "worldroot__TrunkR"
+    ],
+    "preloadStatus": "Success",
+    "id": "worldroot",
+    "meshId": "rbxassetid://83034008360017",
+    "frames": {
+      "mean": 0.00768594209494527,
+      "p95": 0.009213600307703018,
+      "count": 411,
+      "maximum": 0.01117790024727583
+    },
+    "size": [
+      7.89845085144043,
+      10.199999809265137,
+      3.7966699600219727
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 247258,
+      "boneWrites": 2382804,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "worldroot__Knee0",
+      "worldroot__Knee1",
+      "worldroot__Knee2",
+      "worldroot__Knee3",
+      "worldroot__Leg0",
+      "worldroot__Leg1",
+      "worldroot__Leg2",
+      "worldroot__Leg3",
+      "worldroot__MossL",
+      "worldroot__MossR",
+      "worldroot__Root",
+      "worldroot__Seed",
+      "worldroot__TrunkL",
+      "worldroot__TrunkR"
+    ],
+    "preloadStatus": "Success",
+    "id": "worldroot",
+    "meshId": "rbxassetid://83034008360017",
+    "frames": {
+      "mean": 0.007030921824326229,
+      "p95": 0.008475099690258503,
+      "count": 449,
+      "maximum": 0.013799100182950497
+    },
+    "size": [
+      7.89845085144043,
+      10.199999809265137,
+      3.7966699600219727
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 248509,
+      "boneWrites": 2390024,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "the_undertow__BladeL",
+      "the_undertow__BladeR",
+      "the_undertow__Clapper",
+      "the_undertow__Hanger",
+      "the_undertow__Root",
+      "the_undertow__Vortex"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_undertow",
+    "meshId": "rbxassetid://138985494357393",
+    "frames": {
+      "mean": 0.006630653411977821,
+      "p95": 0.008220699615776539,
+      "count": 1026,
+      "maximum": 0.015003600157797337
+    },
+    "size": [
+      10.844014167785645,
+      9.59999942779541,
+      4.769387722015381
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 249027,
+      "boneWrites": 2393122,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "the_undertow__BladeL",
+      "the_undertow__BladeR",
+      "the_undertow__Clapper",
+      "the_undertow__Hanger",
+      "the_undertow__Root",
+      "the_undertow__Vortex"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_undertow",
+    "meshId": "rbxassetid://138985494357393",
+    "frames": {
+      "mean": 0.006930347028505671,
+      "p95": 0.008457699790596962,
+      "count": 455,
+      "maximum": 0.012112800031900406
+    },
+    "size": [
+      10.844014167785645,
+      9.59999942779541,
+      4.769387722015381
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 249574,
+      "boneWrites": 2396358,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "the_undertow__BladeL",
+      "the_undertow__BladeR",
+      "the_undertow__Clapper",
+      "the_undertow__Hanger",
+      "the_undertow__Root",
+      "the_undertow__Vortex"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_undertow",
+    "meshId": "rbxassetid://138985494357393",
+    "frames": {
+      "mean": 0.006665331489715654,
+      "p95": 0.008579099550843239,
+      "count": 473,
+      "maximum": 0.010002699680626392
+    },
+    "size": [
+      10.844014167785645,
+      9.59999942779541,
+      4.769387722015381
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 310212,
+      "boneWrites": 2797495,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "the_last_funeral__Knee0",
+      "the_last_funeral__Knee1",
+      "the_last_funeral__Knee2",
+      "the_last_funeral__Knee3",
+      "the_last_funeral__Leg0",
+      "the_last_funeral__Leg1",
+      "the_last_funeral__Leg2",
+      "the_last_funeral__Leg3",
+      "the_last_funeral__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_last_funeral",
+    "meshId": "rbxassetid://80720698097324",
+    "frames": {
+      "mean": 0.008299357925609844,
+      "p95": 0.011654299683868885,
+      "count": 820,
+      "maximum": 0.01778010092675686
+    },
+    "size": [
+      10.59999942779541,
+      8.899999618530273,
+      5.679413795471191
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 310661,
+      "boneWrites": 2801536,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "the_last_funeral__Knee0",
+      "the_last_funeral__Knee1",
+      "the_last_funeral__Knee2",
+      "the_last_funeral__Knee3",
+      "the_last_funeral__Leg0",
+      "the_last_funeral__Leg1",
+      "the_last_funeral__Leg2",
+      "the_last_funeral__Leg3",
+      "the_last_funeral__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_last_funeral",
+    "meshId": "rbxassetid://80720698097324",
+    "frames": {
+      "mean": 0.007819669308500494,
+      "p95": 0.009281500242650509,
+      "count": 404,
+      "maximum": 0.010365700349211693
+    },
+    "size": [
+      10.59999942779541,
+      8.899999618530273,
+      5.679413795471191
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 311104,
+      "boneWrites": 2805523,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "the_last_funeral__Knee0",
+      "the_last_funeral__Knee1",
+      "the_last_funeral__Knee2",
+      "the_last_funeral__Knee3",
+      "the_last_funeral__Leg0",
+      "the_last_funeral__Leg1",
+      "the_last_funeral__Leg2",
+      "the_last_funeral__Leg3",
+      "the_last_funeral__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_last_funeral",
+    "meshId": "rbxassetid://80720698097324",
+    "frames": {
+      "mean": 0.007946507550156688,
+      "p95": 0.009534499607980251,
+      "count": 397,
+      "maximum": 0.01265719998627901
+    },
+    "size": [
+      10.59999942779541,
+      8.899999618530273,
+      5.679413795471191
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 312075,
+      "boneWrites": 2812326,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "nameless_door__Door",
+      "nameless_door__LintelMoss",
+      "nameless_door__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "nameless_door",
+    "meshId": "rbxassetid://86390949175351",
+    "frames": {
+      "mean": 0.007357077842225899,
+      "p95": 0.009537099860608578,
+      "count": 925,
+      "maximum": 0.012725099921226501
+    },
+    "size": [
+      8.658831596374512,
+      9.995068550109863,
+      6
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 6,
+      "posed": 312616,
+      "boneWrites": 2816113,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "nameless_door__Door",
+      "nameless_door__Knee0",
+      "nameless_door__Knee1",
+      "nameless_door__Leg0",
+      "nameless_door__Leg1",
+      "nameless_door__LintelMoss",
+      "nameless_door__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "nameless_door",
+    "meshId": "rbxassetid://86390949175351",
+    "frames": {
+      "mean": 0.0065716391555421675,
+      "p95": 0.008437899872660637,
+      "count": 480,
+      "maximum": 0.01457150001078844
+    },
+    "size": [
+      8.658831596374512,
+      9.995068550109863,
+      6
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 313111,
+      "boneWrites": 2819578,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "nameless_door__Door",
+      "nameless_door__Knee0",
+      "nameless_door__Knee1",
+      "nameless_door__Leg0",
+      "nameless_door__Leg1",
+      "nameless_door__LintelMoss",
+      "nameless_door__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "nameless_door",
+    "meshId": "rbxassetid://86390949175351",
+    "frames": {
+      "mean": 0.007260867805573447,
+      "p95": 0.008475099690258503,
+      "count": 435,
+      "maximum": 0.014090499840676785
+    },
+    "size": [
+      8.658831596374512,
+      9.995068550109863,
+      6
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 318616,
+      "boneWrites": 2861671,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "crown_of_silence__Crown0",
+      "crown_of_silence__Crown1",
+      "crown_of_silence__Crown2",
+      "crown_of_silence__Crown3",
+      "crown_of_silence__Robe0",
+      "crown_of_silence__Robe1",
+      "crown_of_silence__Robe2",
+      "crown_of_silence__Robe3",
+      "crown_of_silence__Root",
+      "crown_of_silence__SleeveL",
+      "crown_of_silence__SleeveR"
+    ],
+    "preloadStatus": "Success",
+    "id": "crown_of_silence",
+    "meshId": "rbxassetid://90205601263704",
+    "frames": {
+      "mean": 0.008499190637425574,
+      "p95": 0.012208900414407253,
+      "count": 801,
+      "maximum": 0.024719100445508957
+    },
+    "size": [
+      8.798737525939941,
+      11.699999809265137,
+      4.3227219581604
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 319152,
+      "boneWrites": 2867014,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "crown_of_silence__Crown0",
+      "crown_of_silence__Crown1",
+      "crown_of_silence__Crown2",
+      "crown_of_silence__Crown3",
+      "crown_of_silence__Robe0",
+      "crown_of_silence__Robe1",
+      "crown_of_silence__Robe2",
+      "crown_of_silence__Robe3",
+      "crown_of_silence__Root",
+      "crown_of_silence__SleeveL",
+      "crown_of_silence__SleeveR"
+    ],
+    "preloadStatus": "Success",
+    "id": "crown_of_silence",
+    "meshId": "rbxassetid://90205601263704",
+    "frames": {
+      "mean": 0.00789365649339743,
+      "p95": 0.009410100057721138,
+      "count": 400,
+      "maximum": 0.010632899589836597
+    },
+    "size": [
+      8.798737525939941,
+      11.699999809265137,
+      4.3227219581604
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 319741,
+      "boneWrites": 2872948,
+      "missingActs": 0,
+      "suspended": 3
+    },
+    "changedBones": [
+      "crown_of_silence__Crown0",
+      "crown_of_silence__Crown1",
+      "crown_of_silence__Crown2",
+      "crown_of_silence__Crown3",
+      "crown_of_silence__Robe0",
+      "crown_of_silence__Robe1",
+      "crown_of_silence__Robe2",
+      "crown_of_silence__Robe3",
+      "crown_of_silence__Root",
+      "crown_of_silence__SleeveL",
+      "crown_of_silence__SleeveR"
+    ],
+    "preloadStatus": "Success",
+    "id": "crown_of_silence",
+    "meshId": "rbxassetid://90205601263704",
+    "frames": {
+      "mean": 0.00696664039358069,
+      "p95": 0.008870399557054043,
+      "count": 453,
+      "maximum": 0.012866100296378136
+    },
+    "size": [
+      8.798737525939941,
+      11.699999809265137,
+      4.3227219581604
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 321089,
+      "boneWrites": 2886856,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "the_first_grave__ArmL",
+      "the_first_grave__ArmR",
+      "the_first_grave__FingersL",
+      "the_first_grave__FingersR",
+      "the_first_grave__MossL",
+      "the_first_grave__MossR",
+      "the_first_grave__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_first_grave",
+    "meshId": "rbxassetid://77848586399024",
+    "frames": {
+      "mean": 0.00657191304265013,
+      "p95": 0.008718299679458141,
+      "count": 1035,
+      "maximum": 0.011054099537432194
+    },
+    "size": [
+      8.961215019226074,
+      10.800000190734863,
+      2.73688006401062
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 321762,
+      "boneWrites": 2894213,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "the_first_grave__ArmL",
+      "the_first_grave__ArmR",
+      "the_first_grave__FingersL",
+      "the_first_grave__FingersR",
+      "the_first_grave__Knee0",
+      "the_first_grave__Knee1",
+      "the_first_grave__Leg0",
+      "the_first_grave__Leg1",
+      "the_first_grave__MossL",
+      "the_first_grave__MossR",
+      "the_first_grave__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_first_grave",
+    "meshId": "rbxassetid://77848586399024",
+    "frames": {
+      "mean": 0.007245163222368079,
+      "p95": 0.00859410036355257,
+      "count": 435,
+      "maximum": 0.013038800098001957
+    },
+    "size": [
+      8.961215019226074,
+      10.800000190734863,
+      2.73688006401062
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 322365,
+      "boneWrites": 2900578,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "the_first_grave__ArmL",
+      "the_first_grave__ArmR",
+      "the_first_grave__FingersL",
+      "the_first_grave__FingersR",
+      "the_first_grave__Knee0",
+      "the_first_grave__Knee1",
+      "the_first_grave__Leg0",
+      "the_first_grave__Leg1",
+      "the_first_grave__MossL",
+      "the_first_grave__MossR",
+      "the_first_grave__Root"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_first_grave",
+    "meshId": "rbxassetid://77848586399024",
+    "frames": {
+      "mean": 0.007205083782329611,
+      "p95": 0.008803700096905231,
+      "count": 438,
+      "maximum": 0.010593400336802006
+    },
+    "size": [
+      8.961215019226074,
+      10.800000190734863,
+      2.73688006401062
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 329363,
+      "boneWrites": 2974731,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "the_unwritten__Head",
+      "the_unwritten__PageTail0",
+      "the_unwritten__PageTail1",
+      "the_unwritten__PageTail2",
+      "the_unwritten__PageTail3",
+      "the_unwritten__Root",
+      "the_unwritten__SleeveL",
+      "the_unwritten__SleeveR",
+      "the_unwritten__WritingHandL",
+      "the_unwritten__WritingHandR"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_unwritten",
+    "meshId": "rbxassetid://83389959423516",
+    "frames": {
+      "mean": 0.008558172963372192,
+      "p95": 0.013196599669754505,
+      "count": 795,
+      "maximum": 0.017548000440001488
+    },
+    "size": [
+      9.57659912109375,
+      11.699999809265137,
+      4.091583251953125
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 329804,
+      "boneWrites": 2979141,
+      "missingActs": 0,
+      "suspended": 6
+    },
+    "changedBones": [
+      "the_unwritten__Head",
+      "the_unwritten__PageTail0",
+      "the_unwritten__PageTail1",
+      "the_unwritten__PageTail2",
+      "the_unwritten__PageTail3",
+      "the_unwritten__Root",
+      "the_unwritten__SleeveL",
+      "the_unwritten__SleeveR",
+      "the_unwritten__WritingHandL",
+      "the_unwritten__WritingHandR"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_unwritten",
+    "meshId": "rbxassetid://83389959423516",
+    "frames": {
+      "mean": 0.00793267938369258,
+      "p95": 0.00993419997394085,
+      "count": 398,
+      "maximum": 0.011742600239813328
+    },
+    "size": [
+      9.57659912109375,
+      11.699999809265137,
+      4.091583251953125
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 330291,
+      "boneWrites": 2984013,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "the_unwritten__Head",
+      "the_unwritten__PageTail0",
+      "the_unwritten__PageTail1",
+      "the_unwritten__PageTail2",
+      "the_unwritten__PageTail3",
+      "the_unwritten__Root",
+      "the_unwritten__SleeveL",
+      "the_unwritten__SleeveR",
+      "the_unwritten__WritingHandL",
+      "the_unwritten__WritingHandR"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_unwritten",
+    "meshId": "rbxassetid://83389959423516",
+    "frames": {
+      "mean": 0.007150673704504832,
+      "p95": 0.00954390037804842,
+      "count": 441,
+      "maximum": 0.01622370071709156
+    },
+    "size": [
+      9.57659912109375,
+      11.699999809265137,
+      4.091583251953125
+    ]
+  },
+  {
+    "state": "PLACED",
+    "metrics": {
+      "tracked": 7,
+      "posed": 331404,
+      "boneWrites": 3000328,
+      "missingActs": 0,
+      "suspended": 5
+    },
+    "changedBones": [
+      "the_last_star__ArmL",
+      "the_last_star__ArmR",
+      "the_last_star__Helm",
+      "the_last_star__Root",
+      "the_last_star__Star",
+      "the_last_star__TalonsL",
+      "the_last_star__TalonsR"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_last_star",
+    "meshId": "rbxassetid://120800608135396",
+    "frames": {
+      "mean": 0.007073640121967995,
+      "p95": 0.00888609979301691,
+      "count": 962,
+      "maximum": 0.010596700012683868
+    },
+    "size": [
+      8.499999046325684,
+      11.399999618530273,
+      4.799999237060547
+    ]
+  },
+  {
+    "state": "PROCESSION",
+    "metrics": {
+      "tracked": 7,
+      "posed": 331716,
+      "boneWrites": 3004667,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "the_last_star__ArmL",
+      "the_last_star__ArmR",
+      "the_last_star__Helm",
+      "the_last_star__Knee0",
+      "the_last_star__Knee1",
+      "the_last_star__Knee2",
+      "the_last_star__Knee3",
+      "the_last_star__Leg0",
+      "the_last_star__Leg1",
+      "the_last_star__Leg2",
+      "the_last_star__Leg3",
+      "the_last_star__Root",
+      "the_last_star__Star",
+      "the_last_star__TalonsL",
+      "the_last_star__TalonsR"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_last_star",
+    "meshId": "rbxassetid://120800608135396",
+    "frames": {
+      "mean": 0.006015629716040123,
+      "p95": 0.008572099730372429,
+      "count": 525,
+      "maximum": 0.012324100360274315
+    },
+    "size": [
+      8.499999046325684,
+      11.399999618530273,
+      4.799999237060547
+    ]
+  },
+  {
+    "state": "CARRYING",
+    "metrics": {
+      "tracked": 7,
+      "posed": 332261,
+      "boneWrites": 3012248,
+      "missingActs": 0,
+      "suspended": 4
+    },
+    "changedBones": [
+      "the_last_star__ArmL",
+      "the_last_star__ArmR",
+      "the_last_star__Helm",
+      "the_last_star__Knee0",
+      "the_last_star__Knee1",
+      "the_last_star__Knee2",
+      "the_last_star__Knee3",
+      "the_last_star__Leg0",
+      "the_last_star__Leg1",
+      "the_last_star__Leg2",
+      "the_last_star__Leg3",
+      "the_last_star__Root",
+      "the_last_star__Star",
+      "the_last_star__TalonsL",
+      "the_last_star__TalonsR"
+    ],
+    "preloadStatus": "Success",
+    "id": "the_last_star",
+    "meshId": "rbxassetid://120800608135396",
+    "frames": {
+      "mean": 0.007779636189772798,
+      "p95": 0.009690400213003159,
+      "count": 406,
+      "maximum": 0.011869199573993683
+    },
+    "size": [
+      8.499999046325684,
+      11.399999618530273,
+      4.799999237060547
+    ]
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "id": "cathedral_heart",
+  "displayName": "Cathedral Heart",
+  "rarity": "Mythic",
+  "sourceReference": "assets/reference/rework-09-mythic.png",
+  "source": "assets/source/blender/curses_expansion/rework/cathedral_heart.blend",
+  "export": "assets/export/meshes/curses/rework/cathedral_heart.fbx",
+  "sha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+  "triangles": 3618,
+  "vertices": 1925,
+  "blenderDimensions": [
+    2.9446873664855957,
+    1.6740176677703857,
+    4.480339050292969
+  ],
+  "intendedRobloxSize": [
+    2.9446873664855957,
+    4.480339050292969,
+    1.6740176677703857
+  ],
+  "diagonal": 5.616667770478095,
+  "vfxHook": [
+    0.0,
+    -0.07983042024075981,
+    0.6469738674163819
+  ],
+  "vfxProfile": "cathedral_heart_seam",
+  "palette": [
+    "bone_high",
+    "brass",
+    "gold_glow",
+    "ivory",
+    "obsidian",
+    "star_iron",
+    "thorn_edge"
+  ],
+  "paintedColorCount": 644,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Three-dimensional split stone heart with a branching golden seam",
+      "first_face": 0,
+      "last_face_exclusive": 222
+    },
+    {
+      "name": "Two tall pointed dark arches with open sides and rear depth",
+      "first_face": 222,
+      "last_face_exclusive": 896
+    },
+    {
+      "name": "Narrow gilded cathedral lancets suspended along the arches",
+      "first_face": 896,
+      "last_face_exclusive": 932
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 09: large cracked ivory heart suspended inside paired depth-separated pointed cathedral arches. Four buttress feet, dark shaped stone, pale arch ridges and slender golden lancets leave genuine openings around the heart and create a sacred monumental silhouette within gameplay bounds."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/cathedral_heart.blend",
+  "robloxIntendedSize": [
+    2.9446873664855957,
+    4.480339050292969,
+    1.6740176677703857
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    -0.07983042024075981,
+    0.6469738674163819
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.02944687381386757,
+      0.016740184277296066,
+      0.04480339214205742
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 3618,
+    "colorCount": 644,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "cathedral_heart",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890"
+  }
+}

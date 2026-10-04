@@ -1,0 +1,114 @@
+{
+  "fixture": "build-expansion-qa2.rbxlx",
+  "observedAt": "2026-10-01 23:15 local, Roblox Studio Play Client Output",
+  "method": "Normal WalkSpeed16 physical Humanoid MoveTo, no character teleport, speed override or geometry edits; helper tolerance3 horizontal/5vertical.",
+  "runs": [
+    {
+      "reached": true,
+      "legs": [
+        {
+          "jumpWaypoints": 0,
+          "pathStatus": "Success",
+          "waypointArrivalToleranceStuds": 3,
+          "reached": true,
+          "target": "Base01 display court",
+          "destination": [
+            15.680882453918457,
+            5.25,
+            298.9821472167969
+          ],
+          "walkSpeed": 16,
+          "moveToFinishedArrivals": 0,
+          "startPosition": [
+            14.057239532470703,
+            4.892457485198975,
+            268.02471923828125
+          ],
+          "pathLengthStuds": 31.70862627029419,
+          "remainingHorizontalStuds": 2.680699348449707,
+          "actualDistanceStuds": 28.946488738059998,
+          "toleranceArrivals": 7,
+          "actualJumps": 0,
+          "planningSeconds": 0.18182030000025406,
+          "label": "Prepare Base01 display court",
+          "actualWalkingSeconds": 1.8003351999996084,
+          "canceled": false,
+          "endPosition": [
+            15.107881546020508,
+            5.2424540519714355,
+            296.3634033203125
+          ]
+        },
+        {
+          "jumpWaypoints": 2,
+          "pathStatus": "Success",
+          "waypointArrivalToleranceStuds": 3,
+          "reached": true,
+          "target": "Base02 display court",
+          "destination": [
+            227.0667724609375,
+            6.25,
+            233.31631469726562
+          ],
+          "walkSpeed": 16,
+          "moveToFinishedArrivals": 0,
+          "startPosition": [
+            15.107881546020508,
+            5.2424540519714355,
+            296.3634033203125
+          ],
+          "pathLengthStuds": 240.55289186537266,
+          "remainingHorizontalStuds": 2.408445358276367,
+          "actualDistanceStuds": 237.33746713399887,
+          "toleranceArrivals": 42,
+          "actualJumps": 0,
+          "planningSeconds": 0.11598780000167608,
+          "label": "Neighbor Base01 to Base02",
+          "actualWalkingSeconds": 15.0830717000008,
+          "canceled": false,
+          "endPosition": [
+            224.66226196289062,
+            6.2424540519714355,
+            233.17869567871094
+          ]
+        },
+        {
+          "jumpWaypoints": 1,
+          "pathStatus": "Success",
+          "waypointArrivalToleranceStuds": 3,
+          "reached": true,
+          "target": "Base06 display court",
+          "destination": [
+            -230.25498962402344,
+            5.25,
+            -227.12936401367188
+          ],
+          "walkSpeed": 16,
+          "moveToFinishedArrivals": 0,
+          "startPosition": [
+            224.66226196289062,
+            6.2424540519714355,
+            233.17869567871094
+          ],
+          "pathLengthStuds": 686.6517015695572,
+          "remainingHorizontalStuds": 1.314719796180725,
+          "actualDistanceStuds": 686.035568356514,
+          "toleranceArrivals": 116,
+          "actualJumps": 0,
+          "planningSeconds": 0.2652395000004617,
+          "label": "Across map Base02 to Base06",
+          "actualWalkingSeconds": 42.96551880000152,
+          "canceled": false,
+          "endPosition": [
+            -229.20059204101562,
+            5.2424540519714355,
+            -226.3440399169922
+          ]
+        }
+      ],
+      "elapsedSeconds": 60.412367599999925,
+      "runId": 1,
+      "canceled": false
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtc": "2026-10-02T05:41:01+00:00",
+  "source": {
+    "originalLogPath": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\logs\\0.741.19.7411056_20261002T053405Z_Studio_B3F66_last.log",
+    "originalLogFilename": "0.741.19.7411056_20261002T053405Z_Studio_B3F66_last.log",
+    "originalSnapshotSha256": "718b861d7df7977fb751c16c3a522c5a32bd76855096d1f032e7e47178f650a4",
+    "rawTrace": "assets/review/curse-rework/quality-observed-desktop.log",
+    "rawTraceSha256": "c08683d098ea0e9aeaf3c3c9fa7c1b11c154eb61038785350829b1ee4c9369e0",
+    "logMayContinueGrowing": true,
+    "selectedTimestampRangeUtc": {
+      "fromInclusive": "2026-10-02T05:34:36Z",
+      "toExclusive": "2026-10-02T05:37:15Z"
+    }
+  },
+  "scope": "Literal client UI bounds/text observations; native user input described separately by the orchestrator. Not a physical-device performance test.",
+  "reports": [
+    {
+      "marker": "QUALITY_UI_REPORT",
+      "sourceLineNumber": 2250,
+      "timestampUtc": "2026-10-02T05:34:38.823Z",
+      "literalPayloadText": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1296,633],\"failures\":[],\"cardPosition\":[1032,12],\"reason\":\"initial\"}",
+      "payload": {
+        "shopVisible": false,
+        "cardSize": [
+          252,
+          82
+        ],
+        "method": "Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.",
+        "mockCards": 10,
+        "viewport": [
+          1296,
+          633
+        ],
+        "failures": [],
+        "cardPosition": [
+          1032,
+          12
+        ],
+        "reason": "initial"
+      },
+      "completeJson": true
+    },
+    {
+      "marker": "QUALITY_UI_REPORT",
+      "sourceLineNumber": 2291,
+      "timestampUtc": "2026-10-02T05:34:41.056Z",
+      "literalPayloadText": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1580,633],\"failures\":[],\"cardPosition\":[1316,12],\"reason\":\"viewport resized\"}",
+      "payload": {
+        "shopVisible": false,
+        "cardSize": [
+          252,
+          82
+        ],
+        "method": "Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.",
+        "mockCards": 10,
+        "viewport": [
+          1580,
+          633
+        ],
+        "failures": [],
+        "cardPosition": [
+          1316,
+          12
+        ],
+        "reason": "viewport resized"
+      },
+      "completeJson": true
+    },
+    {
+      "marker": "QUALITY_UI_REPORT",
+      "sourceLineNumber": 2297,
+      "timestampUtc": "2026-10-02T05:34:50.411Z",
+      "literalPayloadText": "{\"shopVisible\":true,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1580,633],\"failures\":[],\"cardPosition\":[1316,12],\"reason\":\"shop visibility changed\"}",
+      "payload": {
+        "shopVisible": true,
+        "cardSize": [
+          252,
+          82
+        ],
+        "method": "Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.",
+        "mockCards": 10,
+        "viewport": [
+          1580,
+          633
+        ],
+        "failures": [],
+        "cardPosition": [
+          1316,
+          12
+        ],
+        "reason": "shop visibility changed"
+      },
+      "completeJson": true
+    },
+    {
+      "marker": "QUALITY_UI_REPORT",
+      "sourceLineNumber": 2305,
+      "timestampUtc": "2026-10-02T05:35:11.099Z",
+      "literalPayloadText": "{\"shopVisible\":true,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1580,633],\"failures\":[],\"cardPosition\":[1316,12],\"reason\":\"tab changed\"}",
+      "payload": {
+        "shopVisible": true,
+        "cardSize": [
+          252,
+          82
+        ],
+        "method": "Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.",
+        "mockCards": 10,
+        "viewport": [
+          1580,
+          633
+        ],
+        "failures": [],
+        "cardPosition": [
+          1316,
+          12
+        ],
+        "reason": "tab changed"
+      },
+      "completeJson": true
+    },
+    {
+      "marker": "QUALITY_UI_REPORT",
+      "sourceLineNumber": 2308,
+      "timestampUtc": "2026-10-02T05:35:22.918Z",
+      "literalPayloadText": "{\"shopVisible\":true,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1580,633],\"failures\":[],\"cardPosition\":[1316,12],\"reason\":\"tab changed\"}",
+      "payload": {
+        "shopVisible": true,
+        "cardSize": [
+          252,
+          82
+        ],
+        "method": "Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.",
+        "mockCards": 10,
+        "viewport": [
+          1580,
+          633
+        ],
+        "failures": [],
+        "cardPosition": [
+          1316,
+          12
+        ],
+        "reason": "tab changed"
+      },
+      "completeJson": true
+    },
+    {
+      "marker": "QUALITY_UI_REPORT",
+      "sourceLineNumber": 2314,
+      "timestampUtc": "2026-10-02T05:35:37.309Z",
+      "literalPayloadText": "{\"shopVisible\":false,\"cardSize\":[252,82],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1580,633],\"failures\":[],\"cardPosition\":[1316,12],\"reason\":\"shop visibility changed\"}",
+      "payload": {
+        "shopVisible": false,
+        "cardSize": [
+          252,
+          82
+        ],
+        "method": "Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.",
+        "mockCards": 10,
+        "viewport": [
+          1580,
+          633
+        ],
+        "failures": [],
+        "cardPosition": [
+          1316,
+          12
+        ],
+        "reason": "shop visibility changed"
+      },
+      "completeJson": true
+    }
+  ],
+  "markers": [
+    {
+      "marker": "QUALITY_UI_PASS",
+      "sourceLineNumber": 2251,
+      "timestampUtc": "2026-10-02T05:34:38.823Z",
+      "literalPayloadText": "initial 1296 633"
+    },
+    {
+      "marker": "QUALITY_UI_PASS",
+      "sourceLineNumber": 2292,
+      "timestampUtc": "2026-10-02T05:34:41.056Z",
+      "literalPayloadText": "viewport resized 1580 633"
+    },
+    {
+      "marker": "QUALITY_UI_PASS",
+      "sourceLineNumber": 2315,
+      "timestampUtc": "2026-10-02T05:35:37.310Z",
+      "literalPayloadText": "shop visibility changed 1580 633"
+    }
+  ],
+  "summary": {
+    "completeReportCount": 6,
+    "incompleteReportCount": 0,
+    "observedFailMarkers": 0,
+    "observedReportFailures": []
+  }
+}

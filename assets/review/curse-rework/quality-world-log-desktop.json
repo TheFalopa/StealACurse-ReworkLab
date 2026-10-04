@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtc": "2026-10-02T05:41:01+00:00",
+  "source": {
+    "originalLogPath": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\logs\\0.741.19.7411056_20261002T053405Z_Studio_B3F66_last.log",
+    "originalLogFilename": "0.741.19.7411056_20261002T053405Z_Studio_B3F66_last.log",
+    "originalSnapshotSha256": "718b861d7df7977fb751c16c3a522c5a32bd76855096d1f032e7e47178f650a4",
+    "rawTrace": "assets/review/curse-rework/quality-observed-desktop.log",
+    "rawTraceSha256": "c08683d098ea0e9aeaf3c3c9fa7c1b11c154eb61038785350829b1ee4c9369e0",
+    "logMayContinueGrowing": true,
+    "selectedTimestampRangeUtc": {
+      "fromInclusive": "2026-10-02T05:34:36Z",
+      "toExclusive": "2026-10-02T05:37:15Z"
+    }
+  },
+  "reports": [
+    {
+      "marker": "QUALITY_WORLD_REPORT",
+      "sourceLineNumber": 2252,
+      "timestampUtc": "2026-10-02T05:34:39.121Z",
+      "literalPayloadText": "{\"paths\":[{\"base\":\"Base01\",\"status\":\"Success\"},{\"base\":\"Base02\",\"status\":\"Success\"},{\"base\":\"Base03\",\"status\":\"Success\"},{\"base\":\"Base04\",\"status\":\"Success\"},{\"base\":\"Base05\",\"status\":\"Success\"},{\"base\":\"Base06\",\"status\":\"Success\"},{\"base\":\"Base07\",\"status\":\"Success\"},{\"base\":\"Base08\",\"status\":\"Success\"}],\"method\":\"Read-only runtime contracts and bounding-box support/hull checks. Eight navmesh paths are not physical walks. Hanging props are excluded from grounding. Triangle gaps, hull snagging and appearance need player-height review.\",\"grounding\":[{\"bottomY\":35.439998626708987,\"inset\":0.06,\"name\":\"Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestManorRoof.CrookedRoof\",\"expectedY\":35.44},{\"bottomY\":0.9399986267089844,\"inset\":0.06,\"name\":\"Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestOuterButtress_-13\",\"expectedY\":0.94},{\"bottomY\":0.9399986267089844,\"inset\":0.06,\"name\":\"Workspace.StealAC",
+      "payload": null,
+      "completeJson": false,
+      "parseError": "Unterminated string starting at: line 1 column 915 (char 914)"
+    }
+  ],
+  "markers": [
+    {
+      "marker": "QUALITY_WORLD_PASS",
+      "sourceLineNumber": 2253,
+      "timestampUtc": "2026-10-02T05:34:39.121Z",
+      "literalPayloadText": "Grounded bounds, simple classified hulls, eight sanctuary contracts, forty slots and eight castle navmesh paths. Player-height seating and physical hull/camera review remain separate."
+    }
+  ],
+  "completeWorldReportExtracted": false,
+  "extractionLimit": "The native Studio logger cuts oversized marker lines. A null payload is a literal incomplete fragment, not a reconstructed world report. The WORLD_PASS marker is preserved independently."
+}

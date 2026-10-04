@@ -1,0 +1,84 @@
+{
+  "fixture": "build-expansion-final-review.rbxlx",
+  "method": "Claim by native E; purchase naturally spawned nearby Cursed Doll using bounded client ProximityPrompt InputHoldBegin/End, no event spoof/credit/teleport; return uses Humanoid MoveTo with production services untouched",
+  "walks": [
+    {
+      "reached": true,
+      "legs": [
+        {
+          "remainingHorizontalStuds": 0.6479377150535583,
+          "startPosition": [
+            -199.71414184570312,
+            5.892457485198975,
+            213.84486389160156
+          ],
+          "pathStatus": "Success",
+          "label": "Base08 entry to castle",
+          "pathLengthStuds": 283.2644208073616,
+          "actualJumps": 0,
+          "jumpWaypoints": 0,
+          "actualDistanceStuds": 282.3444065153599,
+          "actualWalkingSeconds": 20.832100400000854,
+          "walkSpeed": 16,
+          "reached": true,
+          "planningSeconds": 0.27471200000036333,
+          "target": "castle court",
+          "destination": [
+            0,
+            4,
+            24
+          ],
+          "canceled": false,
+          "endPosition": [
+            -0.5444361567497253,
+            4.512455940246582,
+            24.351301193237305
+          ]
+        }
+      ],
+      "elapsedSeconds": 21.10695019999912,
+      "runId": 1,
+      "canceled": false
+    },
+    {
+      "reached": true,
+      "legs": [
+        {
+          "remainingHorizontalStuds": 0.6825365424156189,
+          "startPosition": [
+            -0.5264241099357605,
+            4.512455940246582,
+            24.339677810668945
+          ],
+          "pathStatus": "Success",
+          "label": "Castle to Base08 carrying natural Cursed Doll",
+          "pathLengthStuds": 314.37363851070404,
+          "actualJumps": 0,
+          "jumpWaypoints": 1,
+          "actualDistanceStuds": 313.35997492074966,
+          "actualWalkingSeconds": 22.964745600000242,
+          "walkSpeed": 16,
+          "reached": true,
+          "planningSeconds": 0.049745899999834364,
+          "target": "Base08 display court",
+          "destination": [
+            -220.8731231689453,
+            6.25,
+            236.5009307861328
+          ],
+          "canceled": false,
+          "endPosition": [
+            -220.1968231201172,
+            6.2424540519714355,
+            236.40887451171875
+          ]
+        }
+      ],
+      "elapsedSeconds": 23.014627999998993,
+      "runId": 2,
+      "canceled": false
+    }
+  ],
+  "purchase": "22:28:32.788 NATURAL_BUY dea859b6-fc93-4575-8616-7fde83fb86b1 400 0 client prompt input only - Cliente",
+  "rate": "22:30:43.583 QUALITY_UI_RATE_PASS 3 - Cliente"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "grave_key",
+  "displayName": "Grave Key",
+  "rarity": "COMMON",
+  "sourceReference": "rework-01-common.png",
+  "source": "assets/source/blender/curses_visual_pass2/batch02/grave_key.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/batch02/grave_key.fbx",
+  "sha256": "576f3691cd91e8e8ba24acece868d92733aec991df7b83ced287e5b7ec6bada7",
+  "triangles": 1526,
+  "vertices": 793,
+  "blenderDimensions": [
+    3.874108076095581,
+    0.9528255462646484,
+    4.599999904632568
+  ],
+  "intendedRobloxSize": [
+    3.874108076095581,
+    4.599999904632568,
+    0.9528255462646484
+  ],
+  "diagonal": 6.0890548551892,
+  "vfxHook": [
+    -0.8297134041786194,
+    1.110356092453003,
+    -0.14727100729942322
+  ],
+  "vfxProfile": "relic_glint",
+  "palette": [
+    "blue_cloth",
+    "iron",
+    "iron_edge",
+    "rust"
+  ],
+  "paintedColorCount": 336,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "BrokenIronKeyBow",
+      "first_face": 0,
+      "last_face_exclusive": 378
+    },
+    {
+      "name": "KeyTeethWalkingLegs",
+      "first_face": 378,
+      "last_face_exclusive": 522
+    },
+    {
+      "name": "BlueFuneraryScarf",
+      "first_face": 522,
+      "last_face_exclusive": 634
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Substantially rebuilt dark fractured iron key, diagonal shaft, key-bit walking legs, substantial blue scarf knot and trailing torn cloth.",
+    "Readable cool iron and worn bronze edge; preserve the broken key-ring opening and blue scarf."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/batch02/grave_key.blend",
+  "robloxIntendedSize": [
+    3.874108076095581,
+    4.599999904632568,
+    0.9528255462646484
+  ],
+  "vfxHookRoblox": [
+    -0.8297134041786194,
+    1.110356092453003,
+    -0.14727100729942322
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03874107822775841,
+      0.009528262540698051,
+      0.04599999636411667
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 1526,
+    "colorCount": 957,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "grave_key",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "576f3691cd91e8e8ba24acece868d92733aec991df7b83ced287e5b7ec6bada7"
+  },
+  "fbxExported": true,
+  "locallyValidated": true,
+  "pass": 2,
+  "revision": 2,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/grave_key.blend",
+  "sourceReusedSha256": "2fbf956a6b39a006fc9a0248d748a53526aaaeec6b272afaf4b88fd98072d9f6",
+  "vfxHooks": {},
+  "changedPaintCorners": 4368
+}

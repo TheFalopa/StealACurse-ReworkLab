@@ -1,0 +1,198 @@
+{
+  "OWNER": [
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OWNER",
+      "label": "PROTECTION_40S_AND_ACCESS",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.012,
+      "startedUnixMillis": 1791026080387,
+      "player": "Player1",
+      "file": "assets/review/sanctuary-restoration/videos/mp-protection-40s-and-access-owner-native.mp4",
+      "bytes": 3467429,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-5044000000"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OWNER",
+      "label": "SHARED_CONTRACT_RELIC",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.012,
+      "startedUnixMillis": 1791026181507,
+      "player": "Player1",
+      "file": "assets/review/sanctuary-restoration/videos/mp-shared-contract-relic-owner-native.mp4",
+      "bytes": 5536740,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-5044000001"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OWNER",
+      "label": "CASE_01_cursed_doll",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.028000000000002,
+      "startedUnixMillis": 1791026214322,
+      "player": "Player1",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-01-cursed-doll-owner-native.mp4",
+      "bytes": 12803998,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-5044000002"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OWNER",
+      "label": "CASE_02_watching_eye",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.018,
+      "startedUnixMillis": 1791026247090,
+      "player": "Player1",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-02-watching-eye-owner-native.mp4",
+      "bytes": 12014329,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-5044000003"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OWNER",
+      "label": "CASE_03_soul_chains",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.003,
+      "startedUnixMillis": 1791026279869,
+      "player": "Player1",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-03-soul-chains-owner-native.mp4",
+      "bytes": 12312394,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-5044000004"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OWNER",
+      "label": "CASE_04_grave_hopper",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.038,
+      "startedUnixMillis": 1791026312538,
+      "player": "Player1",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-04-grave-hopper-owner-native.mp4",
+      "bytes": 12013305,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-5044000005"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OWNER",
+      "label": "CASE_05_nail_beetle",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.019000000000002,
+      "startedUnixMillis": 1791026345223,
+      "player": "Player1",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-05-nail-beetle-owner-native.mp4",
+      "bytes": 11445142,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-5044000006"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OWNER",
+      "label": "CASE_06_coin_crawler",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.031000000000002,
+      "startedUnixMillis": 1791026377986,
+      "player": "Player1",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-06-coin-crawler-owner-native.mp4",
+      "bytes": 12113526,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-5044000007"
+    }
+  ],
+  "OBSERVER": [
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OBSERVER",
+      "label": "PROTECTION_40S_AND_ACCESS",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.042,
+      "startedUnixMillis": 1791026081387,
+      "player": "Player2",
+      "file": "assets/review/sanctuary-restoration/videos/mp-protection-40s-and-access-observer-native.mp4",
+      "bytes": 5702863,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-28336000000"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OBSERVER",
+      "label": "SHARED_CONTRACT_RELIC",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.012,
+      "startedUnixMillis": 1791026182501,
+      "player": "Player2",
+      "file": "assets/review/sanctuary-restoration/videos/mp-shared-contract-relic-observer-native.mp4",
+      "bytes": 5435213,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-28336000001"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OBSERVER",
+      "label": "CASE_01_cursed_doll",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.015,
+      "startedUnixMillis": 1791026215329,
+      "player": "Player2",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-01-cursed-doll-observer-native.mp4",
+      "bytes": 12530080,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-28336000002"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OBSERVER",
+      "label": "CASE_02_watching_eye",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.013,
+      "startedUnixMillis": 1791026248108,
+      "player": "Player2",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-02-watching-eye-observer-native.mp4",
+      "bytes": 12999154,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-28336000003"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OBSERVER",
+      "label": "CASE_03_soul_chains",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.04,
+      "startedUnixMillis": 1791026280858,
+      "player": "Player2",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-03-soul-chains-observer-native.mp4",
+      "bytes": 12471878,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-28336000004"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OBSERVER",
+      "label": "CASE_04_grave_hopper",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.033,
+      "startedUnixMillis": 1791026313554,
+      "player": "Player2",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-04-grave-hopper-observer-native.mp4",
+      "bytes": 12282712,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-28336000005"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OBSERVER",
+      "label": "CASE_05_nail_beetle",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.015,
+      "startedUnixMillis": 1791026346244,
+      "player": "Player2",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-05-nail-beetle-observer-native.mp4",
+      "bytes": 11943915,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-28336000006"
+    },
+    {
+      "pixelApproval": "PENDING_NATIVE_CLIP_REVIEW",
+      "role": "OBSERVER",
+      "label": "CASE_06_coin_crawler",
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.022000000000002,
+      "startedUnixMillis": 1791026379006,
+      "player": "Player2",
+      "file": "assets/review/sanctuary-restoration/videos/mp-case-06-coin-crawler-observer-native.mp4",
+      "bytes": 12677230,
+      "nativeTemporaryFile": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\tmp-capture-storage\\wob-28336000007"
+    }
+  ]
+}

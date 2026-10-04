@@ -1,0 +1,11 @@
+local HUD = require(script.UI.HUD)
+local CurseLabels = require(script.UI.CurseLabels)
+local CurseVFX = require(script.CurseVFX)
+local CursePresentation = require(script.CursePresentation)
+local CurseManagement = require(script.UI.CurseManagement)
+
+HUD.start()
+CurseLabels.start()
+CurseVFX.start()
+CursePresentation.start()
+CurseManagement.start()

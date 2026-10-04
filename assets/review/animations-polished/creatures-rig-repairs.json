@@ -1,0 +1,812 @@
+[
+  {
+    "id": "thimble_spider",
+    "previousBlend": "assets/source/blender/curse_animation/thimble_spider.blend",
+    "previousFBX": "assets/export/meshes/curses/animations/animation-batch-03.fbx",
+    "previousMeshId": "rbxassetid://136327482789022",
+    "blend": "assets/source/blender/animations-polished/thimble_spider.blend",
+    "fbx": "assets/export/meshes/curses/animations-polished/thimble_spider.fbx",
+    "blendSHA256": "76fc593a6096123b650cea1b9f6b9d204bd66c9d164043d9e5bd01cd9610f924",
+    "fbxSHA256": "59eb4150eb6f80f7457c1eb4d7c040c33f5030897d00492d8a38702cf15f028c",
+    "geometrySHA256Before": "8882a5afec24d1815a42987e56f7540079990b250807a7816db9bf418a1ddc87",
+    "geometrySHA256After": "8882a5afec24d1815a42987e56f7540079990b250807a7816db9bf418a1ddc87",
+    "vertices": 2864,
+    "triangles": 5620,
+    "targetSize": [
+      5.8597540855407715,
+      3.5999996662139893,
+      3.2620513439178467
+    ],
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Leg4",
+      "Knee4",
+      "Leg5",
+      "Knee5",
+      "Leg6",
+      "Knee6",
+      "Leg7",
+      "Knee7",
+      "Fangs"
+    ],
+    "weightedCounts": {
+      "Root": 2262,
+      "Leg0": 55,
+      "Knee0": 61,
+      "Leg1": 55,
+      "Knee1": 61,
+      "Leg2": 55,
+      "Knee2": 62,
+      "Leg3": 55,
+      "Knee3": 61,
+      "Leg4": 55,
+      "Knee4": 61,
+      "Leg5": 55,
+      "Knee5": 61,
+      "Leg6": 55,
+      "Knee6": 62,
+      "Leg7": 55,
+      "Knee7": 61,
+      "Fangs": 42
+    },
+    "legs": [
+      {
+        "index": 0,
+        "previousHipBlender": [
+          -0.9537030458450317,
+          -0.6921491622924805,
+          -0.2977916896343231
+        ],
+        "previousKneeBlender": [
+          -1.1158051490783691,
+          -0.6921491622924805,
+          -0.9739392995834351
+        ],
+        "hipRoblox": [
+          0.9537030458450317,
+          -0.29779165983200073,
+          -0.6921492218971252
+        ],
+        "kneeRoblox": [
+          1.7338734865188599,
+          -0.10708345472812653,
+          -0.8655204176902771
+        ],
+        "footRoblox": [
+          2.912797689437866,
+          -1.7627780437469482,
+          -1.5590054988861084
+        ],
+        "weightedVertices": 70
+      },
+      {
+        "index": 1,
+        "previousHipBlender": [
+          -0.9537030458450317,
+          -0.12002407759428024,
+          -0.2977916896343231
+        ],
+        "previousKneeBlender": [
+          -1.1158051490783691,
+          -0.12002407759428024,
+          -0.9739392995834351
+        ],
+        "hipRoblox": [
+          0.9537030458450317,
+          -0.29779165983200073,
+          -0.12002409249544144
+        ],
+        "kneeRoblox": [
+          1.8943490982055664,
+          -0.2804545760154724,
+          -0.29339534044265747
+        ],
+        "footRoblox": [
+          2.849039316177368,
+          -1.7627780437469482,
+          -0.9868804216384888
+        ],
+        "weightedVertices": 70
+      },
+      {
+        "index": 2,
+        "previousHipBlender": [
+          -0.9537030458450317,
+          0.4521010220050812,
+          -0.2977916896343231
+        ],
+        "previousKneeBlender": [
+          -1.1158051490783691,
+          0.4521010220050812,
+          -0.9739392995834351
+        ],
+        "hipRoblox": [
+          0.9537030458450317,
+          -0.29779165983200073,
+          0.45210105180740356
+        ],
+        "kneeRoblox": [
+          1.9072840213775635,
+          -0.4538256824016571,
+          0.27872979640960693
+        ],
+        "footRoblox": [
+          2.7163825035095215,
+          -1.7627780437469482,
+          -0.4147552251815796
+        ],
+        "weightedVertices": 70
+      },
+      {
+        "index": 3,
+        "previousHipBlender": [
+          -0.9537030458450317,
+          1.0242260694503784,
+          -0.2977916896343231
+        ],
+        "previousKneeBlender": [
+          -1.1158051490783691,
+          1.0242260694503784,
+          -0.9739392995834351
+        ],
+        "hipRoblox": [
+          0.9537030458450317,
+          -0.29779165983200073,
+          1.024226188659668
+        ],
+        "kneeRoblox": [
+          1.7607862949371338,
+          -0.6271969079971313,
+          0.8508549332618713
+        ],
+        "footRoblox": [
+          2.636791944503784,
+          -1.7627780437469482,
+          0.157369926571846
+        ],
+        "weightedVertices": 70
+      },
+      {
+        "index": 4,
+        "previousHipBlender": [
+          0.9533804059028625,
+          -0.6921491622924805,
+          -0.2977916896343231
+        ],
+        "previousKneeBlender": [
+          1.1154824495315552,
+          -0.6921491622924805,
+          -0.9739392995834351
+        ],
+        "hipRoblox": [
+          -0.9533804059028625,
+          -0.29779165983200073,
+          -0.6921492218971252
+        ],
+        "kneeRoblox": [
+          -1.7335509061813354,
+          -0.10708345472812653,
+          -0.8655204176902771
+        ],
+        "footRoblox": [
+          -2.912475109100342,
+          -1.7627780437469482,
+          -1.5590054988861084
+        ],
+        "weightedVertices": 70
+      },
+      {
+        "index": 5,
+        "previousHipBlender": [
+          0.9533804059028625,
+          -0.12002407759428024,
+          -0.2977916896343231
+        ],
+        "previousKneeBlender": [
+          1.1154824495315552,
+          -0.12002407759428024,
+          -0.9739392995834351
+        ],
+        "hipRoblox": [
+          -0.9533804059028625,
+          -0.29779165983200073,
+          -0.12002409249544144
+        ],
+        "kneeRoblox": [
+          -1.894026517868042,
+          -0.2804545760154724,
+          -0.29339534044265747
+        ],
+        "footRoblox": [
+          -2.8487164974212646,
+          -1.7627780437469482,
+          -0.9868804216384888
+        ],
+        "weightedVertices": 70
+      },
+      {
+        "index": 6,
+        "previousHipBlender": [
+          0.9533804059028625,
+          0.4521010220050812,
+          -0.2977916896343231
+        ],
+        "previousKneeBlender": [
+          1.1154824495315552,
+          0.4521010220050812,
+          -0.9739392995834351
+        ],
+        "hipRoblox": [
+          -0.9533804059028625,
+          -0.29779165983200073,
+          0.45210105180740356
+        ],
+        "kneeRoblox": [
+          -1.906961441040039,
+          -0.4538256824016571,
+          0.27872979640960693
+        ],
+        "footRoblox": [
+          -2.716059923171997,
+          -1.7627780437469482,
+          -0.4147552251815796
+        ],
+        "weightedVertices": 70
+      },
+      {
+        "index": 7,
+        "previousHipBlender": [
+          0.9533804059028625,
+          1.0242260694503784,
+          -0.2977916896343231
+        ],
+        "previousKneeBlender": [
+          1.1154824495315552,
+          1.0242260694503784,
+          -0.9739392995834351
+        ],
+        "hipRoblox": [
+          -0.9533804059028625,
+          -0.29779165983200073,
+          1.024226188659668
+        ],
+        "kneeRoblox": [
+          -1.7604635953903198,
+          -0.6271969079971313,
+          0.8508549332618713
+        ],
+        "footRoblox": [
+          -2.6364691257476807,
+          -1.7627780437469482,
+          0.157369926571846
+        ],
+        "weightedVertices": 70
+      }
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false,
+    "rigChanges": "Existing Leg#/Knee# semantic names and parents preserved. Hip/knee bind pivots follow authored physical paths; whole connected leg volumes assigned to their own path, with local upper/lower blend at the physical knee."
+  },
+  {
+    "id": "anchor_crab",
+    "previousBlend": "assets/source/blender/curse_animation/anchor_crab.blend",
+    "previousFBX": "assets/export/meshes/curses/animations/animation-batch-03.fbx",
+    "previousMeshId": "rbxassetid://76621365393589",
+    "blend": "assets/source/blender/animations-polished/anchor_crab.blend",
+    "fbx": "assets/export/meshes/curses/animations-polished/anchor_crab.fbx",
+    "blendSHA256": "3f20c457511bebc19b516e7917833a9289458f1471bc98e793e4d50673d1bfb8",
+    "fbxSHA256": "813e2cf2ea71861c0c2a18093b19d161acd12d18f70004d858d52922d920e1cb",
+    "geometrySHA256Before": "cc7d92dc539a4ad6a34e74d877ef925ac223e97e10be8004b484420385586c53",
+    "geometrySHA256After": "cc7d92dc539a4ad6a34e74d877ef925ac223e97e10be8004b484420385586c53",
+    "vertices": 1630,
+    "triangles": 3128,
+    "targetSize": [
+      7.448751926422119,
+      4.800000190734863,
+      2.186063766479492
+    ],
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Leg4",
+      "Knee4",
+      "Leg5",
+      "Knee5",
+      "ClawL",
+      "JawL",
+      "ClawR",
+      "JawR"
+    ],
+    "weightedCounts": {
+      "Root": 622,
+      "Leg0": 62,
+      "Knee0": 70,
+      "Leg1": 61,
+      "Knee1": 70,
+      "Leg2": 62,
+      "Knee2": 70,
+      "Leg3": 62,
+      "Knee3": 70,
+      "Leg4": 61,
+      "Knee4": 70,
+      "Leg5": 62,
+      "Knee5": 70,
+      "ClawL": 70,
+      "JawL": 188,
+      "ClawR": 70,
+      "JawR": 188
+    },
+    "legs": [
+      {
+        "index": 0,
+        "previousHipBlender": [
+          -1.3195922374725342,
+          -0.34845617413520813,
+          -1.4611172676086426
+        ],
+        "previousKneeBlender": [
+          -1.4900468587875366,
+          -0.34845617413520813,
+          -1.9706730842590332
+        ],
+        "hipRoblox": [
+          1.270280361175537,
+          -0.9679988622665405,
+          -0.29914435744285583
+        ],
+        "kneeRoblox": [
+          2.09214448928833,
+          -1.033747911453247,
+          -0.20052063465118408
+        ],
+        "footRoblox": [
+          2.96332049369812,
+          -2.3651678562164307,
+          -0.6443272829055786
+        ],
+        "weightedVertices": 82
+      },
+      {
+        "index": 1,
+        "previousHipBlender": [
+          -1.3195922374725342,
+          0.19397413730621338,
+          -1.4611172676086426
+        ],
+        "previousKneeBlender": [
+          -1.4900468587875366,
+          0.19397413730621338,
+          -1.9706730842590332
+        ],
+        "hipRoblox": [
+          1.270280361175537,
+          -0.9679988622665405,
+          0.24328598380088806
+        ],
+        "kneeRoblox": [
+          2.2893919944763184,
+          -1.0994970798492432,
+          0.3419096767902374
+        ],
+        "footRoblox": [
+          3.078381299972534,
+          -2.3651678562164307,
+          -0.10189695656299591
+        ],
+        "weightedVertices": 82
+      },
+      {
+        "index": 2,
+        "previousHipBlender": [
+          -1.3195922374725342,
+          0.7364044785499573,
+          -1.4611172676086426
+        ],
+        "previousKneeBlender": [
+          -1.4900468587875366,
+          0.7364044785499573,
+          -1.9706730842590332
+        ],
+        "hipRoblox": [
+          1.270280361175537,
+          -0.9679988622665405,
+          0.7857163548469543
+        ],
+        "kneeRoblox": [
+          2.4866392612457275,
+          -1.1652462482452393,
+          0.8843399882316589
+        ],
+        "footRoblox": [
+          3.1934423446655273,
+          -2.3651678562164307,
+          0.4405333995819092
+        ],
+        "weightedVertices": 82
+      },
+      {
+        "index": 3,
+        "previousHipBlender": [
+          0.6857560276985168,
+          -0.34845617413520813,
+          -1.4611172676086426
+        ],
+        "previousKneeBlender": [
+          0.8562106490135193,
+          -0.34845617413520813,
+          -1.9706730842590332
+        ],
+        "hipRoblox": [
+          -0.6364442110061646,
+          -0.9679988622665405,
+          -0.29914435744285583
+        ],
+        "kneeRoblox": [
+          -1.4583083391189575,
+          -1.033747911453247,
+          -0.20052063465118408
+        ],
+        "footRoblox": [
+          -2.329484224319458,
+          -2.3651678562164307,
+          -0.6443272829055786
+        ],
+        "weightedVertices": 82
+      },
+      {
+        "index": 4,
+        "previousHipBlender": [
+          0.6857560276985168,
+          0.19397413730621338,
+          -1.4611172676086426
+        ],
+        "previousKneeBlender": [
+          0.8562106490135193,
+          0.19397413730621338,
+          -1.9706730842590332
+        ],
+        "hipRoblox": [
+          -0.6364442110061646,
+          -0.9679988622665405,
+          0.24328598380088806
+        ],
+        "kneeRoblox": [
+          -1.6555557250976562,
+          -1.0994970798492432,
+          0.3419096767902374
+        ],
+        "footRoblox": [
+          -2.444545030593872,
+          -2.3651678562164307,
+          -0.10189695656299591
+        ],
+        "weightedVertices": 82
+      },
+      {
+        "index": 5,
+        "previousHipBlender": [
+          0.6857560276985168,
+          0.7364044785499573,
+          -1.4611172676086426
+        ],
+        "previousKneeBlender": [
+          0.8562106490135193,
+          0.7364044785499573,
+          -1.9706730842590332
+        ],
+        "hipRoblox": [
+          -0.6364442110061646,
+          -0.9679988622665405,
+          0.7857163548469543
+        ],
+        "kneeRoblox": [
+          -1.852803111076355,
+          -1.1652462482452393,
+          0.8843399882316589
+        ],
+        "footRoblox": [
+          -2.5596060752868652,
+          -2.3651678562164307,
+          0.4405333995819092
+        ],
+        "weightedVertices": 82
+      }
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false,
+    "rigChanges": "Existing Leg#/Knee# semantic names and parents preserved. Hip/knee bind pivots follow authored physical paths; whole connected leg volumes assigned to their own path, with local upper/lower blend at the physical knee."
+  },
+  {
+    "id": "nail_beetle",
+    "previousBlend": "assets/source/blender/curse_animation/nail_beetle.blend",
+    "previousFBX": "assets/export/meshes/curses/animations/animation-batch-02.fbx",
+    "previousMeshId": "rbxassetid://80405381145779",
+    "blend": "assets/source/blender/animations-polished/nail_beetle.blend",
+    "fbx": "assets/export/meshes/curses/animations-polished/nail_beetle.fbx",
+    "blendSHA256": "9b8c12c02a28f1e7bf16312350c782c5a10d6f949574d80189ce50afd246bfa4",
+    "fbxSHA256": "1e9c6f533fd215d38b6da38a0bdfa4035c5ccaeec4a8340f7e2399e33b6d9925",
+    "geometrySHA256Before": "028eacf382b351a85344a905c8bcad18b16d248fecba08d6408201e1b01ea5da",
+    "geometrySHA256After": "028eacf382b351a85344a905c8bcad18b16d248fecba08d6408201e1b01ea5da",
+    "vertices": 833,
+    "triangles": 1594,
+    "targetSize": [
+      5.600000381469727,
+      3.200000047683716,
+      5.400001049041748
+    ],
+    "bones": [
+      "Root",
+      "Leg0",
+      "Knee0",
+      "Leg1",
+      "Knee1",
+      "Leg2",
+      "Knee2",
+      "Leg3",
+      "Knee3",
+      "Leg4",
+      "Knee4",
+      "Leg5",
+      "Knee5",
+      "Nail"
+    ],
+    "weightedCounts": {
+      "Root": 405,
+      "Leg0": 22,
+      "Knee0": 37,
+      "Leg1": 22,
+      "Knee1": 37,
+      "Leg2": 22,
+      "Knee2": 37,
+      "Leg3": 22,
+      "Knee3": 37,
+      "Leg4": 22,
+      "Knee4": 37,
+      "Leg5": 22,
+      "Knee5": 37,
+      "Nail": 128
+    },
+    "legs": [
+      {
+        "index": 0,
+        "previousHipBlender": [
+          -0.8916170597076416,
+          -1.4168906211853027,
+          -0.5974735021591187
+        ],
+        "previousKneeBlender": [
+          -1.0424736738204956,
+          -1.4168906211853027,
+          -1.0706907510757446
+        ],
+        "hipRoblox": [
+          0.8916170001029968,
+          -0.5974734425544739,
+          -1.4168905019760132
+        ],
+        "kneeRoblox": [
+          1.8043630123138428,
+          -0.20312580466270447,
+          -1.7436206340789795
+        ],
+        "footRoblox": [
+          2.666400909423828,
+          -1.543907880783081,
+          -2.2103779315948486
+        ],
+        "weightedVertices": 50
+      },
+      {
+        "index": 1,
+        "previousHipBlender": [
+          -0.8916170597076416,
+          -0.6234032511711121,
+          -0.5974735021591187
+        ],
+        "previousKneeBlender": [
+          -1.0424736738204956,
+          -0.6234032511711121,
+          -1.0706907510757446
+        ],
+        "hipRoblox": [
+          0.8916170001029968,
+          -0.5974734425544739,
+          -0.6234032511711121
+        ],
+        "kneeRoblox": [
+          1.8043630123138428,
+          -0.20312580466270447,
+          -0.9501333236694336
+        ],
+        "footRoblox": [
+          2.666400909423828,
+          -1.543907880783081,
+          -1.4168905019760132
+        ],
+        "weightedVertices": 50
+      },
+      {
+        "index": 2,
+        "previousHipBlender": [
+          -0.8916170597076416,
+          0.17008408904075623,
+          -0.5974735021591187
+        ],
+        "previousKneeBlender": [
+          -1.0424736738204956,
+          0.17008408904075623,
+          -1.0706907510757446
+        ],
+        "hipRoblox": [
+          0.8916170001029968,
+          -0.5974734425544739,
+          0.1700841188430786
+        ],
+        "kneeRoblox": [
+          1.8043630123138428,
+          -0.20312580466270447,
+          -0.1566459983587265
+        ],
+        "footRoblox": [
+          2.666400909423828,
+          -1.543907880783081,
+          -0.6234032511711121
+        ],
+        "weightedVertices": 50
+      },
+      {
+        "index": 3,
+        "previousHipBlender": [
+          0.8831669092178345,
+          -1.4168906211853027,
+          -0.5974735021591187
+        ],
+        "previousKneeBlender": [
+          1.0340235233306885,
+          -1.4168906211853027,
+          -1.0706907510757446
+        ],
+        "hipRoblox": [
+          -0.8831669092178345,
+          -0.5974734425544739,
+          -1.4168905019760132
+        ],
+        "kneeRoblox": [
+          -1.7959128618240356,
+          -0.20312580466270447,
+          -1.7436206340789795
+        ],
+        "footRoblox": [
+          -2.6579506397247314,
+          -1.543907880783081,
+          -2.2103779315948486
+        ],
+        "weightedVertices": 50
+      },
+      {
+        "index": 4,
+        "previousHipBlender": [
+          0.8831669092178345,
+          -0.6234032511711121,
+          -0.5974735021591187
+        ],
+        "previousKneeBlender": [
+          1.0340235233306885,
+          -0.6234032511711121,
+          -1.0706907510757446
+        ],
+        "hipRoblox": [
+          -0.8831669092178345,
+          -0.5974734425544739,
+          -0.6234032511711121
+        ],
+        "kneeRoblox": [
+          -1.7959128618240356,
+          -0.20312580466270447,
+          -0.9501333236694336
+        ],
+        "footRoblox": [
+          -2.6579506397247314,
+          -1.543907880783081,
+          -1.4168905019760132
+        ],
+        "weightedVertices": 50
+      },
+      {
+        "index": 5,
+        "previousHipBlender": [
+          0.8831669092178345,
+          0.17008408904075623,
+          -0.5974735021591187
+        ],
+        "previousKneeBlender": [
+          1.0340235233306885,
+          0.17008408904075623,
+          -1.0706907510757446
+        ],
+        "hipRoblox": [
+          -0.8831669092178345,
+          -0.5974734425544739,
+          0.1700841188430786
+        ],
+        "kneeRoblox": [
+          -1.7959128618240356,
+          -0.20312580466270447,
+          -0.1566459983587265
+        ],
+        "footRoblox": [
+          -2.6579506397247314,
+          -1.543907880783081,
+          -0.6234032511711121
+        ],
+        "weightedVertices": 50
+      }
+    ],
+    "realImportRecorded": false,
+    "playReviewed": false,
+    "rigChanges": "Existing Leg#/Knee# semantic names and parents preserved. Hip/knee bind pivots follow authored physical paths; whole connected leg volumes assigned to their own path, with local upper/lower blend at the physical knee."
+  },
+  {
+    "id": "phantom_marionette",
+    "previousBlend": "assets/source/blender/curse_animation/phantom_marionette.blend",
+    "previousFBX": "assets/export/meshes/curses/animations/animation-batch-04.fbx",
+    "previousMeshId": "rbxassetid://128934187364895",
+    "blend": "assets/source/blender/animations-polished/phantom_marionette.blend",
+    "fbx": "assets/export/meshes/curses/animations-polished/phantom_marionette.fbx",
+    "blendSHA256": "04498a80bcdfa6baf2b5aec29c338bfd0f27c653f7d880a10db9d9e5303873f2",
+    "fbxSHA256": "8d11614f7c23b23f68b5bfcdefcae8032512a1b902d22150149d75fe70e588fa",
+    "geometrySHA256Before": "de8684c8596c70b50a2aa54b4a790b77a15e1e319855ad65756f52e92896fdc6",
+    "geometrySHA256After": "de8684c8596c70b50a2aa54b4a790b77a15e1e319855ad65756f52e92896fdc6",
+    "vertices": 1066,
+    "triangles": 1964,
+    "targetSize": [
+      6.135857105255127,
+      7.8000006675720215,
+      1.759178876876831
+    ],
+    "bones": [
+      "Root",
+      "Body",
+      "Head",
+      "ArmL",
+      "ArmLTip",
+      "ArmR",
+      "ArmRTip",
+      "LegL",
+      "LegLTip",
+      "LegR",
+      "LegRTip"
+    ],
+    "weightedCounts": {
+      "Root": 167,
+      "Body": 207,
+      "Head": 65,
+      "ArmL": 76,
+      "ArmLTip": 135,
+      "ArmR": 75,
+      "ArmRTip": 134,
+      "LegL": 75,
+      "LegLTip": 100,
+      "LegR": 76,
+      "LegRTip": 99
+    },
+    "realImportRecorded": false,
+    "playReviewed": false,
+    "rigChanges": "Original semantic bone names/parents retained. Actual proximal and distal puppet tubes blended around authored elbows/knees. Four lower string endpoints follow ArmLTip, Head, ArmRTip, Body; upper endpoints remain Root. Crossbars remain rigid."
+  }
+]

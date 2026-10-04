@@ -1,0 +1,1424 @@
+{
+  "SanctuaryPerformanceCaptureReady": true,
+  "SanctuaryPerformanceStatus": "PASS",
+  "SanctuaryPerformancePhase": "after-model-destroy-8-bases-retained",
+  "SanctuaryPerformanceObservedJSON": [
+    {
+      "last": {
+        "tracked": 15,
+        "posed": 0,
+        "boneWrites": 0,
+        "missingActs": 0,
+        "suspended": 15
+      },
+      "label": "baseline-8-level10-bases",
+      "loaded": 0,
+      "frames": 622,
+      "metricsScope": "Production controller totals; QA 56 plus ordinary live offers. RenderStepped frame duration includes Studio and any active native capture; not isolated CPU time or a phone benchmark.",
+      "poses": 0,
+      "activeCurseLights": 0,
+      "activeEmitters": 0,
+      "nativeCaptureActiveAtEnd": false,
+      "touchEnabled": false,
+      "p95FrameSeconds": 0.013348200358450413,
+      "folderChildren": 0,
+      "ready": 0,
+      "projectedQATiers": {
+        "low": 0,
+        "mid": 0,
+        "suspended": 0,
+        "near": 0
+      },
+      "boneWrites": 0,
+      "liveTaggedModelsAtStart": 13,
+      "waiting": [],
+      "meanFPS": 103.47463320574222,
+      "first": {
+        "tracked": 13,
+        "posed": 0,
+        "boneWrites": 0,
+        "missingActs": 0,
+        "suspended": 13
+      },
+      "invalid": [],
+      "meanFrameSeconds": 0.00966420434669882,
+      "models": 0,
+      "camera": {
+        "lookVector": [
+          0.05232153460383415,
+          0.04540766403079033,
+          0.9975974559783936
+        ],
+        "viewport": [
+          1639,
+          682
+        ],
+        "fov": 70,
+        "position": [
+          13.952488899230957,
+          27.0000057220459,
+          266.0274658203125
+        ]
+      },
+      "liveTaggedModels": 15,
+      "boneWritesPerSecond": 0,
+      "elapsedSeconds": 6.009369899999001,
+      "animatedVFXBindings": 0,
+      "bones": 0,
+      "maxFrameSeconds": 0.028684599325060844
+    },
+    {
+      "last": {
+        "tracked": 74,
+        "posed": 7303,
+        "boneWrites": 57598,
+        "missingActs": 0,
+        "suspended": 44
+      },
+      "label": "56-near",
+      "loaded": 56,
+      "frames": 687,
+      "metricsScope": "Production controller totals; QA 56 plus ordinary live offers. RenderStepped frame duration includes Studio and any active native capture; not isolated CPU time or a phone benchmark.",
+      "poses": 5955,
+      "activeCurseLights": 0,
+      "activeEmitters": 20,
+      "nativeCaptureActiveAtEnd": true,
+      "touchEnabled": false,
+      "p95FrameSeconds": 0.015027699992060661,
+      "folderChildren": 56,
+      "ready": 56,
+      "projectedQATiers": {
+        "low": 6,
+        "mid": 20,
+        "suspended": 26,
+        "near": 4
+      },
+      "boneWrites": 46859,
+      "liveTaggedModelsAtStart": 71,
+      "waiting": [],
+      "meanFPS": 85.78009715591685,
+      "first": {
+        "tracked": 71,
+        "posed": 1348,
+        "boneWrites": 10739,
+        "missingActs": 0,
+        "suspended": 41
+      },
+      "invalid": [],
+      "meanFrameSeconds": 0.011657715870644979,
+      "models": 56,
+      "camera": {
+        "lookVector": [
+          0.05232153460383415,
+          0.04540766403079033,
+          0.9975974559783936
+        ],
+        "viewport": [
+          1639,
+          682
+        ],
+        "fov": 70,
+        "position": [
+          13.952488899230957,
+          27.0000057220459,
+          266.0274658203125
+        ]
+      },
+      "liveTaggedModels": 74,
+      "boneWritesPerSecond": 5852.9052094541175,
+      "elapsedSeconds": 8.006109499998274,
+      "animatedVFXBindings": 20,
+      "bones": 524,
+      "maxFrameSeconds": 0.02822599932551384
+    },
+    {
+      "last": {
+        "tracked": 76,
+        "posed": 9295,
+        "boneWrites": 73120,
+        "missingActs": 0,
+        "suspended": 52
+      },
+      "label": "56-mid",
+      "loaded": 56,
+      "frames": 546,
+      "metricsScope": "Production controller totals; QA 56 plus ordinary live offers. RenderStepped frame duration includes Studio and any active native capture; not isolated CPU time or a phone benchmark.",
+      "poses": 1714,
+      "activeCurseLights": 0,
+      "activeEmitters": 12,
+      "nativeCaptureActiveAtEnd": true,
+      "touchEnabled": false,
+      "p95FrameSeconds": 0.014503399841487408,
+      "folderChildren": 56,
+      "ready": 56,
+      "projectedQATiers": {
+        "low": 14,
+        "mid": 10,
+        "suspended": 32,
+        "near": 0
+      },
+      "boneWrites": 13381,
+      "liveTaggedModelsAtStart": 74,
+      "waiting": [],
+      "meanFPS": 90.87841675839476,
+      "first": {
+        "tracked": 74,
+        "posed": 7581,
+        "boneWrites": 59739,
+        "missingActs": 0,
+        "suspended": 50
+      },
+      "invalid": [],
+      "meanFrameSeconds": 0.011003712824999522,
+      "models": 56,
+      "camera": {
+        "lookVector": [
+          0.052293092012405396,
+          -0.056091297417879105,
+          0.997055172920227
+        ],
+        "viewport": [
+          1639,
+          682
+        ],
+        "fov": 70,
+        "position": [
+          11.595588684082031,
+          35.000003814697266,
+          221.08921813964844
+        ]
+      },
+      "liveTaggedModels": 76,
+      "boneWritesPerSecond": 2228.2969398461146,
+      "elapsedSeconds": 6.00503449999087,
+      "animatedVFXBindings": 20,
+      "bones": 524,
+      "maxFrameSeconds": 0.02578349970281124
+    },
+    {
+      "last": {
+        "tracked": 76,
+        "posed": 9295,
+        "boneWrites": 73120,
+        "missingActs": 0,
+        "suspended": 76
+      },
+      "label": "56-far",
+      "loaded": 56,
+      "frames": 580,
+      "metricsScope": "Production controller totals; QA 56 plus ordinary live offers. RenderStepped frame duration includes Studio and any active native capture; not isolated CPU time or a phone benchmark.",
+      "poses": 0,
+      "activeCurseLights": 0,
+      "activeEmitters": 0,
+      "nativeCaptureActiveAtEnd": true,
+      "touchEnabled": false,
+      "p95FrameSeconds": 0.013756800442934036,
+      "folderChildren": 56,
+      "ready": 56,
+      "projectedQATiers": {
+        "low": 0,
+        "mid": 0,
+        "suspended": 56,
+        "near": 0
+      },
+      "boneWrites": 0,
+      "liveTaggedModelsAtStart": 76,
+      "waiting": [],
+      "meanFPS": 96.53331877266073,
+      "first": {
+        "tracked": 76,
+        "posed": 9295,
+        "boneWrites": 73120,
+        "missingActs": 0,
+        "suspended": 76
+      },
+      "invalid": [],
+      "meanFrameSeconds": 0.010359117584624168,
+      "models": 56,
+      "camera": {
+        "lookVector": [
+          0,
+          -0.2664739787578583,
+          -0.9638420343399048
+        ],
+        "viewport": [
+          1639,
+          682
+        ],
+        "fov": 70,
+        "position": [
+          0,
+          260,
+          850
+        ]
+      },
+      "liveTaggedModels": 76,
+      "boneWritesPerSecond": 0,
+      "elapsedSeconds": 6.006148200001917,
+      "animatedVFXBindings": 20,
+      "bones": 524,
+      "maxFrameSeconds": 0.021674299612641335
+    },
+    {
+      "last": {
+        "tracked": 76,
+        "posed": 14539,
+        "boneWrites": 114439,
+        "missingActs": 0,
+        "suspended": 46
+      },
+      "label": "56-revisit-near",
+      "loaded": 56,
+      "frames": 512,
+      "metricsScope": "Production controller totals; QA 56 plus ordinary live offers. RenderStepped frame duration includes Studio and any active native capture; not isolated CPU time or a phone benchmark.",
+      "poses": 4459,
+      "activeCurseLights": 0,
+      "activeEmitters": 20,
+      "nativeCaptureActiveAtEnd": true,
+      "touchEnabled": false,
+      "p95FrameSeconds": 0.01575610041618347,
+      "folderChildren": 56,
+      "ready": 56,
+      "projectedQATiers": {
+        "low": 6,
+        "mid": 20,
+        "suspended": 26,
+        "near": 4
+      },
+      "boneWrites": 35121,
+      "liveTaggedModelsAtStart": 76,
+      "waiting": [],
+      "meanFPS": 85.28713748321732,
+      "first": {
+        "tracked": 76,
+        "posed": 10080,
+        "boneWrites": 79318,
+        "missingActs": 0,
+        "suspended": 46
+      },
+      "invalid": [],
+      "meanFrameSeconds": 0.011725097470844048,
+      "models": 56,
+      "camera": {
+        "lookVector": [
+          0.05232153460383415,
+          0.04540766403079033,
+          0.9975974559783936
+        ],
+        "viewport": [
+          1639,
+          682
+        ],
+        "fov": 70,
+        "position": [
+          13.952488899230957,
+          27.0000057220459,
+          266.0274658203125
+        ]
+      },
+      "liveTaggedModels": 76,
+      "boneWritesPerSecond": 5853.261479595586,
+      "elapsedSeconds": 6.0002444999990985,
+      "animatedVFXBindings": 20,
+      "bones": 524,
+      "maxFrameSeconds": 0.0240641999989748
+    },
+    {
+      "last": {
+        "tracked": 20,
+        "posed": 14641,
+        "boneWrites": 115269,
+        "missingActs": 0,
+        "suspended": 20
+      },
+      "label": "after-model-destroy-8-bases-retained",
+      "loaded": 0,
+      "frames": 635,
+      "metricsScope": "Production controller totals; QA 56 plus ordinary live offers. RenderStepped frame duration includes Studio and any active native capture; not isolated CPU time or a phone benchmark.",
+      "poses": 0,
+      "activeCurseLights": 0,
+      "activeEmitters": 0,
+      "nativeCaptureActiveAtEnd": false,
+      "touchEnabled": false,
+      "p95FrameSeconds": 0.01303189992904663,
+      "folderChildren": 0,
+      "ready": 0,
+      "projectedQATiers": {
+        "low": 0,
+        "mid": 0,
+        "suspended": 0,
+        "near": 0
+      },
+      "boneWrites": 0,
+      "liveTaggedModelsAtStart": 20,
+      "waiting": [],
+      "meanFPS": 105.73972898947895,
+      "first": {
+        "tracked": 20,
+        "posed": 14641,
+        "boneWrites": 115269,
+        "missingActs": 0,
+        "suspended": 20
+      },
+      "invalid": [],
+      "meanFrameSeconds": 0.00945718330807808,
+      "models": 0,
+      "camera": {
+        "lookVector": [
+          0.05232153460383415,
+          0.04540766403079033,
+          0.9975974559783936
+        ],
+        "viewport": [
+          1639,
+          682
+        ],
+        "fov": 70,
+        "position": [
+          13.952488899230957,
+          27.0000057220459,
+          266.0274658203125
+        ]
+      },
+      "liveTaggedModels": 20,
+      "boneWritesPerSecond": 0,
+      "elapsedSeconds": 6.003406400006497,
+      "animatedVFXBindings": 0,
+      "bones": 0,
+      "maxFrameSeconds": 0.019133200868964195
+    }
+  ],
+  "SanctuaryPerformanceCaptureSeconds": 30.033,
+  "SanctuaryPerformanceCaptureStartedUnixMillis": 1791032273491,
+  "SanctuaryPerformanceChecksJSON": [
+    {
+      "observed": "56 production native meshes, 45-second maximum; observed 1.024 s",
+      "name": "bounded asset loading",
+      "passed": true
+    },
+    {
+      "observed": "{\"models\":56,\"invalid\":[],\"loaded\":56,\"waiting\":[],\"ready\":56}",
+      "name": "56-near / 56 real meshes loaded",
+      "passed": true
+    },
+    {
+      "observed": "{\"models\":56,\"invalid\":[],\"loaded\":56,\"waiting\":[],\"ready\":56}",
+      "name": "56-mid / 56 real meshes loaded",
+      "passed": true
+    },
+    {
+      "observed": "{\"models\":56,\"invalid\":[],\"loaded\":56,\"waiting\":[],\"ready\":56}",
+      "name": "56-far / 56 real meshes loaded",
+      "passed": true
+    },
+    {
+      "observed": "{\"models\":56,\"invalid\":[],\"loaded\":56,\"waiting\":[],\"ready\":56}",
+      "name": "56-revisit-near / 56 real meshes loaded",
+      "passed": true
+    },
+    {
+      "observed": "first=0, last=0",
+      "name": "baseline-8-level10-bases / no missing acts",
+      "passed": true
+    },
+    {
+      "observed": "first=0, last=0",
+      "name": "56-near / no missing acts",
+      "passed": true
+    },
+    {
+      "observed": "first=0, last=0",
+      "name": "56-mid / no missing acts",
+      "passed": true
+    },
+    {
+      "observed": "first=0, last=0",
+      "name": "56-far / no missing acts",
+      "passed": true
+    },
+    {
+      "observed": "first=0, last=0",
+      "name": "56-revisit-near / no missing acts",
+      "passed": true
+    },
+    {
+      "observed": "first=0, last=0",
+      "name": "after-model-destroy-8-bases-retained / no missing acts",
+      "passed": true
+    },
+    {
+      "observed": "boneWrites=46859, poses=5955",
+      "name": "56-near / active bone writes",
+      "passed": true
+    },
+    {
+      "observed": "boneWrites=35121, poses=4459",
+      "name": "56-revisit-near / active bone writes",
+      "passed": true
+    },
+    {
+      "observed": "{\"low\":0,\"mid\":0,\"suspended\":56,\"near\":0}",
+      "name": "far / all QA meshes beyond suspension threshold",
+      "passed": true
+    },
+    {
+      "observed": "global suspended=76",
+      "name": "far / production rigs suspended",
+      "passed": true
+    },
+    {
+      "observed": "near=5852.91/s, far=0.00/s",
+      "name": "far / reduced controller bone work",
+      "passed": true
+    },
+    {
+      "observed": "far=76, revisit=46",
+      "name": "revisit / suspension released",
+      "passed": true
+    },
+    {
+      "observed": "{\"remaining\":0,\"destroyed\":56}",
+      "name": "cleanup / destroyed exactly 56 QA models",
+      "passed": true
+    },
+    {
+      "observed": "tracked=20, live=20",
+      "name": "cleanup / tracked matches current live meshes",
+      "passed": true
+    },
+    {
+      "observed": "Advanced architectures retained=8",
+      "name": "cleanup / retained 8 advanced bases",
+      "passed": true
+    }
+  ],
+  "SanctuaryPerformanceCapturesJSON": [
+    {
+      "status": "Enum.VideoCaptureResult.TimeLimitReached",
+      "seconds": 30.033,
+      "scope": "Native QA draw load; no ownership or pixel approval implied",
+      "startedUnixMillis": 1791032273491
+    }
+  ],
+  "SanctuaryPerformanceFailuresJSON": [],
+  "SanctuaryPerformanceLoadSeconds": 1.0236489000089932,
+  "SanctuaryPerformanceCaptureCount": 1,
+  "server": {
+    "PopulationJSON": [
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "cursed_doll",
+        "meshId": "rbxassetid://78524965466136",
+        "base": "Base01",
+        "pedestal": "floor1-slot1"
+      },
+      {
+        "counts": {
+          "bones": 7,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "haunted_mirror",
+        "meshId": "rbxassetid://103880133201902",
+        "base": "Base01",
+        "pedestal": "floor1-slot2"
+      },
+      {
+        "counts": {
+          "bones": 4,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "crying_mask",
+        "meshId": "rbxassetid://91122947095681",
+        "base": "Base01",
+        "pedestal": "floor1-slot3"
+      },
+      {
+        "counts": {
+          "bones": 21,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "watching_eye",
+        "meshId": "rbxassetid://81484326253720",
+        "base": "Base01",
+        "pedestal": "floor1-slot4"
+      },
+      {
+        "counts": {
+          "bones": 24,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "soul_chains",
+        "meshId": "rbxassetid://111986162294773",
+        "base": "Base01",
+        "pedestal": "floor1-slot5"
+      },
+      {
+        "counts": {
+          "bones": 9,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "the_void",
+        "meshId": "rbxassetid://72905956993942",
+        "base": "Base01",
+        "pedestal": "floor1-slot6"
+      },
+      {
+        "counts": {
+          "bones": 4,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "candle_wisp",
+        "meshId": "rbxassetid://107705851408772",
+        "base": "Base01",
+        "pedestal": "floor1-slot7"
+      },
+      {
+        "counts": {
+          "bones": 10,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "grave_hopper",
+        "meshId": "rbxassetid://130614622379245",
+        "base": "Base01",
+        "pedestal": "floor1-slot8"
+      },
+      {
+        "counts": {
+          "bones": 6,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "grave_key",
+        "meshId": "rbxassetid://113999996204033",
+        "base": "Base01",
+        "pedestal": "floor1-slot9"
+      },
+      {
+        "counts": {
+          "bones": 5,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "mourning_ribbon",
+        "meshId": "rbxassetid://129627287179722",
+        "base": "Base01",
+        "pedestal": "floor1-slot10"
+      },
+      {
+        "counts": {
+          "bones": 4,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "wilted_sprout",
+        "meshId": "rbxassetid://88036556724682",
+        "base": "Base01",
+        "pedestal": "floor2-slot1"
+      },
+      {
+        "counts": {
+          "bones": 5,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "ink_imp",
+        "meshId": "rbxassetid://78033505174804",
+        "base": "Base01",
+        "pedestal": "floor2-slot2"
+      },
+      {
+        "counts": {
+          "bones": 6,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "lost_locket",
+        "meshId": "rbxassetid://121053869610883",
+        "base": "Base01",
+        "pedestal": "floor2-slot3"
+      },
+      {
+        "counts": {
+          "bones": 7,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "ashen_book",
+        "meshId": "rbxassetid://99694655865736",
+        "base": "Base01",
+        "pedestal": "floor2-slot4"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "lantern_lurker",
+        "meshId": "rbxassetid://123417911546532",
+        "base": "Base01",
+        "pedestal": "floor2-slot5"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "hourglass_hound",
+        "meshId": "rbxassetid://101906790725480",
+        "base": "Base01",
+        "pedestal": "floor2-slot6"
+      },
+      {
+        "counts": {
+          "bones": 14,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "nail_beetle",
+        "meshId": "rbxassetid://73295688458517",
+        "base": "Base01",
+        "pedestal": "floor2-slot7"
+      },
+      {
+        "counts": {
+          "bones": 5,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "pale_guest",
+        "meshId": "rbxassetid://72620754242624",
+        "base": "Base01",
+        "pedestal": "floor2-slot8"
+      },
+      {
+        "counts": {
+          "bones": 3,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "cold_teacup",
+        "meshId": "rbxassetid://134975446540424",
+        "base": "Base01",
+        "pedestal": "floor2-slot9"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "coin_crawler",
+        "meshId": "rbxassetid://74159266876686",
+        "base": "Base01",
+        "pedestal": "floor2-slot10"
+      },
+      {
+        "counts": {
+          "bones": 5,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "umbrella_wraith",
+        "meshId": "rbxassetid://128916833526652",
+        "base": "Base01",
+        "pedestal": "floor3-slot1"
+      },
+      {
+        "counts": {
+          "bones": 6,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "marrow_dice",
+        "meshId": "rbxassetid://93842267716498",
+        "base": "Base01",
+        "pedestal": "floor3-slot2"
+      },
+      {
+        "counts": {
+          "bones": 6,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "veil_mourner",
+        "meshId": "rbxassetid://137006334533562",
+        "base": "Base01",
+        "pedestal": "floor3-slot3"
+      },
+      {
+        "counts": {
+          "bones": 4,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "grave_compass",
+        "meshId": "rbxassetid://121930534862207",
+        "base": "Base01",
+        "pedestal": "floor3-slot4"
+      },
+      {
+        "counts": {
+          "bones": 9,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "hollow_violin",
+        "meshId": "rbxassetid://74267295029639",
+        "base": "Base01",
+        "pedestal": "floor3-slot5"
+      },
+      {
+        "counts": {
+          "bones": 4,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "chime_triplets",
+        "meshId": "rbxassetid://82307616424520",
+        "base": "Base01",
+        "pedestal": "floor3-slot6"
+      },
+      {
+        "counts": {
+          "bones": 18,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "thimble_spider",
+        "meshId": "rbxassetid://119696227522152",
+        "base": "Base01",
+        "pedestal": "floor3-slot7"
+      },
+      {
+        "counts": {
+          "bones": 5,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "music_box_dancer",
+        "meshId": "rbxassetid://79953489577090",
+        "base": "Base01",
+        "pedestal": "floor3-slot8"
+      },
+      {
+        "counts": {
+          "bones": 8,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "raven_quill",
+        "meshId": "rbxassetid://90916932998054",
+        "base": "Base01",
+        "pedestal": "floor3-slot9"
+      },
+      {
+        "counts": {
+          "bones": 5,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "sorrow_chalice",
+        "meshId": "rbxassetid://101252314858213",
+        "base": "Base01",
+        "pedestal": "floor3-slot10"
+      },
+      {
+        "counts": {
+          "bones": 12,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "pale_gramophone",
+        "meshId": "rbxassetid://104753530967365",
+        "base": "Base02",
+        "pedestal": "floor1-slot1"
+      },
+      {
+        "counts": {
+          "bones": 3,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "thorn_reliquary",
+        "meshId": "rbxassetid://88712433437774",
+        "base": "Base02",
+        "pedestal": "floor1-slot2"
+      },
+      {
+        "counts": {
+          "bones": 17,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "anchor_crab",
+        "meshId": "rbxassetid://72923579345186",
+        "base": "Base02",
+        "pedestal": "floor1-slot3"
+      },
+      {
+        "counts": {
+          "bones": 6,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "sundial_sentinel",
+        "meshId": "rbxassetid://79426701982201",
+        "base": "Base02",
+        "pedestal": "floor1-slot4"
+      },
+      {
+        "counts": {
+          "bones": 3,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "sleepwalker_shoes",
+        "meshId": "rbxassetid://119875011262633",
+        "base": "Base02",
+        "pedestal": "floor1-slot5"
+      },
+      {
+        "counts": {
+          "bones": 14,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "night_harp",
+        "meshId": "rbxassetid://113686383003044",
+        "base": "Base02",
+        "pedestal": "floor1-slot6"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "thorn_cathedral",
+        "meshId": "rbxassetid://73995878925062",
+        "base": "Base02",
+        "pedestal": "floor1-slot7"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "phantom_marionette",
+        "meshId": "rbxassetid://137095600537526",
+        "base": "Base02",
+        "pedestal": "floor1-slot8"
+      },
+      {
+        "counts": {
+          "bones": 16,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "blood_moon_rose",
+        "meshId": "rbxassetid://124316421747681",
+        "base": "Base02",
+        "pedestal": "floor1-slot9"
+      },
+      {
+        "counts": {
+          "bones": 9,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "judgement_scales",
+        "meshId": "rbxassetid://114197388640805",
+        "base": "Base02",
+        "pedestal": "floor1-slot10"
+      },
+      {
+        "counts": {
+          "bones": 10,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "clockwork_raven",
+        "meshId": "rbxassetid://130961132710238",
+        "base": "Base02",
+        "pedestal": "floor2-slot1"
+      },
+      {
+        "counts": {
+          "bones": 12,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "eclipse_stag",
+        "meshId": "rbxassetid://93097877530969",
+        "base": "Base02",
+        "pedestal": "floor2-slot2"
+      },
+      {
+        "counts": {
+          "bones": 15,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "endless_library",
+        "meshId": "rbxassetid://108899671617263",
+        "base": "Base02",
+        "pedestal": "floor2-slot3"
+      },
+      {
+        "counts": {
+          "bones": 13,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "sunken_crown",
+        "meshId": "rbxassetid://91121993644042",
+        "base": "Base02",
+        "pedestal": "floor2-slot4"
+      },
+      {
+        "counts": {
+          "bones": 7,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "silent_choir",
+        "meshId": "rbxassetid://87571819872933",
+        "base": "Base02",
+        "pedestal": "floor2-slot5"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "cathedral_heart",
+        "meshId": "rbxassetid://101357601099401",
+        "base": "Base02",
+        "pedestal": "floor2-slot6"
+      },
+      {
+        "counts": {
+          "bones": 12,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "plague_monarch",
+        "meshId": "rbxassetid://104120516517868",
+        "base": "Base02",
+        "pedestal": "floor2-slot7"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "hollow_throne",
+        "meshId": "rbxassetid://124107645513629",
+        "base": "Base02",
+        "pedestal": "floor2-slot8"
+      },
+      {
+        "counts": {
+          "bones": 14,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "worldroot",
+        "meshId": "rbxassetid://83034008360017",
+        "base": "Base02",
+        "pedestal": "floor2-slot9"
+      },
+      {
+        "counts": {
+          "bones": 6,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "the_undertow",
+        "meshId": "rbxassetid://138985494357393",
+        "base": "Base02",
+        "pedestal": "floor2-slot10"
+      },
+      {
+        "counts": {
+          "bones": 9,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "the_last_funeral",
+        "meshId": "rbxassetid://80720698097324",
+        "base": "Base02",
+        "pedestal": "floor3-slot1"
+      },
+      {
+        "counts": {
+          "bones": 7,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "nameless_door",
+        "meshId": "rbxassetid://86390949175351",
+        "base": "Base02",
+        "pedestal": "floor3-slot2"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "crown_of_silence",
+        "meshId": "rbxassetid://90205601263704",
+        "base": "Base02",
+        "pedestal": "floor3-slot3"
+      },
+      {
+        "counts": {
+          "bones": 11,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "the_first_grave",
+        "meshId": "rbxassetid://77848586399024",
+        "base": "Base02",
+        "pedestal": "floor3-slot4"
+      },
+      {
+        "counts": {
+          "bones": 10,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "the_unwritten",
+        "meshId": "rbxassetid://83389959423516",
+        "base": "Base02",
+        "pedestal": "floor3-slot5"
+      },
+      {
+        "counts": {
+          "bones": 15,
+          "meshes": 1,
+          "pointLights": 0,
+          "parts": 2
+        },
+        "income": 0,
+        "qaOwnership": "QA_NON_OWNED",
+        "id": "the_last_star",
+        "meshId": "rbxassetid://120800608135396",
+        "base": "Base02",
+        "pedestal": "floor3-slot6"
+      }
+    ],
+    "Scope": "QA draw load: 8 level-10 bases, 56 non-owned native representations on 2 bases; no income, account seeding or mobile score",
+    "ArchitectureJSON": {
+      "mapCounts": {
+        "bones": 105,
+        "meshes": 1174,
+        "pointLights": 23,
+        "parts": 5916
+      },
+      "population": {
+        "Base01": 30,
+        "Base02": 26
+      },
+      "productionEntrypoint": "src/server/init.server.luau",
+      "scope": "QA draw load: 8 level-10 bases, 56 non-owned native representations on 2 bases; no income, account seeding or mobile score",
+      "bases": [
+        {
+          "style": "CRYPT",
+          "id": "Base01",
+          "level": 10,
+          "counts": {
+            "bones": 0,
+            "meshes": 51,
+            "pointLights": 2,
+            "parts": 268
+          },
+          "capacity": 30
+        },
+        {
+          "style": "FOREST",
+          "id": "Base02",
+          "level": 10,
+          "counts": {
+            "bones": 0,
+            "meshes": 53,
+            "pointLights": 2,
+            "parts": 281
+          },
+          "capacity": 30
+        },
+        {
+          "style": "OBSERVATORY",
+          "id": "Base03",
+          "level": 10,
+          "counts": {
+            "bones": 0,
+            "meshes": 51,
+            "pointLights": 2,
+            "parts": 276
+          },
+          "capacity": 30
+        },
+        {
+          "style": "CRYPT",
+          "id": "Base04",
+          "level": 10,
+          "counts": {
+            "bones": 0,
+            "meshes": 51,
+            "pointLights": 2,
+            "parts": 268
+          },
+          "capacity": 30
+        },
+        {
+          "style": "FOREST",
+          "id": "Base05",
+          "level": 10,
+          "counts": {
+            "bones": 0,
+            "meshes": 53,
+            "pointLights": 2,
+            "parts": 281
+          },
+          "capacity": 30
+        },
+        {
+          "style": "OBSERVATORY",
+          "id": "Base06",
+          "level": 10,
+          "counts": {
+            "bones": 0,
+            "meshes": 51,
+            "pointLights": 2,
+            "parts": 276
+          },
+          "capacity": 30
+        },
+        {
+          "style": "CRYPT",
+          "id": "Base07",
+          "level": 10,
+          "counts": {
+            "bones": 0,
+            "meshes": 51,
+            "pointLights": 2,
+            "parts": 268
+          },
+          "capacity": 30
+        },
+        {
+          "style": "FOREST",
+          "id": "Base08",
+          "level": 10,
+          "counts": {
+            "bones": 0,
+            "meshes": 53,
+            "pointLights": 2,
+            "parts": 281
+          },
+          "capacity": 30
+        }
+      ],
+      "presentation": "Production CursePresentation, CurseAnimation and CurseVFX; no QA bone or mesh transform writer",
+      "architectureBuildSeconds": 0.06449930000235327
+    },
+    "Stage": "CLEANED",
+    "ArchitectureChecksJSON": {
+      "failed": 0,
+      "run": 13,
+      "passed": 13
+    }
+  },
+  "nativeVideo": {
+    "path": "assets/review/sanctuary-restoration/videos/performance-8-bases-56-models-native.mp4",
+    "source": "C:/Users/vbran/AppData/Local/Roblox/tmp-capture-storage/wob-20268000002",
+    "seconds": 30.033,
+    "scope": "Actual native capture; eight final facades and 56 non-owned representations with production controllers. Not 56 visual approvals or a physical mobile benchmark."
+  },
+  "verifiedAtUTC": "2026-10-03T13:00:55.427Z",
+  "reviewBuild": "build-sanctuary-performance-final.rbxlx",
+  "namespace": "qa-sanctuary-performance-20261003-074200"
+}

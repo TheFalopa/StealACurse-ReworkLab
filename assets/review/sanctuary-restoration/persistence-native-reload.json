@@ -1,0 +1,370 @@
+{
+  "SummaryJSON": {
+    "fragments": 4,
+    "newBase": "Base04",
+    "sourceStoredSouls": 1445.8732278249736,
+    "scope": "First-run legacy migration, real carried-Curse death, exact pending journal, new runtime reload, different native claim, manual physical relic and Curse recovery. Setup positions teleported; no walking/online claims.",
+    "sameTokenRecovered": "21c74173-845b-48b6-9341-deb7053864e2",
+    "finalJournalSouls": 1518.191235624945,
+    "contractsCompleted": 1,
+    "stableUids": [
+      "qa-legacy-sanctuary-doll",
+      "qa-legacy-sanctuary-grave"
+    ],
+    "status": "RELOAD_PASS",
+    "oldBase": "Base03",
+    "persistence": "INSTALLED_LOCAL_PLUGIN_READBACK_ONLY_NOT_ONLINE_DATASTORE",
+    "discoveries": 2
+  },
+  "FinalJournalJSONRevision": 26,
+  "ExistingSeedJSON": {
+    "souls": 1445.8732278249736,
+    "revision": 17,
+    "sanctuary": {
+      "contract": {
+        "token": "21c74173-845b-48b6-9341-deb7053864e2",
+        "phase": "RECOVERABLE",
+        "startedAt": 1791026941,
+        "step": 0,
+        "id": "lost_seal"
+      },
+      "fragments": 0,
+      "style": "CRYPT",
+      "milestones": {
+        "sealing": 0,
+        "contracts": 0,
+        "recovery": 0,
+        "sealActivations": 0,
+        "transport": 0,
+        "majorRelics": 0
+      },
+      "level": 0,
+      "rituals": [],
+      "schema": 1,
+      "discoveries": {
+        "cursed_doll": true,
+        "grave_hopper": true
+      }
+    },
+    "curses": [
+      {
+        "state": "PLACED",
+        "uid": "qa-legacy-sanctuary-doll",
+        "definitionId": "cursed_doll",
+        "pedestalId": "floor1-slot1",
+        "revision": 0
+      },
+      {
+        "state": "UNPLACED",
+        "uid": "qa-legacy-sanctuary-grave",
+        "revision": 4,
+        "definitionId": "grave_hopper"
+      }
+    ],
+    "schema": 1,
+    "session": "141a6cc3-253b-4d5a-ba86-ec216ad2d05c",
+    "savedAt": 1791026978.189289
+  },
+  "LoadedJSON": {
+    "souls": 1445.8732278249736,
+    "revision": 18,
+    "sanctuary": {
+      "contract": {
+        "carryState": {
+          "nodeId": "cemetery_gate"
+        },
+        "token": "21c74173-845b-48b6-9341-deb7053864e2",
+        "id": "lost_seal",
+        "phase": "RECOVERABLE",
+        "step": 0,
+        "startedAt": 1791026941
+      },
+      "fragments": 0,
+      "style": "CRYPT",
+      "milestones": {
+        "sealing": 0,
+        "contracts": 0,
+        "recovery": 0,
+        "sealActivations": 0,
+        "transport": 0,
+        "majorRelics": 0
+      },
+      "level": 0,
+      "rituals": [],
+      "schema": 1,
+      "discoveries": {
+        "cursed_doll": true,
+        "grave_hopper": true
+      }
+    },
+    "curses": [
+      {
+        "state": "PLACED",
+        "uid": "qa-legacy-sanctuary-doll",
+        "definitionId": "cursed_doll",
+        "pedestalId": "floor1-slot1",
+        "revision": 0
+      },
+      {
+        "state": "UNPLACED",
+        "uid": "qa-legacy-sanctuary-grave",
+        "revision": 4,
+        "definitionId": "grave_hopper"
+      }
+    ],
+    "schema": 1,
+    "session": "49bb30d3-bac5-48b0-9b8f-998cfaa447eb",
+    "savedAt": 1791027099.132309
+  },
+  "FinalJournalJSON": {
+    "souls": 1518.191235624945,
+    "revision": 26,
+    "sanctuary": {
+      "fragments": 4,
+      "style": "CRYPT",
+      "milestones": {
+        "sealing": 0,
+        "contracts": 1,
+        "recovery": 1,
+        "sealActivations": 0,
+        "transport": 0,
+        "majorRelics": 0
+      },
+      "level": 0,
+      "rituals": [],
+      "schema": 1,
+      "discoveries": {
+        "cursed_doll": true,
+        "grave_hopper": true
+      }
+    },
+    "curses": [
+      {
+        "state": "PLACED",
+        "uid": "qa-legacy-sanctuary-doll",
+        "definitionId": "cursed_doll",
+        "pedestalId": "floor1-slot1",
+        "revision": 0
+      },
+      {
+        "state": "PLACED",
+        "uid": "qa-legacy-sanctuary-grave",
+        "definitionId": "grave_hopper",
+        "pedestalId": "floor1-slot3",
+        "revision": 6
+      }
+    ],
+    "schema": 1,
+    "session": "49bb30d3-bac5-48b0-9b8f-998cfaa447eb",
+    "savedAt": 1791027141.291324
+  },
+  "Namespace": "qa-sanctuary-persistence-20261003-054645-945499",
+  "Message": "Migración, recarga en Base04 y recuperación manual comprobadas. Dos Curses originales conservadas; una sola recompensa de 4 fragmentos.",
+  "Stage": "RELOAD_PASS",
+  "ResultsJSON": [
+    {
+      "ok": true,
+      "serverTime": 1791027099.125093,
+      "label": "exactly one actual native Studio player"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027099.125682,
+      "label": "explicit isolated QA namespace; normal playable accounts cannot be seeded"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027099.125881,
+      "label": "installed local plugin bridge ready before ProfileStore starts"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027099.125967,
+      "label": "actual installed plugin persistence provider"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027099.126097,
+      "label": "readable local seed; malformed data is preserved on failure"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027099.126248,
+      "label": "existing isolated profile recognized and retained without replacement"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027099.126344,
+      "label": "known fixture checkpoint; unknown valid data is not reset"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027100.082926,
+      "label": "actual old/checkpoint profile loaded by production ProfileStore"
+    },
+    {
+      "ok": true,
+      "label": "loader preserves exact stored Souls and owned count before claim",
+      "serverTime": 1791027100.083141,
+      "detail": 1445.8732278249736
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027100.083299,
+      "label": "legacy placed and recoverable owned species grandfathered once"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027100.083559,
+      "label": "stable owned UIDs and species retained through migration"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027100.083765,
+      "label": "pending contract reload becomes physically recoverable with same token and reset target"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027100.084032,
+      "label": "reload grants no reward or invisible carried relic"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027100.084163,
+      "label": "saved unplaced Curse remains unplaced; no production before native claim"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027100.084281,
+      "label": "real reachable QA target exists"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027117.214666,
+      "label": "native E claim: Base04"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027117.215027,
+      "label": "legacy default restoration retains five actual pedestals"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027117.215171,
+      "label": "legacy logical slot restores same real Doll UID on current assigned base"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027117.21534,
+      "label": "real current native assets used for both restored species"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027117.215605,
+      "label": "different base assignment retains logical placement; old location is not occupied"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027117.215715,
+      "label": "after claim, recoverable Grave stays unplaced and earns nothing; only placed Doll produces"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027117.215869,
+      "label": "real reachable QA target exists"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027139.742107,
+      "label": "native F checkpoint advance"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027139.742507,
+      "label": "real reachable QA target exists"
+    },
+    {
+      "ok": true,
+      "label": "manual relic recovery after reload preserves pending token",
+      "serverTime": 1791027140.005305,
+      "detail": "Lleva la reliquia a Tu altar."
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027140.005589,
+      "label": "real reachable QA target exists"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027140.257002,
+      "label": "reloaded relic excludes simultaneous own Curse carry without placing it automatically"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027140.257313,
+      "label": "real reachable QA target exists"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027140.510012,
+      "label": "old base altar cannot remotely complete new base delivery"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027140.510245,
+      "label": "real reachable QA target exists"
+    },
+    {
+      "ok": true,
+      "label": "new assigned base receives one ordinary physical delivery reward",
+      "serverTime": 1791027140.768791,
+      "detail": "Contrato completado: +4 Fragmentos de sello."
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027140.769083,
+      "label": "duplicate delivery after reload cannot pay again"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027140.769227,
+      "label": "completed pending contract clears actual relic and carry state"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027140.769343,
+      "label": "real reachable QA target exists"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027141.030312,
+      "label": "unplaced Grave manually recovered after relic delivery"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027141.030561,
+      "label": "real reachable QA target exists"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027141.290863,
+      "label": "manual new destination resumes Grave ordinary production"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027141.291174,
+      "label": "UID count, logical Doll position and unique discoveries remain unchanged"
+    },
+    {
+      "ok": true,
+      "serverTime": 1791027141.298301,
+      "label": "actual local journal flush acknowledged: FinalJournalJSON"
+    },
+    {
+      "ok": true,
+      "label": "plugin acknowledges exact requested revision: FinalJournalJSON",
+      "serverTime": 1791027141.298563,
+      "detail": 26
+    }
+  ]
+}

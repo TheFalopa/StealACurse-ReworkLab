@@ -1,0 +1,45 @@
+SLICE_PASS player joined
+SLICE_PASS client ready
+SLICE_PASS no-base purchase rejected
+SLICE_PASS claim and respawn target
+SLICE_PASS insufficient Souls rejected
+SLICE_PASS purchase authoritative 500 to 400
+SLICE_PASS no income before placement
+SLICE_PASS one delivery at a time
+SLICE_PASS physical return walk delivers
+SLICE_PASS physical first pedestal
+SLICE_PASS first rate 3
+SLICE_PASS elapsed-time income accumulates
+SLICE_PASS placed 188c7eee-02fd-423a-9891-cc8ab85828e4
+SLICE_PASS placed 682c35fd-246d-4d43-b37a-799f4d41149a
+SLICE_PASS placed 7ea0abc4-fbfb-44bc-b0e1-80b85515389a
+SLICE_PASS placed db90b176-49da-496d-a411-f981fda3a55a
+SLICE_PASS five rates sum to 222
+SLICE_PASS client HUD 222 and only nearest pedestal label visible
+SLICE_PASS unique pedestal 1
+SLICE_PASS unique pedestal 2
+SLICE_PASS unique pedestal 3
+SLICE_PASS unique pedestal 4
+SLICE_PASS unique pedestal 5
+SLICE_PASS full base rejected
+SLICE_PASS lost placed pedestal removes its production
+SLICE_PASS missing delivery pedestal refunds safely
+SLICE_PASS missing display area cancels safely
+SLICE_PASS missing area price refunded
+SLICE_PASS death cancels delivery after geometry tests
+SLICE_PASS death refund
+SLICE_PASS respawn alive
+SLICE_PASS claim and placed income survive respawn
+SLICE_PASS destroyed placed model restored
+SLICE_PASS restoration does not duplicate income
+SLICE_PASS placed 6e6b4e88-7e60-4f8a-bd14-970a5f5d0db1
+SLICE_PASS Void placed and rate summed to 822
+SLICE_PASS scale and noncollision cursed_doll
+SLICE_PASS scale and noncollision haunted_mirror
+SLICE_PASS scale and noncollision crying_mask
+SLICE_PASS scale and noncollision watching_eye
+SLICE_PASS scale and noncollision soul_chains
+SLICE_PASS front glow not buried soul_chains
+SLICE_PASS scale and noncollision the_void
+SLICE_PASS front glow not buried the_void
+SLICE_DONE single-client suite passed; multiplayer requires two actual clients

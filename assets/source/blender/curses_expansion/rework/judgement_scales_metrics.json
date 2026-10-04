@@ -1,0 +1,103 @@
+{
+  "id": "judgement_scales",
+  "displayName": "Judgement Scales",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-07-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/judgement_scales.blend",
+  "export": "assets/export/meshes/curses/rework/judgement_scales.fbx",
+  "sha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+  "triangles": 2112,
+  "vertices": 1128,
+  "blenderDimensions": [
+    3.572000026702881,
+    1.1111499071121216,
+    3.618154525756836
+  ],
+  "intendedRobloxSize": [
+    3.572000026702881,
+    3.618154525756836,
+    1.1111499071121216
+  ],
+  "diagonal": 5.204313641499264,
+  "vfxHook": [
+    1.28,
+    0.2090773099660872,
+    0.06442502617835999
+  ],
+  "vfxProfile": "unequal_scales",
+  "palette": [
+    "bone_high",
+    "brass",
+    "brass_edge",
+    "gold_glow",
+    "indigo",
+    "ivory",
+    "obsidian",
+    "star_edge",
+    "star_iron",
+    "thorn_edge"
+  ],
+  "paintedColorCount": 606,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Bone and iron idol with two broad planted feet",
+      "first_face": 0,
+      "last_face_exclusive": 307
+    },
+    {
+      "name": "Uneven balance arms and suspended open bowl pans",
+      "first_face": 307,
+      "last_face_exclusive": 805
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 07: blind bone and iron judgment idol with unequal suspended real open pans. The pale right bowl bears a gold soul, the dark lower bowl a folded smoke volume; unequal legs, a tall split face and brass halo complete the ceremonial silhouette."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/judgement_scales.blend",
+  "robloxIntendedSize": [
+    3.572000026702881,
+    3.618154525756836,
+    1.1111499071121216
+  ],
+  "vfxHookRoblox": [
+    1.28,
+    0.2090773099660872,
+    0.06442502617835999
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03571999818086624,
+      0.011111504398286343,
+      0.03618154302239418
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2112,
+    "colorCount": 606,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "judgement_scales",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04"
+  }
+}

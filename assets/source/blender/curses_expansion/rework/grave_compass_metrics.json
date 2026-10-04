@@ -1,0 +1,76 @@
+{
+  "id": "grave_compass",
+  "displayName": "Grave Compass",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-04-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/grave_compass.blend",
+  "export": "assets/export/meshes/curses/rework/grave_compass.fbx",
+  "sha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+  "triangles": 3242,
+  "vertices": 1689,
+  "blenderDimensions": [
+    3.7378311157226562,
+    0.8600339293479919,
+    2.8460559844970703
+  ],
+  "intendedRobloxSize": [
+    3.7378311157226562,
+    2.8460559844970703,
+    0.8600339293479919
+  ],
+  "diagonal": 4.776094060651006,
+  "vfxHook": [
+    0.7009155011177063,
+    -0.24397188425064087,
+    0.3259198296070099
+  ],
+  "vfxProfile": "inward_compass_wisp",
+  "palette": [
+    "gold",
+    "gold_edge",
+    "green",
+    "ink",
+    "stone_dark"
+  ],
+  "paintedColorCount": 1145,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "open verdigris pocket compass with inset dial",
+      "first_face": 0,
+      "last_face_exclusive": 830
+    },
+    {
+      "name": "inward curling needle, open hinged lid and hanging ring",
+      "first_face": 830,
+      "last_face_exclusive": 1684
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Fully open aged brass pocket compass with concave rim, cracked inset stone dial, black central sink, curling inward needle and angled ornate lid.",
+    "An inward curling spectral needle trace and a brief cold pulse in the dial sink."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/grave_compass.blend",
+  "robloxIntendedSize": [
+    3.7378311157226562,
+    2.8460559844970703,
+    0.8600339293479919
+  ],
+  "vfxHookRoblox": [
+    0.7009155011177063,
+    -0.24397188425064087,
+    0.3259198296070099
+  ]
+}

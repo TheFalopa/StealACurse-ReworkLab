@@ -1,0 +1,10 @@
+{
+  "observed": {
+    "SpatialJSON": "{\"ok\":false,\"result\":\"Requested module experienced an error while loading\\nServerStorage.NativeReview:22\\nServerStorage.NativeReview:22\\n\"}",
+    "FocusId": "coin_crawler",
+    "ResultsJSON": "[{\"ok\":true,\"label\":\"grave_hopper actual native mesh\"},{\"ok\":true,\"label\":\"grave_hopper normal production purchase\"},{\"ok\":true,\"label\":\"grave_hopper normal manual placement\"},{\"ok\":true,\"label\":\"grave_hopper real sale removes review copy\"},{\"ok\":true,\"label\":\"grave_hopper controller instance removed\"},{\"ok\":true,\"label\":\"nail_beetle actual native mesh\"},{\"ok\":true,\"label\":\"nail_beetle normal production purchase\"},{\"ok\":true,\"label\":\"nail_beetle normal manual placement\"},{\"ok\":true,\"label\":\"nail_beetle real sale removes review copy\"},{\"ok\":true,\"label\":\"nail_beetle controller instance removed\"},{\"ok\":true,\"label\":\"coin_crawler actual native mesh\"},{\"ok\":true,\"label\":\"coin_crawler normal production purchase\"},{\"ok\":true,\"label\":\"coin_crawler normal manual placement\"},{\"ok\":true,\"label\":\"coin_crawler real sale removes review copy\"},{\"ok\":true,\"label\":\"coin_crawler controller instance removed\"}]",
+    "Stage": "FAILED",
+    "FocusUid": "1f922a84-a183-4b8c-a903-93760231a418"
+  },
+  "scope": "Three real remodeled Curse instances. Native 30s recordings contain procession, real purchase, carry, place, idle and sale. 15 gameplay assertions passed. Spatial fixture loading error is QA-only and not a gameplay result."
+}

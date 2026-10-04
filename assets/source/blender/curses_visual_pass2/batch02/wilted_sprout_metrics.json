@@ -1,0 +1,113 @@
+{
+  "id": "wilted_sprout",
+  "displayName": "Wilted Sprout",
+  "rarity": "COMMON",
+  "sourceReference": "rework-01-common.png",
+  "source": "assets/source/blender/curses_visual_pass2/batch02/wilted_sprout.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/batch02/wilted_sprout.fbx",
+  "sha256": "048acf69c08403971dd1dba103734a96d938f38d2a169e43f5cd8d7e72161e7e",
+  "triangles": 2220,
+  "vertices": 1156,
+  "blenderDimensions": [
+    3.7659215927124023,
+    1.9629535675048828,
+    4.800000190734863
+  ],
+  "intendedRobloxSize": [
+    3.7659215927124023,
+    4.800000190734863,
+    1.9629535675048828
+  ],
+  "diagonal": 6.40900569368544,
+  "vfxHook": [
+    -0.359666645526886,
+    1.2028021812438965,
+    0.7222381830215454
+  ],
+  "vfxProfile": "wilted_pollen",
+  "palette": [
+    "bark",
+    "green",
+    "ink",
+    "ochre",
+    "petal",
+    "white_glow"
+  ],
+  "paintedColorCount": 388,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "BentStemAndRootFeet",
+      "first_face": 0,
+      "last_face_exclusive": 110
+    },
+    {
+      "name": "ShadowFaceUnderOchrePetals",
+      "first_face": 110,
+      "last_face_exclusive": 728
+    },
+    {
+      "name": "WiltedSideLeaf",
+      "first_face": 728,
+      "last_face_exclusive": 811
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Distinct wilted plant: twisted stem, branching root feet, dark face nested below overlapping ochre petals, dying drooping side leaf.",
+    "Dry olive stem facets and ochre petal faces stay distinct from the genuinely dark nested face."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/batch02/wilted_sprout.blend",
+  "robloxIntendedSize": [
+    3.7659215927124023,
+    4.800000190734863,
+    1.9629535675048828
+  ],
+  "vfxHookRoblox": [
+    -0.359666645526886,
+    1.2028021812438965,
+    0.7222381830215454
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03765921667218208,
+      0.019629541784524918,
+      0.04800000414252281
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 2220,
+    "colorCount": 937,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "wilted_sprout",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "048acf69c08403971dd1dba103734a96d938f38d2a169e43f5cd8d7e72161e7e"
+  },
+  "fbxExported": true,
+  "locallyValidated": true,
+  "pass": 2,
+  "revision": 2,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/wilted_sprout.blend",
+  "sourceReusedSha256": "0ca71e64786461ba73191941dfaa43ec9708f7531c72e52dad30668edceb1252",
+  "vfxHooks": {},
+  "changedPaintCorners": 3829
+}

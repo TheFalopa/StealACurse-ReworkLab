@@ -1,0 +1,106 @@
+{
+  "id": "blood_moon_rose",
+  "displayName": "Blood Moon Rose",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-07-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/blood_moon_rose.blend",
+  "export": "assets/export/meshes/curses/rework/blood_moon_rose.fbx",
+  "sha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+  "triangles": 5166,
+  "vertices": 2669,
+  "blenderDimensions": [
+    3.3685410022735596,
+    1.3943915367126465,
+    3.652043104171753
+  ],
+  "intendedRobloxSize": [
+    3.3685410022735596,
+    3.652043104171753,
+    1.3943915367126465
+  ],
+  "diagonal": 5.160311529005053,
+  "vfxHook": [
+    0.18427055358886718,
+    0.8104945264049146,
+    0.5818204128742218
+  ],
+  "vfxProfile": "rose_pulse",
+  "palette": [
+    "rose_core",
+    "rose_glint",
+    "rose_petal",
+    "rose_rim",
+    "ruby",
+    "ruby_edge",
+    "thorn",
+    "thorn_edge"
+  ],
+  "paintedColorCount": 519,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Arched thorn stem and four spreading root feet",
+      "first_face": 0,
+      "last_face_exclusive": 158
+    },
+    {
+      "name": "Layered garnet glass rose with spiraling physical petals",
+      "first_face": 158,
+      "last_face_exclusive": 2182
+    },
+    {
+      "name": "Two curved thorn arms with hooked ruby talons",
+      "first_face": 2182,
+      "last_face_exclusive": 2332
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 07: a deep garnet rose has three rings of overlapping, cross-cupped thick petals whose lips curl inward around a small dark red core. Twenty-one closed individual petal volumes, warm rose glints, unequal thorn arms and hooked ruby talons flank an arched woody stem and four branching roots; no flat radial starflower or overbright core."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/blood_moon_rose.blend",
+  "robloxIntendedSize": [
+    3.3685410022735596,
+    3.652043104171753,
+    1.3943915367126465
+  ],
+  "vfxHookRoblox": [
+    0.18427055358886718,
+    0.8104945264049146,
+    0.5818204128742218
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.033685408532619476,
+      0.013943920843303204,
+      0.03652043268084526
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 5166,
+    "colorCount": 519,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "blood_moon_rose",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba"
+  }
+}

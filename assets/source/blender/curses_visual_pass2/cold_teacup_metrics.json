@@ -1,0 +1,107 @@
+{
+  "id": "cold_teacup",
+  "displayName": "Cold Teacup",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_visual_pass2/cold_teacup.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/cold_teacup.fbx",
+  "sha256": "96305c9cac00ba44248c96a2d56af24d5dbbcf9a315662c38c50153c36add48a",
+  "triangles": 2456,
+  "vertices": 1274,
+  "blenderDimensions": [
+    5.0,
+    4.875943660736084,
+    4.899999618530273
+  ],
+  "intendedRobloxSize": [
+    5.0,
+    4.899999618530273,
+    4.875943660736084
+  ],
+  "diagonal": 8.531402161677132,
+  "vfxHook": [
+    -0.12398593127727509,
+    1.1996971368789673,
+    0.058937475085258484
+  ],
+  "vfxProfile": "cold_shadow",
+  "palette": [
+    "blue_paint",
+    "ink",
+    "ochre",
+    "porcelain"
+  ],
+  "paintedColorCount": 330,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "CrackedPorcelainCupAndSaucer",
+      "first_face": 0,
+      "last_face_exclusive": 456
+    },
+    {
+      "name": "CurledShadowSteam",
+      "first_face": 456,
+      "last_face_exclusive": 642
+    },
+    {
+      "name": "BlueBotanicalPaintAndCracks",
+      "first_face": 642,
+      "last_face_exclusive": 1138
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Thick genuinely hollow porcelain bowl with saucer and loop handle, dark liquid, curling three-dimensional ink steam, blue botanical decoration and large warm fissures.",
+    "Pass 2: concept-specific proportions and silhouette, lifted dark materials, expanded authored dimensions; preserves actual editable .blend."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/cold_teacup.blend",
+  "robloxIntendedSize": [
+    5.0,
+    4.899999618530273,
+    4.875943660736084
+  ],
+  "vfxHookRoblox": [
+    -0.12398593127727509,
+    1.1996971368789673,
+    0.058937475085258484
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.04999999701976776,
+      0.04875944182276726,
+      0.049000002443790436
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2456,
+    "colorCount": 330,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "cold_teacup",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "96305c9cac00ba44248c96a2d56af24d5dbbcf9a315662c38c50153c36add48a"
+  },
+  "fbxExported": true,
+  "locallyValidated": true,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/cold_teacup.blend",
+  "sourceReusedSha256": "17a5e426ab6d39b7cb2f3e9c364ab955e9cf69277e754f0db43af4e1432ee774"
+}

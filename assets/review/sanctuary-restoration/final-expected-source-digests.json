@@ -1,0 +1,332 @@
+{
+  "ReplicatedStorage.Shared.CurseAnimationAssets": {
+    "length": 8259,
+    "adler32": 665693245,
+    "source": "src/shared/CurseAnimationAssets.luau"
+  },
+  "ReplicatedStorage.Shared.CurseAnimationProfiles": {
+    "length": 50898,
+    "adler32": 3568068260,
+    "source": "src/shared/CurseAnimationProfiles.luau"
+  },
+  "ReplicatedStorage.Shared.CurseCarryGeometry": {
+    "length": 4634,
+    "adler32": 3396995353,
+    "source": "src/shared/CurseCarryGeometry.luau"
+  },
+  "ReplicatedStorage.Shared.CurseCatalog": {
+    "length": 9908,
+    "adler32": 4178466792,
+    "source": "src/shared/CurseCatalog.luau"
+  },
+  "ReplicatedStorage.Shared.CurseExpansionAssets": {
+    "length": 20076,
+    "adler32": 4000173269,
+    "source": "src/shared/CurseExpansionAssets.luau"
+  },
+  "ReplicatedStorage.Shared.CurseMotionMath": {
+    "length": 1135,
+    "adler32": 3316742100,
+    "source": "src/shared/CurseMotionMath.luau"
+  },
+  "ReplicatedStorage.Shared.CurseVFXProfiles": {
+    "length": 6932,
+    "adler32": 2357521945,
+    "source": "src/shared/CurseVFXProfiles.luau"
+  },
+  "ReplicatedStorage.Shared.CurseVisualPass2": {
+    "length": 9810,
+    "adler32": 55973705,
+    "source": "src/shared/CurseVisualPass2.luau"
+  },
+  "ReplicatedStorage.Shared.Hello": {
+    "length": 46,
+    "adler32": 2117013281,
+    "source": "src/shared/Hello.luau"
+  },
+  "ReplicatedStorage.Shared.NumberFormat": {
+    "length": 1188,
+    "adler32": 1870361690,
+    "source": "src/shared/NumberFormat.luau"
+  },
+  "ReplicatedStorage.Shared.SanctuaryConfig": {
+    "length": 12859,
+    "adler32": 958253968,
+    "source": "src/shared/SanctuaryConfig.luau"
+  },
+  "ReplicatedStorage.Shared.SanctuaryProgression": {
+    "length": 13646,
+    "adler32": 3412434624,
+    "source": "src/shared/SanctuaryProgression.luau"
+  },
+  "ServerScriptService.Server": {
+    "length": 1624,
+    "adler32": 1889097254,
+    "source": "src/server/init.server.luau"
+  },
+  "ServerScriptService.Server.Gameplay.BaseService": {
+    "length": 9883,
+    "adler32": 3376864298,
+    "source": "src/server/Gameplay/BaseService.luau"
+  },
+  "ServerScriptService.Server.Gameplay.CarryService": {
+    "length": 4017,
+    "adler32": 1731555821,
+    "source": "src/server/Gameplay/CarryService.luau"
+  },
+  "ServerScriptService.Server.Gameplay.Config": {
+    "length": 569,
+    "adler32": 1451736552,
+    "source": "src/server/Gameplay/Config.luau"
+  },
+  "ServerScriptService.Server.Gameplay.ContractService": {
+    "length": 7227,
+    "adler32": 2869232007,
+    "source": "src/server/Gameplay/ContractService.luau"
+  },
+  "ServerScriptService.Server.Gameplay.CurseProcessionService": {
+    "length": 5481,
+    "adler32": 184950809,
+    "source": "src/server/Gameplay/CurseProcessionService.luau"
+  },
+  "ServerScriptService.Server.Gameplay.CurseService": {
+    "length": 22942,
+    "adler32": 1981186891,
+    "source": "src/server/Gameplay/CurseService.luau"
+  },
+  "ServerScriptService.Server.Gameplay.CurseVisualService": {
+    "length": 11508,
+    "adler32": 816387272,
+    "source": "src/server/Gameplay/CurseVisualService.luau"
+  },
+  "ServerScriptService.Server.Gameplay.OwnedCurseRules": {
+    "length": 1023,
+    "adler32": 2941350534,
+    "source": "src/server/Gameplay/OwnedCurseRules.luau"
+  },
+  "ServerScriptService.Server.Gameplay.ProfileStore": {
+    "length": 8674,
+    "adler32": 2838015264,
+    "source": "src/server/Gameplay/ProfileStore.luau"
+  },
+  "ServerScriptService.Server.Gameplay.RitualService": {
+    "length": 7098,
+    "adler32": 1991889550,
+    "source": "src/server/Gameplay/RitualService.luau"
+  },
+  "ServerScriptService.Server.Gameplay.SanctuaryService": {
+    "length": 13964,
+    "adler32": 1227912801,
+    "source": "src/server/Gameplay/SanctuaryService.luau"
+  },
+  "ServerScriptService.Server.Gameplay.SoulsService": {
+    "length": 2003,
+    "adler32": 1931004807,
+    "source": "src/server/Gameplay/SoulsService.luau"
+  },
+  "ServerScriptService.Server.Map.AssetKit": {
+    "length": 6276,
+    "adler32": 632941444,
+    "source": "src/server/Map/AssetKit.luau"
+  },
+  "ServerScriptService.Server.Map.Build": {
+    "length": 1941,
+    "adler32": 3218451250,
+    "source": "src/server/Map/Build.luau"
+  },
+  "ServerScriptService.Server.Map.Cemetery": {
+    "length": 6882,
+    "adler32": 2175773171,
+    "source": "src/server/Map/Cemetery.luau"
+  },
+  "ServerScriptService.Server.Map.Config": {
+    "length": 4169,
+    "adler32": 529329174,
+    "source": "src/server/Map/Config.luau"
+  },
+  "ServerScriptService.Server.Map.ContractSites": {
+    "length": 5630,
+    "adler32": 1675899909,
+    "source": "src/server/Map/ContractSites.luau"
+  },
+  "ServerScriptService.Server.Map.Decorations": {
+    "length": 14583,
+    "adler32": 66006535,
+    "source": "src/server/Map/Decorations.luau"
+  },
+  "ServerScriptService.Server.Map.Grounding": {
+    "length": 2361,
+    "adler32": 521802815,
+    "source": "src/server/Map/Grounding.luau"
+  },
+  "ServerScriptService.Server.Map.HalloweenArt": {
+    "length": 8622,
+    "adler32": 3973914064,
+    "source": "src/server/Map/HalloweenArt.luau"
+  },
+  "ServerScriptService.Server.Map.Landmarks": {
+    "length": 4543,
+    "adler32": 300073268,
+    "source": "src/server/Map/Landmarks.luau"
+  },
+  "ServerScriptService.Server.Map.Layout": {
+    "length": 4383,
+    "adler32": 3917571600,
+    "source": "src/server/Map/Layout.luau"
+  },
+  "ServerScriptService.Server.Map.Materials": {
+    "length": 1766,
+    "adler32": 3273941624,
+    "source": "src/server/Map/Materials.luau"
+  },
+  "ServerScriptService.Server.Map.Mausoleum": {
+    "length": 18936,
+    "adler32": 2007430326,
+    "source": "src/server/Map/Mausoleum.luau"
+  },
+  "ServerScriptService.Server.Map.PlayerShrine": {
+    "length": 345,
+    "adler32": 1434943075,
+    "source": "src/server/Map/PlayerShrine.luau"
+  },
+  "ServerScriptService.Server.Map.Primitives": {
+    "length": 1934,
+    "adler32": 1101632148,
+    "source": "src/server/Map/Primitives.luau"
+  },
+  "ServerScriptService.Server.Map.RestorationArchitecture": {
+    "length": 27485,
+    "adler32": 2369115503,
+    "source": "src/server/Map/RestorationArchitecture.luau"
+  },
+  "ServerScriptService.Server.Map.RoadSurfaceResolver": {
+    "length": 5134,
+    "adler32": 1159313969,
+    "source": "src/server/Map/RoadSurfaceResolver.luau"
+  },
+  "ServerScriptService.Server.Map.SurfaceArt": {
+    "length": 5023,
+    "adler32": 1928735386,
+    "source": "src/server/Map/SurfaceArt.luau"
+  },
+  "ServerScriptService.Server.Map.TerrainArt": {
+    "length": 3406,
+    "adler32": 57937508,
+    "source": "src/server/Map/TerrainArt.luau"
+  },
+  "ServerScriptService.Server.Map.World": {
+    "length": 9628,
+    "adler32": 3409894035,
+    "source": "src/server/Map/World.luau"
+  },
+  "ServerScriptService.Server.Map.WorldPolish": {
+    "length": 10959,
+    "adler32": 1382583481,
+    "source": "src/server/Map/WorldPolish.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client": {
+    "length": 513,
+    "adler32": 3926505675,
+    "source": "src/client/init.client.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseActsCore": {
+    "length": 7104,
+    "adler32": 2370652247,
+    "source": "src/client/CurseActsCore.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseActsCreatures": {
+    "length": 17501,
+    "adler32": 2903297055,
+    "source": "src/client/CurseActsCreatures.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseActsEntities": {
+    "length": 14336,
+    "adler32": 1706981596,
+    "source": "src/client/CurseActsEntities.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseActsObjects": {
+    "length": 13399,
+    "adler32": 1813497076,
+    "source": "src/client/CurseActsObjects.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseAnimation": {
+    "length": 4999,
+    "adler32": 596685136,
+    "source": "src/client/CurseAnimation.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CursePresentation": {
+    "length": 9712,
+    "adler32": 1833835411,
+    "source": "src/client/CursePresentation.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseVFX": {
+    "length": 13237,
+    "adler32": 2994470082,
+    "source": "src/client/CurseVFX.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.RelicPresentation": {
+    "length": 1670,
+    "adler32": 2280148797,
+    "source": "src/client/RelicPresentation.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.CurrencyCard": {
+    "length": 6219,
+    "adler32": 3130778902,
+    "source": "src/client/UI/CurrencyCard.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.CurseLabels": {
+    "length": 2104,
+    "adler32": 1415887677,
+    "source": "src/client/UI/CurseLabels.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.CurseManagement": {
+    "length": 6326,
+    "adler32": 211518970,
+    "source": "src/client/UI/CurseManagement.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.HUD": {
+    "length": 4405,
+    "adler32": 3267671393,
+    "source": "src/client/UI/HUD.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.Icons": {
+    "length": 4825,
+    "adler32": 3290341677,
+    "source": "src/client/UI/Icons.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.Navigation": {
+    "length": 1857,
+    "adler32": 2606120319,
+    "source": "src/client/UI/Navigation.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.PanelFrame": {
+    "length": 4246,
+    "adler32": 1542865506,
+    "source": "src/client/UI/PanelFrame.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.SanctuaryPanel": {
+    "length": 17647,
+    "adler32": 1266730305,
+    "source": "src/client/UI/SanctuaryPanel.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.ShellPanel": {
+    "length": 5871,
+    "adler32": 3551354560,
+    "source": "src/client/UI/ShellPanel.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.ShopCard": {
+    "length": 4173,
+    "adler32": 995836040,
+    "source": "src/client/UI/ShopCard.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.ShopPanel": {
+    "length": 6315,
+    "adler32": 3627796404,
+    "source": "src/client/UI/ShopPanel.luau"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.Theme": {
+    "length": 3017,
+    "adler32": 3040669087,
+    "source": "src/client/UI/Theme.luau"
+  }
+}

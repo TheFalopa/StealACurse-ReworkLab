@@ -1,0 +1,65 @@
+{
+  "segments": 54,
+  "negative": [
+    {
+      "sample": {
+        "state": "Running",
+        "carry": {
+          "floor": "AltarBody",
+          "clearance": -1.68,
+          "source": "production CurseCarryGeometry.follow at real avatar CFrame; no client bone-pose measurement",
+          "authoritativePosition": {
+            "y": 4.07,
+            "x": -9.372,
+            "z": -26.536
+          },
+          "position": {
+            "y": 4.07,
+            "x": -9.694,
+            "z": -26.536
+          },
+          "outsideWall": 0
+        },
+        "time": 1.1,
+        "body": {
+          "y": 4.15,
+          "x": -13.694,
+          "z": -23
+        }
+      },
+      "label": "SPATIAL / walk lower court to west stair"
+    },
+    {
+      "sample": {
+        "state": "Running",
+        "carry": {
+          "floor": "AltarBody",
+          "clearance": -1.68,
+          "source": "production CurseCarryGeometry.follow at real avatar CFrame; no client bone-pose measurement",
+          "authoritativePosition": {
+            "y": 4.07,
+            "x": -11.141,
+            "z": -26.537
+          },
+          "position": {
+            "y": 4.07,
+            "x": -11.813,
+            "z": -26.537
+          },
+          "outsideWall": 0
+        },
+        "time": 1.23,
+        "body": {
+          "y": 4.15,
+          "x": -15.813,
+          "z": -23.001
+        }
+      },
+      "label": "SPATIAL / walk lower court to west stair"
+    }
+  ],
+  "floorMin": 0.12,
+  "rows": 68,
+  "stage": "FAILED",
+  "floorSamples": 498
+}

@@ -1,0 +1,79 @@
+{
+  "id": "chime_triplets",
+  "displayName": "Chime Triplets",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-04-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/chime_triplets.blend",
+  "export": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+  "sha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+  "triangles": 5332,
+  "vertices": 2728,
+  "blenderDimensions": [
+    3.9294962882995605,
+    1.2350000143051147,
+    2.9680001735687256
+  ],
+  "intendedRobloxSize": [
+    3.9294962882995605,
+    2.9680001735687256,
+    1.2350000143051147
+  ],
+  "diagonal": 5.076927333082249,
+  "vfxHook": [
+    0.08997207880020142,
+    -0.5710000381469726,
+    0.1
+  ],
+  "vfxProfile": "three_bell_spirits",
+  "palette": [
+    "blue_paint",
+    "gold",
+    "gold_edge",
+    "green",
+    "ink",
+    "iron",
+    "iron_edge",
+    "white_glow"
+  ],
+  "paintedColorCount": 1375,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "crooked blue iron suspension beam",
+      "first_face": 0,
+      "last_face_exclusive": 82
+    },
+    {
+      "name": "three different hollow aged bronze bells and imprisoned faces",
+      "first_face": 82,
+      "last_face_exclusive": 2782
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Three distinct open bronze and verdigris bells hang from curled blue iron; true concave interiors contain dark faces and pale eyes.",
+    "Bells rock out of phase; small blue vapor spirals rise independently beneath each lip."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/chime_triplets.blend",
+  "robloxIntendedSize": [
+    3.9294962882995605,
+    2.9680001735687256,
+    1.2350000143051147
+  ],
+  "vfxHookRoblox": [
+    0.08997207880020142,
+    -0.5710000381469726,
+    0.1
+  ]
+}

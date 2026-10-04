@@ -1,0 +1,674 @@
+[
+  {
+    "id": "cursed_doll",
+    "batch": 1,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch01.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "watching_eye",
+    "batch": 1,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch01.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "soul_chains",
+    "batch": 2,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch02.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "plague_monarch",
+    "batch": 2,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch02.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "the_void",
+    "batch": 3,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch03.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "haunted_mirror",
+    "batch": 3,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch03.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "crying_mask",
+    "batch": 4,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch04.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "candle_wisp",
+    "batch": 4,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch04.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "grave_hopper",
+    "batch": 5,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch05.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "grave_key",
+    "batch": 5,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch05.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "mourning_ribbon",
+    "batch": 6,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch06.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "wilted_sprout",
+    "batch": 6,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch06.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "ink_imp",
+    "batch": 7,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch07.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "lost_locket",
+    "batch": 7,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch07.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "ashen_book",
+    "batch": 8,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch08.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "lantern_lurker",
+    "batch": 8,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch08.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "hourglass_hound",
+    "batch": 9,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch09.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "nail_beetle",
+    "batch": 9,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch09.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "pale_guest",
+    "batch": 10,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch10.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "cold_teacup",
+    "batch": 10,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch10.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "coin_crawler",
+    "batch": 11,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch11.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "umbrella_wraith",
+    "batch": 11,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch11.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "marrow_dice",
+    "batch": 12,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch12.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "veil_mourner",
+    "batch": 12,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch12.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "grave_compass",
+    "batch": 13,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch13.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "hollow_violin",
+    "batch": 13,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch13.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "chime_triplets",
+    "batch": 14,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch14.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "thimble_spider",
+    "batch": 14,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch14.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "music_box_dancer",
+    "batch": 15,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch15.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "raven_quill",
+    "batch": 15,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch15.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "sorrow_chalice",
+    "batch": 16,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch16.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "pale_gramophone",
+    "batch": 16,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch16.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "thorn_reliquary",
+    "batch": 17,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch17.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "anchor_crab",
+    "batch": 17,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch17.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "sundial_sentinel",
+    "batch": 18,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch18.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "sleepwalker_shoes",
+    "batch": 18,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch18.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "night_harp",
+    "batch": 19,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch19.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "thorn_cathedral",
+    "batch": 19,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch19.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "phantom_marionette",
+    "batch": 20,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch20.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "blood_moon_rose",
+    "batch": 20,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch20.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "judgement_scales",
+    "batch": 21,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch21.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "clockwork_raven",
+    "batch": 21,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch21.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "eclipse_stag",
+    "batch": 22,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch22.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "endless_library",
+    "batch": 22,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch22.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "sunken_crown",
+    "batch": 23,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch23.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "silent_choir",
+    "batch": 23,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch23.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "cathedral_heart",
+    "batch": 24,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch24.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "hollow_throne",
+    "batch": 24,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch24.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "worldroot",
+    "batch": 25,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch25.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "the_undertow",
+    "batch": 25,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch25.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "the_last_funeral",
+    "batch": 26,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch26.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "nameless_door",
+    "batch": 26,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch26.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "crown_of_silence",
+    "batch": 27,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch27.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "the_first_grave",
+    "batch": 27,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch27.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "the_unwritten",
+    "batch": 28,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch28.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  },
+  {
+    "id": "the_last_star",
+    "batch": 28,
+    "states": [
+      "PLACED",
+      "PROCESSION",
+      "CARRYING"
+    ],
+    "visualReviewed": true,
+    "evidence": "videos/native-batch28.mp4",
+    "note": "Native Play pixels inspected at gameplay distance beside an avatar; original state frames and contact sheets preserved. No visible geometry tearing or detached rigid sections in the sampled poses. Gallery uses production templates/controllers, not ownership operations."
+  }
+]

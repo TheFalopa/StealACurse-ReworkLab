@@ -1,0 +1,29 @@
+# Local Rojo test artifacts; keep source and Blender exports trackable.
+build-*.rbxlx
+build-*.sourcemap.json
+build-*.project.json
+*.rbxlx.lock
+sourcemap-*.json
+sourcemap.json
+
+# Blender automatic backup files.
+*.blend1
+*.blend2
+
+# Herramientas y caches locales
+.tools/
+__pycache__/
+*.pyc
+
+# Checkpoints locales
+assets/review/**/checkpoints/
+
+# ============================================================
+# ReworkLab / Claude Cloud exclusions
+# Generated/review artifacts; source files remain versioned.
+# ============================================================
+assets/review/**/*.mp4
+tests/ffmpeg-review.exe
+build-*.rbxlx
+__pycache__/
+*.pyc

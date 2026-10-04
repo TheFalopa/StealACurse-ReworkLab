@@ -1,0 +1,52 @@
+{
+  "network": {
+    "inboundMs": 45,
+    "outboundMs": 55,
+    "inboundJitterMs": 20,
+    "outboundJitterMs": 30,
+    "inboundLossPercent": 0.4,
+    "outboundLossPercent": 0.5
+  },
+  "serverSamples": 141,
+  "method": "Linear interpolation between separately recorded server anchor samples at the same GetServerTimeNow timestamp; excludes samples outside recorded range. This is visual-to-authority separation, not network round-trip latency.",
+  "clients": [
+    {
+      "observer": -1,
+      "authoritySeparationStuds": {
+        "count": 263,
+        "mean": 1.4988050044472048,
+        "p95": 3.81023136172339,
+        "maximum": 3.9613980639598654
+      },
+      "originalMotionSummary": {
+        "observer": -1,
+        "last": 1790974131.682173,
+        "first": 1790974117.689477,
+        "maxJump": 0.3962692320346832,
+        "start": 1790974117.673009,
+        "stationary": 0,
+        "frames": 1319,
+        "moving": 636
+      }
+    },
+    {
+      "observer": -2,
+      "authoritySeparationStuds": {
+        "count": 110,
+        "mean": 1.5475432376989564,
+        "p95": 7.621888377299763,
+        "maximum": 12.232200077780366
+      },
+      "originalMotionSummary": {
+        "observer": -2,
+        "last": 1790974131.682642,
+        "first": 1790974117.688615,
+        "maxJump": 1.4131511449813843,
+        "start": 1790974117.673009,
+        "stationary": 0,
+        "frames": 553,
+        "moving": 266
+      }
+    }
+  ]
+}

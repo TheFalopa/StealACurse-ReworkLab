@@ -1,0 +1,23 @@
+{
+  "file": "C:\\RobloxProjects\\StealACurse\\build-sanctuary-interior-polish.rbxlx",
+  "openedFromDisk": true,
+  "map": true,
+  "bases": 8,
+  "profile": "READY",
+  "clientHUD": true,
+  "qaScriptsPresent": false,
+  "scriptErrors": [],
+  "assetFetchErrors": {
+    "1": "MeshContentProvider failed to process https://assetdelivery.roblox.com/v1/asset?id=134975446540424 because 'could not fetch'",
+    "2": "MeshContentProvider failed to process https://assetdelivery.roblox.com/v1/asset?id=74159266876686 because 'could not fetch'",
+    "3": "MeshContentProvider failed to process https://assetdelivery.roblox.com/v1/asset?id=128916833526652 because 'could not fetch'",
+    "4": "MeshContentProvider failed to process https://assetdelivery.roblox.com/v1/asset?id=93842267716498 because 'could not fetch'",
+    "5": "MeshContentProvider failed to process https://assetdelivery.roblox.com/v1/asset?id=137006334533562 because 'could not fetch'",
+    "6": "MeshContentProvider failed to process https://assetdelivery.roblox.com/v1/asset?id=74267295029639 because 'could not fetch'",
+    "7": "MeshContentProvider failed to process https://assetdelivery.roblox.com/v1/asset?id=82307616424520 because 'could not fetch'"
+  },
+  "playStopped": true,
+  "rojoConnected": false,
+  "temporaryNamespaceRemoved": true,
+  "scope": "Brief production startup without claiming a base, purchases or progression actions; functional checks used isolated QA profile."
+}

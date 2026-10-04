@@ -1,0 +1,137 @@
+{
+  "id": "hollow_throne",
+  "displayName": "Hollow Throne",
+  "rarity": "Mythic",
+  "sourceReference": "assets/reference/rework-09-mythic.png",
+  "source": "assets/source/blender/curses_visual_pass2/batch02/hollow_throne.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/batch02/hollow_throne.fbx",
+  "sha256": "518d9422da7b3711c4dd43b097a34e8003c250cb98a328d048b0e5f7f14d9232",
+  "triangles": 2416,
+  "vertices": 1298,
+  "blenderDimensions": [
+    6.098017692565918,
+    4.2822442054748535,
+    10
+  ],
+  "intendedRobloxSize": [
+    6.098017692565918,
+    10,
+    4.2822442054748535
+  ],
+  "diagonal": 12.470903544417698,
+  "vfxHook": [
+    0,
+    0.412757933139801,
+    -0.6234854459762573
+  ],
+  "vfxProfile": "hollow_throne_presence",
+  "palette": [
+    "burial",
+    "charcoal",
+    "cold_white",
+    "linen",
+    "obsidian",
+    "star_edge",
+    "star_iron",
+    "star_wear",
+    "white_glow"
+  ],
+  "paintedColorCount": 595,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Open throne architecture with tall pointed rails and four living feet",
+      "first_face": 0,
+      "last_face_exclusive": 588
+    },
+    {
+      "name": "Monarch occupied only by a luminous empty outline",
+      "first_face": 588,
+      "last_face_exclusive": 658
+    },
+    {
+      "name": "Chipped outer lancets and white diamond finials",
+      "first_face": 658,
+      "last_face_exclusive": 698
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 09: living dark throne with four claw feet, tall open gothic back rails and an occupant defined only by a thin luminous monarch outline. Real empty openings remain visible from the rear; torn linen shoulders and white chipped rail ridges provide a restrained monochrome identity.",
+    "Cold dark iron with broad pale bevel faces; preserve the empty king silhouette and architectural aperture."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/batch02/hollow_throne.blend",
+  "robloxIntendedSize": [
+    6.098017692565918,
+    10,
+    4.2822442054748535
+  ],
+  "vfxHookRoblox": [
+    0,
+    0.412757933139801,
+    -0.6234854459762573
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.026719791814684868,
+      0.018763592466711998,
+      0.0438171811401844
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 2416,
+    "colorCount": 595,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "hollow_throne",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61"
+  },
+  "pass": 2,
+  "revision": 2,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/hollow_throne.blend",
+  "sourceReusedSha256": "5953351d9769d69cb58a89bf8f39eb4bdd6cd7aa42f7d3acc4cfcdc780d6cb9f",
+  "vfxHooks": {},
+  "changedPaintCorners": 4982,
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.060980174690485,
+      0.0428224578499794,
+      0.10000000149011612
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 2416,
+    "colorCount": 1145,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "hollow_throne",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "518d9422da7b3711c4dd43b097a34e8003c250cb98a328d048b0e5f7f14d9232"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "veil_mourner",
+  "displayName": "Veil Mourner",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-04-rare.png",
+  "source": "assets/source/blender/curses_visual_pass2/batch02/veil_mourner.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/batch02/veil_mourner.fbx",
+  "sha256": "d375a8fafce80182545cf104d92a15bbe4c850436b89708e74030854f08056ce",
+  "triangles": 3280,
+  "vertices": 1686,
+  "blenderDimensions": [
+    4.574634075164795,
+    2.863112449645996,
+    6.099999904632568
+  ],
+  "intendedRobloxSize": [
+    4.574634075164795,
+    6.099999904632568,
+    2.863112449645996
+  ],
+  "diagonal": 8.144611019409957,
+  "vfxHook": [
+    -0.014021205715835094,
+    0.6381114721298218,
+    0.8997963070869446
+  ],
+  "vfxProfile": "black_veil_breath",
+  "palette": [
+    "bone",
+    "cloth",
+    "cloth_edge",
+    "ink"
+  ],
+  "paintedColorCount": 443,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "folded hollow black mourning cloak",
+      "first_face": 0,
+      "last_face_exclusive": 498
+    },
+    {
+      "name": "ragged lace hems and pale hands gripping the veil",
+      "first_face": 498,
+      "last_face_exclusive": 1406
+    },
+    {
+      "name": "aged bone mourning comb",
+      "first_face": 1406,
+      "last_face_exclusive": 1685
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Volumetric open front cloak with twelve gathered folds, irregular torn hem, hollow dark hood and pale gripping hands; bone mourning comb.",
+    "Slow low amplitude cloak breathing and pale dust settling from the bone comb.",
+    "Deep slate cloth with lit folded faces; preserve the hollow cloak, faceless interior, lace hems and bone hands."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/batch02/veil_mourner.blend",
+  "robloxIntendedSize": [
+    4.574634075164795,
+    6.099999904632568,
+    2.863112449645996
+  ],
+  "vfxHookRoblox": [
+    -0.014021205715835094,
+    0.6381114721298218,
+    0.8997963070869446
+  ],
+  "pass": 2,
+  "revision": 2,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/veil_mourner.blend",
+  "sourceReusedSha256": "c3a5ab1dbda7a66cebe47df2fd052ac4ede41e848ecf3d79ab0e306404d03a2c",
+  "vfxHooks": {
+    "veilFace": [
+      -0.01402120076433624,
+      0.6381115246140051,
+      0.8997966049529376
+    ]
+  },
+  "changedPaintCorners": 6324,
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.0457463413476944,
+      0.02863113395869732,
+      0.061000000685453415
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 3280,
+    "colorCount": 412,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "veil_mourner",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "d375a8fafce80182545cf104d92a15bbe4c850436b89708e74030854f08056ce"
+  }
+}

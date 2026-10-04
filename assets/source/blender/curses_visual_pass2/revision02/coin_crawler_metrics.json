@@ -1,0 +1,112 @@
+{
+  "id": "coin_crawler",
+  "displayName": "Coin Crawler",
+  "rarity": "COMMON",
+  "sourceReference": "rework-03-common.png",
+  "source": "assets/source/blender/curses_visual_pass2/revision02/coin_crawler.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/revision02/coin_crawler.fbx",
+  "sha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+  "triangles": 2172,
+  "vertices": 1142,
+  "blenderDimensions": [
+    5.800000190734863,
+    4.100000381469727,
+    3.200000047683716
+  ],
+  "intendedRobloxSize": [
+    5.800000190734863,
+    3.200000047683716,
+    4.100000381469727
+  ],
+  "diagonal": 7.7903790437790725,
+  "vfxHook": [
+    0.0,
+    -0.3862656056880951,
+    1.3064664602279663
+  ],
+  "vfxProfile": "coin_moss",
+  "palette": [
+    "ghost",
+    "iron",
+    "iron_edge",
+    "moss",
+    "stone_dark",
+    "white_glow"
+  ],
+  "paintedColorCount": 439,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "FuneraryCoinCarapace",
+      "first_face": 0,
+      "last_face_exclusive": 242
+    },
+    {
+      "name": "EmbossedFuneralGate",
+      "first_face": 242,
+      "last_face_exclusive": 416
+    },
+    {
+      "name": "CrawlerBodyEyesAndPaws",
+      "first_face": 416,
+      "last_face_exclusive": 976
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Broad funeral coin over a hidden four-legged crawler, projecting rim, embossed cemetery gate and crescent, warm corroded edges, pale eyes beneath lip.",
+    "Pass 2: concept-specific proportions and silhouette, lifted dark materials, expanded authored dimensions; preserves actual editable .blend.",
+    "Actual Studio capture exposed uniform-runtime shrinkage: baked low, broad 5.8 x 3.2 x 4.1-stud crawler proportions."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/revision02/coin_crawler.blend",
+  "robloxIntendedSize": [
+    5.800000190734863,
+    3.200000047683716,
+    4.100000381469727
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    -0.3862656056880951,
+    1.3064664602279663
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.058000002056360245,
+      0.04100000485777855,
+      0.03200000897049904
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2172,
+    "colorCount": 439,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "coin_crawler",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539"
+  },
+  "fbxExported": true,
+  "locallyValidated": true,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/coin_crawler.blend",
+  "sourceReusedSha256": "32228f4f0c237c599745ee897d75d796f1bbe94fb8b7da6e4efb1d994d9f9ac2",
+  "revision": 2,
+  "previousFbxSha256": "0531841344b8f699ebcb80e7cecdbec2a14549e447b464c4bfa152a1440a8c68"
+}

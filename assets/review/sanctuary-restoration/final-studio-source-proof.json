@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "expected": 66,
+  "observed": 66,
+  "mismatches": [],
+  "unexpected": [],
+  "scope": "Sources observed in the fresh final Studio opened from disk, compared to current production files; no QA scripts"
+}

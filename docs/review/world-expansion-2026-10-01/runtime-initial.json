@@ -1,0 +1,3929 @@
+{
+  "fixture": "build-expansion-final-review.rbxlx",
+  "sessionStarted": "2026-10-01 22:11:14 local",
+  "source": "Studio accessible Output, actual Play after Materials Plugin Security fix",
+  "QUALITY_WORLD_REPORT": {
+    "paths": [
+      {
+        "base": "Base01",
+        "status": "Success"
+      },
+      {
+        "base": "Base02",
+        "status": "Success"
+      },
+      {
+        "base": "Base03",
+        "status": "Success"
+      },
+      {
+        "base": "Base04",
+        "status": "Success"
+      },
+      {
+        "base": "Base05",
+        "status": "Success"
+      },
+      {
+        "base": "Base06",
+        "status": "Success"
+      },
+      {
+        "base": "Base07",
+        "status": "Success"
+      },
+      {
+        "base": "Base08",
+        "status": "Success"
+      }
+    ],
+    "method": "Read-only runtime contracts and bounding-box support/hull checks. Eight navmesh paths are not physical walks. Hanging props are excluded from grounding. Triangle gaps, hull snagging and appearance need player-height review.",
+    "grounding": [
+      {
+        "bottomY": 35.439998626708984,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestManorRoof.CrookedRoof",
+        "expectedY": 35.44
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestOuterButtress_-13",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestOuterButtress_-38",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestOuterButtress_-64",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 30.439998626708984,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.EastManorRoof.CrookedRoof",
+        "expectedY": 30.44
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.EastOuterButtress_-13",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.EastOuterButtress_-38",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.EastOuterButtress_-64",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 48.439998626708984,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.HighNaveRoof.CrookedRoof",
+        "expectedY": 48.44
+      },
+      {
+        "bottomY": 47.73999786376953,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.FrontGable.CrookedRoof",
+        "expectedY": 47.739999237060545
+      },
+      {
+        "bottomY": 47.73999786376953,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.RearGable.CrookedRoof",
+        "expectedY": 47.739999237060545
+      },
+      {
+        "bottomY": 79.44000244140625,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestMourningBelfry.JaggedTowerCrown.CrookedRoof",
+        "expectedY": 79.44
+      },
+      {
+        "bottomY": 42.939998626708984,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.EastBrokenTower.JaggedTowerCrown.CrookedRoof",
+        "expectedY": 42.94
+      },
+      {
+        "bottomY": 43.939998626708984,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.RearReliquarySpire.JaggedTowerCrown.CrookedRoof",
+        "expectedY": 43.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.CurseEntrance.GreatGothicArch",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.RearUndercroftEntrance.GreatGothicArch",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 2.140000820159912,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestSoulWarden.StoneWarden",
+        "expectedY": 2.1400000476837158
+      },
+      {
+        "bottomY": 2.140000820159912,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.EastSoulWarden.StoneWarden",
+        "expectedY": 2.1400000476837158
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestAutumnOffering.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.7599988965076534,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.WestBrokenCornice",
+        "expectedY": 0.76
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.EastAutumnOffering.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.7599988965076534,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.EastBrokenCornice",
+        "expectedY": 0.76
+      },
+      {
+        "bottomY": 1.609999179840088,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.CastleRitualGrounds.ArrivalMemorial-1",
+        "expectedY": 1.609999976158142
+      },
+      {
+        "bottomY": 1.609999179840088,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.CastleRitualGrounds.ArrivalMemorial1",
+        "expectedY": 1.609999976158142
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.CastleRitualGrounds.OldGroundsMemorial1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.CastleRitualGrounds.OldGroundsMemorial2",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.CentralMausoleum.CastleRitualGrounds.OldGroundsMemorial3",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 3.780000297381102,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.Ancestor_01.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.779998554605016,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.Ancestor_02.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.779999327303882,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.Ancestor_03.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.779999690665676,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.Ancestor_04.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.7799992163948417,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.Ancestor_05.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.77999916602836,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.Ancestor_06.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.5400009155273438,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.RearRailing",
+        "expectedY": 3.5399999141693117
+      },
+      {
+        "bottomY": 3.549999237060547,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 3.5499999141693115
+      },
+      {
+        "bottomY": 3.349999049095544,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_01.CollapsedCorner",
+        "expectedY": 3.3499999141693113
+      },
+      {
+        "bottomY": 3.6240012645721436,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_02.Ancestor_01.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6239983020651483,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_02.Ancestor_02.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6240001340953505,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_02.Ancestor_03.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.624001143743299,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_02.Ancestor_04.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.624000559394572,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_02.Ancestor_05.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.3839988708496094,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_02.RearRailing",
+        "expectedY": 3.3840000152587892
+      },
+      {
+        "bottomY": 3.3839988708496094,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_02.BrokenSideRailing",
+        "expectedY": 3.3840000152587892
+      },
+      {
+        "bottomY": 3.1940008191150753,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_02.CollapsedCorner",
+        "expectedY": 3.194000015258789
+      },
+      {
+        "bottomY": 4.5600013833691815,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.Ancestor_01.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559999886897822,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.Ancestor_02.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559998420592065,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.Ancestor_03.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559999126039758,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.Ancestor_04.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.5599998235702515,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.Ancestor_05.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559998377044265,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.Ancestor_06.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.329999923706055,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.FamilyMemorial",
+        "expectedY": 4.329999885559082
+      },
+      {
+        "bottomY": 4.319999694824219,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.RearRailing",
+        "expectedY": 4.319999885559082
+      },
+      {
+        "bottomY": 4.3300018310546875,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 4.329999885559082
+      },
+      {
+        "bottomY": 4.129997828392419,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_03.CollapsedCorner",
+        "expectedY": 4.129999885559082
+      },
+      {
+        "bottomY": 3.9360013683463313,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_04.Ancestor_01.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.936001154906524,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_04.Ancestor_02.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360013719816163,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_04.Ancestor_03.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360013686436144,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_04.Ancestor_04.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.6959991455078125,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_04.RearRailing",
+        "expectedY": 3.6960000514984133
+      },
+      {
+        "bottomY": 3.6959991455078125,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_04.BrokenSideRailing",
+        "expectedY": 3.6960000514984133
+      },
+      {
+        "bottomY": 3.5060010937732784,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_04.CollapsedCorner",
+        "expectedY": 3.506000051498413
+      },
+      {
+        "bottomY": 4.560001148599157,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_05.Ancestor_01.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.5600019212980225,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_05.Ancestor_02.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559998721047119,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_05.Ancestor_03.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.560001810388982,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_05.Ancestor_04.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559997945325236,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_05.Ancestor_05.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.319999694824219,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_05.RearRailing",
+        "expectedY": 4.319999885559082
+      },
+      {
+        "bottomY": 4.3300018310546875,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_05.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 4.329999885559082
+      },
+      {
+        "bottomY": 4.129997828392419,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_05.CollapsedCorner",
+        "expectedY": 4.129999885559082
+      },
+      {
+        "bottomY": 4.169999274082789,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.Ancestor_01.Headstone",
+        "expectedY": 4.169999990463257
+      },
+      {
+        "bottomY": 4.169997989535135,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.Ancestor_02.Headstone",
+        "expectedY": 4.169999990463257
+      },
+      {
+        "bottomY": 4.1699984529623855,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.Ancestor_03.Headstone",
+        "expectedY": 4.169999990463257
+      },
+      {
+        "bottomY": 4.170001531412213,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.Ancestor_04.Headstone",
+        "expectedY": 4.169999990463257
+      },
+      {
+        "bottomY": 4.169998477803439,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.Ancestor_05.Headstone",
+        "expectedY": 4.169999990463257
+      },
+      {
+        "bottomY": 4.1699989990682855,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.Ancestor_06.Headstone",
+        "expectedY": 4.169999990463257
+      },
+      {
+        "bottomY": 3.9399986267089844,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.FamilyMemorial",
+        "expectedY": 3.9400000190734863
+      },
+      {
+        "bottomY": 3.9300003051757812,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.RearRailing",
+        "expectedY": 3.9300000190734865
+      },
+      {
+        "bottomY": 3.9300003051757812,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.BrokenSideRailing",
+        "expectedY": 3.9300000190734865
+      },
+      {
+        "bottomY": 3.7399984387439815,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_06.CollapsedCorner",
+        "expectedY": 3.740000019073486
+      },
+      {
+        "bottomY": 4.715998116878291,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_07.Ancestor_01.Headstone",
+        "expectedY": 4.715999994277954
+      },
+      {
+        "bottomY": 4.7160004652698,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_07.Ancestor_02.Headstone",
+        "expectedY": 4.715999994277954
+      },
+      {
+        "bottomY": 4.716000708408961,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_07.Ancestor_03.Headstone",
+        "expectedY": 4.715999994277954
+      },
+      {
+        "bottomY": 4.716001868247986,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_07.Ancestor_04.Headstone",
+        "expectedY": 4.715999994277954
+      },
+      {
+        "bottomY": 4.4759979248046875,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_07.RearRailing",
+        "expectedY": 4.476000022888184
+      },
+      {
+        "bottomY": 4.486000061035156,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_07.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 4.486000022888184
+      },
+      {
+        "bottomY": 4.285999873070153,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_07.CollapsedCorner",
+        "expectedY": 4.286000022888183
+      },
+      {
+        "bottomY": 3.624001214779396,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.Ancestor_01.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6240006509404976,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.Ancestor_02.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6240010939854113,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.Ancestor_03.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6240011506357996,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.Ancestor_04.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6239984959842264,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.Ancestor_05.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6240001340953505,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.Ancestor_06.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.3839988708496094,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.RearRailing",
+        "expectedY": 3.3840000152587892
+      },
+      {
+        "bottomY": 3.3839988708496094,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.BrokenSideRailing",
+        "expectedY": 3.3840000152587892
+      },
+      {
+        "bottomY": 3.1940008191150753,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_08.CollapsedCorner",
+        "expectedY": 3.194000015258789
+      },
+      {
+        "bottomY": 4.5600019212980225,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.Ancestor_01.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559998469962551,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.Ancestor_02.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.560001810388982,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.Ancestor_03.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559997945325236,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.Ancestor_04.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.559998721047119,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.Ancestor_05.Headstone",
+        "expectedY": 4.559999856948853
+      },
+      {
+        "bottomY": 4.329999923706055,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.FamilyMemorial",
+        "expectedY": 4.329999885559082
+      },
+      {
+        "bottomY": 4.319999694824219,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.RearRailing",
+        "expectedY": 4.319999885559082
+      },
+      {
+        "bottomY": 4.3300018310546875,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 4.329999885559082
+      },
+      {
+        "bottomY": 4.129997828392419,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_09.CollapsedCorner",
+        "expectedY": 4.129999885559082
+      },
+      {
+        "bottomY": 3.936000644564432,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.Ancestor_01.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360011079916823,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.Ancestor_02.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360008340527752,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.Ancestor_03.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360013686436144,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.Ancestor_04.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360016540975824,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.Ancestor_05.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9359991718306517,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.Ancestor_06.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.6959991455078125,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.RearRailing",
+        "expectedY": 3.6960000514984133
+      },
+      {
+        "bottomY": 3.6959991455078125,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.BrokenSideRailing",
+        "expectedY": 3.6960000514984133
+      },
+      {
+        "bottomY": 3.5060010937732784,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_10.CollapsedCorner",
+        "expectedY": 3.506000051498413
+      },
+      {
+        "bottomY": 4.8719986952502685,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_11.Ancestor_01.Headstone",
+        "expectedY": 4.871999893188477
+      },
+      {
+        "bottomY": 4.871999400697961,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_11.Ancestor_02.Headstone",
+        "expectedY": 4.871999893188477
+      },
+      {
+        "bottomY": 4.872000098228455,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_11.Ancestor_03.Headstone",
+        "expectedY": 4.871999893188477
+      },
+      {
+        "bottomY": 4.872002131868659,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_11.Ancestor_04.Headstone",
+        "expectedY": 4.871999893188477
+      },
+      {
+        "bottomY": 4.631999969482422,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_11.RearRailing",
+        "expectedY": 4.631999921798706
+      },
+      {
+        "bottomY": 4.641998291015625,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_11.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 4.641999921798706
+      },
+      {
+        "bottomY": 4.442001917747888,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_11.CollapsedCorner",
+        "expectedY": 4.441999921798706
+      },
+      {
+        "bottomY": 3.9360013719816163,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.Ancestor_01.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360013686436144,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.Ancestor_02.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360014252940028,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.Ancestor_03.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360021416110493,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.Ancestor_04.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360004087535536,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.Ancestor_05.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.7060012817382812,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.FamilyMemorial",
+        "expectedY": 3.706000051498413
+      },
+      {
+        "bottomY": 3.6959991455078125,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.RearRailing",
+        "expectedY": 3.6960000514984133
+      },
+      {
+        "bottomY": 3.6959991455078125,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.BrokenSideRailing",
+        "expectedY": 3.6960000514984133
+      },
+      {
+        "bottomY": 3.5060010937732784,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_12.CollapsedCorner",
+        "expectedY": 3.506000051498413
+      },
+      {
+        "bottomY": 3.545998530997707,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_13.Ancestor_01.Headstone",
+        "expectedY": 3.545999917984009
+      },
+      {
+        "bottomY": 3.5460018714241386,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_13.Ancestor_02.Headstone",
+        "expectedY": 3.545999917984009
+      },
+      {
+        "bottomY": 3.5459980063603913,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_13.Ancestor_03.Headstone",
+        "expectedY": 3.545999917984009
+      },
+      {
+        "bottomY": 3.5459987820822754,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_13.Ancestor_04.Headstone",
+        "expectedY": 3.545999917984009
+      },
+      {
+        "bottomY": 3.305999755859375,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_13.RearRailing",
+        "expectedY": 3.3059999465942385
+      },
+      {
+        "bottomY": 3.3160018920898438,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_13.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 3.3159999465942382
+      },
+      {
+        "bottomY": 3.1159978894275753,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_13.CollapsedCorner",
+        "expectedY": 3.115999946594238
+      },
+      {
+        "bottomY": 4.091999648381971,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_14.Ancestor_01.Headstone",
+        "expectedY": 4.091999921798706
+      },
+      {
+        "bottomY": 4.091998601724713,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_14.Ancestor_02.Headstone",
+        "expectedY": 4.091999921798706
+      },
+      {
+        "bottomY": 4.091999598624083,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_14.Ancestor_03.Headstone",
+        "expectedY": 4.091999921798706
+      },
+      {
+        "bottomY": 4.092000197933765,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_14.Ancestor_04.Headstone",
+        "expectedY": 4.091999921798706
+      },
+      {
+        "bottomY": 3.852001190185547,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_14.RearRailing",
+        "expectedY": 3.8519999504089357
+      },
+      {
+        "bottomY": 3.852001190185547,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_14.BrokenSideRailing",
+        "expectedY": 3.8519999504089357
+      },
+      {
+        "bottomY": 3.661999323753747,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_14.CollapsedCorner",
+        "expectedY": 3.6619999504089353
+      },
+      {
+        "bottomY": 3.857999461733117,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.Ancestor_01.Headstone",
+        "expectedY": 3.857999954223633
+      },
+      {
+        "bottomY": 3.858000159263611,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.Ancestor_02.Headstone",
+        "expectedY": 3.857999954223633
+      },
+      {
+        "bottomY": 3.8580021929038155,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.Ancestor_03.Headstone",
+        "expectedY": 3.857999954223633
+      },
+      {
+        "bottomY": 3.8579996379625037,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.Ancestor_04.Headstone",
+        "expectedY": 3.857999954223633
+      },
+      {
+        "bottomY": 3.857999998235571,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.Ancestor_05.Headstone",
+        "expectedY": 3.857999954223633
+      },
+      {
+        "bottomY": 3.6279983520507812,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.FamilyMemorial",
+        "expectedY": 3.6279999828338623
+      },
+      {
+        "bottomY": 3.618000030517578,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.RearRailing",
+        "expectedY": 3.6179999828338625
+      },
+      {
+        "bottomY": 3.6279983520507812,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 3.6279999828338623
+      },
+      {
+        "bottomY": 3.428001978783044,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_15.CollapsedCorner",
+        "expectedY": 3.427999982833862
+      },
+      {
+        "bottomY": 4.403999873282286,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_16.Ancestor_01.Headstone",
+        "expectedY": 4.40399995803833
+      },
+      {
+        "bottomY": 4.403999929932675,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_16.Ancestor_02.Headstone",
+        "expectedY": 4.40399995803833
+      },
+      {
+        "bottomY": 4.40400064624972,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_16.Ancestor_03.Headstone",
+        "expectedY": 4.40399995803833
+      },
+      {
+        "bottomY": 4.4039989133922255,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_16.Ancestor_04.Headstone",
+        "expectedY": 4.40399995803833
+      },
+      {
+        "bottomY": 4.16400146484375,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_16.RearRailing",
+        "expectedY": 4.16399998664856
+      },
+      {
+        "bottomY": 4.16400146484375,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_16.BrokenSideRailing",
+        "expectedY": 4.16399998664856
+      },
+      {
+        "bottomY": 3.9739995984119503,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_16.CollapsedCorner",
+        "expectedY": 3.9739999866485594
+      },
+      {
+        "bottomY": 3.6240006656668733,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_17.Ancestor_01.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6240009360478913,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_17.Ancestor_02.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6240017117697754,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_17.Ancestor_03.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.6239978785978275,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_17.Ancestor_04.Headstone",
+        "expectedY": 3.6239999866485597
+      },
+      {
+        "bottomY": 3.3839988708496094,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_17.RearRailing",
+        "expectedY": 3.3840000152587892
+      },
+      {
+        "bottomY": 3.394001007080078,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_17.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 3.394000015258789
+      },
+      {
+        "bottomY": 3.1940008191150753,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_17.CollapsedCorner",
+        "expectedY": 3.194000015258789
+      },
+      {
+        "bottomY": 3.779998789375041,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_18.Ancestor_01.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.77999932396588,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_18.Ancestor_02.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.779999923275562,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_18.Ancestor_03.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.780000941850183,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_18.Ancestor_04.Headstone",
+        "expectedY": 3.779999885559082
+      },
+      {
+        "bottomY": 3.549999237060547,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_18.FamilyMemorial",
+        "expectedY": 3.5499999141693115
+      },
+      {
+        "bottomY": 3.5400009155273438,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_18.RearRailing",
+        "expectedY": 3.5399999141693117
+      },
+      {
+        "bottomY": 3.5400009155273438,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_18.BrokenSideRailing",
+        "expectedY": 3.5399999141693117
+      },
+      {
+        "bottomY": 3.349999049095544,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_18.CollapsedCorner",
+        "expectedY": 3.3499999141693113
+      },
+      {
+        "bottomY": 3.702001929283142,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_19.Ancestor_01.Headstone",
+        "expectedY": 3.7020000553131105
+      },
+      {
+        "bottomY": 3.702000148226081,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_19.Ancestor_02.Headstone",
+        "expectedY": 3.7020000553131105
+      },
+      {
+        "bottomY": 3.702001407982035,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_19.Ancestor_03.Headstone",
+        "expectedY": 3.7020000553131105
+      },
+      {
+        "bottomY": 3.701998177913447,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_19.Ancestor_04.Headstone",
+        "expectedY": 3.7020000553131105
+      },
+      {
+        "bottomY": 3.4619979858398438,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_19.RearRailing",
+        "expectedY": 3.46200008392334
+      },
+      {
+        "bottomY": 3.4720001220703125,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_19.AutumnMemorial.RibbedPumpkin",
+        "expectedY": 3.47200008392334
+      },
+      {
+        "bottomY": 3.2719999341053096,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_19.CollapsedCorner",
+        "expectedY": 3.2720000839233396
+      },
+      {
+        "bottomY": 3.936001090762928,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_20.Ancestor_01.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9359987706424295,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_20.Ancestor_02.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.9360004087535536,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_20.Ancestor_03.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.935997827727859,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_20.Ancestor_04.Headstone",
+        "expectedY": 3.9360000228881837
+      },
+      {
+        "bottomY": 3.6959991455078125,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_20.RearRailing",
+        "expectedY": 3.6960000514984133
+      },
+      {
+        "bottomY": 3.6959991455078125,
+        "inset": 0.05,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_20.BrokenSideRailing",
+        "expectedY": 3.6960000514984133
+      },
+      {
+        "bottomY": 3.5060010937732784,
+        "inset": 0.24,
+        "name": "Workspace.StealACurseMap.Cemetery.FamilyPlot_20.CollapsedCorner",
+        "expectedY": 3.506000051498413
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_01.Buttress-1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_01.Buttress1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 1.5600013732910156,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_01.PointedEntry",
+        "expectedY": 1.5600000238418579
+      },
+      {
+        "bottomY": 13.520000457763672,
+        "inset": 0.08,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_01.CrookedRoof",
+        "expectedY": 13.520000381469726
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_01.ForgottenOffering.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_02.Buttress-1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_02.Buttress1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 1.5600013732910156,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_02.PointedEntry",
+        "expectedY": 1.5600000238418579
+      },
+      {
+        "bottomY": 13.520000457763672,
+        "inset": 0.08,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_02.CrookedRoof",
+        "expectedY": 13.520000381469726
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_02.ForgottenOffering.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_03.Buttress-1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_03.Buttress1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 1.5600013732910156,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_03.PointedEntry",
+        "expectedY": 1.5600000238418579
+      },
+      {
+        "bottomY": 13.520000457763672,
+        "inset": 0.08,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_03.CrookedRoof",
+        "expectedY": 13.520000381469726
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_03.ForgottenOffering.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_04.Buttress-1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_04.Buttress1",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 1.5600013732910156,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_04.PointedEntry",
+        "expectedY": 1.5600000238418579
+      },
+      {
+        "bottomY": 13.520000457763672,
+        "inset": 0.08,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_04.CrookedRoof",
+        "expectedY": 13.520000381469726
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.Cemetery.ForgottenCrypt_04.ForgottenOffering.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.8451986312866211,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_006.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8500000238418579,
+        "inset": 0.15,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_007.RootFan",
+        "expectedY": 0.85
+      },
+      {
+        "bottomY": 0.779998779296875,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.AncientRoot_07",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.8500008583068848,
+        "inset": 0.15,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_021.RootFan",
+        "expectedY": 0.85
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_022.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.7695999145507812,
+        "inset": 0.2304,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_024.TwistedCanopy",
+        "expectedY": 0.7696000000000001
+      },
+      {
+        "bottomY": 0.8451986312866211,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_036.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8500000238418579,
+        "inset": 0.15,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_042.RootFan",
+        "expectedY": 0.85
+      },
+      {
+        "bottomY": 0.8452005386352539,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_051.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_057.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.7444000244140625,
+        "inset": 0.2556,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_060.TwistedCanopy",
+        "expectedY": 0.7444
+      },
+      {
+        "bottomY": 0.8451986312866211,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_071.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_072.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.8500000238418579,
+        "inset": 0.15,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_077.RootFan",
+        "expectedY": 0.85
+      },
+      {
+        "bottomY": 0.7948007583618164,
+        "inset": 0.20520000000000002,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_078.TwistedCanopy",
+        "expectedY": 0.7948
+      },
+      {
+        "bottomY": 0.7695989608764648,
+        "inset": 0.2304,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_079.TwistedCanopy",
+        "expectedY": 0.7696000000000001
+      },
+      {
+        "bottomY": 0.779998779296875,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.AncientRoot_79",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_082.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.7947998046875,
+        "inset": 0.20520000000000002,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_088.TwistedCanopy",
+        "expectedY": 0.7948
+      },
+      {
+        "bottomY": 0.7695989608764648,
+        "inset": 0.2304,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_089.TwistedCanopy",
+        "expectedY": 0.7696000000000001
+      },
+      {
+        "bottomY": 0.7947988510131836,
+        "inset": 0.20520000000000002,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_093.TwistedCanopy",
+        "expectedY": 0.7948
+      },
+      {
+        "bottomY": 0.8451981544494629,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_096.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_107.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.8451995849609375,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_116.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_132.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.7948007583618164,
+        "inset": 0.20520000000000002,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_143.TwistedCanopy",
+        "expectedY": 0.7948
+      },
+      {
+        "bottomY": 0.7695989608764648,
+        "inset": 0.2304,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_149.TwistedCanopy",
+        "expectedY": 0.7696000000000001
+      },
+      {
+        "bottomY": 0.7444000244140625,
+        "inset": 0.2556,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_150.TwistedCanopy",
+        "expectedY": 0.7444
+      },
+      {
+        "bottomY": 0.7444000244140625,
+        "inset": 0.2556,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_160.TwistedCanopy",
+        "expectedY": 0.7444
+      },
+      {
+        "bottomY": 0.8500008583068848,
+        "inset": 0.15,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_161.RootFan",
+        "expectedY": 0.85
+      },
+      {
+        "bottomY": 0.7947988510131836,
+        "inset": 0.20520000000000002,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_163.TwistedCanopy",
+        "expectedY": 0.7948
+      },
+      {
+        "bottomY": 0.779998779296875,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.AncientRoot_163",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.8451981544494629,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_166.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8451986312866211,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_171.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_177.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.7948007583618164,
+        "inset": 0.20520000000000002,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_178.TwistedCanopy",
+        "expectedY": 0.7948
+      },
+      {
+        "bottomY": 0.8500000238418579,
+        "inset": 0.15,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_182.RootFan",
+        "expectedY": 0.85
+      },
+      {
+        "bottomY": 0.7444000244140625,
+        "inset": 0.2556,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_185.TwistedCanopy",
+        "expectedY": 0.7444
+      },
+      {
+        "bottomY": 0.7948007583618164,
+        "inset": 0.20520000000000002,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_188.TwistedCanopy",
+        "expectedY": 0.7948
+      },
+      {
+        "bottomY": 0.8500008583068848,
+        "inset": 0.15,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_196.RootFan",
+        "expectedY": 0.85
+      },
+      {
+        "bottomY": 0.7947988510131836,
+        "inset": 0.20520000000000002,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_198.TwistedCanopy",
+        "expectedY": 0.7948
+      },
+      {
+        "bottomY": 0.7695999145507812,
+        "inset": 0.2304,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_199.TwistedCanopy",
+        "expectedY": 0.7696000000000001
+      },
+      {
+        "bottomY": 0.779998779296875,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.AncientRoot_199",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.7444000244140625,
+        "inset": 0.2556,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_200.TwistedCanopy",
+        "expectedY": 0.7444
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_202.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.7444000244140625,
+        "inset": 0.2556,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_205.TwistedCanopy",
+        "expectedY": 0.7444
+      },
+      {
+        "bottomY": 0.779998779296875,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.AncientRoot_205",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.8451986312866211,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_206.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.8199996948242188,
+        "inset": 0.18,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_207.TwistedCanopy",
+        "expectedY": 0.8200000000000001
+      },
+      {
+        "bottomY": 0.7695999145507812,
+        "inset": 0.2304,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_214.TwistedCanopy",
+        "expectedY": 0.7696000000000001
+      },
+      {
+        "bottomY": 0.7444000244140625,
+        "inset": 0.2556,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_220.TwistedCanopy",
+        "expectedY": 0.7444
+      },
+      {
+        "bottomY": 0.8451995849609375,
+        "inset": 0.1548,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_221.TwistedCanopy",
+        "expectedY": 0.8452
+      },
+      {
+        "bottomY": 0.7695989608764648,
+        "inset": 0.2304,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.ForestTree_229.TwistedCanopy",
+        "expectedY": 0.7696000000000001
+      },
+      {
+        "bottomY": 0.779998779296875,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.AncientRoot_229",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.5519998105527009,
+        "inset": 0.44799999999999995,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_03",
+        "expectedY": 0.552
+      },
+      {
+        "bottomY": 0.6319989321501538,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_05",
+        "expectedY": 0.632
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.RuinOffering_05.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.7120019098458243,
+        "inset": 0.28800000000000003,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_07",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.6319989321501538,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_11",
+        "expectedY": 0.632
+      },
+      {
+        "bottomY": 0.5519998105527009,
+        "inset": 0.44799999999999995,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_12",
+        "expectedY": 0.552
+      },
+      {
+        "bottomY": 0.7120019098458243,
+        "inset": 0.28800000000000003,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_13",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.RuinOffering_13.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.6319989321501538,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_14",
+        "expectedY": 0.632
+      },
+      {
+        "bottomY": 0.5519998105527009,
+        "inset": 0.44799999999999995,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_15",
+        "expectedY": 0.552
+      },
+      {
+        "bottomY": 0.5519998105527009,
+        "inset": 0.44799999999999995,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_18",
+        "expectedY": 0.552
+      },
+      {
+        "bottomY": 0.7120019098458243,
+        "inset": 0.28800000000000003,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_19",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.6319989321501538,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_20",
+        "expectedY": 0.632
+      },
+      {
+        "bottomY": 0.5519998105527009,
+        "inset": 0.44799999999999995,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_21",
+        "expectedY": 0.552
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.RuinOffering_21.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 2.3850861688790275,
+        "inset": 0.28800000000000003,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_22",
+        "expectedY": 2.385085808753967
+      },
+      {
+        "bottomY": 0.7120019098458243,
+        "inset": 0.28800000000000003,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_25",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.RuinOffering_25.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.6319989321501538,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedWoodland.BuriedMonument_26",
+        "expectedY": 0.632
+      },
+      {
+        "bottomY": 0.779998779296875,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.WidowsOak.AncientSilhouette",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.7800006866455078,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.HollowSentinel.AncientSilhouette",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.7800006866455078,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.ChainedTree.AncientSilhouette",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 0.7800006866455078,
+        "inset": 0.22,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.MourningTree.AncientSilhouette",
+        "expectedY": 0.78
+      },
+      {
+        "bottomY": 3.3777122497558594,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.ChapelButtress-10",
+        "expectedY": 3.377711238861084
+      },
+      {
+        "bottomY": 3.3777122497558594,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.ChapelButtress-11",
+        "expectedY": 3.377711238861084
+      },
+      {
+        "bottomY": 3.3777122497558594,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.ChapelButtress-12",
+        "expectedY": 3.377711238861084
+      },
+      {
+        "bottomY": 3.3777122497558594,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.ChapelButtress10",
+        "expectedY": 3.377711238861084
+      },
+      {
+        "bottomY": 3.3777122497558594,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.ChapelButtress11",
+        "expectedY": 3.377711238861084
+      },
+      {
+        "bottomY": 3.3777122497558594,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.ChapelButtress12",
+        "expectedY": 3.377711238861084
+      },
+      {
+        "bottomY": 3.977710723876953,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.SurvivingChapelArch",
+        "expectedY": 3.9777111434936523
+      },
+      {
+        "bottomY": 3.957709853031849,
+        "inset": 0.08,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.FallenRoseWindow",
+        "expectedY": 3.9577111434936523
+      },
+      {
+        "bottomY": 3.069712555197029,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.FallenVault0",
+        "expectedY": 3.069711238861084
+      },
+      {
+        "bottomY": 3.069712555197029,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.FallenVault1",
+        "expectedY": 3.069711238861084
+      },
+      {
+        "bottomY": 3.1829136965544507,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.FallenVault2",
+        "expectedY": 3.1829154796600343
+      },
+      {
+        "bottomY": 3.1367444155485913,
+        "inset": 0.368,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.CollapsedChapel.FallenVault3",
+        "expectedY": 3.1367452449798585
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.OldCemeteryGate",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.9399986267089844,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.ForgottenWarden",
+        "expectedY": 0.94
+      },
+      {
+        "bottomY": 0.6799998923084303,
+        "inset": 0.32,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.BrokenWardenStair",
+        "expectedY": 0.6799999999999999
+      },
+      {
+        "bottomY": 0.75,
+        "inset": 0.25,
+        "name": "Workspace.StealACurseMap.HauntedLandmarks.SpectralRootGarden.EmbracingRoot",
+        "expectedY": 0.75
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.BoundaryFence-1_1",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.BoundaryFence-1_3",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.RearFence-1",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.BoundaryFence1_1",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.BoundaryFence1_3",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.RearFence1",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7400005161762238,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.SanctuaryGateway.GothicThreshold",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.CollectionCourt.PedestalArtwork1.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.CollectionCourt.PedestalArtwork2.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.CollectionCourt.PedestalArtwork3.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.CollectionCourt.PedestalArtwork4.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.CollectionCourt.PedestalArtwork5.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 1.6514997482299805,
+        "inset": 0.1485,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.TerritorySentinel.TwistedCanopy",
+        "expectedY": 1.6515001311302184
+      },
+      {
+        "bottomY": 1.989999967717993,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.FamilyGrave1.Headstone",
+        "expectedY": 1.9900001621246337
+      },
+      {
+        "bottomY": 1.9899987257678466,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.FamilyGrave2.Headstone",
+        "expectedY": 1.9900001621246337
+      },
+      {
+        "bottomY": 1.9900015919434377,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.FamilyGrave3.Headstone",
+        "expectedY": 1.9900001621246337
+      },
+      {
+        "bottomY": 1.6400007724761991,
+        "inset": 0.16,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.WeatheredRoot",
+        "expectedY": 1.6400001311302186
+      },
+      {
+        "bottomY": 1.7400001955032423,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.GatePumpkin",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.740000610351558,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base01.SmallGatePumpkin",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 2.7399994671344814,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.BoundaryFence-1_1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7399994671344814,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.BoundaryFence-1_3",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7399994671344814,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.RearFence-1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7399994671344814,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.BoundaryFence1_1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7399994671344814,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.BoundaryFence1_3",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7399994671344814,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.RearFence1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7400003522634506,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.SanctuaryGateway.GothicThreshold",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 3.1500015929341316,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.CollectionCourt.PedestalArtwork1.CollectionPedestal",
+        "expectedY": 3.1499998569488525
+      },
+      {
+        "bottomY": 3.1500015929341316,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.CollectionCourt.PedestalArtwork2.CollectionPedestal",
+        "expectedY": 3.1499998569488525
+      },
+      {
+        "bottomY": 3.1500015929341316,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.CollectionCourt.PedestalArtwork3.CollectionPedestal",
+        "expectedY": 3.1499998569488525
+      },
+      {
+        "bottomY": 3.1500015929341316,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.CollectionCourt.PedestalArtwork4.CollectionPedestal",
+        "expectedY": 3.1499998569488525
+      },
+      {
+        "bottomY": 3.1500015929341316,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.CollectionCourt.PedestalArtwork5.CollectionPedestal",
+        "expectedY": 3.1499998569488525
+      },
+      {
+        "bottomY": 2.643399238586426,
+        "inset": 0.1566,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.TerritorySentinel.TwistedCanopy",
+        "expectedY": 2.643399952316284
+      },
+      {
+        "bottomY": 2.990001453774938,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.FamilyGrave1.Headstone",
+        "expectedY": 2.989999923706055
+      },
+      {
+        "bottomY": 2.9900000591363796,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.FamilyGrave2.Headstone",
+        "expectedY": 2.989999923706055
+      },
+      {
+        "bottomY": 2.640001022815703,
+        "inset": 0.16,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.WeatheredRoot",
+        "expectedY": 2.639999952316284
+      },
+      {
+        "bottomY": 2.7400004529952966,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.GatePumpkin",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7400007820129417,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.SmallGatePumpkin",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7400006723403934,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base02.GravePumpkin",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.BoundaryFence-1_1",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.BoundaryFence-1_3",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.RearFence-1",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.BoundaryFence1_1",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.BoundaryFence1_3",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7399989485740548,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.RearFence1",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.7400005161762238,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.SanctuaryGateway.GothicThreshold",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.CollectionCourt.PedestalArtwork1.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.CollectionCourt.PedestalArtwork2.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.CollectionCourt.PedestalArtwork3.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.CollectionCourt.PedestalArtwork4.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 2.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.CollectionCourt.PedestalArtwork5.CollectionPedestal",
+        "expectedY": 2.1500000953674316
+      },
+      {
+        "bottomY": 1.6595993041992188,
+        "inset": 0.1404,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.TerritorySentinel.TwistedCanopy",
+        "expectedY": 1.6596001311302184
+      },
+      {
+        "bottomY": 1.989999431215539,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.FamilyGrave1.Headstone",
+        "expectedY": 1.9900001621246337
+      },
+      {
+        "bottomY": 1.9899983782343993,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.FamilyGrave2.Headstone",
+        "expectedY": 1.9900001621246337
+      },
+      {
+        "bottomY": 1.9899990077482181,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.FamilyGrave3.Headstone",
+        "expectedY": 1.9900001621246337
+      },
+      {
+        "bottomY": 1.6400007724761991,
+        "inset": 0.16,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.WeatheredRoot",
+        "expectedY": 1.6400001311302186
+      },
+      {
+        "bottomY": 1.7400001955032423,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.GatePumpkin",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 1.740000610351558,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base03.SmallGatePumpkin",
+        "expectedY": 1.7400001311302185
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.BoundaryFence-1_1",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.BoundaryFence-1_3",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.RearFence-1",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.BoundaryFence1_1",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.BoundaryFence1_3",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.RearFence1",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.7400005161762238,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.SanctuaryGateway.GothicThreshold",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.CollectionCourt.PedestalArtwork1.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.CollectionCourt.PedestalArtwork2.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.CollectionCourt.PedestalArtwork3.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.CollectionCourt.PedestalArtwork4.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.CollectionCourt.PedestalArtwork5.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 3.6514997482299805,
+        "inset": 0.1485,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.TerritorySentinel.TwistedCanopy",
+        "expectedY": 3.6515001907348634
+      },
+      {
+        "bottomY": 3.990002222838519,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.FamilyGrave1.Headstone",
+        "expectedY": 3.990000162124634
+      },
+      {
+        "bottomY": 3.989998458196424,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.FamilyGrave2.Headstone",
+        "expectedY": 3.990000162124634
+      },
+      {
+        "bottomY": 3.640000772476199,
+        "inset": 0.16,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.WeatheredRoot",
+        "expectedY": 3.640000190734863
+      },
+      {
+        "bottomY": 3.7400001955032423,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.GatePumpkin",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.740000610351558,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.SmallGatePumpkin",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.740000472068786,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base04.GravePumpkin",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.BoundaryFence-1_1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.BoundaryFence-1_3",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.RearFence-1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.BoundaryFence1_1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.BoundaryFence1_3",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.RearFence1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999771118164,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.SanctuaryGateway.GothicThreshold",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.CollectionCourt.PedestalArtwork1.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.CollectionCourt.PedestalArtwork2.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.CollectionCourt.PedestalArtwork3.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.CollectionCourt.PedestalArtwork4.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.CollectionCourt.PedestalArtwork5.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 2.643399238586426,
+        "inset": 0.1566,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.TerritorySentinel.TwistedCanopy",
+        "expectedY": 2.643399952316284
+      },
+      {
+        "bottomY": 2.990002086758608,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.FamilyGrave1.Headstone",
+        "expectedY": 2.989999923706055
+      },
+      {
+        "bottomY": 2.989997777246172,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.FamilyGrave2.Headstone",
+        "expectedY": 2.989999923706055
+      },
+      {
+        "bottomY": 2.990001263245741,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.FamilyGrave3.Headstone",
+        "expectedY": 2.989999923706055
+      },
+      {
+        "bottomY": 2.6400009393692017,
+        "inset": 0.16,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.WeatheredRoot",
+        "expectedY": 2.639999952316284
+      },
+      {
+        "bottomY": 2.740000367164612,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.GatePumpkin",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7400007247924805,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base05.SmallGatePumpkin",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 1.7399992942810059,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.BoundaryFence-1_1",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 1.7399992942810059,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.BoundaryFence-1_3",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 1.7399992942810059,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.RearFence-1",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 1.7399992942810059,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.BoundaryFence1_1",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 1.7399992942810059,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.BoundaryFence1_3",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 1.7399992942810059,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.RearFence1",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 1.739999771118164,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.SanctuaryGateway.GothicThreshold",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 2.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.CollectionCourt.PedestalArtwork1.CollectionPedestal",
+        "expectedY": 2.149999976158142
+      },
+      {
+        "bottomY": 2.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.CollectionCourt.PedestalArtwork2.CollectionPedestal",
+        "expectedY": 2.149999976158142
+      },
+      {
+        "bottomY": 2.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.CollectionCourt.PedestalArtwork3.CollectionPedestal",
+        "expectedY": 2.149999976158142
+      },
+      {
+        "bottomY": 2.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.CollectionCourt.PedestalArtwork4.CollectionPedestal",
+        "expectedY": 2.149999976158142
+      },
+      {
+        "bottomY": 2.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.CollectionCourt.PedestalArtwork5.CollectionPedestal",
+        "expectedY": 2.149999976158142
+      },
+      {
+        "bottomY": 1.6596002578735352,
+        "inset": 0.1404,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.TerritorySentinel.TwistedCanopy",
+        "expectedY": 1.6596000119209289
+      },
+      {
+        "bottomY": 1.9899982505010163,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.FamilyGrave1.Headstone",
+        "expectedY": 1.9900000429153442
+      },
+      {
+        "bottomY": 1.9899985763170722,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.FamilyGrave2.Headstone",
+        "expectedY": 1.9900000429153442
+      },
+      {
+        "bottomY": 1.6400009393692017,
+        "inset": 0.16,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.WeatheredRoot",
+        "expectedY": 1.640000011920929
+      },
+      {
+        "bottomY": 1.7400003671646118,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.GatePumpkin",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 1.7400007247924805,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.SmallGatePumpkin",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 1.740000605583191,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base06.GravePumpkin",
+        "expectedY": 1.740000011920929
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.BoundaryFence-1_1",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.BoundaryFence-1_3",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.RearFence-1",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.BoundaryFence1_1",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.BoundaryFence1_3",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.739998948574055,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.RearFence1",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.7400005161762238,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.SanctuaryGateway.GothicThreshold",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.CollectionCourt.PedestalArtwork1.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.CollectionCourt.PedestalArtwork2.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.CollectionCourt.PedestalArtwork3.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.CollectionCourt.PedestalArtwork4.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 4.1500013917684555,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.CollectionCourt.PedestalArtwork5.CollectionPedestal",
+        "expectedY": 4.150000095367432
+      },
+      {
+        "bottomY": 3.6514997482299805,
+        "inset": 0.1485,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.TerritorySentinel.TwistedCanopy",
+        "expectedY": 3.6515001907348634
+      },
+      {
+        "bottomY": 3.989998576317072,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.FamilyGrave1.Headstone",
+        "expectedY": 3.990000162124634
+      },
+      {
+        "bottomY": 3.9900021155647636,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.FamilyGrave2.Headstone",
+        "expectedY": 3.990000162124634
+      },
+      {
+        "bottomY": 3.989999625134617,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.FamilyGrave3.Headstone",
+        "expectedY": 3.990000162124634
+      },
+      {
+        "bottomY": 3.640000772476199,
+        "inset": 0.16,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.WeatheredRoot",
+        "expectedY": 3.640000190734863
+      },
+      {
+        "bottomY": 3.7400001955032423,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.GatePumpkin",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 3.740000610351558,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base07.SmallGatePumpkin",
+        "expectedY": 3.7400001907348632
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.BoundaryFence-1_1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.BoundaryFence-1_3",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.RearFence-1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.BoundaryFence1_1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.BoundaryFence1_3",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999294281006,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.RearFence1",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.739999771118164,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.SanctuaryGateway.GothicThreshold",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.CollectionCourt.PedestalArtwork1.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.CollectionCourt.PedestalArtwork2.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.CollectionCourt.PedestalArtwork3.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.CollectionCourt.PedestalArtwork4.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 3.1500015258789062,
+        "inset": 0,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.CollectionCourt.PedestalArtwork5.CollectionPedestal",
+        "expectedY": 3.1500000953674316
+      },
+      {
+        "bottomY": 2.643399238586426,
+        "inset": 0.1566,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.TerritorySentinel.TwistedCanopy",
+        "expectedY": 2.643399952316284
+      },
+      {
+        "bottomY": 2.990001453774938,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.FamilyGrave1.Headstone",
+        "expectedY": 2.989999923706055
+      },
+      {
+        "bottomY": 2.9899985790252686,
+        "inset": 0.09,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.FamilyGrave2.Headstone",
+        "expectedY": 2.989999923706055
+      },
+      {
+        "bottomY": 2.6400009393692017,
+        "inset": 0.16,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.WeatheredRoot",
+        "expectedY": 2.639999952316284
+      },
+      {
+        "bottomY": 2.740000367164612,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.GatePumpkin",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.7400007247924805,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.SmallGatePumpkin",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 2.740000605583191,
+        "inset": 0.06,
+        "name": "Workspace.StealACurseMap.PlayerSanctuaries.Base08.GravePumpkin",
+        "expectedY": 2.739999952316284
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_01.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_03.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_04.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_06.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119989395141602,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_07.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_09.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_10.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_12.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_13.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_15.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_16.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_18.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119989395141602,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_19.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_21.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_22.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_24.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_25.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_27.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_28.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_30.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119989395141602,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_31.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_33.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_34.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_36.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_37.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_39.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_40.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_42.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119989395141602,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_43.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_45.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.7119998931884766,
+        "inset": 0.288,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_46.TwistedCanopy",
+        "expectedY": 0.712
+      },
+      {
+        "bottomY": 0.5860004425048828,
+        "inset": 0.414,
+        "name": "Workspace.StealACurseMap.DistantHauntedWorld.OuterForest_48.TwistedCanopy",
+        "expectedY": 0.5860000000000001
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.WestCastleVigil.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.WestCastleVigil.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.WestCastleVigil.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.EastCastleVigil.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.EastCastleVigil.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.EastCastleVigil.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering4.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering4.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering4.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering5.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering5.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering5.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering10.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering10.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering10.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering13.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering13.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.ProcessionOffering13.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering1.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering1.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering1.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 1.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering2.Offering1.RibbedPumpkin",
+        "expectedY": 1.96
+      },
+      {
+        "bottomY": 1.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering2.Offering2.RibbedPumpkin",
+        "expectedY": 1.9744
+      },
+      {
+        "bottomY": 1.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering2.Offering3.RibbedPumpkin",
+        "expectedY": 1.9816
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering3.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering3.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering3.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 2.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering4.Offering1.RibbedPumpkin",
+        "expectedY": 2.96
+      },
+      {
+        "bottomY": 2.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering4.Offering2.RibbedPumpkin",
+        "expectedY": 2.9744
+      },
+      {
+        "bottomY": 2.981600344181061,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering4.Offering3.RibbedPumpkin",
+        "expectedY": 2.9816
+      },
+      {
+        "bottomY": 1.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering5.Offering1.RibbedPumpkin",
+        "expectedY": 1.96
+      },
+      {
+        "bottomY": 1.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering5.Offering2.RibbedPumpkin",
+        "expectedY": 1.9744
+      },
+      {
+        "bottomY": 1.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering5.Offering3.RibbedPumpkin",
+        "expectedY": 1.9816
+      },
+      {
+        "bottomY": 0.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering6.Offering1.RibbedPumpkin",
+        "expectedY": 0.96
+      },
+      {
+        "bottomY": 0.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering6.Offering2.RibbedPumpkin",
+        "expectedY": 0.9744
+      },
+      {
+        "bottomY": 0.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering6.Offering3.RibbedPumpkin",
+        "expectedY": 0.9816
+      },
+      {
+        "bottomY": 2.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering7.Offering1.RibbedPumpkin",
+        "expectedY": 2.96
+      },
+      {
+        "bottomY": 2.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering7.Offering2.RibbedPumpkin",
+        "expectedY": 2.9744
+      },
+      {
+        "bottomY": 2.981600344181061,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering7.Offering3.RibbedPumpkin",
+        "expectedY": 2.9816
+      },
+      {
+        "bottomY": 1.9599990844726562,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering8.Offering1.RibbedPumpkin",
+        "expectedY": 1.96
+      },
+      {
+        "bottomY": 1.974398672580719,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering8.Offering2.RibbedPumpkin",
+        "expectedY": 1.9744
+      },
+      {
+        "bottomY": 1.9816003441810608,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.TerritoryOffering8.Offering3.RibbedPumpkin",
+        "expectedY": 1.9816
+      },
+      {
+        "bottomY": 3.394001007080078,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil2.Offering1.RibbedPumpkin",
+        "expectedY": 3.394000015258789
+      },
+      {
+        "bottomY": 3.408400595188141,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil2.Offering2.RibbedPumpkin",
+        "expectedY": 3.408400015258789
+      },
+      {
+        "bottomY": 3.415598452091217,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil2.Offering3.RibbedPumpkin",
+        "expectedY": 3.415600015258789
+      },
+      {
+        "bottomY": 3.7060012817382812,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil4.Offering1.RibbedPumpkin",
+        "expectedY": 3.706000051498413
+      },
+      {
+        "bottomY": 3.720400869846344,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil4.Offering2.RibbedPumpkin",
+        "expectedY": 3.7204000514984132
+      },
+      {
+        "bottomY": 3.72759872674942,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil4.Offering3.RibbedPumpkin",
+        "expectedY": 3.727600051498413
+      },
+      {
+        "bottomY": 3.9399986267089844,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil6.Offering1.RibbedPumpkin",
+        "expectedY": 3.9400000190734863
+      },
+      {
+        "bottomY": 3.954398214817047,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil6.Offering2.RibbedPumpkin",
+        "expectedY": 3.9544000190734865
+      },
+      {
+        "bottomY": 3.961599886417389,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil6.Offering3.RibbedPumpkin",
+        "expectedY": 3.961600019073486
+      },
+      {
+        "bottomY": 3.394001007080078,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil8.Offering1.RibbedPumpkin",
+        "expectedY": 3.394000015258789
+      },
+      {
+        "bottomY": 3.408400595188141,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil8.Offering2.RibbedPumpkin",
+        "expectedY": 3.408400015258789
+      },
+      {
+        "bottomY": 3.415598452091217,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil8.Offering3.RibbedPumpkin",
+        "expectedY": 3.415600015258789
+      },
+      {
+        "bottomY": 3.7060012817382812,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil10.Offering1.RibbedPumpkin",
+        "expectedY": 3.706000051498413
+      },
+      {
+        "bottomY": 3.720400869846344,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil10.Offering2.RibbedPumpkin",
+        "expectedY": 3.7204000514984132
+      },
+      {
+        "bottomY": 3.72759872674942,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil10.Offering3.RibbedPumpkin",
+        "expectedY": 3.727600051498413
+      },
+      {
+        "bottomY": 3.7060012817382812,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil12.Offering1.RibbedPumpkin",
+        "expectedY": 3.706000051498413
+      },
+      {
+        "bottomY": 3.720400869846344,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil12.Offering2.RibbedPumpkin",
+        "expectedY": 3.7204000514984132
+      },
+      {
+        "bottomY": 3.72759872674942,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil12.Offering3.RibbedPumpkin",
+        "expectedY": 3.727600051498413
+      },
+      {
+        "bottomY": 3.86199951171875,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil14.Offering1.RibbedPumpkin",
+        "expectedY": 3.8619999504089355
+      },
+      {
+        "bottomY": 3.8763990998268127,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil14.Offering2.RibbedPumpkin",
+        "expectedY": 3.8763999504089357
+      },
+      {
+        "bottomY": 3.8836007714271545,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil14.Offering3.RibbedPumpkin",
+        "expectedY": 3.8835999504089354
+      },
+      {
+        "bottomY": 4.173999786376953,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil16.Offering1.RibbedPumpkin",
+        "expectedY": 4.1739999866485595
+      },
+      {
+        "bottomY": 4.188399374485016,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil16.Offering2.RibbedPumpkin",
+        "expectedY": 4.18839998664856
+      },
+      {
+        "bottomY": 4.195601046085358,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil16.Offering3.RibbedPumpkin",
+        "expectedY": 4.19559998664856
+      },
+      {
+        "bottomY": 3.549999237060547,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil18.Offering1.RibbedPumpkin",
+        "expectedY": 3.5499999141693115
+      },
+      {
+        "bottomY": 3.5643988251686096,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil18.Offering2.RibbedPumpkin",
+        "expectedY": 3.5643999141693117
+      },
+      {
+        "bottomY": 3.5716004967689514,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil18.Offering3.RibbedPumpkin",
+        "expectedY": 3.5715999141693113
+      },
+      {
+        "bottomY": 3.7060012817382812,
+        "inset": 0.04,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil20.Offering1.RibbedPumpkin",
+        "expectedY": 3.706000051498413
+      },
+      {
+        "bottomY": 3.720400869846344,
+        "inset": 0.0256,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil20.Offering2.RibbedPumpkin",
+        "expectedY": 3.7204000514984132
+      },
+      {
+        "bottomY": 3.72759872674942,
+        "inset": 0.0184,
+        "name": "Workspace.StealACurseMap.HalloweenFocalClusters.FamilyVigil20.Offering3.RibbedPumpkin",
+        "expectedY": 3.727600051498413
+      }
+    ],
+    "footprint": {
+      "depth": 800,
+      "boundaryRadius": 380,
+      "width": 820
+    },
+    "warnings": [],
+    "layout": {
+      "baseSites": 8,
+      "minimumBaseCenterSeparation": 202.87188720703125,
+      "processionLengthStuds": 636.6767768859863,
+      "processionPoints": 16
+    },
+    "failures": [],
+    "counts": {
+      "lights": 13,
+      "collisionHulls": 339,
+      "meshParts": 764,
+      "baseParts": 4233,
+      "softMeshes": 462,
+      "groundedMeshes": 557,
+      "uniqueMeshIds": 24,
+      "blockingMeshes": 192,
+      "emitters": 1,
+      "nonBlockingMeshes": 110,
+      "colliders": 805
+    },
+    "bases": [
+      {
+        "spawnSupported": true,
+        "claimSupported": true,
+        "id": "Base01",
+        "slots": 5,
+        "territory": "South Vigil"
+      },
+      {
+        "spawnSupported": true,
+        "claimSupported": true,
+        "id": "Base02",
+        "slots": 5,
+        "territory": "Autumn Court"
+      },
+      {
+        "spawnSupported": true,
+        "claimSupported": true,
+        "id": "Base03",
+        "slots": 5,
+        "territory": "Lantern Wood"
+      },
+      {
+        "spawnSupported": true,
+        "claimSupported": true,
+        "id": "Base04",
+        "slots": 5,
+        "territory": "Ashen Rise"
+      },
+      {
+        "spawnSupported": true,
+        "claimSupported": true,
+        "id": "Base05",
+        "slots": 5,
+        "territory": "North Reliquary"
+      },
+      {
+        "spawnSupported": true,
+        "claimSupported": true,
+        "id": "Base06",
+        "slots": 5,
+        "territory": "Chapel Watch"
+      },
+      {
+        "spawnSupported": true,
+        "claimSupported": true,
+        "id": "Base07",
+        "slots": 5,
+        "territory": "Widow's Grove"
+      },
+      {
+        "spawnSupported": true,
+        "claimSupported": true,
+        "id": "Base08",
+        "slots": 5,
+        "territory": "Old Family Court"
+      }
+    ]
+  },
+  "EXPANSION_REPORT": {
+    "method": "Read-only natural procession observed for 110 seconds. Conservative root bounding spheres versus simple solid hull bounds; not exact mesh triangle clearance. Tests cannot establish physical walking, visual quality or device FPS.",
+    "phase": "passed",
+    "slotCount": 40,
+    "footprint": {
+      "depth": 800,
+      "areaRatioToPrevious": 1.7345319936541512,
+      "width": 820
+    },
+    "observedSeconds": 110.18560739999884,
+    "warnings": [],
+    "catalog": {
+      "rarities": {
+        "COMMON": 15,
+        "MYTHIC": 6,
+        "RARE": 14,
+        "LEGENDARY": 10,
+        "SECRET": 5
+      },
+      "total": 56,
+      "firstWave": 15,
+      "statuses": {
+        "IMPORTED": 15,
+        "PLANNED": 35
+      },
+      "pendingImports": [],
+      "availableFirstWaveTemplates": 15,
+      "imports": [
+        {
+          "id": "candle_wisp",
+          "meshId": "rbxassetid://131441841706440",
+          "status": "IMPORTED",
+          "size": [
+            2.0696299076080322,
+            3.004809856414795,
+            1.6130954027175903
+          ]
+        },
+        {
+          "id": "grave_hopper",
+          "meshId": "rbxassetid://111985391427900",
+          "status": "IMPORTED",
+          "size": [
+            2.343339443206787,
+            2.559999942779541,
+            1.2871146202087402
+          ]
+        },
+        {
+          "id": "grave_key",
+          "meshId": "rbxassetid://84656327821029",
+          "status": "IMPORTED",
+          "size": [
+            1.6975297927856445,
+            2.809825897216797,
+            0.4699999690055847
+          ]
+        },
+        {
+          "id": "ink_imp",
+          "meshId": "rbxassetid://104472040658209",
+          "status": "IMPORTED",
+          "size": [
+            2.282432794570923,
+            2.1500000953674316,
+            0.8562943935394287
+          ]
+        },
+        {
+          "id": "ashen_book",
+          "meshId": "rbxassetid://116088006645241",
+          "status": "IMPORTED",
+          "size": [
+            1.934999942779541,
+            1.6575000286102295,
+            1.3265740871429443
+          ]
+        },
+        {
+          "id": "marrow_dice",
+          "meshId": "rbxassetid://139995104770981",
+          "status": "IMPORTED",
+          "size": [
+            2.3249998092651367,
+            2.3734421730041504,
+            1.1761078834533691
+          ]
+        },
+        {
+          "id": "grave_compass",
+          "meshId": "rbxassetid://74406539185855",
+          "status": "IMPORTED",
+          "size": [
+            2.759999990463257,
+            2.4185791015625,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "hollow_violin",
+          "meshId": "rbxassetid://107587916723576",
+          "status": "IMPORTED",
+          "size": [
+            1.5399999618530273,
+            2.9369778633117676,
+            0.5250002145767212
+          ]
+        },
+        {
+          "id": "raven_quill",
+          "meshId": "rbxassetid://107610707886136",
+          "status": "IMPORTED",
+          "size": [
+            1.715000033378601,
+            2.841864585876465,
+            0.4884346127510071
+          ]
+        },
+        {
+          "id": "night_harp",
+          "meshId": "rbxassetid://75368579112232",
+          "status": "IMPORTED",
+          "size": [
+            2.509265184402466,
+            4.022938251495361,
+            0.5908846855163574
+          ]
+        },
+        {
+          "id": "thorn_cathedral",
+          "meshId": "rbxassetid://83008441866856",
+          "status": "IMPORTED",
+          "size": [
+            2.499964475631714,
+            4.108807563781738,
+            1.5416028499603271
+          ]
+        },
+        {
+          "id": "judgement_scales",
+          "meshId": "rbxassetid://127729438322025",
+          "status": "IMPORTED",
+          "size": [
+            3.6600000858306885,
+            3.448026418685913,
+            1.0000001192092896
+          ]
+        },
+        {
+          "id": "cathedral_heart",
+          "meshId": "rbxassetid://100098877936582",
+          "status": "IMPORTED",
+          "size": [
+            2.6253609657287598,
+            4.018371105194092,
+            1.3500001430511475
+          ]
+        },
+        {
+          "id": "hollow_throne",
+          "meshId": "rbxassetid://71770033436309",
+          "status": "IMPORTED",
+          "size": [
+            2.3370511531829834,
+            3.9827933311462402,
+            1.3900001049041748
+          ]
+        },
+        {
+          "id": "nameless_door",
+          "meshId": "rbxassetid://91097514366999",
+          "status": "IMPORTED",
+          "size": [
+            2.849400281906128,
+            4.079999923706055,
+            1.1050001382827759
+          ]
+        }
+      ],
+      "expansion": 50
+    },
+    "failures": [],
+    "counts": {
+      "lights": 13,
+      "collisionHulls": 339,
+      "meshParts": 764,
+      "baseParts": 4233,
+      "emitters": 1
+    },
+    "procession": {
+      "routeArtLengthStuds": 636.6767768859863,
+      "maximumSimultaneous": 6,
+      "solidCandidateCount": 4,
+      "minimumX": -86.984375,
+      "lengthStuds": 636.6767768859863,
+      "solidBoundsCandidates": [],
+      "points": 16,
+      "castleEmergences": 7,
+      "maximumX": 159.2991485595703,
+      "purchasedModels": 0,
+      "minimumZ": -112.9782485961914,
+      "samples": 2316,
+      "naturalUnsoldExits": 1,
+      "observedModels": 7,
+      "visualTreeBoundsCandidates": [],
+      "unsupportedSegments": [],
+      "maximumZ": 110.55448913574219,
+      "routeArtSegments": 15
+    }
+  },
+  "FINAL_WALK_RESULT": {
+    "reached": true,
+    "legs": [
+      {
+        "remainingHorizontalStuds": 0.6479377150535583,
+        "startPosition": [
+          -199.71414184570312,
+          5.892457485198975,
+          213.84486389160156
+        ],
+        "pathStatus": "Success",
+        "label": "Base08 entry to castle",
+        "pathLengthStuds": 283.2644208073616,
+        "actualJumps": 0,
+        "jumpWaypoints": 0,
+        "actualDistanceStuds": 282.3444065153599,
+        "actualWalkingSeconds": 20.832100400000854,
+        "walkSpeed": 16,
+        "reached": true,
+        "planningSeconds": 0.27471200000036333,
+        "target": "castle court",
+        "destination": [
+          0,
+          4,
+          24
+        ],
+        "canceled": false,
+        "endPosition": [
+          -0.5444361567497253,
+          4.512455940246582,
+          24.351301193237305
+        ]
+      }
+    ],
+    "elapsedSeconds": 21.10695019999912,
+    "runId": 1,
+    "canceled": false
+  },
+  "REVIEW_SUMMARY": {
+    "logs": [
+      {
+        "message": "FINAL_WALK_READY Client module available: require(game.ReplicatedStorage.TestFinalWalk); no walk has started",
+        "type": "Enum.MessageType.MessageOutput",
+        "time": 1790903475.398,
+        "marker": "FINAL_WALK_READY",
+        "truncated": false
+      },
+      {
+        "message": "QUALITY_UI_REPORT {\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[650,457],\"failures\":[],\"cardPosition\":[440,12",
+        "type": "Enum.MessageType.MessageOutput",
+        "time": 1790903478.643,
+        "marker": "QUALITY_UI_REPORT",
+        "truncated": true
+      },
+      {
+        "message": "QUALITY_UI_PASS initial 650 457",
+        "type": "Enum.MessageType.MessageOutput",
+        "time": 1790903478.643,
+        "marker": "QUALITY_UI_PASS",
+        "truncated": false
+      },
+      {
+        "message": "QUALITY_UI_REPORT {\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[934,457],\"failures\":[],\"cardPosition\":[724,12",
+        "type": "Enum.MessageType.MessageOutput",
+        "time": 1790903480.44,
+        "marker": "QUALITY_UI_REPORT",
+        "truncated": true
+      },
+      {
+        "message": "QUALITY_UI_PASS viewport resized 934 457",
+        "type": "Enum.MessageType.MessageOutput",
+        "time": 1790903480.44,
+        "marker": "QUALITY_UI_PASS",
+        "truncated": false
+      },
+      {
+        "message": "QUALITY_UI_REPORT {\"shopVisible\":false,\"cardSize\":[198,70],\"method\":\"Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.\",\"mockCards\":10,\"viewport\":[1251,457],\"failures\":[],\"cardPosition\":[1041,",
+        "type": "Enum.MessageType.MessageOutput",
+        "time": 1790903528.312,
+        "marker": "QUALITY_UI_REPORT",
+        "truncated": true
+      },
+      {
+        "message": "QUALITY_UI_PASS viewport resized 1251 457",
+        "type": "Enum.MessageType.MessageOutput",
+        "time": 1790903528.312,
+        "marker": "QUALITY_UI_PASS",
+        "truncated": false
+      },
+      {
+        "message": "FINAL_WALK_RESULT {\"reached\":true,\"legs\":[{\"remainingHorizontalStuds\":0.6479377150535584,\"startPosition\":[-199.71414184570313,5.892457485198975,213.84486389160157],\"pathStatus\":\"Success\",\"label\":\"Base08 entry to castle\",\"pathLengthStuds\":283.2644208073616,\"actualJumps\":0,\"jumpWay",
+        "type": "Enum.MessageType.MessageOutput",
+        "time": 1790903642.54,
+        "marker": "FINAL_WALK_RESULT",
+        "truncated": true
+      }
+    ],
+    "expansion": {
+      "reason": "Server Expansion report not available in this context yet",
+      "available": false
+    },
+    "method": "Read-only compact evidence. Server/client globals are separate; READY is not DONE. No inputs or state changes.",
+    "ui": {
+      "shopVisible": false,
+      "method": "Current UI snapshot plus latest retained QUALITY_UI_REPORT. Not new validation, proof of input, or hardware FPS.",
+      "navigation": {
+        "size": [
+          198,
+          50
+        ],
+        "position": [
+          1041,
+          90
+        ]
+      },
+      "soulsText": "500",
+      "rateText": "+0 Souls/s",
+      "pages": [
+        {
+          "visible": true,
+          "name": "Passes",
+          "hasVerticalOverflow": true,
+          "scrollingEnabled": true,
+          "canvasPosition": [
+            0,
+            0
+          ],
+          "windowSize": [
+            895,
+            225
+          ],
+          "canvasSize": [
+            900,
+            270
+          ]
+        },
+        {
+          "visible": false,
+          "name": "Boosts",
+          "hasVerticalOverflow": false,
+          "scrollingEnabled": true,
+          "canvasPosition": [
+            0,
+            0
+          ],
+          "windowSize": [
+            900,
+            225
+          ],
+          "canvasSize": [
+            900,
+            225
+          ]
+        },
+        {
+          "visible": false,
+          "name": "SoulPacks",
+          "hasVerticalOverflow": true,
+          "scrollingEnabled": true,
+          "canvasPosition": [
+            0,
+            0
+          ],
+          "windowSize": [
+            895,
+            225
+          ],
+          "canvasSize": [
+            900,
+            270
+          ]
+        }
+      ],
+      "soulsAttribute": 500,
+      "lastObservedReport": {
+        "shopVisible": false,
+        "reason": "viewport resized",
+        "method": "Read-only bounds/text observer, not proof of touch input or real-device FPS. Purchase exclusion is verified by the separate static audit.",
+        "mockCards": 10,
+        "viewport": [
+          1251,
+          457
+        ],
+        "failures": [],
+        "cardSize": [
+          198,
+          70
+        ],
+        "cardPosition": [
+          1041,
+          12
+        ]
+      },
+      "rateAttribute": 0,
+      "available": true,
+      "viewport": [
+        1251,
+        457
+      ],
+      "safeSize": [
+        1251,
+        399
+      ],
+      "selectedTab": "Passes",
+      "card": {
+        "size": [
+          198,
+          70
+        ],
+        "position": [
+          1041,
+          12
+        ]
+      }
+    },
+    "travel": {
+      "completedRuns": 1,
+      "available": true,
+      "progress": {
+        "status": "reached",
+        "runId": 1,
+        "elapsedSeconds": 21.10695019999912
+      },
+      "lastRun": {
+        "reached": true,
+        "elapsedSeconds": 21.10695019999912,
+        "legs": [
+          {
+            "label": "Base08 entry to castle",
+            "pathLengthStuds": 283.2644208073616,
+            "actualJumps": 0,
+            "reached": true,
+            "planningSeconds": 0.27471200000036333,
+            "target": "castle court",
+            "actualWalkingSeconds": 20.832100400000854,
+            "walkSpeed": 16,
+            "actualDistanceStuds": 282.3444065153599
+          }
+        ],
+        "runId": 1
+      },
+      "busy": false
+    },
+    "context": "client",
+    "world": {
+      "reason": "Server QualityPass report not available in this context yet",
+      "available": false
+    }
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-02T07:05:05.573200+00:00",
+  "studioId": "c7deb1a3-7f8d-40d3-a722-5aff0d74a787",
+  "metadataPath": "assets/review/curse-rework/normal-gallery-metadata-current-source-observed.json",
+  "metadataSha256": "424f2d07e3651e6c019637cd86a1e27e16ed4bc9458c179fc669e8de921ceaec",
+  "productionFingerprintsVerifiedCurrent": {
+    "src/server/Map/HalloweenArt.luau": "f4667c141b7dbb5fdafb6793e1291ee9ebd9f1fcba8c9daeefd8152651ef0d13",
+    "src/server/Gameplay/BaseService.luau": "a1735aa2f8843afae9fe02dd23b08bb6643f1c862e1ff6c1ae7f4a191675049d",
+    "src/shared/CurseExpansionAssets.luau": "4681e844dde7b31416146fe96e3b196da8290517742bf38b4c854156bbaacafb",
+    "src/client/init.client.luau": "e22ca3c74c202dd516af715026a9c0a46950246349ee4d67da53ab7e6d1e4cbc",
+    "src/server/Map/Decorations.luau": "029c5c82ae913791c217d3831405ce29965b1c2617862e0afbbac7094bdc89a3",
+    "src/server/Gameplay/Config.luau": "d16ee3025c4decd924854744b5951fc0ea65b4d9b7bcae1689c38fab508f1158",
+    "src/server/Map/WorldPolish.luau": "192c09ffbbd8ae465956517303e90cb17e5e319ffb134da0601694507e87b558",
+    "default.project.json": "86a1ea09cdf8bb35cd70d6e094de8b2413e70ed931e3b84dc696e0367d426cd2",
+    "src/server/Map/Layout.luau": "fae572e118ff58f563a2e25d65d39cbdafbc2fa039188f178ba0b8c1214ad61c",
+    "src/client/UI/CurseLabels.luau": "885320e6d991d86c5e37feba28ef277dff5bf0b44d5b2e669237c4ee908be71e",
+    "src/server/Gameplay/CurseService.luau": "eff2236c307141fa98cb975a80e6edfb81729a8c25c61ee06ee16c12bb033e71",
+    "src/server/Map/Config.luau": "c7efab0f6fa8d3b2b8132d3bd348132820bd3368832dd587237effd276d63d82",
+    "src/server/Map/AssetKit.luau": "b6ef3738a8d8df2609ef4a1b87bdf034330eba77bcdcc48b8798a0b263734fc9",
+    "src/server/Gameplay/SoulsService.luau": "ef8cf9259dfbe0acecd53634229d10572e8a453bbafd1697ffee2efb75706997",
+    "src/server/Map/PlayerShrine.luau": "d6fb2ea5aeee3824d81d3062beba14fd259f57b077528d27f59231647fd62a70",
+    "src/server/Map/Primitives.luau": "08b51b521a2e2e85ff8bd05eae2ceb58b266d12444223e53cba29d4ab36a0cea",
+    "src/server/Map/Landmarks.luau": "b254546fdbd6e10bc36babbac1e77d685831d92a97960b52a83b065beab4ac0d",
+    "src/server/Map/SurfaceArt.luau": "4ea0bbfa7e21cdf276f4ff2d2e7a8e07b15befd81b878b0c40907fc527158075",
+    "src/server/Map/Grounding.luau": "7de16f0fdd5cbba38a758b2034fa7f5136c1a3b736a1d80798c4472ee8b74f31",
+    "src/shared/CurseCatalog.luau": "e0e9dfded693646595f89921c1979e09d97e3591835ba04603726a3e905dab08",
+    "src/server/Map/Build.luau": "033166ac2143349dc15b86b762e94090416784ab0b7f32062bdee6ceb838b2a0",
+    "src/server/Map/Mausoleum.luau": "936cb797f14617994ee274eeaeac70c2422ba090e1fcb768ef385fddd51649c8",
+    "src/shared/NumberFormat.luau": "741b35619768be3b2898537cadd0a7dfea2f89ea2abeec4266d24566b5147f45",
+    "src/server/Gameplay/CurseVisualService.luau": "10db7d14ba85b61d14a09ad5b2732d111ecf123ecf8cc5217aee4b7629dafafe",
+    "src/server/Gameplay/CurseProcessionService.luau": "86dc30126de2d1ffb9e0d3e6c2b5d88f61fe4536b560d0bb904b8381c2d69674",
+    "src/server/Map/TerrainArt.luau": "8ad4c8eb0e5aef128d09302acd95e048068558448d99acd320eb5a78b05c2364",
+    "src/server/Map/Cemetery.luau": "789ee798dfed80452662e2a02129412fc8fea1a61686cc7b446bf476b190b509",
+    "src/client/CurseVFX.luau": "16e38dac55ea63f72cea1e1840c6a935ee29de01f664180e1d5b5241e8eb569c",
+    "src/shared/CurseVFXProfiles.luau": "355350ab2c4ee5b268217d0ab98913cdaf990637936f86164ff17ff97f6017db",
+    "src/server/Map/Materials.luau": "d9efafb58d0decd2cca29d4a5782816d722e55aa25547ba7c13c93ff3a2bf170",
+    "src/shared/Hello.luau": "f9c3e73a0f121694b403afd838212b5e1500a46f513853782e991d7ee183a85b",
+    "src/server/Map/World.luau": "09f8c264b6868d2c32f4d3d5c3181bac89d9073edcdcdac8fcaa66765da0f569"
+  },
+  "fixtureFingerprints": [
+    {
+      "path": "tests/CurseReviewGallery.server.luau",
+      "loadedSha256": "46115606d6e0fe0dee6bfb68de9008cff9d92833f4d78c4c40568ac2622a0721",
+      "currentSha256": "46115606d6e0fe0dee6bfb68de9008cff9d92833f4d78c4c40568ac2622a0721",
+      "matches": true
+    },
+    {
+      "path": "tests/CurseReviewGalleryCamera.luau",
+      "loadedSha256": "39e267c43f6bda63f93578ecb1d1c7410422f0b71c0ca7f3ac38bbb75a114cc2",
+      "currentSha256": "39e267c43f6bda63f93578ecb1d1c7410422f0b71c0ca7f3ac38bbb75a114cc2",
+      "matches": true
+    },
+    {
+      "path": "tests/Build-StudioFixture.ps1",
+      "loadedSha256": "5794dde5283015e290039b25fa599b1bd90191de7b99b9f9b2062e866dcf7544",
+      "currentSha256": "192319da71b06984cebed1105ed49ccb793a11a2391876d155bb7b32f4e0000a",
+      "matches": false
+    }
+  ],
+  "fixtureSourceScope": "The loaded manual gallery fixture is preserved with its build proof. Its builder subsequently gained an optional automatic camera mode which was not used for these native captures. Any builder hash difference is recorded; all loaded runtime sources and the default project remain current.",
+  "captures": [
+    {
+      "path": "assets/review/curse-rework/candle-wisp-gameplay-distance-vfx-desktop.jpg",
+      "sha256": "31015bd9253db9a18c2ce886b2b22336e846f96710b040cbbc2aadd727a2500d",
+      "format": "JPEG",
+      "nativeWindowDimensions": [
+        1920,
+        1032
+      ],
+      "fileModifiedUtc": "2026-10-02T06:45:22.746033+00:00",
+      "uneditedNativeCapture": true,
+      "id": "candle_wisp",
+      "observedDisplay": {
+        "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+        "cameraCFrame": [
+          -26.789487838745117,
+          6.342964172363281,
+          88.41051483154297,
+          0.9659258127212524,
+          0.05176376551389694,
+          -0.2535897195339203,
+          0,
+          0.9797958731651306,
+          0.19999992847442627,
+          0.25881892442703247,
+          -0.19318509101867676,
+          0.9464101791381836
+        ],
+        "presentationOnly": true,
+        "frontAngleDegrees": 15,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshSize": [
+          2.5199999809265137,
+          3.9259285926818848,
+          1.6049911975860596
+        ],
+        "material": "SmoothPlastic",
+        "size": [
+          2.5199999809265137,
+          3.9259285926818848,
+          1.6049911975860596
+        ],
+        "supportPart": "Workspace.StealACurseMap.Ground.PlayableCollisionGround",
+        "cameraPosition": [
+          -26.789487838745117,
+          6.342964172363281,
+          88.41051483154297
+        ],
+        "rarity": "COMMON",
+        "id": "candle_wisp",
+        "meshId": "rbxassetid://120691798070914",
+        "state": "PROCESSION",
+        "displayName": "Candle Wisp",
+        "rootCFrame": [
+          -24,
+          3.6429643630981445,
+          78,
+          -1,
+          0,
+          -8.742277657347586e-08,
+          0,
+          1,
+          0,
+          8.742277657347586e-08,
+          0,
+          -1
+        ],
+        "ownershipRecordCreated": false,
+        "modelPath": "Workspace.StealACurseMap.ActiveCurses.ReviewGallery_candle_wisp",
+        "supportY": 1,
+        "promptEnabled": false,
+        "cameraDistanceStuds": 11.00000286102295,
+        "cameraTarget": [
+          -24,
+          4.1429643630981445,
+          78
+        ],
+        "rootPosition": [
+          -24,
+          3.6429643630981445,
+          78
+        ]
+      },
+      "nativeCameraSelection": "require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame(\"candle_wisp\")",
+      "visuallyReviewed": true
+    },
+    {
+      "path": "assets/review/curse-rework/pale-gramophone-gameplay-distance-vfx-desktop.jpg",
+      "sha256": "df2160a1f219062863e663251b439b08ff7c51fe7d0d36790d1c1582dfac0591",
+      "format": "JPEG",
+      "nativeWindowDimensions": [
+        1920,
+        1032
+      ],
+      "fileModifiedUtc": "2026-10-02T06:46:59.412475+00:00",
+      "uneditedNativeCapture": true,
+      "id": "pale_gramophone",
+      "observedDisplay": {
+        "fbxSha256": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+        "cameraCFrame": [
+          -14.789487838745117,
+          6.632198333740234,
+          88.41051483154297,
+          0.9659258127212524,
+          0.05176376551389694,
+          -0.2535897195339203,
+          0,
+          0.9797958731651306,
+          0.19999992847442627,
+          0.25881892442703247,
+          -0.19318509101867676,
+          0.9464101791381836
+        ],
+        "presentationOnly": true,
+        "frontAngleDegrees": 15,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshSize": [
+          3.3486762046813965,
+          4.104394912719727,
+          2.7653918266296387
+        ],
+        "material": "SmoothPlastic",
+        "size": [
+          3.3486762046813965,
+          4.104394912719727,
+          2.7653918266296387
+        ],
+        "supportPart": "Workspace.StealACurseMap.Paths.FrontCourtApproach",
+        "cameraPosition": [
+          -14.789487838745117,
+          6.632198333740234,
+          88.41051483154297
+        ],
+        "rarity": "RARE",
+        "id": "pale_gramophone",
+        "meshId": "rbxassetid://94119998367472",
+        "state": "PROCESSION",
+        "displayName": "Pale Gramophone",
+        "rootCFrame": [
+          -12,
+          3.9321982860565186,
+          78,
+          -1,
+          0,
+          -8.742277657347586e-08,
+          0,
+          1,
+          0,
+          8.742277657347586e-08,
+          0,
+          -1
+        ],
+        "ownershipRecordCreated": false,
+        "modelPath": "Workspace.StealACurseMap.ActiveCurses.ReviewGallery_pale_gramophone",
+        "supportY": 1.2000007629394531,
+        "promptEnabled": false,
+        "cameraDistanceStuds": 11.00000286102295,
+        "cameraTarget": [
+          -12,
+          4.432198524475098,
+          78
+        ],
+        "rootPosition": [
+          -12,
+          3.9321982860565186,
+          78
+        ]
+      },
+      "nativeCameraSelection": "require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame(\"pale_gramophone\")",
+      "visuallyReviewed": true
+    },
+    {
+      "path": "assets/review/curse-rework/thorn-cathedral-gameplay-distance-vfx-desktop.jpg",
+      "sha256": "e1098f81703d0064d088d056dc22986a5c06aee59ef9bead4e2daafb263c03ed",
+      "format": "JPEG",
+      "nativeWindowDimensions": [
+        1920,
+        1032
+      ],
+      "fileModifiedUtc": "2026-10-02T06:49:53.483256+00:00",
+      "uneditedNativeCapture": true,
+      "id": "thorn_cathedral",
+      "observedDisplay": {
+        "fbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+        "cameraCFrame": [
+          -2.789487361907959,
+          6.610170364379883,
+          88.41051483154297,
+          0.9659258127212524,
+          0.051763761788606644,
+          -0.2535896897315979,
+          0,
+          0.9797958135604858,
+          0.19999992847442627,
+          0.2588188946247101,
+          -0.19318509101867676,
+          0.9464101791381836
+        ],
+        "presentationOnly": true,
+        "frontAngleDegrees": 15,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshSize": [
+          2.7698776721954346,
+          4.060338973999023,
+          1.9780354499816895
+        ],
+        "material": "SmoothPlastic",
+        "size": [
+          2.7698776721954346,
+          4.060338973999023,
+          1.9780354499816895
+        ],
+        "supportPart": "Workspace.StealACurseMap.Paths.CemeterySpine_09_1",
+        "cameraPosition": [
+          -2.789487361907959,
+          6.610170364379883,
+          88.41051483154297
+        ],
+        "rarity": "LEGENDARY",
+        "id": "thorn_cathedral",
+        "meshId": "rbxassetid://130353358132470",
+        "state": "PROCESSION",
+        "displayName": "Thorn Cathedral",
+        "rootCFrame": [
+          0,
+          3.910170316696167,
+          78,
+          -1,
+          0,
+          -8.742277657347586e-08,
+          0,
+          1,
+          0,
+          8.742277657347586e-08,
+          0,
+          -1
+        ],
+        "ownershipRecordCreated": false,
+        "modelPath": "Workspace.StealACurseMap.ActiveCurses.ReviewGallery_thorn_cathedral",
+        "supportY": 1.2000007629394531,
+        "promptEnabled": false,
+        "cameraDistanceStuds": 11.00000286102295,
+        "cameraTarget": [
+          0,
+          4.410170555114746,
+          78
+        ],
+        "rootPosition": [
+          0,
+          3.910170316696167,
+          78
+        ]
+      },
+      "nativeCameraSelection": "require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame(\"thorn_cathedral\")",
+      "visuallyReviewed": true
+    },
+    {
+      "path": "assets/review/curse-rework/cathedral-heart-gameplay-distance-vfx-desktop.jpg",
+      "sha256": "a2c69278f1ebddcbeed942deaf5521be68ca6ab72ea747cf5c4f9e48d5a66fb7",
+      "format": "JPEG",
+      "nativeWindowDimensions": [
+        1920,
+        1032
+      ],
+      "fileModifiedUtc": "2026-10-02T06:52:05.871386+00:00",
+      "uneditedNativeCapture": true,
+      "id": "cathedral_heart",
+      "observedDisplay": {
+        "fbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+        "cameraCFrame": [
+          9.210512161254883,
+          6.8201704025268555,
+          88.41051483154297,
+          0.9659258127212524,
+          0.05176377668976784,
+          -0.2535897195339203,
+          0,
+          0.9797958731651306,
+          0.19999997317790985,
+          0.25881892442703247,
+          -0.19318513572216034,
+          0.9464101791381836
+        ],
+        "presentationOnly": true,
+        "frontAngleDegrees": 15,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshSize": [
+          2.9446873664855957,
+          4.480339050292969,
+          1.6740179061889648
+        ],
+        "material": "SmoothPlastic",
+        "size": [
+          2.9446873664855957,
+          4.480339050292969,
+          1.6740179061889648
+        ],
+        "supportPart": "Workspace.StealACurseMap.Paths.FrontCourtApproach",
+        "cameraPosition": [
+          9.210512161254883,
+          6.8201704025268555,
+          88.41051483154297
+        ],
+        "rarity": "MYTHIC",
+        "id": "cathedral_heart",
+        "meshId": "rbxassetid://109562151283310",
+        "state": "PROCESSION",
+        "displayName": "Cathedral Heart",
+        "rootCFrame": [
+          12,
+          4.1201701164245605,
+          78,
+          -1,
+          0,
+          -8.742277657347586e-08,
+          0,
+          1,
+          0,
+          8.742277657347586e-08,
+          0,
+          -1
+        ],
+        "ownershipRecordCreated": false,
+        "modelPath": "Workspace.StealACurseMap.ActiveCurses.ReviewGallery_cathedral_heart",
+        "supportY": 1.2000007629394531,
+        "promptEnabled": false,
+        "cameraDistanceStuds": 11.00000286102295,
+        "cameraTarget": [
+          12,
+          4.6201701164245605,
+          78
+        ],
+        "rootPosition": [
+          12,
+          4.1201701164245605,
+          78
+        ]
+      },
+      "nativeCameraSelection": "require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame(\"cathedral_heart\")",
+      "visuallyReviewed": true
+    },
+    {
+      "path": "assets/review/curse-rework/the-last-star-gameplay-distance-vfx-desktop.jpg",
+      "sha256": "96388168bc93792cbc3a6307c01ebbb057d14b23cf64afefb5a43dc62f34ff46",
+      "format": "JPEG",
+      "nativeWindowDimensions": [
+        1920,
+        1032
+      ],
+      "fileModifiedUtc": "2026-10-02T06:58:38.548589+00:00",
+      "uneditedNativeCapture": true,
+      "id": "the_last_star",
+      "observedDisplay": {
+        "fbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+        "cameraCFrame": [
+          21.210512161254883,
+          6.689421653747559,
+          88.41051483154297,
+          0.9659258127212524,
+          0.05176376551389694,
+          -0.2535897195339203,
+          0,
+          0.9797958731651306,
+          0.19999992847442627,
+          0.25881892442703247,
+          -0.19318509101867676,
+          0.9464101791381836
+        ],
+        "presentationOnly": true,
+        "frontAngleDegrees": 15,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "meshSize": [
+          3.880000114440918,
+          4.618844032287598,
+          2.094557762145996
+        ],
+        "material": "SmoothPlastic",
+        "size": [
+          3.880000114440918,
+          4.618844032287598,
+          2.094557762145996
+        ],
+        "supportPart": "Workspace.StealACurseMap.Ground.PlayableCollisionGround",
+        "cameraPosition": [
+          21.210512161254883,
+          6.689421653747559,
+          88.41051483154297
+        ],
+        "rarity": "SECRET",
+        "id": "the_last_star",
+        "meshId": "rbxassetid://103602552479756",
+        "state": "PROCESSION",
+        "displayName": "The Last Star",
+        "rootCFrame": [
+          24,
+          3.989422082901001,
+          78,
+          -1,
+          0,
+          -8.742277657347586e-08,
+          0,
+          1,
+          0,
+          8.742277657347586e-08,
+          0,
+          -1
+        ],
+        "ownershipRecordCreated": false,
+        "modelPath": "Workspace.StealACurseMap.ActiveCurses.ReviewGallery_the_last_star",
+        "supportY": 1,
+        "promptEnabled": false,
+        "cameraDistanceStuds": 11.00000286102295,
+        "cameraTarget": [
+          24,
+          4.489421844482422,
+          78
+        ],
+        "rootPosition": [
+          24,
+          3.989422082901001,
+          78
+        ]
+      },
+      "nativeCameraSelection": "require(game.ReplicatedStorage.TestCurseReviewGalleryCamera).frame(\"the_last_star\")",
+      "visuallyReviewed": true
+    }
+  ],
+  "scope": "Five unedited native desktop Studio Play window captures. Each actual imported presentation-only model uses production Visual/VFX and existing world lighting, framed at about 11 studs, 15 degrees and FOV65 using the optional review camera. Native game viewport is 1580x633 inside the 1920x1032 application window. These static views show geometry, painted materials, labels and visible effects at gameplay distance; the full purchase/motion/VFX proof is the separate actual 50-Curse test. They are not owned pedestal displays, natural spawn coverage or income proof. Camera and identity provenance derive from actual loaded GalleryMetadata and the native camera commands; each image was visually reviewed, never generated or edited.",
+  "uiCaptures": [
+    {
+      "path": "assets/review/curse-rework/normal-56-live-catalog-desktop.jpg",
+      "sha256": "8f8688438c4ce34fee52d07fd53347c65f7c7674944c8f357c1ecc8ae2549f56",
+      "format": "JPEG",
+      "nativeWindowDimensions": [
+        1920,
+        1032
+      ],
+      "fileModifiedUtc": "2026-10-02T07:00:50.509146+00:00",
+      "uneditedNativeCapture": true
+    },
+    {
+      "path": "assets/review/curse-rework/normal-56-live-catalog-secret-desktop.jpg",
+      "sha256": "de3ed2df212da549e18dab4c8f8799ef2273ec231091654a9b3266e31603ab14",
+      "format": "JPEG",
+      "nativeWindowDimensions": [
+        1920,
+        1032
+      ],
+      "fileModifiedUtc": "2026-10-02T07:01:47.315364+00:00",
+      "uneditedNativeCapture": true
+    },
+    {
+      "path": "assets/review/curse-rework/normal-56-shop-desktop.jpg",
+      "sha256": "ed2dd5fe0af23a52daf1d8e4cd3e6ed2031ae2d89928f3398aaf55da8a6ec3d7",
+      "format": "JPEG",
+      "nativeWindowDimensions": [
+        1920,
+        1032
+      ],
+      "fileModifiedUtc": "2026-10-02T07:02:37.616647+00:00",
+      "uneditedNativeCapture": true
+    }
+  ],
+  "nativeUiObserved": {
+    "catalogFooter": "56 live · 0 expansion concepts. Catalog only; not an inventory.",
+    "catalogOpenedAndClosed": true,
+    "desktopWheelMovedList": true,
+    "desktopWheelScrollYInputs": [
+      5600,
+      3600
+    ],
+    "lastVisibleRows": [
+      "The First Grave",
+      "The Unwritten",
+      "The Last Star"
+    ],
+    "shopOpenedAndClosed": true,
+    "shopScope": "Existing concept shop, Gamepasses tab, no purchases or active perks.",
+    "physicalPhoneTested": false,
+    "nativeMobileScrollConfirmed": false
+  }
+}

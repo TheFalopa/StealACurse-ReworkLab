@@ -1,0 +1,242 @@
+[
+  {
+    "observedPath": "Workspace.common_import_batch.ashen_book",
+    "meshSize": [
+      3.3299996852874756,
+      2.6475000381469727,
+      1.7377972602844238
+    ],
+    "id": "ashen_book",
+    "meshId": "rbxassetid://101139508733050",
+    "textureId": "",
+    "size": [
+      3.3299996852874756,
+      2.6475000381469727,
+      1.7377972602844238
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.candle_wisp",
+    "meshSize": [
+      2.5199999809265137,
+      3.9259285926818848,
+      1.6049911975860596
+    ],
+    "id": "candle_wisp",
+    "meshId": "rbxassetid://120691798070914",
+    "textureId": "",
+    "size": [
+      2.5199999809265137,
+      3.9259285926818848,
+      1.6049911975860596
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.coin_crawler",
+    "meshSize": [
+      2.7699999809265137,
+      1.1513850688934326,
+      2.541633129119873
+    ],
+    "id": "coin_crawler",
+    "meshId": "rbxassetid://101300591039625",
+    "textureId": "",
+    "size": [
+      2.7699999809265137,
+      1.1513850688934326,
+      2.541633129119873
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.cold_teacup",
+    "meshSize": [
+      2.7058072090148926,
+      2.4837679862976074,
+      2.471573829650879
+    ],
+    "id": "cold_teacup",
+    "meshId": "rbxassetid://109492897154947",
+    "textureId": "",
+    "size": [
+      2.7058072090148926,
+      2.4837679862976074,
+      2.471573829650879
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.grave_hopper",
+    "meshSize": [
+      2.93017315864563,
+      3.021085739135742,
+      1.9563539028167725
+    ],
+    "id": "grave_hopper",
+    "meshId": "rbxassetid://71461503692914",
+    "textureId": "",
+    "size": [
+      2.93017315864563,
+      3.021085739135742,
+      1.9563539028167725
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.grave_key",
+    "meshSize": [
+      2.9194774627685547,
+      3.4665002822875977,
+      0.7180373668670654
+    ],
+    "id": "grave_key",
+    "meshId": "rbxassetid://81555225772390",
+    "textureId": "",
+    "size": [
+      2.9194774627685547,
+      3.4665002822875977,
+      0.7180373668670654
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.hourglass_hound",
+    "meshSize": [
+      3.1549651622772217,
+      2.1600005626678467,
+      1.2913804054260254
+    ],
+    "id": "hourglass_hound",
+    "meshId": "rbxassetid://122359731833236",
+    "textureId": "",
+    "size": [
+      3.1549651622772217,
+      2.1600005626678467,
+      1.2913804054260254
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.ink_imp",
+    "meshSize": [
+      2.740211248397827,
+      2.994659900665283,
+      0.9678600430488586
+    ],
+    "id": "ink_imp",
+    "meshId": "rbxassetid://138171047418372",
+    "textureId": "",
+    "size": [
+      2.740211248397827,
+      2.994659900665283,
+      0.9678600430488586
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.lantern_lurker",
+    "meshSize": [
+      2.6640000343322754,
+      3.0691258907318115,
+      2.01052188873291
+    ],
+    "id": "lantern_lurker",
+    "meshId": "rbxassetid://124690349043025",
+    "textureId": "",
+    "size": [
+      2.6640000343322754,
+      3.0691258907318115,
+      2.01052188873291
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.lost_locket",
+    "meshSize": [
+      2.690000057220459,
+      2.765000104904175,
+      0.5018151998519897
+    ],
+    "id": "lost_locket",
+    "meshId": "rbxassetid://91422731371880",
+    "textureId": "",
+    "size": [
+      2.690000057220459,
+      2.765000104904175,
+      0.5018151998519897
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.mourning_ribbon",
+    "meshSize": [
+      3.799999952316284,
+      3.0199999809265137,
+      0.7315346598625183
+    ],
+    "id": "mourning_ribbon",
+    "meshId": "rbxassetid://86964137364657",
+    "textureId": "",
+    "size": [
+      3.799999952316284,
+      3.0199999809265137,
+      0.7315346598625183
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.nail_beetle",
+    "meshSize": [
+      2.208719491958618,
+      1.6229331493377686,
+      2.3138370513916016
+    ],
+    "id": "nail_beetle",
+    "meshId": "rbxassetid://134811561032307",
+    "textureId": "",
+    "size": [
+      2.208719491958618,
+      1.6229331493377686,
+      2.3138370513916016
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.pale_guest",
+    "meshSize": [
+      2.5144095420837402,
+      2.940000057220459,
+      0.8689985871315002
+    ],
+    "id": "pale_guest",
+    "meshId": "rbxassetid://95457500330255",
+    "textureId": "",
+    "size": [
+      2.5144095420837402,
+      2.940000057220459,
+      0.8689985871315002
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.umbrella_wraith",
+    "meshSize": [
+      3.6449999809265137,
+      3.389763355255127,
+      0.6982876062393188
+    ],
+    "id": "umbrella_wraith",
+    "meshId": "rbxassetid://74392665115825",
+    "textureId": "",
+    "size": [
+      3.6449999809265137,
+      3.389763355255127,
+      0.6982876062393188
+    ]
+  },
+  {
+    "observedPath": "Workspace.common_import_batch.wilted_sprout",
+    "meshSize": [
+      2.669999837875366,
+      3.403151035308838,
+      1.391714096069336
+    ],
+    "id": "wilted_sprout",
+    "meshId": "rbxassetid://73497154913372",
+    "textureId": "",
+    "size": [
+      2.669999837875366,
+      3.403151035308838,
+      1.391714096069336
+    ]
+  }
+]

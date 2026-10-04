@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtc": "2026-10-02T05:42:50+00:00",
+  "gitHead": "21dbc526bc49a423190a8a25397b68525897da4a",
+  "gitBranch": "feature/final-map-polish-v2",
+  "method": "Read current file bytes and git show HEAD:path bytes; compare raw SHA256 and CRLF-to-LF-normalized SHA256; git diff --quiet HEAD -- each path.",
+  "status": "CURRENT_PRODUCTION_CORE_MATCHES_HEAD",
+  "files": [
+    {
+      "path": "src/server/Gameplay/CurseProcessionService.luau",
+      "diskSha256": "86dc30126de2d1ffb9e0d3e6c2b5d88f61fe4536b560d0bb904b8381c2d69674",
+      "headBlobSha256": "7b74f2e80b18ce1651cd090f66ee58288d6564f19f252281f0caad48be9de5ac",
+      "diskLfSha256": "7b74f2e80b18ce1651cd090f66ee58288d6564f19f252281f0caad48be9de5ac",
+      "headLfSha256": "7b74f2e80b18ce1651cd090f66ee58288d6564f19f252281f0caad48be9de5ac",
+      "exactByteEquality": false,
+      "equalityAfterCrLfNormalization": true,
+      "gitDiffHeadExitCode": 0
+    },
+    {
+      "path": "src/server/Gameplay/CurseService.luau",
+      "diskSha256": "eff2236c307141fa98cb975a80e6edfb81729a8c25c61ee06ee16c12bb033e71",
+      "headBlobSha256": "25655a74b9248fbd68168162008274d6a38f9988ec557a03a168815ba7d8fc85",
+      "diskLfSha256": "25655a74b9248fbd68168162008274d6a38f9988ec557a03a168815ba7d8fc85",
+      "headLfSha256": "25655a74b9248fbd68168162008274d6a38f9988ec557a03a168815ba7d8fc85",
+      "exactByteEquality": false,
+      "equalityAfterCrLfNormalization": true,
+      "gitDiffHeadExitCode": 0
+    },
+    {
+      "path": "src/server/Gameplay/Config.luau",
+      "diskSha256": "d16ee3025c4decd924854744b5951fc0ea65b4d9b7bcae1689c38fab508f1158",
+      "headBlobSha256": "ca36f6dd4d330c8d15b1036b30b6822c6d924c824f44a176fa32c92c31e7bb1f",
+      "diskLfSha256": "ca36f6dd4d330c8d15b1036b30b6822c6d924c824f44a176fa32c92c31e7bb1f",
+      "headLfSha256": "ca36f6dd4d330c8d15b1036b30b6822c6d924c824f44a176fa32c92c31e7bb1f",
+      "exactByteEquality": false,
+      "equalityAfterCrLfNormalization": true,
+      "gitDiffHeadExitCode": 0
+    },
+    {
+      "path": "src/server/Gameplay/BaseService.luau",
+      "diskSha256": "a1735aa2f8843afae9fe02dd23b08bb6643f1c862e1ff6c1ae7f4a191675049d",
+      "headBlobSha256": "9e12604a7f4973ddccde43ca3b08be65b71a57e52b6c89001643d55009310d68",
+      "diskLfSha256": "9e12604a7f4973ddccde43ca3b08be65b71a57e52b6c89001643d55009310d68",
+      "headLfSha256": "9e12604a7f4973ddccde43ca3b08be65b71a57e52b6c89001643d55009310d68",
+      "exactByteEquality": false,
+      "equalityAfterCrLfNormalization": true,
+      "gitDiffHeadExitCode": 0
+    },
+    {
+      "path": "src/server/Gameplay/SoulsService.luau",
+      "diskSha256": "ef8cf9259dfbe0acecd53634229d10572e8a453bbafd1697ffee2efb75706997",
+      "headBlobSha256": "6fb416ac9a524bf9d5192e76b204ae8e155d7058ab71fa4c14f575d0839cc586",
+      "diskLfSha256": "6fb416ac9a524bf9d5192e76b204ae8e155d7058ab71fa4c14f575d0839cc586",
+      "headLfSha256": "6fb416ac9a524bf9d5192e76b204ae8e155d7058ab71fa4c14f575d0839cc586",
+      "exactByteEquality": false,
+      "equalityAfterCrLfNormalization": true,
+      "gitDiffHeadExitCode": 0
+    },
+    {
+      "path": "src/server/Map/Config.luau",
+      "diskSha256": "c7efab0f6fa8d3b2b8132d3bd348132820bd3368832dd587237effd276d63d82",
+      "headBlobSha256": "e5e1a771f098da3e763d5e845ebd4941071f0fe666f8c9079bad5dcc528a2f3d",
+      "diskLfSha256": "e5e1a771f098da3e763d5e845ebd4941071f0fe666f8c9079bad5dcc528a2f3d",
+      "headLfSha256": "e5e1a771f098da3e763d5e845ebd4941071f0fe666f8c9079bad5dcc528a2f3d",
+      "exactByteEquality": false,
+      "equalityAfterCrLfNormalization": true,
+      "gitDiffHeadExitCode": 0
+    },
+    {
+      "path": "src/server/Map/Layout.luau",
+      "diskSha256": "fae572e118ff58f563a2e25d65d39cbdafbc2fa039188f178ba0b8c1214ad61c",
+      "headBlobSha256": "961ef9b0712d9afeeb07b1d979a954a0c02b9e538b508c454ee115907af5567d",
+      "diskLfSha256": "961ef9b0712d9afeeb07b1d979a954a0c02b9e538b508c454ee115907af5567d",
+      "headLfSha256": "961ef9b0712d9afeeb07b1d979a954a0c02b9e538b508c454ee115907af5567d",
+      "exactByteEquality": false,
+      "equalityAfterCrLfNormalization": true,
+      "gitDiffHeadExitCode": 0
+    }
+  ],
+  "oldFixtureSourceFingerprints": "NOT_EMITTED_IN_EXTRACTED_LOG_MARKERS",
+  "proofLimit": "This is an independent current disk/core baseline comparison, not a reconstruction or certification of immutable sources loaded by the old Studio fixture. The route rows bind the actual observed MeshIds and FBX hashes. No VFX approval is granted.",
+  "relatedRouteEvidence": "assets/review/curse-rework/route-observed-all50.json"
+}

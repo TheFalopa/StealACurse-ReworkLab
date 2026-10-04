@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-10-04T01:23:03.748Z",
+  "openedFromDisk": true,
+  "normalBuild": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"map\":true,\"QA\":false,\"bases\":8,\"running\":true,\"templates\":true,\"realPurchases\":false,\"onlineTheft\":false,\"players\":{\"1\":{\"name\":\"Brandonpro7830\",\"status\":\"READY\"}},\"toolsRemote\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "console": "Consultada dos veces: vacía",
+  "playStopped": true,
+  "personalProgressActions": false
+}

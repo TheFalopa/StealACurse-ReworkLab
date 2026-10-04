@@ -1,0 +1,57 @@
+SLICE_PASS player joined
+SLICE_PASS client ready
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+SLICE_PASS no-base purchase rejected
+SLICE_PASS claim and respawn target
+SLICE_PASS insufficient Souls rejected
+SLICE_PASS purchase authoritative 500 to 400
+SLICE_PASS no income before placement
+SLICE_PASS one delivery at a time
+SLICE_PASS physical return walk delivers
+SLICE_PASS physical first pedestal
+SLICE_PASS first rate 3
+SLICE_PASS elapsed-time income accumulates
+SLICE_PASS placed 0387f299-7309-44a2-a93e-842f7a91a6f0
+SLICE_PASS placed cbf52c3b-16a3-4cb9-b9c0-db68a04dd8a3
+SLICE_PASS placed f25c70da-b59b-47df-b603-60a79f7f2fd8
+SLICE_PASS placed 18af0fc2-0200-4bc6-89b0-e6d385d44d5e
+SLICE_PASS five rates sum to 222
+SLICE_PASS client HUD 222 and only nearest pedestal label visible
+SLICE_PASS unique pedestal 1
+SLICE_PASS unique pedestal 2
+SLICE_PASS unique pedestal 3
+SLICE_PASS unique pedestal 4
+SLICE_PASS unique pedestal 5
+SLICE_PASS full base rejected
+SLICE_PASS lost placed pedestal removes its production
+SLICE_PASS missing delivery pedestal refunds safely
+SLICE_PASS missing display area cancels safely
+SLICE_PASS missing area price refunded
+SLICE_PASS death cancels delivery after geometry tests
+SLICE_PASS death refund
+SLICE_PASS respawn alive
+SLICE_PASS claim and placed income survive respawn
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+Failed to load animation with sanitized ID rbxassetid://114302219876492: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=114302219876492&serverplaceid=0
+SLICE_PASS destroyed placed model restored
+SLICE_PASS restoration does not duplicate income
+SLICE_PASS placed 37143cb7-f8f9-413f-bff9-982725f20be0
+SLICE_PASS Void placed and rate summed to 822
+SLICE_PASS scale and noncollision cursed_doll
+SLICE_PASS scale and noncollision haunted_mirror
+SLICE_PASS scale and noncollision crying_mask
+SLICE_PASS scale and noncollision watching_eye
+SLICE_PASS scale and noncollision soul_chains
+SLICE_PASS front glow not buried soul_chains
+SLICE_PASS scale and noncollision the_void
+SLICE_PASS front glow not buried the_void
+SLICE_DONE single-client suite passed; multiplayer requires two actual clients

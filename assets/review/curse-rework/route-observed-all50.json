@@ -1,0 +1,2737 @@
+{
+  "schemaVersion": 1,
+  "scope": "Actual Studio route-only observations for fifty current imported Curses; deterministic fixture selection. Fixture initial delay/cadence accelerated; no VFX/gameplay-completion approval implied.",
+  "studioId": "cbe94f43-503c-4adb-af43-9c6a2f8c45d9",
+  "capturedAtUtc": "2026-10-02T05:42:50+00:00",
+  "source": {
+    "originalLogPath": "C:\\Users\\vbran\\AppData\\Local\\Roblox\\logs\\0.741.19.7411056_20261002T051033Z_Studio_A1F2D_last.log",
+    "originalLogFilename": "0.741.19.7411056_20261002T051033Z_Studio_A1F2D_last.log",
+    "logSnapshotByteCount": 537742,
+    "logSnapshotSha256": "4465a14f8055c22b9e4d87997fd6dd6ee31c7749f5bd84fd7abc4da724eda3b4",
+    "logMayContinueGrowing": true,
+    "rawRouteTrace": "assets/review/curse-rework/route-observed-all50.log",
+    "rawRouteTraceSha256": "12d4913211dd2fc2e367fcc51ff1952477adb194f4056e0ead16f37c63be1031",
+    "firstRouteTimestampUtc": "2026-10-02T05:12:37.375Z",
+    "lastRouteTimestampUtc": "2026-10-02T05:25:41.516Z",
+    "firstSourceLineNumber": 2314,
+    "lastSourceLineNumber": 2621
+  },
+  "readyMarkers": [
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2238,
+        "timestampUtc": "2026-10-02T05:10:59.324Z",
+        "studioLogElapsedSeconds": 26.324087,
+        "rawMarker": "CURSE_REWORK_READY"
+      },
+      "payload": {
+        "phase": "All",
+        "testedIds": [
+          "candle_wisp",
+          "grave_hopper",
+          "grave_key",
+          "mourning_ribbon",
+          "wilted_sprout",
+          "ink_imp",
+          "lost_locket",
+          "ashen_book",
+          "lantern_lurker",
+          "hourglass_hound",
+          "nail_beetle",
+          "pale_guest",
+          "cold_teacup",
+          "coin_crawler",
+          "umbrella_wraith",
+          "marrow_dice",
+          "veil_mourner",
+          "grave_compass",
+          "hollow_violin",
+          "chime_triplets",
+          "thimble_spider",
+          "music_box_dancer",
+          "raven_quill",
+          "sorrow_chalice",
+          "pale_gramophone",
+          "thorn_reliquary",
+          "anchor_crab",
+          "sundial_sentinel",
+          "sleepwalker_shoes",
+          "night_harp",
+          "thorn_cathedral",
+          "phantom_marionette",
+          "blood_moon_rose",
+          "judgement_scales",
+          "clockwork_raven",
+          "eclipse_stag",
+          "endless_library",
+          "sunken_crown",
+          "silent_choir",
+          "cathedral_heart",
+          "plague_monarch",
+          "hollow_throne",
+          "worldroot",
+          "the_undertow",
+          "the_last_funeral",
+          "nameless_door",
+          "crown_of_silence",
+          "the_first_grave",
+          "the_unwritten",
+          "the_last_star"
+        ],
+        "importedCount": 50
+      },
+      "completeJson": true,
+      "literalPayloadText": null,
+      "parseError": null
+    }
+  ],
+  "finalReportMarkerCountAtExtraction": 1,
+  "finalReportMarkers": [
+    {
+      "logEvidence": {
+        "sourceLineNumber": 2795,
+        "timestampUtc": "2026-10-02T05:33:12.107Z",
+        "studioLogElapsedSeconds": 1359.10791,
+        "rawMarker": "CURSE_REWORK_REPORT"
+      },
+      "payload": null,
+      "completeJson": false,
+      "literalPayloadText": "{\"assets\":[{\"fbxSha256\":\"6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a\",\"export\":\"assets/export/meshes/curses/rework/candle_wisp.fbx\",\"rarity\":\"COMMON\",\"id\":\"candle_wisp\",\"meshId\":\"rbxassetid://120691798070914\",\"gameplayChecked\":true,\"sourceReference\":\"rework-01-common.png\",\"implementationStatus\":\"IMPORTED\",\"purchase\":{\"followDistance\":16.689916610717775,\"incomeObservedSeconds\":1.1501502000028268,\"usedActualClientPrompt\":true,\"slot\":1,\"group\":1,\"placedClient\":{\"fbxSha256\":\"6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a\",\"nativeEmitterCount\":1,\"profileMotion\":\"flicker\",\"id\":\"candle_wisp\",\"samples\":398,\"rootMovementStuds\":0,\"state\":\"PLACED\",\"particleRate\":5,\"nativeLightCount\":1,\"labelFields\":{\"InfoRarity\":{\"textHeight\":14,\"height\":19,\"text\":\"COMMON\",\"textWidth\":63,\"width\":186},\"InfoPrice\":{\"textHeight\":14,\"height\":20,\"text\":\"COLLECTED\",\"textWidth\":76,\"width\":186},\"InfoName\":{\"textHei",
+      "parseError": "Unterminated string starting at: line 1 column 924 (char 923)"
+    }
+  ],
+  "fixtureConfigurationReportedByOrchestrator": {
+    "routePointCount": 16,
+    "speedStudsPerSecond": 6.5,
+    "maxProcessionCurses": 6,
+    "initialDelaySeconds": 0.1,
+    "cadenceSeconds": 0.15,
+    "configurationEvidenceLimit": "These fixture overrides are declared by the orchestrator; per-Curse trace values below are literal log observations. Immutable loaded-source fingerprints were not emitted by the old fixture."
+  },
+  "currentCoreComparison": "assets/review/curse-rework/route-production-core-proof.json",
+  "sourceFingerprintLimit": "This is an independent current disk/core baseline comparison, not a reconstruction or certification of immutable sources loaded by the old Studio fixture. The route rows bind the actual observed MeshIds and FBX hashes. No VFX approval is granted.",
+  "summary": {
+    "status": "ALL_50_ROUTE_OBSERVATIONS_PASS",
+    "uniqueCurrentIds": 50,
+    "routePassCount": 50,
+    "allCurrentMeshIdsAndFbxHashesMatched": true,
+    "allCoveredFifteenSegments": true,
+    "allPostExitStatesAbsent": true,
+    "elapsedSecondsRange": [
+      97.87624790001428,
+      98.00357359996997
+    ],
+    "distanceStudsRange": [
+      636.1307357249536,
+      636.6432386217913
+    ],
+    "maximumLateralErrorStuds": 1.7059845049516298e-05,
+    "maximumEndDistanceStuds": 0.5460444092750549,
+    "samplesPerCurseRange": [
+      1167,
+      1184
+    ]
+  },
+  "route": [
+    {
+      "id": "candle_wisp",
+      "meshId": "rbxassetid://120691798070914",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1307357249536,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1180,
+        "uid": "0e89425c-ad2e-4ef8-9a7a-3ec1e2c18455",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.5460444092750549,
+        "lastPosition": [
+          159.76177978515625,
+          5.469999313354492,
+          111.50865936279297
+        ],
+        "startedAt": 24.693813299993053,
+        "elapsedSeconds": 97.90312170004472,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "logEvidence": {
+        "sourceLineNumber": 2314,
+        "timestampUtc": "2026-10-02T05:12:37.375Z",
+        "studioLogElapsedSeconds": 124.375519,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "grave_hopper",
+      "meshId": "rbxassetid://71461503692914",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1608253906596,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1180,
+        "uid": "6012bec0-ccf5-46c5-8593-3debf0cfb81a",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.51595538854599,
+        "lastPosition": [
+          159.77490234375,
+          5.452366828918457,
+          111.53573608398438
+        ],
+        "startedAt": 24.85143139999127,
+        "elapsedSeconds": 97.91067910002312,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "logEvidence": {
+        "sourceLineNumber": 2315,
+        "timestampUtc": "2026-10-02T05:12:37.539Z",
+        "studioLogElapsedSeconds": 124.539658,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "grave_key",
+      "meshId": "rbxassetid://81555225772390",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1811059584855,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1180,
+        "uid": "212ebc17-2d06-47d2-8528-ffc6289c315c",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.49567312002182007,
+        "lastPosition": [
+          159.78375244140625,
+          5.422144889831543,
+          111.55398559570312
+        ],
+        "startedAt": 25.004734300018754,
+        "elapsedSeconds": 97.9248099999968,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+      "logEvidence": {
+        "sourceLineNumber": 2318,
+        "timestampUtc": "2026-10-02T05:12:37.710Z",
+        "studioLogElapsedSeconds": 124.710785,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "mourning_ribbon",
+      "meshId": "rbxassetid://86964137364657",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1648229225748,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1180,
+        "uid": "bc742cff-059f-4423-abdf-af04294f501e",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.5119561553001404,
+        "lastPosition": [
+          159.77664184570312,
+          5.30289363861084,
+          111.53933715820312
+        ],
+        "startedAt": 25.15540400001919,
+        "elapsedSeconds": 97.9372105000075,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+      "logEvidence": {
+        "sourceLineNumber": 2319,
+        "timestampUtc": "2026-10-02T05:12:37.871Z",
+        "studioLogElapsedSeconds": 124.871613,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "wilted_sprout",
+      "meshId": "rbxassetid://73497154913372",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1804935139623,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1180,
+        "uid": "3cb10e18-78ba-4207-bd45-7b2b8dfb5863",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4962872266769409,
+        "lastPosition": [
+          159.78347778320312,
+          5.389254570007324,
+          111.55343627929688
+        ],
+        "startedAt": 25.308957500034012,
+        "elapsedSeconds": 97.95063909998862,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+      "logEvidence": {
+        "sourceLineNumber": 2320,
+        "timestampUtc": "2026-10-02T05:12:38.039Z",
+        "studioLogElapsedSeconds": 125.039154,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "ink_imp",
+      "meshId": "rbxassetid://138171047418372",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1901228726888,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1180,
+        "uid": "34c8d243-708d-49b4-aba3-4d7ba7049608",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.48665809631347656,
+        "lastPosition": [
+          159.78768920898438,
+          5.171928405761719,
+          111.56209564208984
+        ],
+        "startedAt": 25.46239370002877,
+        "elapsedSeconds": 97.88256890000775,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "logEvidence": {
+        "sourceLineNumber": 2321,
+        "timestampUtc": "2026-10-02T05:12:38.122Z",
+        "studioLogElapsedSeconds": 125.122871,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "lost_locket",
+      "meshId": "rbxassetid://91422731371880",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.6106093084156,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "aee324e8-d9a9-4d0b-9946-75e92e2070b3",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.06616979837417603,
+        "lastPosition": [
+          159.97113037109375,
+          5.323171615600586,
+          111.94046020507812
+        ],
+        "startedAt": 122.67683310003486,
+        "elapsedSeconds": 97.94262170000002,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "logEvidence": {
+        "sourceLineNumber": 2351,
+        "timestampUtc": "2026-10-02T05:14:15.398Z",
+        "studioLogElapsedSeconds": 222.398361,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "ashen_book",
+      "meshId": "rbxassetid://101139508733050",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.6250583392596,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "3d9dcaa5-e203-4a01-b33e-df2ffa2a2316",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.051722437143325806,
+        "lastPosition": [
+          159.97743225097656,
+          5.228588104248047,
+          111.95346069335938
+        ],
+        "startedAt": 122.82861870003399,
+        "elapsedSeconds": 97.95707899995614,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "logEvidence": {
+        "sourceLineNumber": 2352,
+        "timestampUtc": "2026-10-02T05:14:15.563Z",
+        "studioLogElapsedSeconds": 222.563568,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "lantern_lurker",
+      "meshId": "rbxassetid://124690349043025",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.6145968548223,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "e62f11d0-6a51-4d8f-be22-b9f89e9ff8e1",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.06218433752655983,
+        "lastPosition": [
+          159.97286987304688,
+          5.419580936431885,
+          111.94404602050781
+        ],
+        "startedAt": 122.9813095999998,
+        "elapsedSeconds": 97.97076880000532,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "logEvidence": {
+        "sourceLineNumber": 2355,
+        "timestampUtc": "2026-10-02T05:14:15.730Z",
+        "studioLogElapsedSeconds": 222.730362,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "hourglass_hound",
+      "meshId": "rbxassetid://122359731833236",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.6333762678657,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "2d708af9-2bba-460e-882f-d61b385d642e",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.043403465300798416,
+        "lastPosition": [
+          159.98106384277344,
+          5.320379734039307,
+          111.96094512939453
+        ],
+        "startedAt": 123.13469690002967,
+        "elapsedSeconds": 97.98279390000971,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+      "logEvidence": {
+        "sourceLineNumber": 2356,
+        "timestampUtc": "2026-10-02T05:14:15.895Z",
+        "studioLogElapsedSeconds": 222.895477,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "nail_beetle",
+      "meshId": "rbxassetid://134811561032307",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.623603783517,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "c6a721fa-2422-40ec-b8b9-9be78342aa0f",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.0531761609017849,
+        "lastPosition": [
+          159.976806640625,
+          5.038881301879883,
+          111.9521484375
+        ],
+        "startedAt": 123.28811490000226,
+        "elapsedSeconds": 97.99515660002362,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+      "logEvidence": {
+        "sourceLineNumber": 2357,
+        "timestampUtc": "2026-10-02T05:14:16.060Z",
+        "studioLogElapsedSeconds": 223.06012,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "pale_guest",
+      "meshId": "rbxassetid://95457500330255",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.5938769246209,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "a0a5700d-310c-4f60-85bb-c27a17c05efc",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.0829034298658371,
+        "lastPosition": [
+          159.96383666992188,
+          5.030048847198486,
+          111.92539978027344
+        ],
+        "startedAt": 123.44183170003816,
+        "elapsedSeconds": 98.00357359996997,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "6f52b8f7fc640d5f9dbec05d18d4345cd62611b0b773e81d8ed56437bd17e6f5",
+      "logEvidence": {
+        "sourceLineNumber": 2358,
+        "timestampUtc": "2026-10-02T05:14:16.223Z",
+        "studioLogElapsedSeconds": 223.223099,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "cold_teacup",
+      "meshId": "rbxassetid://109492897154947",
+      "route": {
+        "maximumLateralError": 1.5728399375802837e-05,
+        "distanceStuds": 636.6347076690031,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "24d3b8ff-0914-4cdc-bbb7-f5998401d273",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.04207269102334976,
+        "lastPosition": [
+          159.9816436767578,
+          5.460754871368408,
+          111.96214294433594
+        ],
+        "startedAt": 220.70420560002094,
+        "elapsedSeconds": 97.94233980000718,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "2ee9350a74b939d03cb6f8318b4e943994680d066ddb0b2b68bfee87c69745b6",
+      "logEvidence": {
+        "sourceLineNumber": 2387,
+        "timestampUtc": "2026-10-02T05:15:53.425Z",
+        "studioLogElapsedSeconds": 320.425354,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "coin_crawler",
+      "meshId": "rbxassetid://101300591039625",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.6432386217913,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "cbe0b6e0-90b1-4d42-ab05-b70f541ae328",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.03354215249419212,
+        "lastPosition": [
+          159.98536682128906,
+          5.361210823059082,
+          111.96981811523438
+        ],
+        "startedAt": 220.8571263999911,
+        "elapsedSeconds": 97.95652609999524,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "860169e5290619eea83f25a08a684511b3608a909e73090de9a73dc2d00cac52",
+      "logEvidence": {
+        "sourceLineNumber": 2388,
+        "timestampUtc": "2026-10-02T05:15:53.593Z",
+        "studioLogElapsedSeconds": 320.593048,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "umbrella_wraith",
+      "meshId": "rbxassetid://74392665115825",
+      "route": {
+        "maximumLateralError": 1.5728399375802837e-05,
+        "distanceStuds": 636.6365583165841,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "17b1dc39-718b-451f-b326-bfac19486475",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.04022328928112984,
+        "lastPosition": [
+          159.98245239257812,
+          5.033757209777832,
+          111.96380615234375
+        ],
+        "startedAt": 221.00824619998457,
+        "elapsedSeconds": 97.9682437000447,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+      "logEvidence": {
+        "sourceLineNumber": 2389,
+        "timestampUtc": "2026-10-02T05:15:53.754Z",
+        "studioLogElapsedSeconds": 320.754974,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "marrow_dice",
+      "meshId": "rbxassetid://98208990983506",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.6171198599776,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "66648170-0892-4fd0-af99-5b068e51d0d6",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.05965925008058548,
+        "lastPosition": [
+          159.97396850585938,
+          5.089132785797119,
+          111.94631958007812
+        ],
+        "startedAt": 221.15966060000937,
+        "elapsedSeconds": 97.98009069997352,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "logEvidence": {
+        "sourceLineNumber": 2390,
+        "timestampUtc": "2026-10-02T05:15:53.919Z",
+        "studioLogElapsedSeconds": 320.919312,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "veil_mourner",
+      "meshId": "rbxassetid://138895825932890",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.5998282877052,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "a71e7f95-7f3a-4fec-ac6f-7f260ba2d266",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.0769524872303009,
+        "lastPosition": [
+          159.9664306640625,
+          5.22692346572876,
+          111.93075561523438
+        ],
+        "startedAt": 221.31540490000043,
+        "elapsedSeconds": 97.9881775000249,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+      "logEvidence": {
+        "sourceLineNumber": 2391,
+        "timestampUtc": "2026-10-02T05:15:54.081Z",
+        "studioLogElapsedSeconds": 321.081055,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "grave_compass",
+      "meshId": "rbxassetid://92042737751538",
+      "route": {
+        "maximumLateralError": 8.529922524758149e-06,
+        "distanceStuds": 636.6255010301378,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "83f8c097-c170-4a1e-96a6-5aab743fa025",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.05127891153097153,
+        "lastPosition": [
+          159.97763061523438,
+          5.429574012756348,
+          111.953857421875
+        ],
+        "startedAt": 221.46802520001074,
+        "elapsedSeconds": 98.00188210001215,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "logEvidence": {
+        "sourceLineNumber": 2392,
+        "timestampUtc": "2026-10-02T05:15:54.248Z",
+        "studioLogElapsedSeconds": 321.248566,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "hollow_violin",
+      "meshId": "rbxassetid://91498125175625",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2144442429668,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1183,
+        "uid": "86c041cd-bb70-47d4-a6ba-658ea5daca69",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4623356759548187,
+        "lastPosition": [
+          159.7982940673828,
+          5.0316057205200195,
+          111.583984375
+        ],
+        "startedAt": 318.6892787999823,
+        "elapsedSeconds": 97.91936570004327,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "logEvidence": {
+        "sourceLineNumber": 2419,
+        "timestampUtc": "2026-10-02T05:17:31.385Z",
+        "studioLogElapsedSeconds": 418.385986,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "chime_triplets",
+      "meshId": "rbxassetid://114343537583157",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1980913084964,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1183,
+        "uid": "7cd50dc1-2cdd-4646-9af1-3556f9458454",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4786871373653412,
+        "lastPosition": [
+          159.79116821289062,
+          5.035118579864502,
+          111.56926727294922
+        ],
+        "startedAt": 318.8439195000101,
+        "elapsedSeconds": 97.9302126999828,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "logEvidence": {
+        "sourceLineNumber": 2420,
+        "timestampUtc": "2026-10-02T05:17:31.553Z",
+        "studioLogElapsedSeconds": 418.553986,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "thimble_spider",
+      "meshId": "rbxassetid://99634226365979",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2341190232753,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1183,
+        "uid": "fd94c476-b58f-4a52-bb94-346ba587e2d1",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4426608979701996,
+        "lastPosition": [
+          159.806884765625,
+          5.294545650482178,
+          111.6016845703125
+        ],
+        "startedAt": 318.99897220003186,
+        "elapsedSeconds": 97.94272029999411,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "logEvidence": {
+        "sourceLineNumber": 2421,
+        "timestampUtc": "2026-10-02T05:17:31.720Z",
+        "studioLogElapsedSeconds": 418.720154,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "music_box_dancer",
+      "meshId": "rbxassetid://103021046464363",
+      "route": {
+        "maximumLateralError": 8.529922524758149e-06,
+        "distanceStuds": 636.2557809197813,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1183,
+        "uid": "fa17a6cc-29cc-44d1-a6a7-a1ba73f8568b",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.42100003361701965,
+        "lastPosition": [
+          159.8163299560547,
+          5.113448619842529,
+          111.62117767333984
+        ],
+        "startedAt": 319.1500607000198,
+        "elapsedSeconds": 97.95960689999629,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "logEvidence": {
+        "sourceLineNumber": 2422,
+        "timestampUtc": "2026-10-02T05:17:31.886Z",
+        "studioLogElapsedSeconds": 418.886353,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "raven_quill",
+      "meshId": "rbxassetid://71223428160554",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2773995457503,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1183,
+        "uid": "bbe1db19-dcce-429c-9a2c-0f6606bfeb5b",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.3993801772594452,
+        "lastPosition": [
+          159.8257598876953,
+          5.2503767013549805,
+          111.64063262939453
+        ],
+        "startedAt": 319.45748749998165,
+        "elapsedSeconds": 97.90210990002379,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+      "logEvidence": {
+        "sourceLineNumber": 2423,
+        "timestampUtc": "2026-10-02T05:17:32.138Z",
+        "studioLogElapsedSeconds": 419.138916,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "sorrow_chalice",
+      "meshId": "rbxassetid://124640513274761",
+      "route": {
+        "maximumLateralError": 1.7059845049516298e-05,
+        "distanceStuds": 636.291109648963,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1183,
+        "uid": "e62ef80d-5bab-45a5-915d-a9ce27ec264a",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.38566985726356506,
+        "lastPosition": [
+          159.8317413330078,
+          5.373171806335449,
+          111.65296936035156
+        ],
+        "startedAt": 319.6091499000322,
+        "elapsedSeconds": 97.91778929997236,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "logEvidence": {
+        "sourceLineNumber": 2424,
+        "timestampUtc": "2026-10-02T05:17:32.303Z",
+        "studioLogElapsedSeconds": 419.30365,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "pale_gramophone",
+      "meshId": "rbxassetid://94119998367472",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1893573170348,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "779e6c02-7b6b-41ab-bc24-f950be213ea0",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4874224066734314,
+        "lastPosition": [
+          159.787353515625,
+          5.280227184295654,
+          111.56140899658203
+        ],
+        "startedAt": 416.6901752999984,
+        "elapsedSeconds": 97.87624790001428,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+      "logEvidence": {
+        "sourceLineNumber": 2462,
+        "timestampUtc": "2026-10-02T05:19:09.345Z",
+        "studioLogElapsedSeconds": 516.345093,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "thorn_reliquary",
+      "meshId": "rbxassetid://136595375769922",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1903658533963,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "3672ad7a-fe26-48dd-a1e7-d03e917a01ad",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4864124059677124,
+        "lastPosition": [
+          159.7877960205078,
+          5.166574478149414,
+          111.56231689453125
+        ],
+        "startedAt": 416.8412825000123,
+        "elapsedSeconds": 97.89150839997455,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+      "logEvidence": {
+        "sourceLineNumber": 2463,
+        "timestampUtc": "2026-10-02T05:19:09.512Z",
+        "studioLogElapsedSeconds": 516.512817,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "anchor_crab",
+      "meshId": "rbxassetid://138935951310223",
+      "route": {
+        "maximumLateralError": 1.7059845049516298e-05,
+        "distanceStuds": 636.1960875497845,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "22c987eb-a5a9-4c6f-8a2b-5cce164675a3",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.48069339990615845,
+        "lastPosition": [
+          159.790283203125,
+          5.407378673553467,
+          111.56746673583984
+        ],
+        "startedAt": 416.9928583999863,
+        "elapsedSeconds": 97.90548390004551,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "logEvidence": {
+        "sourceLineNumber": 2464,
+        "timestampUtc": "2026-10-02T05:19:09.675Z",
+        "studioLogElapsedSeconds": 516.67572,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "sundial_sentinel",
+      "meshId": "rbxassetid://107305209907882",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.1746653054832,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "0624d7e6-ee48-4d04-84f2-b2da723cfd13",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.5021154284477234,
+        "lastPosition": [
+          159.78094482421875,
+          5.316566467285156,
+          111.54818725585938
+        ],
+        "startedAt": 417.14699109998764,
+        "elapsedSeconds": 97.9192158000078,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "logEvidence": {
+        "sourceLineNumber": 2465,
+        "timestampUtc": "2026-10-02T05:19:09.845Z",
+        "studioLogElapsedSeconds": 516.845459,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "sleepwalker_shoes",
+      "meshId": "rbxassetid://100900364423577",
+      "route": {
+        "maximumLateralError": 8.529922524758149e-06,
+        "distanceStuds": 636.1907486312234,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "e16b9c33-3c3d-4ccb-9a00-7dece8c0adeb",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.486030250787735,
+        "lastPosition": [
+          159.7879638671875,
+          5.076178073883057,
+          111.56266021728516
+        ],
+        "startedAt": 417.45474319998175,
+        "elapsedSeconds": 97.94637410005089,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "logEvidence": {
+        "sourceLineNumber": 2466,
+        "timestampUtc": "2026-10-02T05:19:10.179Z",
+        "studioLogElapsedSeconds": 517.179993,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "night_harp",
+      "meshId": "rbxassetid://83648018962626",
+      "route": {
+        "maximumLateralError": 1.5728399375802837e-05,
+        "distanceStuds": 636.1825472002168,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "052f4424-182f-4d58-b71c-46cb7084a9f7",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4942331612110138,
+        "lastPosition": [
+          159.7843780517578,
+          5.2036004066467285,
+          111.55528259277344
+        ],
+        "startedAt": 417.60782670002664,
+        "elapsedSeconds": 97.87770069995895,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "logEvidence": {
+        "sourceLineNumber": 2467,
+        "timestampUtc": "2026-10-02T05:19:10.262Z",
+        "studioLogElapsedSeconds": 517.262939,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "thorn_cathedral",
+      "meshId": "rbxassetid://130353358132470",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2731956466589,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "2a886dc8-af41-41b5-8489-f54ab7edc815",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4035840630531311,
+        "lastPosition": [
+          159.8239288330078,
+          5.358466148376465,
+          111.63684844970703
+        ],
+        "startedAt": 514.625691800029,
+        "elapsedSeconds": 97.91140159999486,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "6fe44c301798c1034ffd6ece3a07ba166df74a0609ec4c1f5ab30cb1b4b0259e",
+      "logEvidence": {
+        "sourceLineNumber": 2498,
+        "timestampUtc": "2026-10-02T05:20:47.315Z",
+        "studioLogElapsedSeconds": 614.315979,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "phantom_marionette",
+      "meshId": "rbxassetid://125181594913762",
+      "route": {
+        "maximumLateralError": 1.078959303413285e-05,
+        "distanceStuds": 636.274916482629,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "e5e776c4-a9bb-48b8-9b88-9fa91cf4b93b",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.40186429023742676,
+        "lastPosition": [
+          159.82467651367188,
+          5.145382881164551,
+          111.63839721679688
+        ],
+        "startedAt": 514.7786421999917,
+        "elapsedSeconds": 97.92563900002278,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "logEvidence": {
+        "sourceLineNumber": 2499,
+        "timestampUtc": "2026-10-02T05:20:47.483Z",
+        "studioLogElapsedSeconds": 614.483887,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "blood_moon_rose",
+      "meshId": "rbxassetid://80054563301680",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2903108082805,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "c1b3e7c1-c592-432f-a110-51968bbea9f7",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.3864682912826538,
+        "lastPosition": [
+          159.83139038085938,
+          5.384307384490967,
+          111.65225219726562
+        ],
+        "startedAt": 514.9298861999996,
+        "elapsedSeconds": 97.93983510002727,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "logEvidence": {
+        "sourceLineNumber": 2500,
+        "timestampUtc": "2026-10-02T05:20:47.648Z",
+        "studioLogElapsedSeconds": 614.648071,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "judgement_scales",
+      "meshId": "rbxassetid://115544351986945",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2758085213911,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "0bf6d1ce-9924-4d2b-b132-63666b7636d3",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.40097036957740784,
+        "lastPosition": [
+          159.8250732421875,
+          5.403263568878174,
+          111.63919830322266
+        ],
+        "startedAt": 515.0807997999946,
+        "elapsedSeconds": 97.95781450002687,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "logEvidence": {
+        "sourceLineNumber": 2501,
+        "timestampUtc": "2026-10-02T05:20:47.815Z",
+        "studioLogElapsedSeconds": 614.815918,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "clockwork_raven",
+      "meshId": "rbxassetid://132658656356560",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2291096264956,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "34a23771-6da8-486c-a71b-a5b039d61b78",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4476698935031891,
+        "lastPosition": [
+          159.8046875,
+          5.030440807342529,
+          111.59718322753906
+        ],
+        "startedAt": 515.5354691999964,
+        "elapsedSeconds": 97.91536089999136,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "logEvidence": {
+        "sourceLineNumber": 2502,
+        "timestampUtc": "2026-10-02T05:20:48.230Z",
+        "studioLogElapsedSeconds": 615.230347,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "eclipse_stag",
+      "meshId": "rbxassetid://84237463643087",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2080302179872,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1184,
+        "uid": "a891757f-1e55-4cc1-907a-a5d3cad22f8b",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4687507450580597,
+        "lastPosition": [
+          159.79550170898438,
+          5.030055046081543,
+          111.57820892333984
+        ],
+        "startedAt": 515.6894877000013,
+        "elapsedSeconds": 97.92686310003046,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "logEvidence": {
+        "sourceLineNumber": 2503,
+        "timestampUtc": "2026-10-02T05:20:48.393Z",
+        "studioLogElapsedSeconds": 615.393005,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "endless_library",
+      "meshId": "rbxassetid://119647220783912",
+      "route": {
+        "maximumLateralError": 1.5728399375802837e-05,
+        "distanceStuds": 636.3145988935302,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1182,
+        "uid": "13777acd-f9da-468c-9e11-1e211349a317",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.3621802031993866,
+        "lastPosition": [
+          159.8419952392578,
+          5.050394058227539,
+          111.67410278320312
+        ],
+        "startedAt": 612.656241699995,
+        "elapsedSeconds": 97.94182130001718,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "logEvidence": {
+        "sourceLineNumber": 2530,
+        "timestampUtc": "2026-10-02T05:22:25.375Z",
+        "studioLogElapsedSeconds": 712.375793,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "sunken_crown",
+      "meshId": "rbxassetid://117032966363977",
+      "route": {
+        "maximumLateralError": 1.7059845049516298e-05,
+        "distanceStuds": 636.294175200082,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1182,
+        "uid": "19b311bf-1f9c-4b3d-931d-18e330dcf2da",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.38260576128959656,
+        "lastPosition": [
+          159.8330841064453,
+          5.221578121185303,
+          111.65572357177734
+        ],
+        "startedAt": 612.8074560000096,
+        "elapsedSeconds": 97.95734899997478,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "logEvidence": {
+        "sourceLineNumber": 2531,
+        "timestampUtc": "2026-10-02T05:22:25.543Z",
+        "studioLogElapsedSeconds": 712.543274,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "silent_choir",
+      "meshId": "rbxassetid://87533045551868",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.3131410092847,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1182,
+        "uid": "81791a43-0b0b-4a46-9443-e97cb993054e",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.36364057660102844,
+        "lastPosition": [
+          159.8413543701172,
+          5.40922212600708,
+          111.67279052734375
+        ],
+        "startedAt": 612.9604052000213,
+        "elapsedSeconds": 97.96952119999332,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "logEvidence": {
+        "sourceLineNumber": 2532,
+        "timestampUtc": "2026-10-02T05:22:25.709Z",
+        "studioLogElapsedSeconds": 712.709045,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "cathedral_heart",
+      "meshId": "rbxassetid://109562151283310",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2939355478773,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1182,
+        "uid": "89ed0a5b-9d80-4283-b4a2-4f076772463c",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.38284459710121155,
+        "lastPosition": [
+          159.83297729492188,
+          5.384610652923584,
+          111.65550994873047
+        ],
+        "startedAt": 613.1154989000061,
+        "elapsedSeconds": 97.89576430001762,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "df90d234f23f1f7627cbec8e130cd5bc8d77255fc521326b9e01e4579068a890",
+      "logEvidence": {
+        "sourceLineNumber": 2533,
+        "timestampUtc": "2026-10-02T05:22:25.789Z",
+        "studioLogElapsedSeconds": 712.789185,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "plague_monarch",
+      "meshId": "rbxassetid://84591406393703",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.3061245252904,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1182,
+        "uid": "fac41586-5913-4d6c-a21b-c246f1629cb3",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.37065601348876953,
+        "lastPosition": [
+          159.83828735351562,
+          5.044118404388428,
+          111.6664810180664
+        ],
+        "startedAt": 613.5759375999914,
+        "elapsedSeconds": 97.9325141000445,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "logEvidence": {
+        "sourceLineNumber": 2534,
+        "timestampUtc": "2026-10-02T05:22:26.288Z",
+        "studioLogElapsedSeconds": 713.288208,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "hollow_throne",
+      "meshId": "rbxassetid://137649959781597",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.3011018144995,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1182,
+        "uid": "2eb7c195-cb74-4da1-a1d2-ca3adcc4586f",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.3756789267063141,
+        "lastPosition": [
+          159.8361053466797,
+          5.361681938171387,
+          111.66195678710938
+        ],
+        "startedAt": 613.7298621000373,
+        "elapsedSeconds": 97.94071789999725,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "logEvidence": {
+        "sourceLineNumber": 2535,
+        "timestampUtc": "2026-10-02T05:22:26.447Z",
+        "studioLogElapsedSeconds": 713.447754,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "worldroot",
+      "meshId": "rbxassetid://78477623099004",
+      "route": {
+        "maximumLateralError": 1.5728399375802837e-05,
+        "distanceStuds": 636.5195314851067,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1167,
+        "uid": "3833ad01-b6bb-4bcd-b973-02916fd3f2ce",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.1572488695383072,
+        "lastPosition": [
+          159.931396484375,
+          5.1149091720581055,
+          111.85850524902344
+        ],
+        "startedAt": 710.6452526000212,
+        "elapsedSeconds": 97.95977809996111,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "logEvidence": {
+        "sourceLineNumber": 2576,
+        "timestampUtc": "2026-10-02T05:24:03.383Z",
+        "studioLogElapsedSeconds": 810.383362,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "the_undertow",
+      "meshId": "rbxassetid://105483544111432",
+      "route": {
+        "maximumLateralError": 1.7059845049516298e-05,
+        "distanceStuds": 636.4953465834452,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1167,
+        "uid": "e01fa537-f536-4829-89c3-3399b895fcbd",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.18143460154533386,
+        "lastPosition": [
+          159.92083740234375,
+          5.150068759918213,
+          111.83674621582031
+        ],
+        "startedAt": 710.7994847000227,
+        "elapsedSeconds": 97.97071199998027,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "logEvidence": {
+        "sourceLineNumber": 2577,
+        "timestampUtc": "2026-10-02T05:24:03.547Z",
+        "studioLogElapsedSeconds": 810.547791,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "the_last_funeral",
+      "meshId": "rbxassetid://138087526906503",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.5080514787992,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1167,
+        "uid": "c829c866-2080-40b9-bc2e-efde21df734f",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.16872762143611908,
+        "lastPosition": [
+          159.9263916015625,
+          5.356955528259277,
+          111.84817504882812
+        ],
+        "startedAt": 710.9510704000131,
+        "elapsedSeconds": 97.98614100000123,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "logEvidence": {
+        "sourceLineNumber": 2578,
+        "timestampUtc": "2026-10-02T05:24:03.715Z",
+        "studioLogElapsedSeconds": 810.715759,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "nameless_door",
+      "meshId": "rbxassetid://136046415979732",
+      "route": {
+        "maximumLateralError": 8.529922524758149e-06,
+        "distanceStuds": 636.5285184427844,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1167,
+        "uid": "d52ce290-a413-42aa-a628-f22f144c256d",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.14826108515262604,
+        "lastPosition": [
+          159.93531799316406,
+          5.467893123626709,
+          111.86659240722656
+        ],
+        "startedAt": 711.103014399996,
+        "elapsedSeconds": 98.001156000013,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "logEvidence": {
+        "sourceLineNumber": 2579,
+        "timestampUtc": "2026-10-02T05:24:03.881Z",
+        "studioLogElapsedSeconds": 810.881409,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "crown_of_silence",
+      "meshId": "rbxassetid://87201548999780",
+      "route": {
+        "maximumLateralError": 1.5728399375802837e-05,
+        "distanceStuds": 636.5332815303535,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1167,
+        "uid": "4588a6bd-cd6d-4eb9-a62e-8eb473e66ff3",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.14349757134914398,
+        "lastPosition": [
+          159.93739318847656,
+          5.076743125915527,
+          111.87088012695312
+        ],
+        "startedAt": 711.559825400007,
+        "elapsedSeconds": 97.96081700001378,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "logEvidence": {
+        "sourceLineNumber": 2580,
+        "timestampUtc": "2026-10-02T05:24:04.298Z",
+        "studioLogElapsedSeconds": 811.298584,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "the_first_grave",
+      "meshId": "rbxassetid://104080758542748",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.5704409360993,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1167,
+        "uid": "af2a80db-2f00-43eb-a5a1-ffacd53de18c",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.10633859038352966,
+        "lastPosition": [
+          159.95361328125,
+          5.450624465942383,
+          111.90431213378906
+        ],
+        "startedAt": 711.7121492000297,
+        "elapsedSeconds": 97.97525149997091,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "logEvidence": {
+        "sourceLineNumber": 2581,
+        "timestampUtc": "2026-10-02T05:24:04.465Z",
+        "studioLogElapsedSeconds": 811.465515,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "the_unwritten",
+      "meshId": "rbxassetid://132077689568800",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.2403033815586,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1178,
+        "uid": "eb5644a9-e350-4df8-8303-ba21c574d88b",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.43647781014442444,
+        "lastPosition": [
+          159.8095703125,
+          5.199542045593262,
+          111.60725402832031
+        ],
+        "startedAt": 808.6840852000169,
+        "elapsedSeconds": 97.88683059997857,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "logEvidence": {
+        "sourceLineNumber": 2620,
+        "timestampUtc": "2026-10-02T05:25:41.348Z",
+        "studioLogElapsedSeconds": 908.348389,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    },
+    {
+      "id": "the_last_star",
+      "meshId": "rbxassetid://103602552479756",
+      "route": {
+        "maximumLateralError": 1.52587890625e-05,
+        "distanceStuds": 636.253787146578,
+        "status": "PASS",
+        "postExitStateAbsent": true,
+        "samples": 1178,
+        "uid": "caa22275-f751-4d75-845b-2b03978c6ada",
+        "preExitState": "PROCESSION",
+        "endDistance": 0.4229927659034729,
+        "lastPosition": [
+          159.81546020507812,
+          5.360466003417969,
+          111.619384765625
+        ],
+        "startedAt": 808.837805600022,
+        "elapsedSeconds": 97.9005244,
+        "coveredSegments": {
+          "1": true,
+          "3": true,
+          "2": true,
+          "5": true,
+          "4": true,
+          "7": true,
+          "6": true,
+          "9": true,
+          "8": true,
+          "15": true,
+          "14": true,
+          "13": true,
+          "12": true,
+          "11": true,
+          "10": true
+        },
+        "expectedSeconds": 97.95027336707481,
+        "coveredSegmentCount": 15,
+        "spawn": [
+          0,
+          5.25,
+          0
+        ]
+      },
+      "fbxSha256": "682650c16cdea3df93b7d3ced70363f42ad1e323b4c8a73c3dd149c24829db31",
+      "logEvidence": {
+        "sourceLineNumber": 2621,
+        "timestampUtc": "2026-10-02T05:25:41.516Z",
+        "studioLogElapsedSeconds": 908.516296,
+        "rawMarker": "CURSE_REWORK_ROUTE"
+      }
+    }
+  ]
+}

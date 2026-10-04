@@ -1,0 +1,107 @@
+{
+  "id": "night_harp",
+  "displayName": "Night Harp",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-07-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/night_harp.blend",
+  "export": "assets/export/meshes/curses/rework/night_harp.fbx",
+  "sha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+  "triangles": 2492,
+  "vertices": 1358,
+  "blenderDimensions": [
+    2.8185055255889893,
+    1.4043782949447632,
+    3.882523775100708
+  ],
+  "intendedRobloxSize": [
+    2.8185055255889893,
+    3.882523775100708,
+    1.4043782949447632
+  ],
+  "diagonal": 4.999024170506668,
+  "vfxHook": [
+    -0.0992527556419372,
+    0.1712618535012007,
+    -0.02673078060150147
+  ],
+  "vfxProfile": "harp_strings",
+  "palette": [
+    "bone_high",
+    "brass",
+    "brass_edge",
+    "gold_glow",
+    "indigo",
+    "indigo_edge",
+    "ivory",
+    "obsidian",
+    "thorn_edge"
+  ],
+  "paintedColorCount": 596,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Indigo quadruped shell and four gilded claw feet",
+      "first_face": 0,
+      "last_face_exclusive": 400
+    },
+    {
+      "name": "Crescent beast back and exact four playable harp strings",
+      "first_face": 400,
+      "last_face_exclusive": 608
+    },
+    {
+      "name": "Blind crescent head and overlapping indigo scales",
+      "first_face": 608,
+      "last_face_exclusive": 880
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 07: four-legged indigo harp beast; curved armored back, gold soundboard, exact four suspended strings and an ivory blind crescent head. Gilded joints and layered scales separate metal from indigo stone."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/night_harp.blend",
+  "robloxIntendedSize": [
+    2.8185055255889893,
+    3.882523775100708,
+    1.4043782949447632
+  ],
+  "vfxHookRoblox": [
+    -0.0992527556419372,
+    0.1712618535012007,
+    -0.02673078060150147
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.028185054659843445,
+      0.014043789356946945,
+      0.03882523998618126
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2492,
+    "colorCount": 596,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "night_harp",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06"
+  }
+}

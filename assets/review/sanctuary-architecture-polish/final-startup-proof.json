@@ -1,0 +1,13 @@
+{
+  "file": "C:/RobloxProjects/StealACurse/build-sanctuary-architecture-polish.rbxlx",
+  "date": "2026-10-03",
+  "studioId": "1df225aa-c2b1-48bf-b0cb-cb1f8d830ef9",
+  "diskSourceProof": "final-disk-proof.json",
+  "diskScriptsMatched": 66,
+  "diskTemplatesMatched": 56,
+  "startPlay": "Game Started",
+  "serverObservation": {"map": true, "bases": 8, "activeCurses": 8, "players": 1},
+  "playConsole": "empty",
+  "editConsoleBeforePlay": "MaterialManager editor profileEnd warning; not a game startup error",
+  "stopPlay": "Game Stopped"
+}

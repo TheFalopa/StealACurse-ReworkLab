@@ -1,0 +1,102 @@
+{
+  "id": "sunken_crown",
+  "displayName": "Sunken Crown",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-08-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/sunken_crown.blend",
+  "export": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+  "sha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+  "triangles": 3408,
+  "vertices": 1804,
+  "blenderDimensions": [
+    2.4800000190734863,
+    2.259999990463257,
+    3.0794734954833984
+  ],
+  "intendedRobloxSize": [
+    2.4800000190734863,
+    3.0794734954833984,
+    2.259999990463257
+  ],
+  "diagonal": 4.554246047468577,
+  "vfxHook": [
+    0.0,
+    1.0858683657646178,
+    1.0099999761581422
+  ],
+  "vfxProfile": "sunken_tides",
+  "palette": [
+    "coral",
+    "ivory",
+    "sea_edge",
+    "sea_glass"
+  ],
+  "paintedColorCount": 599,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Pale coral crown with open circlet and central aquamarine jewel",
+      "first_face": 0,
+      "last_face_exclusive": 566
+    },
+    {
+      "name": "Aquatic spirit descending as six thick curled translucent-color tendrils",
+      "first_face": 566,
+      "last_face_exclusive": 1000
+    },
+    {
+      "name": "Side coral growths and bound turquoise drops",
+      "first_face": 1000,
+      "last_face_exclusive": 1044
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 08: an open pale coral crown with eight branching points and a prominent aquamarine jewel serves as the head of a six-tendril aquatic spirit. Thick curled water volumes, bright water ridges and warm coral branches create distinct ivory/turquoise/orange material roles."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/sunken_crown.blend",
+  "robloxIntendedSize": [
+    2.4800000190734863,
+    3.0794734954833984,
+    2.259999990463257
+  ],
+  "vfxHookRoblox": [
+    0.0,
+    1.0858683657646178,
+    1.0099999761581422
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.024799998849630356,
+      0.022600004449486732,
+      0.030794737860560417
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 3408,
+    "colorCount": 599,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "sunken_crown",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995"
+  }
+}

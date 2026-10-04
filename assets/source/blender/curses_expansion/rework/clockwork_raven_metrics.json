@@ -1,0 +1,103 @@
+{
+  "id": "clockwork_raven",
+  "displayName": "Clockwork Raven",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-08-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/clockwork_raven.blend",
+  "export": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+  "sha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+  "triangles": 3880,
+  "vertices": 2098,
+  "blenderDimensions": [
+    3.880000114440918,
+    1.5967074632644653,
+    3.607062339782715
+  ],
+  "intendedRobloxSize": [
+    3.880000114440918,
+    3.607062339782715,
+    1.5967074632644653
+  ],
+  "diagonal": 5.5330619311900655,
+  "vfxHook": [
+    0.05,
+    0.9935311760008332,
+    0.5416462862491608
+  ],
+  "vfxProfile": "raven_clock",
+  "palette": [
+    "brass",
+    "brass_edge",
+    "indigo_edge",
+    "ivory",
+    "obsidian"
+  ],
+  "paintedColorCount": 807,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Mechanical raven torso, clock face, brass beak and jointed claws",
+      "first_face": 0,
+      "last_face_exclusive": 508
+    },
+    {
+      "name": "Raised unequal wings with individual armored flight feathers",
+      "first_face": 508,
+      "last_face_exclusive": 1128
+    },
+    {
+      "name": "Long layered tail feathers and back winding wheel",
+      "first_face": 1128,
+      "last_face_exclusive": 1238
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 08: black and brass mechanical raven with white clock eye and two visible hands. Unequally raised wings contain individual thick armored flight feathers, brass quills, winding joints, long tail and separate claw toes; no generic rounded pet body."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/clockwork_raven.blend",
+  "robloxIntendedSize": [
+    3.880000114440918,
+    3.607062339782715,
+    1.5967074632644653
+  ],
+  "vfxHookRoblox": [
+    0.05,
+    0.9935311760008332,
+    0.5416462862491608
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03880000114440918,
+      0.015967080369591713,
+      0.036070626229047775
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 3880,
+    "colorCount": 807,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "clockwork_raven",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1"
+  }
+}

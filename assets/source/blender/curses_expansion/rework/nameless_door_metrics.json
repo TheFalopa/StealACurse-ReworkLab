@@ -1,0 +1,109 @@
+{
+  "id": "nameless_door",
+  "displayName": "Nameless Door",
+  "rarity": "Secret",
+  "sourceReference": "assets/reference/rework-11-secret.png",
+  "source": "assets/source/blender/curses_expansion/rework/nameless_door.blend",
+  "export": "assets/export/meshes/curses/rework/nameless_door.fbx",
+  "sha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+  "triangles": 3232,
+  "vertices": 1736,
+  "blenderDimensions": [
+    3.257023811340332,
+    2.2569031715393066,
+    3.7596499919891357
+  ],
+  "intendedRobloxSize": [
+    3.257023811340332,
+    3.7596499919891357,
+    2.2569031715393066
+  ],
+  "diagonal": 5.462305749004352,
+  "vfxHook": [
+    -0.05299109220504761,
+    -0.24017505906522274,
+    -0.5934515738487244
+  ],
+  "vfxProfile": "nameless_threshold",
+  "palette": [
+    "bark_dark",
+    "copper",
+    "copper_edge",
+    "jade",
+    "jade_glow",
+    "moss_dark",
+    "moss_light",
+    "obsidian",
+    "patina",
+    "star_iron",
+    "stone_light"
+  ],
+  "paintedColorCount": 770,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Living jade threshold with five genuinely receding open corridor frames",
+      "first_face": 0,
+      "last_face_exclusive": 606
+    },
+    {
+      "name": "Hinged physical half-open door slab and engraved diamond lock",
+      "first_face": 606,
+      "last_face_exclusive": 836
+    },
+    {
+      "name": "Crooked stone legs and moss growths on the outer lintel",
+      "first_face": 836,
+      "last_face_exclusive": 1100
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 11: living dark-jade door with five decreasing open frames forming an actual deep corridor, an individually modeled hinged half-open slab, raised lock and receding threshold steps. Crooked mineral legs, root tendrils and selective hanging moss surround the supernatural geometry."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/nameless_door.blend",
+  "robloxIntendedSize": [
+    3.257023811340332,
+    3.7596499919891357,
+    2.2569031715393066
+  ],
+  "vfxHookRoblox": [
+    -0.05299109220504761,
+    -0.24017505906522274,
+    -0.5934515738487244
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.032570239156484604,
+      0.02256903611123562,
+      0.03759650141000748
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 3232,
+    "colorCount": 770,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "nameless_door",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb"
+  }
+}

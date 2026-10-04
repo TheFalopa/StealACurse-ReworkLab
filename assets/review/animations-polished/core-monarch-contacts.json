@@ -1,0 +1,341 @@
+{
+  "id": "plague_monarch",
+  "blend": "assets/source/blender/curse_animation/plague_monarch.blend",
+  "meshId": "rbxassetid://104120516517868",
+  "observedSize": [
+    6.034780979156494,
+    9.300000190734863,
+    3.700949192047119
+  ],
+  "scaleHeightOver6": 1.5500000317891438,
+  "coordinateConvention": "Roblox native axes=(-BlenderX, BlenderZ, BlenderY). Contacts/pivots labelled Height6 must multiply e.scale. Native rest CFrames retain actual imported size, XYZ decomposition for pose.",
+  "geometryChanged": false,
+  "legs": [
+    {
+      "index": 0,
+      "upper": "Leg0",
+      "lower": "Shin0",
+      "upperParent": "Root",
+      "lowerParent": "Leg0",
+      "contactRobloxHeight6": [
+        1.5839375257492065,
+        -2.769498348236084,
+        -0.5325145125389099
+      ],
+      "hipRobloxHeight6": [
+        0.6928908298268712,
+        -0.9673818266800537,
+        -0.19365485240249528
+      ],
+      "lowerRestLocalHeight6": [
+        0.6807997779271981,
+        -0.4774839549426837,
+        -0.15402710890970725
+      ],
+      "kneeRobloxHeight6": [
+        1.3736906077540694,
+        -1.4448657816227373,
+        -0.3476819613122025
+      ],
+      "upperRestNativeCFrame": [
+        1.0739808082580566,
+        -1.4994418621063232,
+        -0.3001650273799896,
+        1,
+        6.51774865922239e-24,
+        0,
+        -6.51774865922239e-24,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "lowerRestNativeCFrame": [
+        1.0552396774291992,
+        -0.7401001453399658,
+        -0.23874202370643616,
+        1,
+        6.51774865922239e-24,
+        0,
+        -6.51774865922239e-24,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weightedLowerVertexCount": 138,
+      "weightedLowerBoundsBlender": {
+        "min": [
+          -3.017390489578247,
+          -1.85047447681427,
+          -4.650000095367432
+        ],
+        "max": [
+          -1.6826260089874268,
+          -0.14517094194889069,
+          -2.3645131587982178
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "upper": "Leg1",
+      "lower": "Shin1",
+      "upperParent": "Root",
+      "lowerParent": "Leg1",
+      "contactRobloxHeight6": [
+        -1.583937644958496,
+        -2.769498348236084,
+        -0.5171118378639221
+      ],
+      "hipRobloxHeight6": [
+        -0.6791824539926498,
+        -0.9673818266800537,
+        -0.18441322932882762
+      ],
+      "lowerRestLocalHeight6": [
+        -0.6912736597107578,
+        -0.4774839549426837,
+        -0.14786604608789986
+      ],
+      "kneeRobloxHeight6": [
+        -1.3704561137034075,
+        -1.4448657816227373,
+        -0.33227927541672747
+      ],
+      "upperRestNativeCFrame": [
+        -1.0527328252792358,
+        -1.4994418621063232,
+        -0.2858405113220215,
+        1,
+        6.51774865922239e-24,
+        0,
+        -6.51774865922239e-24,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "lowerRestNativeCFrame": [
+        -1.0714741945266724,
+        -0.7401001453399658,
+        -0.22919237613677979,
+        1,
+        6.51774865922239e-24,
+        0,
+        -6.51774865922239e-24,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weightedLowerVertexCount": 138,
+      "weightedLowerBoundsBlender": {
+        "min": [
+          1.7218393087387085,
+          -1.8266003131866455,
+          -4.650000095367432
+        ],
+        "max": [
+          3.017390489578247,
+          -0.09789703041315079,
+          -2.3263585567474365
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "upper": "Leg2",
+      "lower": "Shin2",
+      "upperParent": "Root",
+      "lowerParent": "Leg2",
+      "contactRobloxHeight6": [
+        1.4146617650985718,
+        -2.769498348236084,
+        0.7459105849266052
+      ],
+      "hipRobloxHeight6": [
+        0.6195739649788239,
+        -0.9673818266800537,
+        0.5734002088033983
+      ],
+      "lowerRestLocalHeight6": [
+        0.6074828361699333,
+        -0.4774839549426837,
+        0.35734291266691737
+      ],
+      "kneeRobloxHeight6": [
+        1.2270568011487573,
+        -1.4448657816227373,
+        0.9307431214703157
+      ],
+      "upperRestNativeCFrame": [
+        0.9603396654129028,
+        -1.4994418621063232,
+        0.888770341873169,
+        1,
+        6.51774865922239e-24,
+        0,
+        -6.51774865922239e-24,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "lowerRestNativeCFrame": [
+        0.9415984153747559,
+        -0.7401001453399658,
+        0.5538815259933472,
+        1,
+        6.51774865922239e-24,
+        0,
+        -6.51774865922239e-24,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weightedLowerVertexCount": 150,
+      "weightedLowerBoundsBlender": {
+        "min": [
+          -2.7550129890441895,
+          0.1310843676328659,
+          -4.650000095367432
+        ],
+        "max": [
+          -1.1766397953033447,
+          1.830291986465454,
+          -2.3142569065093994
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "upper": "Leg3",
+      "lower": "Shin3",
+      "upperParent": "Root",
+      "lowerParent": "Leg3",
+      "contactRobloxHeight6": [
+        -1.3662973642349243,
+        -2.769498348236084,
+        0.7459105849266052
+      ],
+      "hipRobloxHeight6": [
+        -0.5849179024867006,
+        -0.9673818266800537,
+        0.5734002088033983
+      ],
+      "lowerRestLocalHeight6": [
+        -0.5970089543863737,
+        -0.4774839549426837,
+        0.35734291266691737
+      ],
+      "kneeRobloxHeight6": [
+        -1.1819268568730743,
+        -1.4448657816227373,
+        0.9307431214703157
+      ],
+      "upperRestNativeCFrame": [
+        -0.9066227674484253,
+        -1.4994418621063232,
+        0.888770341873169,
+        1,
+        6.51774865922239e-24,
+        0,
+        -6.51774865922239e-24,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "lowerRestNativeCFrame": [
+        -0.9253638982772827,
+        -0.7401001453399658,
+        0.5538815259933472,
+        1,
+        6.51774865922239e-24,
+        0,
+        -6.51774865922239e-24,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weightedLowerVertexCount": 150,
+      "weightedLowerBoundsBlender": {
+        "min": [
+          1.1391574144363403,
+          0.1310843676328659,
+          -4.650000095367432
+        ],
+        "max": [
+          2.6800475120544434,
+          1.8302242755889893,
+          -2.371490716934204
+        ]
+      }
+    }
+  ],
+  "gaitOptions": [
+    {
+      "strideAtHeight6": 1.9,
+      "duty": 0.72,
+      "liftAtHeight6": 0.19,
+      "bodyLoweringAtHeight6": 0.18,
+      "contactCentering": 0.18,
+      "sampledObjectives": 1444,
+      "maxReachDeficitActualStuds": 0.0,
+      "clampedPercent": 0.0,
+      "phaseTurns": [
+        0,
+        0.5,
+        0.5,
+        0
+      ],
+      "tested": "Geometric reach only. Static body translation, actual pivots and contact endpoints; excludes small decorative rotations and native visual proof."
+    },
+    {
+      "strideAtHeight6": 2.15,
+      "duty": 0.7,
+      "liftAtHeight6": 0.22,
+      "bodyLoweringAtHeight6": 0.23,
+      "contactCentering": 0.23,
+      "sampledObjectives": 1444,
+      "maxReachDeficitActualStuds": 0.0,
+      "clampedPercent": 0.0,
+      "phaseTurns": [
+        0,
+        0.5,
+        0.5,
+        0
+      ],
+      "tested": "Geometric reach only. Static body translation, actual pivots and contact endpoints; excludes small decorative rotations and native visual proof."
+    },
+    {
+      "strideAtHeight6": 2.4,
+      "duty": 0.67,
+      "liftAtHeight6": 0.26,
+      "bodyLoweringAtHeight6": 0.28,
+      "contactCentering": 0.28,
+      "sampledObjectives": 1444,
+      "maxReachDeficitActualStuds": 0.0,
+      "clampedPercent": 0.0,
+      "phaseTurns": [
+        0,
+        0.5,
+        0.5,
+        0
+      ],
+      "tested": "Geometric reach only. Static body translation, actual pivots and contact endpoints; excludes small decorative rotations and native visual proof."
+    }
+  ],
+  "warning": "Shin# includes sculpted armor/claws; inspect actual deformation in Play. Data do not constitute animation approval."
+}

@@ -1,0 +1,563 @@
+{
+  "phase": "All",
+  "builtAtUtc": "2026-10-02T10:22:53.198Z",
+  "expectedImportedCount": 56,
+  "expectMobile": false,
+  "purchaseIds": [
+    "cursed_doll",
+    "haunted_mirror",
+    "crying_mask",
+    "watching_eye",
+    "soul_chains",
+    "the_void",
+    "candle_wisp",
+    "grave_hopper",
+    "grave_key",
+    "mourning_ribbon",
+    "wilted_sprout",
+    "ink_imp",
+    "lost_locket",
+    "ashen_book",
+    "lantern_lurker",
+    "hourglass_hound",
+    "nail_beetle",
+    "pale_guest",
+    "cold_teacup",
+    "coin_crawler",
+    "umbrella_wraith",
+    "marrow_dice",
+    "veil_mourner",
+    "grave_compass",
+    "hollow_violin",
+    "chime_triplets",
+    "thimble_spider",
+    "music_box_dancer",
+    "raven_quill",
+    "sorrow_chalice",
+    "pale_gramophone",
+    "thorn_reliquary",
+    "anchor_crab",
+    "sundial_sentinel",
+    "sleepwalker_shoes",
+    "night_harp",
+    "thorn_cathedral",
+    "phantom_marionette",
+    "blood_moon_rose",
+    "judgement_scales",
+    "clockwork_raven",
+    "eclipse_stag",
+    "endless_library",
+    "sunken_crown",
+    "silent_choir",
+    "cathedral_heart",
+    "plague_monarch",
+    "hollow_throne",
+    "worldroot",
+    "the_undertow",
+    "the_last_funeral",
+    "nameless_door",
+    "crown_of_silence",
+    "the_first_grave",
+    "the_unwritten",
+    "the_last_star"
+  ],
+  "reviewHoldSeconds": 0,
+  "reviewIds": [],
+  "sourceFingerprints": {
+    "src/client/CurseVFX.luau": "67e4b96186ae13df245914801121340faffd0f69894785cb421736809880b51d",
+    "src/client/init.client.luau": "e22ca3c74c202dd516af715026a9c0a46950246349ee4d67da53ab7e6d1e4cbc",
+    "src/client/UI/CurrencyCard.luau": "dbf23fa0898c4cb5768bdd21bb2c3d32a12c15d8813b3c6ce9233476cb2551d8",
+    "src/client/UI/CurseLabels.luau": "7645fba2c6f679d6361ca068ece66b7131d9e7db03e22fe84fa40ea3420bd225",
+    "src/client/UI/HUD.luau": "2da2b1393860f039664692d1fc166f8de59024a42be8a800065067966df1c3a1",
+    "src/client/UI/Icons.luau": "80fb24d0d4cf6f744b689a5cc58d8690d4e712caae43c3dea8f1744a76696f7a",
+    "src/client/UI/Navigation.luau": "773f5febef09ae0e39651ece3acfa762f12374da8d915467f1df5738510d541c",
+    "src/client/UI/PanelFrame.luau": "a3102d1f3a262168db857f1b12f724bb1b1282f39c3aeb407102650b62caa959",
+    "src/client/UI/ShellPanel.luau": "298f7c33f9f13fff59011f9a2781e78b2e232d37e128ecdadf0d8634de753cb7",
+    "src/client/UI/ShopCard.luau": "86a617e458132f4ed5fb7ad761bc9038fbfaa6584ac5bd987ad92f74726c9069",
+    "src/client/UI/ShopPanel.luau": "c13ba8bb54f684e0a00021ec330cc9ecb666f0180ee654e6d0d71d94a8d3dd18",
+    "src/client/UI/Theme.luau": "c80edaef2bb34a36bc0a714beb890884f3cdff386838f792dc2ebc71d6c616e5",
+    "src/server/Gameplay/BaseService.luau": "a1735aa2f8843afae9fe02dd23b08bb6643f1c862e1ff6c1ae7f4a191675049d",
+    "src/server/Gameplay/Config.luau": "d16ee3025c4decd924854744b5951fc0ea65b4d9b7bcae1689c38fab508f1158",
+    "src/server/Gameplay/CurseProcessionService.luau": "86dc30126de2d1ffb9e0d3e6c2b5d88f61fe4536b560d0bb904b8381c2d69674",
+    "src/server/Gameplay/CurseService.luau": "9110e0d53c04c3383fb2785cc3ba3fc45171032aa06cdb08d655144e983b2de1",
+    "src/server/Gameplay/CurseVisualService.luau": "c06eabbc97aceffb73c8bbacbcecb06848a3de514e4758ee13cfb255e45fb36e",
+    "src/server/Gameplay/SoulsService.luau": "ef8cf9259dfbe0acecd53634229d10572e8a453bbafd1697ffee2efb75706997",
+    "src/server/init.server.luau": "cfb2dc029bafc0bd8a2f6e0a5fa5bf8b1e429fc5ca7044229921efb004551d54",
+    "src/server/Map/AssetKit.luau": "b6ef3738a8d8df2609ef4a1b87bdf034330eba77bcdcc48b8798a0b263734fc9",
+    "src/server/Map/Build.luau": "033166ac2143349dc15b86b762e94090416784ab0b7f32062bdee6ceb838b2a0",
+    "src/server/Map/Cemetery.luau": "789ee798dfed80452662e2a02129412fc8fea1a61686cc7b446bf476b190b509",
+    "src/server/Map/Config.luau": "c7efab0f6fa8d3b2b8132d3bd348132820bd3368832dd587237effd276d63d82",
+    "src/server/Map/Decorations.luau": "029c5c82ae913791c217d3831405ce29965b1c2617862e0afbbac7094bdc89a3",
+    "src/server/Map/Grounding.luau": "7de16f0fdd5cbba38a758b2034fa7f5136c1a3b736a1d80798c4472ee8b74f31",
+    "src/server/Map/HalloweenArt.luau": "f4667c141b7dbb5fdafb6793e1291ee9ebd9f1fcba8c9daeefd8152651ef0d13",
+    "src/server/Map/Landmarks.luau": "b254546fdbd6e10bc36babbac1e77d685831d92a97960b52a83b065beab4ac0d",
+    "src/server/Map/Layout.luau": "fae572e118ff58f563a2e25d65d39cbdafbc2fa039188f178ba0b8c1214ad61c",
+    "src/server/Map/Materials.luau": "d9efafb58d0decd2cca29d4a5782816d722e55aa25547ba7c13c93ff3a2bf170",
+    "src/server/Map/Mausoleum.luau": "936cb797f14617994ee274eeaeac70c2422ba090e1fcb768ef385fddd51649c8",
+    "src/server/Map/PlayerShrine.luau": "d6fb2ea5aeee3824d81d3062beba14fd259f57b077528d27f59231647fd62a70",
+    "src/server/Map/Primitives.luau": "08b51b521a2e2e85ff8bd05eae2ceb58b266d12444223e53cba29d4ab36a0cea",
+    "src/server/Map/SurfaceArt.luau": "4ea0bbfa7e21cdf276f4ff2d2e7a8e07b15befd81b878b0c40907fc527158075",
+    "src/server/Map/TerrainArt.luau": "8ad4c8eb0e5aef128d09302acd95e048068558448d99acd320eb5a78b05c2364",
+    "src/server/Map/World.luau": "09f8c264b6868d2c32f4d3d5c3181bac89d9073edcdcdac8fcaa66765da0f569",
+    "src/server/Map/WorldPolish.luau": "192c09ffbbd8ae465956517303e90cb17e5e319ffb134da0601694507e87b558",
+    "src/shared/CurseCatalog.luau": "6eb0fa8f6420244a07e5b3371eee1abf868ae671579c20eb34565cf256570adc",
+    "src/shared/CurseExpansionAssets.luau": "4681e844dde7b31416146fe96e3b196da8290517742bf38b4c854156bbaacafb",
+    "src/shared/CurseVFXProfiles.luau": "63b8a21be81ddc568b52ec6fa5249ec1b59776ef80f9cb4111001b6810de3b69",
+    "src/shared/CurseVisualPass2.luau": "23f5374717c222421e28b82f4248f4dab87d04eb1f60208325e00ae0b863a459",
+    "src/shared/Hello.luau": "f9c3e73a0f121694b403afd838212b5e1500a46f513853782e991d7ee183a85b",
+    "src/shared/NumberFormat.luau": "741b35619768be3b2898537cadd0a7dfea2f89ea2abeec4266d24566b5147f45",
+    "tests/VisualPass2Gameplay.server.luau": "f27324e8eec91c9d21a29dd520bef075cca102dd5e8b8ef7dbcb21afc9d33c12",
+    "tests/VisualPass2Gameplay.client.luau": "21c6e249cf19f223e48f6476d328f94bbf93ca2aa6c3e8f0776646abedafa1aa",
+    "default.project.json": "3ff48882f77c6f39a50f9290945ffc71dc3d8b1074f840936eeeafffe966be74"
+  },
+  "imports": [
+    {
+      "id": "cursed_doll",
+      "fbxSha256": "2f132f61404576ceb038f02b326e70e6172fbe6d93c311f65e06992121dbe048",
+      "meshId": "rbxassetid://105651608343321",
+      "export": "assets/export/meshes/curses/visual-pass2/cursed_doll.fbx",
+      "sourceReference": "assets/reference/cursed-doll-approved-v1.png",
+      "triangles": 2646
+    },
+    {
+      "id": "haunted_mirror",
+      "fbxSha256": "5cc3f79625431692fad248cd36fd0417dafd13e05822024bf949af442d24d268",
+      "meshId": "rbxassetid://93035871766571",
+      "export": "assets/export/meshes/curses/visual-pass2/haunted_mirror.fbx",
+      "sourceReference": "assets/reference/curses-six-roblox-v2.png",
+      "triangles": 1164
+    },
+    {
+      "id": "crying_mask",
+      "fbxSha256": "4d8edb422200c19932a327548e58e270c24b2a9a3dc628024af3815678356233",
+      "meshId": "rbxassetid://139868374607408",
+      "export": "assets/export/meshes/curses/visual-pass2/crying_mask.fbx",
+      "sourceReference": "assets/reference/crying-mask-roblox-rework-v2.png",
+      "triangles": 1436
+    },
+    {
+      "id": "watching_eye",
+      "fbxSha256": "01af3b718119a116628ade1ac666039352ff8359e6fbcaf364bff3fa0a75d0c3",
+      "meshId": "rbxassetid://86953467231643",
+      "export": "assets/export/meshes/curses/visual-pass2/watching_eye.fbx",
+      "sourceReference": "assets/reference/watching-eye-long-arms-v4.png",
+      "triangles": 3020
+    },
+    {
+      "id": "soul_chains",
+      "fbxSha256": "dff48192f693d8e697c2447d72bda39fe6e5c88abdac32fc97e4232d9af0349a",
+      "meshId": "rbxassetid://135030143756939",
+      "export": "assets/export/meshes/curses/visual-pass2/soul_chains.fbx",
+      "sourceReference": "assets/reference/soul-chains-mythic-rework-v3.png",
+      "triangles": 6092
+    },
+    {
+      "id": "the_void",
+      "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+      "meshId": "rbxassetid://112600261118925",
+      "export": "assets/export/meshes/curses/visual-pass2/the_void.fbx",
+      "sourceReference": "assets/reference/the-void-rift-aura-v3.png",
+      "triangles": 1018
+    },
+    {
+      "id": "candle_wisp",
+      "fbxSha256": "6987d574a753627ddb5bbe18b36dbb5da7065325bd28f3dd2ce88b7d19ca3c0a",
+      "meshId": "rbxassetid://120691798070914",
+      "export": "assets/export/meshes/curses/rework/candle_wisp.fbx",
+      "sourceReference": "rework-01-common.png",
+      "triangles": 3606
+    },
+    {
+      "id": "grave_hopper",
+      "fbxSha256": "fe0120d4854c65e7fe3f59ac914d56f3b260076ca277824d5d06bc4a96017c99",
+      "meshId": "rbxassetid://71461503692914",
+      "export": "assets/export/meshes/curses/rework/grave_hopper.fbx",
+      "sourceReference": "rework-01-common.png",
+      "triangles": 2400
+    },
+    {
+      "id": "grave_key",
+      "fbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+      "meshId": "rbxassetid://81555225772390",
+      "export": "assets/export/meshes/curses/rework/grave_key.fbx",
+      "sourceReference": "rework-01-common.png",
+      "triangles": 1526
+    },
+    {
+      "id": "mourning_ribbon",
+      "fbxSha256": "97e829221955ffa40234f58ad40cce38e5f1048f3b8d5ef6e50bb96b1945595e",
+      "meshId": "rbxassetid://86964137364657",
+      "export": "assets/export/meshes/curses/rework/mourning_ribbon.fbx",
+      "sourceReference": "rework-01-common.png",
+      "triangles": 1728
+    },
+    {
+      "id": "wilted_sprout",
+      "fbxSha256": "a99efaac928c2aed89f04ccafef6e79583d6f84119acaac002f0c396c7adc19a",
+      "meshId": "rbxassetid://73497154913372",
+      "export": "assets/export/meshes/curses/rework/wilted_sprout.fbx",
+      "sourceReference": "rework-01-common.png",
+      "triangles": 2220
+    },
+    {
+      "id": "ink_imp",
+      "fbxSha256": "5ce8405229cce3d2714d6a1a3296c478c76df4940dc2cf4aa637f7c314340662",
+      "meshId": "rbxassetid://138171047418372",
+      "export": "assets/export/meshes/curses/rework/ink_imp.fbx",
+      "sourceReference": "rework-02-common.png",
+      "triangles": 1772
+    },
+    {
+      "id": "lost_locket",
+      "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+      "meshId": "rbxassetid://91422731371880",
+      "export": "assets/export/meshes/curses/rework/lost_locket.fbx",
+      "sourceReference": "rework-02-common.png",
+      "triangles": 2500
+    },
+    {
+      "id": "ashen_book",
+      "fbxSha256": "f72d0e8c98dba038e467fd9da3881e6929e107535b42405b43766a6bb3ebb6f8",
+      "meshId": "rbxassetid://101139508733050",
+      "export": "assets/export/meshes/curses/rework/ashen_book.fbx",
+      "sourceReference": "rework-02-common.png",
+      "triangles": 2324
+    },
+    {
+      "id": "lantern_lurker",
+      "fbxSha256": "2ee17d5b1a9b51f85bb3c53a69cff220de998c101d5b9706c1d2593c5f8484e9",
+      "meshId": "rbxassetid://124690349043025",
+      "export": "assets/export/meshes/curses/rework/lantern_lurker.fbx",
+      "sourceReference": "rework-02-common.png",
+      "triangles": 2950
+    },
+    {
+      "id": "hourglass_hound",
+      "fbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+      "meshId": "rbxassetid://122359731833236",
+      "export": "assets/export/meshes/curses/rework/hourglass_hound.fbx",
+      "sourceReference": "rework-02-common.png",
+      "triangles": 2546
+    },
+    {
+      "id": "nail_beetle",
+      "fbxSha256": "4273094a43fc327e494b5defb8bc6ac90b4aed5cb45a934e6ca2b79e65114ad8",
+      "meshId": "rbxassetid://134811561032307",
+      "export": "assets/export/meshes/curses/rework/nail_beetle.fbx",
+      "sourceReference": "rework-03-common.png",
+      "triangles": 1594
+    },
+    {
+      "id": "pale_guest",
+      "fbxSha256": "a0952daf36ca5066499324a2484056e8807876f910233155ca7ce3e6c9ca9f45",
+      "meshId": "rbxassetid://124305513972828",
+      "export": "assets/export/meshes/curses/visual-pass2/pale_guest.fbx",
+      "sourceReference": "rework-03-common.png",
+      "triangles": 1716
+    },
+    {
+      "id": "cold_teacup",
+      "fbxSha256": "33f76654b9c4ac734b1ff7c653ed864739284038a7bc6dd62d82f5e894289af2",
+      "meshId": "rbxassetid://122738715837945",
+      "export": "assets/export/meshes/curses/visual-pass2/revision02/cold_teacup.fbx",
+      "sourceReference": "rework-03-common.png",
+      "triangles": 2456
+    },
+    {
+      "id": "coin_crawler",
+      "fbxSha256": "53749971c797b9f085873859565f807840f7479312459466cfa79c2cf28c7539",
+      "meshId": "rbxassetid://121209998415870",
+      "export": "assets/export/meshes/curses/visual-pass2/revision02/coin_crawler.fbx",
+      "sourceReference": "rework-03-common.png",
+      "triangles": 2172
+    },
+    {
+      "id": "umbrella_wraith",
+      "fbxSha256": "2177afe11487eea488d7be71b11f66a3b2eed1cbd76e1ecc000d219a1dd50b8b",
+      "meshId": "rbxassetid://74392665115825",
+      "export": "assets/export/meshes/curses/rework/umbrella_wraith.fbx",
+      "sourceReference": "rework-03-common.png",
+      "triangles": 1566
+    },
+    {
+      "id": "marrow_dice",
+      "fbxSha256": "9bd1fe03e8487c12446c5e41446d1c7142fea8e76a3a14f4c4be577837aca8b9",
+      "meshId": "rbxassetid://98208990983506",
+      "export": "assets/export/meshes/curses/rework/marrow_dice.fbx",
+      "sourceReference": "rework-04-rare.png",
+      "triangles": 4138
+    },
+    {
+      "id": "veil_mourner",
+      "fbxSha256": "47f510ca9523677e751c078607abfecc8175adc4e758430ba6c2012cf3ebeba6",
+      "meshId": "rbxassetid://138895825932890",
+      "export": "assets/export/meshes/curses/rework/veil_mourner.fbx",
+      "sourceReference": "rework-04-rare.png",
+      "triangles": 3280
+    },
+    {
+      "id": "grave_compass",
+      "fbxSha256": "dc609fe5932efdcbeba5ce32a67565aec910bacb799102dbe9bc8759e7285d31",
+      "meshId": "rbxassetid://92042737751538",
+      "export": "assets/export/meshes/curses/rework/grave_compass.fbx",
+      "sourceReference": "rework-04-rare.png",
+      "triangles": 3242
+    },
+    {
+      "id": "hollow_violin",
+      "fbxSha256": "5f4723d48a34879adc1970caf087e2cfebb08857903d92611ae205095d61f427",
+      "meshId": "rbxassetid://91498125175625",
+      "export": "assets/export/meshes/curses/rework/hollow_violin.fbx",
+      "sourceReference": "rework-04-rare.png",
+      "triangles": 2150
+    },
+    {
+      "id": "chime_triplets",
+      "fbxSha256": "0408b3051bc960371e33936e9b165d2fa081cf58a246ebda5a29deb041d7bcf6",
+      "meshId": "rbxassetid://114343537583157",
+      "export": "assets/export/meshes/curses/rework/chime_triplets.fbx",
+      "sourceReference": "rework-04-rare.png",
+      "triangles": 5332
+    },
+    {
+      "id": "thimble_spider",
+      "fbxSha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+      "meshId": "rbxassetid://99634226365979",
+      "export": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+      "sourceReference": "rework-05-rare.png",
+      "triangles": 5620
+    },
+    {
+      "id": "music_box_dancer",
+      "fbxSha256": "7fd043d7674a0bbae9799904a293fba4650ffbf453cb4fdfc3cd089646a819ff",
+      "meshId": "rbxassetid://103021046464363",
+      "export": "assets/export/meshes/curses/rework/music_box_dancer.fbx",
+      "sourceReference": "rework-05-rare.png",
+      "triangles": 3988
+    },
+    {
+      "id": "raven_quill",
+      "fbxSha256": "5b065f411e2f1c848e8f2c5db3989bba707496f34305571ffa98af5e34f27c64",
+      "meshId": "rbxassetid://71223428160554",
+      "export": "assets/export/meshes/curses/rework/raven_quill.fbx",
+      "sourceReference": "rework-05-rare.png",
+      "triangles": 1394
+    },
+    {
+      "id": "sorrow_chalice",
+      "fbxSha256": "0480883eeef8d5c69fd1f1d839797e7833712d25709acdfe9b6abb21d0875c11",
+      "meshId": "rbxassetid://124640513274761",
+      "export": "assets/export/meshes/curses/rework/sorrow_chalice.fbx",
+      "sourceReference": "rework-05-rare.png",
+      "triangles": 2828
+    },
+    {
+      "id": "pale_gramophone",
+      "fbxSha256": "b2c68e0b9de4f59b4e5cb2c44eadf43b04ed60c6ca99fdf2006b56b3425f432a",
+      "meshId": "rbxassetid://119236786916302",
+      "export": "assets/export/meshes/curses/visual-pass2/pale_gramophone.fbx",
+      "sourceReference": "assets/reference/rework-05-rare.png",
+      "triangles": 6316
+    },
+    {
+      "id": "thorn_reliquary",
+      "fbxSha256": "96d7b023dbb1ff14c503880afdb5589020054ef447c671e94a818f948ac6c45f",
+      "meshId": "rbxassetid://136595375769922",
+      "export": "assets/export/meshes/curses/rework/thorn_reliquary.fbx",
+      "sourceReference": "rework-06-rare.png",
+      "triangles": 2060
+    },
+    {
+      "id": "anchor_crab",
+      "fbxSha256": "0728c2d3e3629c06e863f23618a257e73f098ad1322586c8f1b496094e0a1803",
+      "meshId": "rbxassetid://138935951310223",
+      "export": "assets/export/meshes/curses/rework/anchor_crab.fbx",
+      "sourceReference": "rework-06-rare.png",
+      "triangles": 3128
+    },
+    {
+      "id": "sundial_sentinel",
+      "fbxSha256": "ee523ba2c3197303a9d8cb5007f6cced48fd4f951727662a6755631dfc3aa583",
+      "meshId": "rbxassetid://107305209907882",
+      "export": "assets/export/meshes/curses/rework/sundial_sentinel.fbx",
+      "sourceReference": "rework-06-rare.png",
+      "triangles": 2316
+    },
+    {
+      "id": "sleepwalker_shoes",
+      "fbxSha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+      "meshId": "rbxassetid://100900364423577",
+      "export": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+      "sourceReference": "rework-06-rare.png",
+      "triangles": 5176
+    },
+    {
+      "id": "night_harp",
+      "fbxSha256": "8006149d99620cfeb8ec4a8f92382095aef2262e51beea95ceddfa3418120f06",
+      "meshId": "rbxassetid://83648018962626",
+      "export": "assets/export/meshes/curses/rework/night_harp.fbx",
+      "sourceReference": "rework-07-legendary.png",
+      "triangles": 2492
+    },
+    {
+      "id": "thorn_cathedral",
+      "fbxSha256": "af25cf2f2d783f43a6832f86f1c4f09946cf688f0978d187b17a6d7b874647d3",
+      "meshId": "rbxassetid://96405703736945",
+      "export": "assets/export/meshes/curses/visual-pass2/thorn_cathedral.fbx",
+      "sourceReference": "assets/reference/rework-07-legendary.png",
+      "triangles": 3064
+    },
+    {
+      "id": "phantom_marionette",
+      "fbxSha256": "bfe0d85ae933df935335cadce3d07b775c8196c324fff783d5aa3d1dd5b4911e",
+      "meshId": "rbxassetid://125181594913762",
+      "export": "assets/export/meshes/curses/rework/phantom_marionette.fbx",
+      "sourceReference": "rework-07-legendary.png",
+      "triangles": 1964
+    },
+    {
+      "id": "blood_moon_rose",
+      "fbxSha256": "3a88ad72cae3d07f7e9563b3f18f9ad8285c44387cf3f008bfe469a0ad4effba",
+      "meshId": "rbxassetid://80054563301680",
+      "export": "assets/export/meshes/curses/rework/blood_moon_rose.fbx",
+      "sourceReference": "rework-07-legendary.png",
+      "triangles": 5166
+    },
+    {
+      "id": "judgement_scales",
+      "fbxSha256": "43a2ff546282a7fa83d2fcf91f443109618a48f24da012e8879a2ff97981fd04",
+      "meshId": "rbxassetid://115544351986945",
+      "export": "assets/export/meshes/curses/rework/judgement_scales.fbx",
+      "sourceReference": "rework-07-legendary.png",
+      "triangles": 2112
+    },
+    {
+      "id": "clockwork_raven",
+      "fbxSha256": "3521ae3ddc0c03b370efa091d9729ccf759d128a34d7eb3e3074f09a107096c1",
+      "meshId": "rbxassetid://132658656356560",
+      "export": "assets/export/meshes/curses/rework/clockwork_raven.fbx",
+      "sourceReference": "rework-08-legendary.png",
+      "triangles": 3880
+    },
+    {
+      "id": "eclipse_stag",
+      "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+      "meshId": "rbxassetid://84237463643087",
+      "export": "assets/export/meshes/curses/rework/eclipse_stag.fbx",
+      "sourceReference": "rework-08-legendary.png",
+      "triangles": 1882
+    },
+    {
+      "id": "endless_library",
+      "fbxSha256": "806d71599dba9c1edf389a5a68c43c4bbfc0e18ba6b3bb3fa5ca2619c86af514",
+      "meshId": "rbxassetid://119647220783912",
+      "export": "assets/export/meshes/curses/rework/endless_library.fbx",
+      "sourceReference": "rework-08-legendary.png",
+      "triangles": 4812
+    },
+    {
+      "id": "sunken_crown",
+      "fbxSha256": "278877b57116e80ab241fdac43e1af27d97f38faebfe01483f2d040c16ade995",
+      "meshId": "rbxassetid://117032966363977",
+      "export": "assets/export/meshes/curses/rework/sunken_crown.fbx",
+      "sourceReference": "rework-08-legendary.png",
+      "triangles": 3408
+    },
+    {
+      "id": "silent_choir",
+      "fbxSha256": "1c1b54ca74e9fa3a3af4940c3482f9404be12b9b536a3378b03565c30475038c",
+      "meshId": "rbxassetid://87533045551868",
+      "export": "assets/export/meshes/curses/rework/silent_choir.fbx",
+      "sourceReference": "rework-08-legendary.png",
+      "triangles": 2680
+    },
+    {
+      "id": "cathedral_heart",
+      "fbxSha256": "af9cc66930524fc21ebbb5cdb971f1fcf7281c1e60b9a9774eaf831bf2c836a2",
+      "meshId": "rbxassetid://99293575687788",
+      "export": "assets/export/meshes/curses/visual-pass2/cathedral_heart.fbx",
+      "sourceReference": "assets/reference/rework-09-mythic.png",
+      "triangles": 3618
+    },
+    {
+      "id": "plague_monarch",
+      "fbxSha256": "bf3c51ea1d27f04282d58e5739ce55e0f353e4d9f71caecf4f15434a9620c8a1",
+      "meshId": "rbxassetid://84591406393703",
+      "export": "assets/export/meshes/curses/rework/plague_monarch.fbx",
+      "sourceReference": "rework-09-mythic.png",
+      "triangles": 2828
+    },
+    {
+      "id": "hollow_throne",
+      "fbxSha256": "09b3e3e65471e9857bc8f446f3140815017d80dbdc1a1868da0bdf397f226e61",
+      "meshId": "rbxassetid://137649959781597",
+      "export": "assets/export/meshes/curses/rework/hollow_throne.fbx",
+      "sourceReference": "rework-09-mythic.png",
+      "triangles": 2416
+    },
+    {
+      "id": "worldroot",
+      "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+      "meshId": "rbxassetid://78477623099004",
+      "export": "assets/export/meshes/curses/rework/worldroot.fbx",
+      "sourceReference": "rework-10-mythic.png",
+      "triangles": 3456
+    },
+    {
+      "id": "the_undertow",
+      "fbxSha256": "8c20636ffc364f7cc22f99bcc5522628157b43b94d30cbdec4dedb4186ddf4f7",
+      "meshId": "rbxassetid://105483544111432",
+      "export": "assets/export/meshes/curses/rework/the_undertow.fbx",
+      "sourceReference": "rework-10-mythic.png",
+      "triangles": 2498
+    },
+    {
+      "id": "the_last_funeral",
+      "fbxSha256": "5b392a84d7fa155e8ae9962b6420ca82d48be8e036aced845a745d1b7a6f4df5",
+      "meshId": "rbxassetid://138087526906503",
+      "export": "assets/export/meshes/curses/rework/the_last_funeral.fbx",
+      "sourceReference": "rework-10-mythic.png",
+      "triangles": 3030
+    },
+    {
+      "id": "nameless_door",
+      "fbxSha256": "b68a904eac029939788614406e810a6ffca3ff0c6eafc03d966a2f45cacc15bb",
+      "meshId": "rbxassetid://136046415979732",
+      "export": "assets/export/meshes/curses/rework/nameless_door.fbx",
+      "sourceReference": "rework-11-secret.png",
+      "triangles": 3232
+    },
+    {
+      "id": "crown_of_silence",
+      "fbxSha256": "4c419c204f3ed4c0c7842df2c82e47fcd8eba07a09bf98d8753fe1968bf0541c",
+      "meshId": "rbxassetid://87201548999780",
+      "export": "assets/export/meshes/curses/rework/crown_of_silence.fbx",
+      "sourceReference": "rework-11-secret.png",
+      "triangles": 7204
+    },
+    {
+      "id": "the_first_grave",
+      "fbxSha256": "ef11c3982200f0fb308a206de8a8e4e6a437e5de2c2f04b10b2d1e5ccbc2e7e7",
+      "meshId": "rbxassetid://104080758542748",
+      "export": "assets/export/meshes/curses/rework/the_first_grave.fbx",
+      "sourceReference": "rework-11-secret.png",
+      "triangles": 2136
+    },
+    {
+      "id": "the_unwritten",
+      "fbxSha256": "238dc268d2897be28bcf959ad3df35dcf76db552439d5392e05e9254635fc46e",
+      "meshId": "rbxassetid://132077689568800",
+      "export": "assets/export/meshes/curses/rework/the_unwritten.fbx",
+      "sourceReference": "rework-12-secret.png",
+      "triangles": 8122
+    },
+    {
+      "id": "the_last_star",
+      "fbxSha256": "c07d42e338c7621c1b27a81afe6e7733793d69485f0b7be9a7412e4e4003d917",
+      "meshId": "rbxassetid://139013796148408",
+      "export": "assets/export/meshes/curses/visual-pass2/the_last_star.fbx",
+      "sourceReference": "assets/reference/rework-12-secret.png",
+      "triangles": 4792
+    }
+  ]
+}

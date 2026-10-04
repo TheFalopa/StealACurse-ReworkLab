@@ -1,0 +1,104 @@
+{
+  "id": "eclipse_stag",
+  "displayName": "Eclipse Stag",
+  "rarity": "Legendary",
+  "sourceReference": "assets/reference/rework-08-legendary.png",
+  "source": "assets/source/blender/curses_expansion/rework/eclipse_stag.blend",
+  "export": "assets/export/meshes/curses/rework/eclipse_stag.fbx",
+  "sha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b",
+  "triangles": 1882,
+  "vertices": 1019,
+  "blenderDimensions": [
+    3.0634021759033203,
+    1.1875,
+    4.050032138824463
+  ],
+  "intendedRobloxSize": [
+    3.0634021759033203,
+    4.050032138824463,
+    1.1875
+  ],
+  "diagonal": 5.215107809704441,
+  "vfxHook": [
+    0.33141117572784423,
+    0.5099838827177883,
+    0.3637499940395355
+  ],
+  "vfxProfile": "eclipse_antlers",
+  "palette": [
+    "bone_high",
+    "ivory",
+    "jade",
+    "moon_glow",
+    "obsidian",
+    "thorn_edge"
+  ],
+  "paintedColorCount": 467,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Lean black spectral deer with four articulated hooves",
+      "first_face": 0,
+      "last_face_exclusive": 382
+    },
+    {
+      "name": "Broad pale branching antlers with suspended moon crystals",
+      "first_face": 382,
+      "last_face_exclusive": 522
+    },
+    {
+      "name": "Separated wind mane and tapered phantom tail",
+      "first_face": 522,
+      "last_face_exclusive": 586
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 08: lean spectral deer with black armored body, four jointed hooves, pale mask and broad multi-branch ivory antlers. Small moon crystals and separated jade mane ribbons occupy controlled negative space rather than a halo of spikes."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/eclipse_stag.blend",
+  "robloxIntendedSize": [
+    3.0634021759033203,
+    4.050032138824463,
+    1.1875
+  ],
+  "vfxHookRoblox": [
+    0.33141117572784423,
+    0.5099838827177883,
+    0.3637499940395355
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.030634021386504173,
+      0.01187500637024641,
+      0.040500324219465256
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1882,
+    "colorCount": 467,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "eclipse_stag",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "ca033f2095e185350747a83a2139b9b0b54029f65f634a29982f5a10c8065f5b"
+  }
+}

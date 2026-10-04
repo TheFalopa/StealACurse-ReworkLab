@@ -1,0 +1,82 @@
+{
+  "id": "thimble_spider",
+  "displayName": "Thimble Spider",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-05-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/thimble_spider.blend",
+  "export": "assets/export/meshes/curses/rework/thimble_spider.fbx",
+  "sha256": "366e597188098d8d3821fdc8f3e0d32bc7a35be3c06a94345c7ddfc2d40f9cbc",
+  "triangles": 5620,
+  "vertices": 2864,
+  "blenderDimensions": [
+    3.3798885345458984,
+    1.8815410137176514,
+    2.0764694213867188
+  ],
+  "intendedRobloxSize": [
+    3.3798885345458984,
+    2.0764694213867188,
+    1.8815410137176514
+  ],
+  "diagonal": 4.39039501072632,
+  "vfxHook": [
+    -9.304285049438477e-05,
+    0.8682346749305725,
+    -0.130770480632782
+  ],
+  "vfxProfile": "thimble_thread_glints",
+  "palette": [
+    "bone",
+    "gold",
+    "gold_edge",
+    "ink",
+    "iron",
+    "wood"
+  ],
+  "paintedColorCount": 1033,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "domed bronze thimble and dimpled armor",
+      "first_face": 0,
+      "last_face_exclusive": 1514
+    },
+    {
+      "name": "rounded shadow abdomen, button eyes and needle fangs",
+      "first_face": 1514,
+      "last_face_exclusive": 2018
+    },
+    {
+      "name": "eight articulated needle legs with brass knees",
+      "first_face": 2018,
+      "last_face_exclusive": 2602
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Curved bronze sewing thimble armor with rows of authored sunk dimples, rounded black core, button eyes, paired needle fangs and eight segmented legs.",
+    "A loose spectral thread forms briefly between the needle fangs; dimples glint sparingly."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/thimble_spider.blend",
+  "robloxIntendedSize": [
+    3.3798885345458984,
+    2.0764694213867188,
+    1.8815410137176514
+  ],
+  "vfxHookRoblox": [
+    -9.304285049438477e-05,
+    0.8682346749305725,
+    -0.130770480632782
+  ]
+}

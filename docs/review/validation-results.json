@@ -1,0 +1,1518 @@
+{
+  "map": {
+    "paths": [
+      {
+        "lengthStuds": 223.4136815071106,
+        "name": "Base01 to castle court",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 13.963355094194412
+      },
+      {
+        "lengthStuds": 180.72299307584763,
+        "name": "Base01 to Base02",
+        "jumpWaypoints": 2,
+        "status": "Success",
+        "estimatedSecondsAt16": 11.295187067240477
+      },
+      {
+        "lengthStuds": 238.42666393518448,
+        "name": "Base02 to castle court",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 14.90166649594903
+      },
+      {
+        "lengthStuds": 199.9528809785843,
+        "name": "Base02 to Base03",
+        "jumpWaypoints": 1,
+        "status": "Success",
+        "estimatedSecondsAt16": 12.497055061161518
+      },
+      {
+        "lengthStuds": 233.98109316825867,
+        "name": "Base03 to castle court",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 14.623818323016167
+      },
+      {
+        "lengthStuds": 190.0060674548149,
+        "name": "Base03 to Base04",
+        "jumpWaypoints": 1,
+        "status": "Success",
+        "estimatedSecondsAt16": 11.875379215925932
+      },
+      {
+        "lengthStuds": 267.6324990391731,
+        "name": "Base04 to castle court",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 16.72703118994832
+      },
+      {
+        "lengthStuds": 196.4001626074314,
+        "name": "Base04 to Base05",
+        "jumpWaypoints": 2,
+        "status": "Success",
+        "estimatedSecondsAt16": 12.275010162964463
+      },
+      {
+        "lengthStuds": 254.1239639520645,
+        "name": "Base05 to castle court",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 15.882747747004032
+      },
+      {
+        "lengthStuds": 194.49012899398804,
+        "name": "Base05 to Base06",
+        "jumpWaypoints": 1,
+        "status": "Success",
+        "estimatedSecondsAt16": 12.155633062124252
+      },
+      {
+        "lengthStuds": 279.0689605474472,
+        "name": "Base06 to castle court",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 17.44181003421545
+      },
+      {
+        "lengthStuds": 218.11785092949867,
+        "name": "Base06 to Base07",
+        "jumpWaypoints": 1,
+        "status": "Success",
+        "estimatedSecondsAt16": 13.632365683093667
+      },
+      {
+        "lengthStuds": 235.5755569934845,
+        "name": "Base07 to castle court",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 14.723472312092781
+      },
+      {
+        "lengthStuds": 200.68886929750443,
+        "name": "Base07 to Base08",
+        "jumpWaypoints": 2,
+        "status": "Success",
+        "estimatedSecondsAt16": 12.543054331094027
+      },
+      {
+        "lengthStuds": 229.92115080356598,
+        "name": "Base08 to castle court",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 14.370071925222874
+      },
+      {
+        "lengthStuds": 184.50273618102074,
+        "name": "Base08 to Base01",
+        "jumpWaypoints": 0,
+        "status": "Success",
+        "estimatedSecondsAt16": 11.531421011313796
+      }
+    ],
+    "method": "Map contracts; 1-stud procession sphere samples; Roblox navmesh paths. Mesh bounding boxes are candidates, not mesh triangle intersections. Path length /16 is an estimate, not an actual timed character walk.",
+    "activeFamilyPlots": 12,
+    "bases": [
+      {
+        "id": "Base01",
+        "claimReady": true,
+        "slots": [
+          {
+            "topY": 4.4000000059604645,
+            "index": 1,
+            "position": [
+              -5.418889999389648,
+              4.25,
+              217.32150268554688
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 2,
+            "position": [
+              20.565271377563477,
+              4.25,
+              216.41412353515625
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 3,
+            "position": [
+              -4.96519660949707,
+              4.25,
+              230.3135986328125
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 4,
+            "position": [
+              21.018964767456055,
+              4.25,
+              229.4062042236328
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 5,
+            "position": [
+              8.271181106567383,
+              4.25,
+              236.8556365966797
+            ]
+          }
+        ],
+        "spawn": [
+          6.840301513671875,
+          2.4000015258789062,
+          195.880615234375
+        ]
+      },
+      {
+        "id": "Base02",
+        "claimReady": true,
+        "slots": [
+          {
+            "topY": 5.4000000059604645,
+            "index": 1,
+            "position": [
+              145.3060302734375,
+              5.25,
+              174.88327026367188
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 2,
+            "position": [
+              164.32122802734375,
+              5.25,
+              157.15130615234375
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 3,
+            "position": [
+              154.17201232910156,
+              5.25,
+              184.390869140625
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 4,
+            "position": [
+              173.1872100830078,
+              5.25,
+              166.65890502929688
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 5,
+            "position": [
+              168.45359802246094,
+              5.25,
+              180.6443634033203
+            ]
+          }
+        ],
+        "spawn": [
+          140.49166870117188,
+          3.4000015258789062,
+          150.6588592529297
+        ]
+      },
+      {
+        "id": "Base03",
+        "claimReady": true,
+        "slots": [
+          {
+            "topY": 4.4000000059604645,
+            "index": 1,
+            "position": [
+              218.1936798095703,
+              4.25,
+              9.193395614624023
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 2,
+            "position": [
+              217.7399139404297,
+              4.25,
+              -16.802644729614258
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 3,
+            "position": [
+              231.1916961669922,
+              4.25,
+              8.966514587402344
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 4,
+            "position": [
+              230.73793029785156,
+              4.25,
+              -17.029525756835938
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 5,
+            "position": [
+              237.9637451171875,
+              4.25,
+              -4.153672695159912
+            ]
+          }
+        ],
+        "spawn": [
+          196.97000122070312,
+          2.4000015258789062,
+          -3.438124179840088
+        ]
+      },
+      {
+        "id": "Base04",
+        "claimReady": true,
+        "slots": [
+          {
+            "topY": 6.4000000059604645,
+            "index": 1,
+            "position": [
+              162.2752227783203,
+              6.25,
+              -154.95724487304688
+            ]
+          },
+          {
+            "topY": 6.4000000059604645,
+            "index": 2,
+            "position": [
+              143.26002502441406,
+              6.25,
+              -172.689208984375
+            ]
+          },
+          {
+            "topY": 6.4000000059604645,
+            "index": 3,
+            "position": [
+              171.14120483398438,
+              6.25,
+              -164.46484375
+            ]
+          },
+          {
+            "topY": 6.4000000059604645,
+            "index": 4,
+            "position": [
+              152.12600708007812,
+              6.25,
+              -182.19680786132812
+            ]
+          },
+          {
+            "topY": 6.4000000059604645,
+            "index": 5,
+            "position": [
+              166.4075927734375,
+              6.25,
+              -178.45030212402344
+            ]
+          }
+        ],
+        "spawn": [
+          138.44566345214844,
+          4.400001525878906,
+          -148.4647979736328
+        ]
+      },
+      {
+        "id": "Base05",
+        "claimReady": true,
+        "slots": [
+          {
+            "topY": 5.4000000059604645,
+            "index": 1,
+            "position": [
+              1.4682731628417969,
+              5.25,
+              -220.3788604736328
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 2,
+            "position": [
+              -24.49609375,
+              5.25,
+              -219.01812744140625
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 3,
+            "position": [
+              0.7879056930541992,
+              5.25,
+              -233.36105346679688
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 4,
+            "position": [
+              -25.17646026611328,
+              5.25,
+              -232.00030517578125
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 5,
+            "position": [
+              -12.560628890991211,
+              5.25,
+              -239.67108154296875
+            ]
+          }
+        ],
+        "spawn": [
+          -10.414855003356934,
+          3.4000015258789062,
+          -198.72727966308594
+        ]
+      },
+      {
+        "id": "Base06",
+        "claimReady": true,
+        "slots": [
+          {
+            "topY": 4.4000000059604645,
+            "index": 1,
+            "position": [
+              -157.15130615234375,
+              4.25,
+              -164.32122802734375
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 2,
+            "position": [
+              -174.88327026367188,
+              4.25,
+              -145.3060302734375
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 3,
+            "position": [
+              -166.65890502929688,
+              4.25,
+              -173.1872100830078
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 4,
+            "position": [
+              -184.390869140625,
+              4.25,
+              -154.17201232910156
+            ]
+          },
+          {
+            "topY": 4.4000000059604645,
+            "index": 5,
+            "position": [
+              -180.6443634033203,
+              4.25,
+              -168.45359802246094
+            ]
+          }
+        ],
+        "spawn": [
+          -150.6588592529297,
+          2.4000015258789062,
+          -140.49166870117188
+        ]
+      },
+      {
+        "id": "Base07",
+        "claimReady": true,
+        "slots": [
+          {
+            "topY": 6.4000000059604645,
+            "index": 1,
+            "position": [
+              -217.32150268554688,
+              6.25,
+              -5.418889999389648
+            ]
+          },
+          {
+            "topY": 6.4000000059604645,
+            "index": 2,
+            "position": [
+              -216.41412353515625,
+              6.25,
+              20.565271377563477
+            ]
+          },
+          {
+            "topY": 6.4000000059604645,
+            "index": 3,
+            "position": [
+              -230.3135986328125,
+              6.25,
+              -4.96519660949707
+            ]
+          },
+          {
+            "topY": 6.4000000059604645,
+            "index": 4,
+            "position": [
+              -229.4062042236328,
+              6.25,
+              21.018964767456055
+            ]
+          },
+          {
+            "topY": 6.4000000059604645,
+            "index": 5,
+            "position": [
+              -236.8556365966797,
+              6.25,
+              8.271181106567383
+            ]
+          }
+        ],
+        "spawn": [
+          -195.880615234375,
+          4.400001525878906,
+          6.840301513671875
+        ]
+      },
+      {
+        "id": "Base08",
+        "claimReady": true,
+        "slots": [
+          {
+            "topY": 5.4000000059604645,
+            "index": 1,
+            "position": [
+              -157.4245147705078,
+              5.25,
+              161.28089904785156
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 2,
+            "position": [
+              -137.80206298828125,
+              5.25,
+              178.3384246826172
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 3,
+            "position": [
+              -165.95327758789062,
+              5.25,
+              171.0921173095703
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 4,
+            "position": [
+              -146.33082580566406,
+              5.25,
+              188.149658203125
+            ]
+          },
+          {
+            "topY": 5.4000000059604645,
+            "index": 5,
+            "position": [
+              -160.73446655273438,
+              5.25,
+              184.9038543701172
+            ]
+          }
+        ],
+        "spawn": [
+          -133.83604431152344,
+          3.4000015258789062,
+          153.96075439453125
+        ]
+      }
+    ],
+    "unsupportedBoundary": [],
+    "landmarks": {
+      "CollapsedChapel": true,
+      "ChainedTree": true,
+      "SpectralRootGarden": true,
+      "HollowSentinel": true,
+      "OldCemeteryGate": true,
+      "ForgottenWarden": true,
+      "MourningTree": true,
+      "WidowsOak": true
+    },
+    "warnings": [
+      "Inspect procession visual mesh bounding-box candidates; open arch candidates can be expected"
+    ],
+    "fairness": {
+      "shortestBaseCourtPath": 223.4136815071106,
+      "longestBaseCourtPath": 279.0689605474472,
+      "longestToShortest": 1.2491131190574167
+    },
+    "failures": [],
+    "counts": {
+      "lights": 13,
+      "meshParts": 500,
+      "baseParts": 1815,
+      "enabledLights": 13,
+      "unanchoredEnvironment": 0,
+      "uniqueMeshIds": 21,
+      "emitters": 1,
+      "enabledEmitters": 1,
+      "colliders": 414
+    },
+    "procession": {
+      "lengthStuds": 183.53101539611816,
+      "sphereRadiusStuds": 3.5,
+      "boundsCaveat": "A hollow doorway or curved mesh may overlap a bounding box without intersecting its triangles. Inspect each reported mesh candidate in Studio; this cannot establish exact mesh triangle clearance.",
+      "solidBoundingBoxCandidates": [],
+      "samples": 197,
+      "unsupportedSegments": [],
+      "visualMeshBoundingBoxCandidates": [
+        "Workspace.StealACurseMap.CentralMausoleum.HollowCrownCastle.CurseEntrance.GreatGothicArch"
+      ]
+    }
+  },
+  "normalLoop": {
+    "normalPurchase": {
+      "before": 500,
+      "uid": "06afeaa4-bd31-4396-ab1c-af61e6ed62d1",
+      "name": "Haunted Mirror",
+      "position": "-0.0681784600019455, 4.419999599456787, 21.726154327392578",
+      "price": 450,
+      "status": "bought",
+      "after": 50,
+      "id": "haunted_mirror"
+    },
+    "attributes": {
+      "Souls": 1918.11,
+      "SoulsPerSecond": 10,
+      "HUDNoticeSerial": 3,
+      "HUDNotice": "Haunted Mirror placed! +10 Souls/s",
+      "ClaimedBaseId": "Base07"
+    },
+    "walks": {
+      "1": {
+        "reached": true,
+        "legs": {
+          "1": {
+            "planningSeconds": 0.2124813999980688,
+            "walkSpeed": 16,
+            "actualWalkingSeconds": 13.688112400006503,
+            "startPosition": {
+              "1": -195.880615234375,
+              "2": 6.80000114440918,
+              "3": 6.840301513671875
+            },
+            "pathStatus": "Success",
+            "jumpWaypoints": 0,
+            "remainingHorizontalStuds": 0.9808251261711121,
+            "actualDistanceStuds": 203.83891987800598,
+            "label": "Normal loop: Base07 spawn to castle court",
+            "pathLengthStuds": 204.69477105140686,
+            "reached": true,
+            "actualJumps": 0,
+            "target": "castle court",
+            "destination": {
+              "1": 0,
+              "2": 4,
+              "3": 24
+            },
+            "canceled": false,
+            "endPosition": {
+              "1": -0.9379115700721741,
+              "2": 4.419999599456787,
+              "3": 24.286949157714844
+            }
+          }
+        },
+        "elapsedSeconds": 13.900710099958815,
+        "canceled": false,
+        "runId": 1
+      },
+      "2": {
+        "reached": true,
+        "legs": {
+          "1": {
+            "planningSeconds": 0.1075134999700822,
+            "walkSpeed": 16,
+            "actualWalkingSeconds": 16.2880725999712,
+            "startPosition": {
+              "1": -0.06817787140607834,
+              "2": 4.419999599456787,
+              "3": 21.726154327392578
+            },
+            "pathStatus": "Success",
+            "jumpWaypoints": 0,
+            "remainingHorizontalStuds": 1.5514737367630005,
+            "actualDistanceStuds": 239.18228793144226,
+            "label": "Normal loop: castle to Base07 carrying natural Haunted Mirror",
+            "pathLengthStuds": 240.63401445746422,
+            "reached": true,
+            "actualJumps": 0,
+            "target": "Base07 display court",
+            "destination": {
+              "1": -226.86172485351562,
+              "2": 7.25,
+              "3": 7.922185897827148
+            },
+            "canceled": false,
+            "endPosition": {
+              "1": -225.31869506835938,
+              "2": 7.149998188018799,
+              "3": 7.760538578033447
+            }
+          }
+        },
+        "elapsedSeconds": 16.395733800018206,
+        "canceled": false,
+        "runId": 2
+      },
+      "3": {
+        "reached": true,
+        "legs": {
+          "1": {
+            "planningSeconds": 0.03942510002525523,
+            "walkSpeed": 16,
+            "actualWalkingSeconds": 15.989782299962826,
+            "startPosition": {
+              "1": -226.06137084960938,
+              "2": 7.149998188018799,
+              "3": 7.838338851928711
+            },
+            "pathStatus": "Success",
+            "jumpWaypoints": 0,
+            "remainingHorizontalStuds": 0.8840192556381226,
+            "actualDistanceStuds": 234.0674169063568,
+            "label": "Base07 display court to castle",
+            "pathLengthStuds": 234.78556060791016,
+            "reached": true,
+            "actualJumps": 0,
+            "target": "castle court",
+            "destination": {
+              "1": 0,
+              "2": 4,
+              "3": 24
+            },
+            "canceled": false,
+            "endPosition": {
+              "1": -0.8453420400619507,
+              "2": 4.419999599456787,
+              "3": 24.258625030517578
+            }
+          },
+          "2": {
+            "planningSeconds": 0.011555699980817735,
+            "walkSpeed": 16,
+            "actualWalkingSeconds": 15.967236199998297,
+            "startPosition": {
+              "1": -0.8453420400619507,
+              "2": 4.419999599456787,
+              "3": 24.258625030517578
+            },
+            "pathStatus": "Success",
+            "jumpWaypoints": 0,
+            "remainingHorizontalStuds": 1.3408241271972656,
+            "actualDistanceStuds": 237.51036405563354,
+            "label": "Castle court to Base07",
+            "pathLengthStuds": 238.7246127128601,
+            "reached": true,
+            "actualJumps": 0,
+            "target": "Base07 display court",
+            "destination": {
+              "1": -226.86172485351562,
+              "2": 7.25,
+              "3": 7.922185897827148
+            },
+            "canceled": false,
+            "endPosition": {
+              "1": -225.5281982421875,
+              "2": 7.149998188018799,
+              "3": 7.782485485076904
+            }
+          },
+          "3": {
+            "planningSeconds": 0.031385699985548854,
+            "walkSpeed": 16,
+            "actualWalkingSeconds": 13.145593699999154,
+            "startPosition": {
+              "1": -225.5281982421875,
+              "2": 7.149998188018799,
+              "3": 7.782485485076904
+            },
+            "pathStatus": "Success",
+            "jumpWaypoints": 2,
+            "remainingHorizontalStuds": 0.8286539316177368,
+            "actualDistanceStuds": 196.74917924404144,
+            "label": "Neighbor Base07 to Base08",
+            "pathLengthStuds": 200.07206237316132,
+            "reached": true,
+            "actualJumps": 0,
+            "target": "Base08 display court",
+            "destination": {
+              "1": -154.1738739013672,
+              "2": 6.25,
+              "3": 177.35675048828125
+            },
+            "canceled": false,
+            "endPosition": {
+              "1": -154.3009796142578,
+              "2": 6.149998188018799,
+              "3": 176.53790283203125
+            }
+          },
+          "4": {
+            "planningSeconds": 0.0919937000144273,
+            "walkSpeed": 16,
+            "actualWalkingSeconds": 33.2242838999955,
+            "startPosition": {
+              "1": -154.3009796142578,
+              "2": 6.149998188018799,
+              "3": 176.53790283203125
+            },
+            "pathStatus": "Success",
+            "jumpWaypoints": 0,
+            "remainingHorizontalStuds": 0.8073508143424988,
+            "actualDistanceStuds": 503.6818831562996,
+            "label": "Across map Base08 to Base04",
+            "pathLengthStuds": 507.05051696300507,
+            "reached": true,
+            "actualJumps": 0,
+            "target": "Base04 display court",
+            "destination": {
+              "1": 159.58761596679688,
+              "2": 7.25,
+              "3": -171.1367645263672
+            },
+            "canceled": false,
+            "endPosition": {
+              "1": 159.62525939941406,
+              "2": 7.149998188018799,
+              "3": -170.33029174804688
+            }
+          }
+        },
+        "elapsedSeconds": 78.50174600002356,
+        "canceled": false,
+        "runId": 3
+      }
+    }
+  },
+  "route": {
+    "placed": {
+      "Souls": 2161.38,
+      "SoulsPerSecond": 10,
+      "HUDNoticeSerial": 3,
+      "HUDNotice": "Haunted Mirror placed! +10 Souls/s",
+      "ClaimedBaseId": "Base07"
+    },
+    "maxModels": 3,
+    "firstFinished": {
+      "uid": "d2d9f36c-c2f4-4e86-a2a8-f9186869793a",
+      "id": "cursed_doll",
+      "elapsed": 28.06811170000583,
+      "first": "0, 5.462247371673584, 1.0468887090682983",
+      "last": "0.4445533752441406, 5.159663677215576, 27.89539909362793",
+      "t": 750.1882669000188
+    },
+    "unsoldFinished": 22
+  },
+  "allBases": {
+    "method": "One real client, eight sequential freshly recreated map/base/curse contexts, one SoulsService. Real client prompts. Setup teleports and test credit. Empty old service callbacks/updaters remain bounded until Play stops. Not an eight-client simultaneous test.",
+    "definitionsCovered": {
+      "haunted_mirror": true,
+      "watching_eye": true,
+      "soul_chains": true,
+      "cursed_doll": true,
+      "crying_mask": true,
+      "the_void": true
+    },
+    "verifiedPlacements": 40,
+    "interactivePurchases": 40,
+    "status": "passed",
+    "bases": [
+      {
+        "id": "Base01",
+        "soulsPerSecond": 222,
+        "claimed": true,
+        "slots": [
+          {
+            "uid": "2cec2964-cadb-4f0b-9f67-983a200a85c1",
+            "slot": 1,
+            "position": [
+              -5.418889999389648,
+              6.201719284057617,
+              217.32150268554688
+            ],
+            "definitionId": "cursed_doll",
+            "physicalPedestal": 1
+          },
+          {
+            "uid": "bff08994-1a45-4907-8bad-4f6d36c88500",
+            "slot": 2,
+            "position": [
+              20.565271377563477,
+              6.599998474121094,
+              216.41412353515625
+            ],
+            "definitionId": "haunted_mirror",
+            "physicalPedestal": 2
+          },
+          {
+            "uid": "f709eb86-97ba-433e-aed8-23d10cb310d4",
+            "slot": 3,
+            "position": [
+              -4.96519660949707,
+              6.105000019073486,
+              230.3135986328125
+            ],
+            "definitionId": "crying_mask",
+            "physicalPedestal": 3
+          },
+          {
+            "uid": "83bf0309-a278-4e67-a882-2ac1b8186f36",
+            "slot": 4,
+            "position": [
+              21.018964767456055,
+              5.920692443847656,
+              229.4062042236328
+            ],
+            "definitionId": "watching_eye",
+            "physicalPedestal": 4
+          },
+          {
+            "uid": "54f96f4a-adff-4cb1-896e-17a053e81e4b",
+            "slot": 5,
+            "position": [
+              8.271181106567383,
+              5.880000114440918,
+              236.8556365966797
+            ],
+            "definitionId": "soul_chains",
+            "physicalPedestal": 5
+          }
+        ]
+      },
+      {
+        "id": "Base02",
+        "soulsPerSecond": 969,
+        "claimed": true,
+        "slots": [
+          {
+            "uid": "f4da67a0-a566-4b6e-bca7-62db9351578f",
+            "slot": 1,
+            "position": [
+              145.3060302734375,
+              7.599998474121094,
+              174.88327026367188
+            ],
+            "definitionId": "haunted_mirror",
+            "physicalPedestal": 1
+          },
+          {
+            "uid": "15a14258-11b3-40c1-a7ac-b1387d22ce85",
+            "slot": 2,
+            "position": [
+              164.32122802734375,
+              7.1050004959106445,
+              157.15130615234375
+            ],
+            "definitionId": "crying_mask",
+            "physicalPedestal": 2
+          },
+          {
+            "uid": "5db12dad-f509-4793-8f7a-3ccb11215ea1",
+            "slot": 3,
+            "position": [
+              154.17201232910156,
+              6.9206929206848145,
+              184.390869140625
+            ],
+            "definitionId": "watching_eye",
+            "physicalPedestal": 3
+          },
+          {
+            "uid": "ac854b04-ce72-4959-8123-ecff54ce5a74",
+            "slot": 4,
+            "position": [
+              173.1872100830078,
+              6.880000114440918,
+              166.65890502929688
+            ],
+            "definitionId": "soul_chains",
+            "physicalPedestal": 4
+          },
+          {
+            "uid": "d5217331-d43a-443e-b170-6511d4c03c62",
+            "slot": 5,
+            "position": [
+              168.45359802246094,
+              7.805000305175781,
+              180.6443634033203
+            ],
+            "definitionId": "the_void",
+            "physicalPedestal": 5
+          }
+        ]
+      },
+      {
+        "id": "Base03",
+        "soulsPerSecond": 962,
+        "claimed": true,
+        "slots": [
+          {
+            "uid": "7c15cb3c-d11b-42b3-97f3-8b650fbfa4e1",
+            "slot": 1,
+            "position": [
+              218.1936798095703,
+              6.105000019073486,
+              9.193395614624023
+            ],
+            "definitionId": "crying_mask",
+            "physicalPedestal": 1
+          },
+          {
+            "uid": "192a0c35-8fa6-4055-8e76-fea375652748",
+            "slot": 2,
+            "position": [
+              217.7399139404297,
+              5.920692443847656,
+              -16.802644729614258
+            ],
+            "definitionId": "watching_eye",
+            "physicalPedestal": 2
+          },
+          {
+            "uid": "dc0a2562-f3fa-4a91-b152-179df0f82f6d",
+            "slot": 3,
+            "position": [
+              231.1916961669922,
+              5.880000114440918,
+              8.966514587402344
+            ],
+            "definitionId": "soul_chains",
+            "physicalPedestal": 3
+          },
+          {
+            "uid": "e2043fb3-d7ea-44e4-8b83-1f78b72d31c6",
+            "slot": 4,
+            "position": [
+              230.73793029785156,
+              6.804999828338623,
+              -17.029525756835938
+            ],
+            "definitionId": "the_void",
+            "physicalPedestal": 4
+          },
+          {
+            "uid": "c209c0b5-b288-43a1-9479-8c3a7af235f7",
+            "slot": 5,
+            "position": [
+              237.9637451171875,
+              6.201719284057617,
+              -4.153672695159912
+            ],
+            "definitionId": "cursed_doll",
+            "physicalPedestal": 5
+          }
+        ]
+      },
+      {
+        "id": "Base04",
+        "soulsPerSecond": 958,
+        "claimed": true,
+        "slots": [
+          {
+            "uid": "fd44781d-c4c7-499c-8509-5e55202f5325",
+            "slot": 1,
+            "position": [
+              162.2752227783203,
+              7.920692443847656,
+              -154.95724487304688
+            ],
+            "definitionId": "watching_eye",
+            "physicalPedestal": 1
+          },
+          {
+            "uid": "2d3423b7-415d-4cf8-91f9-1a8dee8ecd19",
+            "slot": 2,
+            "position": [
+              143.26002502441406,
+              7.880000114440918,
+              -172.689208984375
+            ],
+            "definitionId": "soul_chains",
+            "physicalPedestal": 2
+          },
+          {
+            "uid": "77de5201-0519-4d30-8f57-2925c0ae2225",
+            "slot": 3,
+            "position": [
+              171.14120483398438,
+              8.805000305175781,
+              -164.46484375
+            ],
+            "definitionId": "the_void",
+            "physicalPedestal": 3
+          },
+          {
+            "uid": "bdf65a65-1413-4ab5-9adf-2bbc36644c98",
+            "slot": 4,
+            "position": [
+              152.12600708007812,
+              8.201719284057617,
+              -182.19680786132812
+            ],
+            "definitionId": "cursed_doll",
+            "physicalPedestal": 4
+          },
+          {
+            "uid": "0f9d5649-0e5d-4810-836e-0c62d0eaa0eb",
+            "slot": 5,
+            "position": [
+              166.4075927734375,
+              8.599998474121094,
+              -178.45030212402344
+            ],
+            "definitionId": "haunted_mirror",
+            "physicalPedestal": 5
+          }
+        ]
+      },
+      {
+        "id": "Base05",
+        "soulsPerSecond": 927,
+        "claimed": true,
+        "slots": [
+          {
+            "uid": "abe4ff30-7742-46e8-94af-b4eadfb2e74f",
+            "slot": 1,
+            "position": [
+              1.4682731628417969,
+              6.880000114440918,
+              -220.3788604736328
+            ],
+            "definitionId": "soul_chains",
+            "physicalPedestal": 1
+          },
+          {
+            "uid": "9d7cc090-abdd-44ac-ba4e-b3a03fe874c0",
+            "slot": 2,
+            "position": [
+              -24.49609375,
+              7.804999828338623,
+              -219.01812744140625
+            ],
+            "definitionId": "the_void",
+            "physicalPedestal": 2
+          },
+          {
+            "uid": "460c710f-0e71-4887-b2d2-bc4307f43ef7",
+            "slot": 3,
+            "position": [
+              0.7879056930541992,
+              7.201719284057617,
+              -233.36105346679688
+            ],
+            "definitionId": "cursed_doll",
+            "physicalPedestal": 3
+          },
+          {
+            "uid": "686d7a82-5ace-4847-b550-ffa0790198f8",
+            "slot": 4,
+            "position": [
+              -25.17646026611328,
+              7.599998474121094,
+              -232.00030517578125
+            ],
+            "definitionId": "haunted_mirror",
+            "physicalPedestal": 4
+          },
+          {
+            "uid": "6d24c9fb-2724-4a80-b770-79f4dcaaa818",
+            "slot": 5,
+            "position": [
+              -12.560628890991211,
+              7.105000019073486,
+              -239.67108154296875
+            ],
+            "definitionId": "crying_mask",
+            "physicalPedestal": 5
+          }
+        ]
+      },
+      {
+        "id": "Base06",
+        "soulsPerSecond": 822,
+        "claimed": true,
+        "slots": [
+          {
+            "uid": "ea72d59d-6f7f-459c-9ec1-e9d6ef3ac653",
+            "slot": 1,
+            "position": [
+              -157.15130615234375,
+              6.805000305175781,
+              -164.32122802734375
+            ],
+            "definitionId": "the_void",
+            "physicalPedestal": 1
+          },
+          {
+            "uid": "19e26cca-aa15-4e32-b8d3-cb2e44d162f6",
+            "slot": 2,
+            "position": [
+              -174.88327026367188,
+              6.201719284057617,
+              -145.3060302734375
+            ],
+            "definitionId": "cursed_doll",
+            "physicalPedestal": 2
+          },
+          {
+            "uid": "0309e08e-646e-46cc-9072-bce4a859ab3f",
+            "slot": 3,
+            "position": [
+              -166.65890502929688,
+              6.599998474121094,
+              -173.1872100830078
+            ],
+            "definitionId": "haunted_mirror",
+            "physicalPedestal": 3
+          },
+          {
+            "uid": "a056ad5a-b6be-4ac9-865b-931ecc6e1e0a",
+            "slot": 4,
+            "position": [
+              -184.390869140625,
+              6.1050004959106445,
+              -154.17201232910156
+            ],
+            "definitionId": "crying_mask",
+            "physicalPedestal": 4
+          },
+          {
+            "uid": "57597500-5308-4940-ab57-e3cc7588bcc3",
+            "slot": 5,
+            "position": [
+              -180.6443634033203,
+              5.9206929206848145,
+              -168.45359802246094
+            ],
+            "definitionId": "watching_eye",
+            "physicalPedestal": 5
+          }
+        ]
+      },
+      {
+        "id": "Base07",
+        "soulsPerSecond": 222,
+        "claimed": true,
+        "slots": [
+          {
+            "uid": "94ce6282-6436-41a1-91e1-6a7f042cf043",
+            "slot": 1,
+            "position": [
+              -217.32150268554688,
+              8.201719284057617,
+              -5.418889999389648
+            ],
+            "definitionId": "cursed_doll",
+            "physicalPedestal": 1
+          },
+          {
+            "uid": "1342e427-b2ff-4001-a4ab-1a07217252cb",
+            "slot": 2,
+            "position": [
+              -216.41412353515625,
+              8.599998474121094,
+              20.565271377563477
+            ],
+            "definitionId": "haunted_mirror",
+            "physicalPedestal": 2
+          },
+          {
+            "uid": "dd573d88-246a-4b16-b748-22971f24d840",
+            "slot": 3,
+            "position": [
+              -230.3135986328125,
+              8.105000495910645,
+              -4.96519660949707
+            ],
+            "definitionId": "crying_mask",
+            "physicalPedestal": 3
+          },
+          {
+            "uid": "edda8e56-3017-406f-acfd-07170f3e376b",
+            "slot": 4,
+            "position": [
+              -229.4062042236328,
+              7.920692443847656,
+              21.018964767456055
+            ],
+            "definitionId": "watching_eye",
+            "physicalPedestal": 4
+          },
+          {
+            "uid": "cbb817ec-5c54-4f63-a2d7-4b64d4b4e3da",
+            "slot": 5,
+            "position": [
+              -236.8556365966797,
+              7.880000114440918,
+              8.271181106567383
+            ],
+            "definitionId": "soul_chains",
+            "physicalPedestal": 5
+          }
+        ]
+      },
+      {
+        "id": "Base08",
+        "soulsPerSecond": 969,
+        "claimed": true,
+        "slots": [
+          {
+            "uid": "7732165c-2aa2-486b-b8bd-3920126417fa",
+            "slot": 1,
+            "position": [
+              -157.4245147705078,
+              7.599998474121094,
+              161.28089904785156
+            ],
+            "definitionId": "haunted_mirror",
+            "physicalPedestal": 1
+          },
+          {
+            "uid": "79722c3a-e1d6-48b9-ab91-e422faac958b",
+            "slot": 2,
+            "position": [
+              -137.80206298828125,
+              7.105000019073486,
+              178.3384246826172
+            ],
+            "definitionId": "crying_mask",
+            "physicalPedestal": 2
+          },
+          {
+            "uid": "6c2b3f2a-3588-4213-83ff-6da3e9d943e2",
+            "slot": 3,
+            "position": [
+              -165.95327758789062,
+              6.920692443847656,
+              171.0921173095703
+            ],
+            "definitionId": "watching_eye",
+            "physicalPedestal": 3
+          },
+          {
+            "uid": "25ca11fa-4384-4603-96bf-78e7292b71f5",
+            "slot": 4,
+            "position": [
+              -146.33082580566406,
+              6.880000114440918,
+              188.149658203125
+            ],
+            "definitionId": "soul_chains",
+            "physicalPedestal": 4
+          },
+          {
+            "uid": "f018fbeb-5f53-4eed-903f-9be518fcd40a",
+            "slot": 5,
+            "position": [
+              -160.73446655273438,
+              7.804999828338623,
+              184.9038543701172
+            ],
+            "definitionId": "the_void",
+            "physicalPedestal": 5
+          }
+        ]
+      }
+    ],
+    "interactiveClaims": 8,
+    "contextsCreated": 8
+  },
+  "mobileHUD": {
+    "attributes": {
+      "Souls": 389.05,
+      "SoulsPerSecond": 10,
+      "HUDNoticeSerial": 3,
+      "HUDNotice": "Haunted Mirror placed! +10 Souls/s",
+      "ClaimedBaseId": "Base06"
+    },
+    "hud": {
+      "position": "{1, -12}, {0, 8}",
+      "anchor": "1, 0",
+      "amount": "387",
+      "rate": "+10 Souls/s",
+      "size": "214, 82"
+    },
+    "purchase": {
+      "before": 500,
+      "uid": "eee578b6-9b46-43ac-aaf5-1656bd5766c3",
+      "after": 50,
+      "status": "bought",
+      "price": 450,
+      "id": "haunted_mirror"
+    },
+    "walk": {
+      "progress": {
+        "status": "reached",
+        "runId": 2,
+        "elapsedSeconds": 17.3347827999969
+      },
+      "completedRuns": 2,
+      "lastResult": {
+        "reached": true,
+        "legs": {
+          "1": {
+            "planningSeconds": 0.01919089996954426,
+            "walkSpeed": 16,
+            "actualWalkingSeconds": 17.315435399999842,
+            "startPosition": {
+              "1": -20.875207901000977,
+              "2": 4.419999599456787,
+              "3": 23.997709274291992
+            },
+            "pathStatus": "Success",
+            "jumpWaypoints": 0,
+            "remainingHorizontalStuds": 0.7997759580612183,
+            "actualDistanceStuds": 244.89486756920815,
+            "label": "Final mobile HUD test delivery",
+            "pathLengthStuds": 245.96307022869587,
+            "reached": true,
+            "actualJumps": 0,
+            "target": "Base06 display court",
+            "destination": {
+              "1": -173.33082580566406,
+              "2": 5.25,
+              "3": -161.6336212158203
+            },
+            "canceled": false,
+            "endPosition": {
+              "1": -172.83753967285156,
+              "2": 5.149998188018799,
+              "3": -161.00408935546875
+            }
+          }
+        },
+        "elapsedSeconds": 17.3347827999969,
+        "canceled": false,
+        "runId": 2
+      },
+      "busy": false
+    }
+  },
+  "lastProductionLoop": {
+    "loop": {
+      "before": 500,
+      "base": "Base03",
+      "groundVersion": "nine visual tiles, unchanged collision support"
+    },
+    "attributes": {
+      "Souls": 644.63,
+      "SoulsPerSecond": 3,
+      "HUDNoticeSerial": 3,
+      "HUDNotice": "Cursed Doll placed! +3 Souls/s",
+      "ClaimedBaseId": "Base03"
+    },
+    "purchase": {
+      "before": 500,
+      "uid": "4b443cbf-6464-4a88-bfb5-95ff3f6a1d87",
+      "after": 400,
+      "status": "bought",
+      "price": 100,
+      "id": "cursed_doll"
+    },
+    "hudRate": "+3 Souls/s",
+    "walk": {
+      "progress": {
+        "status": "reached",
+        "runId": 2,
+        "elapsedSeconds": 18.175227599975187
+      },
+      "completedRuns": 2,
+      "lastResult": {
+        "reached": true,
+        "legs": {
+          "1": {
+            "planningSeconds": 0.15702320000855252,
+            "walkSpeed": 16,
+            "actualWalkingSeconds": 18.01791980001144,
+            "startPosition": {
+              "1": -24.294919967651367,
+              "2": 4.419999599456787,
+              "3": 37.46953201293945
+            },
+            "pathStatus": "Success",
+            "jumpWaypoints": 0,
+            "remainingHorizontalStuds": 0.7048184871673584,
+            "actualDistanceStuds": 256.9902374148369,
+            "label": "Final generated map normal delivery",
+            "pathLengthStuds": 257.7228349149227,
+            "reached": true,
+            "actualJumps": 0,
+            "target": "Base03 display court",
+            "destination": {
+              "1": 227.96527099609375,
+              "2": 5.25,
+              "3": -3.9791486263275146
+            },
+            "canceled": false,
+            "endPosition": {
+              "1": 227.2610626220703,
+              "2": 5.149998188018799,
+              "3": -3.9498281478881836
+            }
+          }
+        },
+        "elapsedSeconds": 18.175227599975187,
+        "canceled": false,
+        "runId": 2
+      },
+      "busy": false
+    }
+  },
+  "finalStaticValidation": {
+    "rojoBuild": "PASS",
+    "rojoSourcemap": "PASS",
+    "gitDiffCheck": "PASS",
+    "branch": "feature/final-map-rework",
+    "commitPushMergePlacePublish": false
+  }
+}

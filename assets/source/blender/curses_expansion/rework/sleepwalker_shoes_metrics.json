@@ -1,0 +1,73 @@
+{
+  "id": "sleepwalker_shoes",
+  "displayName": "Sleepwalker Shoes",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-06-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/sleepwalker_shoes.blend",
+  "export": "assets/export/meshes/curses/rework/sleepwalker_shoes.fbx",
+  "sha256": "41efcd937edeb43371deada52f144d1b3d789faf04e1468a1d10f5789c6b1770",
+  "triangles": 5176,
+  "vertices": 2664,
+  "blenderDimensions": [
+    2.835836887359619,
+    2.378650665283203,
+    2.1824076175689697
+  ],
+  "intendedRobloxSize": [
+    2.835836887359619,
+    2.1824076175689697,
+    2.378650665283203
+  ],
+  "diagonal": 4.296842194959548,
+  "vfxHook": [
+    0.015955674648284915,
+    0.2658433982729911,
+    -0.02700825929641726
+  ],
+  "vfxProfile": "out_of_step_boot_echoes",
+  "palette": [
+    "blue_paint",
+    "bone",
+    "gold",
+    "gold_edge",
+    "ink",
+    "iron",
+    "wood"
+  ],
+  "paintedColorCount": 1631,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "two distinct empty child boots with curved toe boxes and open cuffs",
+      "first_face": 0,
+      "last_face_exclusive": 2672
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Different tall blue and shorter walnut child boots in staggered walking poses; truly empty open cuffs and footbeds, curved toes, thick soles, crisscross laces, eyelets and bronze patches.",
+    "Two pale footstep arcs appear out of phase and dissipate; empty cuffs exhale faint dust."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/sleepwalker_shoes.blend",
+  "robloxIntendedSize": [
+    2.835836887359619,
+    2.1824076175689697,
+    2.378650665283203
+  ],
+  "vfxHookRoblox": [
+    0.015955674648284915,
+    0.2658433982729911,
+    -0.02700825929641726
+  ]
+}

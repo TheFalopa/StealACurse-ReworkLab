@@ -1,0 +1,10 @@
+{
+  "before": {
+    "sourceRoot": "C:\\RobloxProjects\\StealACurse\\assets\\review\\management-animations\\checkpoints\\00-second-visual-pass-start",
+    "artifactSha256": "4227687fb187f29bab018441b31730c579cccb13deaa6d06dea1c05eb9bae8f8"
+  },
+  "after": {
+    "sourceRoot": "C:\\RobloxProjects\\StealACurse",
+    "artifactSha256": "6c74d36f50c6929ce5ae64fa7b502f493f1d384d0ff59c0897b356bdd543e185"
+  }
+}

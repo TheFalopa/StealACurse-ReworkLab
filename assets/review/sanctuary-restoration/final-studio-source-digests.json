@@ -1,0 +1,332 @@
+{
+  "ServerScriptService.Server.Map.Landmarks": {
+    "length": 4543,
+    "adler32": 300073268,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.WorldPolish": {
+    "length": 10959,
+    "adler32": 1382583481,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CursePresentation": {
+    "length": 9712,
+    "adler32": 1833835411,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.CurseCarryGeometry": {
+    "length": 4634,
+    "adler32": 3396995353,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.SurfaceArt": {
+    "length": 5023,
+    "adler32": 1928735386,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.PlayerShrine": {
+    "length": 345,
+    "adler32": 1434943075,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.ContractSites": {
+    "length": 5630,
+    "adler32": 1675899909,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Config": {
+    "length": 4169,
+    "adler32": 529329174,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.Navigation": {
+    "length": 1857,
+    "adler32": 2606120319,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.NumberFormat": {
+    "length": 1188,
+    "adler32": 1870361690,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.AssetKit": {
+    "length": 6276,
+    "adler32": 632941444,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.ContractService": {
+    "length": 7227,
+    "adler32": 2869232007,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.BaseService": {
+    "length": 9883,
+    "adler32": 3376864298,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.RitualService": {
+    "length": 7098,
+    "adler32": 1991889550,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Cemetery": {
+    "length": 6882,
+    "adler32": 2175773171,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.SanctuaryConfig": {
+    "length": 12859,
+    "adler32": 958253968,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.CurseVFXProfiles": {
+    "length": 6932,
+    "adler32": 2357521945,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseActsCreatures": {
+    "length": 17501,
+    "adler32": 2903297055,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.ProfileStore": {
+    "length": 8674,
+    "adler32": 2838015264,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseActsObjects": {
+    "length": 13399,
+    "adler32": 1813497076,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.TerrainArt": {
+    "length": 3406,
+    "adler32": 57937508,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.HalloweenArt": {
+    "length": 8622,
+    "adler32": 3973914064,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.SoulsService": {
+    "length": 2003,
+    "adler32": 1931004807,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.HUD": {
+    "length": 4405,
+    "adler32": 3267671393,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.Theme": {
+    "length": 3017,
+    "adler32": 3040669087,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.ShopPanel": {
+    "length": 6315,
+    "adler32": 3627796404,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.RelicPresentation": {
+    "length": 1670,
+    "adler32": 2280148797,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseActsEntities": {
+    "length": 14336,
+    "adler32": 1706981596,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.SanctuaryService": {
+    "length": 13964,
+    "adler32": 1227912801,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.SanctuaryProgression": {
+    "length": 13646,
+    "adler32": 3412434624,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.CarryService": {
+    "length": 4017,
+    "adler32": 1731555821,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.ShopCard": {
+    "length": 4173,
+    "adler32": 995836040,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.ShellPanel": {
+    "length": 5871,
+    "adler32": 3551354560,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.Config": {
+    "length": 569,
+    "adler32": 1451736552,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.RestorationArchitecture": {
+    "length": 27485,
+    "adler32": 2369115503,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseVFX": {
+    "length": 13237,
+    "adler32": 2994470082,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.CurseExpansionAssets": {
+    "length": 20076,
+    "adler32": 4000173269,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Build": {
+    "length": 1941,
+    "adler32": 3218451250,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.CurseVisualService": {
+    "length": 11508,
+    "adler32": 816387272,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.CurseAnimationAssets": {
+    "length": 8259,
+    "adler32": 665693245,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client": {
+    "length": 513,
+    "adler32": 3926505675,
+    "className": "LocalScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.CurseLabels": {
+    "length": 2104,
+    "adler32": 1415887677,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseActsCore": {
+    "length": 7104,
+    "adler32": 2370652247,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.CurseAnimationProfiles": {
+    "length": 50898,
+    "adler32": 3568068260,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.Icons": {
+    "length": 4825,
+    "adler32": 3290341677,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.CurseMotionMath": {
+    "length": 1135,
+    "adler32": 3316742100,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.World": {
+    "length": 9628,
+    "adler32": 3409894035,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.RoadSurfaceResolver": {
+    "length": 5134,
+    "adler32": 1159313969,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Grounding": {
+    "length": 2361,
+    "adler32": 521802815,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.Hello": {
+    "length": 46,
+    "adler32": 2117013281,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Layout": {
+    "length": 4383,
+    "adler32": 3917571600,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Decorations": {
+    "length": 14583,
+    "adler32": 66006535,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.SanctuaryPanel": {
+    "length": 17647,
+    "adler32": 1266730305,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Primitives": {
+    "length": 1934,
+    "adler32": 1101632148,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Mausoleum": {
+    "length": 18936,
+    "adler32": 2007430326,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server": {
+    "length": 1624,
+    "adler32": 1889097254,
+    "className": "Script"
+  },
+  "ServerScriptService.Server.Gameplay.CurseProcessionService": {
+    "length": 5481,
+    "adler32": 184950809,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Map.Materials": {
+    "length": 1766,
+    "adler32": 3273941624,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.OwnedCurseRules": {
+    "length": 1023,
+    "adler32": 2941350534,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.CurseAnimation": {
+    "length": 4999,
+    "adler32": 596685136,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.CurseVisualPass2": {
+    "length": 9810,
+    "adler32": 55973705,
+    "className": "ModuleScript"
+  },
+  "ReplicatedStorage.Shared.CurseCatalog": {
+    "length": 9908,
+    "adler32": 4178466792,
+    "className": "ModuleScript"
+  },
+  "ServerScriptService.Server.Gameplay.CurseService": {
+    "length": 22942,
+    "adler32": 1981186891,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.PanelFrame": {
+    "length": 4246,
+    "adler32": 1542865506,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.CurrencyCard": {
+    "length": 6219,
+    "adler32": 3130778902,
+    "className": "ModuleScript"
+  },
+  "StarterPlayer.StarterPlayerScripts.Client.UI.CurseManagement": {
+    "length": 6326,
+    "adler32": 211518970,
+    "className": "ModuleScript"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "hourglass_hound",
+  "displayName": "Hourglass Hound",
+  "rarity": "COMMON",
+  "sourceReference": "rework-02-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/hourglass_hound.blend",
+  "export": "assets/export/meshes/curses/rework/hourglass_hound.fbx",
+  "sha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c",
+  "triangles": 2546,
+  "vertices": 1335,
+  "blenderDimensions": [
+    3.1549651622772217,
+    1.2913804054260254,
+    2.1600000858306885
+  ],
+  "intendedRobloxSize": [
+    3.1549651622772217,
+    2.1600000858306885,
+    1.2913804054260254
+  ],
+  "diagonal": 4.035724085897078,
+  "vfxHook": [
+    0.09528054263304928,
+    0.30000000000000004,
+    0.05750000000000002
+  ],
+  "vfxProfile": "falling_sand",
+  "palette": [
+    "ink",
+    "ochre",
+    "sand",
+    "sand_light",
+    "stone_dark",
+    "white_glow"
+  ],
+  "paintedColorCount": 458,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "HourglassTorso",
+      "first_face": 0,
+      "last_face_exclusive": 366
+    },
+    {
+      "name": "SandstoneHoundHeadAndLegs",
+      "first_face": 366,
+      "last_face_exclusive": 916
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Distinct quadrupedal sandstone relic with an open curved hourglass torso, two dark sand cones and falling-grain geometry, pointed hound skull and curled stone tail."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/hourglass_hound.blend",
+  "robloxIntendedSize": [
+    3.1549651622772217,
+    2.1600000858306885,
+    1.2913804054260254
+  ],
+  "vfxHookRoblox": [
+    0.09528054263304928,
+    0.30000000000000004,
+    0.05750000000000002
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03154965117573738,
+      0.012913807295262814,
+      0.02160000242292881
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2546,
+    "colorCount": 458,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "hourglass_hound",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "3499062b754af013cdcf5f108b47cd09150edb329b1658621236ef33d085173c"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

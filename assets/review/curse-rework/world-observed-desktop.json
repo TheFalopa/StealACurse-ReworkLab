@@ -1,0 +1,39 @@
+{
+  "lights": 15,
+  "meshParts": 969,
+  "baseParts": 4477,
+  "polishAttributes": {
+    "ForestPocketCount": 12,
+    "AddedLightCount": 2,
+    "MissingVerifiedTemplateCount": 0,
+    "BurialPocketCount": 8,
+    "MeshPartCount": 139,
+    "VisualDesign": "Hollow Crown autumn vigil",
+    "PartBudget": 214,
+    "BasePartCount": 178
+  },
+  "mapAttributes": {
+    "AuthoredProcessionLength": 636.6767768859863,
+    "SurfaceArtParts": 640,
+    "HalloweenUnderstoryMeshCount": 60,
+    "EnvironmentVersion": "HollowCrownWorldExpansion",
+    "WorldPolishMissingTemplates": 0,
+    "PendingTextureSurfaces": 0,
+    "AuthoredProcessionWaypoints": 16,
+    "PlayableWidth": 820,
+    "WorldPolishParts": 178,
+    "ProcessionRouteLengthStuds": 636.6767768859863,
+    "PlayableDepth": 800,
+    "PaintedTextureSurfaces": 1461,
+    "HalloweenClusterCount": 24,
+    "PlayableForestTreeCount": 48,
+    "PaintedStoneSurfaces": 1063,
+    "Generator": "StealACurseMapBuilder",
+    "WorldPolishMeshParts": 139,
+    "WorldPolishLights": 2
+  },
+  "polishColliders": 0,
+  "emitters": 1,
+  "polishParts": 178,
+  "colliders": 805
+}

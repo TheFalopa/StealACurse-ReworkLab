@@ -1,0 +1,1698 @@
+{
+  "spatial": {
+    "ok": true,
+    "result": {
+      "definitionId": "the_void",
+      "elapsed": 70.46,
+      "remaining": "root native camera review, mobile control navigation and animated client pose/rail clearance; refresh saved profile expectation after real movement/actions",
+      "segments": {
+        "1": {
+          "segment": 1,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "lower collection or recovery to clear central aisle",
+          "elapsed": 1.597,
+          "distance": 23,
+          "goal": {
+            "y": 4.15,
+            "x": 0,
+            "z": -23.0000057220459
+          },
+          "from": {
+            "y": 4.15,
+            "x": 23,
+            "z": -23
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 4.15,
+            "x": 0.817,
+            "z": -23
+          }
+        },
+        "2": {
+          "segment": 2,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "lower central aisle toward entrance",
+          "elapsed": 0.122,
+          "distance": 0.817,
+          "goal": {
+            "y": 4.15,
+            "x": 0,
+            "z": -23
+          },
+          "from": {
+            "y": 4.15,
+            "x": 0.817,
+            "z": -23
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 4.15,
+            "x": 0.867,
+            "z": -23
+          }
+        },
+        "3": {
+          "segment": 3,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "lower court to west stair",
+          "elapsed": 2.095,
+          "distance": 30.867,
+          "goal": {
+            "y": 4.15,
+            "x": -30,
+            "z": -23
+          },
+          "from": {
+            "y": 4.15,
+            "x": 0.867,
+            "z": -23
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 4.15,
+            "x": -29.134,
+            "z": -23
+          }
+        },
+        "4": {
+          "segment": 4,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "west stair foot",
+          "elapsed": 0.974,
+          "distance": 12.905,
+          "goal": {
+            "y": 3.8,
+            "x": -42,
+            "z": -22
+          },
+          "from": {
+            "y": 4.15,
+            "x": -29.134,
+            "z": -23
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 4.15,
+            "x": -41.098,
+            "z": -22.07
+          }
+        },
+        "5": {
+          "segment": 5,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 1→2 ramp at z=-18",
+          "elapsed": 0.375,
+          "distance": 4.169,
+          "goal": {
+            "y": 5.15,
+            "x": -42,
+            "z": -18
+          },
+          "from": {
+            "y": 4.15,
+            "x": -41.098,
+            "z": -22.07
+          },
+          "reached": true,
+          "fallDepth": 0.435,
+          "finish": {
+            "y": 4.472,
+            "x": -41.781,
+            "z": -18.989
+          }
+        },
+        "6": {
+          "segment": 6,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 1→2 ramp at z=-8",
+          "elapsed": 0.852,
+          "distance": 10.991,
+          "goal": {
+            "y": 10.15,
+            "x": -42,
+            "z": -8
+          },
+          "from": {
+            "y": 4.472,
+            "x": -41.781,
+            "z": -18.989
+          },
+          "reached": true,
+          "fallDepth": 0.229,
+          "finish": {
+            "y": 9.614,
+            "x": -41.987,
+            "z": -8.787
+          }
+        },
+        "7": {
+          "segment": 7,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 1→2 ramp at z=2",
+          "elapsed": 0.859,
+          "distance": 10.787,
+          "goal": {
+            "y": 15.15,
+            "x": -42,
+            "z": 2
+          },
+          "from": {
+            "y": 9.614,
+            "x": -41.987,
+            "z": -8.787
+          },
+          "reached": true,
+          "fallDepth": 0.232,
+          "finish": {
+            "y": 14.572,
+            "x": -41.999,
+            "z": 1.14
+          }
+        },
+        "8": {
+          "segment": 8,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 1→2 ramp at z=12",
+          "elapsed": 0.85,
+          "distance": 10.86,
+          "goal": {
+            "y": 20.15,
+            "x": -42,
+            "z": 12
+          },
+          "from": {
+            "y": 14.572,
+            "x": -41.999,
+            "z": 1.14
+          },
+          "reached": true,
+          "fallDepth": 0.23,
+          "finish": {
+            "y": 19.48,
+            "x": -42,
+            "z": 11.049
+          }
+        },
+        "9": {
+          "segment": 9,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 1→2 ramp at z=22",
+          "elapsed": 0.858,
+          "distance": 10.951,
+          "goal": {
+            "y": 25.15,
+            "x": -42,
+            "z": 22
+          },
+          "from": {
+            "y": 19.48,
+            "x": -42,
+            "z": 11.049
+          },
+          "reached": true,
+          "fallDepth": 0.221,
+          "finish": {
+            "y": 24.515,
+            "x": -42,
+            "z": 21.2
+          }
+        },
+        "10": {
+          "segment": 10,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 1→2 ramp at z=24",
+          "elapsed": 0.248,
+          "distance": 2.8,
+          "goal": {
+            "y": 26.15,
+            "x": -42,
+            "z": 24
+          },
+          "from": {
+            "y": 24.515,
+            "x": -42,
+            "z": 21.2
+          },
+          "reached": true,
+          "fallDepth": 0.118,
+          "finish": {
+            "y": 25.111,
+            "x": -42,
+            "z": 22.423
+          }
+        },
+        "11": {
+          "segment": 11,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2 upper landing",
+          "elapsed": 0.498,
+          "distance": 7.577,
+          "goal": {
+            "y": 26.15,
+            "x": -42,
+            "z": 30
+          },
+          "from": {
+            "y": 25.111,
+            "x": -42,
+            "z": 22.423
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -42,
+            "z": 28.585
+          }
+        },
+        "12": {
+          "segment": 12,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2 landing turn into hall",
+          "elapsed": 0.975,
+          "distance": 13.077,
+          "goal": {
+            "y": 26.15,
+            "x": -29,
+            "z": 30
+          },
+          "from": {
+            "y": 26.15,
+            "x": -42,
+            "z": 28.585
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -29.891,
+            "z": 29.944
+          }
+        },
+        "13": {
+          "segment": 13,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "second-floor central aisle",
+          "elapsed": 1.975,
+          "distance": 29.891,
+          "goal": {
+            "y": 26.15,
+            "x": 0,
+            "z": 30
+          },
+          "from": {
+            "y": 26.15,
+            "x": -29.891,
+            "z": 29.944
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -0.997,
+            "z": 29.998
+          }
+        },
+        "14": {
+          "segment": 14,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "second-floor rear gallery",
+          "elapsed": 1.61,
+          "distance": 24.023,
+          "goal": {
+            "y": 26.15,
+            "x": 0,
+            "z": 54
+          },
+          "from": {
+            "y": 26.15,
+            "x": -0.997,
+            "z": 29.998
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -0.031,
+            "z": 53.119
+          }
+        },
+        "15": {
+          "segment": 15,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "second-floor central corridor",
+          "elapsed": 4.573,
+          "distance": 72.119,
+          "goal": {
+            "y": 26.15,
+            "x": 0,
+            "z": -19
+          },
+          "from": {
+            "y": 26.15,
+            "x": -0.031,
+            "z": 53.119
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -0.001,
+            "z": -17.988
+          }
+        },
+        "16": {
+          "segment": 16,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "second-floor east stair approach",
+          "elapsed": 1.977,
+          "distance": 29.018,
+          "goal": {
+            "y": 26.15,
+            "x": 29,
+            "z": -19
+          },
+          "from": {
+            "y": 26.15,
+            "x": -0.001,
+            "z": -17.988
+          },
+          "reached": true,
+          "fallDepth": 0.011,
+          "finish": {
+            "y": 26.15,
+            "x": 28.129,
+            "z": -18.984
+          }
+        },
+        "17": {
+          "segment": 17,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "second-floor east stair side entry",
+          "elapsed": 0.98,
+          "distance": 13.871,
+          "goal": {
+            "y": 26.65,
+            "x": 42,
+            "z": -19
+          },
+          "from": {
+            "y": 26.15,
+            "x": 28.129,
+            "z": -18.984
+          },
+          "reached": true,
+          "fallDepth": 0.115,
+          "finish": {
+            "y": 26.647,
+            "x": 41.198,
+            "z": -18.999
+          }
+        },
+        "18": {
+          "segment": 18,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→3 ramp at z=-18",
+          "elapsed": 0.121,
+          "distance": 1.281,
+          "goal": {
+            "y": 27.15,
+            "x": 42,
+            "z": -18
+          },
+          "from": {
+            "y": 26.647,
+            "x": 41.198,
+            "z": -18.999
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.65,
+            "x": 41.198,
+            "z": -18.999
+          }
+        },
+        "19": {
+          "segment": 19,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→3 ramp at z=-8",
+          "elapsed": 0.865,
+          "distance": 11.028,
+          "goal": {
+            "y": 32.15,
+            "x": 42,
+            "z": -8
+          },
+          "from": {
+            "y": 26.65,
+            "x": 41.198,
+            "z": -18.999
+          },
+          "reached": true,
+          "fallDepth": 0.27,
+          "finish": {
+            "y": 31.508,
+            "x": 41.955,
+            "z": -8.848
+          }
+        },
+        "20": {
+          "segment": 20,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→3 ramp at z=2",
+          "elapsed": 0.868,
+          "distance": 10.848,
+          "goal": {
+            "y": 37.15,
+            "x": 42,
+            "z": 2
+          },
+          "from": {
+            "y": 31.508,
+            "x": 41.955,
+            "z": -8.848
+          },
+          "reached": true,
+          "fallDepth": 0.221,
+          "finish": {
+            "y": 36.571,
+            "x": 41.997,
+            "z": 1.115
+          }
+        },
+        "21": {
+          "segment": 21,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→3 ramp at z=12",
+          "elapsed": 0.857,
+          "distance": 10.885,
+          "goal": {
+            "y": 42.15,
+            "x": 42,
+            "z": 12
+          },
+          "from": {
+            "y": 36.571,
+            "x": 41.997,
+            "z": 1.115
+          },
+          "reached": true,
+          "fallDepth": 0.24,
+          "finish": {
+            "y": 41.469,
+            "x": 42,
+            "z": 11.139
+          }
+        },
+        "22": {
+          "segment": 22,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→3 ramp at z=22",
+          "elapsed": 0.869,
+          "distance": 10.861,
+          "goal": {
+            "y": 47.15,
+            "x": 42,
+            "z": 22
+          },
+          "from": {
+            "y": 41.469,
+            "x": 42,
+            "z": 11.139
+          },
+          "reached": true,
+          "fallDepth": 0.241,
+          "finish": {
+            "y": 46.355,
+            "x": 42,
+            "z": 20.942
+          }
+        },
+        "23": {
+          "segment": 23,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→3 ramp at z=24",
+          "elapsed": 0.365,
+          "distance": 3.058,
+          "goal": {
+            "y": 48.15,
+            "x": 42,
+            "z": 24
+          },
+          "from": {
+            "y": 46.355,
+            "x": 42,
+            "z": 20.942
+          },
+          "reached": true,
+          "fallDepth": 0.087,
+          "finish": {
+            "y": 47.69,
+            "x": 42,
+            "z": 23.133
+          }
+        },
+        "24": {
+          "segment": 24,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3 upper landing",
+          "elapsed": 0.499,
+          "distance": 6.867,
+          "goal": {
+            "y": 48.15,
+            "x": 42,
+            "z": 30
+          },
+          "from": {
+            "y": 47.69,
+            "x": 42,
+            "z": 23.133
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": 42,
+            "z": 28.535
+          }
+        },
+        "25": {
+          "segment": 25,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3 landing turn into hall",
+          "elapsed": 0.866,
+          "distance": 13.082,
+          "goal": {
+            "y": 48.15,
+            "x": 29,
+            "z": 30
+          },
+          "from": {
+            "y": 48.15,
+            "x": 42,
+            "z": 28.535
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": 30.645,
+            "z": 29.916
+          }
+        },
+        "26": {
+          "segment": 26,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "third-floor central aisle",
+          "elapsed": 1.981,
+          "distance": 30.646,
+          "goal": {
+            "y": 48.15,
+            "x": 0,
+            "z": 30
+          },
+          "from": {
+            "y": 48.15,
+            "x": 30.645,
+            "z": 29.916
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": 0.732,
+            "z": 29.999
+          }
+        },
+        "27": {
+          "segment": 27,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "third-floor rear gallery",
+          "elapsed": 1.595,
+          "distance": 24.012,
+          "goal": {
+            "y": 48.15,
+            "x": 0,
+            "z": 54
+          },
+          "from": {
+            "y": 48.15,
+            "x": 0.732,
+            "z": 29.999
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": 0.037,
+            "z": 52.897
+          }
+        },
+        "28": {
+          "segment": 28,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "third-floor return toward first display row",
+          "elapsed": 4.925,
+          "distance": 75.897,
+          "goal": {
+            "y": 48.15,
+            "x": 0,
+            "z": -23
+          },
+          "from": {
+            "y": 48.15,
+            "x": 0.037,
+            "z": 52.897
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": 0,
+            "z": -22.112
+          }
+        },
+        "29": {
+          "segment": 29,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "third-floor empty pedestal approach",
+          "elapsed": 1.62,
+          "distance": 23.017,
+          "goal": {
+            "y": 48.15,
+            "x": -23,
+            "z": -23
+          },
+          "from": {
+            "y": 48.15,
+            "x": 0,
+            "z": -22.112
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": -22.117,
+            "z": -22.966
+          }
+        },
+        "30": {
+          "segment": 30,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "third-floor pedestal to central aisle",
+          "elapsed": 1.474,
+          "distance": 22.117,
+          "goal": {
+            "y": 48.15,
+            "x": 0,
+            "z": -23
+          },
+          "from": {
+            "y": 48.15,
+            "x": -22.117,
+            "z": -22.966
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": -0.989,
+            "z": -22.999
+          }
+        },
+        "31": {
+          "segment": 31,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "third-floor central return corridor",
+          "elapsed": 3.452,
+          "distance": 53.008,
+          "goal": {
+            "y": 48.15,
+            "x": 0,
+            "z": 30
+          },
+          "from": {
+            "y": 48.15,
+            "x": -0.989,
+            "z": -22.999
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": -0.014,
+            "z": 29.132
+          }
+        },
+        "32": {
+          "segment": 32,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "third-floor hall to landing turn",
+          "elapsed": 1.977,
+          "distance": 29.027,
+          "goal": {
+            "y": 48.15,
+            "x": 29,
+            "z": 30
+          },
+          "from": {
+            "y": 48.15,
+            "x": -0.014,
+            "z": 29.132
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": 28.108,
+            "z": 29.973
+          }
+        },
+        "33": {
+          "segment": 33,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3 landing entry",
+          "elapsed": 1.004,
+          "distance": 13.892,
+          "goal": {
+            "y": 48.15,
+            "x": 42,
+            "z": 30
+          },
+          "from": {
+            "y": 48.15,
+            "x": 28.108,
+            "z": 29.973
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": 41.127,
+            "z": 29.999
+          }
+        },
+        "34": {
+          "segment": 34,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3→2 ramp at z=24",
+          "elapsed": 0.5,
+          "distance": 6.062,
+          "goal": {
+            "y": 48.15,
+            "x": 42,
+            "z": 24
+          },
+          "from": {
+            "y": 48.15,
+            "x": 41.127,
+            "z": 29.999
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 48.15,
+            "x": 41.89,
+            "z": 24.801
+          }
+        },
+        "35": {
+          "segment": 35,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3→2 ramp at z=14",
+          "elapsed": 0.858,
+          "distance": 10.802,
+          "goal": {
+            "y": 43.15,
+            "x": 42,
+            "z": 14
+          },
+          "from": {
+            "y": 48.15,
+            "x": 41.89,
+            "z": 24.801
+          },
+          "reached": true,
+          "fallDepth": 0.025,
+          "finish": {
+            "y": 43.516,
+            "x": 41.991,
+            "z": 14.846
+          }
+        },
+        "36": {
+          "segment": 36,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3→2 ramp at z=4",
+          "elapsed": 0.857,
+          "distance": 10.846,
+          "goal": {
+            "y": 38.15,
+            "x": 42,
+            "z": 4
+          },
+          "from": {
+            "y": 43.516,
+            "x": 41.991,
+            "z": 14.846
+          },
+          "reached": true,
+          "fallDepth": 0.014,
+          "finish": {
+            "y": 38.76,
+            "x": 41.999,
+            "z": 5.261
+          }
+        },
+        "37": {
+          "segment": 37,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3→2 ramp at z=-6",
+          "elapsed": 0.865,
+          "distance": 11.261,
+          "goal": {
+            "y": 33.15,
+            "x": 42,
+            "z": -6
+          },
+          "from": {
+            "y": 38.76,
+            "x": 41.999,
+            "z": 5.261
+          },
+          "reached": true,
+          "fallDepth": 0.042,
+          "finish": {
+            "y": 33.572,
+            "x": 42,
+            "z": -5.069
+          }
+        },
+        "38": {
+          "segment": 38,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3→2 ramp at z=-16",
+          "elapsed": 0.857,
+          "distance": 10.931,
+          "goal": {
+            "y": 28.15,
+            "x": 42,
+            "z": -16
+          },
+          "from": {
+            "y": 33.572,
+            "x": 42,
+            "z": -5.069
+          },
+          "reached": true,
+          "fallDepth": 0.026,
+          "finish": {
+            "y": 28.574,
+            "x": 42,
+            "z": -15.094
+          }
+        },
+        "39": {
+          "segment": 39,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 3→2 ramp at z=-19",
+          "elapsed": 0.37,
+          "distance": 3.906,
+          "goal": {
+            "y": 26.65,
+            "x": 42,
+            "z": -19
+          },
+          "from": {
+            "y": 28.574,
+            "x": 42,
+            "z": -15.094
+          },
+          "reached": true,
+          "fallDepth": 0.018,
+          "finish": {
+            "y": 27.106,
+            "x": 42,
+            "z": -18.038
+          }
+        },
+        "40": {
+          "segment": 40,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2 lower turn into hall",
+          "elapsed": 0.866,
+          "distance": 13.036,
+          "goal": {
+            "y": 26.15,
+            "x": 29,
+            "z": -19
+          },
+          "from": {
+            "y": 27.106,
+            "x": 42,
+            "z": -18.038
+          },
+          "reached": true,
+          "fallDepth": 0.125,
+          "finish": {
+            "y": 26.143,
+            "x": 30.613,
+            "z": -18.888
+          }
+        },
+        "41": {
+          "segment": 41,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "second-floor lower landing to center",
+          "elapsed": 2.042,
+          "distance": 30.614,
+          "goal": {
+            "y": 26.15,
+            "x": 0,
+            "z": -19
+          },
+          "from": {
+            "y": 26.143,
+            "x": 30.613,
+            "z": -18.888
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": 0.639,
+            "z": -18.998
+          }
+        },
+        "42": {
+          "segment": 42,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "second-floor central return corridor",
+          "elapsed": 3.232,
+          "distance": 49.003,
+          "goal": {
+            "y": 26.15,
+            "x": 0,
+            "z": 30
+          },
+          "from": {
+            "y": 26.15,
+            "x": 0.639,
+            "z": -18.998
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -0.001,
+            "z": 29.13
+          }
+        },
+        "43": {
+          "segment": 43,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "second-floor center to west upper landing",
+          "elapsed": 1.871,
+          "distance": 29.012,
+          "goal": {
+            "y": 26.15,
+            "x": -29,
+            "z": 30
+          },
+          "from": {
+            "y": 26.15,
+            "x": -0.001,
+            "z": 29.13
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -27.459,
+            "z": 29.954
+          }
+        },
+        "44": {
+          "segment": 44,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2 landing entry",
+          "elapsed": 1.005,
+          "distance": 14.541,
+          "goal": {
+            "y": 26.15,
+            "x": -42,
+            "z": 30
+          },
+          "from": {
+            "y": 26.15,
+            "x": -27.459,
+            "z": 29.954
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -41.189,
+            "z": 29.999
+          }
+        },
+        "45": {
+          "segment": 45,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→1 ramp at z=24",
+          "elapsed": 0.52,
+          "distance": 6.053,
+          "goal": {
+            "y": 26.15,
+            "x": -42,
+            "z": 24
+          },
+          "from": {
+            "y": 26.15,
+            "x": -41.189,
+            "z": 29.999
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 26.15,
+            "x": -41.886,
+            "z": 24.845
+          }
+        },
+        "46": {
+          "segment": 46,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→1 ramp at z=14",
+          "elapsed": 0.88,
+          "distance": 10.846,
+          "goal": {
+            "y": 21.15,
+            "x": -42,
+            "z": 14
+          },
+          "from": {
+            "y": 26.15,
+            "x": -41.886,
+            "z": 24.845
+          },
+          "reached": true,
+          "fallDepth": 0.008,
+          "finish": {
+            "y": 21.539,
+            "x": -41.991,
+            "z": 14.861
+          }
+        },
+        "47": {
+          "segment": 47,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→1 ramp at z=4",
+          "elapsed": 0.866,
+          "distance": 10.861,
+          "goal": {
+            "y": 16.15,
+            "x": -42,
+            "z": 4
+          },
+          "from": {
+            "y": 21.539,
+            "x": -41.991,
+            "z": 14.861
+          },
+          "reached": true,
+          "fallDepth": 0.016,
+          "finish": {
+            "y": 16.606,
+            "x": -42,
+            "z": 4.951
+          }
+        },
+        "48": {
+          "segment": 48,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→1 ramp at z=-6",
+          "elapsed": 0.869,
+          "distance": 10.951,
+          "goal": {
+            "y": 11.15,
+            "x": -42,
+            "z": -6
+          },
+          "from": {
+            "y": 16.606,
+            "x": -42,
+            "z": 4.951
+          },
+          "reached": true,
+          "fallDepth": 0.027,
+          "finish": {
+            "y": 11.661,
+            "x": -42,
+            "z": -4.921
+          }
+        },
+        "49": {
+          "segment": 49,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→1 ramp at z=-16",
+          "elapsed": 0.861,
+          "distance": 11.079,
+          "goal": {
+            "y": 6.15,
+            "x": -42,
+            "z": -16
+          },
+          "from": {
+            "y": 11.661,
+            "x": -42,
+            "z": -4.921
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 6.762,
+            "x": -42,
+            "z": -14.886
+          }
+        },
+        "50": {
+          "segment": 50,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 2→1 ramp at z=-19",
+          "elapsed": 0.375,
+          "distance": 4.114,
+          "goal": {
+            "y": 4.65,
+            "x": -42,
+            "z": -19
+          },
+          "from": {
+            "y": 6.762,
+            "x": -42,
+            "z": -14.886
+          },
+          "reached": true,
+          "fallDepth": 0.055,
+          "finish": {
+            "y": 5.178,
+            "x": -42,
+            "z": -17.956
+          }
+        },
+        "51": {
+          "segment": 51,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "floor 1 lower turn into hall",
+          "elapsed": 0.993,
+          "distance": 13.042,
+          "goal": {
+            "y": 4.15,
+            "x": -29,
+            "z": -19
+          },
+          "from": {
+            "y": 5.178,
+            "x": -42,
+            "z": -17.956
+          },
+          "reached": true,
+          "fallDepth": 0.143,
+          "finish": {
+            "y": 4.15,
+            "x": -29.897,
+            "z": -18.937
+          }
+        },
+        "52": {
+          "segment": 52,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "lower stair turn to center",
+          "elapsed": 2.017,
+          "distance": 30.172,
+          "goal": {
+            "y": 4.15,
+            "x": 0,
+            "z": -23
+          },
+          "from": {
+            "y": 4.15,
+            "x": -29.897,
+            "z": -18.937
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 4.15,
+            "x": -0.823,
+            "z": -22.889
+          }
+        },
+        "53": {
+          "segment": 53,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "planned final pedestal approach",
+          "elapsed": 1.644,
+          "distance": 23.824,
+          "goal": {
+            "y": 4.15,
+            "x": 23.000003814697266,
+            "z": -23.0000057220459
+          },
+          "from": {
+            "y": 4.15,
+            "x": -0.823,
+            "z": -22.889
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 4.15,
+            "x": 22.117,
+            "z": -22.996
+          }
+        },
+        "54": {
+          "segment": 54,
+          "deaths": 0,
+          "method": "Humanoid.MoveTo; no teleport during this segment",
+          "label": "front aisle camera position",
+          "elapsed": 1.49,
+          "distance": 22.117,
+          "goal": {
+            "y": 4.15,
+            "x": 0,
+            "z": -23
+          },
+          "from": {
+            "y": 4.15,
+            "x": 22.117,
+            "z": -22.996
+          },
+          "reached": true,
+          "fallDepth": 0,
+          "finish": {
+            "y": 4.15,
+            "x": 1.03,
+            "z": -23
+          }
+        }
+      },
+      "freefallTransitions": 0,
+      "plannedFinalPedestalId": "floor1-slot2",
+      "initialSourceLocal": {
+        "y": 2.275,
+        "x": 23,
+        "z": -15
+      },
+      "initialPedestalId": "floor1-slot2",
+      "deaths": 0,
+      "method": "actual Humanoid.MoveTo on owned avatar; one initial teleport; real CurseService pickup/place; no progress/capacity provisioning",
+      "finalAvatarLocal": {
+        "y": 4.15,
+        "x": 1.03,
+        "z": -23
+      },
+      "measurements": {
+        "1": {
+          "minimumFootClearance": 0.12,
+          "needsFloorClamp": false,
+          "method": "actual avatar transforms with production CurseCarryGeometry.follow and raycast support; not rendered bone bounds",
+          "needsLateralClamp": false,
+          "minimumBodyPathError": -0.435,
+          "maximumOutsidePerimeter": 0,
+          "completed": true
+        },
+        "2": {
+          "staticTopClearance": 7.03,
+          "note": "Native production presentation only, no CurseService record; root must visually inspect animation and remove QA folder after capture",
+          "definitionId": "the_void",
+          "owned": false,
+          "meshId": "rbxassetid://72905956993942",
+          "ceiling": "CompleteRoofCeiling",
+          "folder": "SpatialReviewVisuals",
+          "income": 0,
+          "pedestalId": "floor3-slot9",
+          "size": {
+            "y": 12.6,
+            "x": 10.265,
+            "z": 1.96
+          }
+        }
+      },
+      "initialState": "PLACED",
+      "uid": "edbd3f38-9401-415c-ae49-402fda95b0ac",
+      "originalPedestalId": "floor1-slot2",
+      "teleports": 1,
+      "frontCamera": {
+        "target": {
+          "y": 19,
+          "x": 310.904,
+          "z": 39.513
+        },
+        "position": {
+          "y": 13,
+          "x": 248.407,
+          "z": 31.57
+        }
+      },
+      "stateTransitions": [],
+      "upperPedestalId": "floor3-slot1",
+      "qaVisualFolder": "SpatialReviewVisuals"
+    }
+  },
+  "checks": {
+    "1": {
+      "ok": true,
+      "label": "actual local profile loaded"
+    },
+    "2": {
+      "ok": true,
+      "label": "native E claim"
+    },
+    "3": {
+      "ok": true,
+      "label": "isolated interior profile starts empty"
+    },
+    "4": {
+      "ok": true,
+      "label": "Actual seal activation with rebuilt entrance"
+    },
+    "5": {
+      "ok": true,
+      "label": "SPATIAL / real owned the_void physically picked up"
+    },
+    "6": {
+      "ok": true,
+      "label": "SPATIAL / carried instance contributes no income"
+    },
+    "7": {
+      "ok": true,
+      "label": "SPATIAL / walk lower collection or recovery to clear central aisle"
+    },
+    "8": {
+      "ok": true,
+      "label": "SPATIAL / walk lower central aisle toward entrance"
+    },
+    "9": {
+      "ok": true,
+      "label": "SPATIAL / walk lower court to west stair"
+    },
+    "10": {
+      "ok": true,
+      "label": "SPATIAL / walk west stair foot"
+    },
+    "11": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 1→2 ramp at z=-18"
+    },
+    "12": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 1→2 ramp at z=-8"
+    },
+    "13": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 1→2 ramp at z=2"
+    },
+    "14": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 1→2 ramp at z=12"
+    },
+    "15": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 1→2 ramp at z=22"
+    },
+    "16": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 1→2 ramp at z=24"
+    },
+    "17": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2 upper landing"
+    },
+    "18": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2 landing turn into hall"
+    },
+    "19": {
+      "ok": true,
+      "label": "SPATIAL / walk second-floor central aisle"
+    },
+    "20": {
+      "ok": true,
+      "label": "SPATIAL / walk second-floor rear gallery"
+    },
+    "21": {
+      "ok": true,
+      "label": "SPATIAL / walk second-floor central corridor"
+    },
+    "22": {
+      "ok": true,
+      "label": "SPATIAL / walk second-floor east stair approach"
+    },
+    "23": {
+      "ok": true,
+      "label": "SPATIAL / walk second-floor east stair side entry"
+    },
+    "24": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→3 ramp at z=-18"
+    },
+    "25": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→3 ramp at z=-8"
+    },
+    "26": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→3 ramp at z=2"
+    },
+    "27": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→3 ramp at z=12"
+    },
+    "28": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→3 ramp at z=22"
+    },
+    "29": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→3 ramp at z=24"
+    },
+    "30": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3 upper landing"
+    },
+    "31": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3 landing turn into hall"
+    },
+    "32": {
+      "ok": true,
+      "label": "SPATIAL / walk third-floor central aisle"
+    },
+    "33": {
+      "ok": true,
+      "label": "SPATIAL / walk third-floor rear gallery"
+    },
+    "34": {
+      "ok": true,
+      "label": "SPATIAL / walk third-floor return toward first display row"
+    },
+    "35": {
+      "ok": true,
+      "label": "SPATIAL / walk third-floor empty pedestal approach"
+    },
+    "36": {
+      "ok": true,
+      "label": "SPATIAL / real upper-floor destination is free"
+    },
+    "37": {
+      "ok": true,
+      "label": "SPATIAL / real walked third-floor placement resumes one income"
+    },
+    "38": {
+      "ok": true,
+      "label": "SPATIAL / upper-floor pickup for actual return walk"
+    },
+    "39": {
+      "ok": true,
+      "label": "SPATIAL / walk third-floor pedestal to central aisle"
+    },
+    "40": {
+      "ok": true,
+      "label": "SPATIAL / walk third-floor central return corridor"
+    },
+    "41": {
+      "ok": true,
+      "label": "SPATIAL / walk third-floor hall to landing turn"
+    },
+    "42": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3 landing entry"
+    },
+    "43": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3→2 ramp at z=24"
+    },
+    "44": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3→2 ramp at z=14"
+    },
+    "45": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3→2 ramp at z=4"
+    },
+    "46": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3→2 ramp at z=-6"
+    },
+    "47": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3→2 ramp at z=-16"
+    },
+    "48": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 3→2 ramp at z=-19"
+    },
+    "49": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2 lower turn into hall"
+    },
+    "50": {
+      "ok": true,
+      "label": "SPATIAL / walk second-floor lower landing to center"
+    },
+    "51": {
+      "ok": true,
+      "label": "SPATIAL / walk second-floor central return corridor"
+    },
+    "52": {
+      "ok": true,
+      "label": "SPATIAL / walk second-floor center to west upper landing"
+    },
+    "53": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2 landing entry"
+    },
+    "54": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→1 ramp at z=24"
+    },
+    "55": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→1 ramp at z=14"
+    },
+    "56": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→1 ramp at z=4"
+    },
+    "57": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→1 ramp at z=-6"
+    },
+    "58": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→1 ramp at z=-16"
+    },
+    "59": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 2→1 ramp at z=-19"
+    },
+    "60": {
+      "ok": true,
+      "label": "SPATIAL / walk floor 1 lower turn into hall"
+    },
+    "61": {
+      "ok": true,
+      "label": "SPATIAL / walk lower stair turn to center"
+    },
+    "62": {
+      "ok": true,
+      "label": "SPATIAL / walk planned final pedestal approach"
+    },
+    "63": {
+      "ok": true,
+      "label": "SPATIAL / owned inventory preserved through physical return and manual placement"
+    },
+    "64": {
+      "ok": true,
+      "label": "SPATIAL / walk front aisle camera position"
+    },
+    "65": {
+      "ok": true,
+      "label": "SPATIAL / complete ascent and descent use one initial setup teleport only"
+    },
+    "66": {
+      "ok": true,
+      "label": "SPATIAL / carry-floor and enclosure clearances"
+    },
+    "67": {
+      "ok": true,
+      "label": "SPATIAL / largest native height fits empty third-floor showcase"
+    }
+  },
+  "unit": {
+    "failed": 0,
+    "passed": 14,
+    "run": 14
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ids": [
+    "haunted_mirror",
+    "crying_mask",
+    "candle_wisp",
+    "grave_hopper",
+    "grave_key",
+    "mourning_ribbon",
+    "wilted_sprout",
+    "ink_imp",
+    "lost_locket",
+    "ashen_book"
+  ],
+  "fbx": "assets/export/meshes/curses/animations/animation-batch-01.fbx",
+  "sha256": "f39103f39bf733af9e25e9cccc62eece885e9406fafa545851af15a3a1cd3f60"
+}

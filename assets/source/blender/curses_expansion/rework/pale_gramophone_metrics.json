@@ -1,0 +1,92 @@
+{
+  "id": "pale_gramophone",
+  "displayName": "Pale Gramophone",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-05-rare.png",
+  "source": "assets/source/blender/curses_expansion/rework/pale_gramophone.blend",
+  "export": "assets/export/meshes/curses/rework/pale_gramophone.fbx",
+  "sha256": "64bf5ef4a9b3ec512f9b7209aa9789749984ea5877c20d80613ec604cccbacb1",
+  "triangles": 6316,
+  "vertices": 3304,
+  "blenderDimensions": [
+    3.3486762046813965,
+    2.765392303466797,
+    4.104394912719727
+  ],
+  "intendedRobloxSize": [
+    3.3486762046813965,
+    4.104394912719727,
+    2.765392303466797
+  ],
+  "diagonal": 5.975540520775704,
+  "vfxHook": [
+    0.83,
+    0.932802610397339,
+    0.5487096649051746
+  ],
+  "vfxProfile": "bone_horn_echo",
+  "palette": [
+    "bone",
+    "gold",
+    "ink",
+    "iron",
+    "wax",
+    "wood"
+  ],
+  "paintedColorCount": 1405,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "fitted walnut case and brass furniture",
+      "first_face": 0,
+      "last_face_exclusive": 1180
+    },
+    {
+      "name": "grooved record, spindle and turntable",
+      "first_face": 1180,
+      "last_face_exclusive": 1780
+    },
+    {
+      "name": "four articulated walking feet",
+      "first_face": 1780,
+      "last_face_exclusive": 2652
+    },
+    {
+      "name": "curved neck and hollow scalloped bone horn",
+      "first_face": 2652,
+      "last_face_exclusive": 3250
+    },
+    {
+      "name": "sound arm and rear winding crank",
+      "first_face": 3250,
+      "last_face_exclusive": 3404
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Curved eight-petal hollow ivory horn; fitted walnut boards, bronze fittings, record grooves and four articulated walking legs.",
+    "restrained horn pulse and musical arc echoes"
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/pale_gramophone.blend",
+  "robloxIntendedSize": [
+    3.3486762046813965,
+    4.104394912719727,
+    2.765392303466797
+  ],
+  "vfxHookRoblox": [
+    0.83,
+    0.932802610397339,
+    0.5487096649051746
+  ]
+}

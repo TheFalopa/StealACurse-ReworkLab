@@ -1,0 +1,124 @@
+{
+  "id": "thorn_reliquary",
+  "displayName": "Thorn Reliquary",
+  "rarity": "Rare",
+  "sourceReference": "assets/reference/rework-06-rare.png",
+  "source": "assets/source/blender/curses_visual_pass2/batch02/thorn_reliquary.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/batch02/thorn_reliquary.fbx",
+  "sha256": "7e49372109843e820041d62e31a0d059c62c314cd3e92c69ee78e763adad7b61",
+  "triangles": 2060,
+  "vertices": 1104,
+  "blenderDimensions": [
+    3.1462292671203613,
+    3.147583246231079,
+    6.5
+  ],
+  "intendedRobloxSize": [
+    3.1462292671203613,
+    6.5,
+    3.147583246231079
+  ],
+  "diagonal": 7.877565543569872,
+  "vfxHook": [
+    0.2133828103542328,
+    0.214223250746727,
+    0.539853572845459
+  ],
+  "vfxProfile": "glass_caged_thorn",
+  "palette": [
+    "glass",
+    "gold",
+    "gold_edge",
+    "ink",
+    "porcelain",
+    "white_glow"
+  ],
+  "paintedColorCount": 638,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "eight sided antique bronze reliquary frame and footed base",
+      "first_face": 0,
+      "last_face_exclusive": 580
+    },
+    {
+      "name": "sculpted blue glass edge reflections",
+      "first_face": 580,
+      "last_face_exclusive": 622
+    },
+    {
+      "name": "curved black thorn entity, forked root feet and pale eyes",
+      "first_face": 622,
+      "last_face_exclusive": 940
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Octagonal aged bronze urn with curved roof ribs, ring handle and feet; sculpted blue glass edge reflections preserve full visibility of a volumetric forked black thorn creature.",
+    "Studio profile adds eight faint transparent urn panes and a trapped dark vapor curl without obscuring the creature.",
+    "Readable aged green thorn entity behind actual native glass, antique bronze cage preserved."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/batch02/thorn_reliquary.blend",
+  "robloxIntendedSize": [
+    3.1462292671203613,
+    6.5,
+    3.147583246231079
+  ],
+  "vfxHookRoblox": [
+    0.2133828103542328,
+    0.214223250746727,
+    0.539853572845459
+  ],
+  "pass": 2,
+  "revision": 2,
+  "sourceReused": "assets/source/blender/curses_expansion/rework/thorn_reliquary.blend",
+  "sourceReusedSha256": "cddc1a0f37b924404e2f8c65ae57ddf97dca69f6d9308f5ab0c0bfa5eac4e35b",
+  "vfxHooks": {
+    "urnCenter": [
+      -0.0025586158398044506,
+      -0.6135522285340106,
+      2.3597044031126655e-8
+    ],
+    "thornFace": [
+      0.21338278191147808,
+      0.21422324593808578,
+      0.5398537118551262
+    ]
+  },
+  "changedPaintCorners": 1637,
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03146229311823845,
+      0.031475841999053955,
+      0.0650000050663948
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "triangleCount": 2060,
+    "colorCount": 670,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "thorn_reliquary",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "7e49372109843e820041d62e31a0d059c62c314cd3e92c69ee78e763adad7b61"
+  },
+  "vfxGeometryScale": 1.7995119010262963
+}

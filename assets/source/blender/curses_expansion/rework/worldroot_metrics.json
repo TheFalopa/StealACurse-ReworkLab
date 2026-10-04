@@ -1,0 +1,105 @@
+{
+  "id": "worldroot",
+  "displayName": "Worldroot",
+  "rarity": "Mythic",
+  "sourceReference": "assets/reference/rework-10-mythic.png",
+  "source": "assets/source/blender/curses_expansion/rework/worldroot.blend",
+  "export": "assets/export/meshes/curses/rework/worldroot.fbx",
+  "sha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f",
+  "triangles": 3456,
+  "vertices": 1846,
+  "blenderDimensions": [
+    3.2417221069335938,
+    1.5582482814788818,
+    4.186335563659668
+  ],
+  "intendedRobloxSize": [
+    3.2417221069335938,
+    4.186335563659668,
+    1.5582482814788818
+  ],
+  "diagonal": 5.519266742682,
+  "vfxHook": [
+    0.03915971517562866,
+    -0.20877227507531648,
+    0.3653331470489502
+  ],
+  "vfxProfile": "worldroot_seed",
+  "palette": [
+    "bark_dark",
+    "bark_light",
+    "gold_glow",
+    "jade",
+    "jade_glow",
+    "moss_dark",
+    "moss_light"
+  ],
+  "paintedColorCount": 473,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Four twisting inverted tree root legs with bifurcated toes",
+      "first_face": 0,
+      "last_face_exclusive": 256
+    },
+    {
+      "name": "Two thick opposing trunk arches surrounding a suspended jade seed",
+      "first_face": 256,
+      "last_face_exclusive": 514
+    },
+    {
+      "name": "Wide inverted branching crown with individually hanging moss strips",
+      "first_face": 514,
+      "last_face_exclusive": 957
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Reference 10: an inverted tree beast with four twisting root feet, two opposite trunk arches and a suspended jade seed in a true central opening. Wide asymmetric branch forks, longitudinal painted bark and individually hanging moss strips create a living ancient tree rather than a pile of spikes."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/worldroot.blend",
+  "robloxIntendedSize": [
+    3.2417221069335938,
+    4.186335563659668,
+    1.5582482814788818
+  ],
+  "vfxHookRoblox": [
+    0.03915971517562866,
+    -0.20877227507531648,
+    0.3653331470489502
+  ],
+  "roundtrip": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.03241721913218498,
+      0.015582488849759102,
+      0.04186335951089859
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 3456,
+    "colorCount": 473,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "worldroot",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "d8c22f89ad46a636fa7f33cc09e2416107069fd1846b2699482b48521501196f"
+  }
+}

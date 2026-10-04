@@ -1,0 +1,105 @@
+{
+  "id": "lost_locket",
+  "displayName": "Lost Locket",
+  "rarity": "COMMON",
+  "sourceReference": "rework-02-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/lost_locket.blend",
+  "export": "assets/export/meshes/curses/rework/lost_locket.fbx",
+  "sha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f",
+  "triangles": 2500,
+  "vertices": 1298,
+  "blenderDimensions": [
+    2.690000057220459,
+    0.501815140247345,
+    2.765000104904175
+  ],
+  "intendedRobloxSize": [
+    2.690000057220459,
+    2.765000104904175,
+    0.501815140247345
+  ],
+  "diagonal": 3.890134229425462,
+  "vfxHook": [
+    0.6250000190734862,
+    -0.28250000476837145,
+    0.2439075768254032
+  ],
+  "vfxProfile": "ghost_handprint",
+  "palette": [
+    "ghost",
+    "gold",
+    "gold_edge",
+    "ink",
+    "ochre"
+  ],
+  "paintedColorCount": 451,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "OpenedBrassLocket",
+      "first_face": 0,
+      "last_face_exclusive": 773
+    },
+    {
+      "name": "GhostHandprint",
+      "first_face": 773,
+      "last_face_exclusive": 1041
+    },
+    {
+      "name": "EngravedLeftPortrait",
+      "first_face": 1041,
+      "last_face_exclusive": 1347
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Open paired brass locket with substantial metal depth, hinged asymmetry, recessed dark portrait and authored pale spectral handprint; no pet body."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/lost_locket.blend",
+  "robloxIntendedSize": [
+    2.690000057220459,
+    2.765000104904175,
+    0.501815140247345
+  ],
+  "vfxHookRoblox": [
+    0.6250000190734862,
+    -0.28250000476837145,
+    0.2439075768254032
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.026900000870227814,
+      0.00501815602183342,
+      0.027650000527501106
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 2500,
+    "colorCount": 451,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "lost_locket",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "2af4df942631d28885e65952b6406795f842376b28efaaef6280aabe65952d2f"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

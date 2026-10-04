@@ -1,0 +1,104 @@
+{
+  "id": "grave_key",
+  "displayName": "Grave Key",
+  "rarity": "COMMON",
+  "sourceReference": "rework-01-common.png",
+  "source": "assets/source/blender/curses_expansion/rework/grave_key.blend",
+  "export": "assets/export/meshes/curses/rework/grave_key.fbx",
+  "sha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169",
+  "triangles": 1526,
+  "vertices": 793,
+  "blenderDimensions": [
+    2.9194774627685547,
+    0.718036949634552,
+    3.4665002822875977
+  ],
+  "intendedRobloxSize": [
+    2.9194774627685547,
+    3.4665002822875977,
+    0.718036949634552
+  ],
+  "diagonal": 4.5886326856432955,
+  "vfxHook": [
+    -0.6252612400054931,
+    0.8367498920857908,
+    -0.11098151805506892
+  ],
+  "vfxProfile": "relic_glint",
+  "palette": [
+    "blue_cloth",
+    "iron",
+    "iron_edge",
+    "rust"
+  ],
+  "paintedColorCount": 336,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "BrokenIronKeyBow",
+      "first_face": 0,
+      "last_face_exclusive": 378
+    },
+    {
+      "name": "KeyTeethWalkingLegs",
+      "first_face": 378,
+      "last_face_exclusive": 522
+    },
+    {
+      "name": "BlueFuneraryScarf",
+      "first_face": 522,
+      "last_face_exclusive": 634
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Substantially rebuilt dark fractured iron key, diagonal shaft, key-bit walking legs, substantial blue scarf knot and trailing torn cloth."
+  ],
+  "blendSource": "assets/source/blender/curses_expansion/rework/grave_key.blend",
+  "robloxIntendedSize": [
+    2.9194774627685547,
+    3.4665002822875977,
+    0.718036949634552
+  ],
+  "vfxHookRoblox": [
+    -0.6252612400054931,
+    0.8367498920857908,
+    -0.11098151805506892
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.029194774106144905,
+      0.007180375047028065,
+      0.034665003418922424
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1526,
+    "colorCount": 336,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "grave_key",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "490ac2238c8d9c472cc0ca54b534c697beda7ff40b9510717caee7e7d9595169"
+  },
+  "fbxExported": true,
+  "locallyValidated": true
+}

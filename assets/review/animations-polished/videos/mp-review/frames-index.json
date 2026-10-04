@@ -1,0 +1,497 @@
+{
+  "durationMethod": "ffmpeg-review.exe -i container Duration",
+  "frameMethod": "copyts + showinfo first decoded frame; labels are source PTS",
+  "visualReviewPerformed": false,
+  "videos": [
+    {
+      "id": "cursed_doll",
+      "role": "owner",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-cursed_doll-owner.mp4",
+      "durationSeconds": 30.01,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.016,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.015,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.024,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.025,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.008,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.004,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.011,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner/07.png"
+        },
+        {
+          "requestedSeconds": 23,
+          "sourceFrameSeconds": 23.049,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-owner/08.png"
+        }
+      ]
+    },
+    {
+      "id": "watching_eye",
+      "role": "owner",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-watching_eye-owner.mp4",
+      "durationSeconds": 30.0,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.023,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.009,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.011,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.0,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.012,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.005,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.008,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner/07.png"
+        },
+        {
+          "requestedSeconds": 23,
+          "sourceFrameSeconds": 23.042,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-owner/08.png"
+        }
+      ]
+    },
+    {
+      "id": "soul_chains",
+      "role": "owner",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-soul_chains-owner.mp4",
+      "durationSeconds": 22.35,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.025,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.001,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.009,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.025,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.0,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.028,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.028,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner/07.png"
+        },
+        {
+          "requestedSeconds": 22.05,
+          "sourceFrameSeconds": 22.122,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-owner/08.png"
+        }
+      ]
+    },
+    {
+      "id": "plague_monarch",
+      "role": "owner",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-plague_monarch-owner.mp4",
+      "durationSeconds": 30.02,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.008,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.02,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.005,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.006,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.045,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.016,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.003,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner/07.png"
+        },
+        {
+          "requestedSeconds": 23,
+          "sourceFrameSeconds": 23.01,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-owner/08.png"
+        }
+      ]
+    },
+    {
+      "id": "the_void",
+      "role": "owner",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-the_void-owner.mp4",
+      "durationSeconds": 30.01,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.002,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.03,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.033,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.021,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.0,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.058,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.0,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner/07.png"
+        },
+        {
+          "requestedSeconds": 23,
+          "sourceFrameSeconds": 23.03,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-owner/08.png"
+        }
+      ]
+    },
+    {
+      "id": "cursed_doll",
+      "role": "observer",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-cursed_doll-observer.mp4",
+      "durationSeconds": 30.01,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.024,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.001,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.033,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.022,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.018,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.03,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.017,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer/07.png"
+        },
+        {
+          "requestedSeconds": 23,
+          "sourceFrameSeconds": 23.028,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-cursed_doll-observer/08.png"
+        }
+      ]
+    },
+    {
+      "id": "watching_eye",
+      "role": "observer",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-watching_eye-observer.mp4",
+      "durationSeconds": 30.02,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.003,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.029,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.003,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.027,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.026,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.027,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.026,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer/07.png"
+        },
+        {
+          "requestedSeconds": 23,
+          "sourceFrameSeconds": 23.03,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-watching_eye-observer/08.png"
+        }
+      ]
+    },
+    {
+      "id": "soul_chains",
+      "role": "observer",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-soul_chains-observer.mp4",
+      "durationSeconds": 30.01,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.031,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.021,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.016,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.016,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.013,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.043,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.001,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer/07.png"
+        },
+        {
+          "requestedSeconds": 23,
+          "sourceFrameSeconds": 23.022,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-soul_chains-observer/08.png"
+        }
+      ]
+    },
+    {
+      "id": "plague_monarch",
+      "role": "observer",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-plague_monarch-observer.mp4",
+      "durationSeconds": 30.01,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.019,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.01,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.014,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.0,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.025,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.014,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.024,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer/07.png"
+        },
+        {
+          "requestedSeconds": 23,
+          "sourceFrameSeconds": 23.021,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-plague_monarch-observer/08.png"
+        }
+      ]
+    },
+    {
+      "id": "the_void",
+      "role": "observer",
+      "video": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/multiplayer-the_void-observer.mp4",
+      "durationSeconds": 20.82,
+      "contact": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer-contact.png",
+      "frames": [
+        {
+          "requestedSeconds": 1,
+          "sourceFrameSeconds": 1.016,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer/01.png"
+        },
+        {
+          "requestedSeconds": 3,
+          "sourceFrameSeconds": 3.025,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer/02.png"
+        },
+        {
+          "requestedSeconds": 6,
+          "sourceFrameSeconds": 6.006,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer/03.png"
+        },
+        {
+          "requestedSeconds": 8,
+          "sourceFrameSeconds": 8.04,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer/04.png"
+        },
+        {
+          "requestedSeconds": 12,
+          "sourceFrameSeconds": 12.028,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer/05.png"
+        },
+        {
+          "requestedSeconds": 16,
+          "sourceFrameSeconds": 16.034,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer/06.png"
+        },
+        {
+          "requestedSeconds": 18,
+          "sourceFrameSeconds": 18.024,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer/07.png"
+        },
+        {
+          "requestedSeconds": 20.52,
+          "sourceFrameSeconds": 20.723,
+          "path": "C:/RobloxProjects/StealACurse/assets/review/animations-polished/videos/mp-review/multiplayer-the_void-observer/08.png"
+        }
+      ]
+    }
+  ]
+}

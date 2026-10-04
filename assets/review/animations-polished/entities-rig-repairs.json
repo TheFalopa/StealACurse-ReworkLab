@@ -1,0 +1,74 @@
+[
+  {
+    "id": "silent_choir",
+    "blend": "assets/source/blender/curse_animation/silent_choir.blend",
+    "beforeBlendSHA256": "5843dbd914f2714ae5698f6136fb2626b670561e160dc72f4daf52088ac0f83f",
+    "blendSHA256": "c5c18d6fc9033f3c699df1f76a63f2eb8c41f41a01394c82d1bd658e2fa7a087",
+    "fbx": "assets/export/meshes/curses/animations-polished/entities/silent_choir.fbx",
+    "fbxSHA256": "3f9d336eded3340f40c0d885a4102fce764f5927eae26ce22c251dd92655a34b",
+    "verticesBefore": 1402,
+    "vertices": 1402,
+    "weightedCounts": {
+      "Singer0": 240,
+      "Bell0": 210,
+      "Singer1": 240,
+      "Bell1": 210,
+      "Singer2": 240,
+      "Bell2": 210,
+      "Root": 52
+    },
+    "changes": "Assign all three robe bodies to Singer0/1/2 and their own bell/head/hand ornaments to Bell0/1/2; names, pivots and geometry unchanged.",
+    "realImportRecorded": false
+  },
+  {
+    "id": "night_harp",
+    "blend": "assets/source/blender/curse_animation/night_harp.blend",
+    "beforeBlendSHA256": "c3ee11f784d705102957cab2656dca5bbb6e76e5629a831aef720dce1473b803",
+    "blendSHA256": "4c847f61b76c92409ecefe888a8cd7451f66c98c1d5aba3168f754abaa51f246",
+    "fbx": "assets/export/meshes/curses/animations-polished/entities/night_harp.fbx",
+    "fbxSHA256": "5593561efed407e89b03d778ac0ee0dda24860c6d89fa4449aa26f9f40a99ce5",
+    "verticesBefore": 1358,
+    "vertices": 1838,
+    "weightedCounts": {
+      "Root": 1311,
+      "Leg0": 69,
+      "Knee0": 90,
+      "Leg2": 67,
+      "Knee2": 90,
+      "Leg1": 67,
+      "Knee1": 89,
+      "Leg3": 69,
+      "Knee3": 90,
+      "String2": 144,
+      "Head": 59,
+      "String0": 130,
+      "String1": 130,
+      "String3": 130
+    },
+    "changes": "Return harp frame, scale plates and three rings to Root. Head retains only actual ivory head/visor. Four strings receive 4 longitudinal subdivisions and pinned endpoint weights so String0/1/2/3 bend their own tube centers.",
+    "realImportRecorded": false
+  },
+  {
+    "id": "the_last_funeral",
+    "blend": "assets/source/blender/curse_animation/the_last_funeral.blend",
+    "beforeBlendSHA256": "8bb91ea9fba371499ab4b0d5eec11d3a9d7504b8a880c087ab6b4d21f746ea56",
+    "blendSHA256": "061389617233087f3b693ed1064f0907f73b8ca0262a49e75a9827c545627bfd",
+    "fbx": "assets/export/meshes/curses/animations-polished/entities/the_last_funeral.fbx",
+    "fbxSHA256": "71f2ad382729f50f483e7c7a6d6fa8364fc96bf7c5e00129734d12c26a8eec01",
+    "verticesBefore": 1611,
+    "vertices": 1611,
+    "weightedCounts": {
+      "Root": 923,
+      "Leg0": 120,
+      "Knee0": 144,
+      "Leg2": 81,
+      "Knee2": 144,
+      "Leg1": 120,
+      "Knee1": 144,
+      "Leg3": 81,
+      "Knee3": 144
+    },
+    "changes": "Fade upper leg weights to rigid Root at the coffin hip attachment; all four carriers retain articulated lower limbs. Geometry and pivots unchanged.",
+    "realImportRecorded": false
+  }
+]

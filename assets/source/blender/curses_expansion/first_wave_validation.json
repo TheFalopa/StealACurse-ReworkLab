@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "status": "FBX_ROUND_TRIP_PASS",
+  "assetCount": 15,
+  "sourceTriangles": 9964,
+  "method": "Blender FBX reimport, actual topology/bounds/color inspection; not Roblox upload or gameplay validation",
+  "assets": [
+    {
+      "id": "candle_wisp",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 758,
+      "fbxSha256": "f785ad50d71545a7f16114d7c37724ce363a9c88194170f77a2d6ae0bafab16f",
+      "vertices": 403,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.0206963,
+        0.01613096,
+        0.0300481
+      ],
+      "intendedRobloxSize": [
+        2.06963,
+        3.00481,
+        1.613095
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 112,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "grave_hopper",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 640,
+      "fbxSha256": "6ae091e87754780244890dc6ff7a7eed26d107650991d03663f833081d53968c",
+      "vertices": 348,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.02343339,
+        0.01287115,
+        0.0256
+      ],
+      "intendedRobloxSize": [
+        2.343339,
+        2.56,
+        1.287115
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 132,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "grave_key",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 470,
+      "fbxSha256": "19771b3e36edcbd1ae05851600afb7514d1b8c8333f75637096250451ab9ab42",
+      "vertices": 251,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.0169753,
+        0.0047,
+        0.02809826
+      ],
+      "intendedRobloxSize": [
+        1.69753,
+        2.809826,
+        0.47
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 141,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "ink_imp",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 586,
+      "fbxSha256": "32e3a5dabc77f1651ed56cbe9a82cb03a9b8372ee3c53cc7ffe351a120ecd3b1",
+      "vertices": 319,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.02282433,
+        0.00856295,
+        0.0215
+      ],
+      "intendedRobloxSize": [
+        2.282433,
+        2.15,
+        0.856294
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 151,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "ashen_book",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 608,
+      "fbxSha256": "f39889d35314fe67ed5bca10fe8b6e5e170f1876b4ff99688e80588d38fdeb16",
+      "vertices": 338,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.01935,
+        0.01326574,
+        0.016575
+      ],
+      "intendedRobloxSize": [
+        1.935,
+        1.6575,
+        1.326574
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 263,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "marrow_dice",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 880,
+      "fbxSha256": "5284d58995bd90162ff35e7793cdd41e7a1ea789f6ebdda60220b0247d3bebff",
+      "vertices": 486,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.02325,
+        0.01176108,
+        0.02373442
+      ],
+      "intendedRobloxSize": [
+        2.325,
+        2.373442,
+        1.176108
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 188,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "grave_compass",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 1116,
+      "fbxSha256": "a51b3f680def92f94d6e217f3b98f5b55bad1739ae2d55292e7cbafb5ea478a3",
+      "vertices": 578,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.0276,
+        0.016,
+        0.02418579
+      ],
+      "intendedRobloxSize": [
+        2.76,
+        2.418579,
+        1.6
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 255,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "hollow_violin",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 594,
+      "fbxSha256": "d10c2a23a1f55958bfeaccc1329245943b03fcec7690e41b0868028f8c95c312",
+      "vertices": 331,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.0154,
+        0.00525,
+        0.02936978
+      ],
+      "intendedRobloxSize": [
+        1.54,
+        2.936978,
+        0.525
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 256,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "raven_quill",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 358,
+      "fbxSha256": "c8da3188cb78264fb2f015901267215de34b0d4e800f0b3177d255fbd43bec83",
+      "vertices": 205,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.01715,
+        0.00488435,
+        0.02841865
+      ],
+      "intendedRobloxSize": [
+        1.715,
+        2.841865,
+        0.488435
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 134,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "night_harp",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 520,
+      "fbxSha256": "2f59874bb296d2563a4105737b679dfe8354333e4dbbb4bb94c2d9a0a4f11041",
+      "vertices": 290,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.02509265,
+        0.00590885,
+        0.04022938
+      ],
+      "intendedRobloxSize": [
+        2.509265,
+        4.022938,
+        0.590885
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 260,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "thorn_cathedral",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 700,
+      "fbxSha256": "d51cc5c776577c9c61db92d5e6e81ace43af17f1872d403c5e89544aea1620c8",
+      "vertices": 388,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.02499964,
+        0.01541603,
+        0.04108808
+      ],
+      "intendedRobloxSize": [
+        2.499964,
+        4.108808,
+        1.541602
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 205,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "judgement_scales",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 730,
+      "fbxSha256": "3561b814703402c278fd2294cb24cf21ef1d43803d72754486dbc441c3256643",
+      "vertices": 399,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.0366,
+        0.01000001,
+        0.03448026
+      ],
+      "intendedRobloxSize": [
+        3.66,
+        3.448026,
+        1.0
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 245,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "cathedral_heart",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 818,
+      "fbxSha256": "4f8e134bcf13f6714ea7fe93bdecc1a3ccc2b582a076a7a2fe26264d5d8ee1cc",
+      "vertices": 447,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.02625361,
+        0.01350001,
+        0.04018372
+      ],
+      "intendedRobloxSize": [
+        2.625361,
+        4.018371,
+        1.35
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 304,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "hollow_throne",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 418,
+      "fbxSha256": "112e96247f7f9c343854ff1346e70b298556c9e1e6611a06c0e2c73e3dbefe34",
+      "vertices": 237,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.02337051,
+        0.01390001,
+        0.03982794
+      ],
+      "intendedRobloxSize": [
+        2.337051,
+        3.982793,
+        1.39
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 201,
+      "robloxImporterAppearanceVerified": false
+    },
+    {
+      "id": "nameless_door",
+      "status": "FBX_ROUND_TRIP_PASS",
+      "meshObjects": 1,
+      "triangles": 768,
+      "fbxSha256": "0026a5fe982b022c42002306d23bd2876ba9119459b2280d11702f3c29492562",
+      "vertices": 432,
+      "nonManifoldEdges": 0,
+      "looseVertices": 0,
+      "degenerateFaces": 0,
+      "fbxWorldDimensions": [
+        0.028494,
+        0.01105001,
+        0.0408
+      ],
+      "intendedRobloxSize": [
+        2.8494,
+        4.08,
+        1.105
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uvLayers": 1,
+      "materialSlots": 1,
+      "vertexColorLayer": "SACPaintedColor",
+      "distinctQuantizedPaintedColors": 150,
+      "robloxImporterAppearanceVerified": false
+    }
+  ]
+}

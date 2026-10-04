@@ -1,0 +1,132 @@
+{
+  "stage": "FULL_RELOAD_PASS",
+  "results": [
+    {
+      "ok": true,
+      "label": "actual local profile loaded"
+    },
+    {
+      "ok": true,
+      "label": "native E claim"
+    },
+    {
+      "ok": true,
+      "label": "durable advanced ownership rituals and featured reload"
+    },
+    {
+      "ok": true,
+      "label": "durable featured current floor rebuilt"
+    },
+    {
+      "ok": true,
+      "label": "durable advanced architecture and style reconstructed"
+    }
+  ],
+  "profile": {
+    "souls": 477920.8871201754,
+    "revision": 167,
+    "sanctuary": {
+      "fragments": 553,
+      "rituals": {
+        "collection_vigil": true,
+        "first_vigil": true,
+        "relic_consecration": true,
+        "dominion": true,
+        "grand_seal": true
+      },
+      "featuredUid": "161e10fd-e1c1-4406-988e-cf2afc936a9c",
+      "style": "OBSERVATORY",
+      "milestones": {
+        "sealing": 6,
+        "contracts": 31,
+        "recovery": 9,
+        "sealActivations": 18,
+        "majorRelics": 2,
+        "transport": 4
+      },
+      "level": 10,
+      "schema": 1,
+      "discoveries": {
+        "haunted_mirror": true,
+        "raven_quill": true,
+        "lost_locket": true,
+        "sleepwalker_shoes": true,
+        "hourglass_hound": true,
+        "hollow_violin": true,
+        "pale_gramophone": true,
+        "grave_hopper": true,
+        "thorn_reliquary": true,
+        "umbrella_wraith": true,
+        "pale_guest": true,
+        "music_box_dancer": true,
+        "sorrow_chalice": true,
+        "candle_wisp": true,
+        "grave_compass": true,
+        "wilted_sprout": true,
+        "thimble_spider": true,
+        "coin_crawler": true,
+        "chime_triplets": true,
+        "mourning_ribbon": true,
+        "cursed_doll": true,
+        "anchor_crab": true,
+        "lantern_lurker": true,
+        "ashen_book": true,
+        "nail_beetle": true,
+        "sundial_sentinel": true,
+        "marrow_dice": true,
+        "veil_mourner": true,
+        "ink_imp": true,
+        "cold_teacup": true,
+        "crying_mask": true,
+        "grave_key": true
+      }
+    },
+    "curses": [
+      {
+        "state": "PLACED",
+        "uid": "161e10fd-e1c1-4406-988e-cf2afc936a9c",
+        "definitionId": "cursed_doll",
+        "pedestalId": "floor3-slot10",
+        "revision": 10
+      },
+      {
+        "state": "PLACED",
+        "uid": "2c8bfa69-a3d9-4aaf-89c4-7ed22836b856",
+        "definitionId": "cold_teacup",
+        "pedestalId": "floor1-slot6",
+        "revision": 2
+      },
+      {
+        "state": "PLACED",
+        "uid": "5fa9856f-c2c9-4714-a7a5-be66faf53bca",
+        "definitionId": "coin_crawler",
+        "pedestalId": "floor1-slot4",
+        "revision": 2
+      },
+      {
+        "state": "PLACED",
+        "uid": "a0c30fb0-1f04-4f08-bd9b-cf190fa45326",
+        "definitionId": "nail_beetle",
+        "pedestalId": "floor1-slot3",
+        "revision": 2
+      },
+      {
+        "state": "PLACED",
+        "uid": "aa86bdf1-c831-4640-849d-ccad3acac497",
+        "definitionId": "wilted_sprout",
+        "pedestalId": "floor1-slot5",
+        "revision": 2
+      },
+      {
+        "state": "PLACED",
+        "uid": "e3f30b2c-3757-435c-ac6b-bbd7e1bd4b18",
+        "definitionId": "grave_hopper",
+        "pedestalId": "floor1-slot2",
+        "revision": 2
+      }
+    ],
+    "session": "8bcab189-c98a-4138-a7f3-f7e65c4a69df",
+    "schema": 1,
+    "savedAt": 1791021118.760999
+  }
+}

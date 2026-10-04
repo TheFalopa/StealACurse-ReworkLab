@@ -1,0 +1,102 @@
+{
+  "id": "the_void",
+  "displayName": "The Void",
+  "rarity": "SECRET",
+  "sourceReference": "assets/reference/the-void-rift-aura-v3.png",
+  "source": "assets/source/blender/curses_visual_pass2/the_void.blend",
+  "export": "assets/export/meshes/curses/visual-pass2/the_void.fbx",
+  "sha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc",
+  "triangles": 1018,
+  "vertices": 567,
+  "blenderDimensions": [
+    10.264501571655273,
+    1.960408329963684,
+    12.600000381469727
+  ],
+  "intendedRobloxSize": [
+    10.264501571655273,
+    12.600000381469727,
+    1.960408329963684
+  ],
+  "diagonal": 16.369581636307686,
+  "vfxHook": [
+    -0.193847948825689,
+    0.24338354168004894,
+    0.3238427787476784
+  ],
+  "vfxProfile": "empty_rift",
+  "palette": [
+    "obsidian",
+    "void",
+    "void_edge",
+    "void_silver"
+  ],
+  "paintedColorCount": 385,
+  "uvLayers": 1,
+  "colorLayer": "SACPaintedColor",
+  "semanticParts": [
+    {
+      "name": "Asymmetric fractured void rift surrounding a genuinely empty aperture",
+      "first_face": 0,
+      "last_face_exclusive": 142
+    },
+    {
+      "name": "Five nonidentical black shards with cold shaped bevel faces",
+      "first_face": 142,
+      "last_face_exclusive": 372
+    },
+    {
+      "name": "Thin unconnected cold boundary wisps around negative space",
+      "first_face": 372,
+      "last_face_exclusive": 408
+    }
+  ],
+  "modelComplete": true,
+  "referenceReviewed": true,
+  "localValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0
+  },
+  "realImportRecorded": false,
+  "appearanceChecked": false,
+  "gameplayChecked": false,
+  "enabled": false,
+  "designNotes": [
+    "Secret: towering empty fractured oval rift; five asymmetrical layered dark shards and narrow silver boundaries. The center remains literally empty, never a purple ball."
+  ],
+  "blendSource": "assets/source/blender/curses_visual_pass2/the_void.blend",
+  "robloxIntendedSize": [
+    10.264501571655273,
+    12.600000381469727,
+    1.960408329963684
+  ],
+  "vfxHookRoblox": [
+    -0.193847948825689,
+    0.24338354168004894,
+    0.3238427787476784
+  ],
+  "roundtripValidation": {
+    "nonManifoldEdges": 0,
+    "looseVertices": 0,
+    "degenerateFaces": 0,
+    "fbxDimensions": [
+      0.10264500975608826,
+      0.01960410363972187,
+      0.12600000202655792
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangleCount": 1018,
+    "colorCount": 385,
+    "uvLayers": 1,
+    "materials": 1,
+    "valid": true,
+    "id": "the_void",
+    "status": "FBX_ROUND_TRIP_PASS",
+    "fbxSha256": "f803881f0eead2a325c1d4407b46acba34f9a6d24c6756082574bcc596220bfc"
+  }
+}

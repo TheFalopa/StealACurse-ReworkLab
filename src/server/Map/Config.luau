@@ -29,6 +29,10 @@ for _, site in ipairs(Config.BaseSites) do
 	site.degrees = math.deg(math.atan2(site.x, site.z))
 end
 
+-- Rework sample: bases that get an authored forecourt vignette
+-- (ForecourtVignette.luau). Empty it to revert to the plain forecourts.
+Config.ForecourtVignetteBases = { 8 }
+
 Config.ApproachAnchors = {
 	{ Vector3.new(0, 0, 85), Vector3.new(24, 0, 157), Vector3.new(14, 0, 229) },
 	{ Vector3.new(131, 0, 96), Vector3.new(171, 0, 145), Vector3.new(196, 0, 185) },

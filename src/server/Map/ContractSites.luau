@@ -44,19 +44,7 @@ function Sites.build(map)
    part(node,'ContractBoard',Vector3.new(6,4,.45),frame*CFrame.new(0,3.6,0),Color3.fromRGB(91,66,48),Enum.Material.Wood,false)
    for _,x in {-2.5,2.5} do part(node,'BoardPost',Vector3.new(.5,5,.5),frame*CFrame.new(x,2.5,0),Color3.fromRGB(65,52,46),Enum.Material.Wood,false) end
    for i=1,3 do part(node,'ContractPaper'..i,Vector3.new(1.3,2,.08),frame*CFrame.new((i-2)*1.7,3.6,-.27)*CFrame.Angles(0,0,(i-2)*.05),Color3.fromRGB(214,207,171),Enum.Material.SmoothPlastic,false) end
-   local npc=Instance.new('Model');npc.Name='Gravekeeper';npc.Parent=node
-   local n=platform.CFrame*CFrame.new(-4,0,1)
-   part(npc,'Coat',Vector3.new(2,2.3,1.1),n*CFrame.new(0,2.2,0),Color3.fromRGB(60,76,71),Enum.Material.Fabric,false)
-   part(npc,'Head',Vector3.new(1.2,1.3,1.1),n*CFrame.new(0,4,0),Color3.fromRGB(193,188,163),Enum.Material.SmoothPlastic,false)
-   part(npc,'HatBrim',Vector3.new(2.2,.2,1.7),n*CFrame.new(0,4.6,0),Color3.fromRGB(48,46,44),Enum.Material.SmoothPlastic,false)
-   part(npc,'HatCrown',Vector3.new(1.3,.8,1.2),n*CFrame.new(0,5.1,0),Color3.fromRGB(48,46,44),Enum.Material.SmoothPlastic,false)
-   for _,side in {-1,1} do
-    part(npc,'Boot'..side,Vector3.new(.7,1.2,.9),n*CFrame.new(side*.48,.7,0),Color3.fromRGB(57,49,42),Enum.Material.SmoothPlastic,false)
-    part(npc,'Arm'..side,Vector3.new(.55,1.8,.65),n*CFrame.new(side*1.15,2.4,0)*CFrame.Angles(0,0,side*.13),Color3.fromRGB(60,76,71),Enum.Material.Fabric,false)
-    part(npc,'Eye'..side,Vector3.new(.16,.18,.1),n*CFrame.new(side*.28,4.12,-.57),Color3.fromRGB(99,216,185),Enum.Material.Neon,false)
-   end
-   part(npc,'ShovelHandle',Vector3.new(.22,4.5,.22),n*CFrame.new(1.65,2.3,-.2)*CFrame.Angles(0,0,-.12),Color3.fromRGB(130,95,57),Enum.Material.Wood,false)
-   part(npc,'ShovelBlade',Vector3.new(.95,1.1,.22),n*CFrame.new(1.9,.4,-.2),Color3.fromRGB(150,159,164),Enum.Material.Metal,false)
+   -- Mortimer (ProgressionWorld, placed from this board) is the only gravekeeper figure.
   end
  end
  group.Parent=map

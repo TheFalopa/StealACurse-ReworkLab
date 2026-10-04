@@ -40,7 +40,9 @@ function Store.start()
 	local callbacks={}
 	local session=HttpService:GenerateGUID(false)
 	local studio=RunService:IsStudio()
-	local dataStore=if not studio then DataStoreService:GetDataStore('StealACurseProfilesV1') else nil
+	-- Lab isolation (Config.LiveProfileGameIds): no allowlisted universe, no live store.
+	local live=not studio and Config.LiveProfileGameIds[game.GameId]==true
+	local dataStore=if live then DataStoreService:GetDataStore(Config.ProfileStoreName) else nil
 	local bridge
 	local service={}
 	local function key(player) return 'u'..tostring(player.UserId) end
@@ -75,6 +77,7 @@ function Store.start()
 				assert(valid(p),'Ownership recovery validation failed; preserve original profile')
 				return p
 			else
+				assert(dataStore,'Lab persistence is disabled in this universe; no profile was read or written')
 				local busy=false
 				local loaded=dataStore:UpdateAsync(key(player),function(previous)
 					if previous and previous.lease then

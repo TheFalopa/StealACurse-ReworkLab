@@ -19,4 +19,10 @@ return {
 	SellQuoteLifetimeSeconds = 15,
 	MaximumOwnedCurses = 128,
 	ProfileAutosaveSeconds = 20,
+	-- ReworkLab isolation: live servers use a lab-only DataStore and only in
+	-- universes listed here (by game.GameId). The list is empty on purpose, so
+	-- a published lab place fails closed (UNAVAILABLE) instead of reading or
+	-- writing any existing player profile. Studio keeps the local plugin store.
+	ProfileStoreName = "StealACurseReworkLab_ProfilesV1",
+	LiveProfileGameIds = {},
 }

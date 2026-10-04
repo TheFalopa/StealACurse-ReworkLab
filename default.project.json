@@ -13,6 +13,12 @@
       }
     },
     "ServerStorage": {
+      "LocalProfileBridge": {
+        "$className": "Folder",
+        "$attributes": {
+          "Namespace": "reworklab"
+        }
+      },
       "MapMeshKit": {
         "$className": "Folder",
         "tree_widow": {

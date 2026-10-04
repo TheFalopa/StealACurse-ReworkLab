@@ -25,4 +25,10 @@ return {
 	-- writing any existing player profile. Studio keeps the local plugin store.
 	ProfileStoreName = "StealACurseReworkLab_ProfilesV1",
 	LiveProfileGameIds = {},
+	-- Studio isolation: the local profile/ledger plugins key their saves by
+	-- ServerStorage.LocalProfileBridge.Namespace (default.project.json). The lab
+	-- uses its own slot and never the shared default "play" slot of other places.
+	-- Plugin settings keys: StealACurseLocalProfilesV1reworklab and
+	-- StealACurseToolLedgerV1reworklab. QA fixtures may use "qa-*" namespaces.
+	LocalProfileNamespace = "reworklab",
 }

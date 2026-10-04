@@ -5,6 +5,7 @@
 -- an unguarded purchase prompt, or a DataStore outside the lab store name.
 local fs = require("@lune/fs")
 local process = require("@lune/process")
+local serde = require("@lune/serde")
 
 local ToolCatalog = require("../src/shared/ToolCatalog")
 local GameplayConfig = require("../src/server/Gameplay/Config")
@@ -28,6 +29,18 @@ check(progression:match("PaidSpinsEnabled%s*=%s*false") ~= nil and not progressi
 -- 2. Persistence is lab-isolated and fails closed.
 check(GameplayConfig.ProfileStoreName == "StealACurseReworkLab_ProfilesV1", "Live profile store must be the lab-only name")
 check(next(GameplayConfig.LiveProfileGameIds) == nil, "LiveProfileGameIds must be empty in the lab (fail closed)")
+
+-- 2b. Studio saves use the lab's own local slot, never the shared "play" slot.
+local namespace = GameplayConfig.LocalProfileNamespace
+check(namespace == "reworklab", "Config.LocalProfileNamespace must be the lab slot 'reworklab'")
+check(typeof(namespace) == "string" and namespace ~= "play" and namespace:match("^qa%-") == nil, "Lab namespace must not be the shared 'play' slot or a QA slot")
+local project = serde.decode("json", fs.readFile("default.project.json"))
+local bridge = project.tree.ServerStorage and project.tree.ServerStorage.LocalProfileBridge
+local attributes = bridge and bridge["$attributes"]
+check(bridge ~= nil and bridge["$className"] == "Folder", "default.project.json must define ServerStorage.LocalProfileBridge (Folder)")
+check(attributes ~= nil and attributes.Namespace == namespace, "LocalProfileBridge.Namespace must equal Config.LocalProfileNamespace")
+check(fs.readFile("src/server/Gameplay/ProfileStore.luau"):find("namespace==Config.LocalProfileNamespace", 1, true) ~= nil, "ProfileStore must refuse Studio slots other than the lab/QA namespaces")
+check(fs.readFile("src/server/Gameplay/TheftLedger.luau"):find("assert(labSlot()", 1, true) ~= nil, "TheftLedger must refuse Studio slots other than the lab/QA namespaces")
 
 -- 3. Source scan: one receipt handler, guarded prompts, no foreign stores.
 local function walk(dir: string, out: { string })

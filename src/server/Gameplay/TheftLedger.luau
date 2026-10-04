@@ -1,7 +1,14 @@
 local Http=game:GetService('HttpService');local Storage=game:GetService('ServerStorage');local Run=game:GetService('RunService')
+local Config=require(script.Parent.Config)
 local L={};local busy=false
+-- The ledger plugin keys its save by LocalProfileBridge.Namespace: lab slot or QA fixtures only.
+local function labSlot()
+ local p=Storage:FindFirstChild('LocalProfileBridge');local n=p and p:GetAttribute('Namespace')
+ return n==Config.LocalProfileNamespace or (typeof(n)=='string' and n:match('^qa%-')~=nil)
+end
 function L.read()
  if not Run:IsStudio()then return {}end
+ assert(labSlot(),'Lab local save slot missing; the shared Studio ledger was not read')
  local b=Storage:WaitForChild('ToolLedgerBridge',12);assert(b and b:GetAttribute('Ready'),'Install ToolsLedger plugin; saved profiles preserved')
  local ledger=Http:JSONDecode(b.Seed.Value);assert(typeof(ledger)=='table','Invalid durable ledger');return ledger
 end

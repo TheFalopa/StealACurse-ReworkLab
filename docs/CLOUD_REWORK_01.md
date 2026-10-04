@@ -31,9 +31,9 @@ What must remain true:
 6. **Progression.** Sanctuary L0-10 is paid with Souls, fragments (contracts),
    discoveries, rituals and milestones. Mortimer gives one-time onboarding
    missions, plus the daily Wheel and Luck potions.
-7. **Persistence.** One profile per player. Studio uses the local plugin store.
-   Live uses the lab-only DataStore and is disabled until a lab universe is
-   allowlisted.
+7. **Persistence.** One profile per player. Studio uses the local plugin store
+   in the lab's own slot (see "Lab save isolation"). Live uses the lab-only
+   DataStore and is disabled until a lab universe is allowlisted.
 8. **Red Moon.** It starts daily at 22:00 America/Los_Angeles (DST verified),
    with a 12 s warning and 20 min active, Luck +0.5 and an event mission.
 
@@ -85,6 +85,27 @@ Curse meshes: their UVs are palette tiles.
 - A top-centre lane holds transient and event information.
 - Interactive controls never sit in the chat zone.
 
+## Lab save isolation (owner decision 2026-10-04)
+
+| Context | Lab slot / store | Real project (never touched by lab builds) |
+|---|---|---|
+| Studio profiles (LocalProfileStore plugin setting) | `StealACurseLocalProfilesV1reworklab` | `StealACurseLocalProfilesV1play` |
+| Studio theft ledger (ToolsLedger plugin setting) | `StealACurseToolLedgerV1reworklab` | `StealACurseToolLedgerV1play` |
+| Live DataStore | `StealACurseReworkLab_ProfilesV1`, only in allowlisted universes (none) | `StealACurseProfilesV1` |
+
+- Namespace **`reworklab`** is set as an attribute on
+  `ServerStorage.LocalProfileBridge` in `default.project.json`. It is mirrored by
+  `Config.LocalProfileNamespace`. Both installed plugins append it to their
+  settings key; they were not changed.
+- `ProfileStore` and `TheftLedger` refuse any Studio slot that is not
+  `reworklab` or a `qa-*` test fixture. A missing or default namespace therefore
+  gives `ProfileStatus=UNAVAILABLE` and reads or writes nothing, instead of
+  falling back to the shared `play` slot.
+- There is no migration and no deletion: the real project's `play` slots are
+  never read. The lab starts fresh at 500 Souls.
+- Verified by `tools/lab_safety_check.luau` and by decoding the built place
+  (static). Studio confirmation is pending.
+
 ## Phase plan
 
 | Phase | Scope | Gate |
@@ -132,10 +153,10 @@ Curse meshes: their UVs are palette tiles.
 | Commit | Content | Static checks | Studio |
 |---|---|---|---|
 | `d45f39b` | Lab persistence isolation + lab safety check | rojo build, compile, lsp no new findings, lune safety PASS (and negative test FAIL as expected) | pending |
+| (this commit) | Lab Studio save slot `reworklab` + guards + safety checks | rojo build (attribute decoded in place file), compile, lsp no new findings, lune safety PASS 25/25, negative test FAIL as expected | pending |
 
 ## Deferred ideas (short list)
 
 - Global lighting A/B for specular (EnvironmentSpecularScale) after the Void
   sample is reviewed.
 - A Blood mutation roll on Red Moon to make the event matter for collecting.
-- Lab Studio profile namespace separate from other local places.

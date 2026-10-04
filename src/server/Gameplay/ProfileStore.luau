@@ -64,6 +64,9 @@ function Store.start()
 			if studio then
 				local b=localBridge()
 				assert(b,'Install the local profile plugin before Play. No account was overwritten.')
+				local namespace=b:GetAttribute('Namespace')
+				assert(namespace==Config.LocalProfileNamespace or (typeof(namespace)=='string' and namespace:match('^qa%-')~=nil),
+					'Lab local save slot missing (LocalProfileBridge.Namespace); the shared Studio slot was not read or written')
 				local stored=HttpService:JSONDecode(b.Seed.Value)
 				assert(typeof(stored)=='table','Invalid local profile seed; preserved without replacement')
 				local p=stored[key(player)]

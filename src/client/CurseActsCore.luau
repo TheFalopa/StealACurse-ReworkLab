@@ -1,8 +1,10 @@
 -- Acting for the five showcase anatomies. Poses remain decorative and do not
 -- write the mesh, the gameplay anchor, or VFX. Gaits follow travelled distance.
+local Motion=require(game:GetService('ReplicatedStorage').Shared.CurseMotionMath)
 return function(H)
 	local pose,pulse,smooth,gait=H.pose,H.pulse,H.smooth,H.gait
 	local sin,cos,pi=math.sin,math.cos,math.pi
+	local voidPull,shardLag=Motion.voidPull,{.1,0,.04,.14,.22}
 	local acts={}
 	local monarchFeet={Vector3.new(1.58394,-2.76950,-.53251),Vector3.new(-1.58394,-2.76950,-.51711),
 		Vector3.new(1.41466,-2.76950,.74591),Vector3.new(-1.36630,-2.76950,.74591)}
@@ -127,21 +129,25 @@ return function(H)
 		pose(e,'Crown',0,-.035*sin(t*.31),.035*sin(t*.48))
 	end
 	function acts.the_void(e,t,g,idle)
-		-- Hold, draw inward, and release. Avoid a continuous generic orb spin.
-		local phase=t%8.4
-		local pull=smooth((phase-1.5)/2.4)*(1-smooth((phase-5.8)/1.6))
-		local drift=.5*sin(t*.19)+.3*sin(t*.31)
-		pose(e,'Root',0,.012*drift,0,Vector3.new(0,.035+.022*sin(t*.26),0))
-		pose(e,'ArcL',.025*drift,.055*pull,.025*pull,Vector3.new(-.035*pull,.018*pull,.04*pull))
-		pose(e,'ArcR',-.03*drift,-.052*pull,-.022*pull,Vector3.new(.035*pull,-.018*pull,-.03*pull))
-		pose(e,'ArcBase',.035*sin(t*.22),.016*pull,.015*drift)
+		-- Still hold, lean out, draw in, strain, snap open, settle. The envelope
+		-- is shared with the hero VFX (Motion.voidPull). No idle bob or spin.
+		-- The rift's authored front (silver edges) is -Z, so +Z is into the depth.
+		local d,release=voidPull(t)
+		pose(e,'Root',0,0,0,Vector3.new(0,.035+.012*math.max(0,d),.03*d-.025*release))
+		-- Each arc folds back and leans its fractured top tip toward the other;
+		-- the shift keeps its foot planted where it meets the base.
+		pose(e,'ArcL',0,.075*d,.035*d,Vector3.new(-.07*d,0,.02*d))
+		pose(e,'ArcR',0,-.075*d,-.035*d,Vector3.new(.066*d,0,.02*d))
+		pose(e,'ArcBase',0,.012*d,0,Vector3.new(0,.014*d,.015*d))
 		for i=0,4 do
 			local rest=e.rest['Shard'..i]
 			if rest then
+				-- Shards answer the pull late (top first, bottom last), tumble on
+				-- their own axis and are spat toward the viewer on the release.
+				local s,kick=voidPull(t-shardLag[i+1])
 				local direction=if rest.Position.Magnitude>.01 then -rest.Position.Unit else Vector3.yAxis
-				local draw=.09+.12*pull+.035*sin(t*(.24+i*.03)+i*1.3)
-				pose(e,'Shard'..i,.09*sin(t*.23+i),.11*sin(t*.18+i*1.7),.08*drift,
-					direction*draw+Vector3.new(0,.025*sin(t*.37+i),.04*sin(t*.29+i)))
+				pose(e,'Shard'..i,.12*sin(i*1.7+.4)*s,.15*cos(i*2.3)*s,(if i%2==0 then .1 else -.1)*s,
+					direction*(.09+.2*s)+Vector3.new(0,0,.05*s-.06*kick))
 			end
 		end
 	end

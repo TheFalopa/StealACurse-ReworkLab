@@ -55,6 +55,9 @@ function Animation.create(model,mesh)
 		state=model:GetAttribute('CurseState'),stateAt=now,stateAge=0,
 		targets={},from={},blendAt=now,blendDuration=.25,suspended=false}
 	beginBlend(e,now,.25)
+	-- Publish this instance's act clock offset (local only) so hero VFX can
+	-- time their beats to the bones: act time = GetServerTimeNow()+ActPhase.
+	mesh:SetAttribute('ActPhase',e.phase)
 	counts.tracked+=1
 	if not e.act then counts.missingActs+=1;warn('Missing Curse act:',id) end
 	return e

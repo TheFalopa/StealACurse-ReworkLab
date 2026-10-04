@@ -220,7 +220,7 @@ local function budgets()
 			if on then live += 1 end
 			entry.near = on
 			local allowLight = on and entry.distance < 40 and lights < 2 and not mobile and not reduced
-			if entry.hero:setActive(on, tier, mobile, allowLight) then lights += 1 end
+			if entry.hero:setActive(on, tier, mobile, allowLight, reduced) then lights += 1 end
 			continue
 		end
 		if close and live < cap then

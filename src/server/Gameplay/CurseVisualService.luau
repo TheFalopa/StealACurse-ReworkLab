@@ -147,6 +147,11 @@ function Visual.create(definition, parent: Instance): (Model, ProximityPrompt)
 	root.CanTouch = false
 	root.CanQuery = false
 	root.CastShadow = false
+	local surface = Presentation.Surface[definition.id]
+	if surface then
+		root.Reflectance = surface.Reflectance or root.Reflectance
+		root.CastShadow = if surface.CastShadow ~= nil then surface.CastShadow else root.CastShadow
+	end
 	root.Parent = model
 	-- The server moves only this invisible authority anchor. The mesh transform
 	-- is written by one client presentation controller, never by server PivotTo.

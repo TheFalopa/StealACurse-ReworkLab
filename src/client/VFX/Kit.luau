@@ -49,6 +49,9 @@ end
 local Effect = {}
 Effect.__index = Effect
 
+-- Seconds a solid takes to fade fully in or out.
+local SOLID_FADE = 0.25
+
 function Kit.new(model: Model, root: BasePart)
 	local self = setmetatable({}, Effect)
 	self.model = model
@@ -58,6 +61,7 @@ function Kit.new(model: Model, root: BasePart)
 	self.instances = {}
 	self.emitters = {}
 	self.bindings = {}
+	self.bindingOf = {}
 	self.lights = {}
 	self.active = false
 	self.rateScale = 1
@@ -90,13 +94,26 @@ function Effect:attach(name: string, localPosition: Vector3, boneName: string?, 
 	local bone = boneName and self:bone(boneName)
 	if bone then
 		local rest = self.root.CFrame:ToObjectSpace(bone.WorldCFrame)
-		table.insert(self.bindings, { attachment = attachment, bone = bone, rest = rest, base = attachment.CFrame })
+		local binding = { attachment = attachment, bone = bone, rest = rest, base = attachment.CFrame }
+		table.insert(self.bindings, binding)
+		self.bindingOf[attachment] = binding
 	end
 	return attachment
 end
 
--- Current animated position of a bone in root space (for paths along rigs).
-function Effect:posed(boneName: string): Vector3?
+-- Move an attachment's authored root-space placement (e.g. to the side the
+-- camera is on, for a two-sided effect). A bone-bound attachment keeps
+-- following its bone from the new base on the next render.
+function Effect:rebase(attachment: Attachment, base: CFrame)
+	local binding = self.bindingOf[attachment]
+	if binding then
+		binding.base = base
+	else
+		attachment.CFrame = base
+	end
+end
+
+local function cachedBone(self, boneName: string): Bone?
 	self.boneCache = self.boneCache or {}
 	local bone = self.boneCache[boneName]
 	if bone == nil then
@@ -104,7 +121,39 @@ function Effect:posed(boneName: string): Vector3?
 		self.boneCache[boneName] = bone
 	end
 	if not bone or not bone.Parent then return nil end
+	return bone
+end
+
+-- Current animated position of a bone in root space (for paths along rigs).
+function Effect:posed(boneName: string): Vector3?
+	local bone = cachedBone(self, boneName)
+	if not bone then return nil end
 	return self.root.CFrame:PointToObjectSpace(bone.TransformedWorldCFrame.Position)
+end
+
+-- Root-space motion of a bone away from its rest pose. Map authored rest
+-- points through it (delta * point) so a path bends with the animated rig.
+function Effect:delta(boneName: string): CFrame
+	local bone = cachedBone(self, boneName)
+	if not bone then return CFrame.identity end
+	self.restInverse = self.restInverse or {}
+	local inverse = self.restInverse[boneName]
+	if not inverse then
+		inverse = self.root.CFrame:ToObjectSpace(bone.WorldCFrame):Inverse()
+		self.restInverse[boneName] = inverse
+	end
+	return self.root.CFrame:ToObjectSpace(bone.TransformedWorldCFrame) * inverse
+end
+
+-- The clock CurseAnimation poses this Curse's bones with (server time plus
+-- the per-instance ActPhase it publishes on the mesh), so beats line up.
+-- Until the animator has published it, fall back to the effect's own phase.
+function Effect:actTime(): number
+	if not self.actPhase then
+		local phase = self.root:GetAttribute("ActPhase")
+		if typeof(phase) == "number" then self.actPhase = phase end
+	end
+	return workspace:GetServerTimeNow() + (self.actPhase or self.phase)
 end
 
 -- Position along a polyline of root-space points, u in [0, 1].
@@ -145,6 +194,40 @@ function Effect:volume(name: string, size: Vector3, attachment: Attachment)
 	return part
 end
 
+-- Visible client-only shape: an ellipsoid (SpecialMesh sphere, which unlike a
+-- Ball part can take a non-uniform size) that follows its attachment. The
+-- effect sets `solid.transparency` (its look when fully shown) and
+-- `solid.mesh.Scale`; Kit fades it in and out (SOLID_FADE) as the Curse is
+-- revealed and, unless `keepLow`, as quality drops to mobile or Reduced, and
+-- hides it at once while inactive. It never collides, casts shadows or blocks
+-- queries.
+function Effect:solid(name: string, attachment: Attachment, size: Vector3, props, keepLow: boolean?)
+	local part = Instance.new("Part")
+	part.Name = "HeroVFXSolid_" .. name
+	part.Size = size
+	part.Anchored = true
+	part.CanCollide = false
+	part.CanTouch = false
+	part.CanQuery = false
+	part.CastShadow = false
+	part.Massless = true
+	apply(part, props, {})
+	local solid = {
+		part = part, attachment = attachment, transparency = part.Transparency, keepLow = keepLow == true, visibility = 0,
+	}
+	part.Transparency = 1
+	part.CFrame = attachment.WorldCFrame
+	local mesh = Instance.new("SpecialMesh")
+	mesh.MeshType = Enum.MeshType.Sphere
+	mesh.Parent = part
+	solid.mesh = mesh
+	part.Parent = self.root
+	self:own(part)
+	self.solids = self.solids or {}
+	table.insert(self.solids, solid)
+	return solid
+end
+
 -- Persistent emitters take `rate`; burst-only emitters use rate = 0 and :burst.
 function Effect:emitter(name: string, parent: Instance, rate: number, props)
 	local emitter = Instance.new("ParticleEmitter")
@@ -155,7 +238,9 @@ function Effect:emitter(name: string, parent: Instance, rate: number, props)
 	apply(emitter, props, CONVERT)
 	emitter.Parent = parent
 	self:own(emitter)
-	table.insert(self.emitters, { emitter = emitter, rate = rate })
+	-- `multiplier` is the effect's own per-emitter beat (setRate), kept across
+	-- budget passes; it stays 1 for effects that never call setRate.
+	table.insert(self.emitters, { emitter = emitter, rate = rate, multiplier = 1 })
 	return emitter
 end
 
@@ -205,15 +290,22 @@ function Effect:beam(name: string, a0: Attachment, a1: Attachment, props)
 end
 
 -- Called by the CurseVFX budget (2 Hz). `tier` is 1 close, ~0.4 mid-range.
-function Effect:setActive(active: boolean, tier: number, mobile: boolean, allowLight: boolean)
+function Effect:setActive(active: boolean, tier: number, mobile: boolean, allowLight: boolean, reduced: boolean?)
 	self.active = active
+	self.lowQuality = mobile or reduced == true
 	self.rateScale = if active then tier * (if mobile then 0.65 else 1) else 0
-	for _, item in self.emitters do item.emitter.Rate = item.rate * self.rateScale end
+	for _, item in self.emitters do item.emitter.Rate = item.rate * self.rateScale * item.multiplier end
 	for _, item in self.lights do item.light.Enabled = active and allowLight end
 	for _, trail in self.trails or {} do trail.Enabled = active end
 	for _, beam in self.beams or {} do beam.Enabled = active end
 	if not active then
 		for _, item in self.emitters do item.emitter:Clear() end
+		-- render() stops while inactive, so hide solids here; they fade back in.
+		for _, solid in self.solids or {} do
+			solid.visibility = 0
+			solid.part.Transparency = 1
+		end
+		self.renderedAt = nil
 	end
 	return #self.lights > 0 and active and allowLight
 end
@@ -221,7 +313,19 @@ end
 -- Extra multiplier on top of the budget (e.g. Red Moon intensity).
 function Effect:boost(multiplier: number)
 	if not self.active then return end
-	for _, item in self.emitters do item.emitter.Rate = item.rate * self.rateScale * multiplier end
+	for _, item in self.emitters do item.emitter.Rate = item.rate * self.rateScale * item.multiplier * multiplier end
+end
+
+-- Per-emitter multiplier on top of the budget (e.g. an act beat, or 0 before
+-- the reveal). It is stored, so budget passes and boosts keep applying it.
+function Effect:setRate(emitter: ParticleEmitter, multiplier: number)
+	for _, item in self.emitters do
+		if item.emitter == emitter then
+			item.multiplier = multiplier
+			emitter.Rate = item.rate * self.rateScale * multiplier
+			return
+		end
+	end
 end
 
 function Effect:setLight(index: number, multiplier: number)
@@ -245,12 +349,39 @@ function Effect:render()
 	for _, v in self.volumes or {} do
 		v.part.CFrame = v.attachment.WorldCFrame
 	end
+	if self.solids then
+		-- Follow the mesh's reveal and its local camera-inside fade; ease in and
+		-- out instead of popping (a hitch never skips more than 0.1 s of fade).
+		local now = os.clock()
+		local step = math.clamp(now - (self.renderedAt or now), 0, 0.1) / SOLID_FADE
+		self.renderedAt = now
+		local shown = self.active and self.root.Transparency < 1
+		local fade = self.root.LocalTransparencyModifier
+		for _, solid in self.solids do
+			local part = solid.part
+			part.CFrame = solid.attachment.WorldCFrame
+			local target = if shown and (solid.keepLow or not self.lowQuality) then 1 else 0
+			local visibility = solid.visibility
+			if visibility < target then
+				visibility = math.min(target, visibility + step)
+			elseif visibility > target then
+				visibility = math.max(target, visibility - step)
+			end
+			solid.visibility = visibility
+			local transparency = if visibility >= 1 then solid.transparency else 1 - visibility * (1 - solid.transparency)
+			if part.Transparency ~= transparency then part.Transparency = transparency end
+			if part.LocalTransparencyModifier ~= fade then part.LocalTransparencyModifier = fade end
+		end
+	end
 end
 
 function Effect:destroy()
 	for _, instance in self.instances do instance:Destroy() end
 	table.clear(self.instances)
 	table.clear(self.emitters)
+	table.clear(self.bindings)
+	table.clear(self.bindingOf)
+	self.volumes, self.solids = nil, nil
 end
 
 return Kit

@@ -1,88 +1,168 @@
 local Theme = require(script.Parent.Theme)
-local Icons = require(script.Parent.Icons)
+local Glyphs = require(script.Parent.Glyphs)
 local C, F = Theme.colors, Theme.fonts
 local Navigation = {}
 
--- Every entry opens a real panel: SHOP and GAMEPASSES are two tabs of the
--- same preview store, CURSES is the sanctuary panel, SETTINGS its shell.
+-- The names are HUD.selectPanel's contract: CURSES opens the sanctuary panel
+-- (shown as the Grimoire), SHOP the preview store (Passes tab first; its tabs
+-- still reach Products), SETTINGS the settings shell.
 local ITEMS = {
-	{ name = "SHOP", label = "Shop", short = "Shop", icon = "shop" },
-	{ name = "CURSES", label = "Curses", short = "Curses", icon = "curses" },
-	{ name = "GAMEPASSES", label = "Gamepasses", short = "Passes", icon = "gamepass" },
-	{ name = "SETTINGS", label = "Settings", short = "Settings", icon = "settings" },
+	{ name = "CURSES", label = "Grimoire", glyph = "grimoire" },
+	{ name = "SHOP", label = "Shop", glyph = "shop" },
+	{ name = "SETTINGS", label = "Settings", glyph = "settings" },
 }
 
--- Plain controls on the warm-ink surface: icon + label, hairline stroke, no
--- stripes, chevrons or gradients. The open panel is marked by a bone stroke.
+-- Entry anatomy inside the 56 px dock: glyph, caption, then the active
+-- underline. The hover/press tint is inset so it never meets the dock edge.
+local GLYPH_Y, LABEL_Y, LABEL_H, UNDERLINE_Y = 8, 32, 14, 48
+local TINT_INSET, DIVIDER_H = 4, 28
+local REST, ACTIVE = C.muted, C.white
+
+-- One quiet capsule under the Souls card: the card's family (panel fill with
+-- a soft top-lit shade, line stroke, bevel) at a lower volume. No stripes,
+-- chevrons or idle motion; state is colour plus a violet underline.
 function Navigation.create(gui: ScreenGui, onSelect)
 	local holder = Theme.make("Frame", {
-		Name = "Navigation", BackgroundTransparency = 1, BorderSizePixel = 0,
-		AnchorPoint = Vector2.new(1, 0), Position = UDim2.new(1, -14, 0, 100),
-		Size = UDim2.fromOffset(232, 220),
+		Name = "Navigation", BackgroundColor3 = C.panel, BorderSizePixel = 0,
+		-- Top-right until the first HudLayout frame arrives.
+		AnchorPoint = Vector2.new(1, 0), Position = UDim2.new(1, -14, 0, 100), Size = UDim2.fromOffset(232, 56),
 	}, gui)
+	Theme.corner(holder, Theme.radius.panel)
+	Theme.gradient(holder, Color3.new(1, 1, 1), Color3.fromRGB(176, 172, 200), true)
+	Theme.stroke(holder, C.line, 1, 0.4)
+	Theme.make("Frame", {
+		Name = "Bevel", BackgroundColor3 = C.white, BackgroundTransparency = 0.94, BorderSizePixel = 0,
+		Position = UDim2.fromOffset(12, 1), Size = UDim2.new(1, -24, 0, 1),
+	}, holder)
+	local dividers = {}
+	for index = 1, #ITEMS - 1 do
+		dividers[index] = Theme.make("Frame", {
+			Name = "Divider" .. index, BackgroundColor3 = C.line, BackgroundTransparency = 0.6, BorderSizePixel = 0,
+			Size = UDim2.fromOffset(1, DIVIDER_H), ZIndex = 3,
+		}, holder)
+	end
+
 	local buttons = {}
 	for index, item in ITEMS do
 		local button = Theme.make("TextButton", {
 			Name = item.name, Text = "", AutoButtonColor = false, LayoutOrder = index,
-			BackgroundColor3 = C.surface, BorderSizePixel = 0, Selectable = true,
-			Size = UDim2.fromOffset(232, 48),
+			BackgroundTransparency = 1, BorderSizePixel = 0, Selectable = true,
+			-- Centre anchor so the press scale shrinks toward the middle.
+			AnchorPoint = Vector2.new(0.5, 0.5), Size = UDim2.fromOffset(76, 56), ZIndex = 2,
 		}, holder)
-		Theme.corner(button, Theme.radius.control)
-		local stroke = Theme.stroke(button, C.hairline, 1, 0.25)
 		local scale = Theme.make("UIScale", { Scale = 1 }, button)
-		local icon = Icons.create(item.icon, button, UDim2.fromOffset(10, 7), UDim2.fromOffset(34, 34))
-		local text = Theme.label(button, "Label", item.label, UDim2.fromOffset(54, 0), UDim2.new(1, -64, 1, 0), Theme.textSize.body, C.bone, F.heavy)
-		-- Hover/press tint the fill only, so the active stroke survives.
-		Theme.buttonFeedback(button, C.surface, C.surfaceHi, { scale = scale })
-		button.Activated:Connect(function() onSelect(item.name) end)
-		buttons[item.name] = { button = button, icon = icon, text = text, item = item, stroke = stroke }
-	end
-	local controller = { holder = holder, buttons = buttons }
-	-- Wide: a vertical stack of labelled buttons. Compact (phones): one row of
-	-- 48+ px icon tiles directly under the Souls card. `rect` comes from HudLayout.
-	function controller.fit(compact: boolean, rect: { x: number, y: number, w: number, h: number })
-		local width = rect.w
-		holder.Position = UDim2.fromOffset(rect.x + width, rect.y)
-		local gap = if compact then 6 else 8
-		if compact then
-			local tile = math.floor((width - gap * 3) / 4)
-			holder.Size = UDim2.fromOffset(width, tile + 8)
-			for index, item in ITEMS do
-				local data = buttons[item.name]
-				data.button.Position = UDim2.fromOffset((index - 1) * (tile + gap), 0)
-				data.button.Size = UDim2.fromOffset(tile, tile + 8)
-				data.icon.Position = UDim2.new(0.5, -15, 0, 5)
-				data.icon.Size = UDim2.fromOffset(30, 30)
-				data.text.Text = item.short
-				data.text.Position = UDim2.new(0, 0, 1, -18)
-				data.text.Size = UDim2.new(1, 0, 0, 14)
-				data.text.TextSize = Theme.textSize.caption
-				data.text.FontFace = F.bold
-				data.text.TextXAlignment = Enum.TextXAlignment.Center
-			end
-		else
-			holder.Size = UDim2.fromOffset(width, #ITEMS * (48 + gap) - gap)
-			for index, item in ITEMS do
-				local data = buttons[item.name]
-				data.button.Position = UDim2.fromOffset(0, (index - 1) * (48 + gap))
-				data.button.Size = UDim2.fromOffset(width, 48)
-				data.icon.Position = UDim2.fromOffset(12, 7)
-				data.icon.Size = UDim2.fromOffset(34, 34)
-				data.text.Text = item.label
-				data.text.Position = UDim2.fromOffset(56, 0)
-				data.text.Size = UDim2.new(1, -66, 1, 0)
-				data.text.TextSize = Theme.textSize.body
-				data.text.FontFace = F.heavy
-				data.text.TextXAlignment = Enum.TextXAlignment.Left
-			end
+		local tint = Theme.make("Frame", {
+			Name = "Tint", BackgroundColor3 = C.cardHi, BackgroundTransparency = 1, BorderSizePixel = 0,
+			Position = UDim2.fromOffset(TINT_INSET, TINT_INSET), Size = UDim2.new(1, -2 * TINT_INSET, 1, -2 * TINT_INSET), ZIndex = 1,
+		}, button)
+		Theme.corner(tint, Theme.radius.panel - TINT_INSET)
+		local glyph, paint = Glyphs.create(item.glyph, button, UDim2.new(0.5, -Glyphs.box / 2, 0, GLYPH_Y), UDim2.fromOffset(Glyphs.box, Glyphs.box), REST)
+		glyph.ZIndex = 2
+		local text = Theme.label(button, "Label", item.label, UDim2.fromOffset(0, LABEL_Y), UDim2.new(1, 0, 0, LABEL_H), Theme.textSize.caption, REST, F.bold)
+		text.TextXAlignment = Enum.TextXAlignment.Center
+		text.ZIndex = 2
+		local underline = Theme.make("Frame", {
+			Name = "Underline", AnchorPoint = Vector2.new(0.5, 0), BackgroundColor3 = C.violet, BorderSizePixel = 0,
+			Position = UDim2.new(0.5, 0, 0, UNDERLINE_Y), Size = UDim2.fromOffset(16, 2), Visible = false, ZIndex = 2,
+		}, button)
+		Theme.corner(underline, 1)
+		-- As wide as the word, kept even so it stays on whole pixels. TextBounds
+		-- follows the press UIScale, so only the resting size is used.
+		local function sizeUnderline()
+			if scale.Scale ~= 1 or not text.Visible then return end
+			local width = math.max(12, math.floor(text.TextBounds.X))
+			underline.Size = UDim2.fromOffset(width - width % 2, 2)
 		end
-		return holder.Size.Y.Offset
+		text:GetPropertyChangedSignal("TextBounds"):Connect(sizeUnderline)
+		sizeUnderline()
+
+		-- Hover, gamepad selection and press share one soft inner tint; press
+		-- also scales the entry to 0.96. Activated serves mouse, touch, keys
+		-- and gamepad alike, so no action depends on hover.
+		local hovered, pressed, selected = false, false, false
+		local function refresh()
+			local lit = hovered or pressed or selected
+			Theme.tween(tint, 0.12, { BackgroundTransparency = if lit then 0.55 else 1 })
+			Theme.tween(scale, if pressed then 0.06 else 0.12, { Scale = if pressed then 0.96 else 1 })
+		end
+		local function isPress(input: InputObject): boolean
+			return input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch
+		end
+		button.MouseEnter:Connect(function()
+			hovered = true
+			refresh()
+		end)
+		button.MouseLeave:Connect(function()
+			hovered, pressed = false, false
+			refresh()
+		end)
+		button.SelectionGained:Connect(function()
+			selected = true
+			refresh()
+		end)
+		button.SelectionLost:Connect(function()
+			selected = false
+			refresh()
+		end)
+		button.InputBegan:Connect(function(input)
+			if not isPress(input) then return end
+			pressed = true
+			refresh()
+		end)
+		button.InputEnded:Connect(function(input)
+			if not isPress(input) then return end
+			pressed = false
+			-- Touch has no hover to fall back to.
+			if input.UserInputType == Enum.UserInputType.Touch then hovered = false end
+			refresh()
+		end)
+		button.Activated:Connect(function() onSelect(item.name) end)
+		buttons[item.name] = { button = button, glyph = glyph, paint = paint, text = text, underline = underline }
+	end
+
+	local controller = { holder = holder, buttons = buttons }
+	-- `rect` and `entries` (absolute safe-area rects) come from HudLayout.
+	function controller.fit(rect: { x: number, y: number, w: number, h: number }, entries: { { x: number, y: number, w: number, h: number } }?)
+		holder.AnchorPoint = Vector2.zero
+		holder.Position = UDim2.fromOffset(rect.x, rect.y)
+		holder.Size = UDim2.fromOffset(rect.w, rect.h)
+		local slots = entries
+		if not slots or #slots ~= #ITEMS then
+			-- Defensive fallback: equal even-width entries across the dock.
+			local width = math.floor(rect.w / #ITEMS)
+			width -= width % 2
+			local x0 = rect.x + math.floor((rect.w - #ITEMS * width) / 2)
+			slots = {}
+			for index = 1, #ITEMS do slots[index] = { x = x0 + (index - 1) * width, y = rect.y, w = width, h = rect.h } end
+		end
+		for index, item in ITEMS do
+			local slot = slots[index]
+			local button = buttons[item.name].button
+			button.Position = UDim2.fromOffset(slot.x - rect.x + math.floor(slot.w / 2), slot.y - rect.y + math.floor(slot.h / 2))
+			button.Size = UDim2.fromOffset(slot.w, slot.h)
+		end
+		-- Compact (phones): a 44 px glyph-only row; the underline sits under the glyph.
+		local iconOnly = rect.h < GLYPH_Y + Glyphs.box + LABEL_H + 10
+		local glyphY = if iconOnly then math.floor((rect.h - Glyphs.box) / 2) - 2 else GLYPH_Y
+		for _, data in buttons do
+			data.glyph.Position = UDim2.new(0.5, -Glyphs.box / 2, 0, glyphY)
+			data.text.Visible = not iconOnly
+			data.underline.Position = UDim2.new(0.5, 0, 0, if iconOnly then glyphY + Glyphs.box + 3 else UNDERLINE_Y)
+			if iconOnly then data.underline.Size = UDim2.fromOffset(16, 2) end
+		end
+		local dividerH = math.min(DIVIDER_H, rect.h - 16)
+		for index, divider in dividers do
+			divider.Size = UDim2.fromOffset(1, dividerH)
+			divider.Position = UDim2.fromOffset(slots[index + 1].x - rect.x, math.floor((rect.h - dividerH) / 2))
+		end
 	end
 	function controller.setActive(name: string)
 		for key, data in buttons do
 			local on = key == name
-			data.stroke.Color = if on then C.bone else C.hairline
-			data.stroke.Transparency = if on then 0 else 0.25
+			local color = if on then ACTIVE else REST
+			data.paint(color, 0.12)
+			Theme.tween(data.text, 0.12, { TextColor3 = color })
+			data.underline.Visible = on
 			data.button:SetAttribute("Selected", on)
 		end
 	end

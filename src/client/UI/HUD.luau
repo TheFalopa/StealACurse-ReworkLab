@@ -33,18 +33,21 @@ function HUD.start()
 	local currency = CurrencyCard.create(gui)
 	local activePanel = ""
 	local shop, settings, navigation
+	-- Dock contract: CURSES (shown as Grimoire) opens the sanctuary panel, SHOP
+	-- toggles the preview store on its Passes tab, SETTINGS its shell.
 	local function selectPanel(name: string)
 		if name == "CURSES" then
 			shop.show(false); settings.show(false)
 			activePanel = ""
 			gui:SetAttribute("ActivePanel", "")
+			gui.DisplayOrder = 10
 			navigation.setActive("")
 			require(script.Parent.SanctuaryPanel).start().open()
 			return
 		end
 		if name == activePanel then name = "" end
 		activePanel = name
-		local storeTab = if name == "SHOP" then "Products" elseif name == "GAMEPASSES" then "Passes" else nil
+		local storeTab = if name == "SHOP" then "Passes" else nil
 		if storeTab then shop.selectTab(storeTab) end
 		shop.show(storeTab ~= nil)
 		settings.show(name == "SETTINGS")
@@ -183,7 +186,7 @@ function HUD.start()
 		local souls = layout.souls
 		currency.holder.Position = UDim2.fromOffset(souls.x + souls.w, souls.y)
 		currency.fit(compact, souls.w, souls.h)
-		navigation.fit(compact, layout.nav)
+		navigation.fit(layout.nav, layout.navEntries)
 		local toast = layout.toast
 		local centerX = toast.x + math.floor(toast.w / 2)
 		notice.Size = UDim2.fromOffset(toast.w, toast.h)

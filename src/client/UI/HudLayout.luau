@@ -6,7 +6,8 @@
 -- each of them. The pure half touches no Roblox global at load time, so
 -- tools/hud_layout_check.luau can require and verify it under Lune.
 --
---   right column : Souls card, nav, Luck pill (persistent economy)
+--   right column : Souls card, nav dock (one 56 px row of 3 entries), Luck
+--                  pill (persistent economy)
 --   top lane     : event chip, one objective chip, toast (transient), centred
 --                  between the chat zone and the right column
 --   bottom       : tool bar + bench (ToolsInput applies them), USE, SANCTUARY
@@ -29,12 +30,17 @@ local OBJECTIVE_LANE_MIN = 300
 -- the measured chat window is unusually wide) lets them reach into its edge.
 local LANE_FLOOR = 150
 local LAUNCHER_TOUCH = 48
+-- Nav dock: one row of entries under the Souls card, same height everywhere.
+-- Dock height: glyph + caption on desktop, glyph only on compact screens
+-- (phones keep less permanent surface; entries stay >= 44 px).
+local NAV_ENTRIES, NAV_H, NAV_H_COMPACT = 3, 56, 44
 
 -- Higher wins: a ritual hides a contract, a contract hides Mortimer's task.
 HudLayout.ObjectivePriority = { ritual = 3, contract = 2, mission = 1, event = 1 }
 HudLayout.Widgets = { "souls", "nav", "luck", "eventChip", "objective", "toast", "launcher", "useButton", "toolBar", "bench" }
 HudLayout.Interactive = { nav = true, luck = true, launcher = true, useButton = true, toolBar = true, bench = true }
 HudLayout.Lane = { eventChip = true, objective = true, toast = true }
+HudLayout.NavEntries = NAV_ENTRIES
 
 local function rect(x: number, y: number, w: number, h: number): Rect
 	return { x = math.floor(x), y = math.floor(y), w = math.floor(w), h = math.floor(h) }
@@ -126,21 +132,32 @@ function HudLayout.compute(input)
 	if touch then thumbstick, thumbRest = HudLayout.thumbstickZone(W, H) end
 	layout.zones = { chat = chat, jump = jump, thumbstick = thumbstick, thumbRest = thumbRest }
 
-	-- Right column: Souls card, nav, then the Luck pill. Its space is reserved
-	-- even while the pill is hidden so the column never jumps.
+	-- Right column: Souls card, the nav dock, then the Luck pill. The pill's
+	-- space is reserved even while it is hidden so the column never jumps.
 	local colW = math.min(if compact then 212 else 232, math.max(1, W - 2 * EDGE))
 	local soulsH = if compact then 54 else 78
-	local tile = math.floor((colW - 18) / 4)
-	local navH = if compact then tile + 8 else 4 * 48 + 3 * 8
 	local luckH = if touch then 52 else 44
-	local stackH = soulsH + 10 + navH + GAP + luckH
-	-- Desktop: just above centre, below the player list. Phones: under the topbar.
+	local navH = if compact then NAV_H_COMPACT else NAV_H
+	local stackH = soulsH + GAP + navH + GAP + luckH
+	-- Desktop: the (short) stack is centred just above mid-height, below the
+	-- player list, which opens by default in the top-right corner and grows
+	-- with the server. Phones: tight under the topbar.
 	local top = if compact then 8 else math.max(12, math.floor(H * 0.46 - stackH / 2))
 	local colX = W - EDGE - colW
 	layout.souls = rect(colX, top, colW, soulsH)
-	layout.nav = rect(colX, top + soulsH + 10, colW, navH)
-	layout.navTile = if compact then { w = tile, h = tile + 8 } else { w = colW, h = 48 }
-	layout.luck = rect(colX, top + soulsH + 10 + navH + GAP, colW, luckH)
+	local navY = top + soulsH + GAP
+	layout.nav = rect(colX, navY, colW, navH)
+	-- Equal entries of even width (whole-pixel centres for the glyphs), the
+	-- spare pixels split between the dock's two ends.
+	local entryW = math.floor(colW / NAV_ENTRIES)
+	entryW -= entryW % 2
+	local entryX = colX + math.floor((colW - NAV_ENTRIES * entryW) / 2)
+	layout.navTile = { w = entryW, h = navH }
+	layout.navEntries = {}
+	for index = 1, NAV_ENTRIES do
+		layout.navEntries[index] = rect(entryX + (index - 1) * entryW, navY, entryW, navH)
+	end
+	layout.luck = rect(colX, navY + navH + GAP, colW, luckH)
 	local luck = layout.luck
 	layout.drink = if touch then rect(luck.x + luck.w - 4 - 64, luck.y + 4, 64, 44) else rect(luck.x + luck.w - 6 - 72, luck.y + 5, 72, 34)
 

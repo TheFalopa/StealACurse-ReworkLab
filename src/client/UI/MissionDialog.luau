@@ -204,32 +204,32 @@ function Dialog.start(gui: ScreenGui, request: RemoteFunction, onState)
 	local trackerPulse = Theme.make("UIScale", { Scale = 1 }, tracker)
 	local trackerWanted = false
 
-	-- Luck pill (right column, under the nav): potion icon + count, server
-	-- luck and the DRINK button.
+	-- Luck pill (right column, under the nav dock): potion icon + count,
+	-- server luck and the DRINK button, in its pre-Phase-1 soul-green accent.
 	local luck = Theme.make("Frame", {
 		Name = "LuckChip", Position = UDim2.new(1, -226, 0, 136), Size = UDim2.fromOffset(212, 52),
-		BackgroundColor3 = C.surface, BorderSizePixel = 0, Visible = false, ZIndex = 8,
+		BackgroundColor3 = C.panel, BackgroundTransparency = 0.12, BorderSizePixel = 0, Visible = false, ZIndex = 8,
 	}, gui)
 	Theme.corner(luck, Theme.radius.panel)
-	local luckStroke = Theme.stroke(luck, C.amber, 1, 0.5)
+	local luckStroke = Theme.stroke(luck, C.soulGreen, 1.2, 0.5)
 	local potion = Theme.image(luck, "Icon", VisualAssets.Icons.potion, UDim2.new(0, 6, 0.5, 0), UDim2.fromOffset(36, 36), { AnchorPoint = Vector2.new(0, 0.5), ZIndex = 9 })
-	local luckCount = Theme.label(potion, "Count", "", UDim2.new(1, 4, 1, 2), UDim2.fromOffset(28, 14), Theme.textSize.caption, C.bone, F.number)
+	local luckCount = Theme.label(potion, "Count", "", UDim2.new(1, 4, 1, 2), UDim2.fromOffset(28, 14), Theme.textSize.caption, C.white, F.number)
 	luckCount.AnchorPoint = Vector2.new(1, 1)
 	luckCount.TextXAlignment = Enum.TextXAlignment.Right
 	luckCount.ZIndex = 10
 	Theme.make("UIStroke", { Color = C.ink, Thickness = 1.5 }, luckCount)
-	local luckText = Theme.label(luck, "Text", "", UDim2.fromOffset(48, 7), UDim2.new(1, -120, 0, 18), Theme.textSize.body, C.bone, F.heavy)
+	local luckText = Theme.label(luck, "Text", "", UDim2.fromOffset(48, 7), UDim2.new(1, -120, 0, 18), Theme.textSize.body, C.white, F.heavy)
 	luckText.ZIndex = 9
 	luckText.TextTruncate = Enum.TextTruncate.AtEnd
-	local luckSub = Theme.label(luck, "Sub", "", UDim2.fromOffset(48, 26), UDim2.new(1, -120, 0, 16), Theme.textSize.caption, C.amber, F.bold)
+	local luckSub = Theme.label(luck, "Sub", "", UDim2.fromOffset(48, 26), UDim2.new(1, -120, 0, 16), Theme.textSize.caption, C.soulGreen, F.bold)
 	luckSub.ZIndex = 9
 	luckSub.TextTruncate = Enum.TextTruncate.AtEnd
 	local drink = Theme.make("TextButton", {
 		Name = "Drink", Text = "DRINK", AutoButtonColor = false, Position = UDim2.new(1, -68, 0, 4),
-		Size = UDim2.fromOffset(64, 44), BackgroundColor3 = C.amber, TextColor3 = C.ink, FontFace = F.heavy, TextSize = 14, BorderSizePixel = 0, ZIndex = 10,
+		Size = UDim2.fromOffset(64, 44), BackgroundColor3 = C.soulGreen, TextColor3 = C.ink, FontFace = F.heavy, TextSize = 14, BorderSizePixel = 0, ZIndex = 10,
 	}, luck)
 	Theme.corner(drink, Theme.radius.control)
-	Theme.buttonFeedback(drink, C.amber, Color3.fromRGB(255, 218, 160), { scale = Theme.make("UIScale", { Scale = 1 }, drink) })
+	Theme.buttonFeedback(drink, C.soulGreen, Color3.fromRGB(190, 255, 220), { scale = Theme.make("UIScale", { Scale = 1 }, drink) })
 	drink.Activated:Connect(function()
 		local answer = call("drink", "luck_potion")
 		if answer then Dialog.toast(answer.message, answer.ok) end

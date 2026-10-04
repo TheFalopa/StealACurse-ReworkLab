@@ -7,7 +7,9 @@
 -- under the closed-by-default phone chat), an interactive widget in the
 -- thumbstick frame, any widget in the thumb-rest zone, anything over the jump
 -- button, a rect outside the safe area, a touch target under 44 px, or a
--- widget the layout could not place.
+-- widget the layout could not place. The nav dock is checked entry by entry:
+-- exactly HudLayout.NavEntries (3) entries of at least 44 x 44 inside one
+-- 56 px row as wide as the Souls card, stacked souls / 8 / dock / 8 / luck.
 -- Arithmetic only: Studio still has to confirm the real chat window, jump
 -- button and thumbstick against these fallbacks.
 local process = require("@lune/process")
@@ -83,9 +85,30 @@ for _, preset in PRESETS do
 		if layout.visible.luck then
 			check(not HudLayout.intersects(layout.drink, zones.chat) and not HudLayout.intersects(layout.drink, zones.jump), `{label}: DRINK in a reserved zone`)
 		end
+
+		-- Nav dock: one quiet 56 px row under the Souls card, 3 entries.
+		local souls, nav, luck = layout.souls, layout.nav, layout.luck
+		check(nav.h == 56, `{label}: nav dock {show(nav)} is not 56 px tall`)
+		check(nav.x == souls.x and nav.w == souls.w and luck.x == souls.x and luck.w == souls.w, `{label}: souls/nav/luck do not share one column`)
+		check(nav.y == souls.y + souls.h + 8 and luck.y == nav.y + nav.h + 8, `{label}: column is not souls / 8 / dock / 8 / luck`)
+		check(HudLayout.NavEntries == 3 and #layout.navEntries == HudLayout.NavEntries, `{label}: dock has {#layout.navEntries} entries, expected 3`)
+		check(layout.navTile.w >= 44 and layout.navTile.h >= 44, `{label}: nav tile {layout.navTile.w}x{layout.navTile.h} < 44`)
+		for index, entry in layout.navEntries do
+			local tag = `{label}: dock entry {index} {show(entry)}`
+			check(entry.w >= 44 and entry.h >= 44, `{tag} is under 44 px`)
+			check(entry.w == layout.navTile.w and entry.h == layout.navTile.h, `{tag} differs from navTile`)
+			check(entry.w % 2 == 0, `{tag} has an odd width (glyph off the pixel grid)`)
+			check(entry.x >= nav.x and entry.y >= nav.y and entry.x + entry.w <= nav.x + nav.w and entry.y + entry.h <= nav.y + nav.h, `{tag} leaves the dock {show(nav)}`)
+			check(HudLayout.inside(entry, layout.width, layout.height), `{tag} leaves the safe area`)
+			check(not HudLayout.intersects(entry, zones.chat), `{tag} is in the chat zone`)
+			check(not HudLayout.intersects(entry, zones.jump), `{tag} covers the jump button`)
+			check(not HudLayout.intersects(entry, zones.thumbstick) and not HudLayout.intersects(entry, zones.thumbRest), `{tag} is in the thumbstick frame`)
+			local nextEntry = layout.navEntries[index + 1]
+			if nextEntry then check(nextEntry.x == entry.x + entry.w and not HudLayout.intersects(entry, nextEntry), `{tag} does not abut entry {index + 1}`) end
+		end
+
 		if preset.touch then
 			check(zones.jump ~= nil and zones.thumbstick ~= nil, `{label}: touch must reserve jump and thumbstick`)
-			check(layout.navTile.w >= 44 and layout.navTile.h >= 44, `{label}: nav tile {layout.navTile.w}x{layout.navTile.h} < 44`)
 			for _, name in { "drink", "launcher", "useButton", "bench" } do
 				local r = layout[name]
 				check(r.w >= 44 and r.h >= 44, `{label}: {name} {show(r)} is under 44 px`)
@@ -97,6 +120,9 @@ for _, preset in PRESETS do
 		if shown then
 			print(`[INFO] {preset.name}: chat {show(zones.chat)} jump {show(zones.jump)} thumb {show(zones.thumbstick)}`)
 			print(`       souls {show(layout.souls)} nav {show(layout.nav)} luck {show(layout.luck)} drink {show(layout.drink)}`)
+			local entries = {}
+			for _, entry in layout.navEntries do table.insert(entries, show(entry)) end
+			print(`       dock entries {table.concat(entries, " ")}`)
 			print(`       event {show(layout.eventChip)} objective[{layout.objectivePlacement}] {show(layout.objective)} toast {show(layout.toast)}`)
 			print(`       bar {show(layout.toolBar)} bench {show(layout.bench)} launcher {show(layout.launcher)} use {show(layout.useButton)}`)
 		end

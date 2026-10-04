@@ -95,8 +95,7 @@ function Effect:attach(name: string, localPosition: Vector3, boneName: string?, 
 	return attachment
 end
 
--- Current animated position of a bone in root space (for paths along rigs).
-function Effect:posed(boneName: string): Vector3?
+local function cachedBone(self, boneName: string): Bone?
 	self.boneCache = self.boneCache or {}
 	local bone = self.boneCache[boneName]
 	if bone == nil then
@@ -104,7 +103,39 @@ function Effect:posed(boneName: string): Vector3?
 		self.boneCache[boneName] = bone
 	end
 	if not bone or not bone.Parent then return nil end
+	return bone
+end
+
+-- Current animated position of a bone in root space (for paths along rigs).
+function Effect:posed(boneName: string): Vector3?
+	local bone = cachedBone(self, boneName)
+	if not bone then return nil end
 	return self.root.CFrame:PointToObjectSpace(bone.TransformedWorldCFrame.Position)
+end
+
+-- Root-space motion of a bone away from its rest pose. Map authored rest
+-- points through it (delta * point) so a path bends with the animated rig.
+function Effect:delta(boneName: string): CFrame
+	local bone = cachedBone(self, boneName)
+	if not bone then return CFrame.identity end
+	self.restInverse = self.restInverse or {}
+	local inverse = self.restInverse[boneName]
+	if not inverse then
+		inverse = self.root.CFrame:ToObjectSpace(bone.WorldCFrame):Inverse()
+		self.restInverse[boneName] = inverse
+	end
+	return self.root.CFrame:ToObjectSpace(bone.TransformedWorldCFrame) * inverse
+end
+
+-- The clock CurseAnimation poses this Curse's bones with (server time plus
+-- the per-instance ActPhase it publishes on the mesh), so beats line up.
+-- Until the animator has published it, fall back to the effect's own phase.
+function Effect:actTime(): number
+	if not self.actPhase then
+		local phase = self.root:GetAttribute("ActPhase")
+		if typeof(phase) == "number" then self.actPhase = phase end
+	end
+	return workspace:GetServerTimeNow() + (self.actPhase or self.phase)
 end
 
 -- Position along a polyline of root-space points, u in [0, 1].
@@ -143,6 +174,36 @@ function Effect:volume(name: string, size: Vector3, attachment: Attachment)
 	self.volumes = self.volumes or {}
 	table.insert(self.volumes, { part = part, attachment = attachment })
 	return part
+end
+
+-- Visible client-only shape: an ellipsoid (SpecialMesh sphere, which unlike a
+-- Ball part can take a non-uniform size) that follows its attachment. The
+-- effect sets `solid.transparency` and `solid.mesh.Scale`; Kit hides it while
+-- inactive, before the Curse is revealed and, unless `keepLow`, on mobile or
+-- Reduced quality. It never collides, casts shadows or blocks queries.
+function Effect:solid(name: string, attachment: Attachment, size: Vector3, props, keepLow: boolean?)
+	local part = Instance.new("Part")
+	part.Name = "HeroVFXSolid_" .. name
+	part.Size = size
+	part.Anchored = true
+	part.CanCollide = false
+	part.CanTouch = false
+	part.CanQuery = false
+	part.CastShadow = false
+	part.Massless = true
+	apply(part, props, {})
+	local solid = { part = part, attachment = attachment, transparency = part.Transparency, keepLow = keepLow == true }
+	part.Transparency = 1
+	part.CFrame = attachment.WorldCFrame
+	local mesh = Instance.new("SpecialMesh")
+	mesh.MeshType = Enum.MeshType.Sphere
+	mesh.Parent = part
+	solid.mesh = mesh
+	part.Parent = self.root
+	self:own(part)
+	self.solids = self.solids or {}
+	table.insert(self.solids, solid)
+	return solid
 end
 
 -- Persistent emitters take `rate`; burst-only emitters use rate = 0 and :burst.
@@ -205,8 +266,9 @@ function Effect:beam(name: string, a0: Attachment, a1: Attachment, props)
 end
 
 -- Called by the CurseVFX budget (2 Hz). `tier` is 1 close, ~0.4 mid-range.
-function Effect:setActive(active: boolean, tier: number, mobile: boolean, allowLight: boolean)
+function Effect:setActive(active: boolean, tier: number, mobile: boolean, allowLight: boolean, reduced: boolean?)
 	self.active = active
+	self.lowQuality = mobile or reduced == true
 	self.rateScale = if active then tier * (if mobile then 0.65 else 1) else 0
 	for _, item in self.emitters do item.emitter.Rate = item.rate * self.rateScale end
 	for _, item in self.lights do item.light.Enabled = active and allowLight end
@@ -214,6 +276,8 @@ function Effect:setActive(active: boolean, tier: number, mobile: boolean, allowL
 	for _, beam in self.beams or {} do beam.Enabled = active end
 	if not active then
 		for _, item in self.emitters do item.emitter:Clear() end
+		-- render() stops while inactive, so hide solids here.
+		for _, solid in self.solids or {} do solid.part.Transparency = 1 end
 	end
 	return #self.lights > 0 and active and allowLight
 end
@@ -222,6 +286,14 @@ end
 function Effect:boost(multiplier: number)
 	if not self.active then return end
 	for _, item in self.emitters do item.emitter.Rate = item.rate * self.rateScale * multiplier end
+end
+
+-- Per-emitter multiplier on top of the budget (e.g. an act beat). The next
+-- budget pass resets it, so effects re-apply it from their update.
+function Effect:setRate(emitter: ParticleEmitter, multiplier: number)
+	for _, item in self.emitters do
+		if item.emitter == emitter then emitter.Rate = item.rate * self.rateScale * multiplier return end
+	end
 end
 
 function Effect:setLight(index: number, multiplier: number)
@@ -245,12 +317,26 @@ function Effect:render()
 	for _, v in self.volumes or {} do
 		v.part.CFrame = v.attachment.WorldCFrame
 	end
+	if self.solids then
+		-- Follow the mesh's reveal and its local camera-inside fade.
+		local shown = self.active and self.root.Transparency < 1
+		local fade = self.root.LocalTransparencyModifier
+		for _, solid in self.solids do
+			local part = solid.part
+			part.CFrame = solid.attachment.WorldCFrame
+			local transparency = if shown and (solid.keepLow or not self.lowQuality) then solid.transparency else 1
+			if part.Transparency ~= transparency then part.Transparency = transparency end
+			if part.LocalTransparencyModifier ~= fade then part.LocalTransparencyModifier = fade end
+		end
+	end
 end
 
 function Effect:destroy()
 	for _, instance in self.instances do instance:Destroy() end
 	table.clear(self.instances)
 	table.clear(self.emitters)
+	table.clear(self.bindings)
+	self.volumes, self.solids = nil, nil
 end
 
 return Kit

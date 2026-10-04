@@ -90,6 +90,11 @@ P.Heights = {
 	the_unwritten = 11.7,
 	the_last_star = 11.4,
 }
+-- Per-id surface overrides applied after the forced SmoothPlastic/white base
+-- (vertex colours stay). Only reviewed samples get values.
+P.Surface = {
+	the_void = { Reflectance = 0.15, CastShadow = true }, -- obsidian sheen, grounded
+}
 function P.scale(id, nativeSize)
 	local height=P.Heights[id] or nativeSize.Y
 	return math.min(height/nativeSize.Y, 11/nativeSize.X, 13/nativeSize.Y, 6/nativeSize.Z)

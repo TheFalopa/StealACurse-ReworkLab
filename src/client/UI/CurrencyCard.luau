@@ -17,54 +17,28 @@ function CurrencyCard.create(gui: ScreenGui)
 		BackgroundTransparency = 1, BorderSizePixel = 0,
 		Position = UDim2.new(1, -14, 0, 12), Size = UDim2.fromOffset(232, 78),
 	}, gui)
-	local shadow = Theme.make("Frame", {
-		Name = "Shadow", BackgroundColor3 = Color3.new(0, 0, 0), BackgroundTransparency = 0.55,
-		BorderSizePixel = 0, Position = UDim2.fromOffset(0, 4), Size = UDim2.fromScale(1, 1),
-	}, holder)
-	Theme.corner(shadow, 14)
+	-- Solid warm-ink card with a hairline edge. Nothing idles: every motion
+	-- below answers a balance or rate change.
 	local card = Theme.make("Frame", {
-		Name = "Card", BackgroundColor3 = C.panel, BorderSizePixel = 0, Size = UDim2.fromScale(1, 1),
+		Name = "Card", BackgroundColor3 = C.surface, BorderSizePixel = 0, Size = UDim2.fromScale(1, 1),
 	}, holder)
-	Theme.corner(card, 14)
-	Theme.gradient(card, Color3.fromRGB(52, 36, 88), Color3.fromRGB(16, 13, 30))
-	local border = Theme.stroke(card, C.line, 1.5, 0.15)
-	-- A slow spectral glint travels around the border: alive, never flashing.
-	local sweep = Theme.make("UIGradient", {
-		Color = ColorSequence.new({
-			ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)), ColorSequenceKeypoint.new(0.42, Color3.new(1, 1, 1)),
-			ColorSequenceKeypoint.new(0.5, Color3.fromRGB(190, 255, 246)), ColorSequenceKeypoint.new(0.58, Color3.new(1, 1, 1)),
-			ColorSequenceKeypoint.new(1, Color3.new(1, 1, 1)),
-		}),
-	}, border)
-	TweenService:Create(sweep, TweenInfo.new(9, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1), { Rotation = 360 }):Play()
-	-- Small gothic diamond studs on two corners; ornament, not decoration noise.
-	for index, anchor in { Vector2.new(0, 0), Vector2.new(1, 1) } do
-		local stud = Theme.make("Frame", {
-			Name = "CornerStud" .. index, AnchorPoint = Vector2.new(0.5, 0.5), Rotation = 45,
-			Position = UDim2.new(anchor.X, if anchor.X == 0 then 9 else -9, anchor.Y, if anchor.Y == 0 then 9 else -9),
-			Size = UDim2.fromOffset(5, 5), BackgroundColor3 = C.violet, BackgroundTransparency = 0.35, BorderSizePixel = 0, ZIndex = 2,
-		}, card)
-		stud:SetAttribute("Ornament", true)
-	end
+	Theme.corner(card, Theme.radius.panel)
+	local border = Theme.stroke(card, C.hairline, 1, 0.2)
 	local scale = Theme.make("UIScale", { Scale = 1 }, card)
-	-- A faint inner top edge gives the card a lit bevel without a neon border.
-	local bevel = Theme.make("Frame", {
-		Name = "Bevel", BackgroundColor3 = C.white, BackgroundTransparency = 0.9,
-		BorderSizePixel = 0, Position = UDim2.new(0, 14, 0, 1), Size = UDim2.new(1, -28, 0, 1),
-	}, card)
+	-- Gain flash behind the icon; fully transparent at rest.
 	local halo = Theme.image(card, "SoulHalo", VisualAssets.Textures.glow_soft, UDim2.fromOffset(-6, -6), UDim2.fromOffset(88, 88), {
-		ImageColor3 = C.cyan, ImageTransparency = 0.72, ZIndex = 1,
+		ImageColor3 = C.soulGreen, ImageTransparency = 1, ZIndex = 1,
 	})
 	local icon = Icons.create("souls", card, UDim2.fromOffset(12, 13), UDim2.fromOffset(52, 52))
 	icon.ZIndex = 2
 	local iconScale = Theme.make("UIScale", { Scale = 1 }, icon)
-	local title = Theme.label(card, "Title", "SOULS", UDim2.fromOffset(74, 10), UDim2.new(1, -86, 0, 14), 12, C.muted, F.heavy)
-	local amount = Theme.label(card, "Amount", "0", UDim2.fromOffset(73, 22), UDim2.new(1, -84, 0, 32), 30, C.white, F.number)
+	local title = Theme.label(card, "Title", "SOULS", UDim2.fromOffset(74, 10), UDim2.new(1, -86, 0, 14), Theme.textSize.caption, C.boneMuted, F.heavy)
+	-- Hero number.
+	local amount = Theme.label(card, "Amount", "0", UDim2.fromOffset(73, 22), UDim2.new(1, -84, 0, 32), Theme.textSize.hero, C.bone, F.number)
 	amount.TextScaled = true
 	amount.TextTruncate = Enum.TextTruncate.AtEnd
 	Theme.make("UITextSizeConstraint", { MinTextSize = 18, MaxTextSize = 31 }, amount)
-	Theme.make("UIStroke", { Color = C.ink, Thickness = 1.2, Transparency = 0.3 }, amount)
-	local rate = Theme.label(card, "SoulsPerSecond", "+0 Souls/s", UDim2.fromOffset(74, 54), UDim2.new(1, -84, 0, 16), 14, C.soulGreen, F.bold)
+	local rate = Theme.label(card, "SoulsPerSecond", "", UDim2.fromOffset(74, 54), UDim2.new(1, -84, 0, 16), Theme.textSize.body, C.soulGreen, F.number)
 	rate.TextTruncate = Enum.TextTruncate.AtEnd
 	local rateScale = Theme.make("UIScale", { Scale = 1 }, rate)
 	local animated = Theme.make("NumberValue", { Name = "AnimatedSouls", Value = 0 }, gui)
@@ -73,7 +47,8 @@ function CurrencyCard.create(gui: ScreenGui)
 	local lastTarget: number? = nil
 	local previousRate: number? = nil
 	local pendingGain, lastPopAt, lastPulseAt = 0, -math.huge, -math.huge
-	local compactLayout = false
+	local rateSize = Theme.textSize.body
+	local rateTween: Tween? = nil
 
 	-- Short spectral "+N" that rises off the amount. Gains are pooled so a
 	-- per-second income tick produces at most one quiet pop every few seconds.
@@ -93,19 +68,14 @@ function CurrencyCard.create(gui: ScreenGui)
 		lastPulseAt = now
 		iconScale.Scale = if strong then 1.18 else 1.08
 		TweenService:Create(iconScale, TweenInfo.new(0.45, Enum.EasingStyle.Back, Enum.EasingDirection.Out), { Scale = 1 }):Play()
-		halo.ImageTransparency = if strong then 0.35 else 0.55
-		-- The flash replaces the idle breathing tween; resume it afterwards.
-		Theme.tween(halo, 0.8, { ImageTransparency = 0.72 }).Completed:Once(function(state)
-			if state == Enum.PlaybackState.Completed and halo.Parent then
-				TweenService:Create(halo, TweenInfo.new(2.6, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true), { ImageTransparency = 0.6 }):Play()
-			end
-		end)
+		halo.ImageTransparency = if strong then 0.45 else 0.65
+		Theme.tween(halo, 0.8, { ImageTransparency = 1 })
 		if strong then
-			border.Color = C.cyan
+			border.Color = C.soulGreen
 			border.Transparency = 0
 			scale.Scale = 1.03
 			Theme.tween(scale, 0.3, { Scale = 1 })
-			Theme.tween(border, 0.7, { Color = C.line, Transparency = 0.15 })
+			Theme.tween(border, 0.7, { Color = C.hairline, Transparency = 0.2 })
 		end
 	end
 
@@ -138,11 +108,21 @@ function CurrencyCard.create(gui: ScreenGui)
 	local function updateRate()
 		local value = SoulsSource.rate()
 		if not value then return end
-		rate.Text = "+" .. NumberFormat.compact(value) .. (if compactLayout then "/s" else " Souls/s")
+		-- Zero income gets a next step instead of "+0/s".
+		local earning = value > 0
+		rate.Text = if earning then "+" .. NumberFormat.compact(value) .. "/s" else "Place a Curse to earn"
+		-- A running flash tween would otherwise repaint the help text green.
+		if rateTween then
+			rateTween:Cancel()
+			rateTween = nil
+		end
+		rate.TextColor3 = if earning then C.soulGreen else C.boneMuted
+		rate.FontFace = if earning then F.number else F.medium
+		rate.TextSize = if earning then rateSize else Theme.textSize.caption
 		if previousRate and value > previousRate then
 			rate.TextColor3 = C.white
 			rateScale.Scale = 1.12
-			Theme.tween(rate, 0.5, { TextColor3 = C.soulGreen })
+			rateTween = Theme.tween(rate, 0.5, { TextColor3 = C.soulGreen })
 			TweenService:Create(rateScale, TweenInfo.new(0.4, Enum.EasingStyle.Back, Enum.EasingDirection.Out), { Scale = 1 }):Play()
 			pulse(true)
 		end
@@ -155,12 +135,9 @@ function CurrencyCard.create(gui: ScreenGui)
 	table.insert(connections, SoulsSource.onRateChanged(updateRate))
 	updateSouls()
 	updateRate()
-	-- Gentle idle breathing on the soul halo (2.6 s); gains add a real pulse.
-	TweenService:Create(halo, TweenInfo.new(2.6, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true), { ImageTransparency = 0.6 }):Play()
 
 	local controller = { holder = holder }
 	function controller.fit(compact: boolean, width: number, height: number)
-		compactLayout = compact
 		holder.Size = UDim2.fromOffset(width, height)
 		local iconSize = if compact then 40 else 52
 		local x = if compact then 56 else 74
@@ -171,17 +148,17 @@ function CurrencyCard.create(gui: ScreenGui)
 		title.Visible = not compact
 		title.Position = UDim2.fromOffset(x, 10)
 		title.Size = UDim2.new(1, -x - 12, 0, 14)
-		amount.Position = UDim2.fromOffset(x - 1, if compact then 6 else 22)
+		amount.Position = UDim2.fromOffset(x - 1, if compact then 5 else 22)
 		amount.Size = UDim2.new(1, -x - 10, 0, if compact then 28 else 32)
-		rate.Position = UDim2.fromOffset(x, if compact then 34 else 54)
+		rate.Position = UDim2.fromOffset(x, if compact then 34 else 55)
 		rate.Size = UDim2.new(1, -x - 10, 0, if compact then 14 else 16)
-		rate.TextSize = if compact then 13 else 15
-		bevel.Size = UDim2.new(1, -28, 0, 1)
+		rateSize = if compact then Theme.textSize.caption else Theme.textSize.body
 		updateRate()
 	end
 	function controller.destroy()
 		for _, connection in connections do connection:Disconnect() end
 		if balanceTween then balanceTween:Cancel() end
+		if rateTween then rateTween:Cancel() end
 	end
 	return controller
 end

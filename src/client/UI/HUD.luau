@@ -9,6 +9,7 @@ local SettingsPanel = require(script.Parent.SettingsPanel)
 local SanctuaryBeacon = require(script.Parent.SanctuaryBeacon)
 local RedMoonPresentation = require(script.Parent.RedMoonPresentation)
 local Notify = require(script.Parent.Notify)
+local HudLayout = require(script.Parent.HudLayout)
 local C, F = Theme.colors, Theme.fonts
 local HUD = {}
 
@@ -27,6 +28,8 @@ function HUD.start()
 		Name = "SafeArea", Size = UDim2.fromScale(1, 1),
 		BackgroundTransparency = 1, BorderSizePixel = 0,
 	}, gui)
+	-- One layout authority for every HUD module (see HudLayout).
+	HudLayout.start(safeRoot)
 	local currency = CurrencyCard.create(gui)
 	local activePanel = ""
 	local shop, settings, navigation
@@ -56,13 +59,13 @@ function HUD.start()
 	settings = SettingsPanel.create(gui, closePanel)
 	navigation = Navigation.create(gui, selectPanel)
 	gui:SetAttribute("ActivePanel", "")
-	local fit
 	SanctuaryBeacon.start(playerGui)
-	local redMoon = RedMoonPresentation.start(gui, function() if fit then fit() end end)
+	-- The Red Moon chip heads the top lane while the event is active.
+	local redMoon = RedMoonPresentation.start(gui, function(visible: boolean) HudLayout.setVisible("eventChip", visible) end)
 
 	-- Every notice (server HUDNotice/HUDNoticeSerial and client Notify.push)
 	-- shares one top-centre toast in its own layer, above open panels.
-	-- Same inset mode as the HUD, so the HUD's fit offsets apply unchanged.
+	-- Same inset mode as the HUD, so HudLayout's safe-area rects apply unchanged.
 	local noticeGui = playerGui:FindFirstChild("Notifications")
 	if noticeGui then noticeGui:Destroy() end
 	noticeGui = Theme.make("ScreenGui", {
@@ -89,18 +92,21 @@ function HUD.start()
 	message.TextXAlignment = Enum.TextXAlignment.Center
 	message.ZIndex = 31
 	local TONES = { info = C.violet, good = C.soulGreen, bad = Color3.fromRGB(255, 120, 130) }
-	local noticeGeneration = 0
 	local connections = {}
-	local function centerX0(safe: Vector2, free: number, below: boolean): number
-		return if below then math.floor(safe.X / 2) else math.floor(free / 2)
-	end
-	local function showNotice(text: string, tone: string?)
-		noticeGeneration += 1
-		local generation = noticeGeneration
-		local accent = TONES[tone or "info"] or TONES.info
+
+	-- Toast queue: at most 3 waiting, identical text is dropped, 'bad' notices
+	-- jump ahead of the rest, and while others wait each toast still gets
+	-- MIN_SECONDS on screen (HOLD_SECONDS when it is the last one).
+	local MAX_QUEUE, MIN_SECONDS, HOLD_SECONDS = 3, 1.2, 3.4
+	local queue: { { text: string, tone: string } } = {}
+	local currentNotice: { text: string, tone: string, shownAt: number }? = nil
+	local noticeGeneration = 0
+	local function render(text: string, tone: string)
+		local accent = TONES[tone] or TONES.info
 		noticeStroke.Color = accent
 		toneBar.BackgroundColor3 = accent
-		toneBar.BackgroundTransparency = 0
+		-- Tweened (not set) so it replaces a fade-out still in flight.
+		Theme.tween(toneBar, 0.1, { BackgroundTransparency = 0 })
 		message.Text = text
 		local x = notice:GetAttribute("CenterX") or 0
 		local y = notice:GetAttribute("RestY") or 6
@@ -110,51 +116,91 @@ function HUD.start()
 		}):Play()
 		Theme.tween(noticeStroke, 0.2, { Transparency = 0.3 })
 		Theme.tween(message, 0.15, { TextTransparency = 0 })
-		task.delay(3.4, function()
+	end
+	local function hideNotice()
+		Theme.tween(notice, 0.3, { BackgroundTransparency = 1 })
+		Theme.tween(noticeStroke, 0.3, { Transparency = 1 })
+		Theme.tween(message, 0.3, { TextTransparency = 1 })
+		Theme.tween(toneBar, 0.3, { BackgroundTransparency = 1 })
+	end
+	local advance
+	local function schedule()
+		noticeGeneration += 1
+		local generation = noticeGeneration
+		local shown = currentNotice
+		if not shown then return end
+		local due = (if #queue > 0 then MIN_SECONDS else HOLD_SECONDS) - (os.clock() - shown.shownAt)
+		task.delay(math.max(0, due), function()
 			if generation ~= noticeGeneration or not notice.Parent then return end
-			Theme.tween(notice, 0.3, { BackgroundTransparency = 1 })
-			Theme.tween(noticeStroke, 0.3, { Transparency = 1 })
-			Theme.tween(message, 0.3, { TextTransparency = 1 })
-			Theme.tween(toneBar, 0.3, { BackgroundTransparency = 1 })
+			advance()
 		end)
+	end
+	advance = function()
+		local nextItem = table.remove(queue, 1)
+		if nextItem then
+			currentNotice = { text = nextItem.text, tone = nextItem.tone, shownAt = os.clock() }
+			render(nextItem.text, nextItem.tone)
+		else
+			currentNotice = nil
+			hideNotice()
+		end
+		schedule()
+	end
+	local function showNotice(text: string, tone: string?)
+		local kind = if tone and TONES[tone] then tone else "info"
+		if currentNotice and currentNotice.text == text then return end
+		for _, waiting in queue do if waiting.text == text then return end end
+		local item = { text = text, tone = kind }
+		if kind == "bad" then
+			local at = 1
+			while queue[at] and queue[at].tone == "bad" do at += 1 end
+			table.insert(queue, at, item)
+		else
+			table.insert(queue, item)
+		end
+		if #queue > MAX_QUEUE then
+			-- Drop the oldest non-urgent notice first.
+			local drop = #queue
+			for index, waiting in queue do
+				if waiting.tone ~= "bad" then
+					drop = index
+					break
+				end
+			end
+			table.remove(queue, drop)
+		end
+		if currentNotice then schedule() else advance() end
 	end
 	local function updateNotice()
 		local text = player:GetAttribute("HUDNotice")
 		if typeof(text) ~= "string" or text == "" then return end
 		showNotice(text, "info")
 	end
-	fit = function()
+
+	-- Positions come from HudLayout; this only applies them.
+	local function applyLayout(layout)
+		local compact = layout.compact
+		local souls = layout.souls
+		currency.holder.Position = UDim2.fromOffset(souls.x + souls.w, souls.y)
+		currency.fit(compact, souls.w, souls.h)
+		navigation.fit(compact, layout.nav)
+		local toast = layout.toast
+		local centerX = toast.x + math.floor(toast.w / 2)
+		notice.Size = UDim2.fromOffset(toast.w, toast.h)
+		notice:SetAttribute("CenterX", centerX)
+		notice:SetAttribute("RestY", toast.y)
+		notice.Position = UDim2.new(0, centerX, 0, toast.y)
+		message.TextSize = if compact then 12 else 14
+		redMoon.fit(layout.eventChip, compact)
+	end
+	local function fitPanels()
 		local safe = safeRoot.AbsoluteSize
 		if safe.X < 1 or safe.Y < 1 then return end
-		local compact = safe.X < 900 or safe.Y < 500 or UserInputService.TouchEnabled
-		local width = math.min(if compact then 212 else 232, math.max(1, safe.X - 28))
-		local cardHeight = if compact then 54 else 78
-		local navHeight = if compact then math.floor((width - 18) / 4) + 8 else 4 * 48 + 3 * 8
-		-- Desktop: the stack sits on the right edge just above centre, below the
-		-- player list. Phones: tight to the top-right under the Roblox top bar.
-		local top = if compact then 8 else math.max(12, math.floor(safe.Y * 0.46 - (cardHeight + 10 + navHeight) / 2))
-		currency.holder.Position = UDim2.new(1, -14, 0, top)
-		currency.fit(compact, width, cardHeight)
-		navigation.fit(compact, width, top + cardHeight + 10)
-		-- Centre the toast in the space left of the HUD column so it never
-		-- covers the Souls card on narrow screens.
-		-- Portrait phones lack that space; the toast then sits under the stack.
-		local free = safe.X - width - 28
-		local below = free < 300
-		local noticeWidth = if below then math.min(380, safe.X - 28) else math.min(420, free - 24)
-		local centerX = centerX0(safe, free, below)
-		-- The Red Moon indicator owns the top slot while the event is active.
-		local eventSlot = redMoon.fit(centerX0(safe, free, below), if below then top + cardHeight + navHeight + 16 else 6, compact)
-		local noticeY = (if below then top + cardHeight + navHeight + 20 else 6) + eventSlot
-		notice.Size = UDim2.fromOffset(noticeWidth, if compact then 40 else 44)
-		notice:SetAttribute("CenterX", centerX)
-		notice:SetAttribute("RestY", noticeY)
-		notice.Position = UDim2.new(0, centerX, 0, noticeY)
-		message.TextSize = if compact then 12 else 14
 		shop.fit(safe)
 		settings.fit(safe)
 	end
-	table.insert(connections, safeRoot:GetPropertyChangedSignal("AbsoluteSize"):Connect(fit))
+	table.insert(connections, HudLayout.observe(applyLayout))
+	table.insert(connections, safeRoot:GetPropertyChangedSignal("AbsoluteSize"):Connect(fitPanels))
 	table.insert(connections, player:GetAttributeChangedSignal("HUDNoticeSerial"):Connect(updateNotice))
 	table.insert(connections, Notify.pushed:Connect(showNotice))
 	table.insert(connections, UserInputService.InputBegan:Connect(function(input, processed)
@@ -162,10 +208,11 @@ function HUD.start()
 	end))
 	gui.Destroying:Connect(function()
 		noticeGeneration += 1
+		table.clear(queue)
 		currency.destroy()
 		for _, connection in connections do connection:Disconnect() end
 	end)
-	fit()
+	fitPanels()
 	return gui
 end
 

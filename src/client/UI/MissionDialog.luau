@@ -1,5 +1,6 @@
 -- Mortimer's dialog card, the compact task tracker and the Luck chip.
 -- Renders ProgressionService state; every action goes through Progression.Request.
+-- Tracker (objective chip) and Luck pill positions come from HudLayout.
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
@@ -9,6 +10,7 @@ local Config = require(ReplicatedStorage.Shared.ProgressionConfig)
 local NumberFormat = require(ReplicatedStorage.Shared.NumberFormat)
 local Theme = require(script.Parent.Theme)
 local Notify = require(script.Parent.Notify)
+local HudLayout = require(script.Parent.HudLayout)
 local C, F = Theme.colors, Theme.fonts
 
 local Dialog = {}
@@ -180,43 +182,54 @@ function Dialog.start(gui: ScreenGui, request: RemoteFunction, onState)
 	end)
 
 	---------------------------------------------------------------- tracker
+	-- Shares the objective slot with the sanctuary contract/ritual line, which
+	-- outranks it (HudLayout.ObjectivePriority).
 	local tracker = Theme.make("Frame", {
-		Name = "TaskTracker", Position = UDim2.fromOffset(14, 64), Size = UDim2.fromOffset(250, 62),
+		Name = "TaskTracker", Position = UDim2.new(0.5, -125, 0, 52), Size = UDim2.fromOffset(250, 56),
 		BackgroundColor3 = C.panel, BackgroundTransparency = 0.12, BorderSizePixel = 0, Visible = false, ZIndex = 8,
 	}, gui)
 	Theme.corner(tracker, 12)
 	Theme.stroke(tracker, C.line, 1.2, 0.3)
-	local tIcon = Theme.image(tracker, "Icon", VisualAssets.Icons.curses, UDim2.fromOffset(8, 10), UDim2.fromOffset(40, 40), { ZIndex = 9 })
-	local tTitle = Theme.label(tracker, "Title", "", UDim2.fromOffset(56, 6), UDim2.new(1, -64, 0, 18), 14, C.amber, F.heavy)
+	local tIcon = Theme.image(tracker, "Icon", VisualAssets.Icons.curses, UDim2.fromOffset(8, 8), UDim2.fromOffset(40, 40), { ZIndex = 9 })
+	local tTitle = Theme.label(tracker, "Title", "", UDim2.fromOffset(56, 5), UDim2.new(1, -64, 0, 18), 14, C.amber, F.heavy)
 	tTitle.ZIndex = 9
 	tTitle.TextTruncate = Enum.TextTruncate.AtEnd
-	local tObjective = Theme.label(tracker, "Objective", "", UDim2.fromOffset(56, 24), UDim2.new(1, -64, 0, 16), 12, C.muted, F.bold)
+	local tObjective = Theme.label(tracker, "Objective", "", UDim2.fromOffset(56, 23), UDim2.new(1, -64, 0, 16), 12, C.muted, F.bold)
 	tObjective.ZIndex = 9
 	tObjective.TextTruncate = Enum.TextTruncate.AtEnd
-	local tBar = Theme.make("Frame", { Position = UDim2.fromOffset(56, 46), Size = UDim2.new(1, -66, 0, 6), BackgroundColor3 = C.ink, BorderSizePixel = 0, ZIndex = 9 }, tracker)
+	local tBar = Theme.make("Frame", { Position = UDim2.fromOffset(56, 44), Size = UDim2.new(1, -66, 0, 6), BackgroundColor3 = C.ink, BorderSizePixel = 0, ZIndex = 9 }, tracker)
 	Theme.corner(tBar, 3)
 	local tFill = Theme.make("Frame", { Size = UDim2.fromScale(0, 1), BackgroundColor3 = C.soulGreen, BorderSizePixel = 0, ZIndex = 10 }, tBar)
 	Theme.corner(tFill, 3)
 	local trackerPulse = Theme.make("UIScale", { Scale = 1 }, tracker)
+	local trackerWanted = false
 
-	-- Luck chip: potions in inventory + current server luck.
+	-- Luck pill (right column, under the nav): potion icon + count, server
+	-- luck and the DRINK button.
 	local luck = Theme.make("Frame", {
-		Name = "LuckChip", Position = UDim2.fromOffset(14, 132), Size = UDim2.fromOffset(250, 44),
-		BackgroundColor3 = C.panel, BackgroundTransparency = 0.12, BorderSizePixel = 0, Visible = false, ZIndex = 8,
+		Name = "LuckChip", Position = UDim2.new(1, -226, 0, 136), Size = UDim2.fromOffset(212, 52),
+		BackgroundColor3 = C.surface, BorderSizePixel = 0, Visible = false, ZIndex = 8,
 	}, gui)
-	Theme.corner(luck, 12)
-	local luckStroke = Theme.stroke(luck, C.soulGreen, 1.2, 0.5)
-	Theme.image(luck, "Icon", VisualAssets.Icons.potion, UDim2.fromOffset(6, 4), UDim2.fromOffset(36, 36), { ZIndex = 9 })
-	local luckText = Theme.label(luck, "Text", "", UDim2.fromOffset(46, 4), UDim2.new(1, -140, 0, 18), 14, C.white, F.heavy)
+	Theme.corner(luck, Theme.radius.panel)
+	local luckStroke = Theme.stroke(luck, C.amber, 1, 0.5)
+	local potion = Theme.image(luck, "Icon", VisualAssets.Icons.potion, UDim2.new(0, 6, 0.5, 0), UDim2.fromOffset(36, 36), { AnchorPoint = Vector2.new(0, 0.5), ZIndex = 9 })
+	local luckCount = Theme.label(potion, "Count", "", UDim2.new(1, 4, 1, 2), UDim2.fromOffset(28, 14), Theme.textSize.caption, C.bone, F.number)
+	luckCount.AnchorPoint = Vector2.new(1, 1)
+	luckCount.TextXAlignment = Enum.TextXAlignment.Right
+	luckCount.ZIndex = 10
+	Theme.make("UIStroke", { Color = C.ink, Thickness = 1.5 }, luckCount)
+	local luckText = Theme.label(luck, "Text", "", UDim2.fromOffset(48, 7), UDim2.new(1, -120, 0, 18), Theme.textSize.body, C.bone, F.heavy)
 	luckText.ZIndex = 9
-	local luckSub = Theme.label(luck, "Sub", "", UDim2.fromOffset(46, 22), UDim2.new(1, -140, 0, 16), 12, C.soulGreen, F.bold)
+	luckText.TextTruncate = Enum.TextTruncate.AtEnd
+	local luckSub = Theme.label(luck, "Sub", "", UDim2.fromOffset(48, 26), UDim2.new(1, -120, 0, 16), Theme.textSize.caption, C.amber, F.bold)
 	luckSub.ZIndex = 9
+	luckSub.TextTruncate = Enum.TextTruncate.AtEnd
 	local drink = Theme.make("TextButton", {
-		Name = "Drink", Text = "DRINK", AutoButtonColor = false, AnchorPoint = Vector2.new(1, 0.5), Position = UDim2.new(1, -6, 0.5, 0),
-		Size = UDim2.fromOffset(84, 34), BackgroundColor3 = C.soulGreen, TextColor3 = C.ink, FontFace = F.heavy, TextSize = 14, BorderSizePixel = 0, ZIndex = 10,
+		Name = "Drink", Text = "DRINK", AutoButtonColor = false, Position = UDim2.new(1, -68, 0, 4),
+		Size = UDim2.fromOffset(64, 44), BackgroundColor3 = C.amber, TextColor3 = C.ink, FontFace = F.heavy, TextSize = 14, BorderSizePixel = 0, ZIndex = 10,
 	}, luck)
-	Theme.corner(drink, 9)
-	Theme.buttonFeedback(drink, C.soulGreen, Color3.fromRGB(190, 255, 220), { scale = Theme.make("UIScale", { Scale = 1 }, drink) })
+	Theme.corner(drink, Theme.radius.control)
+	Theme.buttonFeedback(drink, C.amber, Color3.fromRGB(255, 218, 160), { scale = Theme.make("UIScale", { Scale = 1 }, drink) })
 	drink.Activated:Connect(function()
 		local answer = call("drink", "luck_potion")
 		if answer then Dialog.toast(answer.message, answer.ok) end
@@ -251,13 +264,32 @@ function Dialog.start(gui: ScreenGui, request: RemoteFunction, onState)
 	end
 
 	---------------------------------------------------------------- state
+	local function applyTracker(layout)
+		local owner = layout and layout.objectiveOwner
+		tracker.Visible = trackerWanted and (layout == nil or owner == "mission")
+		if layout then HudLayout.place(tracker, layout.objective) end
+	end
+	-- Server luck is read from the replicated attributes, as before; the
+	-- countdown only needs a few updates per second.
+	local function refreshLuck()
+		if not luck.Visible or not state then return end
+		local potions = state.items and state.items.luck_potion or 0
+		local mult = ReplicatedStorage:GetAttribute("ServerLuck") or 1
+		local ends = ReplicatedStorage:GetAttribute("ServerLuckEndsAt") or 0
+		local left = math.floor(math.max(0, ends - workspace:GetServerTimeNow()))
+		luckCount.Text = if potions > 0 then "x" .. potions else ""
+		luckText.Text = if mult > 1.001 then string.format("Luck x%.1f", mult) else "Luck Potion"
+		luckSub.Text = if mult <= 1.001 then "Rarer spawns" elseif left > 0 then string.format("%d:%02d left", left // 60, left % 60) else "Server-wide"
+	end
 	local lastProgress = nil
 	function Dialog.setState(s)
 		state = s
 		local m = s.mission
 		local e = s.event
 		local shown = (m and m.accepted) and m or e
-		tracker.Visible = shown ~= nil
+		trackerWanted = shown ~= nil
+		HudLayout.claimObjective("mission", if shown then HudLayout.ObjectivePriority.mission else nil)
+		applyTracker(HudLayout.current())
 		if shown then
 			tTitle.Text = (if shown == e then "EVENT · " else "") .. shown.title .. (if shown.complete then "  ✓" else "")
 			tObjective.Text = if shown.complete then "Return to Mortimer to claim" else string.format("%s  %s/%s", shown.objective, NumberFormat.compact(shown.progress), NumberFormat.compact(shown.target))
@@ -272,17 +304,19 @@ function Dialog.start(gui: ScreenGui, request: RemoteFunction, onState)
 		local potions = s.items and s.items.luck_potion or 0
 		local mult = s.luck and s.luck.multiplier or 1
 		luck.Visible = potions > 0 or mult > 1.001
-		luckText.Text = if potions > 0 then string.format("Luck Potion x%d", potions) else "Server Luck"
+		HudLayout.setVisible("luck", luck.Visible)
 		drink.Visible = potions > 0
 		luckStroke.Transparency = if mult > 1.001 then 0 else 0.5
+		refreshLuck()
 		if card.Visible then render() end
 	end
-	RunService.Heartbeat:Connect(function()
-		if not luck.Visible or not state then return end
-		local mult = ReplicatedStorage:GetAttribute("ServerLuck") or 1
-		local ends = ReplicatedStorage:GetAttribute("ServerLuckEndsAt") or 0
-		local left = math.max(0, ends - workspace:GetServerTimeNow())
-		luckSub.Text = if mult > 1.001 then string.format("Server Luck x%.1f  %d:%02d", mult, left // 60, left % 60) else "Drink to boost rare spawns"
+	local luckElapsed = 0
+	local luckTick = RunService.Heartbeat:Connect(function(dt)
+		if not luck.Visible then return end
+		luckElapsed += dt
+		if luckElapsed < 0.25 then return end
+		luckElapsed = 0
+		refreshLuck()
 	end)
 
 	function Dialog.open(s, which)
@@ -304,11 +338,28 @@ function Dialog.start(gui: ScreenGui, request: RemoteFunction, onState)
 		barBack.Size = UDim2.new(1, -(x + 14), 0, 8)
 		local touch = UserInputService.TouchEnabled and not UserInputService.MouseEnabled
 		card.Position = UDim2.new(0.5, 0, 1, if touch then -96 else -110)
-		tracker.Position = UDim2.fromOffset(14, if size.Y < 420 then 52 else 64)
-		luck.Position = UDim2.fromOffset(14, tracker.Position.Y.Offset + 68)
 	end
 	gui:GetPropertyChangedSignal("AbsoluteSize"):Connect(fit)
 	fit()
+	-- Tracker and Luck pill follow the shared HUD layout.
+	local layoutConnection = HudLayout.observe(function(layout)
+		applyTracker(layout)
+		HudLayout.place(luck, layout.luck)
+		local d, l = layout.drink, layout.luck
+		drink.Position = UDim2.fromOffset(d.x - l.x, d.y - l.y)
+		drink.Size = UDim2.fromOffset(d.w, d.h)
+		local textWidth = d.x - l.x - 48 - 6
+		luckText.Size = UDim2.fromOffset(textWidth, 18)
+		luckSub.Size = UDim2.fromOffset(textWidth, 16)
+		luckText.Position = UDim2.fromOffset(48, math.floor(l.h / 2) - 19)
+		luckSub.Position = UDim2.fromOffset(48, math.floor(l.h / 2))
+	end)
+	gui.Destroying:Connect(function()
+		layoutConnection:Disconnect()
+		luckTick:Disconnect()
+		HudLayout.claimObjective("mission", nil)
+		HudLayout.setVisible("luck", false)
+	end)
 	return Dialog
 end
 

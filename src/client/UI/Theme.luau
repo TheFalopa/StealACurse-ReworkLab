@@ -19,7 +19,18 @@ Theme.colors = {
 	white = Color3.fromRGB(247, 244, 255),
 	muted = Color3.fromRGB(186, 182, 212),
 	subtle = Color3.fromRGB(128, 124, 162),
+	-- Rework direction (HUD sample first): solid warm-ink surfaces, hairline
+	-- strokes and bone text. Older tokens above stay for untouched panels.
+	surface = Color3.fromRGB(26, 21, 23),
+	surfaceHi = Color3.fromRGB(43, 35, 36),
+	hairline = Color3.fromRGB(104, 90, 80),
+	bone = Color3.fromRGB(238, 230, 214),
+	boneMuted = Color3.fromRGB(172, 161, 146),
 }
+-- Two radii: panels and controls.
+Theme.radius = { panel = 10, control = 6 }
+-- Type scale; 12 is the smallest caption.
+Theme.textSize = { caption = 12, body = 14, heading = 18, hero = 30 }
 
 local family = "rbxasset://fonts/families/BuilderSans.json"
 Theme.fonts = {

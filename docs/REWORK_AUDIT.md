@@ -1,5 +1,7 @@
 # Full-game rework — audit (2026-10-04)
 
+> Historical. Current decisions and status live in [CLOUD_REWORK_01.md](CLOUD_REWORK_01.md).
+
 Branch `claude/full-game-rework` from the tested integration checkpoint
 `0d7e0e3` (tag `checkpoint/integration-stable`). Audited by reading the code and
 playing `build-rework.rbxlx` in Studio (single client).

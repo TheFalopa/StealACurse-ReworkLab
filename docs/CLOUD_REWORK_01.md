@@ -111,7 +111,7 @@ Curse meshes: their UVs are palette tiles.
 | Phase | Scope | Gate |
 |---|---|---|
 | 0 | Verify repo and branch; audit 8 subsystems; P0 isolation | done |
-| 1 | P0 fixes; HUD layout + chat zone + HUD restyle sample; The Void quality sample; Base08 forecourt + base grounding fixes | Studio direction review |
+| 1 | P0 fixes; HUD layout + chat zone + HUD restyle sample; The Void quality sample; Base08 forecourt + base grounding fixes | **awaiting Studio direction review** |
 | 2 | Extend approved UI to the panels; collision and grounding sweep; lifecycle and perf fixes | gameplay/mobile check |
 | 3 | Red Moon: true red grade, intro/outro, OFF-phase countdown after the outro, truthful mechanics | event lifecycle check |
 | 4 | Daily missions (UTC reset, idempotent claims, Mortimer) | reset/claim/rejoin check |
@@ -153,7 +153,70 @@ Curse meshes: their UVs are palette tiles.
 | Commit | Content | Static checks | Studio |
 |---|---|---|---|
 | `d45f39b` | Lab persistence isolation + lab safety check | rojo build, compile, lsp no new findings, lune safety PASS (and negative test FAIL as expected) | pending |
-| (this commit) | Lab Studio save slot `reworklab` + guards + safety checks | rojo build (attribute decoded in place file), compile, lsp no new findings, lune safety PASS 25/25, negative test FAIL as expected | pending |
+| `36fc1c6` | Lab Studio save slot `reworklab` + guards + safety checks | rojo build (attribute decoded in place file), compile, lsp no new findings, lune safety PASS 25/25, negative test FAIL as expected | pending |
+| `fd3a159` | Phase 1 HUD frame (merge of `7f67c83` + review fixes `8ec8ad0`) | build, compile, lsp/lint = baseline, hud_layout_check PASS 1215 (+ negative test), safety PASS | pending |
+| `0decc3a` | Phase 1 The Void (merge of `a471fa7` + review fixes `cac87b4`) | build, compile, lsp/lint = baseline, void_motion_check PASS 32, safety PASS | pending |
+| `6affe64` | Phase 1 Base08 forecourt + foundations (merge of `6aa2c7d` + review fixes `0584d34`) | build, compile, lsp/lint = baseline, Lune map-build simulation (only intended parts changed, 0 new lights/emitters), safety PASS | pending |
+| `81ddcf7` | Studio-only QA hooks (`QANextCurse`, Progression `souls n`) | build, compile, lsp/lint = baseline, safety PASS | pending |
+
+## Phase 1: ready for Studio validation (not yet approved)
+
+The direction sample is one UI area, one Curse and one base area. Each track
+went through an implementer, an independent adversarial review (Roblox runtime
+plus spec/design) and a fix pass before merge.
+
+**HUD frame (UI/mobile).**
+- `UI/HudLayout.luau` is the single layout authority. It is pure `compute()`
+  (Lune-tested) plus an event-driven runtime that measures the safe area, the
+  TextChatService chat window and the touch JumpButton.
+- The right column holds the Souls card, the nav and the Luck pill (with
+  DRINK).
+- The top-centre lane holds the Red Moon chip, one objective chip
+  (ritual > contract > mission) and the toast.
+- Touch:
+  - The tool bar sits right of the thumbstick frame.
+  - The bench and the SANCTUARY icon sit beside or above slot 3.
+  - USE sits beside the jump button.
+  - Nothing interactive is in the chat zone; the passive lane may run under the
+    closed-by-default phone chat.
+- The toast queue holds at most 3, drops duplicates and puts 'bad' first.
+- Restyle sample: the Souls card and nav use solid warm ink, a hairline stroke
+  and radii 10/6. There are no sweeps, studs, chevrons or idle tweens. The rate
+  reads `+N/s`, or "Place a Curse to earn" when it is 0.
+
+**The Void (Curse quality sample).**
+- Removed the rings, discs, ball and orbit trails.
+- The rift is now a jagged three-cut tear of absence along the rift's own
+  skewed axis, sheathed in narrow Glass for real refraction on desktop.
+- Cold fragments trace the inner edges and suction flows from both rims into
+  the tear.
+- Shard glints fire at tension. On release, dark shards are spat at the camera
+  and a cold flash runs up the edges. Sill mist and one cold back light (on the
+  far side from the camera) complete it.
+- It reads from both sides (carried view) and nothing smears while it moves.
+- `Motion.voidPull` drives both the bones and the VFX on one act clock. The
+  act has hold, then a visible anticipation lean, then draw, strain, snap and
+  settle.
+- Surface: Reflectance 0.15 and CastShadow on this Curse only.
+- Budget: 7 emitters, 1 light, 0 trails. On mobile/Reduced the glass fades out
+  and the tear stays.
+
+**Base08 forecourt + grounding.**
+- Base08: two leaning `tree_widow` framing trees with autumn clumps and
+  stacked trunk colliders, a family-grave group (kerb, railing, candles,
+  pumpkin) and two unlit Neon gate lanterns. Soil and roots seat the pieces.
+  That is 66 parts, 0 lights and 0 emitters.
+- All 5 elevated sanctuaries get a non-colliding stone foundation, with a lip
+  at the ramp on height-2 bases.
+- All 8 territory offerings move out of the aisles; Base01's also moves off
+  the GateWatch lantern.
+- The legacy block Gravekeeper is removed; Mortimer stays.
+
+**Known limits (honest).**
+- No Studio run happened in the cloud.
+- Glass refraction, the chat-window measurement space, the real thumbstick and
+  jump rects, the tree pose and the foundation colour all need eyes in Studio.
+- The Red Moon chip still says "Mutated Curses" (Phase 3).
 
 ## Deferred ideas (short list)
 

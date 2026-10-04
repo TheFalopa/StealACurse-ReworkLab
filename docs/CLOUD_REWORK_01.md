@@ -48,8 +48,9 @@ watched (thieves, the Curses themselves) is the tension.
   and lantern amber as wayfinding.
 - Spectral green belongs to Souls.
 - Blood red is reserved for Red Moon and danger.
-- UI surfaces: solid warm-ink panels (no glassmorphism), hairline strokes, bone
-  white text.
+- UI surfaces: the established violet-ink family (`Theme.colors`: ink, panel,
+  card, line, violet, white, muted). The owner kept these colours after the
+  Phase 1 review. The warm-ink experiment was rejected.
 - Accent roles: green = Souls/income, amber = reward/cost, red = danger/event,
   rarity colours only on rarity marks.
 
@@ -57,9 +58,16 @@ watched (thieves, the Curses themselves) is the tension.
 only for event titles and NPC names. Sizes: 12 caption (minimum), 14 body,
 18 heading, 26-32 hero numbers.
 
-**Shape and icons.** Two corner radii: 6 for controls and 10 for panels. One
-meaning per icon. No decorative studs, chevrons, rotating border sweeps or
-always-on halos. Motion is feedback for a change, not idle decoration.
+**Shape and icons.**
+- Panels use radii 12-14 and controls 10.
+- The always-present HUD is quiet. One compact dock with native monoline
+  glyphs (`UI/Glyphs.luau`: one family, 2 px strokes) replaces large labelled
+  cards.
+- One meaning per icon. No chevrons, per-item colour stripes, rotating border
+  sweeps or always-on breathing halos.
+- The Souls card keeps its pre-Phase-1 character: gradient, corner studs and a
+  static halo.
+- Motion is feedback for a change, not idle decoration.
 
 **Curse VFX.**
 - Each Curse gets one signature effect bound to a model feature and timed to

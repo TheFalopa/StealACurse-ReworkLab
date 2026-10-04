@@ -36,17 +36,22 @@ local function smooth(x: number): number
 	return x * x * (3 - 2 * x)
 end
 
--- Returns draw, release, tension and the cycle time. draw is signed: 0 in the
--- hold, a small outward lean (anticipation) before it draws in to 1, a slow
--- strain to 1.06, then a snap past rest (about -0.4) that rings down and is
--- exactly still again before the wrap. release (0..1) peaks just after the
--- snap; tension (0..1) covers the strained near-stillness before it.
+-- Anticipation: from the draw beat the rift leans out to about -VoidLean,
+-- built over 0.6 s, while the pull already starts underneath it.
+Motion.VoidLean = 0.36
+
+-- Returns draw, release, tension and the cycle time. draw is signed: exactly 0
+-- in the hold, a clear outward lean (anticipation, about -0.35 at 0.6 s after
+-- the draw beat) before it draws in to 1, a slow strain to 1.06, then a snap
+-- past rest (about -0.4) that rings down and is exactly still again before the
+-- wrap. release (0..1) peaks just after the snap; tension (0..1) covers the
+-- strained near-stillness before it.
 function Motion.voidPull(t: number): (number, number, number, number)
 	local p = t % 8.4
 	local draw, release = 0, 0
 	if p < 5.8 then
-		local lean = if p > 1.5 and p < 2.2 then math.sin(math.pi * (p - 1.5) / 0.7) ^ 2 else 0
-		draw = smooth((p - 1.9) / 2) * (1 + 0.06 * smooth((p - 3.9) / 1.9)) - 0.14 * lean
+		local lean = if p > 1.5 and p < 2.7 then math.sin(math.pi * (p - 1.5) / 1.2) ^ 2 else 0
+		draw = smooth((p - 2) / 1.9) * (1 + 0.06 * smooth((p - 3.9) / 1.9)) - Motion.VoidLean * lean
 	else
 		local r = p - 5.8
 		local still = 1 - smooth((p - 7.4) / 1)

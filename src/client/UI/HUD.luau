@@ -40,6 +40,7 @@ function HUD.start()
 			shop.show(false); settings.show(false)
 			activePanel = ""
 			gui:SetAttribute("ActivePanel", "")
+			gui.DisplayOrder = 10
 			navigation.setActive("")
 			require(script.Parent.SanctuaryPanel).start().open()
 			return

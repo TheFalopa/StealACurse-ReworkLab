@@ -44,7 +44,7 @@ local settingsOverlay = required(gui, "SettingsOverlay", "Frame")
 local settingsPanel = settingsOverlay and required(settingsOverlay, "SettingsPanel", "Frame")
 local buttons = {}
 if navigation then
-	for _, name in ipairs({ "SHOP", "CURSES", "GAMEPASSES", "SETTINGS" }) do
+	for _, name in ipairs({ "CURSES", "SHOP", "SETTINGS" }) do
 		local button = required(navigation, name, "TextButton")
 		if button then table.insert(buttons, button) end
 	end

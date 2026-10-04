@@ -9,7 +9,7 @@
 -- button, a rect outside the safe area, a touch target under 44 px, or a
 -- widget the layout could not place. The nav dock is checked entry by entry:
 -- exactly HudLayout.NavEntries (3) entries of at least 44 x 44 inside one
--- 56 px row as wide as the Souls card, stacked souls / 8 / dock / 8 / luck.
+-- 56 px row (44 px icon-only on compact) as wide as the Souls card, stacked souls / 8 / dock / 8 / luck.
 -- Arithmetic only: Studio still has to confirm the real chat window, jump
 -- button and thumbstick against these fallbacks.
 local process = require("@lune/process")
@@ -88,7 +88,8 @@ for _, preset in PRESETS do
 
 		-- Nav dock: one quiet 56 px row under the Souls card, 3 entries.
 		local souls, nav, luck = layout.souls, layout.nav, layout.luck
-		check(nav.h == 56, `{label}: nav dock {show(nav)} is not 56 px tall`)
+		local dockH = if layout.compact then 44 else 56
+		check(nav.h == dockH, `{label}: nav dock {show(nav)} is not {dockH} px tall`)
 		check(nav.x == souls.x and nav.w == souls.w and luck.x == souls.x and luck.w == souls.w, `{label}: souls/nav/luck do not share one column`)
 		check(nav.y == souls.y + souls.h + 8 and luck.y == nav.y + nav.h + 8, `{label}: column is not souls / 8 / dock / 8 / luck`)
 		check(HudLayout.NavEntries == 3 and #layout.navEntries == HudLayout.NavEntries, `{label}: dock has {#layout.navEntries} entries, expected 3`)

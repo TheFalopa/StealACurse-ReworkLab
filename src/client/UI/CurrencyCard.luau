@@ -24,11 +24,11 @@ function CurrencyCard.create(gui: ScreenGui)
 		Name = "Shadow", BackgroundColor3 = Color3.new(0, 0, 0), BackgroundTransparency = 0.55,
 		BorderSizePixel = 0, Position = UDim2.fromOffset(0, 4), Size = UDim2.fromScale(1, 1),
 	}, holder)
-	Theme.corner(shadow, Theme.radius.panel)
+	Theme.corner(shadow, 14)
 	local card = Theme.make("Frame", {
 		Name = "Card", BackgroundColor3 = C.panel, BorderSizePixel = 0, Size = UDim2.fromScale(1, 1),
 	}, holder)
-	Theme.corner(card, Theme.radius.panel)
+	Theme.corner(card, 14)
 	Theme.gradient(card, Color3.fromRGB(52, 36, 88), Color3.fromRGB(16, 13, 30))
 	local BORDER_REST = 0.15
 	local border = Theme.stroke(card, C.line, 1.5, BORDER_REST)
@@ -71,7 +71,7 @@ function CurrencyCard.create(gui: ScreenGui)
 	local lastTarget: number? = nil
 	local previousRate: number? = nil
 	local pendingGain, lastPopAt, lastPulseAt = 0, -math.huge, -math.huge
-	local rateSize = Theme.textSize.body
+	local rateSize = 15
 	local rateTween: Tween? = nil
 
 	-- Short spectral "+N" that rises off the amount. Gains are pooled so a
@@ -176,7 +176,7 @@ function CurrencyCard.create(gui: ScreenGui)
 		amount.Size = UDim2.new(1, -x - 10, 0, if compact then 28 else 32)
 		rate.Position = UDim2.fromOffset(x, if compact then 34 else 55)
 		rate.Size = UDim2.new(1, -x - 10, 0, if compact then 14 else 16)
-		rateSize = if compact then Theme.textSize.caption else Theme.textSize.body
+		rateSize = if compact then 13 else 15
 		updateRate()
 	end
 	function controller.destroy()

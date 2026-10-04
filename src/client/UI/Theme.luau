@@ -20,9 +20,8 @@ Theme.colors = {
 	muted = Color3.fromRGB(186, 182, 212),
 	subtle = Color3.fromRGB(128, 124, 162),
 	-- Role names introduced by the Phase 1 HUD sample. The owner kept the
-	-- violet-ink palette, so each role maps onto that family: surface sits
-	-- between panel and card, the rest alias the tokens above.
-	surface = Color3.fromRGB(24, 20, 42),
+	-- violet-ink palette, so each role is an exact alias of a token above.
+	surface = Color3.fromRGB(20, 18, 36),
 	surfaceHi = Color3.fromRGB(44, 35, 74),
 	hairline = Color3.fromRGB(88, 72, 134),
 	bone = Color3.fromRGB(247, 244, 255),

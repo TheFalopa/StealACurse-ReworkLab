@@ -31,7 +31,9 @@ local OBJECTIVE_LANE_MIN = 300
 local LANE_FLOOR = 150
 local LAUNCHER_TOUCH = 48
 -- Nav dock: one row of entries under the Souls card, same height everywhere.
-local NAV_ENTRIES, NAV_H = 3, 56
+-- Dock height: glyph + caption on desktop, glyph only on compact screens
+-- (phones keep less permanent surface; entries stay >= 44 px).
+local NAV_ENTRIES, NAV_H, NAV_H_COMPACT = 3, 56, 44
 
 -- Higher wins: a ritual hides a contract, a contract hides Mortimer's task.
 HudLayout.ObjectivePriority = { ritual = 3, contract = 2, mission = 1, event = 1 }
@@ -135,7 +137,8 @@ function HudLayout.compute(input)
 	local colW = math.min(if compact then 212 else 232, math.max(1, W - 2 * EDGE))
 	local soulsH = if compact then 54 else 78
 	local luckH = if touch then 52 else 44
-	local stackH = soulsH + GAP + NAV_H + GAP + luckH
+	local navH = if compact then NAV_H_COMPACT else NAV_H
+	local stackH = soulsH + GAP + navH + GAP + luckH
 	-- Desktop: the (short) stack is centred just above mid-height, below the
 	-- player list, which opens by default in the top-right corner and grows
 	-- with the server. Phones: tight under the topbar.
@@ -143,18 +146,18 @@ function HudLayout.compute(input)
 	local colX = W - EDGE - colW
 	layout.souls = rect(colX, top, colW, soulsH)
 	local navY = top + soulsH + GAP
-	layout.nav = rect(colX, navY, colW, NAV_H)
+	layout.nav = rect(colX, navY, colW, navH)
 	-- Equal entries of even width (whole-pixel centres for the glyphs), the
 	-- spare pixels split between the dock's two ends.
 	local entryW = math.floor(colW / NAV_ENTRIES)
 	entryW -= entryW % 2
 	local entryX = colX + math.floor((colW - NAV_ENTRIES * entryW) / 2)
-	layout.navTile = { w = entryW, h = NAV_H }
+	layout.navTile = { w = entryW, h = navH }
 	layout.navEntries = {}
 	for index = 1, NAV_ENTRIES do
-		layout.navEntries[index] = rect(entryX + (index - 1) * entryW, navY, entryW, NAV_H)
+		layout.navEntries[index] = rect(entryX + (index - 1) * entryW, navY, entryW, navH)
 	end
-	layout.luck = rect(colX, navY + NAV_H + GAP, colW, luckH)
+	layout.luck = rect(colX, navY + navH + GAP, colW, luckH)
 	local luck = layout.luck
 	layout.drink = if touch then rect(luck.x + luck.w - 4 - 64, luck.y + 4, 64, 44) else rect(luck.x + luck.w - 6 - 72, luck.y + 5, 72, 34)
 

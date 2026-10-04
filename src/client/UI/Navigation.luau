@@ -69,7 +69,7 @@ function Navigation.create(gui: ScreenGui, onSelect)
 		-- As wide as the word, kept even so it stays on whole pixels. TextBounds
 		-- follows the press UIScale, so only the resting size is used.
 		local function sizeUnderline()
-			if scale.Scale ~= 1 then return end
+			if scale.Scale ~= 1 or not text.Visible then return end
 			local width = math.max(12, math.floor(text.TextBounds.X))
 			underline.Size = UDim2.fromOffset(width - width % 2, 2)
 		end
@@ -141,8 +141,19 @@ function Navigation.create(gui: ScreenGui, onSelect)
 			button.Position = UDim2.fromOffset(slot.x - rect.x + math.floor(slot.w / 2), slot.y - rect.y + math.floor(slot.h / 2))
 			button.Size = UDim2.fromOffset(slot.w, slot.h)
 		end
+		-- Compact (phones): a 44 px glyph-only row; the underline sits under the glyph.
+		local iconOnly = rect.h < GLYPH_Y + Glyphs.box + LABEL_H + 10
+		local glyphY = if iconOnly then math.floor((rect.h - Glyphs.box) / 2) - 2 else GLYPH_Y
+		for _, data in buttons do
+			data.glyph.Position = UDim2.new(0.5, -Glyphs.box / 2, 0, glyphY)
+			data.text.Visible = not iconOnly
+			data.underline.Position = UDim2.new(0.5, 0, 0, if iconOnly then glyphY + Glyphs.box + 3 else UNDERLINE_Y)
+			if iconOnly then data.underline.Size = UDim2.fromOffset(16, 2) end
+		end
+		local dividerH = math.min(DIVIDER_H, rect.h - 16)
 		for index, divider in dividers do
-			divider.Position = UDim2.fromOffset(slots[index + 1].x - rect.x, math.floor((rect.h - DIVIDER_H) / 2))
+			divider.Size = UDim2.fromOffset(1, dividerH)
+			divider.Position = UDim2.fromOffset(slots[index + 1].x - rect.x, math.floor((rect.h - dividerH) / 2))
 		end
 	end
 	function controller.setActive(name: string)

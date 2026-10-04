@@ -7,7 +7,7 @@ local StorePresentationConfig = {}
 
 StorePresentationConfig.Tabs = {
 	{ key = "Passes", label = "GAMEPASSES", short = "PASSES", offerType = "GamePass" },
-	{ key = "Products", label = "SHOP", short = "SHOP", offerType = "DevProduct" },
+	{ key = "Products", label = "ITEMS", short = "ITEMS", offerType = "DevProduct" },
 }
 
 -- Available = false keeps every card in its COMING SOON state.

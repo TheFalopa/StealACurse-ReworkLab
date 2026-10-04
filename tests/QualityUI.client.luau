@@ -31,19 +31,20 @@ local overlay = required(gui, "ShopOverlay", "Frame")
 local panel = overlay and required(overlay, "ShopPanel", "Frame")
 local close = panel and required(panel, "CloseButton", "TextButton")
 local sections = {}
-for _, name in { "Passes", "Boosts", "SoulPacks" } do
+for _, name in { "Passes", "Products" } do
 	local tab = panel and required(panel, name .. "Tab", "TextButton")
 	local page = panel and required(panel, name .. "Page", "ScrollingFrame")
 	if tab and page then table.insert(sections, { name = name, tab = tab, page = page }) end
 end
-local cursesOverlay = required(gui, "CursesOverlay", "Frame")
-local cursesPanel = cursesOverlay and required(cursesOverlay, "CursesPanel", "Frame")
-local roster = cursesPanel and required(cursesPanel, "Content", "ScrollingFrame")
+-- CURSES now opens the sanctuary panel; the old roster overlay is optional.
+local cursesOverlay = gui:FindFirstChild("CursesOverlay")
+local cursesPanel = cursesOverlay and cursesOverlay:FindFirstChild("CursesPanel")
+local roster = cursesPanel and cursesPanel:FindFirstChild("Content")
 local settingsOverlay = required(gui, "SettingsOverlay", "Frame")
 local settingsPanel = settingsOverlay and required(settingsOverlay, "SettingsPanel", "Frame")
 local buttons = {}
 if navigation then
-	for _, name in ipairs({ "SHOP", "CURSES", "SETTINGS" }) do
+	for _, name in ipairs({ "SHOP", "CURSES", "GAMEPASSES", "SETTINGS" }) do
 		local button = required(navigation, name, "TextButton")
 		if button then table.insert(buttons, button) end
 	end
@@ -66,7 +67,7 @@ if panel then
 		end
 	end
 end
-check(ctas == 10 and prices == ctas, "Shop must have ten gamepass/boost/Soul-pack mock cards with one TBD price and Coming Soon CTA each")
+check(ctas >= 10 and prices == ctas, "Every shop mock card must have one TBD price and a Coming Soon CTA")
 check(gui.ResetOnSpawn == false and gui.IgnoreGuiInset == false, "HUD must survive respawn and respect Roblox GUI inset")
 if holder then check(holder.AnchorPoint == Vector2.new(1, 0), "Currency HUD must anchor upper-right") end
 for _, section in sections do
@@ -91,9 +92,13 @@ if roster then
 	check(cursesPanel:GetAttribute("LiveRosterCount") == activeCount, "Live roster count matches controlled rollout")
 end
 if animated and amount then check(amount.Text == NumberFormat.compact(animated.Value), "Initial animated Souls text must match number value") end
+-- The card shows "+N/s", or a short hint while income is zero.
+local function expectedRate(value): string
+	return if value > 0 then "+" .. NumberFormat.compact(value) .. "/s" else "Place a Curse to earn"
+end
 if rate then
 	local value = player:GetAttribute("SoulsPerSecond")
-	check(typeof(value) == "number" and rate.Text == "+" .. NumberFormat.compact(value) .. " Souls/s", "Initial rate text must match replicated server rate")
+	check(typeof(value) == "number" and rate.Text == expectedRate(value), "Initial rate text must match replicated server rate")
 end
 assert(#failures == 0, "QUALITY_UI_FAIL: " .. table.concat(failures, "; "))
 
@@ -136,7 +141,7 @@ local function reportGeometry(reason: string, shopVisible: boolean)
 			check(section.tab.TextFits, "Section label fits: " .. section.name)
 			if section.page.Visible then visiblePages += 1; page = section.page end
 		end
-		check(visiblePages == 1 and page ~= nil, "Exactly one of three store pages is visible")
+		check(visiblePages == 1 and page ~= nil, "Exactly one store page is visible")
 		if not page then return end
 		check(page.ScrollingEnabled and page.Active and page.AbsoluteSize.Y > 0, "Selected store page supports scrolling")
 		local grid = page:FindFirstChildWhichIsA("UIGridLayout")
@@ -237,7 +242,7 @@ end
 player:GetAttributeChangedSignal("SoulsPerSecond"):Connect(function()
 	task.delay(0.35, function()
 		local value = player:GetAttribute("SoulsPerSecond")
-		assert(typeof(value) == "number" and rate.Text == "+" .. NumberFormat.compact(value) .. " Souls/s", "QUALITY_UI_FAIL: updated rate text mismatch")
+		assert(typeof(value) == "number" and rate.Text == expectedRate(value), "QUALITY_UI_FAIL: updated rate text mismatch")
 		print("QUALITY_UI_RATE_PASS", value)
 	end)
 end)

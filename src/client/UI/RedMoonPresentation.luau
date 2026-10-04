@@ -202,7 +202,7 @@ function RedMoonPresentation.start(gui: ScreenGui, requestFit)
 	local chipGlow = Theme.image(indicator, "Glow", VisualAssets.Textures.glow_soft, UDim2.fromOffset(-8, -8), UDim2.fromOffset(56, 56), {
 		ImageColor3 = CRIMSON, ImageTransparency = 0.5, ZIndex = 15,
 	})
-	Theme.image(indicator, "Moon", VisualAssets.Icons.red_moon, UDim2.fromOffset(8, 7), UDim2.fromOffset(26, 26), { ZIndex = 16 })
+	local chipMoon = Theme.image(indicator, "Moon", VisualAssets.Icons.red_moon, UDim2.fromOffset(8, 7), UDim2.fromOffset(26, 26), { ZIndex = 16 })
 	local chipTitle = Theme.label(indicator, "Title", "RED MOON", UDim2.fromOffset(42, 4), UDim2.new(1, -50, 0, 16), 14, Color3.fromRGB(255, 120, 130), F.heavy)
 	chipTitle.ZIndex = 16
 	local chipDetail = Theme.label(indicator, "Detail", "Mutated Curses", UDim2.fromOffset(42, 20), UDim2.new(1, -50, 0, 14), 11, C.muted, F.medium)
@@ -248,7 +248,7 @@ function RedMoonPresentation.start(gui: ScreenGui, requestFit)
 		if indicatorVisible == visible then return end
 		indicatorVisible = visible
 		indicator.Visible = visible
-		if requestFit then requestFit() end
+		if requestFit then requestFit(visible) end
 	end
 
 	local state: Folder? = nil
@@ -305,14 +305,23 @@ function RedMoonPresentation.start(gui: ScreenGui, requestFit)
 	end)
 
 	local controller = {}
-	-- Places the indicator at the top of the free HUD area; returns the
-	-- vertical space it occupies so other toasts sit below it.
-	function controller.fit(centerX: number, y: number, compact: boolean): number
-		indicator.Position = UDim2.new(0, centerX, 0, y)
+	-- HUD applies the eventChip rect from HudLayout (top of the centre lane).
+	function controller.fit(rect: { x: number, y: number, w: number, h: number }, compact: boolean)
+		indicator.AnchorPoint = Vector2.zero
+		indicator.Position = UDim2.fromOffset(rect.x, rect.y)
+		indicator.Size = UDim2.fromOffset(rect.w, rect.h)
+		-- Narrow phone lanes drop the moon glyph so the countdown keeps its room.
+		local narrow = rect.w < 200
+		local textX = if narrow then 10 else 42
+		chipMoon.Visible = not narrow
+		chipGlow.Visible = not narrow
+		chipTitle.Position = UDim2.fromOffset(textX, 4)
+		chipTitle.Size = UDim2.new(1, -(textX + 8), 0, 16)
+		chipDetail.Position = UDim2.fromOffset(textX, 20)
+		chipDetail.Size = UDim2.new(1, -(textX + 8), 0, 14)
 		local safeWidth = gui.AbsoluteSize.X
 		fitScale.Scale = math.min(1, safeWidth / 680)
 		warning.TextSize = if compact then 22 else 28
-		return if indicatorVisible then 46 else 0
 	end
 	function controller.phase(): string return currentPhase end
 	return controller

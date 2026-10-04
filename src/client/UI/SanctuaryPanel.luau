@@ -6,6 +6,7 @@ local RS = game:GetService("ReplicatedStorage")
 local UserInput = game:GetService("UserInputService")
 local Theme = require(script.Parent.Theme)
 local PanelFrame = require(script.Parent.PanelFrame)
+local HudLayout = require(script.Parent.HudLayout)
 local Config = require(RS.Shared.SanctuaryConfig)
 local Rules = require(RS.Shared.SanctuaryProgression)
 local Catalog = require(RS.Shared.CurseCatalog)
@@ -30,7 +31,8 @@ function Panel.start()
 	local request = remote:WaitForChild("Request")
 	local gui = Theme.make("ScreenGui", { Name = "SanctuaryRestorationUI", ResetOnSpawn = false, ScreenInsets = Enum.ScreenInsets.CoreUISafeInsets, DisplayOrder = 30, ZIndexBehavior = Enum.ZIndexBehavior.Sibling }, player:WaitForChild("PlayerGui"))
 
-	-- Launcher pill.
+	-- Launcher: a pill bottom-right on desktop, a 48 px icon beside the tool
+	-- bar on touch (HudLayout places it).
 	local launch = Theme.make("TextButton", {
 		Name = "OpenSanctuary", Text = "", AutoButtonColor = false, AnchorPoint = Vector2.new(1, 1), Position = UDim2.new(1, -12, 1, -16),
 		Size = UDim2.fromOffset(210, 44), BackgroundColor3 = C.panel, BorderSizePixel = 0,
@@ -38,11 +40,22 @@ function Panel.start()
 	Theme.corner(launch, 12)
 	Theme.gradient(launch, Color3.fromRGB(46, 34, 76), Color3.fromRGB(16, 13, 30))
 	local launchStroke = Theme.stroke(launch, C.line, 1.4, 0.2)
-	Theme.image(launch, "Icon", VisualAssets.Icons.sanctuary, UDim2.fromOffset(6, 5), UDim2.fromOffset(34, 34))
+	local launchIcon = Theme.image(launch, "Icon", VisualAssets.Icons.sanctuary, UDim2.fromOffset(6, 5), UDim2.fromOffset(34, 34))
 	local launchText = Theme.label(launch, "Label", "SANCTUARY", UDim2.fromOffset(44, 0), UDim2.new(1, -52, 1, 0), 15, C.white, F.heavy)
+	-- Touch: seal fragments as a badge on the icon.
+	local launchBadge = Theme.label(launch, "Fragments", "", UDim2.new(1, -2, 0, 2), UDim2.fromOffset(0, 16), 12, C.white, F.heavy)
+	launchBadge.AnchorPoint = Vector2.new(1, 0)
+	launchBadge.AutomaticSize = Enum.AutomaticSize.X
+	launchBadge.BackgroundColor3 = C.ink
+	launchBadge.BackgroundTransparency = 0.1
+	launchBadge.Visible = false
+	launchBadge.ZIndex = 3
+	Theme.corner(launchBadge, 6)
+	Theme.make("UIPadding", { PaddingLeft = UDim.new(0, 4), PaddingRight = UDim.new(0, 4) }, launchBadge)
 	Theme.buttonFeedback(launch, C.panel, C.cardHi, { scale = Theme.make("UIScale", { Scale = 1 }, launch), stroke = launchStroke, accent = C.cyan })
 
-	-- Activity objective (contracts / rituals).
+	-- Activity objective (contracts / rituals): the HUD objective slot, which it
+	-- takes over from Mortimer's task tracker while active.
 	local objective = Theme.label(gui, "ActivityObjective", "", UDim2.fromScale(0.5, 1), UDim2.fromOffset(520, 56), 14, C.white, F.bold)
 	objective.AnchorPoint = Vector2.new(0.5, 1)
 	objective.Position = UDim2.new(0.5, 0, 1, -110)
@@ -138,10 +151,20 @@ function Panel.start()
 		return button
 	end
 
+	local objectiveWanted = false
+	local function applyObjective(layout)
+		objective.Visible = objectiveWanted and (layout == nil or layout.objectiveOwner == "sanctuary")
+		if not layout then return end
+		HudLayout.place(objective, layout.objective)
+		objective.TextSize = if layout.objective.w < 300 then 13 else 14
+	end
 	local function updateObjective()
 		local contract = data and data.contract
 		local ritual = data and data.ritual
-		objective.Visible = contract ~= nil or ritual ~= nil
+		objectiveWanted = contract ~= nil or ritual ~= nil
+		local priority = HudLayout.ObjectivePriority
+		HudLayout.claimObjective("sanctuary", if ritual then priority.ritual elseif contract then priority.contract else nil)
+		applyObjective(HudLayout.current())
 		if ritual then
 			objective.Text = ritual.title .. "  ·  " .. ritual.step .. "/" .. ritual.total .. "\nActivate altar mark " .. tostring(ritual.nextMark) .. "."
 		elseif contract then
@@ -154,6 +177,7 @@ function Panel.start()
 		local souls = player:GetAttribute("Souls") or (data and data.souls) or 0
 		local fragments = player:GetAttribute("SealFragments") or 0
 		launchText.Text = string.format("SANCTUARY  ·  %d ◇", fragments)
+		launchBadge.Text = string.format("%d ◇", fragments)
 		if resource then
 			resource.Text = string.format("Level %d  ·  %d pedestals  ·  %s Souls  ·  %d seal fragments", data and data.progress.level or 0, data and data.capacity or 5, NumberFormat.compact(math.floor(souls)), fragments)
 		end
@@ -327,23 +351,22 @@ function Panel.start()
 		content.Position = UDim2.fromOffset(14, if short then 102 else 134)
 		content.Size = UDim2.new(1, -28, 1, -(if short then 136 else 168))
 		for _, p in PAGES do local t = tabBar:FindFirstChild(p.id) if t then t.TextSize = if available.X < 520 then 11 else 13 end end
-		launch.Size = UDim2.fromOffset(if UserInput.TouchEnabled then 186 else math.min(210, available.X * 0.42), if UserInput.TouchEnabled then 40 else 44)
-		-- Keep touch movement, jump and the bottom-centre tool bar free.
-		launch.AnchorPoint = if UserInput.TouchEnabled then Vector2.new(0, 0) else Vector2.new(1, 1)
-		-- Touch: under Mortimer's task tracker and the Luck chip (MissionDialog).
-		launch.Position = if UserInput.TouchEnabled then UDim2.fromOffset(14, if available.X < 500 then 276 else (if available.Y < 420 then 172 else 184)) else UDim2.new(1, -12, 1, -16)
-		objective.Size = UDim2.fromOffset(math.min(520, available.X - 28), 56)
-		if UserInput.TouchEnabled then
-			objective.AnchorPoint = Vector2.new(0, 0)
-			objective.Position = UDim2.fromOffset(12, if available.X < 500 then 202 else 4)
-			objective.Size = UDim2.fromOffset(if available.X < 500 then available.X - 24 else math.min(520, available.X - 260), 56)
-		else
-			objective.AnchorPoint = Vector2.new(0.5, 1)
-			objective.Position = UDim2.new(0.5, 0, 1, -110)
-		end
 	end
 	safe:GetPropertyChangedSignal("AbsoluteSize"):Connect(fit)
 	fit()
+	-- Launcher and objective positions come from HudLayout.
+	local layoutConnection = HudLayout.observe(function(layout)
+		local r = layout.launcher
+		HudLayout.place(launch, r)
+		launchText.Visible = not layout.touch
+		launchBadge.Visible = layout.touch
+		launchIcon.Position = if layout.touch then UDim2.fromOffset(math.floor((r.w - 34) / 2), math.floor((r.h - 34) / 2)) else UDim2.fromOffset(6, 5)
+		applyObjective(layout)
+	end)
+	gui.Destroying:Connect(function()
+		layoutConnection:Disconnect()
+		HudLayout.claimObjective("sanctuary", nil)
+	end)
 	resources()
 	task.spawn(function()
 		while gui.Parent do

@@ -31,7 +31,7 @@ control.OnClientEvent:Connect(function(nonce, action, target)
 				if model:GetAttribute("CurseState") == "PLACED" and model.CurseInfo.Enabled then visible += 1 end
 			end
 			assert(visible == 1, "Exactly one nearest pedestal detail must be visible")
-			assert(Players.LocalPlayer.PlayerGui.StealACurseHUD.SoulsHUD.Card.SoulsPerSecond.Text == "+222 Souls/s", "HUD rate text mismatch")
+			assert(Players.LocalPlayer.PlayerGui.StealACurseHUD.SoulsHUD.Card.SoulsPerSecond.Text == "+222/s", "HUD rate text mismatch")
 		elseif action == "walk" then
 			local character = Players.LocalPlayer.Character
 			local humanoid = character:FindFirstChildOfClass("Humanoid")

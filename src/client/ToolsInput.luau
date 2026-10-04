@@ -13,6 +13,7 @@ local VisualAssets = require(RS.Shared.VisualAssets)
 local Theme = require(script.Parent.UI.Theme)
 local PanelFrame = require(script.Parent.UI.PanelFrame)
 local Notify = require(script.Parent.UI.Notify)
+local HudLayout = require(script.Parent.UI.HudLayout)
 local CO, F = Theme.colors, Theme.fonts
 
 local ROLE_COLOR = {
@@ -165,7 +166,8 @@ function Input.start()
 		Position = UDim2.new(1, -150, 1, -150), Size = UDim2.fromOffset(78, 78),
 		BackgroundColor3 = CO.amber, BorderSizePixel = 0, FontFace = F.heavy, TextSize = 18, TextColor3 = CO.ink, Visible = false, ZIndex = 9,
 	}, gui)
-	Theme.corner(useButton, 39)
+	-- Round at any size HudLayout picks (64 on phones, 78 elsewhere).
+	Theme.make("UICorner", { CornerRadius = UDim.new(0.5, 0) }, useButton)
 	Theme.stroke(useButton, CO.white, 2, 0.4)
 	local benchButton = Theme.make("TextButton", {
 		Name = "OpenBench", Text = "", AutoButtonColor = false, AnchorPoint = Vector2.new(1, 1),
@@ -294,13 +296,20 @@ function Input.start()
 		-- Phones: keep the bar left of the jump button and clear of the thumbstick.
 		bar.AnchorPoint = if touch then Vector2.new(0.5, 1) else Vector2.new(0.5, 1)
 		bar.Position = if touch then UDim2.new(0.5, 0, 1, -8) else UDim2.new(0.5, 0, 1, -16)
-		useButton.Position = if touch then UDim2.new(1, -130, 1, -(slotSize + 30)) else UDim2.new(1, -150, 1, -150)
+		-- Publish the bar (and the bench button left of it) so HudLayout can
+		-- place USE, the touch launcher and the objective around it.
+		local barWidth = 3 * slotSize + 16
+		local barRect = HudLayout.rect((size.X - barWidth) / 2, size.Y - (if touch then 8 else 16) - slotSize, barWidth, slotSize)
+		HudLayout.setToolBar(barRect, HudLayout.rect(barRect.x - 8 - 44, barRect.y + slotSize - 44, 44, 44))
 		local width = select(1, bench.fit(size))
 		local columns = math.max(1, math.floor((width - 40) / 210))
 		layout.CellSize = UDim2.fromOffset(math.floor((width - 44 - (columns - 1) * 10) / columns), 150)
 	end
 	safe:GetPropertyChangedSignal("AbsoluteSize"):Connect(fit)
 	fit()
+	-- USE sits beside the measured jump button (touch) or bottom-right.
+	local layoutConnection = HudLayout.observe(function(layout) HudLayout.place(useButton, layout.useButton) end)
+	gui.Destroying:Connect(function() layoutConnection:Disconnect() end)
 
 	local elapsed = 0
 	Run.Heartbeat:Connect(function(dt)

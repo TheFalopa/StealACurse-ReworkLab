@@ -9,8 +9,12 @@
 --   right column : Souls card, nav, Luck pill (persistent economy)
 --   top lane     : event chip, one objective chip, toast (transient), centred
 --                  between the chat zone and the right column
---   bottom       : tool bar (ToolsInput), USE, touch SANCTUARY launcher and,
---                  when the lane is too narrow, the objective chip
+--   bottom       : tool bar + bench (ToolsInput applies them), USE, SANCTUARY
+--                  launcher and, only when the lane is too narrow, the
+--                  objective chip
+-- Touch: nothing interactive in the chat zone or the thumbstick frame, nothing
+-- at all in the thumb-rest zone or over jump. Passive lane widgets may sit
+-- under the (closed by default) phone chat window; desktop keeps chat clear.
 local HudLayout = {}
 
 export type Rect = { x: number, y: number, w: number, h: number }
@@ -28,8 +32,8 @@ local LAUNCHER_TOUCH = 48
 
 -- Higher wins: a ritual hides a contract, a contract hides Mortimer's task.
 HudLayout.ObjectivePriority = { ritual = 3, contract = 2, mission = 1, event = 1 }
-HudLayout.Widgets = { "souls", "nav", "luck", "eventChip", "objective", "toast", "launcher", "useButton" }
-HudLayout.Interactive = { nav = true, luck = true, launcher = true, useButton = true }
+HudLayout.Widgets = { "souls", "nav", "luck", "eventChip", "objective", "toast", "launcher", "useButton", "toolBar", "bench" }
+HudLayout.Interactive = { nav = true, luck = true, launcher = true, useButton = true, toolBar = true, bench = true }
 HudLayout.Lane = { eventChip = true, objective = true, toast = true }
 
 local function rect(x: number, y: number, w: number, h: number): Rect
@@ -76,20 +80,18 @@ function HudLayout.jumpFallback(width: number, height: number): Rect
 	return rect(width - (size * 1.5 - 10), height - (if small then size + 20 else size * 1.75), size, size)
 end
 
--- Where the resting thumbstick and most thumb starts land (left 40%, bottom
--- third). The full DynamicThumbstick frame reaches higher; keep interactive
--- widgets out of at least this part.
-function HudLayout.thumbstickZone(width: number, height: number): Rect
-	local h = math.floor(height / 3)
-	return rect(0, height - h, math.floor(width * 0.4), h)
+-- PlayerModule DynamicThumbstick: its frame covers the left 40% and the
+-- bottom two thirds; the resting stick and most thumb starts land in the
+-- bottom third. Returns (frame, rest).
+function HudLayout.thumbstickZone(width: number, height: number): (Rect, Rect)
+	local w, frameH, restH = math.floor(width * 0.4), math.floor(height * 2 / 3), math.floor(height / 3)
+	return rect(0, height - frameH, w, frameH), rect(0, height - restH, w, restH)
 end
 
--- Mirrors ToolsInput.fit until ToolsInput publishes the real bar.
-function HudLayout.toolBarFallback(width: number, height: number, touch: boolean): (Rect, Rect)
-	local slot = if height < 420 then 60 else 76
-	local barWidth = 3 * slot + 16
-	local bar = rect(math.floor((width - barWidth) / 2), height - (if touch then 8 else 16) - slot, barWidth, slot)
-	return bar, rect(bar.x - 8 - 44, bar.y + bar.h - 44, 44, 44)
+-- Tool slot size and bar width; ToolsInput sizes its slots from this.
+function HudLayout.toolBarSize(width: number, height: number): (number, number)
+	local slot = if height < 420 or width < 520 then 60 else 76
+	return slot, 3 * slot + 16
 end
 
 function HudLayout.objectiveOwner(claims: { [string]: number }): string?
@@ -100,7 +102,7 @@ function HudLayout.objectiveOwner(claims: { [string]: number }): string?
 	return owner
 end
 
--- input: { width, height, touch, visible?, chat?, jump?, toolBar?, bench?, objectiveOwner? }
+-- input: { width, height, touch, visible?, chat?, jump?, objectiveOwner? }
 -- Returns nil until the safe area has a size.
 function HudLayout.compute(input)
 	local W, H = math.floor(input.width or 0), math.floor(input.height or 0)
@@ -120,8 +122,9 @@ function HudLayout.compute(input)
 	local measuredChat = clip(input.chat, W, H)
 	if measuredChat then chat = union(chat, measuredChat) end
 	local jump = clip(input.jump, W, H) or (if touch then HudLayout.jumpFallback(W, H) else nil)
-	local thumbstick = if touch then HudLayout.thumbstickZone(W, H) else nil
-	layout.zones = { chat = chat, jump = jump, thumbstick = thumbstick }
+	local thumbstick, thumbRest = nil, nil
+	if touch then thumbstick, thumbRest = HudLayout.thumbstickZone(W, H) end
+	layout.zones = { chat = chat, jump = jump, thumbstick = thumbstick, thumbRest = thumbRest }
 
 	-- Right column: Souls card, nav, then the Luck pill. Its space is reserved
 	-- even while the pill is hidden so the column never jumps.
@@ -141,16 +144,18 @@ function HudLayout.compute(input)
 	local luck = layout.luck
 	layout.drink = if touch then rect(luck.x + luck.w - 4 - 64, luck.y + 4, 64, 44) else rect(luck.x + luck.w - 6 - 72, luck.y + 5, 72, 34)
 
-	-- Bottom cluster. The tool bar is owned by ToolsInput; it is an obstacle here.
-	local fallbackBar, fallbackBench = HudLayout.toolBarFallback(W, H, touch)
-	local bar = input.toolBar or fallbackBar
-	local bench = input.bench or fallbackBench
-	layout.toolBar, layout.bench = bar, bench
+	-- Bottom cluster. Touch slides the tool bar right of the thumbstick frame
+	-- (kept on screen); ToolsInput applies the bar and bench rects.
+	local slot, barW = HudLayout.toolBarSize(W, H)
+	local barX = math.floor((W - barW) / 2)
+	if thumbstick then barX = math.min(math.max(barX, thumbstick.x + thumbstick.w + GAP), W - EDGE - barW) end
+	local bar = rect(barX, H - (if touch then 8 else 16) - slot, barW, slot)
+	layout.toolBar = bar
 
-	local placed = { layout.souls, layout.nav, layout.luck, bar, bench }
+	local placed = { layout.souls, layout.nav, layout.luck, bar }
 	local function free(r: Rect, interactive: boolean): boolean
 		if not HudLayout.inside(r, W, H) or HudLayout.intersects(r, chat) or HudLayout.intersects(r, jump) then return false end
-		if interactive and HudLayout.intersects(r, thumbstick) then return false end
+		if HudLayout.intersects(r, thumbRest) or (interactive and HudLayout.intersects(r, thumbstick)) then return false end
 		for _, other in placed do if HudLayout.intersects(r, other) then return false end end
 		return true
 	end
@@ -181,17 +186,25 @@ function HudLayout.compute(input)
 		})
 	end
 	if touch then
-		-- Thumb reach first: USE beside the jump button, then the launcher
-		-- right of tool slot 3.
+		-- Thumb reach first: USE beside the jump button, then the bench right of
+		-- (or above) slot 3 and the launcher next to the bench.
 		layout.useButton = placeUse()
 		local use, s = layout.useButton, LAUNCHER_TOUCH
+		layout.bench = pick("bench", {
+			rect(bar.x + bar.w + GAP, bar.y + bar.h - 44, 44, 44),
+			rect(bar.x + bar.w - 44, bar.y - GAP - 44, 44, 44),
+			rect(bar.x + bar.w - 44 - GAP - 44, bar.y - GAP - 44, 44, 44),
+			rect(bar.x, bar.y - GAP - 44, 44, 44), -- above slot 1 (portrait)
+		})
+		local bench = layout.bench
 		layout.launcher = pick("launcher", {
-			rect(bar.x + bar.w + GAP, bar.y + bar.h - s, s, s),
-			rect(bar.x + bar.w - s, bar.y - GAP - s, s, s),
-			rect(use.x - GAP - s, use.y + use.h - s, s, s),
+			rect(bench.x + bench.w + GAP, bench.y + bench.h - s, s, s),
+			rect(bench.x, bench.y - GAP - s, s, s),
+			rect(bench.x - GAP - s, bench.y + bench.h - s, s, s),
 			rect(use.x + (use.w - s) / 2, use.y - GAP - s, s, s),
 		})
 	else
+		layout.bench = pick("bench", { rect(bar.x - 8 - 44, bar.y + bar.h - 44, 44, 44) })
 		local launcherW = math.min(210, math.floor(W * 0.42))
 		layout.launcher = pick("launcher", { rect(W - 12 - launcherW, H - 16 - 44, launcherW, 44) })
 		layout.useButton = placeUse()
@@ -200,7 +213,9 @@ function HudLayout.compute(input)
 	-- Top-centre lane.
 	local laneL, laneR, laneY
 	if W >= H then
-		laneL, laneR, laneY = chat.x + chat.w + GAP, colX - GAP, LANE_TOP
+		-- Touch: the passive lane may run under the phone chat window, which is
+		-- closed by default and drawn above it when opened.
+		laneL, laneR, laneY = if touch then EDGE else chat.x + chat.w + GAP, colX - GAP, LANE_TOP
 		if laneR - laneL < LANE_FLOOR then laneL = math.max(EDGE, laneR - LANE_FLOOR) end
 	else
 		-- Portrait: below both the chat zone and the right column.
@@ -221,7 +236,7 @@ function HudLayout.compute(input)
 	-- the tool bar, as wide as the band between USE/launcher/jump allows.
 	local function bottomObjective(): Rect?
 		local center = bar.x + math.floor(bar.w / 2)
-		local obstacles = { chat, jump, layout.useButton, layout.launcher, layout.souls, layout.nav, layout.luck, bar, bench }
+		local obstacles = { chat, jump, thumbRest, layout.useButton, layout.launcher, layout.souls, layout.nav, layout.luck, bar, layout.bench }
 		-- Never climb into the lane's event chip + tallest toast.
 		local ceiling = laneY + EVENT_H + LANE_GAP + 52 + GAP
 		for step = 0, 2 do
@@ -260,7 +275,6 @@ end
 local listeners = {}
 local visibleState = { launcher = true, useButton = true, toast = true }
 local claims: { [string]: number } = {}
-local published: { toolBar: Rect?, bench: Rect? } = {}
 local current = nil
 local signature = nil
 local runtime = nil
@@ -268,7 +282,7 @@ local busy, pending = false, false
 
 local function signatureOf(layout): string
 	local parts = { layout.objectivePlacement, layout.objectiveOwner or "", tostring(layout.touch), tostring(layout.compact) }
-	for _, name in { "souls", "nav", "luck", "drink", "eventChip", "objective", "toast", "launcher", "useButton" } do
+	for _, name in { "souls", "nav", "luck", "drink", "eventChip", "objective", "toast", "launcher", "useButton", "toolBar", "bench" } do
 		local r = layout[name]
 		table.insert(parts, string.format("%d,%d,%d,%d", r.x, r.y, r.w, r.h))
 	end
@@ -285,7 +299,8 @@ local function measure()
 	local function toSafe(position: Vector2, extent: Vector2): Rect
 		return rect(position.X - origin.X, position.Y - origin.Y, extent.X, extent.Y)
 	end
-	local touch = run.input.TouchEnabled and not run.input.MouseEnabled
+	-- Same rule as ToolsInput's USE button: any touch screen gets the touch frame.
+	local touch = run.input.TouchEnabled
 	local chat, jump = nil, nil
 	local window = run.chatWindow
 	if window then
@@ -302,7 +317,7 @@ local function measure()
 	visible.objective = owner ~= nil
 	return {
 		width = size.X, height = size.Y, touch = touch, visible = visible, chat = chat, jump = jump,
-		toolBar = published.toolBar, bench = published.bench, objectiveOwner = owner,
+		objectiveOwner = owner,
 	}
 end
 
@@ -373,14 +388,6 @@ function HudLayout.claimObjective(source: string, priority: number?)
 	refresh()
 end
 
--- ToolsInput publishes the bar it actually placed (safe-area pixels).
-function HudLayout.setToolBar(bar: Rect, bench: Rect)
-	local old = published.toolBar
-	if old and old.x == bar.x and old.y == bar.y and old.w == bar.w and old.h == bar.h then return end
-	published.toolBar, published.bench = bar, bench
-	refresh()
-end
-
 -- Applies a rect with a top-left anchor.
 function HudLayout.place(object: GuiObject, r: Rect)
 	object.AnchorPoint = Vector2.zero
@@ -419,13 +426,20 @@ function HudLayout.start(safeRoot: GuiObject)
 	-- Its Absolute* is taken to share GuiObject absolute space (Studio to
 	-- confirm); if it were full-screen space the rect would land one topbar
 	-- lower and the union with the top-left fallback would still cover it.
-	pcall(function()
-		local window = TextChatService.ChatWindowConfiguration
-		if not window then return end
+	-- The configuration can replicate after the HUD starts, so bind it late.
+	local function bindChat(window: Instance?)
+		if runtime ~= run or not window or run.chatWindow == window then return end
 		run.chatWindow = window
 		for _, property in { "AbsolutePosition", "AbsoluteSize", "Enabled" } do
 			on(window:GetPropertyChangedSignal(property), refresh)
 		end
+		refresh()
+	end
+	pcall(function()
+		bindChat(TextChatService:FindFirstChildOfClass("ChatWindowConfiguration"))
+		on(TextChatService.ChildAdded, function(child)
+			if child:IsA("ChatWindowConfiguration") then bindChat(child) end
+		end)
 	end)
 
 	-- PlayerGui.TouchGui.TouchControlFrame.JumpButton; the PlayerModule may

@@ -169,10 +169,11 @@ function Input.start()
 	-- Round at any size HudLayout picks (64 on phones, 78 elsewhere).
 	Theme.make("UICorner", { CornerRadius = UDim.new(0.5, 0) }, useButton)
 	Theme.stroke(useButton, CO.white, 2, 0.4)
+	-- Placed by HudLayout: left of the bar on desktop, right of/above slot 3 on touch.
 	local benchButton = Theme.make("TextButton", {
-		Name = "OpenBench", Text = "", AutoButtonColor = false, AnchorPoint = Vector2.new(1, 1),
-		Position = UDim2.new(0, -8, 1, 0), Size = UDim2.fromOffset(44, 44), BackgroundColor3 = CO.panel, BorderSizePixel = 0, ZIndex = 5,
-	}, bar)
+		Name = "OpenBench", Text = "", AutoButtonColor = false,
+		Position = UDim2.new(0.5, -170, 1, -60), Size = UDim2.fromOffset(44, 44), BackgroundColor3 = CO.panel, BorderSizePixel = 0, ZIndex = 5,
+	}, gui)
 	Theme.corner(benchButton, 12)
 	Theme.stroke(benchButton, CO.line, 1.2, 0.3)
 	Theme.image(benchButton, "Icon", VisualAssets.Icons.tool_pack, UDim2.fromScale(0.5, 0.5), UDim2.fromOffset(30, 30), { AnchorPoint = Vector2.new(0.5, 0.5), ZIndex = 6 })
@@ -285,30 +286,26 @@ function Input.start()
 	local function fit()
 		local size = safe.AbsoluteSize
 		if size.X < 1 then return end
-		local touch = UIS.TouchEnabled and not UIS.MouseEnabled
-		local slotSize = if size.Y < 420 then 60 else 76
+		local slotSize = HudLayout.toolBarSize(size.X, size.Y)
 		for i, s in slots do
 			s.slot.Size = UDim2.fromOffset(slotSize, slotSize)
 			s.slot.Position = UDim2.fromOffset((i - 1) * (slotSize + 8), 0)
 			s.icon.Size = UDim2.fromOffset(slotSize * 0.6, slotSize * 0.6)
 		end
 		bar.Size = UDim2.fromOffset(3 * slotSize + 16, slotSize)
-		-- Phones: keep the bar left of the jump button and clear of the thumbstick.
-		bar.AnchorPoint = if touch then Vector2.new(0.5, 1) else Vector2.new(0.5, 1)
-		bar.Position = if touch then UDim2.new(0.5, 0, 1, -8) else UDim2.new(0.5, 0, 1, -16)
-		-- Publish the bar (and the bench button left of it) so HudLayout can
-		-- place USE, the touch launcher and the objective around it.
-		local barWidth = 3 * slotSize + 16
-		local barRect = HudLayout.rect((size.X - barWidth) / 2, size.Y - (if touch then 8 else 16) - slotSize, barWidth, slotSize)
-		HudLayout.setToolBar(barRect, HudLayout.rect(barRect.x - 8 - 44, barRect.y + slotSize - 44, 44, 44))
 		local width = select(1, bench.fit(size))
 		local columns = math.max(1, math.floor((width - 40) / 210))
 		layout.CellSize = UDim2.fromOffset(math.floor((width - 44 - (columns - 1) * 10) / columns), 150)
 	end
 	safe:GetPropertyChangedSignal("AbsoluteSize"):Connect(fit)
 	fit()
-	-- USE sits beside the measured jump button (touch) or bottom-right.
-	local layoutConnection = HudLayout.observe(function(layout) HudLayout.place(useButton, layout.useButton) end)
+	-- HudLayout owns the positions: the bar (right of the thumbstick frame on
+	-- touch), the bench, and USE beside the measured jump button.
+	local layoutConnection = HudLayout.observe(function(layout)
+		HudLayout.place(bar, layout.toolBar)
+		HudLayout.place(benchButton, layout.bench)
+		HudLayout.place(useButton, layout.useButton)
+	end)
 	gui.Destroying:Connect(function() layoutConnection:Disconnect() end)
 
 	local elapsed = 0

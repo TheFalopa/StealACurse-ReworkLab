@@ -156,7 +156,7 @@ function Panel.start()
 		objective.Visible = objectiveWanted and (layout == nil or layout.objectiveOwner == "sanctuary")
 		if not layout then return end
 		HudLayout.place(objective, layout.objective)
-		objective.TextSize = if layout.objective.w < 300 then 13 else 14
+		objective.TextSize = if layout.objective.w < 300 then Theme.textSize.caption else Theme.textSize.body
 	end
 	local function updateObjective()
 		local contract = data and data.contract

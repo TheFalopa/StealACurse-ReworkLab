@@ -38,7 +38,7 @@ function CurrencyCard.create(gui: ScreenGui)
 	amount.TextScaled = true
 	amount.TextTruncate = Enum.TextTruncate.AtEnd
 	Theme.make("UITextSizeConstraint", { MinTextSize = 18, MaxTextSize = 31 }, amount)
-	local rate = Theme.label(card, "SoulsPerSecond", "", UDim2.fromOffset(74, 54), UDim2.new(1, -84, 0, 16), Theme.textSize.body, C.soulGreen, F.bold)
+	local rate = Theme.label(card, "SoulsPerSecond", "", UDim2.fromOffset(74, 54), UDim2.new(1, -84, 0, 16), Theme.textSize.body, C.soulGreen, F.number)
 	rate.TextTruncate = Enum.TextTruncate.AtEnd
 	local rateScale = Theme.make("UIScale", { Scale = 1 }, rate)
 	local animated = Theme.make("NumberValue", { Name = "AnimatedSouls", Value = 0 }, gui)
@@ -48,6 +48,7 @@ function CurrencyCard.create(gui: ScreenGui)
 	local previousRate: number? = nil
 	local pendingGain, lastPopAt, lastPulseAt = 0, -math.huge, -math.huge
 	local rateSize = Theme.textSize.body
+	local rateTween: Tween? = nil
 
 	-- Short spectral "+N" that rises off the amount. Gains are pooled so a
 	-- per-second income tick produces at most one quiet pop every few seconds.
@@ -110,13 +111,18 @@ function CurrencyCard.create(gui: ScreenGui)
 		-- Zero income gets a next step instead of "+0/s".
 		local earning = value > 0
 		rate.Text = if earning then "+" .. NumberFormat.compact(value) .. "/s" else "Place a Curse to earn"
+		-- A running flash tween would otherwise repaint the help text green.
+		if rateTween then
+			rateTween:Cancel()
+			rateTween = nil
+		end
 		rate.TextColor3 = if earning then C.soulGreen else C.boneMuted
-		rate.FontFace = if earning then F.bold else F.medium
+		rate.FontFace = if earning then F.number else F.medium
 		rate.TextSize = if earning then rateSize else Theme.textSize.caption
 		if previousRate and value > previousRate then
 			rate.TextColor3 = C.white
 			rateScale.Scale = 1.12
-			Theme.tween(rate, 0.5, { TextColor3 = C.soulGreen })
+			rateTween = Theme.tween(rate, 0.5, { TextColor3 = C.soulGreen })
 			TweenService:Create(rateScale, TweenInfo.new(0.4, Enum.EasingStyle.Back, Enum.EasingDirection.Out), { Scale = 1 }):Play()
 			pulse(true)
 		end
@@ -146,12 +152,13 @@ function CurrencyCard.create(gui: ScreenGui)
 		amount.Size = UDim2.new(1, -x - 10, 0, if compact then 28 else 32)
 		rate.Position = UDim2.fromOffset(x, if compact then 34 else 55)
 		rate.Size = UDim2.new(1, -x - 10, 0, if compact then 14 else 16)
-		rateSize = if compact then Theme.textSize.caption + 1 else Theme.textSize.body
+		rateSize = if compact then Theme.textSize.caption else Theme.textSize.body
 		updateRate()
 	end
 	function controller.destroy()
 		for _, connection in connections do connection:Disconnect() end
 		if balanceTween then balanceTween:Cancel() end
+		if rateTween then rateTween:Cancel() end
 	end
 	return controller
 end

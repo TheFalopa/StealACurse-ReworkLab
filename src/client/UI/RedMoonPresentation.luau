@@ -205,7 +205,7 @@ function RedMoonPresentation.start(gui: ScreenGui, requestFit)
 	local chipMoon = Theme.image(indicator, "Moon", VisualAssets.Icons.red_moon, UDim2.fromOffset(8, 7), UDim2.fromOffset(26, 26), { ZIndex = 16 })
 	local chipTitle = Theme.label(indicator, "Title", "RED MOON", UDim2.fromOffset(42, 4), UDim2.new(1, -50, 0, 16), 14, Color3.fromRGB(255, 120, 130), F.heavy)
 	chipTitle.ZIndex = 16
-	local chipDetail = Theme.label(indicator, "Detail", "Mutated Curses", UDim2.fromOffset(42, 20), UDim2.new(1, -50, 0, 14), 11, C.muted, F.medium)
+	local chipDetail = Theme.label(indicator, "Detail", "Mutated Curses", UDim2.fromOffset(42, 20), UDim2.new(1, -50, 0, 14), 12, C.muted, F.medium)
 	chipDetail.ZIndex = 16
 
 	local function whisper(text: string, hold: number)

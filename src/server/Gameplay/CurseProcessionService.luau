@@ -1,4 +1,5 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
 
 local Catalog = require(ReplicatedStorage.Shared.CurseCatalog)
 local Config = require(script.Parent.Config)
@@ -72,10 +73,25 @@ local testIndex = 0
 local Luck = require(script.Parent.LuckService)
 local Shares = require(ReplicatedStorage.Shared.ProgressionConfig).SpawnRarityShare
 
+-- Studio-only QA (server command bar during Play; ignored in live games):
+--   game.ReplicatedStorage:SetAttribute("QANextCurse", "the_void")
+-- The next procession spawn is that enabled Curse; the attribute then clears.
+local function studioNext(): string?
+	if not RunService:IsStudio() then return nil end
+	local id = ReplicatedStorage:GetAttribute("QANextCurse")
+	if typeof(id) ~= "string" or id == "" then return nil end
+	ReplicatedStorage:SetAttribute("QANextCurse", nil)
+	if table.find(testIds, id) then return id end
+	warn("QANextCurse: unknown or disabled Curse " .. id)
+	return nil
+end
+
 -- "weighted" (default): rarity-weighted spawns through the one Luck
 -- calculation. "cycle": every enabled Curse in turn (QA of the full roster).
 local function chooseDefinition(random: Random): string
 	assert(#testIds > 0, "No hay Curses habilitadas")
+	local forced = studioNext()
+	if forced then return forced end
 	if Config.ProcessionSelection == "cycle" then
 		testIndex = testIndex % #testIds + 1
 		return testIds[testIndex]

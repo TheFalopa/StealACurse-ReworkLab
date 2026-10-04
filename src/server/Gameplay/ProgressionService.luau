@@ -286,7 +286,7 @@ function Progression.start(map, profiles, souls, tools, bases)
 	if RunService:IsStudio() then
 		-- Studio-only QA (server command bar during Play; ignored in live games):
 		--   game.ReplicatedStorage.Progression:SetAttribute("Debug", "reset_daily")
-		--   ... "spins 5" | "potion 2" | "mission 3" | "reset_missions"
+		--   ... "spins 5" | "potion 2" | "mission 3" | "reset_missions" | "souls 60000"
 		-- Result is written to the "DebugResult" attribute.
 		folder:GetAttributeChangedSignal("Debug"):Connect(function()
 			local text = folder:GetAttribute("Debug")
@@ -305,7 +305,8 @@ function Progression.start(map, profiles, souls, tools, bases)
 			elseif command == "potion" then p.items.luck_potion = (p.items.luck_potion or 0) + (tonumber(arg) or 1)
 			elseif command == "mission" then p.missions.index = math.clamp(tonumber(arg) or 1, 1, #Config.Missions + 1) p.missions.accepted = false
 			elseif command == "reset_missions" then p.missions = { index = 1, accepted = false, eventClaimed = {} } p.seen = {}
-			else return "commands: reset_daily | spins n | potion n | mission n | reset_missions" end
+			elseif command == "souls" then souls:credit(player, math.clamp(tonumber(arg) or 1000, 0, 1e7))
+			else return "commands: reset_daily | spins n | potion n | mission n | reset_missions | souls n" end
 			profiles:commit(player)
 			publish(player)
 			return "ok"
